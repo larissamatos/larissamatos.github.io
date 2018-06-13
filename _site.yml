@@ -1,0 +1,18 @@
+name: “Larissa Avila Matos”
+navbar:
+  title: Larissa A. Matos
+  left:
+    - text: Ensino
+      href: ensino.html
+    - text: Publicações
+      href: publicacoes.html
+    - text: Alunos
+      href: alunos.html
+    - text: Contato
+      href: contato.html
+output_dir: "."
+output:
+  html_document:
+    theme: lumen
+    highlight: textmate
+
