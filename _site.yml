@@ -1,14 +1,25 @@
 name: “Larissa Avila Matos”
 navbar:
   title: Larissa A. Matos
-  left:
+  right:
     - text: Ensino
+      icon: fa-book
       href: ensino.html
     - text: Publicações
-      href: publicacoes.html
+      icon: fa-sticky-note
+#      href: publicacoes.html
+      menu:
+        - text: "Artigos"
+          href: publicacoes1.html
+        - text: "Relatórios"
+          href: publicacoes2.html
+        - text: "Programas"
+          href: publicacoes3.html
     - text: Alunos
+      icon: fa-user
       href: alunos.html
     - text: Contato
+      icon: fa-envelope
       href: contato.html
 output_dir: "."
 output:

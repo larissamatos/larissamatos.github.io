@@ -45,52 +45,53 @@ Universidade Estadual de Campinas - **UNICAMP**.
 
 <div class="column">
 ----
-</div>
 
-<div class="column">
+<!-- </div> -->
 
-<style>
-.column-1{
-  float: left;
-  width: 20%;
-  text-align: left;
-}
-.column-2{
-  float: left;
-  width: 20%;
-  text-align: left;
-}
-.column-3{
-  float: left;
-  width: 20%;
-  text-align: left;
-}
-.column-4{
-  float: left;
-  width: 20%;
-  text-align: left;
-}
-.column-5{
-  float: left;
-  width: 20%;
-  text-align: left;
-}
-</style>
+<!-- <div class="column"> -->
 
-</div>
-<div class="column-1">
-![](imagens/git.png){height="36px" width="36px"} [larissamatos](https://github.com/larissamatos) 
-</div>
-<div class="column-2">
-![](imagens/Linkedin.png){height="36px" width="36px"} [Linkedin](https://www.linkedin.com/feed/)
-<div class="column-3">
+<!-- <style> -->
+<!-- .column-1{ -->
+<!--   float: left; -->
+<!--   width: 20%; -->
+<!--   text-align: left; -->
+<!-- } -->
+<!-- .column-2{ -->
+<!--   float: left; -->
+<!--   width: 20%; -->
+<!--   text-align: left; -->
+<!-- } -->
+<!-- .column-3{ -->
+<!--   float: left; -->
+<!--   width: 20%; -->
+<!--   text-align: left; -->
+<!-- } -->
+<!-- .column-4{ -->
+<!--   float: left; -->
+<!--   width: 20%; -->
+<!--   text-align: left; -->
+<!-- } -->
+<!-- .column-5{ -->
+<!--   float: left; -->
+<!--   width: 20%; -->
+<!--   text-align: left; -->
+<!-- } -->
+<!-- </style> -->
 
-</div>
-<div class="column-4">
+<!-- </div> -->
+<!-- <div class="column-1"> -->
+<!-- ![](imagens/git.png){height="36px" width="36px"} [larissamatos](https://github.com/larissamatos)  -->
+<!-- </div> -->
+<!-- <div class="column-2"> -->
+<!-- ![](imagens/Linkedin.png){height="36px" width="36px"} [Linkedin](https://www.linkedin.com/feed/) -->
+<!-- <div class="column-3"> -->
 
-</div>
-<div class="column-5">
+<!-- </div> -->
+<!-- <div class="column-4"> -->
 
-</div>
-</div>
+<!-- </div> -->
+<!-- <div class="column-5"> -->
+
+<!-- </div> -->
+<!-- </div> -->
 

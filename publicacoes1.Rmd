@@ -1,0 +1,28 @@
+---
+title: "Publicações"
+output:
+  html_document:
+    fig_width: 1
+---
+
+### Artigos Científicos
+
+----
+
+- **MATOS, LARISSA A.**; LACHOS, VICTOR H.; BALAKRISHNAN, N.; LABRA, FILIDOR V. . Influence diagnostics in linear and nonlinear mixed-effects models with censored data. Computational Statistics & Data Analysis (Print), v. 57, p. 450-464, 2013. 
+</br>
+
+- **MATOS, LARISSA A.**; PRATES, MARCOS O.; CHEN, MING-HUI; LACHOS, VICTOR H. . Likelihood Based Inference Mixed-Effects Models with Censored Responses Using the Multivariate-t Distribution. Statistica Sinica, v. 23, p. 1323-1345, 2013.
+</br>
+
+- MASSUIA, MONIQUE B.; CABRAL, CELSO RÔMULO BARBOSA; **MATOS, LARISSA A.**; LACHOS, VICTOR H. . Influence diagnostics for Student- t censored linear regression models. Statistics (Berlin), v. 49, p. 1-21, 2014.
+</br>
+
+- **MATOS, LARISSA A.**; BANDYOPADHYAY, DIPANKAR; CASTRO, LUIS M.; LACHOS, VICTOR H. . Influence assessment in censored mixed-effects models using the multivariate Student?s-. JOURNAL OF MULTIVARIATE ANALYSIS, v. 141, p. 104-117, 2015.
+</br>
+
+- **MATOS, LARISSA A.**; CASTRO, LUIS M.; LACHOS, VICTOR H. . Censored mixed-effects models for irregularly observed repeated measures with applications to HIV viral loads. TEST, v. 25, p. 627-653, 2016.
+</br>
+
+- LACHOS, VICTOR H.; **MATOS, LARISSA A.**; BARBOSA, THAIS S.; GARAY, Aldo M.; DEY, DIPAK K. . Influence diagnostics in spatial models with censored response. ENVIRONMETRICS, v. 28, p. e2464, 2017.
+</br>
