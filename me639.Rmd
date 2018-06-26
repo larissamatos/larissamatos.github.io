@@ -1,0 +1,40 @@
+---
+title: "ME639 - Métodologia e Técnicas de Pesquisa"
+output:
+  html_document:
+    fig_width: 1
+---
+
+----
+
+### Ementa
+
+- [Ementa](Disciplinas/ME_639_1s2018/Aula1.pdf)
+
+---- 
+
+### Aulas
+
+- [Aula 1](Disciplinas/ME_639_1s2018/Slides1.pdf)
+- [Aula 2](Disciplinas/ME_639_1s2018/Slides2.pdf)
+- [Aula 3](Disciplinas/ME_639_1s2018/Slides3.pdf)
+- [Atividade 1](Disciplinas/ME_639_1s2018/Atividade1.pdf)
+- [Aula 4](Disciplinas/ME_639_1s2018/Slides4.pdf)
+- [Aula 5](Disciplinas/ME_639_1s2018/Slides5.pdf): Aula Latex
+    - [Projeto Latex](Disciplinas/ME_639_1s2018/Projeto_Latex.zip)
+- [Aula 6](Disciplinas/ME_639_1s2018/Slides6.pdf)
+- [Atividade 2](Disciplinas/ME_639_1s2018/Atividade2.pdf)
+- [Aula 7](Disciplinas/ME_639_1s2018/Slides7.pdf)
+    - [Apresentação Latex](Disciplinas/ME_639_1s2018/ApresentacaoLatex.zip)
+- [Aula 8](Disciplinas/ME_639_1s2018/Slides8.pdf)
+- [Aula 9](Disciplinas/ME_639_1s2018/Slides9.pdf)
+
+---- 
+
+### Projeto Final
+
+- [Projeto Final](Disciplinas/ME_639_1s2018/ProjetoFinal.pdf)
+
+
+
+----

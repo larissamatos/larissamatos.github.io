@@ -9,25 +9,25 @@ output:
 
 ### Graduação
 
-- ME111 - Laboratório de Estatística (1S2018)
+- ME111 - Laboratório de Estatística ([1S2018](me111.html))
 </br>
 
 - ME414 - Estatística para Experimentalistas (2S2017)
 </br>
 
-- ME639 -  Metodologias e Técnicas de Pesquisa (1S2018)
+- ME639 -  Metodologias e Técnicas de Pesquisa ([1S2018](me639.html))
 </br>
 
-- ME710 - Assessoria Estatística (1S2018) 
+- ME710 - Assessoria Estatística ([1S2018](Disciplinas/EmentaME710_1s2018.pdf))
 </br>
 
-- ME712 -  Consultoria Estatística I (1S2018)
+- ME712 -  Consultoria Estatística I ([1S2018](Disciplinas/EmentaME712_1s2018.pdf))
 </br>
 
-- ME810 - Estágio Supervisionado (1S2018)
+- ME810 - Estágio Supervisionado ([1S2018](Disciplinas/EmentaME810_1s2018.pdf))
 </br>
 
-- ME850 - Seminários de Estatística (1S2018)
+- ME850 - Seminários de Estatística ([1S2018](Disciplinas/EmentaME850_1s2018.pdf))
 </br>
 
 ---- 

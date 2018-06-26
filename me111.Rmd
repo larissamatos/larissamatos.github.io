@@ -1,0 +1,53 @@
+---
+title: "ME111 - Laboratório de Estatística"
+output:
+  html_document:
+    fig_width: 1
+---
+
+----
+
+### Ementa
+
+- [Ementa](Disciplinas/ME_111_1s2018/Aula1.pdf)
+
+---- 
+
+### Aulas
+
+- [Aula 1](Disciplinas/ME_111_1s2018/Aula1.pdf)
+    - [cars.txt](Disciplinas/ME_111_1s2018/cars.txt) 
+    - [cars.xls](Disciplinas/ME_111_1s2018/cars.xls)
+- [Aula 2](Disciplinas/ME_111_1s2018/Aula2.pdf)
+- Aula 3: Atividade 1 
+    - [Turma A](Disciplinas/ME_111_1s2018/Aula3A.pdf)  
+    - [Turma B](Disciplinas/ME_111_1s2018/Aula3B.pdf)
+- [Aula 4](Disciplinas/ME_111_1s2018/Aula4.pdf)
+- [Aula 5](Disciplinas/ME_111_1s2018/Aula5.pdf)
+- [Atividade 2](Disciplinas/ME_111_1s2018/Atividade2.pdf)
+- [Aula 6](Disciplinas/ME_111_1s2018/Aula6.pdf)
+- [Aula 7](Disciplinas/ME_111_1s2018/Aula7.pdf)
+- [Aula 8](Disciplinas/ME_111_1s2018/Aula8.pdf)
+- [Atividade 3](Disciplinas/ME_111_1s2018/Atividade3.pdf)
+- [Aula 9](Disciplinas/ME_111_1s2018/Aula9.pdf)
+- Aula 10: Atividade 4 
+    - [Turma A](Disciplinas/ME_111_1s2018/Aula10A.pdf)  
+    - [Turma B](Disciplinas/ME_111_1s2018/Aula10B.pdf)
+- [Aula 11](Disciplinas/ME_111_1s2018/Aula11.pdf)
+- [Aula 12](Disciplinas/ME_111_1s2018/Aula12.pdf)
+- [Aula 13](Disciplinas/ME_111_1s2018/Aula13.pdf)
+- [Aula 14](Disciplinas/ME_111_1s2018/Aula14.pdf)
+- [Aula 15](Disciplinas/ME_111_1s2018/Aula15.pdf)
+- Aula 16: Atividade 5 
+    - [Turma A](Disciplinas/ME_111_1s2018/Aula16A.pdf)  
+    - [Turma B](Disciplinas/ME_111_1s2018/Aula16B.pdf)
+
+---- 
+
+### Projeto Final
+
+- [Projeto Final](Disciplinas/ME_111_1s2018/Projeto_Final.pdf)
+
+- Dados para a Parte 1 ([Dados_Parte1.xls](Disciplinas/ME_111_1s2018/Dados_PFParte1.xls))
+
+----
