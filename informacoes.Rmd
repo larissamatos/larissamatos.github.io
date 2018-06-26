@@ -1,0 +1,53 @@
+---
+title: "Informações acadêmicas"
+output:
+  html_document:
+    fig_width: 1
+---
+
+---- 
+
+### Formação acadêmica/titulação
+
+
+- **2006-2010**: Graduação em Estatística
+
+                Universidade Estadual de Campinas, UNICAMP, Brasil. 
+
+- **2010-2012**: Mestrado em Estatística: 
+
+                Universidade Estadual de Campinas, UNICAMP, Brasil.
+                Bolsista CAPES.
+
+- **2012-2016**: Doutorado em Estatística
+
+                Universidade Estadual de Campinas, UNICAMP, Brasil.
+                Bolsista FAPESP (Processo 2011/22063-9). 
+                2015-2016: Período sanduíche em University of Connecticut (Processo 2015/05385-3).
+
+- **2016-2017**: Pós-Doutorado 
+                
+                Universidade Estadual de Campinas, UNICAMP, Brasil.
+                Bolsista FAPESP (Processo 2016/05420-6) .
+
+----
+
+### Linhas de Pesquisa
+
+- Inferência e Métodos Estatísticos
+
+    Modelos de efeitos mistos; Modelos Semi-parametrico; Modelos Espaciais; Dados censurados; Diagnóstico.
+    
+- Bioestatística 
+
+    Modelos de efeitos mistos; Dados censurados; Diagnóstico.
+
+----
+
+### Informações adicionais
+
+- CV Lattes: http://lattes.cnpq.br/6330766834005870
+
+- MyCitations (Google Scholar): https://scholar.google.com.br/citations?hl=en&user=lSCYxF0AAAAJ
+
+
