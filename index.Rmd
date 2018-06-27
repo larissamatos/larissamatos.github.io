@@ -30,6 +30,9 @@ output:
 
 </div>
 <div class="column-right">
+
+</br>
+
 **Professora Doutora (MS-3.1)**
 
 Departamento de Estatística
@@ -39,8 +42,7 @@ Instituto de Matemática, Estatística e Computação Científica - **IMECC**
 Universidade Estadual de Campinas - **UNICAMP**.
 
 </br>
-
-**Email: larissam\@ime.unicamp.br**
+<!-- **Email: larissam\@ime.unicamp.br** -->
 </div>
 
 <div class="column">
