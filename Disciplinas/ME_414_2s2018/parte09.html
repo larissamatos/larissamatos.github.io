@@ -1,0 +1,1346 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ME414 - Estatística para Experimentalistas</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="generator" content="pandoc" />
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <base target="_blank">
+
+  <script type="text/javascript">
+    var SLIDE_CONFIG = {
+      // Slide settings
+      settings: {
+                title: 'ME414 - Estatística para Experimentalistas',
+                        subtitle: 'Parte 9',
+                useBuilds: true,
+        usePrettify: true,
+        enableSlideAreas: true,
+        enableTouch: true,
+                        favIcon: '../logo-imecc.png',
+              },
+
+      // Author information
+      presenters: [
+            ]
+    };
+  </script>
+
+  <link href="parte09_files/ioslides-13.5.1/fonts/fonts.css" rel="stylesheet" />
+  <link href="parte09_files/ioslides-13.5.1/theme/css/default.css" rel="stylesheet" />
+  <link href="parte09_files/ioslides-13.5.1/theme/css/phone.css" rel="stylesheet" />
+  <script src="parte09_files/ioslides-13.5.1/js/modernizr.custom.45394.js"></script>
+  <script src="parte09_files/ioslides-13.5.1/js/prettify/prettify.js"></script>
+  <script src="parte09_files/ioslides-13.5.1/js/prettify/lang-r.js"></script>
+  <script src="parte09_files/ioslides-13.5.1/js/prettify/lang-yaml.js"></script>
+  <script src="parte09_files/ioslides-13.5.1/js/hammer.js"></script>
+  <script src="parte09_files/ioslides-13.5.1/js/slide-controller.js"></script>
+  <script src="parte09_files/ioslides-13.5.1/js/slide-deck.js"></script>
+
+  <style type="text/css">
+
+    b, strong {
+      font-weight: bold;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    slides > slide {
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .auto-fadein {
+      -webkit-transition: opacity 0.6s ease-in;
+      -webkit-transition-delay: 0.4s;
+      -moz-transition: opacity 0.6s ease-in 0.4s;
+      -o-transition: opacity 0.6s ease-in 0.4s;
+      transition: opacity 0.6s ease-in 0.4s;
+      opacity: 0;
+    }
+
+    slides > slide:not(.nobackground):before {
+      font-size: 12pt;
+      content: "";
+      position: absolute;
+      bottom: 20px;
+      left: 60px;
+      background: url(../logo-imecc.png) no-repeat 0 50%;
+      -webkit-background-size: 30px 30px;
+      -moz-background-size: 30px 30px;
+      -o-background-size: 30px 30px;
+      background-size: 30px 30px;
+      padding-left: 40px;
+      height: 30px;
+      line-height: 1.9;
+    }
+  </style>
+
+
+</head>
+
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="title-slide segue nobackground">
+        <aside class="gdbar"><img src="/Users/imac/Dropbox/Me414-offline-slides/logo-imecc.png"></aside>
+        <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+          </hgroup>
+  </slide>
+
+<slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Variável Aleatória Discreta</h2></hgroup><article  id="variavel-aleatoria-discreta">
+
+</article></slide><slide class=''><hgroup><h2>Variável Aleatória</h2></hgroup><article  id="variavel-aleatoria" class="build">
+
+<ul class = 'build'>
+<li>Em um experimento aleatório, muitas vezes não estamos interessados nos detalhes do resultado do evento, mas sim em alguma quantidade numérica obtida a partir do experimento.</li>
+</ul>
+
+<ul class = 'build'>
+<li>Ex: lançamento de dois dados. O interesse pode estar apenas na soma, não nos resultados individuais dos dados.</li>
+</ul>
+
+<ul class = 'build'>
+<li>Quantidades de interesse que são determinadas a partir do resultado de experimento aleatório são denominadas <strong>variáveis aleatórias</strong>.</li>
+</ul>
+
+<ul class = 'build'>
+<li>Cada resultado possível de uma variável aleatória (v.a.) tem associado uma probabilidade. O conjunto de todos os resultados possíveis e as respectivas probabilidades é denominado <strong>distribuição de probabilidade</strong>.</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Lançamento de dois dados</h2></hgroup><article  id="exemplo-lancamento-de-dois-dados">
+
+<p>Estamos interessados na soma dos resultados.</p>
+
+<center>
+
+<img src="figuras/figura1.png" width=700>
+
+</center>
+
+</article></slide><slide class=''><hgroup><h2>Definição: Variável Aleatória Discreta</h2></hgroup><article  id="definicao-variavel-aleatoria-discreta">
+
+<p>Uma <strong>função</strong> \(X\) que associa a cada elemento do espaço amostral um valor num conjunto enumerável de pontos da reta é denominada <strong>variável aleatória discreta</strong>.</p>
+
+<center>
+
+<img src="figuras/omegaX.png" width=700>
+
+</center>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Lançamento de uma moeda</h2></hgroup><article  id="exemplo-lancamento-de-uma-moeda">
+
+<p>\(X=1\) se cara e \(X=0\) se coroa</p>
+
+<center>
+
+<img src="figuras/MA_D6_T2_TP3_P8.jpg" width=500>
+
+</center>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Lançamento de uma moeda duas vezes</h2></hgroup><article  id="exemplo-lancamento-de-uma-moeda-duas-vezes">
+
+<p>\(X\) é a soma dos resultados (coroa é 0 e cara é 1).</p>
+
+<center>
+
+<img src="figuras/MA_D6_T2_TP3_P1.jpg" width=500>
+
+</center>
+
+</article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Distribuição de Probabilidade</h2></hgroup><article  id="distribuicao-de-probabilidade">
+
+</article></slide><slide class=''><hgroup><h2>Distribuição de Probabilidade - v.a. discreta</h2></hgroup><article  id="distribuicao-de-probabilidade---v.a.-discreta" class="build">
+
+<ul class = 'build'>
+<li>Quando a v.a. assume valores inteiros: v.a. <strong>discreta</strong>.</li>
+</ul>
+
+<ul class = 'build'>
+<li>A distribuição de probabilidade associa uma probabilidade \(P(X=x)\) para cada valor possível, \(x\), da variável aleatória \(X\).</li>
+</ul>
+
+<ul class = 'build'>
+<li>Para cada valor de \(x\), \(0\leq P(X=x)\leq 1\).</li>
+</ul>
+
+<ul class = 'build'>
+<li>Soma das probabilidades de todos os valores possíveis de \(X\) é igual a 1.</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Distribuição de Probabilidade - v.a. discreta</h2></hgroup><article  id="distribuicao-de-probabilidade---v.a.-discreta-1" class="build">
+
+<ul class = 'build'>
+<li>Seja \(X\) uma v.a. discreta com \(n\) valores possíveis denotados por \(x_1,x_2,\ldots,x_n\).</li>
+</ul>
+
+<ul class = 'build'>
+<li>\(P(X=x_i)\) denota a probabilidade de que a v.a. \(X\) assuma o valor \(x_i\).</li>
+</ul>
+
+<ul class = 'build'>
+<li>O conjunto de todas essas probabilidades (para cada \(x_i\)) representa a <strong>distribuição de probabilidade</strong> de \(X\).</li>
+</ul>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">\(X\)</th>
+<th align="center">\(x_1\)</th>
+<th align="center">\(x_2\)</th>
+<th align="center">\(x_3\)</th>
+<th align="center">\(\ldots\)</th>
+</tr>
+<tr class="odd">
+<td align="left">\(P(X=x)\)</td>
+<td align="center">\(P(X=x_1)\)</td>
+<td align="center">\(P(X=x_2)\)</td>
+<td align="center">\(P(X=x_3)\)</td>
+<td align="center">\(\ldots\)</td>
+</tr>
+</table>
+
+<ul class = 'build'>
+<li>Como \(X\) só pode assumir valores entre \(x_1,x_2,\ldots,x_n\), temos que: \[\sum_{i=1}^n P(X=x_i) =1\]</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo" class="build">
+
+<blockquote>
+<p>Suponha que \(X\) seja uma v.a. discreta que assume os valores \(1\), \(2\) e \(3\).</p>
+</blockquote>
+
+<blockquote>
+<p>Se \(P(X=1)=0.4\) e \(P(X=2)=0.1\), qual o valor de \(P(X=3)\)?</p>
+</blockquote>
+
+<blockquote>
+<p>\[\sum_{i=1}^nP(X=x_i)=1\]</p>
+</blockquote>
+
+<blockquote>
+<p>\[P(X=1)+P(X=2)+P(X=3)=1\]</p>
+</blockquote>
+
+<blockquote>
+<p>\[0.4+0.1+P(X=3)=1\]</p>
+</blockquote>
+
+<blockquote>
+<p>\[P(X=3)=0.5\]</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Distribuição de Probabilidade</h2></hgroup><article  id="distribuicao-de-probabilidade-1">
+
+<p>Podemos representar a distribuição de probabilidade com o seguinte gráfico:</p>
+
+<center>
+
+<img src="parte09_files/figure-html/unnamed-chunk-1-1.png" width="480" />
+
+</center>
+
+<p>A altura de cada barra representa a probabilidade daquele valor.</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Vendedor</h2></hgroup><article  id="exemplo-vendedor" class="build">
+
+<center>
+
+<img src="figuras/vendedor.jpg" width=200>
+
+</center>
+
+<p>Um vendedor de enciclopédias visita cada casa duas vezes.</p>
+
+<blockquote>
+<p>Com anos de experiência, ele acredita que a probabilidade de uma venda logo na primeira visita é 0.3.</p>
+</blockquote>
+
+<blockquote>
+<p>Já na segunda visita, ele acredita que a probabilidade de venda seja 0.6. Ele acredita também que o resultado em cada visita seja independente.</p>
+</blockquote>
+
+<blockquote>
+<p>Qual é a distribuição de probabilidade da v.a. \(X\): número de vendas feitas em uma casa?</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Vendedor</h2></hgroup><article  id="exemplo-vendedor-1" class="build">
+
+<p>Seja \(V_1\): venda na primeira visita e \(V_2\): venda na segunda visita.</p>
+
+<ul>
+<li>Espaço amostral do fenômeno aleatório:</li>
+</ul>
+
+<blockquote>
+<p>\[\Omega=\{ (V_1^c \cap V_2^c), (V_1 \cap V_2^c), (V_1^c \cap V_2), (V_1 \cap V_2)\}\]</p>
+</blockquote>
+
+<ul class = 'build'>
+<li>A v.a. \(X\) pode assumir os valores \(0\), \(1\) ou \(2\).</li>
+</ul>
+
+<ul class = 'build'>
+<li>Se nenhuma venda ocorrer nas duas visitas, \(X= 0\).</li>
+</ul>
+
+<blockquote>
+<p>\[
+\begin{aligned}
+P(X=0) = &amp; P(V_1^c \cap V_2^c) \\
+\overset{ind}{=} &amp; P(V_1^c) P(V_2^c) \\ 
+= &amp; [1-P(V_1)] [1-P(V_2)] \\  
+= &amp; (1-0.3)(1-0.6)=0.28
+\end{aligned}
+\]</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Vendedor</h2></hgroup><article  id="exemplo-vendedor-2" class="build">
+
+<ul class = 'build'>
+<li>\(X=1\) quando ocorre uma venda apenas na primeira visita <strong>ou</strong> uma venda apenas segunda visita.</li>
+</ul>
+
+<p>\[
+\begin{aligned}
+P(X=1) = &amp; P[(V_1 \cap V_2^c) \cup (V_1^c \cap V_2)] \\
+= &amp; P(V_1 \cap V_2^c) + P(V_1^c \cap V_2) \\
+\overset{ind}{=} &amp; P(V_1)P(V_2^c) + P(V_1^c)P(V_2) \\
+= &amp; (0.3)(1-0.6) + (1-0.3)(0.6) \\
+= &amp; 0.54
+\end{aligned}
+\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Vendedor</h2></hgroup><article  id="exemplo-vendedor-3" class="build">
+
+<ul class = 'build'>
+<li>\(X=2\) quando ocorre uma venda nas duas visitas.</li>
+</ul>
+
+<p>\[
+\begin{aligned}
+P(X=2) = &amp; P(V_1 \cap V_2)  \\
+\overset{ind}{=} &amp; P(V_1)P(V_2) = (0.3)(0.6) = 0.18
+\end{aligned}
+\]</p>
+
+<blockquote>
+<p>Satisfaz a propriedade:</p>
+</blockquote>
+
+<p>\[\begin{aligned}
+\sum_{i=0}^2 P(X=i) &amp;= P(X=0)+P(X=1)+P(X=2) \\
+&amp;=0.28+0.54+0.18=1
+\end{aligned}
+\]</p>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">\(X\)</th>
+<th align="center">0</th>
+<th align="center">1</th>
+<th align="center">2</th>
+</tr>
+<tr class="odd">
+<td align="left">\(P(X=x)\)</td>
+<td align="center">0.28</td>
+<td align="center">0.54</td>
+<td align="center">0.18</td>
+</tr>
+</table>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Comissão</h2></hgroup><article  id="exemplo-comissao" class="build">
+
+<p>O Departamento de Estatística é formado por 35 professores, sendo 21 homens e 14 mulheres.</p>
+
+<blockquote>
+<p>Uma comissão de 3 professores será constituída sorteando, ao acaso, três membros do departamento.</p>
+</blockquote>
+
+<blockquote>
+<p>Qual é a probabilidade da comissão ser formada por pelo menos duas mulheres?</p>
+</blockquote>
+
+<blockquote>
+<p>Seja \(X\) o número de mulheres na comissão. \(X\) pode assumir os valores: 0, 1, 2 e 3.</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section" class="build smaller">
+
+<blockquote>
+<p>Seja \(X\) o número de mulheres na comissão. \(X\) pode assumir os valores: 0, 1, 2 e 3.</p>
+</blockquote>
+
+<blockquote>
+<p>\[P(X=0)=\frac{\binom{21}{3}\binom{14}{0}}{\binom{35}{3}}=0.203\]</p>
+</blockquote>
+
+<blockquote>
+<p>\[P(X=1)=\frac{\binom{21}{2}\binom{14}{1}}{\binom{35}{3}}=0.450\]</p>
+</blockquote>
+
+<blockquote>
+<p>\[P(X=2)=\frac{\binom{21}{1}\binom{14}{2}}{\binom{35}{3}}=0.291\]</p>
+</blockquote>
+
+<blockquote>
+<p>\[P(X=3)=\frac{\binom{21}{0}\binom{14}{3}}{\binom{35}{3}}=0.056\]</p>
+</blockquote>
+
+<blockquote>
+<p>Veja que \(\sum_{i=0}^3P(X=i)=1\).</p>
+</blockquote>
+
+<blockquote>
+<p>Probabilidade da comissão ter pelo menos duas mulheres: \[P(X\geq2)=P(X=2)+P(X=3)=0.347\]</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Comissão</h2></hgroup><article  id="exemplo-comissao-1">
+
+<p>A distribuição de probabilidade de \(X\) é dada por:</p>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">\(X\)</th>
+<th align="center">0</th>
+<th align="center">1</th>
+<th align="center">2</th>
+<th align="center">3</th>
+</tr>
+<tr class="odd">
+<td align="left">\(P(X=x)\)</td>
+<td align="center">0.203</td>
+<td align="center">0.450</td>
+<td align="center">0.291</td>
+<td align="center">0.056</td>
+</tr>
+</table>
+
+<center>
+
+<img src="parte09_files/figure-html/unnamed-chunk-2-1.png" width="480" />
+
+</center>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Comissão</h2></hgroup><article  id="exemplo-comissao-2">
+
+<p>Outra maneira para calcular as probabilidades:</p>
+
+<center>
+
+<img src="figuras/comis.png" width=600>
+
+</center>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Lançamento de dois dados</h2></hgroup><article  id="exemplo-lancamento-de-dois-dados-1" class="build">
+
+<p>Qual a probabilidade da soma ser menor do que 6?</p>
+
+<center>
+
+<img src="figuras/figura1.png" width=500>
+
+</center>
+
+<p>\(X\): soma dos dados.</p>
+
+<p>\(P(X&lt;6) = P(X=5) + P(X=4) + P(X=3) + P(X=2) = \frac{10}{36}\)</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Lançamento de dois dados</h2></hgroup><article  id="exemplo-lancamento-de-dois-dados-2" class="build">
+
+<p>\(Y\): máximo resultado no lançamento de 2 dados.</p>
+
+<center>
+
+<img src="figuras/jogo1.png" width=600>
+
+</center>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">\(Y\)</th>
+<th align="center">1</th>
+<th align="center">2</th>
+<th align="center">3</th>
+<th align="center">4</th>
+<th align="center">5</th>
+<th align="center">6</th>
+</tr>
+<tr class="odd">
+<td align="left">\(P(Y=y)\)</td>
+<td align="center">1/36</td>
+<td align="center">3/36</td>
+<td align="center">5/36</td>
+<td align="center">7/36</td>
+<td align="center">9/36</td>
+<td align="center">11/36</td>
+</tr>
+</table>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Lançamento de dois dados</h2></hgroup><article  id="exemplo-lancamento-de-dois-dados-3" class="build">
+
+<p>\(Z\): diferença entre os pontos do segundo e do primeiro lançamento.</p>
+
+<center>
+
+<img src="figuras/jogo1.png" width=600>
+
+</center>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">\(Z\)</th>
+<th align="center">-5</th>
+<th align="center">-4</th>
+<th align="center">-3</th>
+<th align="center">-1</th>
+<th align="center">-1</th>
+<th align="center">0</th>
+<th align="center">1</th>
+<th align="center">2</th>
+<th align="center">3</th>
+<th align="center">4</th>
+<th align="center">5</th>
+</tr>
+<tr class="odd">
+<td align="left">\(P(Z=z)\)</td>
+<td align="center">1/36</td>
+<td align="center">2/36</td>
+<td align="center">3/36</td>
+<td align="center">4/36</td>
+<td align="center">5/36</td>
+<td align="center">6/36</td>
+<td align="center">5/36</td>
+<td align="center">4/36</td>
+<td align="center">3/36</td>
+<td align="center">2/36</td>
+<td align="center">1/16</td>
+</tr>
+</table>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Construção</h2></hgroup><article  id="exemplo-construcao" class="build">
+
+<p>Na construção de um certo prédio, as fundações devem atingir 15 metros de profundidade, e para cada 5 metros de estacas colocadas, o operador anota se houve alteração no ritmo de perfuração previamente estabelecido.</p>
+
+<p>Essa alteração é resultado de mudanças para mais ou para menos na resistência do subsolo.</p>
+
+<p>Nos dois casos, medidas corretivas serão necessárias, encarecendo o custo da obra.</p>
+
+<ul class = 'build'>
+<li>com base em avaliações geológicas, admite-se que a probabilidade de ocorrência de alterações é de 0.1 para cada 5 metros.</li>
+</ul>
+
+<ul class = 'build'>
+<li>o custo básico inicial é de 100 UPCs (Unidades Padrão de Construção) e será acrescido de 50k, com k representando o número de alterações observadas.</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Construção</h2></hgroup><article  id="exemplo-construcao-1" class="build">
+
+<ul class = 'build'>
+<li>Como se comporta a variável Custo de Obra de fundações?</li>
+</ul>
+
+<ul class = 'build'>
+<li>Assumimos que as alterações ocorrem independentemente entre cada um dos três intervalos de 5 metros.</li>
+</ul>
+
+<ul class = 'build'>
+<li>\(A=\) ocorrência de alterações em cada intervalo.</li>
+</ul>
+
+<ul class = 'build'>
+<li>3 etapas \(\quad \Rightarrow \quad\) \(2 \times 2 \times 2 = 2^{3} = 8\) possibilidades.</li>
+</ul>
+
+<ul class = 'build'>
+<li>Espaço Amostral</li>
+</ul>
+
+<p>\[\Omega = \{AAA, AAA^c, AA^cA, A^cAA, AA^cA^c, A^cAA^c, A^cA^cA, A^cA^cA^c \}\]</p>
+
+</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-1">
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="center">Evento</th>
+<th align="left">Probabilidade</th>
+<th align="center">Custo</th>
+</tr>
+<tr class="odd">
+<td align="center">\(AAA\)</td>
+<td align="left">\((0.1)^{3}=0.001\)</td>
+<td align="center">250</td>
+</tr>
+<tr class="even">
+<td align="center">\(AAA^c\)</td>
+<td align="left">\((0.1)^{2}(0.9)=0.009\)</td>
+<td align="center">200</td>
+</tr>
+<tr class="odd">
+<td align="center">\(AA^cA\)</td>
+<td align="left">\((0.1)^{2}(0.9)=0.009\)</td>
+<td align="center">200</td>
+</tr>
+<tr class="even">
+<td align="center">\(A^cAA\)</td>
+<td align="left">\((0.1)^{2}(0.9)=0.009\)</td>
+<td align="center">200</td>
+</tr>
+<tr class="odd">
+<td align="center">\(AA^cA^c\)</td>
+<td align="left">\((0.1)(0.9)^{2}=0.081\)</td>
+<td align="center">150</td>
+</tr>
+<tr class="even">
+<td align="center">\(A^cAA^c\)</td>
+<td align="left">\((0.1)(0.9)^{2}=0.081\)</td>
+<td align="center">150</td>
+</tr>
+<tr class="odd">
+<td align="center">\(A^cA^cA\)</td>
+<td align="left">\((0.1)(0.9)^{2}=0.081\)</td>
+<td align="center">150</td>
+</tr>
+<tr class="even">
+<td align="center">\(A^cA^cA^c\)</td>
+<td align="left">\((0.9)^{3}=0.729\)</td>
+<td align="center">100</td>
+</tr>
+</table>
+
+</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-2" class="build">
+
+<p>Note que associamos a cada evento do espaço amostral um valor da variável \(C\) (custo), e eventos diferentes podem corresponder ao mesmo valor de \(C\):</p>
+
+<blockquote>
+<p>\[c_{1}=100, \quad c_{2}=150, \quad c_{3}=200, \quad c_{4}=250\]</p>
+</blockquote>
+
+<ul class = 'build'>
+<li>\(P\left(C=c_{1}\right)=P\left(A^cA^cA^c\right)=0.729\)<br/></li>
+<li>\(P\left(C=c_{2}\right)=P\left(AA^cA^c \cup A^cAA^c \cup A^cA^cA\right)=3\times 0.081=0.243\)</li>
+<li>\(P\left(C=c_{3}\right)=P\left(AAA^c \cup AA^cA \cup A^cAA\right)=3 \times 0.009=0.027\)</li>
+<li>\(P\left(C=c_{4}\right)=P\left(AAA\right)=0.001\)</li>
+</ul>
+
+<p>O comportamento de \(C\) estudado através da probabilidade de ocorrência pode auxiliar na previsão de gastos e na elaboração de orçamentos:</p>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">\(C\)</th>
+<th align="center">100</th>
+<th align="center">150</th>
+<th align="center">200</th>
+<th align="center">250</th>
+</tr>
+<tr class="odd">
+<td align="left">\(P(C=c)\)</td>
+<td align="center">0.729</td>
+<td align="center">0.243</td>
+<td align="center">0.027</td>
+<td align="center">0.001</td>
+</tr>
+</table>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Lançamento de uma moeda duas vezes</h2></hgroup><article  id="exemplo-lancamento-de-uma-moeda-duas-vezes-1" class="build">
+
+<ul class = 'build'>
+<li>\(\Omega=\{CC, CX, XC, XX\}\), em que \(C=\) cara e \(X=\) coroa.</li>
+</ul>
+
+<ul class = 'build'>
+<li>Seja a v.a. \(N=\) número de caras em dois lançamentos.</li>
+</ul>
+
+<table class = 'rmdtable'>
+<col width="4%" />
+<col width="6%" />
+<col width="6%" />
+<col width="6%" />
+<tr class="header">
+<th align="left">\(N\)</th>
+<th align="center">0</th>
+<th align="center">1</th>
+<th align="center">2</th>
+</tr>
+<tr class="odd">
+<td align="left">\(P(N=n)\)</td>
+<td align="center">\(\displaystyle P\left(XX\right)=\frac{1}{4}\)</td>
+<td align="center">\(\displaystyle P\left(CX \cup XC\right)=\frac{2}{4}=\frac{1}{2}\)</td>
+<td align="center">\(\displaystyle P\left(CC\right)=\frac{1}{4}\)</td>
+</tr>
+</table>
+
+</article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Função de Distribuição Acumulada</h2></hgroup><article  id="funcao-de-distribuicao-acumulada">
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Vacina</h2></hgroup><article  id="exemplo-vacina" class="build">
+
+<ul class = 'build'>
+<li>Um grupo de 1000 crianças foi analisado para determinar a efetividade de uma vacina contra um tipo de alergia. As crianças recebiam uma dose de vacina e após um mês passavam por um novo teste. Caso ainda tivessem tido alguma reação alérgica, recebiam outra dose.</li>
+</ul>
+
+<ul class = 'build'>
+<li>Variável de interesse: X = número de doses.</li>
+</ul>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">Doses (\(X\))</th>
+<th align="center">1</th>
+<th align="center">2</th>
+<th align="center">3</th>
+<th align="center">4</th>
+<th align="center">5</th>
+</tr>
+<tr class="odd">
+<td align="left">Frequência</td>
+<td align="center">245</td>
+<td align="center">288</td>
+<td align="center">256</td>
+<td align="center">145</td>
+<td align="center">66</td>
+</tr>
+</table>
+
+<ul class = 'build'>
+<li>Uma criança é sorteada ao acaso, qual será a probabilidade dela ter recebido 2 doses?</li>
+</ul>
+
+<blockquote>
+<p>\[P(X=2) = \frac{288}{1000}=0.288\]</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Vacina</h2></hgroup><article  id="exemplo-vacina-1" class="build">
+
+<p>Distribuição de Probabilidade de \(X\)</p>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">Doses (\(X\))</th>
+<th align="center">1</th>
+<th align="center">2</th>
+<th align="center">3</th>
+<th align="center">4</th>
+<th align="center">5</th>
+</tr>
+<tr class="odd">
+<td align="left">\(P(X=x)\)</td>
+<td align="center">0.245</td>
+<td align="center">0.288</td>
+<td align="center">0.256</td>
+<td align="center">0.145</td>
+<td align="center">0.066</td>
+</tr>
+</table>
+
+<blockquote>
+<p>Qual a probabilidade da criança ter recebido até duas doses?</p>
+</blockquote>
+
+<p>\[ \begin{aligned}
+P\left(X \leq 2\right) &amp;= P\left(X=1\right)+P\left(X=2\right) \\
+&amp;=0.245+0.288\\
+&amp;=0.533
+\end{aligned}
+\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Função de Distribuição Acumulada</h2></hgroup><article  id="funcao-de-distribuicao-acumulada-1" class="build">
+
+<blockquote>
+<p>A função de distribuição acumulada (f.d.a.) de uma variável aleatória \(X\) é definida por \[F\left(x\right)=P\left(X \leq x\right), \quad x\in\mathbb{R}\]</p>
+</blockquote>
+
+<blockquote>
+<p>Assim, se \(X\) assume os valores em \(\{x_{1},x_{2},...,x_{n}\}\), em que \(x_1 &lt; x_2 &lt; \ldots &lt; x_n\):</p>
+</blockquote>
+
+<p>\(F\left(x_{1}\right)=P\left(X=x_{1}\right)\)</p>
+
+<p>\(F\left(x_{2}\right)=P\left(X=x_{1}\right) + P\left(X=x_{2}\right)\)</p>
+
+<p>\(\vdots\)</p>
+
+<p>\(F\left(x_{n}\right)=P\left(X=x_{1}\right) + ... + P\left(X=x_{n}\right)\)</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Vacina</h2></hgroup><article  id="exemplo-vacina-2" class="build">
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">Doses (\(X\))</th>
+<th align="center">1</th>
+<th align="center">2</th>
+<th align="center">3</th>
+<th align="center">4</th>
+<th align="center">5</th>
+</tr>
+<tr class="odd">
+<td align="left">\(P(X=x)\)</td>
+<td align="center">0.245</td>
+<td align="center">0.288</td>
+<td align="center">0.256</td>
+<td align="center">0.145</td>
+<td align="center">0.066</td>
+</tr>
+</table>
+
+<blockquote>
+<p>Note que a f.d.a. de \(X=\) número de doses é definida para qualquer valor real, logo:</p>
+</blockquote>
+
+<p>\[ F(x) = 
+\begin{cases}
+0     &amp; x &lt; 1 \\
+0.245 &amp; 1 \leq x &lt; 2 \\
+0.533 &amp; 2 \leq x &lt; 3 \\
+0.789 &amp; 3 \leq x &lt; 4 \\
+0.934 &amp; 4 \leq x &lt; 5 \\
+1     &amp; x \geq 5 \\
+\end{cases}
+\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Vacina</h2></hgroup><article  id="exemplo-vacina-3">
+
+<p>Função de distribuição acumulada (f.d.a.) do número de doses (\(X\))</p>
+
+<center>
+
+<img src="parte09_files/figure-html/unnamed-chunk-3-1.png" width="672" />
+
+</center>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Comissão</h2></hgroup><article  id="exemplo-comissao-3" class="build">
+
+<p>O Departamento de Estatística é formado por 35 professores, sendo 21 homens e 14 mulheres. Uma comissão de 3 professores será constituída sorteando, ao acaso, três membros do departamento.</p>
+
+<blockquote>
+<p>Seja \(X\) o número de mulheres na comissão. \(X\) pode ser 0, 1, 2 e 3.</p>
+</blockquote>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">\(X\)</th>
+<th align="center">0</th>
+<th align="center">1</th>
+<th align="center">2</th>
+<th align="center">3</th>
+</tr>
+<tr class="odd">
+<td align="left">\(P(X=x)\)</td>
+<td align="center">0.203</td>
+<td align="center">0.450</td>
+<td align="center">0.291</td>
+<td align="center">0.056</td>
+</tr>
+</table>
+
+<p>\[
+F(x) = P(X \leq x) = \begin{cases} 
+0, &amp; \mbox{se } x&lt;0 \\ 
+0.203 &amp; \mbox{se } 0\leq x&lt;1\\
+0.653 &amp; \mbox{se } 1\leq x&lt;2\\
+0.944 &amp; \mbox{se } 2\leq x&lt;3\\
+1 &amp; \mbox{se } x\geq3
+\end{cases}
+\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Comissão</h2></hgroup><article  id="exemplo-comissao-4" class="build smaller">
+
+<p>\[
+F(x) = \begin{cases} 
+0, &amp; \mbox{se } x&lt;0 \\ 
+0.203 &amp; \mbox{se } 0\leq x&lt;1\\
+0.653 &amp; \mbox{se } 1\leq x&lt;2\\
+0.944 &amp; \mbox{se } 2\leq x&lt;3\\
+1 &amp; \mbox{se } x\geq3
+\end{cases}
+\]</p>
+
+<center>
+
+<img src="parte09_files/figure-html/unnamed-chunk-4-1.png" width="480" />
+
+</center>
+
+</article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Esperança</h2></hgroup><article  id="esperanca">
+
+</article></slide><slide class=''><hgroup><h2>Esperança: variável aleatória discreta</h2></hgroup><article  id="esperanca-variavel-aleatoria-discreta" class="build">
+
+<p>Seja \(X\) uma v.a. discreta assumindo os valores \(x_1,\ldots, x_n\).</p>
+
+<p>A <strong>esperança</strong> (ou valor esperado) da variável \(X\) é dada por: \[\mathbb E(X)=\sum_{i=1}^n x_i P(X=x_i)\]</p>
+
+<blockquote>
+<p>A esperança de \(X\) é a média ponderada de todos os valores possíveis de \(X\), onde o peso de cada valor é a probabilidade.</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Esperança - Exemplos</h2></hgroup><article  id="esperanca---exemplos" class="build">
+
+<ul>
+<li>Suponha que \(X\) assuma os valores 0 ou 1 com igual probabilidade, ou seja,</li>
+</ul>
+
+<p>\[P(X=0)=P(X=1)=\frac{1}{2}\]</p>
+
+<blockquote>
+<p>\[\mathbb E(X)=  0\times P(X=0)+1\times P(X=1)=\frac{1}{2}\]</p>
+</blockquote>
+
+<ul>
+<li>Suponha que \(X\) assuma os valores 0 ou 1 com as seguintes probabilidades,</li>
+</ul>
+
+<p>\[P(X=0)=\frac{2}{3} \quad \mbox{e} \quad P(X=1)=\frac{1}{3}\]</p>
+
+<blockquote>
+<p>\[\mathbb E(X)=  0\times P(X=0)+1\times P(X=1)= 0\times\frac{2}{3}+1\times\frac{1}{3}=\frac{1}{3}\]</p>
+</blockquote>
+
+<blockquote>
+<p>Veja que nesses dois exemplos: \(\mathbb E(X) = P(X=1)\)</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Lançamento de um dado</h2></hgroup><article  id="exemplo-lancamento-de-um-dado" class="build">
+
+<blockquote>
+<p>\(X\) é a v.a. representando o resultado do lançamento.</p>
+</blockquote>
+
+<blockquote>
+<p>\[P(X=i)=\frac{1}{6}, \qquad i=1,2,3,4,5,6\]</p>
+</blockquote>
+
+<blockquote>
+<p>\[\mathbb E(X)= 1\times \frac{1}{6} + 2\times \frac{1}{6}+3\times \frac{1}{6}+4\times \frac{1}{6}+5\times \frac{1}{6}+6\times \frac{1}{6}=3.5\]</p>
+</blockquote>
+
+<blockquote>
+<p>Neste caso, a esperança de \(X\) não é igual a nenhum dos valores possíveis de \(X\).</p>
+</blockquote>
+
+<blockquote>
+<p>Não podemos interpretar \(\mathbb E(X)\) como o valor que esperamos que \(X\) irá assumir, mas sim como uma média dos valores observados de \(X\) ao longo de muitas repetições do experimento aleatório.</p>
+</blockquote>
+
+<blockquote>
+<p>Se jogarmos o dado muitas vezes e calcularmos uma média de todos os resultados obtidos, essa média será aproximadamente 3.5.</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Seguros</h2></hgroup><article  id="exemplo-seguros" class="build">
+
+<p>Uma companhia de seguros determina o <a href='http://pt.wikipedia.org/wiki/Prêmio_de_seguro' title=''>prêmio</a> anual do seguro de vida de maneira a obter um lucro esperado de 1% do valor que o segurado recebe em caso de morte.</p>
+
+<p>Encontre o valor do prêmio anual para um seguro de vida no valor de 200 mil reais assumindo que a probabilidade do cliente morrer naquele ano é 0.02.</p>
+
+<ul>
+<li><p>\(A\): prêmio anual</p></li>
+<li><p>\(X\): lucro da companhia no ano para o cliente</p></li>
+<li><p>Então,</p></li>
+</ul>
+
+<blockquote>
+<p>\[X = \begin{cases}
+A, &amp; \mbox{se o cliente sobrevive} \\
+A-200000, &amp; \mbox{se o cliente morre}
+\end{cases}
+\]</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Seguros</h2></hgroup><article  id="exemplo-seguros-1" class="build">
+
+<blockquote>
+<p>\(\mathbb E(X)= A\times P(\mbox{sobreviver}) + (A-200000)\times P(\mbox{morrer})\)</p>
+</blockquote>
+
+<blockquote>
+<p>\(\mathbb E(X)=A\times 0.98 +(A-200000)\times 0.02\)</p>
+</blockquote>
+
+<blockquote>
+<p>\(\mathbb E(X)=A-4000\)</p>
+</blockquote>
+
+<blockquote>
+<p>Companhia quer lucro esperado de 1% do valor recebido em caso de morte: 2000 reais.</p>
+</blockquote>
+
+<blockquote>
+<p>\(\mathbb E(X)=2000=A-4000\)</p>
+</blockquote>
+
+<p>Portanto, \(A=6000\) é o valor do prêmio anual.</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Montagem</h2></hgroup><article  id="exemplo-montagem" class="build">
+
+<p>Um empresário pretende estabelecer uma firma para montagem de um componente mecânico. Cada peça é composta de duas partes, \(A\) e \(B\), cada uma com uma chance específica de ser defeituosa. Só é possível verificar a qualidade das peças depois que elas são montadas.</p>
+
+<blockquote>
+<p>Se ambas são defeituosas, a peça é descartada e dá um prejuízo de \(\$5\).</p>
+</blockquote>
+
+<blockquote>
+<p>Se a peça \(B\) é defeituosa, ainda é possível reparar a peça e obter um lucro de \(\$5\).</p>
+</blockquote>
+
+<blockquote>
+<p>De maneira semelhante, se \(A\) é defeituosa, o reparo permite vender a peça inteira com um lucro de \(\$10\).</p>
+</blockquote>
+
+<blockquote>
+<p>Se as duas peças são boas, o lucro é de \(\$15\).</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Montagem</h2></hgroup><article  id="exemplo-montagem-1" class="build">
+
+<p>Seja \(A\) o evento indicando que a peça A está perfeita.</p>
+
+<blockquote>
+<p>Então \(A^c\) indica que a peça A está com defeito.</p>
+</blockquote>
+
+<blockquote>
+<p>Seja \(B\) o evento indicando que a peça B está perfeita.</p>
+</blockquote>
+
+<blockquote>
+<p>Então \(B^c\) indica que a peça B está com defeito.</p>
+</blockquote>
+
+<p>Cada uma das configurações está associada a uma probabilidade:</p>
+
+<p>\[P(A \cap B)=0.56 \qquad P(A^c \cap B)=0.23\]</p>
+
+<p>\[P(A \cap B^c)=0.02 \qquad P(A^c \cap B^c)=0.19\]</p>
+
+<blockquote>
+<p>Como podemos descrever a distribuição do lucro por componente?</p>
+</blockquote>
+
+<blockquote>
+<p>Qual o lucro esperado por peça produzida?</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Montagem</h2></hgroup><article  id="exemplo-montagem-2" class="build">
+
+<p>\(P(A \cap B)=0.56 \quad P(A^c \cap B)=0.23 \quad P(A \cap B^c)=0.02 \quad P(A^c \cap B^c)=0.19\)</p>
+
+<p>Seja \(X\) a variável indicando o lucro na produção de um componente.</p>
+
+<ul class = 'build'>
+<li>\(X\) assume o valor 15 se as peças A e B estão ok, o que ocorre com probabilidade 0.56.</li>
+</ul>
+
+<ul class = 'build'>
+<li>\(X\) assume o valor 10 se apenas A apresentar defeito, o que ocorre com probabilidade 0.23.</li>
+</ul>
+
+<ul class = 'build'>
+<li>\(X\) assume o valor 5 se apenas B apresentar defeito, o que ocorre com probabilidade 0.02.</li>
+</ul>
+
+<ul class = 'build'>
+<li>\(X\) assume o valor \(-5\) se tanto A quanto B apresentarem defeito, o que ocorre com probabilidade 0.19.</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Montagem</h2></hgroup><article  id="exemplo-montagem-3">
+
+<p>Distribuição de probabilidade para a variável aleatória \(X\):</p>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">\(X\)</th>
+<th align="center">\(-5\)</th>
+<th align="center">\(5\)</th>
+<th align="center">\(10\)</th>
+<th align="center">\(15\)</th>
+</tr>
+<tr class="odd">
+<td align="left">\(P(X=x)\)</td>
+<td align="center">0.19</td>
+<td align="center">0.02</td>
+<td align="center">0.23</td>
+<td align="center">0.56</td>
+</tr>
+</table>
+
+<center>
+
+<img src="parte09_files/figure-html/unnamed-chunk-5-1.png" width="480" />
+
+</center>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Montagem</h2></hgroup><article  id="exemplo-montagem-4">
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">\(X\)</th>
+<th align="center">\(-5\)</th>
+<th align="center">\(5\)</th>
+<th align="center">\(10\)</th>
+<th align="center">\(15\)</th>
+</tr>
+<tr class="odd">
+<td align="left">\(P(X=x)\)</td>
+<td align="center">0.19</td>
+<td align="center">0.02</td>
+<td align="center">0.23</td>
+<td align="center">0.56</td>
+</tr>
+</table>
+
+<p>Função de Distribuição Acumulada:</p>
+
+<p>\[
+F(x) = 
+\begin{cases}
+0 &amp; \mbox{se} &amp; x &lt; -5\\
+0.19 &amp; \mbox{se} &amp; -5 \leq x &lt; 5\\
+0.21 &amp; \mbox{se} &amp; 5 \leq x &lt; 10\\
+0.44 &amp; \mbox{se} &amp; 10 \leq x &lt; 15\\
+1 &amp; \mbox{se} &amp; x \geq 15\\
+\end{cases}
+\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Montagem</h2></hgroup><article  id="exemplo-montagem-5" class="smaller">
+
+<p>\[
+F(x) = 
+\begin{cases}
+0 &amp; \mbox{se} &amp; x &lt; -5\\
+0.19 &amp; \mbox{se} &amp; -5 \leq x &lt; 5\\
+0.21 &amp; \mbox{se} &amp; 5 \leq x &lt; 10\\
+0.44 &amp; \mbox{se} &amp; 10 \leq x &lt; 15\\
+1 &amp; \mbox{se} &amp; x \geq 15\\
+\end{cases}
+\]</p>
+
+<center>
+
+<img src="parte09_files/figure-html/unnamed-chunk-6-1.png" width="480" />
+
+</center>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Montagem</h2></hgroup><article  id="exemplo-montagem-6" class="build">
+
+<p>Suponha que o empresário faça a seguinte pergunta: <em>Qual o lucro médio por conjunto montado que espero conseguir?</em></p>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">\(X\)</th>
+<th align="center">\(-5\)</th>
+<th align="center">\(5\)</th>
+<th align="center">\(10\)</th>
+<th align="center">\(15\)</th>
+</tr>
+<tr class="odd">
+<td align="left">\(P(X=x)\)</td>
+<td align="center">0.19</td>
+<td align="center">0.02</td>
+<td align="center">0.23</td>
+<td align="center">0.56</td>
+</tr>
+</table>
+
+<blockquote>
+<p>Lembrem-se que a esperança de uma v.a. \(X\) com valores \(x_1, x_2, \ldots, x_n\) é:</p>
+</blockquote>
+
+<p>\[\mathbb E\left( X \right) = \sum_{i=1}^n x_i P(X=x_i)\]</p>
+
+<blockquote>
+<p>Para saber o lucro esperado, basta aplicar a fórmula:</p>
+</blockquote>
+
+<p>\[\begin{aligned}
+ \mathbb E \left( X \right) &amp;= -5\times0.19 + 5\times0.02 + 10\times0.23 + 15\times0.56 \\
+ &amp; = 9.85
+ \end{aligned}\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Pedágio</h2></hgroup><article  id="exemplo-pedagio">
+
+<p>Você, cansado de esperar em filas de pedágio com frequência, está considerando assinar o serviço de pagamento eletrônico. Dentre as opções oferecidas, você se interessa pelas duas abaixo:</p>
+
+<center>
+
+<img src="figuras/semparar.png" width=250>
+
+</center>
+
+</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-3" class="build">
+
+<center>
+
+<img src="figuras/semparar-chat.png" width=430>
+
+</center>
+
+<p>Plano Clássico: obrigatório fazer adesão novamente após 5 anos.</p>
+
+<p>Plano Clássico: em caso de perda/roubo/troca é preciso pagar a taxa de substituição.</p>
+
+<blockquote>
+<p>Assumindo que não há roubo/perda, mas apenas troca do veículo e que não há o desconto na adesão para renovar após 5 anos, como decidir?</p>
+</blockquote>
+
+<blockquote>
+<p>Podemos fazer um exemplo de acordo com o período em que vamos assinar o plano escolhido.</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Pedágio</h2></hgroup><article  id="exemplo-pedagio-1">
+
+<p>Seja a v.a. \(T\): idade do veículo até a troca.</p>
+
+<p>E a função de distribuição acumulada dada por:</p>
+
+<p>\[
+F(t) = 
+\begin{cases}
+0 &amp; \mbox{se} &amp; t &lt; 2\\
+0.1 &amp; \mbox{se} &amp; 2 \leq t &lt; 3\\
+0.2 &amp; \mbox{se} &amp; 3 \leq t &lt; 4\\
+0.5 &amp; \mbox{se} &amp; 4 \leq t &lt; 5\\
+0.7 &amp; \mbox{se} &amp; 5 \leq t &lt; 6\\
+0.9 &amp; \mbox{se} &amp; 6 \leq t &lt; 7\\
+1 &amp; \mbox{se} &amp; t \geq 7 \\
+\end{cases}
+\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Pedágio</h2></hgroup><article  id="exemplo-pedagio-2">
+
+<p>\(T\): idade do veículo até a troca.</p>
+
+<center>
+
+<img src="parte09_files/figure-html/unnamed-chunk-7-1.png" width="480" />
+
+</center>
+
+</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-4" class="build">
+
+<p>Assumindo que você queira assinar por um período de 3 anos. Vamos definir:</p>
+
+<ul class = 'build'>
+<li>\(C_1\): custo do plano 1 por 3 anos.</li>
+</ul>
+
+<p>Probabilidade de trocar de carro em até 3 anos: \(0.2\)</p>
+
+<p>Portanto, \(C_1\) assume os valores:</p>
+
+<p>\[ C_1 = \begin{cases}
+73.16+13.05\times 12 \times 3 = 542.96, &amp; \mbox{com probabilidade 0.8} \\
+73.16+13.05\times 12 \times 3+43.83=586.79, &amp; \mbox{com probabilidade 0.2}
+\end{cases}
+\]</p>
+
+<blockquote>
+<p>\[\mathbb E(C_1)=542.96\times 0.8+586.79\times 0.2=551.73\]</p>
+</blockquote>
+
+<ul class = 'build'>
+<li>\(C_2\): custo do plano 2 por 3 anos.</li>
+</ul>
+
+<p>\(C_2\) assume o valor \(17.28\times 12 \times 3 = 622.08\), com probabilidade 1</p>
+
+<p>\[\mathbb E(C_2)=622.08\]</p>
+
+</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-5" class="build">
+
+<p>Assumindo que você queira assinar por um período de 6 anos. Vamos definir:</p>
+
+<ul class = 'build'>
+<li>\(C_1\): custo do plano 1 por 6 anos.</li>
+</ul>
+
+<p>Probabilidade de trocar de carro em até 6 anos: \(0.9\)</p>
+
+<blockquote>
+<p>Portanto, \(C_1\) assume os valores:</p>
+</blockquote>
+
+<p>\[ C_1 = \begin{cases}
+2\times73.16+13.05\times 12 \times 6 = 1085.92, &amp; \mbox{com prob. 0.1} \\
+2\times73.16+13.05\times 12 \times 6+43.83=1129.75, &amp; \mbox{com prob. 0.9}
+\end{cases}
+\]</p>
+
+<blockquote>
+<p>\[\mathbb E(C_1)=1085.92\times 0.1+1129.75\times 0.9=1125.37\]</p>
+</blockquote>
+
+<ul class = 'build'>
+<li>\(C_2\): custo do plano 2 por 6 anos.</li>
+</ul>
+
+<p>\(C_2\) assume o valor \(17.28\times 12 \times 6= 1244.16\), com probabilidade 1</p>
+
+<blockquote>
+<p>\[\mathbb E(C_2)=1244.16\]</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Leituras</h2></hgroup><article  id="leituras">
+
+<ul>
+<li><a href='https://www.openintro.org/stat/textbook.php' title=''>OpenIntro</a>: seção 2.4.</li>
+<li><a href='http://www.sciencedirect.com/science/book/9780123743886' title=''>Ross</a>: seções 5.1, 5.2, 5.3.</li>
+<li>Magalhães: seção 3.1.</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-6">
+
+<p>Slides produzidos pelos professores:</p>
+
+<ul>
+<li><p>Samara Kiihl</p></li>
+<li><p>Tatiana Benaglia</p></li>
+<li><p>Benilton Carvalho</p></li>
+</ul></article></slide>
+
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "parte09_files/mathjax-local/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+<!-- map slide visiblity events into shiny -->
+<script>
+  (function() {
+    if (window.jQuery) {
+       window.jQuery(document).on('slideleave', function(e) {
+         window.jQuery(e.target).trigger('hidden');
+      });
+       window.jQuery(document).on('slideenter', function(e) {
+         window.jQuery(e.target).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+</body>
+</html>
