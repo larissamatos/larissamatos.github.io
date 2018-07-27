@@ -9,32 +9,58 @@ output:
 
 ### Graduação
 
-- ME111 - Laboratório de Estatística ([1S2018](me111.html))
+#### 2S2018
+
+- [ME414 - Estatística para Experimentalistas](me414.html)
 </br>
 
-- ME414 - Estatística para Experimentalistas (2S2017)
+- [ME710 - Assessoria Estatística](Disciplinas/EmentaME710_2s2018.pdf)
 </br>
 
-- ME639 -  Metodologias e Técnicas de Pesquisa ([1S2018](me639.html))
+- [ME712 -  Consultoria Estatística I](Disciplinas/EmentaME712e812_2s2018.pdf)
 </br>
 
-- ME710 - Assessoria Estatística ([1S2018](Disciplinas/EmentaME710_1s2018.pdf))
+- [ME810 - Estágio Supervisionado](Disciplinas/EmentaME810_2s2018.pdf)
 </br>
 
-- ME712 -  Consultoria Estatística I ([1S2018](Disciplinas/EmentaME712_1s2018.pdf))
+- [ME812 -  Consultoria Estatística II](Disciplinas/EmentaME712e812_2s2018.pdf)
 </br>
 
-- ME810 - Estágio Supervisionado ([1S2018](Disciplinas/EmentaME810_1s2018.pdf))
+- [ME850 - Seminários de Estatística](Disciplinas/EmentaME850_2s2018.pdf)
 </br>
 
-- ME850 - Seminários de Estatística ([1S2018](Disciplinas/EmentaME850_1s2018.pdf))
+#### 1S2018
+
+- [ME111 - Laboratório de Estatística](me111.html)
+</br>
+
+- [ME639 -  Metodologias e Técnicas de Pesquisa](me639.html)
+</br>
+
+- [ME710 - Assessoria Estatística](Disciplinas/EmentaME710_1s2018.pdf)
+</br>
+
+- [ME712 -  Consultoria Estatística I](Disciplinas/EmentaME712_1s2018.pdf)
+</br>
+
+- [ME810 - Estágio Supervisionado](Disciplinas/EmentaME810_1s2018.pdf)
+</br>
+
+- [ME850 - Seminários de Estatística](Disciplinas/EmentaME850_1s2018.pdf)
+</br>
+
+#### 2S2017
+
+- ME414 - Estatística para Experimentalistas
 </br>
 
 ---- 
 
 ### Pós-Graduação
 
-- MI416 - Introdução aos Modelos Lineares (2S2017)
+#### 2S2017
+
+- MI416 - Introdução aos Modelos Lineares 
 </br>
 
 ----

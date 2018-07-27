@@ -9,15 +9,7 @@ output:
 
 ----
 
-- **MATOS, LARISSA A.**; LACHOS, VICTOR H.; LIN, T.I.; CASTRO, LUIS M. . Heavy-tailed longitudinal regression models for censored data: A likelihood based perspective. RT 01 IMECC-UNICAMP, 2016.\medskip
+- LEMUS, MARCELA N.; LACHOS, VICTOR H.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.** . *Estimation and Diagnostics for Partially Censored Regression Models Based on Heavy-Tailed Distributions.* Technical Report, 18-02, University of Connecticut.
 </br>
 
-- **MATOS, LARISSA A.**; CABRAL, CELSO RÔMULO BARBOSA; LACHOS, VICTOR H.; CASTRO, LUIS M. . Multivariate Measurement Error Models Based on Student-t Distribution with Censored Responses.  Statistics.\medskip
-</br>
-
-- LACHOS, VICTOR H.; **MATOS, LARISSA A.**; CASTRO, LUIS M.; CHEN, MING-HUI. Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data.\medskip
-</br>
-
-- LEMUS, MARCELA N.; LACHOS, VICTOR H.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.** . Estimation and Diagnostics for Partially Censored Regression Models Based on Heavy-Tailed Distributions. Technical Report, 18-02, University of Connecticut.
-</br>
-
+- BARBOSA, T. S.; LACHOS, VICTOR H.; **MATOS, LARISSA A.**; PRATES, MARCOS O. (2016). *Estimation in Spatial Models with Censored Response.* 

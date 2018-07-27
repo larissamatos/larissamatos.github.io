@@ -7,9 +7,15 @@ output:
 
 ----
 
+**Primeiro Semestre de 2018**
+
+**Aulas:** Sextas (CB15), 14h00-16h00 
+
+----
+
 ### Ementa
 
-- [Ementa](Disciplinas/ME_639_1s2018/Aula1.pdf)
+- [Ementa](Disciplinas/ME_639_1s2018/Ementa.pdf)
 
 ---- 
 

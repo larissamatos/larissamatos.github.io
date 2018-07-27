@@ -9,9 +9,13 @@ output:
 
 ---- 
 
-- MATOS, LARISSA A.; PRATES, MARCOS O.; LACHOS, VICTOR H. (2011). tlmec: Linear Student-t Mixed-Effects Models with Censored Data. https://cran.r-project.org/web/packages/tlmec/index.html
+
+- LEMUS, MARCELA N.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2018). *PartCensReg: Partially Censored Regression Models Based on Heavy-Tailed Distributions.* https://cran.rproject.org/web/packages/PartCensReg/index.html
 </br>
 
-- LEMUS, MARCELA N.; GALARZA, CHRISTIAN E.; MATOS, LARISSA A.; LACHOS, VICTOR H. (2018). PartCensReg: Partially Censored Regression Models Based on Heavy-Tailed Distributions. https://cran.rproject.org/web/packages/PartCensReg/index.html
+- MASSUIA, MONIQUE B.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2015). *CensRegMod: Fits Normal and Student-t Censored Regression Model.*
+https://cran.r-project.org/web/packages/CensRegMod/index.html
 </br>
 
+- **MATOS, LARISSA A.**; PRATES, MARCOS O.; LACHOS, VICTOR H. (2011). *tlmec: Linear Student-t Mixed-Effects Models with Censored Data.* https://cran.r-project.org/web/packages/tlmec/index.html
+</br>
