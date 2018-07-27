@@ -45,7 +45,7 @@ output:
 **Atendimento**
 
 - Atendimento (Professor): Segundas, das 18h às 19h - Sala 234.
-- Atendimento PED (Francisco Hildemar): Quintas, das 18h às 19h.
+- Atendimento PED (Francisco Hildemar): Terças, das 18h às 19h.
 
 **Referências Bibliográficas**
 
