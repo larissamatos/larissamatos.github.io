@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ME414 - Estatística para Experimentalistas</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="generator" content="pandoc" />
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <base target="_blank">
+
+  <script type="text/javascript">
+    var SLIDE_CONFIG = {
+      // Slide settings
+      settings: {
+                title: 'ME414 - Estatística para Experimentalistas',
+                        subtitle: 'Parte 12',
+                useBuilds: true,
+        usePrettify: true,
+        enableSlideAreas: true,
+        enableTouch: true,
+                        favIcon: '../logo-imecc.png',
+              },
+
+      // Author information
+      presenters: [
+            ]
+    };
+  </script>
+
+  <link href="parte12_files/ioslides-13.5.1/fonts/fonts.css" rel="stylesheet" />
+  <link href="parte12_files/ioslides-13.5.1/theme/css/default.css" rel="stylesheet" />
+  <link href="parte12_files/ioslides-13.5.1/theme/css/phone.css" rel="stylesheet" />
+  <script src="parte12_files/ioslides-13.5.1/js/modernizr.custom.45394.js"></script>
+  <script src="parte12_files/ioslides-13.5.1/js/prettify/prettify.js"></script>
+  <script src="parte12_files/ioslides-13.5.1/js/prettify/lang-r.js"></script>
+  <script src="parte12_files/ioslides-13.5.1/js/prettify/lang-yaml.js"></script>
+  <script src="parte12_files/ioslides-13.5.1/js/hammer.js"></script>
+  <script src="parte12_files/ioslides-13.5.1/js/slide-controller.js"></script>
+  <script src="parte12_files/ioslides-13.5.1/js/slide-deck.js"></script>
+
+  <style type="text/css">
+
+    b, strong {
+      font-weight: bold;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    slides > slide {
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .auto-fadein {
+      -webkit-transition: opacity 0.6s ease-in;
+      -webkit-transition-delay: 0.4s;
+      -moz-transition: opacity 0.6s ease-in 0.4s;
+      -o-transition: opacity 0.6s ease-in 0.4s;
+      transition: opacity 0.6s ease-in 0.4s;
+      opacity: 0;
+    }
+
+    slides > slide:not(.nobackground):before {
+      font-size: 12pt;
+      content: "";
+      position: absolute;
+      bottom: 20px;
+      left: 60px;
+      background: url(../logo-imecc.png) no-repeat 0 50%;
+      -webkit-background-size: 30px 30px;
+      -moz-background-size: 30px 30px;
+      -o-background-size: 30px 30px;
+      background-size: 30px 30px;
+      padding-left: 40px;
+      height: 30px;
+      line-height: 1.9;
+    }
+  </style>
+
+
+</head>
+
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="title-slide segue nobackground">
+        <aside class="gdbar"><img src="/Users/imac/Dropbox/Me414-offline-slides/logo-imecc.png"></aside>
+        <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+          </hgroup>
+  </slide>
+
+<slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Variáveis Aleatórias Contínuas</h2></hgroup><article  id="variaveis-aleatorias-continuas">
+
+</article></slide><slide class=''><hgroup><h2>Variáveis Aleatórias Contínuas</h2></hgroup><article  id="variaveis-aleatorias-continuas-1" class="build">
+
+<ul class = 'build'>
+<li>Variáveis aleatórias discretas: v.a. com valores possíveis enumeráveis. Soma das probabilidades de todos os valores possíveis igual a \(1\).</li>
+</ul>
+
+<ul class = 'build'>
+<li>Variáveis aleatórias contínuas: v.a. com valores possíveis em um intervalo no conjunto de números reais.</li>
+</ul>
+
+<ul class = 'build'>
+<li>Exemplo: tempo para finalizar um experimento, peso de uma pessoa, duração de uma chamada telefônica, tempo de vida de uma lâmpada, etc&#8230;</li>
+</ul>
+
+<ul class = 'build'>
+<li>Para esses tipos de quantidades, não é possível associar frequências pontuais tais que a soma de todas seja igual a 1.</li>
+</ul>
+
+<ul class = 'build'>
+<li>Surge então o conceito de &quot;função de densidade de probabilidade&quot; (f.d.p.).</li>
+</ul>
+
+<ul class = 'build'>
+<li>Para cada v.a. contínua, associamos uma função de densidade de probabilidade.</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: v.a. discreta</h2></hgroup><article  id="exemplo-v.a.-discreta">
+
+<p>Distribuição de probabilidade de uma \(Bin(10, p)\), com \(p=0.2, 0.5\) e \(0.8\).</p>
+
+<center>
+
+<img src="parte12_files/figure-html/unnamed-chunk-1-1.png" width="864" />
+
+</center>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: v.a. discreta</h2></hgroup><article  id="exemplo-v.a.-discreta-1">
+
+<center>
+
+<img src="parte12_files/figure-html/unnamed-chunk-2-1.png" width="480" />
+
+</center>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: v.a. contínua</h2></hgroup><article  id="exemplo-v.a.-continua">
+
+<center>
+
+<img src="parte12_files/figure-html/unnamed-chunk-3-1.png" width="960" />
+
+</center>
+
+</article></slide><slide class=''><hgroup><h2>Variáveis Aleatórias Contínuas</h2></hgroup><article  id="variaveis-aleatorias-continuas-2" class="build">
+
+<p><strong>Definição:</strong> a função de densidade de probabilidade de uma v.a. \(X\) é uma função \(f\) que verifica:</p>
+
+<ul class = 'build'>
+<li>\(f(x)\geq0 \quad \forall x\in \mathbb{R}\)</li>
+</ul>
+
+<ul class = 'build'>
+<li>\(\int_{-\infty}^{\infty}f(x)dx=1\) (\(f\) é integrável)</li>
+</ul>
+
+<blockquote>
+<p>Toda v.a. \(X\) à qual seja possível associar uma função de densidade de probabilidade será chamada de v.a. contínua.</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Variáveis Aleatórias Contínuas</h2></hgroup><article  id="variaveis-aleatorias-continuas-3" class="build smaller">
+
+<p>A probabilidade de que uma v.a. \(X\) contínua pertença a um intervalo da reta (a,b], \(a&lt;b\) é dada por:<br/>\[P(a&lt;X\leq b)=\int_{a}^{b}f(x)dx\]</p>
+
+<center>
+
+<img src="parte12_files/figure-html/unnamed-chunk-4-1.png" width="384" />
+
+</center>
+
+<p>Obs: \(P(a&lt;X\leq b)=P(a\leq X\leq b)=P(a&lt;X&lt; b)=P(a\leq X &lt;b)\) quando \(X\) é v.a. contínua.</p>
+
+</article></slide><slide class=''><hgroup><h2>Variáveis Aleatórias Contínuas</h2></hgroup><article  id="variaveis-aleatorias-continuas-4" class="build">
+
+<p><strong>Notação:</strong> se \(X\) v.a. contínua com função de densidade de probabilidade \(f\), no lugar de \(f\) denotaremos \(f_{X}\).</p>
+
+<blockquote>
+<p>À probabilidade de que uma v.a. \(X\) contínua pertença ao intervalo da reta (\(-\infty,x\)] daremos o nome de <strong>função de distribuição acumulada</strong> (f.d.a.), e a denotaremos por \(F_{X}\) \[F_{X}(x)=\int_{-\infty}^{x}f(u)du=P(X\leq x)\]</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Variáveis Aleatórias Contínuas</h2></hgroup><article  id="variaveis-aleatorias-continuas-5" class="build">
+
+<p>Exemplo: \(X\) v.a. contínua com função de densidade:</p>
+
+<p>\[ f_{X}(x) = \left\{
+\begin{array}{ll}
+x, &amp; 0\leq x &lt; 1 \\
+2-x, &amp; 1 \leq x \leq 2 \\
+0, &amp; \mbox{caso contrário} \\
+\end{array}
+\right.\]</p>
+
+<blockquote>
+<p>Pela definição de função de densidade:</p>
+</blockquote>
+
+<ul class = 'build'>
+<li>\(f(x)\geq0\quad \forall\, x\in \mathbb{R}\)</li>
+</ul>
+
+<ul class = 'build'>
+<li>\(\displaystyle \int_{0}^{2}f(x)dx= \int_{0}^{1}xdx + \int_{1}^{2}(2-x)dx =1\)</li>
+</ul>
+
+<ul class = 'build'>
+<li>Podemos também calcular \(\displaystyle P(0&lt;X\leq 0.8) = \int_{0}^{0.8}xdx=0.32\)</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Variáveis Aleatórias Contínuas</h2></hgroup><article  id="variaveis-aleatorias-continuas-6" class="build">
+
+<p><strong>Propriedade:</strong> toda v.a. \(X\) contínua (ou seja, que possui \(f_{X}\) como função de densidade) tem probabilidade pontual nula: \(P(X=x)=0\).</p>
+
+<blockquote>
+<p>Resumindo: \(F(x)=P(X\leq x)\)</p>
+</blockquote>
+
+<ul>
+<li>caso discreto: \(\displaystyle F(x)=P(X \leq x)=\sum_{x_{i}\leq x}P(X=x_{i})\)<br/></li>
+<li>caso contínuo: \(\displaystyle F(x)=P(X \leq x)=\int_{-\infty}^{x}f_{X}(u)du\)</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo">
+
+<p>Dada a função</p>
+
+<p>\[
+f(x) = \left\{
+\begin{array}{rcl}
+0 &amp; \mbox{se} &amp; x &lt; 0\\
+2e^{-2x} &amp; \mbox{se} &amp; x \geq 0 \\
+\end{array}
+\right.
+\]</p>
+
+<ol>
+<li><p>Mostre que esta é uma função de densidade de probabilidade.</p></li>
+<li><p>Calcule a probabilidade de \(X&gt;10\).</p></li>
+</ol>
+
+<p><em>Fonte: Morettin &amp; Bussab</em>, Estatística Básica \(5^a\) edição, pág 166.</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo (solução - item 1)</h2></hgroup><article  id="exemplo-solucao---item-1" class="build">
+
+<p>Uma função de densidade de probabilidade deve satisfazer as seguintes propriedades:</p>
+
+<ol>
+<li><p>\(f(x)\geq0\) para todo \(x \in \mathbb{R}\).</p></li>
+<li><p>\(\displaystyle \int_{-\infty}^{\infty} f(x) dx = 1\).</p></li>
+</ol>
+
+<blockquote>
+<p>Note que \(e^{-x}\) é positiva para qualquer \(x\) e, consequentemente, \(2e^{-2x}\) também.</p>
+</blockquote>
+
+<blockquote>
+<p>Resta mostrar que sua integral é 1:</p>
+</blockquote>
+
+<p>\[ \int 2e^{-2x} dx   = -e^{-2x}\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo (solução - item 1)</h2></hgroup><article  id="exemplo-solucao---item-1-1" class="build">
+
+<p>Note que a função está definida nesta forma para \(x \geq 0\); para \(x&lt;0\), ela é 0.</p>
+
+<p>Então a integral é:</p>
+
+<p>\[ \int_{-\infty}^{\infty} f(x) dx =   \int_{-\infty}^0 0 dx +   \int_0^{\infty} 2e^{-2x} dx = \]</p>
+
+<p>\[ = \left [  -e^{-2x} \right ] _{0}^{\infty}   = \lim_{x\rightarrow \infty} -e^{-2x} - \left ( -e^{-0} \right) = 1 \]</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo (solução - item 2)</h2></hgroup><article  id="exemplo-solucao---item-2" class="build">
+
+<p>A probabilidade é dada por: \[P(X&gt;10) = \int_{10}^{\infty} 2e^{-2x} dx  = \lim_{x\rightarrow \infty} -e^{-2x} - \left ( -e^{-2 \times 10} \right) = \frac{1}{e^{20}}\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Esperança</h2></hgroup><article  id="esperanca" class="build">
+
+<p><strong>Definição:</strong> seja \(X\) uma v.a. contínua com densidade \(f_{X}\), a <strong>esperança</strong> de \(X\) é dada por: \[E(X)= \int_{-\infty}^{\infty}x\,f_{X}(x)dx\,.\]</p>
+
+<blockquote>
+<p><strong>Definição:</strong> seja \(X\) uma v.a. contínua com densidade \(f_{X}\), o <strong>\(k\)-ésimo momento</strong> de \(X\) é dado por:</p>
+</blockquote>
+
+<p>\[E(X^k)= \int_{-\infty}^{\infty}x^k\,f_{X}(x)dx\,.\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Variância</h2></hgroup><article  id="variancia" class="build">
+
+<p><strong>Definição:</strong> seja \(X\) v.a. com valor esperado \(E(X)\), definimos por <strong>variância</strong>, a quantidade:</p>
+
+<p>\[Var(X)=  E([X-E(X)]^2)=  E(X^2)-[E(X)]^2\,.\]</p>
+
+<blockquote>
+<p>E definimos como <strong>desvio padrão</strong>: \[\sigma(X)=  \sqrt{Var(X)}\]</p>
+</blockquote>
+
+<blockquote>
+<p>Note que assim como no caso discreto, ambas as quantidades oferecem medidas de dispersão da variável \(X\) em relação ao valor esperado \(E(X)\).</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-1">
+
+<p>Para a função \(f_{X}\), calcular:</p>
+
+<ul>
+<li>\(E(X)\)</li>
+<li>\(Var(X)\)</li>
+</ul>
+
+<p>\[ f_{X}(x) = \left\{
+\begin{array}{ll}
+x, &amp; 0\leq x &lt; 1 \\
+2-x, &amp; 1 \leq x \leq 2 \\
+0, &amp; \mbox{caso contrário} \\
+\end{array}
+\right.\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-2">
+
+<p>\[ f_{X}(x) = \left\{
+\begin{array}{ll}
+x, &amp; 0\leq x &lt; 1 \\
+2-x, &amp; 1 \leq x \leq 2 \\
+0, &amp; \mbox{caso contrário} \\
+\end{array}
+\right.\]</p>
+
+<p>\[E(X)= \int_{-\infty}^{\infty}xf_{X}(x)dx= \int_{0}^{1}x^{2}dx+ \int_{1}^{2}x(2-x)dx= 1\]</p>
+
+<p>\[Var(X)= \int_{-\infty}^{\infty}[x-E(X)]^{2}f_{X}(x)dx= \int_{-\infty}^{\infty}[x-1]^{2}f_{X}(x)dx =\frac{1}{6}\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-3">
+
+<p>Uma variável aleatória \(X\) tem distribuição triangular no intervalo \([0,1]\) se sua f.d.p. for dada por</p>
+
+<p>\[
+f(x) = \left\{
+\begin{array}{rcl}
+0 &amp; \mbox{se} &amp; x &lt; 0\\
+Cx &amp; \mbox{se} &amp; 0 \leq x \leq 1/2 \\
+C(1-x) &amp; \mbox{se} &amp; 1/2 \leq x \leq 1 \\
+0 &amp; \mbox{se} &amp; x &gt; 1\\
+\end{array}
+\right.
+\]</p>
+
+<ol>
+<li>Qual valor deve ter a constante C?<br/></li>
+<li>Faça o gráfico de \(f(x)\).<br/></li>
+<li>Determine \(P(X \leq 1/2)\), \(P(X &gt; 1/2)\) e \(P(1/4 \leq X \leq 3/4)\).</li>
+</ol>
+
+<p><em>Fonte:</em> Morettin &amp; Bussab, Estatística Básica \(5^a\) edição, pág 166.</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-4" class="smaller build">
+
+<p>Item 1 - Devemos escolher \(C\) de modo que \(f(x)\) satisfaça:</p>
+
+<ul>
+<li><p>\(f(x)\geq0\) para todo \(x \in \mathbb{R}\).</p></li>
+<li><p>\(\int_{-\infty}^{\infty} f(x) dx = 1\).</p></li>
+</ul>
+
+<blockquote>
+<p>Pela primeira condição, temos que \(C&gt;0\). Agora, para que \(C\) satisfaça a segunda condição, devemos integrar \(f(x)\):</p>
+</blockquote>
+
+<p>\[
+\begin{aligned}
+\int_{-\infty}^{\infty} f(x) dx &amp;=   \int_{-\infty}^{0}\!\! 0 dx +  \int_0^{1/2}\!\! Cx dx + \int_{1/2}^1\!\! C(1-x) dx + \int_{1}^{\infty}\!\! 0dx \\  
+&amp; = C \int_0^{1/2}\!\! x dx + C \int_{1/2}^1\!\! (1-x) dx = C \left ( \left[ \frac{x^2}{2} \right]_0^{1/2} + \left[ x- \frac{x^2}{2} \right]_{1/2}^1 \right) \\
+&amp; = C \left( \frac{1}{8} + 1 - \frac{1}{2} - \frac{1}{2} + \frac{1}{8} \right) = \frac{C}{4} \Rightarrow C \mbox{ deve ser igual a 4.} 
+\end{aligned}
+\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-5">
+
+<p>Item 2 - Função de densidade \(f(x)\)</p>
+
+<center>
+
+<img src="parte12_files/figure-html/unnamed-chunk-5-1.png" width="576" />
+
+</center>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-6" class="smaller build">
+
+<p>Item 3 - Para encontrarmos as probabilidades dos eventos, basta integrar nas regiões correspondentes: \[P(X\leq 1/2) =   \int_0 ^{1/2} f(x)dx = \int_0 ^{1/2} 4x dx =   1/2 \,. \]</p>
+
+<center>
+
+<img src="parte12_files/figure-html/unnamed-chunk-6-1.png" width="480" />
+
+</center>
+
+<blockquote>
+<p>Note que \(P(X&gt;1/2) = 1-P(X\leq 1/2) = 1-1/2 = 1/2\).</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-7">
+
+<p>\[P(1/4 \leq X \leq 3/4) =   \int_{1/4} ^{3/4} f(x)dx = \int_{1/4} ^{1/2} 4xdx +   \int_{1/2} ^{3/4} 4(1-x)dx =   \frac{3}{4}\,.\]</p>
+
+<center>
+
+<img src="parte12_files/figure-html/unnamed-chunk-7-1.png" width="528" />
+
+</center>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-8" class="build">
+
+<p>Calcule a esperança, a variância e a f.d.a. da variável aleatória \(X\) com a densidade triangular em \([0,1]\).</p>
+
+<p><em>Fonte:</em> Morettin &amp; Bussab, Estatística Básica \(5^a\) edição, pág 171.</p>
+
+<p>\[
+\begin{aligned}
+E(X) &amp;= \int_{-\infty}^{\infty} \!\! x f(x) dx =  \int_0^{1/2} \! 4x^2dx +  \int_{1/2}^{1} \! 4x(1-x)dx\\ 
+&amp; = \left[ \frac{4x^3}{3} \right]_0^{1/2} +  \left[ \frac{2}{3} x^2(3-2x) \right]_{1/2}^{1} =  \frac{1}{2}
+\end{aligned}
+\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-9">
+
+<p>\[
+\begin{aligned}
+\mbox{Var}(X)&amp; = \int_{-\infty}^{\infty} \!\! (x-E(X))^2 f(x) dx \\
+&amp;=  \int_0^{1/2} \! 4 \left(x-\frac{1}{2}\right)^2 \! xdx +   \int_{1/2}^{1} \! 4 \left(x-\frac{1}{2}\right)^2 \! (1-x)dx\\
+&amp;=  \left[ x^4-\frac{4}{3}x^3 +  \frac{1}{2}x^2 \right]_0^{1/2} +   \left[ -x^4+\frac{8}{3}^3-\frac{5}{2}x^2 +x \right]_{1/2}^{1}\\
+&amp;=  \frac{1}{24}
+\end{aligned}
+\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-10" class="build">
+
+<p>A função de distribuição acumulada de uma variável aleatória contínua é dada por \[F(x) = \int_{-\infty}^x f(t) dt\]</p>
+
+<blockquote>
+<p>Temos que para \(x \in [0,1/2)\), \(F(x)\) é dada por \[F(x) = \int_0^x 4t dt = 2x^2\]</p>
+</blockquote>
+
+<blockquote>
+<p>Para \(x \in [1/2,1]\), a acumulada é dada por \[F(x) = \int_0^{1/2} 4t dt + \int_{1/2}^x 4(1-t)dt = -2x^2 + 4x -1\]</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-11">
+
+<p>Para valores de \(x \geq 1\), a acumulada assume valor 1. O gráfico de \(F(x)\) é dado por:</p>
+
+<center>
+
+<img src="figuras/acum.png" width=500>
+
+</center>
+
+</article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Distribuição Uniforme</h2></hgroup><article  id="distribuicao-uniforme">
+
+</article></slide><slide class=''><hgroup><h2>Uniforme</h2></hgroup><article  id="uniforme" class="build">
+
+<ul>
+<li>Dizemos que a v.a. \(X\) tem distribuição Uniforme no intervalo \([a,b]\), \(a&lt;b\) se a função de densidade de probabilidade \(f_{X}\) é dada por:</li>
+</ul>
+
+<p>\[ f_{X}(x) = \left\{
+\begin{array}{ll}
+\frac{1}{b-a}, &amp; a \leq x \leq b \\
+0, &amp; \mbox{caso contrário} \\
+\end{array}
+\right.\]</p>
+
+<ul>
+<li><p>Notação: \(X \sim U[a,b]\) ou \(X \sim U(a,b)\).</p></li>
+<li><p>Cálculo da função de distribuição acumulada:</p></li>
+</ul>
+
+<p>\[ F_{X}(x) = \left\{
+\begin{array}{ll}
+0, &amp; x &lt; a \\
+\int_{a}^{x}\frac{1}{b-a}dt=\frac{x-a}{b-a}, &amp; a \leq x \leq b \\
+1, &amp; x &gt; b \\
+\end{array}
+\right.\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Uniforme</h2></hgroup><article  id="uniforme-1">
+
+<p>Gráficos da função de densidade de probabilidade e da função de distribuição acumulada:</p>
+
+<center>
+
+<img src="figuras/graph1.png" width=700>
+
+</center>
+
+</article></slide><slide class=''><hgroup><h2>Esperança de Variância</h2></hgroup><article  id="esperanca-de-variancia" class="build">
+
+<ul>
+<li>Cálculo da \(E(X)\):</li>
+</ul>
+
+<p>\[E(X)= \int_{a}^{b}x\frac{1}{(b-a)}dx=\frac{(b+a)}{2}\]</p>
+
+<ul class = 'build'>
+<li>Cálculo da \(Var(X)\):</li>
+</ul>
+
+<p>\[E(X^{2})= \int_{a}^{b}x^{2}\frac{1}{(b-a)}dx= \frac{(a^{2}+ab+b^{2})}{3}\]</p>
+
+<p>\[Var(X)=E(X^{2})-[E(X)]^{2}= \frac{(a^{2}+ab+b^{2})}{3}-\frac{(b+a)^{2}}{4}= \frac{(b-a)^{2}}{12}\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: peça de aço</h2></hgroup><article  id="exemplo-peca-de-aco">
+
+<p>A dureza \(H\) de uma peça de aço pode ser pensada como uma v.a. com distribuição uniforme no intervalo \([50,70]\) da escala de Rockwel. Calcule a probabilidade de que uma peça tenha dureza entre 55 e 60.</p>
+
+<p>\[ f_{H}(h) = \left\{
+\begin{array}{ll}
+\frac{1}{70-50}=\frac{1}{20}, &amp; 50 \leq x \leq 70 \\
+0, &amp; \mbox{caso contrário} \\
+\end{array}
+\right.\]</p>
+
+<p>\[P(55&lt;H&lt;60)= \int_{55}^{60}\frac{1}{20}dh= \frac{1}{20}(60-55)= \frac{1}{4}\,.\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-12">
+
+<p>Seja \(X\) uma variável aleatória distribuída uniformemente, com média 15 e variância 25/3.</p>
+
+<ul>
+<li><p>Encontre a função de densidade de \(X\).</p></li>
+<li><p>Qual é a probabilidade que \(X &gt; 14\)?</p></li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-13" class="build">
+
+<p>Lembre-se que a esperança de uma v.a. uniforme em \([a,b]\) é dada por \[E(X) = \frac{a+b}{2}\] e sua variância por \[\mbox{Var}(X) = \frac{(b-a)^2}{12}\]</p>
+
+<blockquote>
+<p>Temos o seguinte sistema, portanto:</p>
+</blockquote>
+
+<p>\[
+\left\{
+\begin{array}{lcr}
+\frac{a+b}{2} &amp;=&amp; 15 \\
+\frac{(b-a)^2}{12} &amp;=&amp; \frac{25}{3} \\
+\end{array}
+\right.
+\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-14" class="build">
+
+<p>\[
+\left\{
+\begin{array}{lcr}
+a+b &amp;=&amp; 30 \\
+(b-a)^2 &amp;=&amp; 100 \\
+\end{array}
+\right.
+\]</p>
+
+<blockquote>
+<p>Ou simplesmente (você é capaz de dizer por que tomamos a raiz positiva apenas, neste sistema não-linear?)</p>
+</blockquote>
+
+<p>\[
+\left\{
+\begin{array}{ccr}
+a  +  b &amp; = &amp; 30 \\
+b  -  a &amp; = &amp; 10 \\
+\end{array}
+\right.
+\]</p>
+
+<blockquote>
+<p>O sistema tem solução \(a=10\), \(b=20\), o que nos mostra que \(X \sim U[10,20]\) e</p>
+</blockquote>
+
+<p>\[ f_{X}(x) = \left\{
+\begin{array}{ll}
+\frac{1}{10}, &amp; 10 \leq x \leq 20 \\
+0, &amp; \mbox{caso contrário} \\
+\end{array}
+\right.\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-15">
+
+<p>A probabilidade de que \(X&gt;14\) é dada por \[P(X&gt;14) =   \int_{14}^{20}\frac{1}{10}dx =  \frac{(20-14)}{10} = 0.6\]</p>
+
+</article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Distribuição Exponencial</h2></hgroup><article  id="distribuicao-exponencial">
+
+</article></slide><slide class=''><hgroup><h2>Exponencial</h2></hgroup><article  id="exponencial" class="build">
+
+<ul class = 'build'>
+<li>Dizemos que uma v.a. \(X\) possui distribuição exponencial com parâmetro \(\lambda\) (\(\lambda&gt;0\)) se a função de densidade de probabilidade \(f_{X}\) é dada por:</li>
+</ul>
+
+<p>\[ f_{X}(x) = \left\{
+\begin{array}{ll}
+\lambda e^{-\lambda x}, &amp; x \geq 0 \\
+0, &amp; \mbox{caso contrário} \\
+\end{array}
+\right.\]</p>
+
+<ul class = 'build'>
+<li>Notação: \(X \sim exp(\lambda)\).</li>
+</ul>
+
+<ul class = 'build'>
+<li>Cálculo da função de distribuição acumulada:</li>
+</ul>
+
+<p>\[ F_{X}(x) = \left\{
+\begin{array}{ll}
+\int_{0}^{x}\lambda e^{-\lambda t}dt=1-e^{-\lambda x}, &amp; x \geq 0 \\
+0, &amp; \mbox{caso contrário} \\
+\end{array}
+\right.\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Distribuição Exponencial</h2></hgroup><article  id="distribuicao-exponencial-1">
+
+<p>Gráficos da função de densidade de probabilidade (esquerda) e da função de distribuição acumulada (direita) de \(X \sim Exp(0.5)\):</p>
+
+<center>
+
+<img src="parte12_files/figure-html/unnamed-chunk-8-1.png" width="432" /><img src="parte12_files/figure-html/unnamed-chunk-8-2.png" width="432" />
+
+</center>
+
+</article></slide><slide class=''><hgroup><h2>Esperança de Variância</h2></hgroup><article  id="esperanca-de-variancia-1" class="build">
+
+<ul>
+<li>Cálculo da \(E(X)\):</li>
+</ul>
+
+<p>\[E(X)=\int_{0}^{\infty}x\lambda e^{-\lambda x}dx=\frac{1}{\lambda}\]</p>
+
+<ul class = 'build'>
+<li>Cálculo da \(Var(X)\):</li>
+</ul>
+
+<p>\[E(X^{2})=\int_{0}^{\infty}x^{2}\lambda e^{-\lambda x}dx=\frac{2}{\lambda^{2}}\]</p>
+
+<blockquote>
+<p>\[Var(X)=E(X^{2})-[E(X)]^{2}=\frac{2}{\lambda^{2}}-\frac{1}{\lambda^{2}}=\frac{1}{\lambda^{2}}\]</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: componente eletrônico</h2></hgroup><article  id="exemplo-componente-eletronico">
+
+<p>O tempo de vida, \(X\), em horas, de um componente eletrônico segue uma distribuição exponencial de tal forma que \(P(X\leq 1000) = 0.75\).</p>
+
+<p>Qual é o tempo médio de vida do componente?</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: componente eletrônico</h2></hgroup><article  id="exemplo-componente-eletronico-1" class="build">
+
+<p>Sabemos que se \(X \sim exp(\lambda)\), então \[F(x) = P(X \leq x) = 1-e^{-\lambda x}\] e \(E(X) = \lambda^{-1}\).</p>
+
+<blockquote>
+<p>Basta então observarmos que</p>
+</blockquote>
+
+<p>\[P(X \leq 1000) = 1 - e^{-\lambda 1000} = 0.75 \quad \Leftrightarrow \quad \lambda = \frac{\ln(4)}{1000} = 0.0013863\]</p>
+
+<blockquote>
+<p>Concluimos então que o tempo médio de vida, \(E(X)\), é igual a \(1/0.0013863 = 721.3475\) horas, e que \(75\%\) dos componentes duram 1000 horas ou menos.</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: tubos de TV</h2></hgroup><article  id="exemplo-tubos-de-tv" class="build">
+
+<p>Um antiga fábrica de tubos de TV determinou que a vida média dos tubos de sua fabricação é de \(800\) horas de uso contínuo e segue uma distribuição exponencial.</p>
+
+<blockquote>
+<p>Qual a probabilidade de que a fábrica tenha que substituir um tubo gratuitamente, se oferece uma garantia de \(300\) horas de uso?</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: tubos de TV</h2></hgroup><article  id="exemplo-tubos-de-tv-1" class="build smaller">
+
+<p>\(X\): vida útil do tubo de TV.</p>
+
+<blockquote>
+<p>\(E[X]= 800\). Como \(X\) tem distribuição exponencial com parâmetro \(\lambda\), \(E[X]= \frac{1}{\lambda}=800\), portanto \(\lambda= \frac{1}{800}\).</p>
+</blockquote>
+
+<p>\[ f_{X}(x) = \left\{
+\begin{array}{ll}
+\lambda e^{-\lambda x}, &amp; x \geq 0 \\
+0, &amp; \mbox{caso contrário} \\
+\end{array}
+\right.\]</p>
+
+<blockquote>
+
+</blockquote>
+
+<p>\[ f_{X}(x) = \left\{
+\begin{array}{ll}
+\frac{1}{800} e^{-\frac{x}{800}}, &amp; x \geq 0 \\
+0, &amp; \mbox{caso contrário} \\
+\end{array}
+\right.\]</p>
+
+<blockquote>
+<p>Se \(X&lt;300\), a fábrica tem que substituir gratuitamente.</p>
+</blockquote>
+
+<p>\[P(X&lt;300)= \int_0^{300}\frac{1}{800}e^{-\frac{x}{800}}dx =\left[-e^{-\frac{x}{800}} \right]_0^{300}= 0.3127\,.\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: produto alimentício</h2></hgroup><article  id="exemplo-produto-alimenticio" class="build">
+
+<p>A f.d.p. \[ f_{X}(x) = \left\{
+\begin{array}{ll}
+2 e^{-2 x}, &amp; x \geq 0 \\
+0, &amp; \mbox{caso contrário} \\
+\end{array}
+\right.\]</p>
+
+<p>representa a distribuição do índice de acidez (\(X\)) de um determinado produto alimentício.</p>
+
+<blockquote>
+<p>O produto é consumível se este índice for menor do que \(2\).</p>
+</blockquote>
+
+<blockquote>
+<p>O setor de fiscalização apreendeu \(30\) unidades do produto. Qual a probabilidade de que pelo menos \(10\%\) da amostra seja imprópria para consumo?</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: produto alimentício</h2></hgroup><article  id="exemplo-produto-alimenticio-1" class="build smaller">
+
+<p>Produto liberado para consumo se: \(P(X&lt;2)= \int_0^22 e^{-2 x}dx= \left[-e^{-2x} \right]_0^{2}=0.98\).</p>
+
+<blockquote>
+<p>Produto não consumível com probabilidade \(1-P(X&lt;2)= 0.02= p\).</p>
+</blockquote>
+
+<blockquote>
+<p>\(Y\): número de unidades impróprias para consumo na amostra de 30.</p>
+</blockquote>
+
+<blockquote>
+<p>\(Y\sim \mbox{Bin}(30,0.02)\).</p>
+</blockquote>
+
+<p>Probabilidade de que pelo menos 10% de uma amostra de 30 unidades seja imprópria:</p>
+
+<p>\[
+\begin{aligned}
+P(Y\geq3)&amp;= 1-P(Y&lt;3)=1-[P(Y=0)+P(Y=1)+P(Y=2)]\\
+&amp;= 1-\left[\binom{30}{0}(0.02)^0(0.98)^{30} + \binom{30}{1}(0.02)^1(0.98)^{29}+\binom{30}{2}(0.02)^2(0.98)^{28} \right]\\
+&amp;= 0.022\,.
+\end{aligned}
+\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Leituras</h2></hgroup><article  id="leituras">
+
+<ul>
+<li><a href='http://www.sciencedirect.com/science/article/pii/B9780123743886000065' title=''>Ross</a>: seções 6.1 e 6.2.</li>
+<li>Magalhães: capítulo 6.</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section">
+
+<p>Slides produzidos pelos professores:</p>
+
+<ul>
+<li><p>Samara Kiihl</p></li>
+<li><p>Tatiana Benaglia</p></li>
+<li><p>Benilton Carvalho</p></li>
+</ul></article></slide>
+
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "parte12_files/mathjax-local/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+<!-- map slide visiblity events into shiny -->
+<script>
+  (function() {
+    if (window.jQuery) {
+       window.jQuery(document).on('slideleave', function(e) {
+         window.jQuery(e.target).trigger('hidden');
+      });
+       window.jQuery(document).on('slideenter', function(e) {
+         window.jQuery(e.target).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+</body>
+</html>

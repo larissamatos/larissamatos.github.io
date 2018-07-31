@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ME414 - Estatística para Experimentalistas</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="generator" content="pandoc" />
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <base target="_blank">
+
+  <script type="text/javascript">
+    var SLIDE_CONFIG = {
+      // Slide settings
+      settings: {
+                title: 'ME414 - Estatística para Experimentalistas',
+                        subtitle: 'Parte 10',
+                useBuilds: true,
+        usePrettify: true,
+        enableSlideAreas: true,
+        enableTouch: true,
+                        favIcon: '../logo-imecc.png',
+              },
+
+      // Author information
+      presenters: [
+            ]
+    };
+  </script>
+
+  <link href="parte10_files/ioslides-13.5.1/fonts/fonts.css" rel="stylesheet" />
+  <link href="parte10_files/ioslides-13.5.1/theme/css/default.css" rel="stylesheet" />
+  <link href="parte10_files/ioslides-13.5.1/theme/css/phone.css" rel="stylesheet" />
+  <script src="parte10_files/ioslides-13.5.1/js/modernizr.custom.45394.js"></script>
+  <script src="parte10_files/ioslides-13.5.1/js/prettify/prettify.js"></script>
+  <script src="parte10_files/ioslides-13.5.1/js/prettify/lang-r.js"></script>
+  <script src="parte10_files/ioslides-13.5.1/js/prettify/lang-yaml.js"></script>
+  <script src="parte10_files/ioslides-13.5.1/js/hammer.js"></script>
+  <script src="parte10_files/ioslides-13.5.1/js/slide-controller.js"></script>
+  <script src="parte10_files/ioslides-13.5.1/js/slide-deck.js"></script>
+
+  <style type="text/css">
+
+    b, strong {
+      font-weight: bold;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    slides > slide {
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .auto-fadein {
+      -webkit-transition: opacity 0.6s ease-in;
+      -webkit-transition-delay: 0.4s;
+      -moz-transition: opacity 0.6s ease-in 0.4s;
+      -o-transition: opacity 0.6s ease-in 0.4s;
+      transition: opacity 0.6s ease-in 0.4s;
+      opacity: 0;
+    }
+
+    slides > slide:not(.nobackground):before {
+      font-size: 12pt;
+      content: "";
+      position: absolute;
+      bottom: 20px;
+      left: 60px;
+      background: url(../logo-imecc.png) no-repeat 0 50%;
+      -webkit-background-size: 30px 30px;
+      -moz-background-size: 30px 30px;
+      -o-background-size: 30px 30px;
+      background-size: 30px 30px;
+      padding-left: 40px;
+      height: 30px;
+      line-height: 1.9;
+    }
+  </style>
+
+
+</head>
+
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="title-slide segue nobackground">
+        <aside class="gdbar"><img src="/Users/imac/Dropbox/Me414-offline-slides/logo-imecc.png"></aside>
+        <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+          </hgroup>
+  </slide>
+
+<slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Esperança e Variância - variável aleatória discreta</h2></hgroup><article  id="esperanca-e-variancia---variavel-aleatoria-discreta">
+
+</article></slide><slide class=''><hgroup><h2>Variância: variável aleatória discreta</h2></hgroup><article  id="variancia-variavel-aleatoria-discreta" class="build">
+
+<ul>
+<li>Vimos que a esperança nos dá a média ponderada de todos os resultados possíveis de uma v.a..</li>
+</ul>
+
+<ul class = 'build'>
+<li>No entanto, a esperança não descreve a dispersão dos dados.</li>
+</ul>
+
+<ul class = 'build'>
+<li>Considere as seguintes v.a.&#39;s:</li>
+</ul>
+
+<blockquote>
+<p>\[U=0, \mbox{ com probabilidade 1}\] \[ V=  \begin{cases} 
+-1, &amp; \mbox{com prob. 1/2} \\
+\;\; 1, &amp; \mbox{com prob. 1/2}
+\end{cases}
+\quad \mbox{e} \quad W=  \begin{cases} 
+-10, &amp; \mbox{com prob. 1/2} \\
+\;\; 10, &amp; \mbox{com prob. 1/2}
+\end{cases}
+\]</p>
+</blockquote>
+
+<blockquote>
+<p>\[\mathbb E(U)=\mathbb E(V)=\mathbb E(W)=0\]</p>
+</blockquote>
+
+<blockquote>
+<p>No entanto, claramente a dispersão é bem diferente para as três variáveis.</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Variância: variável aleatória discreta</h2></hgroup><article  id="variancia-variavel-aleatoria-discreta-1" class="build">
+
+<p>Queremos uma medida para quantificar quão distantes os valores da v.a. \(X\) estão da sua esperança.</p>
+
+<blockquote>
+<p><strong>Definição:</strong> Se \(X\) é uma v.a. com esperança \(\mathbb E(X)=\mu\), então a variância de \(X\) é: \[Var(X)=\mathbb E[(X-\mu)^2]\]</p>
+</blockquote>
+
+<blockquote>
+<p><strong>Notação:</strong> \(\sigma^2 = Var(X)\)</p>
+</blockquote>
+
+<ul class = 'build'>
+<li>Se \(X\) é uma v.a. discreta assumindo valores \(x_1, x_2, \ldots, x_n\) com respectivas probabilidades \(P(X=x_i) = p_i\), então:</li>
+</ul>
+
+<blockquote>
+<p>\[Var(X) = \sum_{i=1}^n (x_i - \mu)^2 p_i\]</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Propriedade Geral da Variância</h2></hgroup><article  id="propriedade-geral-da-variancia" class="build">
+
+<p><strong>Definição:</strong> \(Var(X)=\mathbb E([X-\mathbb E(X)]^{2})\)</p>
+
+<blockquote>
+<p>Uma forma alternativa de calcular a variância é usando a fórmula: \[Var(X) = \mathbb E(X^{2}) - [\mathbb E(X)]^{2}\]</p>
+</blockquote>
+
+<blockquote>
+<p><strong>Demonstração:</strong> \[ \begin{aligned}
+\mathbb E([X-\mathbb E(X)]^{2}) &amp;= \mathbb E([X-\mu]^{2})  \\
+&amp; = \mathbb E(X^{2}-2X\mu+\mu^{2}) = \mathbb E(X^{2}) - 2\mu \mathbb E(X) + \mu^{2} \\
+&amp; = \mathbb E(X^2) - 2\mu\mu + \mu^2 = \mathbb E(X^2)- 2\mu^{2} + \mu^{2} \\
+&amp; = \mathbb E(X^2) - \mu^{2} \\
+&amp; = \mathbb E(X^{2}) - [\mathbb E(X)]^2 
+\end{aligned}
+\]</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo" class="build">
+
+<p>Encontre \(Var(X)\), onde \(X\) é uma v.a. tal que:</p>
+
+<blockquote>
+<p>\[ X=  \begin{cases} 
+1, &amp; \mbox{com probabilidade } p \\
+0, &amp; \mbox{com probabilidade } 1-p
+\end{cases}\]</p>
+</blockquote>
+
+<blockquote>
+<p>\[
+\begin{aligned}
+\mathbb E(X) &amp;= 1\times p +0\times (1-p) = p \\
+Var(X) &amp; =\mathbb E(X^2)-p^2
+\end{aligned} 
+\]</p>
+</blockquote>
+
+<blockquote>
+<p>\[ X^2=  \begin{cases} 
+1^2, &amp; \mbox{com probabilidade } p \\
+0^2, &amp; \mbox{com probabilidade } 1-p
+\end{cases}
+\]</p>
+</blockquote>
+
+<blockquote>
+<p>\[
+\begin{aligned}
+\mathbb E(X^2) &amp;= 1\times p +0\times (1-p) = p \\
+Var(X) &amp; = p-p^2=p(1-p)
+\end{aligned} 
+\]</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Propriedades da Esperança</h2></hgroup><article  id="propriedades-da-esperanca" class="build">
+
+<ol>
+<li><p>Para qualquer v.a. \(X\) e constantes \(a\) e \(b\): \[\mathbb E(aX + b) = a \mathbb E(X) + b\]</p>
+
+Casos particulares:
+
+<ul>
+<li>\(\mathbb E(X+b) = \mathbb E(X) + b\)</li>
+<li>\(\mathbb E(aX) = a \mathbb E(X)\)</li>
+</ul></li>
+<li><p>Se \(X_1, X_2, \ldots, X_n\) são variáveis aleatórias: \[ \mathbb E\left(\sum_{i=1}^n X_i \right) = \sum_{i=1}^n \mathbb E(X_i)\]</p></li>
+</ol>
+
+</article></slide><slide class=''><hgroup><h2>Propriedades da Esperança</h2></hgroup><article  id="propriedades-da-esperanca-1" class="build">
+
+<p><strong>Proposição:</strong> Se \(X\) é uma v.a. discreta com valores \(x_i\) e função de massa \(p(x_i)\), então para qualquer função \(g\): \[ \mathbb E[g(X)] = \sum_{i} g(x_i)p(x_i) \]</p>
+
+<p><strong>Exemplo:</strong> Seja \(X\) uma v.a. tal que:</p>
+
+<p>\[ X=  \begin{cases} 
+1, &amp; \mbox{com probabilidade } p \\
+0, &amp; \mbox{com probabilidade } 1-p
+\end{cases}\]</p>
+
+<p>\[\mathbb E(X^2) = 1^2 \times p + 0^2 \times (1-p) = p\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Propriedades da Variância</h2></hgroup><article  id="propriedades-da-variancia" class="build">
+
+<ol>
+<li><p>Para qualquer v.a. \(X\) e constantes \(a\) e \(b\): \[Var(aX + b) = a^2Var(X)\]</p>
+
+Casos particulares:
+
+<ul>
+<li>\(Var(X+b) = Var(X)\)</li>
+<li>\(Var(aX) = a^2 Var(X)\)</li>
+</ul></li>
+<li><p>Se \(X_1, X_2, \ldots, X_n\) são variáveis aleatórias independentes: \[ Var \left(\sum_{i=1}^n X_i \right) = \sum_{i=1}^n Var(X_i)\]</p></li>
+</ol>
+
+</article></slide><slide class=''><hgroup><h2>Medidas de posição para v.a.&#39;s discretas</h2></hgroup><article  id="medidas-de-posicao-para-v.a.s-discretas" class="build">
+
+<ul>
+<li>A <strong>média, valor esperado ou esperança</strong> de uma variável aleatória discreta \(X\), cuja f.d.p. é dada por \(P\left(X=x_{i}\right)=p_i\) é dada pela expressão:</li>
+</ul>
+
+<p>\[\mu_{X}=\mathbb E\left(X\right)=\sum_{i\geq 1}x_ip_i\]</p>
+
+<ul>
+<li>A <strong>mediana</strong> (Md) é o valor que satisfaz:</li>
+</ul>
+
+<p>\[P\left(X \geq Md\right)\geq \frac{1}{2} \quad \mbox{e} \quad P\left(X \leq Md\right)\geq \frac{1}{2}\]</p>
+
+<ul>
+<li>A <strong>moda</strong> (Mo) é o valor da variével \(X\) que tem maior probabilidade de ocorrência:</li>
+</ul>
+
+<p>\[P\left(X=Mo\right)=\max\{p_{1},p_{2},\ldots \}\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Medidas de posição para v.a.&#39;s discretas</h2></hgroup><article  id="medidas-de-posicao-para-v.a.s-discretas-1" class="build">
+
+<p><strong>Exemplo:</strong> considere a v.a. discreta \(X\), tal que:</p>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">\(X\)</th>
+<th align="center">-5</th>
+<th align="center">10</th>
+<th align="center">15</th>
+<th align="center">20</th>
+</tr>
+<tr class="odd">
+<td align="left">\(P(X=x)\)</td>
+<td align="center">0.3</td>
+<td align="center">0.2</td>
+<td align="center">0.4</td>
+<td align="center">0.1</td>
+</tr>
+</table>
+
+<ul class = 'build'>
+<li>\(\mu_{X}=\mathbb E(X)=(-5)\times 0.3 + 10 \times 0.2 + 15 \times 0.4 + 20 \times 0.1=8.5\)</li>
+</ul>
+
+<ul class = 'build'>
+<li>\(Mo(X)=15\)</li>
+</ul>
+
+<ul class = 'build'>
+<li>\(P(X \leq 10)= P(X \geq 15)=0.5\), então a mediana é \(Md(X)=\frac{10+15}{2}=12.5\)</li>
+</ul>
+
+<ul class = 'build'>
+<li>Obs: note que nem a média (8.5) nem a mediana (12.5) são valores assumidos pela variável \(X\).</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Medidas de posição para v.a.&#39;s discretas</h2></hgroup><article  id="medidas-de-posicao-para-v.a.s-discretas-2" class="build">
+
+<p><strong>Exemplo:</strong> considere a v.a. \(X\) tal que:</p>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">X</th>
+<th align="center">2</th>
+<th align="center">5</th>
+<th align="center">8</th>
+<th align="center">15</th>
+<th align="center">20</th>
+</tr>
+<tr class="odd">
+<td align="left">\(P(X=x)\)</td>
+<td align="center">0.1</td>
+<td align="center">0.3</td>
+<td align="center">0.2</td>
+<td align="center">0.2</td>
+<td align="center">0.2</td>
+</tr>
+</table>
+
+<blockquote>
+<p>\[\mu_{X}=10.3\]</p>
+</blockquote>
+
+<blockquote>
+<p>\[Mo(X)=5\]</p>
+</blockquote>
+
+<blockquote>
+<p>\[Md(X)=8\]</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Medidas de posição para v.a.&#39;s discretas</h2></hgroup><article  id="medidas-de-posicao-para-v.a.s-discretas-3" class="build">
+
+<p><strong>Exemplo:</strong> Considere a v.a. \(X\) do slide anterior e seja \(Y = 5X - 10\)</p>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">\(Y\)</th>
+<th align="center">0</th>
+<th align="center">15</th>
+<th align="center">30</th>
+<th align="center">65</th>
+<th align="center">90</th>
+</tr>
+<tr class="odd">
+<td align="left">\(P(Y=y)\)</td>
+<td align="center">0.1</td>
+<td align="center">0.3</td>
+<td align="center">0.2</td>
+<td align="center">0.2</td>
+<td align="center">0.2</td>
+</tr>
+</table>
+
+<p>\[\mu_{Y}=41.5, \qquad Mo(Y)=15 \qquad \mbox{e} \qquad Md(Y)=30\]</p>
+
+<p>Note que, como \(Y = 5X - 10\):</p>
+
+<p>\[\mu_{Y}=5\mu_{X}-10 = 5\times 10.3 - 10 = 41.5\]</p>
+
+<p>\[Mo(Y)=5Mo(X)-10 = 5 \times 5 - 10 = 15\]</p>
+
+<p>\[Md(Y)=5Md(X)-10 = 5 \times 8 = 10= 30\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-1" class="build">
+
+<p>Considere uma urna contendo três bolas vermelhas e cinco pretas.</p>
+
+<blockquote>
+<p>Retire três bolas, sem reposição, e defina a variável aleatória \(X\) igual ao número de bolas pretas.</p>
+</blockquote>
+
+<blockquote>
+<p>Obtenha a distribuição de \(X\). Calcule a esperança e a variância.</p>
+</blockquote>
+
+<blockquote>
+<p><em>Fonte</em>: Morettin | Bussab, Estatística Básica \(5^a\) edição, pág 135.</p>
+</blockquote>
+
+<blockquote>
+<p>Repare que não há reposição:</p>
+</blockquote>
+
+<ul class = 'build'>
+<li>a primeira extração tem 5 possibilidades em 8 de ser uma bola preta;</li>
+</ul>
+
+<ul class = 'build'>
+<li>a segunda terá 5 em 7 se a primeira for vermelha, ou 4 em 7 se a primeira foi preta, e assim por diante.</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao">
+
+<p>Retirar 3 bolas, sem reposição, de uma urna com 3 bolas vermelhas e 5 pretas</p>
+
+<center>
+
+<img src="figuras/organ.png" width=550>
+
+</center>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-1" class="smaller">
+
+<p>A partir do gráfico, podemos construir uma tabela com os eventos do espaço amostral:</p>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="center">Extrações</th>
+<th align="left">Probabilidade</th>
+</tr>
+<tr class="odd">
+<td align="center">PPP</td>
+<td align="left">\(5/8\times 4/7\times3/6 = 5/28\)</td>
+</tr>
+<tr class="even">
+<td align="center">PPV</td>
+<td align="left">\(5/8\times4/7\times3/6 = 5/28\)</td>
+</tr>
+<tr class="odd">
+<td align="center">PVP</td>
+<td align="left">\(5/8\times3/7\times4/6 = 5/28\)</td>
+</tr>
+<tr class="even">
+<td align="center">VPP</td>
+<td align="left">\(3/8\times5/7\times4/6 = 5/28\)</td>
+</tr>
+<tr class="odd">
+<td align="center">PVV</td>
+<td align="left">\(5/8\times3/7\times2/6 = 5/56\)</td>
+</tr>
+<tr class="even">
+<td align="center">VPV</td>
+<td align="left">\(3/8\times5/7\times2/6 = 5/56\)</td>
+</tr>
+<tr class="odd">
+<td align="center">VVP</td>
+<td align="left">\(3/8\times2/7\times5/6 = 5/56\)</td>
+</tr>
+<tr class="even">
+<td align="center">VVV</td>
+<td align="left">\(3/8\times2/7\times1/6 = 1/56\)</td>
+</tr>
+</table>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-2" class="build">
+
+<p>Como \(X\) é o número de bolas pretas, temos que:</p>
+
+<blockquote>
+<p>Somando as probabilidades dos eventos, encontradas anteriormente, obtemos a função de distribuição de \(X\), \(p_X(x)\).</p>
+</blockquote>
+
+<blockquote>
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">Eventos</th>
+<th align="left">\(X=x\)</th>
+<th align="left">\(p_X(x) = P(X=x)\)</th>
+</tr>
+<tr class="odd">
+<td align="left">\(\{VVV\}\)</td>
+<td align="left">0</td>
+<td align="left">\(0.02\)</td>
+</tr>
+<tr class="even">
+<td align="left">\(\{VVP\} \cup \{VPV\} \cup \{PVV\}\)</td>
+<td align="left">1</td>
+<td align="left">0.27</td>
+</tr>
+<tr class="odd">
+<td align="left">\(\{PPV\} \cup \{PVP\} \cup \{VPP\}\)</td>
+<td align="left">2</td>
+<td align="left">0.53</td>
+</tr>
+<tr class="even">
+<td align="left">\(\{PPP\}\)</td>
+<td align="left">3</td>
+<td align="left">0.18</td>
+</tr>
+</table>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-3" class="build">
+
+<p>Podemos calcular a esperança e a variância de \(X\) a partir de sua função de probabilidade:</p>
+
+<blockquote>
+<p>\[ 
+\begin{aligned} 
+\mu &amp;= \mathbb E (X ) =  \sum_{x=0}^3 xp_X (x) \\
+&amp; = 0 \times 0.02 + 1 \times 0.27 + 2 \times 0.53 + 3 \times 0.18 = 1.87 \\
+\\ 
+Var(X) &amp; = \mathbb E[(X-\mu)^2] = \sum_{x=0}^3 (x-\mu)^2 p_X(x) \\
+&amp; = (0-1.87)^2 \times 0.02 + (1-1.87)^2 \times 0.27 + \\
+&amp; + (2-1.87)^2\times 0.53 + (3-1.87)^2 \times 0.18= 0.51 
+\end{aligned} 
+\]</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-2" class="build">
+
+<p>O tempo \(T\), em minutos, necessário para um operário processar certa peça é uma v.a. com a seguinte distribuição de probabilidade:</p>
+
+<blockquote>
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">\(T\)</th>
+<th align="center">2</th>
+<th align="center">3</th>
+<th align="center">4</th>
+<th align="center">5</th>
+<th align="center">6</th>
+<th align="center">7</th>
+</tr>
+<tr class="odd">
+<td align="left">\(P(T=t)\)</td>
+<td align="center">\(0.1\)</td>
+<td align="center">\(0.1\)</td>
+<td align="center">\(0.3\)</td>
+<td align="center">\(0.2\)</td>
+<td align="center">\(0.2\)</td>
+<td align="center">\(0.1\)</td>
+</tr>
+</table>
+</blockquote>
+
+<ol>
+<li><p>Calcule o tempo médio de processamento.</p></li>
+<li><p>Cada peça processada paga ao operador \(\$2.00\) mas, se ele processa a peça em menos de 6 minutos, ganha \(\$0.50\) por minuto poupado. Por exemplo, se ele processa a peça em 4 minutos, ganha um bônus de \(\$1.00\). Encontre a distribuição, a média e a variância da v.a. \(S\): quantia paga por peça.</p></li>
+</ol>
+
+<p><em>Fonte: Morettin &amp; Bussab</em>, Estatística Básica \(5^a\) edição, pág 140.</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-4" class="build">
+
+<ol>
+<li><p>Tempo médio de processamento \[ 
+\begin{aligned}
+\mathbb E (T) &amp; = \displaystyle \sum_{t=2}^7 t P(T=t) \\
+&amp; = 2\times 0.1 + 3\times 0.1 + 4\times 0.3 + 5\times 0.2 + 6\times 0.2 + 7\times 0.1 = 4.6
+\end{aligned} 
+\]</p></li>
+<li><p>Podemos trocar os valores na tabela do tempo, pelo total ganho por peça. Note, contudo, que o operário receberá \(\$ 2.00\) no evento \(\{T=6\} \cup \{T=7\}\), logo somamos suas probabilidades. Seja \(S\) a v.a. &quot;ganho final&quot;.</p></li>
+</ol>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">\(S\)</th>
+<th align="center">\(\$4.00\)</th>
+<th align="center">\(\$3.50\)</th>
+<th align="center">\(\$3.00\)</th>
+<th align="center">\(\$2.50\)</th>
+<th align="center">\(\$2.00\)</th>
+</tr>
+<tr class="odd">
+<td align="left">\(P(S=s)\)</td>
+<td align="center">\(0.1\)</td>
+<td align="center">\(0.1\)</td>
+<td align="center">\(0.3\)</td>
+<td align="center">\(0.2\)</td>
+<td align="center">\(0.3\)</td>
+</tr>
+</table>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-5" class="build">
+
+<p>Obtemos a média e a variância de \(S\) através da definição:</p>
+
+<p>\[
+\begin{aligned}
+\mathbb E (S) &amp;= \displaystyle \sum_{s} s P(S=s) \\
+&amp;= 4\times 0.1 + 3.5\times 0.1 + 3\times 0.3 + 2.5 \times 0.2 + 2\times 0.3 = 2.75 \\
+\\
+\mathbb E (S^2) &amp; = \displaystyle \sum_{s} s^2 P(S=s) \\
+&amp;= 16\times 0.1 + 12.25 \times 0.1 + 9\times 0.3 + 6.25\times 0.2 + 4\times 0.3 = 7.975
+\end{aligned}
+\]</p>
+
+<p>Então, \[\mbox{Var} (S) = 7.975 - (2.75)^2 = 0.4125\]</p>
+
+</article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Principais Modelos Discretos</h2></hgroup><article  id="principais-modelos-discretos">
+
+</article></slide><slide class=''><hgroup><h2>Uniforme Discreta</h2></hgroup><article  id="uniforme-discreta" class="build">
+
+<p><strong>Exemplo:</strong> Uma rifa tem 100 bilhetes numerados de 1 a 100. Tenho 5 bilhetes consecutivos numerados de 21 a 25, e meu colega tem outros 5 bilhetes, com os números 1, 11, 29, 68 e 93.</p>
+
+<p>Quem tem maior probabilidade de ser sorteado?</p>
+
+<ul class = 'build'>
+<li>espalhar os números é a melhor forma de ganhar o sorteio?</li>
+</ul>
+
+<ul class = 'build'>
+<li>assumindo honestidade da rifa, todos os números têm a mesma probabilidade de ocorrência, com \(\frac{1}{100}\) para cada um.</li>
+</ul>
+
+<ul class = 'build'>
+<li>como eu e meu colega temos 5 bilhetes, temos a mesma probabilidade de ganhar a rifa: \(\frac{5}{100}=\frac{1}{20}\).</li>
+</ul>
+
+<ul class = 'build'>
+<li>assim, a probabilidade de ganhar depende somente da quantidade de bilhetes que se tem na mão, independente da numeração.</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Uniforme Discreta</h2></hgroup><article  id="uniforme-discreta-1" class="build">
+
+<ul>
+<li>A v.a. discreta \(X\), assumindo valores \(x_{1},x_{2},...,x_{k}\), segue uma distribuição uniforme discreta se, e somente se, cada valor possível tem a mesma probabilidade de ocorrer, isto é,</li>
+</ul>
+
+<blockquote>
+<p>\[P(X=x_i) = p(x_i) = \frac{1}{k}, \quad \forall \; 1\leq i \leq k\]</p>
+</blockquote>
+
+<blockquote>
+<p><strong>Exemplo:</strong> lançamento de um dado honesto de 6 faces</p>
+</blockquote>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">\(X\)</th>
+<th align="center">1</th>
+<th align="center">2</th>
+<th align="center">3</th>
+<th align="center">4</th>
+<th align="center">5</th>
+<th align="center">6</th>
+</tr>
+<tr class="odd">
+<td align="left">\(p(x)\)</td>
+<td align="center">\(\frac{1}{6}\)</td>
+<td align="center">\(\frac{1}{6}\)</td>
+<td align="center">\(\frac{1}{6}\)</td>
+<td align="center">\(\frac{1}{6}\)</td>
+<td align="center">\(\frac{1}{6}\)</td>
+<td align="center">\(\frac{1}{6}\)</td>
+</tr>
+</table>
+
+</article></slide><slide class=''><hgroup><h2>Uniforme Discreta</h2></hgroup><article  id="uniforme-discreta-2" class="build">
+
+<p>A média e a variância são dadas por:</p>
+
+<p>\(\mathbb E(X)=\displaystyle \sum_{i=1}^k x_iP(X=x_i)= \frac{1}{k}\sum_{i=1}^k x_i\)</p>
+
+<p>\(Var(X) = \displaystyle \sum_{i=1}^k (x_i - \mathbb E(X))^2 P(X=x_i) = \frac{1}{k} \sum_{i=1}^k (x_i - \mathbb E(X))^2\)</p>
+
+<p>ou</p>
+
+<p>\(Var(X) = \mathbb E(X^2) - [\mathbb E(X)]^2 = \displaystyle \frac{1}{k} \left[\sum_{j=1}^{k}x_{j}^{2} - \frac{1}{k} \left ( \displaystyle\sum_{j=1}^{k}x_{j} \right)^{2} \right]\)</p>
+
+</article></slide><slide class=''><hgroup><h2>Uniforme Discreta</h2></hgroup><article  id="uniforme-discreta-3" class="build">
+
+<blockquote>
+<p><strong>Exemplo:</strong> lançamento de um dado honesto de 6 faces</p>
+</blockquote>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">\(X\)</th>
+<th align="center">1</th>
+<th align="center">2</th>
+<th align="center">3</th>
+<th align="center">4</th>
+<th align="center">5</th>
+<th align="center">6</th>
+</tr>
+<tr class="odd">
+<td align="left">\(p(x)\)</td>
+<td align="center">\(\frac{1}{6}\)</td>
+<td align="center">\(\frac{1}{6}\)</td>
+<td align="center">\(\frac{1}{6}\)</td>
+<td align="center">\(\frac{1}{6}\)</td>
+<td align="center">\(\frac{1}{6}\)</td>
+<td align="center">\(\frac{1}{6}\)</td>
+</tr>
+</table>
+
+<p>Calculando a esperança e a variância de \(X\):</p>
+
+<p>\(\mathbb E(X) = \frac{1}{6} (1+2+3+4+5+6)= \frac{21}{6} = 3.5\)</p>
+
+<p>\(Var(X) = \displaystyle \frac{1}{6} \left[(1 + 4 + 9 + 16 + 25 + 36) - \frac{1}{6} (21)^{2} \right] = \frac{1}{6} \times \frac{35}{2} = 2.92\)</p>
+
+</article></slide><slide class=''><hgroup><h2>Uniforme Discreta</h2></hgroup><article  id="uniforme-discreta-4" class="build">
+
+<p>Cálculo da função de distribuição acumulada (f.d.a.) de uma variável uniforme discreta:</p>
+
+<p>\[F(x)= P(X\leq x)= \sum_{x_i \leq x} \frac{1}{k} = \frac{\#(x_i \leq x)}{k}\]</p>
+
+<blockquote>
+<p><strong>Exemplo:</strong> voltando ao exemplo do lançamento de um dado honesto de 6 faces</p>
+</blockquote>
+
+<ul>
+<li><p>\(F(2)= P(X\leq2)=P(X=1)+P(X=2)=\frac{2}{6}\)</p></li>
+<li><p>\(F(2.5)= P(X\leq2.5)= P(X=1)+P(X=2)=\frac{2}{6}\)</p></li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Uniforme Discreta - f.d.a</h2></hgroup><article  id="uniforme-discreta---f.d.a">
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="center">\(X\)</th>
+<th align="center">\(p(x)\)</th>
+<th align="center">\(F(x)\)</th>
+</tr>
+<tr class="odd">
+<td align="center">1</td>
+<td align="center">\(\frac{1}{6}\)</td>
+<td align="center">\(\frac{1}{6}\)</td>
+</tr>
+<tr class="even">
+<td align="center">2</td>
+<td align="center">\(\frac{1}{6}\)</td>
+<td align="center">\(\frac{2}{6}\)</td>
+</tr>
+<tr class="odd">
+<td align="center">3</td>
+<td align="center">\(\frac{1}{6}\)</td>
+<td align="center">\(\frac{3}{6}\)</td>
+</tr>
+<tr class="even">
+<td align="center">4</td>
+<td align="center">\(\frac{1}{6}\)</td>
+<td align="center">\(\frac{4}{6}\)</td>
+</tr>
+<tr class="odd">
+<td align="center">5</td>
+<td align="center">\(\frac{1}{6}\)</td>
+<td align="center">\(\frac{5}{6}\)</td>
+</tr>
+<tr class="even">
+<td align="center">6</td>
+<td align="center">\(\frac{1}{6}\)</td>
+<td align="center">\(\frac{6}{6}\)</td>
+</tr>
+</table>
+
+</article></slide><slide class=''><hgroup><h2>Uniforme Discreta - Gráficos</h2></hgroup><article  id="uniforme-discreta---graficos">
+
+<center>
+
+<img src="parte10_files/figure-html/unnamed-chunk-1-1.png" width="480" /><img src="parte10_files/figure-html/unnamed-chunk-1-2.png" width="480" />
+
+</center>
+
+</article></slide><slide class=''><hgroup><h2>Bernoulli</h2></hgroup><article  id="bernoulli" class="build">
+
+<p>Em muitas aplicações, cada observação de um experimento aleatório é <strong>binária</strong>: tem apenas dois resultados possíveis.</p>
+
+<blockquote>
+<p>Por exemplo, uma pessoa pode:</p>
+</blockquote>
+
+<ul class = 'build'>
+<li>aceitar ou recusar uma oferta de cartão de crédito de seu banco.</li>
+</ul>
+
+<ul class = 'build'>
+<li>votar sim ou não em uma assembléia.</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Modelo Bernoulli</h2></hgroup><article  id="modelo-bernoulli" class="build">
+
+<ul class = 'build'>
+<li>Considere um experimento aleatório com dois resultados possíveis: <strong>sucesso</strong> e <strong>fracasso</strong>.</li>
+</ul>
+
+<ul class = 'build'>
+<li>Seja \(p\) a probabilidade de sucesso.</li>
+</ul>
+
+<ul class = 'build'>
+<li><strong>Exemplo:</strong> lançar uma moeda e verificar se cai cara ou coroa. Consideramos como sucesso, a obtenção de cara. Se a moeda é honesta, \(p=1/2\).</li>
+</ul>
+
+<ul class = 'build'>
+<li>Esse tipo de experimento é conhecido como <strong>Ensaio de Bernoulli</strong>.</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Modelo Bernoulli</h2></hgroup><article  id="modelo-bernoulli-1" class="build">
+
+<ul>
+<li><strong>Exemplo:</strong> lançar um dado, sendo &quot;sucesso&quot; o obtenção da face 6. Se o dado é honesto, a probabilidade de sucesso é \(p=1/6\).</li>
+</ul>
+
+<ul class = 'build'>
+<li><strong>Exemplo:</strong> Uma pessoa é escolhida ao acaso entre os moradores de uma cidade, e é perguntado a ela se concorda com um projeto.</li>
+</ul>
+
+<ul class = 'build'>
+<li>As possíveis respostas são apenas &quot;Sim&quot; ou &quot;Não&quot;. \[\Omega=\{\mbox{Sim},\mbox{Não}\}\]</li>
+</ul>
+
+<blockquote>
+<p>\[ X = \begin{cases}
+1, &amp; \mbox{se a pessoa respondeu sim } (sucesso) \\
+0, &amp; \mbox{caso contrário } (fracasso) \\
+\end{cases}
+\]</p>
+</blockquote>
+
+<blockquote>
+<p>\[P(X=1)=P(sucesso)=p  \;\; \rightarrow \;\; P(X=0)=P(fracasso)=1-p\]</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Modelo Bernoulli</h2></hgroup><article  id="modelo-bernoulli-2" class="build">
+
+<p>Seja \(X\) uma v.a. discreta assumindo apenas valores 0 e 1, onde \(X=1\) corresponde a sucesso e seja \(p\) a probabilidade de sucesso.</p>
+
+<p>A distribuição de probabilidade de \(X\) é dada por:</p>
+
+<p>\[ P(X=x) = \begin{cases}
+p &amp; \mbox{se } x=1 \\
+1-p &amp; \mbox{se } x=0 \\
+\end{cases}
+\]</p>
+
+<p>Ou de forma equivalente, podemos escrever como: \[P(X=x) = p^{x}(1-p)^{1-x},  \quad \mbox{para } x=0,1\]</p>
+
+<p><strong>Notação:</strong> \(X \sim b(p)\)</p>
+
+</article></slide><slide class=''><hgroup><h2>Bernoulli - Esperança e Variância</h2></hgroup><article  id="bernoulli---esperanca-e-variancia" class="build">
+
+<p>Se \(X\) é um v.a. Bernoulli, \(X \sim b(p)\), então:</p>
+
+<blockquote>
+<p>\[\mathbb E(X) = p \quad \mbox{e} \quad Var(X)=p(1-p)\]</p>
+</blockquote>
+
+<blockquote>
+<p><strong>Demonstração:</strong></p>
+</blockquote>
+
+<ul class = 'build'>
+<li><strong>Esperança:</strong> \(\mathbb E(X)= 0\times(1-p) + 1\times p = p\)</li>
+</ul>
+
+<ul class = 'build'>
+<li>\(\mathbb E(X^{2})= 0^{2}\times(1-p) + 1^{2}\times p = p\)</li>
+</ul>
+
+<ul class = 'build'>
+<li><strong>Variância:</strong> \[\begin{aligned}
+Var(X) &amp;= \mathbb E(X^{2})-[\mathbb E(X)]^{2}  \\
+&amp; = p-p^{2} =p(1-p)
+\end{aligned}
+\]</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Bernoulli</h2></hgroup><article  id="bernoulli-1" class="smaller">
+
+<p>A função de distribuição acumulada de uma v.a. Bernoulli é: \[ F(x) = \begin{cases}
+0, &amp; x &lt; 0 \\
+1-p, &amp; 0 \leq x &lt; 1 \\
+1, &amp; x \geq 1
+\end{cases}
+\]</p>
+
+<p><img src="parte10_files/figure-html/unnamed-chunk-2-1.png" width="432" /><img src="parte10_files/figure-html/unnamed-chunk-2-2.png" width="432" /></p>
+
+</article></slide><slide class=''><hgroup><h2>Bernoulli</h2></hgroup><article  id="bernoulli-2" class="build">
+
+<p><strong>Exemplo:</strong> lançamos um dado e consideramos sucesso a obtenção da face 5</p>
+
+<blockquote>
+<p>Supondo que o dado seja honesto, a probabilidade de sucesso é \(p = 1/6\). Então:</p>
+</blockquote>
+
+<blockquote>
+<p>\[ \begin{aligned} P(X=x) &amp;= \left(\frac{1}{6} \right)^x \left(\frac{5}{6} \right)^{1-x} \qquad \mbox{para } x=0,1 \\
+&amp;= \begin{cases}
+5/6 &amp; \mbox{se } x=0 \\
+1/6 &amp; \mbox{se } x=1 \\
+\end{cases}
+\end{aligned}
+\]</p>
+</blockquote>
+
+<ul class = 'build'>
+<li>Encontre a esperança e variância de X.</li>
+</ul>
+
+<blockquote>
+<p>\(\qquad \mathbb E(X)=\frac{1}{6} \qquad \qquad \mathbb E(X^2)=\frac{1}{6}\)</p>
+</blockquote>
+
+<blockquote>
+<p>\(\qquad Var(X)=\frac{1}{6}-\frac{1}{36}=\frac{6-1}{36}=\frac{5}{36}\)</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Modelo Binomial</h2></hgroup><article  id="modelo-binomial" class="build">
+
+<p>Ao obtermos uma amostra do experimento/fenômeno aleatório com observações binárias, podemos resumir os resultados usando o número ou a proporção de observações com o resultado de interesse.</p>
+
+<blockquote>
+<p>Sob certas condições, a v.a. \(X\) que conta o número de vezes que um resultado específico ocorreu, dentre dois possíveis, tem uma distribuição de probabilidade chamada <strong>Binomial</strong>.</p>
+</blockquote>
+
+<ul>
+<li>Considere um experimento aleatório com espaço amostral \(\Omega\) e o evento \(A\).</li>
+</ul>
+
+<ul class = 'build'>
+<li>Vamos dizer que ocorreu sucesso se o evento \(A\) aconteceu. Se \(A\) não aconteceu ocorreu fracasso.</li>
+</ul>
+
+<ul class = 'build'>
+<li>Repetimos o experimento \(n\) vezes, de forma independente.</li>
+</ul>
+
+<ul class = 'build'>
+<li>Seja \(X\) o número de sucessos nos \(n\) experimentos.</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: vacinas</h2></hgroup><article  id="exemplo-vacinas" class="build">
+
+<p>Sabe-se que a eficiência de uma vacina é de \(80\%\).</p>
+
+<p>Um grupo de 3 indivíduos é sorteado, dentre a população vacinada, e cada um é submetido a testes para averiguar se está imunizado.</p>
+
+<p>Nesse caso, consideramos como sucesso a imunização.</p>
+
+<blockquote>
+<p>\[ X_i = \begin{cases}
+1, &amp; \mbox{indivíduo i está imunizado} \\
+0, &amp; \mbox{caso contrário}
+\end{cases}
+\]</p>
+</blockquote>
+
+<blockquote>
+<p>Pelo enunciado, sabe-se que \(P(X_{i}=1)=p=0.8\).</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: vacinas</h2></hgroup><article  id="exemplo-vacinas-1" class="build">
+
+<ul>
+<li>Os indivíduos 1, 2 e 3 são independentes.</li>
+</ul>
+
+<ul class = 'build'>
+<li>As v.a.&#39;s \(X_1\), \(X_2\) e \(X_3\) são Bernoulli.</li>
+</ul>
+
+<ul class = 'build'>
+<li>Se o interesse está em estudar \(X=\) número de indivíduos imunizados no grupo, \(X\) poderá assumir valores \(\{0,1,2,3\}\).</li>
+</ul>
+
+<ul class = 'build'>
+<li>Note que \(X=X_{1}+X_{2}+X_{3}\).</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: vacinas</h2></hgroup><article  id="exemplo-vacinas-2" class="smaller">
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="center">evento</th>
+<th align="left">P(evento)</th>
+<th align="center">X</th>
+</tr>
+<tr class="odd">
+<td align="center">\(X_{1}=0\), \(X_{2}=0\), \(X_{3}=0\)</td>
+<td align="left">\((0.2)^{3}\)</td>
+<td align="center">0</td>
+</tr>
+<tr class="even">
+<td align="center">\(X_{1}=1\), \(X_{2}=0\), \(X_{3}=0\)</td>
+<td align="left">\(0.8\times(0.2)^{2}\)</td>
+<td align="center">1</td>
+</tr>
+<tr class="odd">
+<td align="center">\(X_{1}=0\), \(X_{2}=1\), \(X_{3}=0\)</td>
+<td align="left">\(0.8\times(0.2)^{2}\)</td>
+<td align="center">1</td>
+</tr>
+<tr class="even">
+<td align="center">\(X_{1}=0\), \(X_{2}=0\), \(X_{3}=1\)</td>
+<td align="left">\(0.8\times(0.2)^{2}\)</td>
+<td align="center">1</td>
+</tr>
+<tr class="odd">
+<td align="center">\(X_{1}=1\), \(X_{2}=1\), \(X_{3}=0\)</td>
+<td align="left">\((0.8)^{2}\times0.2\)</td>
+<td align="center">2</td>
+</tr>
+<tr class="even">
+<td align="center">\(X_{1}=1\), \(X_{2}=0\), \(X_{3}=1\)</td>
+<td align="left">\((0.8)^{2}\times0.2\)</td>
+<td align="center">2</td>
+</tr>
+<tr class="odd">
+<td align="center">\(X_{1}=0\), \(X_{2}=1\), \(X_{3}=1\)</td>
+<td align="left">\((0.8)^{2}\times0.2\)</td>
+<td align="center">2</td>
+</tr>
+<tr class="even">
+<td align="center">\(X_{1}=1\), \(X_{2}=1\), \(X_{3}=1\)</td>
+<td align="left">\((0.8)^{3}\)</td>
+<td align="center">3</td>
+</tr>
+</table>
+
+</article></slide><slide class=''><hgroup><h2>Modelo Binomial</h2></hgroup><article  id="modelo-binomial-1" class="build">
+
+<ul>
+<li>Assim, as probabilidades de cada valor possível de \(X\) são:</li>
+</ul>
+
+<blockquote>
+<table class = 'rmdtable'>
+<col width="5%" />
+<col width="5%" />
+<col width="5%" />
+<col width="5%" />
+<col width="5%" />
+<tr class="header">
+<th align="left">\(X\)</th>
+<th align="center">0</th>
+<th align="center">1</th>
+<th align="center">2</th>
+<th align="center">3</th>
+</tr>
+<tr class="odd">
+<td align="left">\(P(X=x)\)</td>
+<td align="center">\((0.2)^{3}\)</td>
+<td align="center">\(3\times0.8\times(0.2)^{2}\)</td>
+<td align="center">\(3\times(0.8)^{2}\times0.2\)</td>
+<td align="center">\((0.8)^{3}\)</td>
+</tr>
+</table>
+</blockquote>
+
+<ul class = 'build'>
+<li>E o comportamento de \(X\) é completamente determinado pela função:</li>
+</ul>
+
+<blockquote>
+<p>\[P(X=x)={3\choose x}(0.8)^{x}(0.2)^{3-x}, \qquad x=0,1,2,3\]</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Binomial</h2></hgroup><article  id="binomial" class="build">
+
+<p><strong>Modelo Geral:</strong> Considere a repetição de \(n\) ensaios \(X_i\) Bernoulli independentes e todos com a mesma probabilidade de sucesso \(p\).</p>
+
+<blockquote>
+<p>A variável aleatória \(X=X_{1}+...+X_{n}\) representa o total de sucessos e corresponde ao modelo Binomial com parâmetros \(n\) e \(p\), ou seja, \(X\sim Bin(n,p)\).</p>
+</blockquote>
+
+<blockquote>
+<p>A probabilidade de se observar \(x\) é dada pela expressão geral: \[P(X=x)={n\choose x}p^{x}(1-p)^{n-x}, \qquad x=0,1,...,n\]</p>
+</blockquote>
+
+<blockquote>
+<p>A esperança e variância de uma v.a. Binomial são dadas por: \[\mathbb E(X)=np \qquad \mbox{e} \qquad Var(X)=np(1-p)\]</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Modelo Binomial</h2></hgroup><article  id="modelo-binomial-2">
+
+<p>Distribuição de probabilidade de uma \(Bin(3, p)\), com \(p=0.2, 0.5\) e \(0.8\).</p>
+
+<center>
+
+<img src="parte10_files/figure-html/unnamed-chunk-3-1.png" width="864" />
+
+</center>
+
+</article></slide><slide class=''><hgroup><h2>Modelo Binomial</h2></hgroup><article  id="modelo-binomial-3">
+
+Distribuição de probabilidade de uma \(Bin(10, p)\), com \(p=0.2, 0.5\) e \(0.8\).
+
+<center>
+
+<img src="parte10_files/figure-html/unnamed-chunk-4-1.png" width="864" />
+
+</center>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Vacina</h2></hgroup><article  id="exemplo-vacina" class="build">
+
+<ul>
+<li>No exemplo da vacina, temos então que o número de indíviduos imunizados segue uma distribuição Binomial com \(n=3\) e \(p=0.8\)</li>
+</ul>
+
+<blockquote>
+<p>\[X\sim Bin(3,0.8)\]</p>
+</blockquote>
+
+<ul class = 'build'>
+<li>Qual a probabilidade de que dentre os 3 indíviduos, nenhum tenha sido imunizado? \[ P(X=0) = {3 \choose 0} (0.8)^0 (0.2)^3 = 0.008\]</li>
+</ul>
+
+<ul class = 'build'>
+<li>Encontre a esperança e variância:</li>
+</ul>
+
+<blockquote>
+<p>\[\mathbb E(X)=3\times 0.8 = 2.4 \qquad \mbox{e} \qquad Var(X)=3\times0.8\times0.2 = 0.48\]</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Inspeção</h2></hgroup><article  id="exemplo-inspecao" class="build">
+
+<p>Um inspetor de qualidade extrai uma amostra aleatória de 10 tubos armazenados num depósito onde, de acordo com os padrões de produção, se espera um total de \(20\%\) de tubos defeituosos.</p>
+
+<blockquote>
+<p>Qual é a probabilidade de que não mais do que \(2\) tubos extraídos sejam defeituosos?</p>
+</blockquote>
+
+<blockquote>
+<p>Se \(X\) denotar a variável &quot;número de tubos defeituosos em 10 extrações independentes e aleatórias&quot;, qual o seu valor esperado? Qual a variância?</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Inspeção</h2></hgroup><article  id="exemplo-inspecao-1" class="build">
+
+<p>Note que a variável aleatória \(X\) = número de tubos defeituosos em 10 extrações tem distribuição binomial, com parâmetros \(n=10\) e \(p=0.2\).</p>
+
+<blockquote>
+<p>Então, &quot;não mais do que dois tubos defeituosos&quot; é o evento \(\{X\leq2\}\).</p>
+</blockquote>
+
+<blockquote>
+<p>Sabemos que, para \(X \sim Bin(10, 0.2)\) \[P(X=x) = { 10\choose x } (0.2)^x (0.8)^{10-x}, \qquad x=0,1, \ldots, 10\]</p>
+</blockquote>
+
+<blockquote>
+<p>e que \[\begin{aligned}
+P(X\leq2) &amp;=  P(X=0) + P(X=1) + P(X=2) \\
+&amp;=(0.8)^{10} + 10 (0.2)(0.8)^{9} + 45 (0.2)^2 (0.8)^8 = 0.678
+\end{aligned}
+\]</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Inspeção</h2></hgroup><article  id="exemplo-inspecao-2" class="build">
+
+<p>Se \(X \sim Bin(n,p)\), então \(\mathbb E(X) = np\) e \(Var(X) = np(1-p)\)</p>
+
+<blockquote>
+<p>Então:</p>
+</blockquote>
+
+<blockquote>
+<p>\(\mathbb E(X) = 10 (0.2) = 2\)</p>
+</blockquote>
+
+<blockquote>
+<p>\(Var(X) = 10 (0.2)(0.8) = 1.6\)</p>
+</blockquote>
+
+<blockquote>
+<p>Quando se encontram quatro ou mais tubos defeituosos, o processo de produção é interrompido para revisão. Qual é a probabilidade que isto aconteça?</p>
+</blockquote>
+
+<blockquote>
+<p>\[ \begin{aligned}
+P(X\geq 4) &amp;=  1 - P(X &lt; 4) \\
+&amp;= 1 - P(X \leq 3) \\
+&amp;= 1-0.879 = 0.121
+\end{aligned} \]</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Comprador A ou B?</h2></hgroup><article  id="exemplo-comprador-a-ou-b" class="build">
+
+<p><strong>Exemplo:</strong> Um industrial fabrica peças, das quais 1/5 são defeituosas. Dois compradores <strong>A</strong> e <strong>B</strong> classificaram um grande lote de peças adquiridas em categorias \(I\) e \(II\), pagando \(\$ 1.20\) e \(\$ 0.80\) por peça, respectivamente, do seguinte modo:</p>
+
+<ul>
+<li><strong>Comprador A</strong>: retira uma amostra de cinco peças; se encontrar mais que uma defeituosa, classifica como \(II\).</li>
+</ul>
+
+<ul class = 'build'>
+<li><strong>Comprador B</strong>: retira uma amostra de dez peças; se encontrar mais que duas defeituosas, classifica como \(II\).</li>
+</ul>
+
+<blockquote>
+<p>Em média, qual comprador oferece mais lucro?</p>
+</blockquote>
+
+<blockquote>
+<p><em>Fonte: Morettin &amp; Bussab</em>, Estatística Básica \(5^a\) edição, pág 159.</p>
+</blockquote>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Comprador A ou B?</h2></hgroup><article  id="exemplo-comprador-a-ou-b-1" class="build">
+
+<p>Sabemos que 1/5 das peças são defeituosas.</p>
+
+<p>Podemos nos concentrar na probabilidade dos vendedores julgarem um lote como tipo \(I\) ou \(II\).</p>
+
+<p>Seja \(X\) o número de peças defeituosas em \(n\) testes.</p>
+
+<p>O experimento do <strong>comprador A</strong> tem distribuição \(X_A \sim Bin(5, 1/5)\) enquanto o experimento do <strong>comprador B</strong> tem distribuição \(X_B \sim Bin(10, 1/5)\).</p>
+
+<p>Para o <strong>comprador A</strong>, temos que: \[ \begin{aligned}
+P(X_A &gt; 1 ) &amp;= 1 - P(X_A = 0 ) - P(X_A = 1 ) \\
+&amp;= 1 - {5 \choose 0} \left (1-\frac{1}{5} \right)^5- {5 \choose 1} \left( \frac{1}{5} \right) \left (1-\frac{1}{5} \right)^4 = 0.263
+\end{aligned}\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Comprador A ou B?</h2></hgroup><article  id="exemplo-comprador-a-ou-b-2" class="build">
+
+<p>De modo similar, para o <strong>comprador B</strong> temos: \[\begin{aligned}
+P(X_B &gt; 2 ) &amp;= 1 - {10 \choose 0} \left (1-\frac{1}{5} \right )^{10} - {10 \choose 1} \frac{1}{5} \left (1-\frac{1}{5} \right )^9 \\
+&amp;- {10 \choose 2} \left( \frac{1}{5} \right)^2 \left (1-\frac{1}{5} \right )^8 = 0.322
+\end{aligned}\]</p>
+
+<p>Como o segundo comprador irá classificar o lote como \(II\) com maior probabilidade que o primeiro, ele é o que oferece menor lucro para o fornecedor.</p>
+
+<p>Mas podemos verificar o lucro esperado do vendedor.</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Comprador A ou B?</h2></hgroup><article  id="exemplo-comprador-a-ou-b-3" class="build">
+
+<p>Preço por peça na categoria \(I\): $1.20. Preço por peça na categoria \(II\): $0.80.</p>
+
+<p>Se o industrial decidir vender o lote para o <strong>comprador A</strong>, temos que</p>
+
+<p>\[\mathbb E(\mbox{lucro A}) = 1.20 \times 0.737 + 0.80 \times 0.263 \approx 1.09\]</p>
+
+<p>Ou seja, ele irá lucrar em média \(\$ 1.09\) por peça.</p>
+
+<p>Já se ele vender para o <strong>comprador B</strong>, temos que</p>
+
+<p>\[\mathbb E(\mbox{lucro B}) =  1.20 \times 0.678 + 0.80 \times 0.322 \approx 1.07\]</p>
+
+<p>que é um lucro dois centavos inferior.</p>
+
+<p>Portanto, é mais interessante ao industrial que o comprador A examine mais peças.</p>
+
+</article></slide><slide class=''><hgroup><h2>Leituras</h2></hgroup><article  id="leituras">
+
+<ul>
+<li><a href='http://www.sciencedirect.com/science/book/9780123743886' title=''>Ross</a>: capítulo 5</li>
+<li>Magalhães: capítulo 3</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section">
+
+<p>Slides produzidos pelos professores:</p>
+
+<ul>
+<li><p>Samara Kiihl</p></li>
+<li><p>Tatiana Benaglia</p></li>
+<li><p>Benilton Carvalho</p></li>
+</ul></article></slide>
+
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "parte10_files/mathjax-local/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+<!-- map slide visiblity events into shiny -->
+<script>
+  (function() {
+    if (window.jQuery) {
+       window.jQuery(document).on('slideleave', function(e) {
+         window.jQuery(e.target).trigger('hidden');
+      });
+       window.jQuery(document).on('slideenter', function(e) {
+         window.jQuery(e.target).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+</body>
+</html>

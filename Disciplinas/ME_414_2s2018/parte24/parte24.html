@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ME414 - Estatística para Experimentalistas</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="generator" content="pandoc" />
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <base target="_blank">
+
+  <script type="text/javascript">
+    var SLIDE_CONFIG = {
+      // Slide settings
+      settings: {
+                title: 'ME414 - Estatística para Experimentalistas',
+                        subtitle: 'Parte 24',
+                useBuilds: true,
+        usePrettify: true,
+        enableSlideAreas: true,
+        enableTouch: true,
+                        favIcon: '../logo-imecc.png',
+              },
+
+      // Author information
+      presenters: [
+            ]
+    };
+  </script>
+
+  <link href="parte24_files/ioslides-13.5.1/fonts/fonts.css" rel="stylesheet" />
+  <link href="parte24_files/ioslides-13.5.1/theme/css/default.css" rel="stylesheet" />
+  <link href="parte24_files/ioslides-13.5.1/theme/css/phone.css" rel="stylesheet" />
+  <script src="parte24_files/ioslides-13.5.1/js/modernizr.custom.45394.js"></script>
+  <script src="parte24_files/ioslides-13.5.1/js/prettify/prettify.js"></script>
+  <script src="parte24_files/ioslides-13.5.1/js/prettify/lang-r.js"></script>
+  <script src="parte24_files/ioslides-13.5.1/js/prettify/lang-yaml.js"></script>
+  <script src="parte24_files/ioslides-13.5.1/js/hammer.js"></script>
+  <script src="parte24_files/ioslides-13.5.1/js/slide-controller.js"></script>
+  <script src="parte24_files/ioslides-13.5.1/js/slide-deck.js"></script>
+
+  <style type="text/css">
+
+    b, strong {
+      font-weight: bold;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    slides > slide {
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .auto-fadein {
+      -webkit-transition: opacity 0.6s ease-in;
+      -webkit-transition-delay: 0.4s;
+      -moz-transition: opacity 0.6s ease-in 0.4s;
+      -o-transition: opacity 0.6s ease-in 0.4s;
+      transition: opacity 0.6s ease-in 0.4s;
+      opacity: 0;
+    }
+
+    slides > slide:not(.nobackground):before {
+      font-size: 12pt;
+      content: "";
+      position: absolute;
+      bottom: 20px;
+      left: 60px;
+      background: url(../logo-imecc.png) no-repeat 0 50%;
+      -webkit-background-size: 30px 30px;
+      -moz-background-size: 30px 30px;
+      -o-background-size: 30px 30px;
+      background-size: 30px 30px;
+      padding-left: 40px;
+      height: 30px;
+      line-height: 1.9;
+    }
+  </style>
+
+
+</head>
+
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="title-slide segue nobackground">
+        <aside class="gdbar"><img src="/Users/imac/Dropbox/Me414-offline-slides/logo-imecc.png"></aside>
+        <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+          </hgroup>
+  </slide>
+
+<slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Análise de Variância (ANOVA)</h2></hgroup><article  id="analise-de-variancia-anova">
+
+</article></slide><slide class=''><hgroup><h2>Introdução</h2></hgroup><article  id="introducao" class="build">
+
+<p>Já vimos anteriormente como testar se existe diferença entre duas médias \(\mu_1\) e \(\mu_2\) de duas populações independentes. Ou seja:</p>
+
+<p>\[H_0: \mu_1=\mu_2 \quad \mbox{vs} \quad  H_a: \mu_1 \neq \mu_2\]</p>
+
+<p>Considerando o caso das variâncias iguais e desconhecidas, usamos \(s_p^2\) como estimador da variância \(\sigma^2\) e temos a estatística do teste: \[T= \frac{\bar{X} - \bar{Y}}{ \sqrt{s_p^2 ( \frac{1}{n} + \frac{1}{m}} )} \stackrel{H_0}{\sim} t_{n+m-2}.\]</p>
+
+<p>Mas e se quiséssemos comparar as médias de 3 ou mais populações (grupos)?</p>
+
+</article></slide><slide class=''><hgroup><h2>Análise de Variância</h2></hgroup><article  id="analise-de-variancia" class="build">
+
+<p><strong>Exemplo:</strong> O Departamento de Estatística oferece o curso ME414 todo semestre para várias turmas. Suponha que queremos saber se existe diferença significativa no desempenho na P1 entre as turmas A, B, C e I.</p>
+
+<p>Poderíamos comparar as médias duas a duas, certo?</p>
+
+<p>No entanto, isso não é muito viável quando temos muitos grupos.</p>
+
+<p>A técnica estatística adequada para esse tipo de problema, com a qual pode-se comparar se as médias de várias populações (grupos) são todas iguais com um único teste é chamada de <strong>Análise de Variância (ANOVA)</strong>.</p>
+
+</article></slide><slide class=''><hgroup><h2>Análise de Variância - ANOVA</h2></hgroup><article  id="analise-de-variancia---anova" class="build">
+
+<p><strong>Objetivo:</strong> Comparar se as médias de 3 ou mais populações (grupos) são iguais.</p>
+
+<p><strong>Hipóteses:</strong> \[\begin{aligned} 
+H_0: &amp;\mbox{as médias são as mesmas para todos os grupos} \\ 
+H_a: &amp; \mbox{pelo menos uma média é diferente das demais}
+\end{aligned}
+\]</p>
+
+<p>Em termos estatísticos: \[\begin{aligned} 
+H_0: &amp;\mu_1=\mu_2=\ldots=\mu_k \\ 
+H_a: &amp; \mbox{pelo menos uma média é diferente das demais}
+\end{aligned}
+\]</p>
+
+<p>A <strong>estatística do teste</strong>, chamada de F, é conceitualmente o seguinte: \[F = \frac{\mbox{Variação Entre as Médias Amostrais dos Grupos}}{\mbox{Variação Média Dentro dos Grupos}}\]</p>
+
+</article></slide><slide class=''><hgroup><h2>ANOVA - Condições</h2></hgroup><article  id="anova---condicoes" class="build">
+
+<p>Devemos checar três condições nos dados onde iremos realizar a ANOVA:</p>
+
+<ul>
+<li><p>as observações são independentes dentro dos grupos e entre os grupos;</p></li>
+<li><p>os dados dentro de cada grupo são aproximadamente normais; e</p></li>
+<li><p>a variância é aproximadamente constante entre os grupos.</p></li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Detalhes da ANOVA</h2></hgroup><article  id="detalhes-da-anova" class="build">
+
+<p>Um conceito fundamental em Análise de Variância é que a variação total dos dados, considerando todas as amostras como vindas de uma única população, pode ser separadas em duas partes:</p>
+
+<ul>
+<li><p>variação devido às diferenças entre as médias dos grupos</p></li>
+<li><p>variação das observações dentro de cada grupo</p></li>
+</ul>
+
+<p>Ou seja, escrevendo como uma equação:</p>
+
+<p>\[\mbox{Variação Total = Variação Entre Grupos + Variação Dentro dos Grupos}\]</p>
+
+<p>Iremos ver agora como medir cada uma dessas variações.</p>
+
+</article></slide><slide class=''><hgroup><h2>Estrutura dos Dados</h2></hgroup><article  id="estrutura-dos-dados" class="build">
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">Grupos</th>
+<th align="center">Observações</th>
+<th align="center">Média</th>
+</tr>
+<tr class="odd">
+<td align="left">Grupo 1</td>
+<td align="center">\(X_{11}, X_{12}, X_{13}, \ldots, X_{1n}\)</td>
+<td align="center">\(\bar{X}_1\)</td>
+</tr>
+<tr class="even">
+<td align="left">Grupo 2</td>
+<td align="center">\(X_{21}, X_{22}, X_{23}, \ldots, X_{2n}\)</td>
+<td align="center">\(\bar{X}_2\)</td>
+</tr>
+<tr class="odd">
+<td align="left">\(\vdots\)</td>
+<td align="center">\(\vdots\)</td>
+<td align="center">\(\vdots\)</td>
+</tr>
+<tr class="even">
+<td align="left">Grupo k</td>
+<td align="center">\(X_{k1}, X_{k2}, X_{k3}, \ldots, X_{kn}\)</td>
+<td align="center">\(\bar{X}_k\)</td>
+</tr>
+</table>
+
+<p>Veja que a média e variância amostral para cada grupo são calculadas como: \[\bar{X}_i = \frac{1}{n} \sum_{j=1}^n X_{ij} \quad \mbox{e} \quad s_i^2 = \frac{1}{n-1}  \sum_{j=1}^n (X_{ij} - \bar{X}_i)^2\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Notação</h2></hgroup><article  id="notacao" class="build">
+
+<p>Considere a seguinte notação:</p>
+
+<p>\(k\): número de populações ou grupos</p>
+
+<p>\(n\): tamanho de cada grupo</p>
+
+<p>\(X_{ij}\): a \(j\)-ésima observação dentro do \(i\)-ésimo grupo, \(i=1, \ldots, k\) e \(j=1,\ldots,n\)</p>
+
+<p>\(\bar{X}_i\): média amostral do \(i\)-ésimo grupo</p>
+
+<p>\(\bar{X}\): média amostral considerando todas as observações como parte de um único grupo/população.</p>
+
+<p>\(s_i\): desvio padrão amostral do \(i\)-ésimo grupo</p>
+
+</article></slide><slide class=''><hgroup><h2>Variação Total</h2></hgroup><article  id="variacao-total" class="build">
+
+<p>A variação total das observações é chamada de <strong>Soma de Quadrados Total</strong> ou \(SQ_T\) e é calculada como o numerador da variância amostral se todas as observações fossem combinadas em um único grupo. Ou seja, \[SQ_T = \sum_{i=1}^k \sum_{j=1}^n (X_{ij} - \bar{X})^2\]</p>
+
+<p>Analiticamente pode-se mostrar que: \[\begin{aligned} SQ_T = \sum_{i=1}^k \sum_{j=1}^n (X_{ij} - \bar{X})^2  &amp;= n \sum_{i=1}^k (\bar{X_i} - \bar X)^2 + \sum_{i=1}^k \sum_{j=1}^n (X_{ij} - \bar{X}_i)^2 \\
+&amp;= SQ_G + SQ_E
+\end{aligned}
+\]</p>
+
+<p>Veremos agora o que são \(SQ_G\) e \(SQ_E\).</p>
+
+</article></slide><slide class=''><hgroup><h2>Variação Entre Grupos</h2></hgroup><article  id="variacao-entre-grupos" class="build">
+
+<p>A variação entre as médias dos grupos é chamada de <strong>Soma de Quadrados Entre Grupos</strong> ou \(SQ_G\) e é calculada da seguinte forma:</p>
+
+<p>\[SQ_G = n \sum_{i=1}^k (\bar{X_i} - \bar X)^2 = n(\bar{X}_1 - \bar X)^2+ \ldots + n(\bar{X}_k - \bar X)^2\]</p>
+
+<p>Veja que é a soma ponderada das diferenças entre as médias dos grupos \(\bar{X}_i\) e a média geral \(\bar X\) ao quadrado.</p>
+
+<p>O numerador da estatística \(F\) é chamado de <strong>Quadrado Médio Entre Grupos</strong> ou \(QM_G\) e pode ser visto como sendo a variância amostral das médias dos grupos: \[QM_G = \frac{SQ_G}{k-1}\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Variação Dentro dos Grupos</h2></hgroup><article  id="variacao-dentro-dos-grupos" class="build">
+
+<p>A variação das observações dentro dos grupos é chamada de <strong>Soma de Quadrados do Erro</strong> ou \(SQ_E\) e é calculada da seguinte forma: \[SQ_E = \sum_{i=1}^k \sum_{j=1}^n (X_{ij} - \bar{X}_i)^2 =  \sum_{i=1}^k (n-1) s^2_i\]</p>
+
+<p>Ou seja, é a soma ponderada das variâncias amostrais para o \(i\)-ésimo grupo.</p>
+
+<p>O denominador da estatística \(F\) é chamado de <strong>Quadrado Médio do Erro</strong> ou \(QM_E\) e é a estimativa da variância populacional para \(k\) grupos: \[QM_E = \frac{SQ_E}{k(n-1)} = \frac{(n-1) s^2_1  + \ldots + (n-1) s^2_k}{kn-k}\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Teste de Igualdade das Médias para \(k\) Grupos</h2></hgroup><article  id="teste-de-igualdade-das-medias-para-k-grupos" class="build">
+
+<p>Resumindo, estamos interessados em testar as hipóteses: \[\begin{aligned} 
+H_0: &amp;\mu_1=\mu_2=\ldots=\mu_k \\ 
+H_a: &amp; \mbox{pelo menos uma média é diferente das demais}
+\end{aligned}
+\]</p>
+
+<p>A <strong>estatística do teste</strong> é dada por: \[F = \frac{QM_G}{QM_E} = \frac{\frac{SQ_G}{k-1}}{\frac{SQ_E}{k(n-1)}}\]</p>
+
+<p>Sob a hipótese \(H_0\) de igualdade das médias, a estatística do teste segue uma distribuição \(F\) com \(k-1\) graus de liberdade no númerador e \(k(n-1)\) graus de liberdade no denominador. Ou seja, \[F \stackrel{H_0}{\sim} F_{k-1, k(n-1)}\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Tabela F</h2></hgroup><article  id="tabela-f" class="smaller">
+
+<p>Os valores críticos da distribuição \(F\) para \(\alpha=0.05\) ou \(\alpha=0.01\) estão na tabela abaixo. As linhas e colunas representam os graus de liberdade do denominador (\(\nu_2\)) e numerador (\(\nu_1\)), respectivamente.</p>
+
+<center>
+
+<img src="figuras/TabelaF.png" width=700>
+
+</center>
+
+</article></slide><slide class=''><hgroup><h2>Teste de Igualdade das Médias para \(k\) Grupos</h2></hgroup><article  id="teste-de-igualdade-das-medias-para-k-grupos-1" class="build">
+
+<p><strong>Valor Crítico</strong>: Para um nível de significância \(\alpha\), encontrar o valor crítico \(F_{crit}\) na tabela \(F\) com \(k-1\) graus de liberdade no numerador e \(k(n-1)\) graus de liberdade no denominador tal que \(P(F_{k-1, k(n-1)} \geq F_{crit}) = \alpha.\)</p>
+
+<p><img src="parte24_files/figure-html/unnamed-chunk-1-1.png" width="624" style="display: block; margin: auto;" /></p>
+
+<p><strong>Conclusão</strong>: Rejeitamos \(H_0\) se \(F_{obs} \geq F_{crit} = F_{k-1, k(n-1), \alpha}\)</p>
+
+</article></slide><slide class=''><hgroup><h2>Tabela ANOVA</h2></hgroup><article  id="tabela-anova" class="build">
+
+<p>Tudo o que discutimos até agora pode ser resumido na tabela abaixo. Essa tabela é chamada de <strong>Tabela ANOVA</strong></p>
+
+<table class = 'rmdtable'>
+<col width="20%" />
+<col width="21%" />
+<col width="22%" />
+<col width="18%" />
+<col width="16%" />
+<tr class="header">
+<th align="left">Fonte de Variação</th>
+<th align="right">Soma de Quadrados</th>
+<th align="right">Graus de Liberdade</th>
+<th align="right">Quadrado Médio</th>
+<th align="right">Estatística F</th>
+</tr>
+<tr class="odd">
+<td align="left">Grupos (Entre)</td>
+<td align="right">\(SQ_G\)</td>
+<td align="right">\(k-1\)</td>
+<td align="right">\(QM_G\)</td>
+<td align="right">\(\displaystyle F = \frac{QM_G}{QM_E}\)</td>
+</tr>
+<tr class="even">
+<td align="left">Erro (Dentro)</td>
+<td align="right">\(SQ_E\)</td>
+<td align="right">\(k(n-1)\)</td>
+<td align="right">\(QM_E\)</td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td align="left">Total</td>
+<td align="right">\(SQ_T\)</td>
+<td align="right">\(kn-1\)</td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+</table>
+
+<p>Na prática, basta calcular \(SQ_T\) e \(SQ_G\) e obter a \(SQ_E\) por subtração: \[SQ_T = SQ_G + SQ_E \qquad \Longrightarrow \qquad SQ_E = SQ_T - SQ_G\]</p>
+
+</article></slide><slide class=''><hgroup><h2>Turmas de ME414 - Notas P1</h2></hgroup><article  id="turmas-de-me414---notas-p1" class="build">
+
+<p>Voltando no exemplo das notas da P1 para as turmas A, B, C e I. Selecionamos ao acaso 15 alunos de cada turma e anotamos sua respectiva nota na P1.</p>
+
+<p>A tabela abaixo mostra as notas dos primeiros 5 alunos.</p>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="right">Aluno</th>
+<th align="right">ME414_A</th>
+<th align="right">ME414_B</th>
+<th align="right">ME414_C</th>
+<th align="right">ME414_I</th>
+</tr>
+<tr class="odd">
+<td align="right">1</td>
+<td align="right">5.00</td>
+<td align="right">7.8</td>
+<td align="right">9.6</td>
+<td align="right">9.4</td>
+</tr>
+<tr class="even">
+<td align="right">2</td>
+<td align="right">8.33</td>
+<td align="right">5.6</td>
+<td align="right">7.3</td>
+<td align="right">8.5</td>
+</tr>
+<tr class="odd">
+<td align="right">3</td>
+<td align="right">5.00</td>
+<td align="right">6.7</td>
+<td align="right">2.7</td>
+<td align="right">5.6</td>
+</tr>
+<tr class="even">
+<td align="right">4</td>
+<td align="right">6.67</td>
+<td align="right">9.4</td>
+<td align="right">10.0</td>
+<td align="right">6.0</td>
+</tr>
+<tr class="odd">
+<td align="right">5</td>
+<td align="right">6.67</td>
+<td align="right">9.4</td>
+<td align="right">5.5</td>
+<td align="right">6.7</td>
+</tr>
+</table>
+
+</article></slide><slide class=''><hgroup><h2>ME414 - Notas P1</h2></hgroup><article  id="me414---notas-p1" class="build">
+
+<p><img src="parte24_files/figure-html/unnamed-chunk-3-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+<p>Existe diferença do desempenho na P1 entre as turmas?</p>
+
+</article></slide><slide class=''><hgroup><h2>Estatísticas Descritivas</h2></hgroup><article  id="estatisticas-descritivas">
+
+<table class = 'rmdtable'>
+<caption>Resumo das Notas P1 por Turma</caption>
+<tr class="header">
+<th align="left"></th>
+<th align="center">n</th>
+<th align="center">Média</th>
+<th align="center">Variância</th>
+<th align="center">Desvio Padrão</th>
+</tr>
+<tr class="odd">
+<td align="left">ME414_A</td>
+<td align="center">15</td>
+<td align="center">5.71</td>
+<td align="center">3.02</td>
+<td align="center">1.74</td>
+</tr>
+<tr class="even">
+<td align="left">ME414_B</td>
+<td align="center">15</td>
+<td align="center">7.71</td>
+<td align="center">1.75</td>
+<td align="center">1.32</td>
+</tr>
+<tr class="odd">
+<td align="left">ME414_C</td>
+<td align="center">15</td>
+<td align="center">6.45</td>
+<td align="center">6.10</td>
+<td align="center">2.47</td>
+</tr>
+<tr class="even">
+<td align="left">ME414_I</td>
+<td align="center">15</td>
+<td align="center">7.66</td>
+<td align="center">2.18</td>
+<td align="center">1.48</td>
+</tr>
+</table>
+
+<p>A média geral, considerando todas as notas como sendo de uma única turma é \(\bar X = `r mu\).</p>
+
+</article></slide><slide class=''><hgroup><h2>Cálculo das Somas de Quadrados</h2></hgroup><article  id="calculo-das-somas-de-quadrados">
+
+<p>\[\begin{aligned} 
+SQ_T &amp;= \sum_{i=1}^4 \sum_{j=1}^{15} (X_{ij} - \bar{X})^2 = 225.31 \\
+\\
+SQ_G &amp;= n \sum_{i=1}^4 (\bar{X_i} - \bar X)^2 \\
+&amp;= 15\left[(5.71 - 6.88)^2 + (7.71 - 6.88)^2 + (6.45 - 6.88)^2 + (7.66 - 6.88)^2 \right] \\
+&amp;= 42.59 \\
+\\
+SQ_E &amp;= SQ_T - SQ_G \\
+&amp;= 225.31 - 42.59 = 182.72
+\end{aligned}
+\]</p>
+
+</article></slide><slide class=''><hgroup><h2>ANOVA - Notas P1 por Turma</h2></hgroup><article  id="anova---notas-p1-por-turma" class="build">
+
+<table class = 'rmdtable'>
+<col width="20%" />
+<col width="21%" />
+<col width="22%" />
+<col width="18%" />
+<col width="16%" />
+<tr class="header">
+<th align="left">Fonte de Variação</th>
+<th align="right">Soma de Quadrados</th>
+<th align="right">Graus de Liberdade</th>
+<th align="right">Quadrado Médio</th>
+<th align="right">Estatística F</th>
+</tr>
+<tr class="odd">
+<td align="left">Grupos (Turma)</td>
+<td align="right">\(42.59\)</td>
+<td align="right">\(3\)</td>
+<td align="right">\(14.2\)</td>
+<td align="right">\(\displaystyle F = \frac{14.2}{3.26} = 4.351\)</td>
+</tr>
+<tr class="even">
+<td align="left">Erro</td>
+<td align="right">\(182.72\)</td>
+<td align="right">\(56\)</td>
+<td align="right">\(3.26\)</td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td align="left">Total</td>
+<td align="right">\(225.31\)</td>
+<td align="right">\(59\)</td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+</table>
+
+<p>Para \(\alpha=0.05\), olhando na tabela F com 3 e 56 graus de liberdadeo, o valor crítico é \(F_{crit} = F_{3, 56, 0.05} = 2.769\).</p>
+
+<p><strong>Conclusão:</strong> Para \(\alpha = 0.05\), como \(F_{obs}= 4.351 &gt; 2.769 = F_{crit},\) rejeitamos a hipótese de que as médias da P1 para todas as turmas são iguais.</p>
+
+</article></slide><slide class=''><hgroup><h2>Notas P1 por Turma</h2></hgroup><article  id="notas-p1-por-turma">
+
+<p><img src="parte24_files/figure-html/unnamed-chunk-6-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Qual dieta você faria?</h2></hgroup><article  id="exemplo-qual-dieta-voce-faria" class="build">
+
+<p>Uma nutricionista quer comparar a perda de peso para três tipos diferentes de dieta. Ela selecionou 12 de seus pacientes e escolheu 4 ao acaso para fazer cada uma das dietas. Depois de um período de três meses os pacientes foram pesados e a perda de peso (em Kg) foi a seguinte:</p>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="center">Paciente</th>
+<th align="center">Dieta 1</th>
+<th align="center">Dieta 2</th>
+<th align="center">Dieta 3</th>
+</tr>
+<tr class="odd">
+<td align="center">1</td>
+<td align="center">7</td>
+<td align="center">9</td>
+<td align="center">15</td>
+</tr>
+<tr class="even">
+<td align="center">2</td>
+<td align="center">9</td>
+<td align="center">11</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="center">3</td>
+<td align="center">5</td>
+<td align="center">7</td>
+<td align="center">18</td>
+</tr>
+<tr class="even">
+<td align="center">4</td>
+<td align="center">7</td>
+<td align="center">10</td>
+<td align="center">16</td>
+</tr>
+</table>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Dieta</h2></hgroup><article  id="exemplo-dieta" class="build">
+
+<table class = 'rmdtable'>
+<caption>Resumo das Perdas de Peso por Dieta</caption>
+<tr class="header">
+<th align="left"></th>
+<th align="center">n</th>
+<th align="center">Média</th>
+<th align="center">Variância</th>
+<th align="center">Desvio Padrão</th>
+</tr>
+<tr class="odd">
+<td align="left">Dieta 1</td>
+<td align="center">4</td>
+<td align="center">7.00</td>
+<td align="center">2.67</td>
+<td align="center">1.63</td>
+</tr>
+<tr class="even">
+<td align="left">Dieta 2</td>
+<td align="center">4</td>
+<td align="center">9.25</td>
+<td align="center">2.92</td>
+<td align="center">1.71</td>
+</tr>
+<tr class="odd">
+<td align="left">Dieta 3</td>
+<td align="center">4</td>
+<td align="center">15.25</td>
+<td align="center">6.25</td>
+<td align="center">2.50</td>
+</tr>
+</table>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Dieta</h2></hgroup><article  id="exemplo-dieta-1" class="build">
+
+<p><img src="parte24_files/figure-html/unnamed-chunk-9-1.png" width="768" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Dieta</h2></hgroup><article  id="exemplo-dieta-2" class="build">
+
+<table class = 'rmdtable'>
+<col width="20%" />
+<col width="21%" />
+<col width="22%" />
+<col width="18%" />
+<col width="16%" />
+<tr class="header">
+<th align="left">Fonte de Variação</th>
+<th align="right">Soma de Quadrados</th>
+<th align="right">Graus de Liberdade</th>
+<th align="right">Quadrado Médio</th>
+<th align="right">Estatística F</th>
+</tr>
+<tr class="odd">
+<td align="left">Dieta</td>
+<td align="right">\(145.5\)</td>
+<td align="right">\(2\)</td>
+<td align="right">\(72.75\)</td>
+<td align="right">\(F = 18.444\)</td>
+</tr>
+<tr class="even">
+<td align="left">Erro</td>
+<td align="right">\(35.5\)</td>
+<td align="right">\(9\)</td>
+<td align="right">\(3.94\)</td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td align="left">Total</td>
+<td align="right">\(181\)</td>
+<td align="right">\(11\)</td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+</table>
+
+<p>Para \(\alpha=0.05\), olhando na tabela F com 2 e 9 graus de liberdadeo, o valor crítico é \(F_{crit} = F_{2, 9, 0.05} = 4.256\).</p>
+
+<p><strong>Conclusão:</strong> Para \(\alpha = 0.05\), como \(F_{obs}= 18.444 &gt; 4.256 = F_{crit},\) rejeitamos a hipótese de que as perdas de peso médias para todas as dietas são iguais.</p>
+
+</article></slide><slide class=''><hgroup><h2>Exemplo: Dieta</h2></hgroup><article  id="exemplo-dieta-3">
+
+<p><img src="parte24_files/figure-html/unnamed-chunk-11-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=''><hgroup><h2>Leituras</h2></hgroup><article  id="leituras">
+
+<ul>
+<li><a href='https://www.openintro.org/stat/textbook.php' title=''>OpenIntro</a>: seção 5.5</li>
+<li>Magalhães: seção 9.4</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section">
+
+<p>Slides produzidos pelos professores:</p>
+
+<ul>
+<li><p>Samara Kiihl</p></li>
+<li><p>Tatiana Benaglia</p></li>
+<li><p>Benilton Carvalho</p></li>
+</ul></article></slide>
+
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "parte24_files/mathjax-local/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+<!-- map slide visiblity events into shiny -->
+<script>
+  (function() {
+    if (window.jQuery) {
+       window.jQuery(document).on('slideleave', function(e) {
+         window.jQuery(e.target).trigger('hidden');
+      });
+       window.jQuery(document).on('slideenter', function(e) {
+         window.jQuery(e.target).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+</body>
+</html>
