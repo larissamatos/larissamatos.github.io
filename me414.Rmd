@@ -76,7 +76,7 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 ### Datas Importantes
 
-- Prova 1 (P1): 	13/09/18	 
+- Prova 1 (P1): 	20/09/18	 
 
 - Prova 2 (P2):   22/11/18	 
 
