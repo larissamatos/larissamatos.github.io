@@ -26,7 +26,7 @@
         usePrettify: true,
         enableSlideAreas: true,
         enableTouch: true,
-                        favIcon: '../logo-imecc.png',
+                        favIcon: 'logo-imecc.png',
               },
 
       // Author information
@@ -78,7 +78,7 @@
       position: absolute;
       bottom: 20px;
       left: 60px;
-      background: url(../logo-imecc.png) no-repeat 0 50%;
+      background: url(logo-imecc.png) no-repeat 0 50%;
       -webkit-background-size: 30px 30px;
       -moz-background-size: 30px 30px;
       -o-background-size: 30px 30px;
@@ -97,7 +97,7 @@
 <slides class="layout-widescreen">
 
   <slide class="title-slide segue nobackground">
-        <aside class="gdbar"><img src="/Users/imac/Dropbox/Me414-offline-slides/logo-imecc.png"></aside>
+        <aside class="gdbar"><img src="logo-imecc.png"></aside>
         <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
     <hgroup class="auto-fadein">
       <h1 data-config-title><!-- populated from slide_config.json --></h1>
@@ -106,9 +106,9 @@
           </hgroup>
   </slide>
 
-<slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Intervalo de Confiança</h2></hgroup><article  id="intervalo-de-confianca">
+<slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Intervalo de Confiança</h2></hgroup><article  id="intervalo-de-confianca">
 
-</article></slide><slide class=''><hgroup><h2>Introdução</h2></hgroup><article  id="introducao" class="build">
+</article></slide><slide class=""><hgroup><h2>Introdução</h2></hgroup><article  id="introducao" class="build">
 
 <ul class = 'build'>
 <li>Vimos que podemos utilizar uma estatística, como \(\bar{X}\), para estimar um parâmetro populacional, como a média populacional \(\mu\).</li>
@@ -130,7 +130,7 @@
 <li>Duas maneiras: fornecer a estimativa juntamente com o seu <strong>erro-padrão</strong> ou fornecer um intervalo de valores plausíveis para o parâmetro de interesse (<strong>intervalo de confiança</strong>).</li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2>Introdução</h2></hgroup><article  id="introducao-1" class="build">
+</article></slide><slide class=""><hgroup><h2>Introdução</h2></hgroup><article  id="introducao-1" class="build">
 
 <p>Suponha que queremos estimar o parâmetro populacional \(\theta\) através de um intervalo.</p>
 
@@ -150,7 +150,7 @@
 <li><strong>margem de erro:</strong> quantidade que depende da distribuição amostral do estimador pontual de \(\theta\), do grau de confiança pré-estabelecido e do erro padrão da estimativa</li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2>Intervalo de Confiança como Estimativa de p</h2></hgroup><article  id="intervalo-de-confianca-como-estimativa-de-p" class="build">
+</article></slide><slide class=""><hgroup><h2>Intervalo de Confiança como Estimativa de p</h2></hgroup><article  id="intervalo-de-confianca-como-estimativa-de-p" class="build">
 
 <ul>
 <li>Seja \(X_i \sim Bernoulli(p)\), \(i=1, \ldots, n\).</li>
@@ -176,7 +176,7 @@
 <li>Queremos encontrar um intervalo tal que a probabilidade do intervalo conter o verdadeiro valor de \(p\) seja \((1-\alpha)\times 100 \%\)</li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2>Intervalo de Confiança como Estimativa de p</h2></hgroup><article  id="intervalo-de-confianca-como-estimativa-de-p-1">
+</article></slide><slide class=""><hgroup><h2>Intervalo de Confiança como Estimativa de p</h2></hgroup><article  id="intervalo-de-confianca-como-estimativa-de-p-1">
 
 <p>\[ \begin{aligned}
 0.95 &amp; =  P\left(-1.96\leq Z \leq 1.96\right) \\
@@ -189,7 +189,7 @@
 
 <p>\[\hat{p}=\frac{S_n}{n}=\bar{X}_n\]</p>
 
-</article></slide><slide class=''><hgroup><h2>Intervalo de Confiança como Estimativa de p</h2></hgroup><article  id="intervalo-de-confianca-como-estimativa-de-p-2" class="build">
+</article></slide><slide class=""><hgroup><h2>Intervalo de Confiança como Estimativa de p</h2></hgroup><article  id="intervalo-de-confianca-como-estimativa-de-p-2" class="build">
 
 <p>Note que \(p\) é desconhecido, mas a variância depende da função de \(p(1-p)\), dada no seguinte gráfico:</p>
 
@@ -201,7 +201,7 @@
 
 <p>A função \(p(1-p)\) atinge o valor máximo quando \(p=1/2\), ou seja, \(p(1-p) \leq \frac{1}{4}\).</p>
 
-</article></slide><slide class=''><hgroup><h2>Intervalo de Confiança como Estimativa de p</h2></hgroup><article  id="intervalo-de-confianca-como-estimativa-de-p-3" class="build">
+</article></slide><slide class=""><hgroup><h2>Intervalo de Confiança como Estimativa de p</h2></hgroup><article  id="intervalo-de-confianca-como-estimativa-de-p-3" class="build">
 
 <p>Vimos que \(p(1-p)\leq \frac{1}{4}\), então erro-padrão é maximizado por:</p>
 
@@ -223,7 +223,7 @@
 
 <p>\[P(-z_{\alpha/2}&lt;Z&lt;z_{\alpha/2})=1-\alpha\]</p>
 
-</article></slide><slide class=''><hgroup><h2>Como encontrar \(z_{\alpha/2}\)</h2></hgroup><article  id="como-encontrar-z_alpha2">
+</article></slide><slide class=""><hgroup><h2>Como encontrar \(z_{\alpha/2}\)</h2></hgroup><article  id="como-encontrar-z_alpha2">
 
 \[P(|Z|\leq z_{\alpha/2})=P(-z_{\alpha/2}\leq Z \leq z_{\alpha/2})=1-\alpha\]
 
@@ -233,7 +233,7 @@
 
 </center>
 
-</article></slide><slide class=''><hgroup><h2>Como encontrar \(z_{\alpha/2}\)</h2></hgroup><article  id="como-encontrar-z_alpha2-1">
+</article></slide><slide class=""><hgroup><h2>Como encontrar \(z_{\alpha/2}\)</h2></hgroup><article  id="como-encontrar-z_alpha2-1">
 
 <p>\[P(|Z|\leq z_{\alpha/2})=P(-z_{\alpha/2}\leq Z \leq z_{\alpha/2})=1-\alpha\]</p>
 
@@ -243,7 +243,7 @@
 
 </center>
 
-</article></slide><slide class=''><hgroup><h2>Como encontrar \(z_{\alpha/2}\)</h2></hgroup><article  id="como-encontrar-z_alpha2-2">
+</article></slide><slide class=""><hgroup><h2>Como encontrar \(z_{\alpha/2}\)</h2></hgroup><article  id="como-encontrar-z_alpha2-2">
 
 <ul>
 <li><p>Seja \(Z\sim N(0,1)\). O percentil \(z_{\alpha/2}\) é tal que \(1-\alpha = P\left(-z_{\alpha/2}\leq Z\leq z_{\alpha/2}\right)\)</p></li>
@@ -264,7 +264,7 @@
 
 <p>Procure na tabela o valor de \(z\) tal que a probabilidade acumulada até o valor de \(z\), isto é \(P(Z\leq z)=\Phi(z)\), seja \(1-\alpha/2\).</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo" class="build">
 
 <p>Encontrar \(z_{0.05}\) tal que \(0.90 = P\left(-z_{0.05}\leq Z\leq z_{0.05}\right)\).</p>
 
@@ -280,7 +280,7 @@ Pela tabela, \(z_{0.05} = 1.64\)
 
 </center>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-1" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-1" class="build">
 
 <p>Numa pesquisa de mercado, \(n=400\) pessoas foram entrevistadas (usando amostra aleatória) sobre preferência do produto da marca A, e \(60\%\) destas pessoas preferiam a marca A.</p>
 
@@ -296,7 +296,7 @@ IC(p, 0.95) &amp;= \left[0.6 - 1.96\frac{1}{\sqrt{1600}};0.6 + 1.96\frac{1}{\sqr
 \end{aligned}
 \]</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-2" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-2" class="build">
 
 <p>Suponha que em \(n=400\) entrevistados, tivéssemos obtido \(k=80\) respostas de pessoas que preferem a marca A.</p>
 
@@ -321,7 +321,7 @@ IC_1(p, 0.90) &amp;= \left[0.2 - 1.64\frac{1}{\sqrt{1600}};0.2 + 1.64\frac{1}{\s
 \end{aligned}
 \]</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-3" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-3" class="build">
 
 <p>E se usarmos a estimativa \(\hat{p}\) para também estimar o erro-padrão \(\sqrt{\frac{p(1-p)}{n}}\)?</p>
 
@@ -342,7 +342,7 @@ IC_2(p, 0.90) &amp;= \left[0.2 - 1.64\sqrt{\frac{(0.2)(0.8)}{400}}; 0.2 + 1.64 \
 \end{aligned}
 \]</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-4" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-4" class="build">
 
 <p>O intervalo que utiliza \(\hat{p}\) também para estimar o erro-padrão tem menor amplitude do que o intervalo que utiliza o fato de \(p(1-p) \leq \frac{1}{4}\). Por isso esse último é chamado de <strong>conservador</strong>.</p>
 
@@ -353,7 +353,7 @@ IC_2(p, 0.90) &amp;= \left[0.2 - 1.64\sqrt{\frac{(0.2)(0.8)}{400}}; 0.2 + 1.64 \
 <li><p>\(IC_2(p, 0.90) = [0.167;0.233] \quad \Rightarrow \quad A_2=0.233-0.167=0.066\)</p></li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2>Intervalo de Confiança para p</h2></hgroup><article  id="intervalo-de-confianca-para-p" class="build">
+</article></slide><slide class=""><hgroup><h2>Intervalo de Confiança para p</h2></hgroup><article  id="intervalo-de-confianca-para-p" class="build">
 
 <p>Em resumo, os intervalos de \(100 (1-\alpha)\%\) de confiança para \(p\) podem então ser de duas formas:</p>
 
@@ -364,7 +364,7 @@ IC_2(p, 0.90) &amp;= \left[0.2 - 1.64\sqrt{\frac{(0.2)(0.8)}{400}}; 0.2 + 1.64 \
 
 <p>Veja que nos dois casos, os \(IC\)&#39;s são da forma \(\hat p \pm \mbox{margem de erro}\)</p>
 
-</article></slide><slide class=''><hgroup><h2>Resumo</h2></hgroup><article  id="resumo" class="build">
+</article></slide><slide class=""><hgroup><h2>Resumo</h2></hgroup><article  id="resumo" class="build">
 
 <ul>
 <li><p>Coletamos uma amostra aleatória \(X_1, X_2, \ldots, X_n\) de uma população com distribuição de Bernoulli com probabilidade de sucesso igual a \(p\), portanto com média \(p\) e a variância \(p(1-p)\) e usamos \(\bar{X}_n=\hat{p}\) para estimar \(p\).</p></li>
@@ -372,7 +372,7 @@ IC_2(p, 0.90) &amp;= \left[0.2 - 1.64\sqrt{\frac{(0.2)(0.8)}{400}}; 0.2 + 1.64 \
 <li><p>Propriedade da Normal: \[Z=\frac{\hat{p}-p}{\sqrt{p(1-p)/n}} \sim N(0,1)\] \[P(-z_{\alpha/2}&lt;Z&lt;z_{\alpha/2})=1-\alpha\]</p></li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2>Intervalo de Confiança para \(p\)</h2></hgroup><article  id="intervalo-de-confianca-para-p-1" class="build">
+</article></slide><slide class=""><hgroup><h2>Intervalo de Confiança para \(p\)</h2></hgroup><article  id="intervalo-de-confianca-para-p-1" class="build">
 
 <p>Então, um intervalo de \(100(1-\alpha)\%\) de confiança para \(p\):</p>
 
@@ -382,7 +382,7 @@ IC_2(p, 0.90) &amp;= \left[0.2 - 1.64\sqrt{\frac{(0.2)(0.8)}{400}}; 0.2 + 1.64 \
 
 <p>\[IC(p, 1-\alpha) = \left[ \hat{p} -z_{\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\,;\,  \hat{p} +z_{\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\] ou, pelo método conservador, \[IC(p, 1-\alpha) = \left[ \hat{p} -z_{\alpha/2}\sqrt{\frac{1}{4n}}\,;\,  \hat{p} +z_{\alpha/2}\sqrt{\frac{1}{4n}}\right]\]</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: Universitários Não Fumantes</h2></hgroup><article  id="exemplo-universitarios-nao-fumantes" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo: Universitários Não Fumantes</h2></hgroup><article  id="exemplo-universitarios-nao-fumantes" class="build">
 
 <p>De uma amostra aleatória de 100 alunos de uma universidade, 82 afirmaram ser não fumantes.</p>
 
@@ -402,7 +402,7 @@ IC_1(p, 0.99) &amp;= \left[\hat{p} - z_{0.005}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}
 \]</p>
 </blockquote>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: Universitários Não Fumantes</h2></hgroup><article  id="exemplo-universitarios-nao-fumantes-1" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo: Universitários Não Fumantes</h2></hgroup><article  id="exemplo-universitarios-nao-fumantes-1" class="build">
 
 <p>Podemos também calcular o \(IC\) de 99% pelo método conversador: \[
 \begin{aligned}
@@ -416,7 +416,7 @@ IC_2(p, 0.99) &amp;= \left[\hat{p} - z_{\alpha/2}\sqrt{\frac{1}{4n}}; \hat{p} + 
 
 <p>E pelo método conservador, com um grau de confiança de 99%, estimamos que a proporção de não fumantes entre os alunos está entre 69% e 95%.</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: A esposa deve sacrificar a carreira?</h2></hgroup><article  id="exemplo-a-esposa-deve-sacrificar-a-carreira" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo: A esposa deve sacrificar a carreira?</h2></hgroup><article  id="exemplo-a-esposa-deve-sacrificar-a-carreira" class="build">
 
 <p>Pesquisa do GSS. Você concorda ou não com a seguinte frase: &quot;é mais importante para um esposa ajudar a carreira do marido do que ter uma carreira própria.&quot;</p>
 
@@ -430,7 +430,7 @@ IC_2(p, 0.99) &amp;= \left[\hat{p} - z_{\alpha/2}\sqrt{\frac{1}{4n}}; \hat{p} + 
 <li>Encontre e interprete a margem de erro do \(IC\) de 95%.</li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: A esposa deve sacrificar a carreira?</h2></hgroup><article  id="exemplo-a-esposa-deve-sacrificar-a-carreira-1" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo: A esposa deve sacrificar a carreira?</h2></hgroup><article  id="exemplo-a-esposa-deve-sacrificar-a-carreira-1" class="build">
 
 <p>Calcule e interprete o \(IC\) de 95% para a proporção na população que concorda com a frase.</p>
 
@@ -448,7 +448,7 @@ IC(p, 0.95) &amp;= \left[\hat{p}-1.96 \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} ; \hat
 \end{aligned}
 \]</p>
 
-</article></slide><slide class=''><hgroup><h2>Interpretação do Intervalo de Confiança</h2></hgroup><article  id="interpretacao-do-intervalo-de-confianca" class="build">
+</article></slide><slide class=""><hgroup><h2>Interpretação do Intervalo de Confiança</h2></hgroup><article  id="interpretacao-do-intervalo-de-confianca" class="build">
 
 <p><strong>Interpretação:</strong> Se várias amostras forem retiradas da população e calcularmos um \(IC\) de 95% para cada amostra, cerca de 95% desses intervalos irão conter a verdadeira proporção na população, \(p\).</p>
 
@@ -456,7 +456,7 @@ IC(p, 0.95) &amp;= \left[\hat{p}-1.96 \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} ; \hat
 
 <p>Por que incorreto? \(p\) é uma constante, não é variável aleatória. Ou \(p\) está no intervalo ou não está. O intervalo é que é aleatório.</p>
 
-</article></slide><slide class=''><hgroup><h2>Interpretação do Intervalo de Confiança</h2></hgroup><article  id="interpretacao-do-intervalo-de-confianca-1" class="build">
+</article></slide><slide class=""><hgroup><h2>Interpretação do Intervalo de Confiança</h2></hgroup><article  id="interpretacao-do-intervalo-de-confianca-1" class="build">
 
 <center>
 
@@ -464,7 +464,7 @@ IC(p, 0.95) &amp;= \left[\hat{p}-1.96 \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} ; \hat
 
 </center>
 
-</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section">
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section">
 
 <center>
 
@@ -472,7 +472,7 @@ IC(p, 0.95) &amp;= \left[\hat{p}-1.96 \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} ; \hat
 
 </center>
 
-</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-1">
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-1">
 
 <center>
 
@@ -480,7 +480,7 @@ IC(p, 0.95) &amp;= \left[\hat{p}-1.96 \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} ; \hat
 
 </center>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao" class="build">
 
 <p>Um \(IC\) de 95% para \(p\) é: \([0.17; 0.21]\)</p>
 
@@ -500,7 +500,7 @@ IC(p, 0.95) &amp;= \left[\hat{p}-1.96 \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} ; \hat
 <p>Curiosidade: em 1977 a pergunta foi feita pela primeira vez no GSS. \(\hat{p}=0.57\) e \(IC\) de 95% foi \([0.55; 0.59]\).</p>
 </blockquote>
 
-</article></slide><slide class=''><hgroup><h2>Você pagaria mais para um produto em favor ao meio-ambiente?</h2></hgroup><article  id="voce-pagaria-mais-para-um-produto-em-favor-ao-meio-ambiente" class="build">
+</article></slide><slide class=""><hgroup><h2>Você pagaria mais para um produto em favor ao meio-ambiente?</h2></hgroup><article  id="voce-pagaria-mais-para-um-produto-em-favor-ao-meio-ambiente" class="build">
 
 <p><strong>Exemplo:</strong> Na teoria, muita gente se considera &quot;<em>eco-friendly</em>&quot;. Mas e na prática?</p>
 
@@ -513,7 +513,7 @@ IC(p, 0.95) &amp;= \left[\hat{p}-1.96 \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} ; \hat
 <li><p>Interprete.</p></li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-1" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-1" class="build">
 
 <p>Estimativa: \(\hat{p}=518/1154=0.45\)</p>
 
@@ -528,7 +528,7 @@ IC(p, 0.95) &amp;= \left[0.45-1.96 \sqrt{\frac{(0.45)(0.55)}{1154}}; 0.45+1.96 \
 
 <p><strong>Interpretação:</strong> Com grau de confiança de 95%, estimamos que a proporção populacional que concorda em pagar mais está entre 0.42 e 0.48. A estimativa pontual, 0.45, tem margem de erro de 3%.</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-2" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-2" class="build">
 
 <p>E se estivéssemos interessados na proporção que não pagaria mais?</p>
 
@@ -545,7 +545,7 @@ IC(p, 0.95) &amp;= \left[0.55-1.96 \sqrt{\frac{(0.55)(0.45)}{1154}}; 0.55+1.96 \
 
 <p><strong>Interpretação:</strong> Com grau de confiança de 95%, estimamos que a proporção populacional que não pagaria mais está entre 0.52 e 0.58. A estimativa pontual, 0.55, tem margem de erro de 3%.</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: Se a esposa quer ter um filho, mas o marido não, é justo que ele se recuse a ter um filho?</h2></hgroup><article  id="exemplo-se-a-esposa-quer-ter-um-filho-mas-o-marido-nao-e-justo-que-ele-se-recuse-a-ter-um-filho" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo: Se a esposa quer ter um filho, mas o marido não, é justo que ele se recuse a ter um filho?</h2></hgroup><article  id="exemplo-se-a-esposa-quer-ter-um-filho-mas-o-marido-nao-e-justo-que-ele-se-recuse-a-ter-um-filho" class="build">
 
 <p>GSS: 598 responderam, 366 acham justo. Encontre um \(IC\) de 99%.</p>
 
@@ -560,7 +560,7 @@ IC(p, 0.99) &amp;= \left[0.61-2.58\times0.02\,;\,0.55+2.58\times0.02\right]= \le
 
 <p>Com grau de confiança igual a 99%, estimamos que a proporção populacional que concorda está entre 0.56 e 0.66. A estimativa pontual, 0.61, tem margem de erro de 5%.</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-3" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-3" class="build">
 
 <p>E o \(IC\) de 95%?</p>
 
@@ -574,9 +574,9 @@ IC(p, 0.95) &amp;= \left[0.61 - 1.96\times0.02\,;\,0.55 + 1.96 \times 0.02\right
 
 <p>Com maior grau de confiança, temos uma margem de erro um pouco maior.</p>
 
-</article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Tamanho da amostra para estimar \(p\)</h2></hgroup><article  id="tamanho-da-amostra-para-estimar-p">
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Tamanho da amostra para estimar \(p\)</h2></hgroup><article  id="tamanho-da-amostra-para-estimar-p">
 
-</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-5" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-5" class="build">
 
 <p>A Datafolha quer fazer uma pesquisa de boca-de-urna para predizer o resultado de uma eleição com apenas dois candidatos.</p>
 
@@ -602,7 +602,7 @@ IC(p, 0.95) &amp;= \left[0.61 - 1.96\times0.02\,;\,0.55 + 1.96 \times 0.02\right
 <p>\[1.96\sqrt{\frac{p(1-p)}{n}}=0.04 \quad \Rightarrow \quad n=\frac{1.96^2p(1-p)}{0.04^2}\]</p>
 </blockquote>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-6" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-6" class="build">
 
 <p>Problema é que não conhecemos \(p\).</p>
 
@@ -618,7 +618,7 @@ IC(p, 0.95) &amp;= \left[0.61 - 1.96\times0.02\,;\,0.55 + 1.96 \times 0.02\right
 <li>Então, \[n=\frac{1.96^2\times (1/4)}{0.04^2}=600\]</li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-7" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-7" class="build">
 
 <p><strong>Outra alternativa</strong></p>
 
@@ -634,11 +634,11 @@ IC(p, 0.95) &amp;= \left[0.61 - 1.96\times0.02\,;\,0.55 + 1.96 \times 0.02\right
 <li>Uma a.a. de tamanho 585 deverá resultar numa margem de erro de 4% para um IC de 95% para a proporção da população que vota no candidato \(A\).</li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-8" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-8" class="build">
 
 <p>Uma firma de propaganda está interessada em estimar a proporção de domicílios que estão assistindo a final do campeonato brasileiro de futebol. Para isso, está planejando ligar para os domicílios selecionados aleatoriamente a partir de uma lista. Qual o tamanho da amostra necessário se a firma quer 90% de confiança de que a estimativa obtida tenha uma margem de erro igual a 0.02?</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo - Solução</h2></hgroup><article  id="exemplo---solucao" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo - Solução</h2></hgroup><article  id="exemplo---solucao" class="build">
 
 <p>\[IC(p, 1-\alpha) = \left[ \hat{p} -z_{\alpha/2}\sqrt{\frac{1}{4n}}\,;\,  \hat{p} +z_{\alpha/2}\sqrt{\frac{1}{4n}}\right]\]</p>
 
@@ -662,7 +662,7 @@ IC(p, 0.95) &amp;= \left[0.61 - 1.96\times0.02\,;\,0.55 + 1.96 \times 0.02\right
 <p>Em geral, para uma margem de erro \(m\): \[n=\left(\frac{z_{\alpha/2}}{2m}\right)^2\]</p>
 </blockquote>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-9" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-9" class="build">
 
 <p>Suponha que \(p=30\%\) dos estudantes de uma escola sejam mulheres.</p>
 
@@ -678,7 +678,7 @@ IC(p, 0.95) &amp;= \left[0.61 - 1.96\times0.02\,;\,0.55 + 1.96 \times 0.02\right
 
 <p>onde \(p\) é o valor verdadeiro da proporção de mulheres, e \(\hat{p}\) a proporção observada na amostra.</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo - Solução</h2></hgroup><article  id="exemplo---solucao-1" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo - Solução</h2></hgroup><article  id="exemplo---solucao-1" class="build">
 
 <p>Seja \(X_i\) a v.a. indicando se a pessoa \(i\) é mulher ou não. Temos que \(X_i\sim\mbox{Bernoulli}(p)\), com \(p=0.3\).</p>
 
@@ -686,7 +686,7 @@ IC(p, 0.95) &amp;= \left[0.61 - 1.96\times0.02\,;\,0.55 + 1.96 \times 0.02\right
 
 <p>Coletamos uma amostra de tamanho \(n\): \(X_1,\ldots,X_n\). Calculamos a proporção de mulheres na amostra: \[\bar{X}_n=\frac{S_n}{n}=\frac{X_1+\ldots+X_n}{n}\]</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo - Solução</h2></hgroup><article  id="exemplo---solucao-2" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo - Solução</h2></hgroup><article  id="exemplo---solucao-2" class="build">
 
 <p>Sabemos que \(\mathbb E(\bar{X}_n)= \mathbb E(X_i)=p\) e \(Var(\bar{X}_n)=\frac{Var(X_i)}{n}=\frac{p(1-p)}{n}\).</p>
 
@@ -698,7 +698,7 @@ IC(p, 0.95) &amp;= \left[0.61 - 1.96\times0.02\,;\,0.55 + 1.96 \times 0.02\right
 <p>Como \(p=0.3\) e \(n=10\), temos que: \[\mbox{Var}\left( \hat{p} \right) = \frac{0.3 \times 0.7}{10} = 0.021\]</p>
 </blockquote>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo - Solução</h2></hgroup><article  id="exemplo---solucao-3" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo - Solução</h2></hgroup><article  id="exemplo---solucao-3" class="build">
 
 <p>\[P \left( |\hat{p}-p| &lt; 0.01 \right) =  P \left( -0.01 &lt; \hat{p} - p &lt; 0.01 \right )\]</p>
 
@@ -714,7 +714,7 @@ IC(p, 0.95) &amp;= \left[0.61 - 1.96\times0.02\,;\,0.55 + 1.96 \times 0.02\right
 <p>Mas \(n=10\) é grande? Podemos comparar essa probabilidade com o resultado exato.</p>
 </blockquote>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo - Solução</h2></hgroup><article  id="exemplo---solucao-4" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo - Solução</h2></hgroup><article  id="exemplo---solucao-4" class="build">
 
 <p>Não sabemos a distribuição de \(\hat{p}\), mas o evento \(\hat{p}=\gamma\), onde \(\hat{p}=\frac{1}{n}\sum_{i=1}^nX_i\), é igual ao evento \(\sum_{i=1}^n X_i = n \gamma\), onde \(X_i\) são v.a. independentes e identicamente distribuidas Bernoulli\((0.3)\).</p>
 
@@ -730,13 +730,13 @@ IC(p, 0.95) &amp;= \left[0.61 - 1.96\times0.02\,;\,0.55 + 1.96 \times 0.02\right
 <p>Como \(\sum X_i\) assume somente valores inteiros, temos que \[ \left\{ \left |\sum_{i=1}^{10} X_i-10 \cdot 0.3 \right| &lt; 0.1 \right \} = \left \{ \sum_{i=1}^{10} X_i = 3 \right \}.\]</p>
 </blockquote>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo - Solução</h2></hgroup><article  id="exemplo---solucao-5" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo - Solução</h2></hgroup><article  id="exemplo---solucao-5" class="build">
 
 <p>Portanto, \[P \left( \left \{ \sum_{i=1}^{10} X_i = 3 \right \} \right) = {\binom{10}{3}}0.3^3 0.7^7  = 0.267.\]</p>
 
 <p>Temos uma probabilidade que é 5 vezes maior que a aproximação.</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo - Solução</h2></hgroup><article  id="exemplo---solucao-6" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo - Solução</h2></hgroup><article  id="exemplo---solucao-6" class="build">
 
 <p>Tome \(n=50\), agora. Podemos modificar rapidamente as contas da aproximação normal. A variância agora é \(\frac{p(1-p)}{n}=0.0042\), e portanto a probabilidade aproximada é:</p>
 
@@ -748,7 +748,7 @@ IC(p, 0.95) &amp;= \left[0.61 - 1.96\times0.02\,;\,0.55 + 1.96 \times 0.02\right
 <p>A probabilidade exata agora é dada pelo evento \(|\sum X_i-50 \cdot 0.3| &lt; 0.5\), ou simplesmente \(\sum_{i=1}^{50} X_i = 15\).</p>
 </blockquote>
 
-</article></slide><slide class=''><hgroup><h2>Intervalo de Confiança para proporções</h2></hgroup><article  id="intervalo-de-confianca-para-proporcoes">
+</article></slide><slide class=""><hgroup><h2>Intervalo de Confiança para proporções</h2></hgroup><article  id="intervalo-de-confianca-para-proporcoes">
 
 <p>Observe agora que \[P \left( \sum_{i=1}^{50} X_i = 15 \right) = {\binom{50}{15}}0.3^{15} 0.7^{50-15} = 0.12237\]</p>
 
@@ -758,7 +758,7 @@ IC(p, 0.95) &amp;= \left[0.61 - 1.96\times0.02\,;\,0.55 + 1.96 \times 0.02\right
 
 <p>é preciso contudo ter em mente que a aproximação só é válida para grandes tamanhos de amostra.</p>
 
-</article></slide><slide class=''><hgroup><h2>Intervalo de Confiança para proporções</h2></hgroup><article  id="intervalo-de-confianca-para-proporcoes-1">
+</article></slide><slide class=""><hgroup><h2>Intervalo de Confiança para proporções</h2></hgroup><article  id="intervalo-de-confianca-para-proporcoes-1">
 
 <p><strong>Exercício</strong></p>
 
@@ -775,7 +775,7 @@ IC(p, 0.95) &amp;= \left[0.61 - 1.96\times0.02\,;\,0.55 + 1.96 \times 0.02\right
 
 <p><em>Fonte: Morettin &amp; Bussab</em>, Estatística Básica \(5^a\) edição, pág 309.</p>
 
-</article></slide><slide class=''><hgroup><h2>Intervalo de Confiança para proporções</h2></hgroup><article  id="intervalo-de-confianca-para-proporcoes-2">
+</article></slide><slide class=""><hgroup><h2>Intervalo de Confiança para proporções</h2></hgroup><article  id="intervalo-de-confianca-para-proporcoes-2">
 
 <ul>
 <li><ol>
@@ -785,7 +785,7 @@ IC(p, 0.95) &amp;= \left[0.61 - 1.96\times0.02\,;\,0.55 + 1.96 \times 0.02\right
 
 <p><strong>Interpretação:</strong> Se pudéssemos construir um grande número de intervalos aleatórios para \(p\), todos baseados em amostras de tamanho n, \(95\%\) deles conteriam o parâmetro \(p\).</p>
 
-</article></slide><slide class=''><hgroup><h2>Intervalo de Confiança para proporções</h2></hgroup><article  id="intervalo-de-confianca-para-proporcoes-3">
+</article></slide><slide class=""><hgroup><h2>Intervalo de Confiança para proporções</h2></hgroup><article  id="intervalo-de-confianca-para-proporcoes-3">
 
 <ul>
 <li><ol>
@@ -793,7 +793,7 @@ IC(p, 0.95) &amp;= \left[0.61 - 1.96\times0.02\,;\,0.55 + 1.96 \times 0.02\right
 </ol></li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2>Intervalo de Confiança para proporções</h2></hgroup><article  id="intervalo-de-confianca-para-proporcoes-4">
+</article></slide><slide class=""><hgroup><h2>Intervalo de Confiança para proporções</h2></hgroup><article  id="intervalo-de-confianca-para-proporcoes-4">
 
 <ul>
 <li><ol>
@@ -805,7 +805,7 @@ IC(p, 0.95) &amp;= \left[0.61 - 1.96\times0.02\,;\,0.55 + 1.96 \times 0.02\right
 
 <p>Note que a prática de obter amostras pequenas para examinar \(p\), e aí determinar o tamanho amostral sem utilizar o &quot;pior caso&quot;, é no que consiste a idéia de <em>amostras piloto</em>.</p>
 
-</article></slide><slide class=''><hgroup><h2>Leituras</h2></hgroup><article  id="leituras">
+</article></slide><slide class=""><hgroup><h2>Leituras</h2></hgroup><article  id="leituras">
 
 <center>
 
@@ -819,7 +819,7 @@ IC(p, 0.95) &amp;= \left[0.61 - 1.96\times0.02\,;\,0.55 + 1.96 \times 0.02\right
 <li>Magalhães: seção 7.4.</li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section-2">
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-2">
 
 <p>Slides produzidos pelos professores:</p>
 

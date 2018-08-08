@@ -26,7 +26,7 @@
         usePrettify: true,
         enableSlideAreas: true,
         enableTouch: true,
-                        favIcon: '../logo-imecc.png',
+                        favIcon: 'logo-imecc.png',
               },
 
       // Author information
@@ -78,7 +78,7 @@
       position: absolute;
       bottom: 20px;
       left: 60px;
-      background: url(../logo-imecc.png) no-repeat 0 50%;
+      background: url(logo-imecc.png) no-repeat 0 50%;
       -webkit-background-size: 30px 30px;
       -moz-background-size: 30px 30px;
       -o-background-size: 30px 30px;
@@ -97,7 +97,7 @@
 <slides class="layout-widescreen">
 
   <slide class="title-slide segue nobackground">
-        <aside class="gdbar"><img src="/Users/imac/Dropbox/Me414-offline-slides/logo-imecc.png"></aside>
+        <aside class="gdbar"><img src="logo-imecc.png"></aside>
         <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
     <hgroup class="auto-fadein">
       <h1 data-config-title><!-- populated from slide_config.json --></h1>
@@ -106,9 +106,9 @@
           </hgroup>
   </slide>
 
-<slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Correlação e Regressão Linear Simples</h2></hgroup><article  id="correlacao-e-regressao-linear-simples">
+<slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Correlação e Regressão Linear Simples</h2></hgroup><article  id="correlacao-e-regressao-linear-simples">
 
-</article></slide><slide class=''><hgroup><h2>Problema</h2></hgroup><article  id="problema" class="build">
+</article></slide><slide class=""><hgroup><h2>Problema</h2></hgroup><article  id="problema" class="build">
 
 <p>Na última aula, trabalhamos com o conjunto de dados refere às notas do Moodle e da Prova P1 de 453 alunos matriculados em ME414 no 2S2015.</p>
 
@@ -116,7 +116,7 @@
 
 <p>Nosso objetivo é inferir a respeito da associação das notas (absolutas) das atividades disponibilizadas no Moodle com aquelas da Prova P1.</p>
 
-</article></slide><slide class=''><hgroup><h2>Moodle (\(\leq 6.25\)) e Notas da Prova P1</h2></hgroup><article  id="moodle-leq-6.25-e-notas-da-prova-p1">
+</article></slide><slide class=""><hgroup><h2>Moodle (\(\leq 6.25\)) e Notas da Prova P1</h2></hgroup><article  id="moodle-leq-6.25-e-notas-da-prova-p1">
 
 <table class = 'rmdtable'>
 <tr class="header">
@@ -149,11 +149,11 @@
 </tr>
 </table>
 
-</article></slide><slide class=''><hgroup><h2>Como Explicar essa Associação?</h2></hgroup><article  id="como-explicar-essa-associacao">
+</article></slide><slide class=""><hgroup><h2>Como Explicar essa Associação?</h2></hgroup><article  id="como-explicar-essa-associacao">
 
 <p><img src="parte23_files/figure-html/scatter_plot-1.png" width="480" style="display: block; margin: auto;" /></p>
 
-</article></slide><slide class=''><hgroup><h2>Explicando Associação Linear</h2></hgroup><article  id="explicando-associacao-linear" class="build">
+</article></slide><slide class=""><hgroup><h2>Explicando Associação Linear</h2></hgroup><article  id="explicando-associacao-linear" class="build">
 
 <ul>
 <li><strong>Coeficiente de correlação</strong>
@@ -170,9 +170,9 @@
 </ul></li>
 </ul>
 
-</article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Correlação Linear</h2></hgroup><article  id="correlacao-linear">
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Correlação Linear</h2></hgroup><article  id="correlacao-linear">
 
-</article></slide><slide class=''><hgroup><h2>Introdução à Correlação Linear</h2></hgroup><article  id="introducao-a-correlacao-linear" class="build">
+</article></slide><slide class=""><hgroup><h2>Introdução à Correlação Linear</h2></hgroup><article  id="introducao-a-correlacao-linear" class="build">
 
 <ul>
 <li>Denotamos a correlação por \(R\);</li>
@@ -183,11 +183,11 @@
 
 <p><img src="parte23_files/figure-html/scatter_plot2-1.png" width="384" style="display: block; margin: auto;" /></p>
 
-</article></slide><slide class=''><hgroup><h2>Diferentes níveis de correlação</h2></hgroup><article  id="diferentes-niveis-de-correlacao">
+</article></slide><slide class=""><hgroup><h2>Diferentes níveis de correlação</h2></hgroup><article  id="diferentes-niveis-de-correlacao">
 
 <p><img src="parte23_files/figure-html/diff_cor-1.png" width="864" style="display: block; margin: auto;" /></p>
 
-</article></slide><slide class=''><hgroup><h2>Determinação do Coeficiente de Correlação</h2></hgroup><article  id="determinacao-do-coeficiente-de-correlacao" class="build">
+</article></slide><slide class=""><hgroup><h2>Determinação do Coeficiente de Correlação</h2></hgroup><article  id="determinacao-do-coeficiente-de-correlacao" class="build">
 
 <p>Hipóteses:</p>
 
@@ -196,7 +196,7 @@
 <li>\(n\) pares de observações: (\(X_i, Y_i\));</li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2>Fórmula 1</h2></hgroup><article  id="formula-1" class="build">
+</article></slide><slide class=""><hgroup><h2>Fórmula 1</h2></hgroup><article  id="formula-1" class="build">
 
 <p>\[
 \begin{aligned}
@@ -216,7 +216,7 @@ R &amp; = 0.3243
 \end{aligned}
 \]</p>
 
-</article></slide><slide class=''><hgroup><h2>Fórmula 2</h2></hgroup><article  id="formula-2" class="build">
+</article></slide><slide class=""><hgroup><h2>Fórmula 2</h2></hgroup><article  id="formula-2" class="build">
 
 <p>\[
 \begin{aligned}
@@ -235,7 +235,7 @@ R &amp; = 0.3243
 \end{aligned}
 \]</p>
 
-</article></slide><slide class=''><hgroup><h2>Fórmula 3</h2></hgroup><article  id="formula-3" class="build">
+</article></slide><slide class=""><hgroup><h2>Fórmula 3</h2></hgroup><article  id="formula-3" class="build">
 
 <p>\[
 \begin{aligned}
@@ -256,9 +256,9 @@ R &amp; = 0.3243
 \end{aligned}
 \]</p>
 
-</article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Regressão Linear Simples</h2></hgroup><article  id="regressao-linear-simples">
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Regressão Linear Simples</h2></hgroup><article  id="regressao-linear-simples">
 
-</article></slide><slide class=''><hgroup><h2>Terminologia em Regressão Linear Simples</h2></hgroup><article  id="terminologia-em-regressao-linear-simples" class="build">
+</article></slide><slide class=""><hgroup><h2>Terminologia em Regressão Linear Simples</h2></hgroup><article  id="terminologia-em-regressao-linear-simples" class="build">
 
 <ul>
 <li>Um modelo de regressão possui, pelo menos, duas variáveis:
@@ -275,7 +275,7 @@ R &amp; = 0.3243
 </ul></li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2>Forma do Modelo</h2></hgroup><article  id="forma-do-modelo" class="build">
+</article></slide><slide class=""><hgroup><h2>Forma do Modelo</h2></hgroup><article  id="forma-do-modelo" class="build">
 
 <ul>
 <li>O modelo de regressão usual descreve associação linear: \[ Y= \alpha + \beta X + \epsilon. \]</li>
@@ -289,7 +289,7 @@ R &amp; = 0.3243
 <li>Considerar o erro é necessário, pois associações perfeitas são improváveis;</li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2>Forma do Modelo</h2></hgroup><article  id="forma-do-modelo-1" class="build">
+</article></slide><slide class=""><hgroup><h2>Forma do Modelo</h2></hgroup><article  id="forma-do-modelo-1" class="build">
 
 <center>
 
@@ -297,7 +297,7 @@ R &amp; = 0.3243
 
 </center>
 
-</article></slide><slide class=''><hgroup><h2>Hipóteses do Modelo de Regressão Linear</h2></hgroup><article  id="hipoteses-do-modelo-de-regressao-linear">
+</article></slide><slide class=""><hgroup><h2>Hipóteses do Modelo de Regressão Linear</h2></hgroup><article  id="hipoteses-do-modelo-de-regressao-linear">
 
 <ul>
 <li>Modelo de regressão linear assume:
@@ -316,7 +316,7 @@ R &amp; = 0.3243
 </ul></li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2>Como saber se a Regressão Linear é adequada?</h2></hgroup><article  id="como-saber-se-a-regressao-linear-e-adequada" class="build">
+</article></slide><slide class=""><hgroup><h2>Como saber se a Regressão Linear é adequada?</h2></hgroup><article  id="como-saber-se-a-regressao-linear-e-adequada" class="build">
 
 <ul>
 <li>Utilizar diagramas de dispersão;</li>
@@ -326,7 +326,7 @@ R &amp; = 0.3243
 <li>Buscar informação sobre independência das observações.</li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: Notas no Moodle e P1</h2></hgroup><article  id="exemplo-notas-no-moodle-e-p1">
+</article></slide><slide class=""><hgroup><h2>Exemplo: Notas no Moodle e P1</h2></hgroup><article  id="exemplo-notas-no-moodle-e-p1">
 
 <p>Na última aula, trabalhamos com o conjunto de dados refere às notas do Moodle e da Prova P1 de 453 alunos matriculados em ME414 no 2S2015.</p>
 
@@ -334,7 +334,7 @@ R &amp; = 0.3243
 
 <p>Nosso objetivo é inferir a respeito da associação das notas (absolutas) das atividades disponibilizadas no Moodle com aquelas da Prova P1.</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: Notas no Moodle e P1</h2></hgroup><article  id="exemplo-notas-no-moodle-e-p1-1">
+</article></slide><slide class=""><hgroup><h2>Exemplo: Notas no Moodle e P1</h2></hgroup><article  id="exemplo-notas-no-moodle-e-p1-1">
 
 <table class = 'rmdtable'>
 <tr class="header">
@@ -367,11 +367,11 @@ R &amp; = 0.3243
 </tr>
 </table>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: Notas no Moodle e P1</h2></hgroup><article  id="exemplo-notas-no-moodle-e-p1-2">
+</article></slide><slide class=""><hgroup><h2>Exemplo: Notas no Moodle e P1</h2></hgroup><article  id="exemplo-notas-no-moodle-e-p1-2">
 
 <p><img src="parte23_files/figure-html/dados_nota_rl-1.png" width="720" style="display: block; margin: auto;" /></p>
 
-</article></slide><slide class=''><hgroup><h2>Escolha da Melhor Reta</h2></hgroup><article  id="escolha-da-melhor-reta" class="build">
+</article></slide><slide class=""><hgroup><h2>Escolha da Melhor Reta</h2></hgroup><article  id="escolha-da-melhor-reta" class="build">
 
 <p>Um modo de determinar a melhor reta é pelo meio da minimização da soma dos erros quadrados:</p>
 
@@ -382,7 +382,7 @@ R &amp; = 0.3243
 <li>Verificar segundas derivadas;</li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2>Escolha da Melhor Reta</h2></hgroup><article  id="escolha-da-melhor-reta-1" class="build">
+</article></slide><slide class=""><hgroup><h2>Escolha da Melhor Reta</h2></hgroup><article  id="escolha-da-melhor-reta-1" class="build">
 
 <p>\[
 \begin{aligned}
@@ -395,11 +395,11 @@ f(\alpha, \beta) = \sum_{i=1}^n \epsilon_i^2 &amp; = \sum_{i=1}^n (Y_i - \alpha 
 \end{aligned}
 \]</p>
 
-</article></slide><slide class=''><hgroup><h2>A Escolha da Melhor Reta</h2></hgroup><article  id="a-escolha-da-melhor-reta">
+</article></slide><slide class=""><hgroup><h2>A Escolha da Melhor Reta</h2></hgroup><article  id="a-escolha-da-melhor-reta">
 
 <p><img src="parte23_files/figure-html/diagpontos_notas-1.png" width="720" style="display: block; margin: auto;" /></p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: Moodle x P1</h2></hgroup><article  id="exemplo-moodle-x-p1" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo: Moodle x P1</h2></hgroup><article  id="exemplo-moodle-x-p1" class="build">
 
 <p>\[
 \begin{aligned}
@@ -411,7 +411,7 @@ f(\alpha, \beta) = \sum_{i=1}^n \epsilon_i^2 &amp; = \sum_{i=1}^n (Y_i - \alpha 
 
 <p><img src="parte23_files/figure-html/reg1-1.png" width="384" style="display: block; margin: auto;" /></p>
 
-</article></slide><slide class=''><hgroup><h2>Interpretação dos Parâmetros</h2></hgroup><article  id="interpretacao-dos-parametros" class="build">
+</article></slide><slide class=""><hgroup><h2>Interpretação dos Parâmetros</h2></hgroup><article  id="interpretacao-dos-parametros" class="build">
 
 <p>\[
 \begin{aligned}
@@ -427,9 +427,9 @@ f(\alpha, \beta) = \sum_{i=1}^n \epsilon_i^2 &amp; = \sum_{i=1}^n (Y_i - \alpha 
 
 <p><img src="parte23_files/figure-html/reg1_interpretacao-1.png" width="384" style="display: block; margin: auto;" /></p>
 
-</article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Observações</h2></hgroup><article  id="observacoes">
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Observações</h2></hgroup><article  id="observacoes">
 
-</article></slide><slide class=''><hgroup><h2>Erros na Interpretação de Correlação e Regressão</h2></hgroup><article  id="erros-na-interpretacao-de-correlacao-e-regressao" class="build">
+</article></slide><slide class=""><hgroup><h2>Erros na Interpretação de Correlação e Regressão</h2></hgroup><article  id="erros-na-interpretacao-de-correlacao-e-regressao" class="build">
 
 <ul>
 <li>Correlação e regressão apresentam <strong>associação</strong>;</li>
@@ -437,11 +437,11 @@ f(\alpha, \beta) = \sum_{i=1}^n \epsilon_i^2 &amp; = \sum_{i=1}^n (Y_i - \alpha 
 <li>Extrapolações não devem ser feitas;</li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2>Associações</h2></hgroup><article  id="associacoes">
+</article></slide><slide class=""><hgroup><h2>Associações</h2></hgroup><article  id="associacoes">
 
 <p>O gráfico abaixo apresenta o número de divórcios (por 1000 casamentos) no Maine/EUA e o consumo <em>per capita</em> de margarina (em libras) ao longo dos anos. <img src="parte23_files/figure-html/assoc-1.png" width="720" style="display: block; margin: auto;" /></p>
 
-</article></slide><slide class=''><hgroup><h2>Associações</h2></hgroup><article  id="associacoes-1" class="build">
+</article></slide><slide class=""><hgroup><h2>Associações</h2></hgroup><article  id="associacoes-1" class="build">
 
 <p>A correlação entre estas duas variáveis (número de divórcios e consumo de margarina) é 0.9926.</p>
 
@@ -475,19 +475,19 @@ f(\alpha, \beta) = \sum_{i=1}^n \epsilon_i^2 &amp; = \sum_{i=1}^n (Y_i - \alpha 
 
 <p>Ou seja, \[\mbox{divórcios} = 3.30 + 0.20 \times \mbox{margarina}\]</p>
 
-</article></slide><slide class=''><hgroup><h2>Associações</h2></hgroup><article  id="associacoes-2">
+</article></slide><slide class=""><hgroup><h2>Associações</h2></hgroup><article  id="associacoes-2">
 
 <p>Importante lembrar que modelos de regressão descrevem associação, não causalidade.</p>
 
 <p><img src="parte23_files/figure-html/graf_reg_assoc-1.png" width="720" style="display: block; margin: auto;" /></p>
 
-</article></slide><slide class=''><hgroup><h2>Extrapolações</h2></hgroup><article  id="extrapolacoes">
+</article></slide><slide class=""><hgroup><h2>Extrapolações</h2></hgroup><article  id="extrapolacoes">
 
 <p>Qual o consumo esperado de margarina em 2016?</p>
 
 <p><img src="parte23_files/figure-html/graf_extrapol-1.png" width="720" style="display: block; margin: auto;" /></p>
 
-</article></slide><slide class=''><hgroup><h2>Leituras</h2></hgroup><article  id="leituras">
+</article></slide><slide class=""><hgroup><h2>Leituras</h2></hgroup><article  id="leituras">
 
 <ul>
 <li><a href='http://www.sciencedirect.com/science/article/pii/B9780123743886000132' title=''>Ross</a>: capítulo 12</li>
@@ -501,7 +501,7 @@ f(\alpha, \beta) = \sum_{i=1}^n \epsilon_i^2 &amp; = \sum_{i=1}^n (Y_i - \alpha 
 
 </center>
 
-</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section">
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section">
 
 <p>Slides produzidos pelos professores:</p>
 

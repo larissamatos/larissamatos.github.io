@@ -26,7 +26,7 @@
         usePrettify: true,
         enableSlideAreas: true,
         enableTouch: true,
-                        favIcon: '../logo-imecc.png',
+                        favIcon: 'logo-imecc.png',
               },
 
       // Author information
@@ -78,7 +78,7 @@
       position: absolute;
       bottom: 20px;
       left: 60px;
-      background: url(../logo-imecc.png) no-repeat 0 50%;
+      background: url(logo-imecc.png) no-repeat 0 50%;
       -webkit-background-size: 30px 30px;
       -moz-background-size: 30px 30px;
       -o-background-size: 30px 30px;
@@ -97,7 +97,7 @@
 <slides class="layout-widescreen">
 
   <slide class="title-slide segue nobackground">
-        <aside class="gdbar"><img src="/Users/imac/Dropbox/Me414-offline-slides/logo-imecc.png"></aside>
+        <aside class="gdbar"><img src="logo-imecc.png"></aside>
         <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
     <hgroup class="auto-fadein">
       <h1 data-config-title><!-- populated from slide_config.json --></h1>
@@ -106,9 +106,9 @@
           </hgroup>
   </slide>
 
-<slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Inferência para duas populações: intervalo de confiança para duas médias</h2></hgroup><article  id="inferencia-para-duas-populacoes-intervalo-de-confianca-para-duas-medias">
+<slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Inferência para duas populações: intervalo de confiança para duas médias</h2></hgroup><article  id="inferencia-para-duas-populacoes-intervalo-de-confianca-para-duas-medias">
 
-</article></slide><slide class=''><hgroup><h2>Intervalo de confiança para duas médias</h2></hgroup><article  id="intervalo-de-confianca-para-duas-medias" class="build smaller">
+</article></slide><slide class=""><hgroup><h2>Intervalo de confiança para duas médias</h2></hgroup><article  id="intervalo-de-confianca-para-duas-medias" class="build smaller">
 
 <p><strong>População 1:</strong> Coletamos uma amostra aleatória \(X_1, X_2, \ldots,X_n\) de uma população com média \(\mu_1\) e a variância \(\sigma_1^2\) e usamos \(\bar{X}\) para estimar \(\mu_1\).</p>
 
@@ -125,7 +125,7 @@
 
 <p>Se pelo menos uma das condições acima é satisfeita, temos: \[\bar{X} \sim N\left(\mu_1,\frac{\sigma_1^2}{n} \right) \quad \mbox{e} \quad  \bar{Y} \sim N\left(\mu_2,\frac{\sigma_2^2}{m} \right)\]</p>
 
-</article></slide><slide class=''><hgroup><h2>Intervalo de confiança para duas médias</h2></hgroup><article  id="intervalo-de-confianca-para-duas-medias-1" class="build">
+</article></slide><slide class=""><hgroup><h2>Intervalo de confiança para duas médias</h2></hgroup><article  id="intervalo-de-confianca-para-duas-medias-1" class="build">
 
 <p><strong>Caso 1: Variâncias diferentes e conhecidas</strong></p>
 
@@ -135,7 +135,7 @@
 
 <p>E daí, \[Z= \frac{(\bar{X} - \bar{Y}) - (\mu_1 - \mu_2)}{\displaystyle \sqrt{\frac{\sigma_1^{2}}{n} + \frac{\sigma_2^{2}}{m}}} \sim N(0, 1)\]</p>
 
-</article></slide><slide class=''><hgroup><h2>Intervalo de confiança para duas médias</h2></hgroup><article  id="intervalo-de-confianca-para-duas-medias-2" class="build">
+</article></slide><slide class=""><hgroup><h2>Intervalo de confiança para duas médias</h2></hgroup><article  id="intervalo-de-confianca-para-duas-medias-2" class="build">
 
 <p>Do resultando anterior, similar com o que fizemos para uma média, podemos construir um IC de \(100(1-\alpha)\%\) para \(\mu_1 - \mu_2\) da seguinte forma:</p>
 
@@ -143,7 +143,7 @@
 
 <p>Portanto, um IC de \(100(1-\alpha)\%\) para \(\mu_1 - \mu_2\) é dado por: \[IC(\mu_1 - \mu_2, 1-\alpha) = (\bar{X} - \bar{Y}) \pm z_{\alpha/2} \sqrt{\frac{\sigma_1^{2}}{n} + \frac{\sigma_2^{2}}{m}}\]</p>
 
-</article></slide><slide class=''><hgroup><h2>Relembrando: Como encontrar \(z_{\alpha/2}\)</h2></hgroup><article  id="relembrando-como-encontrar-z_alpha2">
+</article></slide><slide class=""><hgroup><h2>Relembrando: Como encontrar \(z_{\alpha/2}\)</h2></hgroup><article  id="relembrando-como-encontrar-z_alpha2">
 
 <p>\[P(|Z|\leq z_{\alpha/2})=P(-z_{\alpha/2}\leq Z \leq z_{\alpha/2})=1-\alpha\]</p>
 
@@ -155,7 +155,7 @@
 
 <p>Procure na tabela o valor de \(z\) tal que a probabilidade acumulada até o valor de \(z\), isto é \(P(Z\leq z)=\Phi(z)\), seja \(1-\alpha/2\).</p>
 
-</article></slide><slide class=''><hgroup><h2>Intervalo de confiança para duas médias</h2></hgroup><article  id="intervalo-de-confianca-para-duas-medias-3" class="build">
+</article></slide><slide class=""><hgroup><h2>Intervalo de confiança para duas médias</h2></hgroup><article  id="intervalo-de-confianca-para-duas-medias-3" class="build">
 
 <p><strong>Caso 2: Variâncias iguais e conhecidas</strong></p>
 
@@ -165,7 +165,7 @@
 
 <p>E um IC de \(100(1-\alpha)\%\) para \(\mu_1 - \mu_2\) é dado por: \[IC(\mu_1 - \mu_2, 1-\alpha) = (\bar{X} - \bar{Y}) \pm z_{\alpha/2} \sqrt{\sigma^2 \left(\frac{1}{n} + \frac{1}{m} \right)}\]</p>
 
-</article></slide><slide class=''><hgroup><h2>Intervalo de Confiança para duas médias</h2></hgroup><article  id="intervalo-de-confianca-para-duas-medias-4" class="build">
+</article></slide><slide class=""><hgroup><h2>Intervalo de Confiança para duas médias</h2></hgroup><article  id="intervalo-de-confianca-para-duas-medias-4" class="build">
 
 <p><strong>Caso 3: Variâncias iguais e desconhecidas</strong></p>
 
@@ -175,7 +175,7 @@
 
 <p>No caso de duas populações, o estimador da variância \(\sigma^2\) é a combinação das variâncias amostrais de cada população, ou seja, \[S_p^2 = \frac{(n-1)S_1^2 + (m-1)S_2^2}{n+m-2},\] sendo \(S_i^2\) é a variância amostral da população \(i\).</p>
 
-</article></slide><slide class=''><hgroup><h2>Intervalo de confiança para duas médias</h2></hgroup><article  id="intervalo-de-confianca-para-duas-medias-5" class="build">
+</article></slide><slide class=""><hgroup><h2>Intervalo de confiança para duas médias</h2></hgroup><article  id="intervalo-de-confianca-para-duas-medias-5" class="build">
 
 <p>Então temos:\(\displaystyle \quad T= \frac{(\bar{X} - \bar{Y}) - (\mu_1 - \mu_2)}{\displaystyle \sqrt{S_p^2 \left(\frac{1}{n} + \frac{1}{m}\right) }} \sim t_{n+m-2}\)</p>
 
@@ -185,7 +185,7 @@
 
 <p><strong>Observação:</strong> Se \(n\) e \(m\) são pequenos, as duas amostras devem vir de populações aproximadamente normais. Se \(n\) e \(m\) são grandes, então a distribuição \(t\) com \(n+m-2\) graus de liberdade aproxima-se de uma normal.</p>
 
-</article></slide><slide class=''><hgroup><h2>Relembrando: Como encontrar \(t_{\nu,\alpha/2}\)</h2></hgroup><article  id="relembrando-como-encontrar-t_nualpha2">
+</article></slide><slide class=""><hgroup><h2>Relembrando: Como encontrar \(t_{\nu,\alpha/2}\)</h2></hgroup><article  id="relembrando-como-encontrar-t_nualpha2">
 
 <p>\[P(-t_{\nu,\alpha/2} &lt; T &lt; t_{\nu,\alpha/2}) = 1-\alpha\]</p>
 
@@ -197,13 +197,13 @@
 
 <p>Nesse caso, \(\nu=n+m-2\) e os valores da distribuição \(t\) encontram-se tabelados.</p>
 
-</article></slide><slide class=''><hgroup><h2>Intervalo de confiança para duas médias</h2></hgroup><article  id="intervalo-de-confianca-para-duas-medias-6">
+</article></slide><slide class=""><hgroup><h2>Intervalo de confiança para duas médias</h2></hgroup><article  id="intervalo-de-confianca-para-duas-medias-6">
 
 <p>Resumindo:</p>
 
 <table class = 'rmdtable'>
-<col width="15%" />
-<col width="41%" />
+<col width="15.277778%" />
+<col width="41.666667%" />
 <tr class="header">
 <th align="left">Variâncias</th>
 <th align="left">\(IC(\mu_1 - \mu_2, 1-\alpha)\)</th>
@@ -222,7 +222,7 @@
 </tr>
 </table>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: tempo de incubação de dois vírus</h2></hgroup><article  id="exemplo-tempo-de-incubacao-de-dois-virus" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo: tempo de incubação de dois vírus</h2></hgroup><article  id="exemplo-tempo-de-incubacao-de-dois-virus" class="build">
 
 <p>O tempo de incubação do vírus 1 segue uma distribuição normal com média \(\mu_1\) e desvio padrão \(\sigma_{1}=\sqrt{2}\). Por outro lado, o tempo de incubação do vírus 2 segue uma distribuição normal com média \(\mu_2\) e desvio padrão \(\sigma_{2}=1\). Os tempos de incubação de ambos os vírus são considerados independentes.</p>
 
@@ -242,7 +242,7 @@
 <pre >##  [1] 2.44 1.49 2.68 2.60 1.51 1.60 1.47 3.70 2.22 1.78 2.36 1.56 2.98 3.33
 ## [15] 2.22 0.58 2.26 2.26 1.92 0.50 1.17 1.70</pre>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: tempo de incubação de dois vírus</h2></hgroup><article  id="exemplo-tempo-de-incubacao-de-dois-virus-1" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo: tempo de incubação de dois vírus</h2></hgroup><article  id="exemplo-tempo-de-incubacao-de-dois-virus-1" class="build">
 
 <p>Suspeita-se que o tempo de incubação do vírus 1 é maior que o do vírus 2.</p>
 
@@ -254,7 +254,7 @@
 
 <p>Veja que as populações são normais, variâncias diferentes mas conhecidas. Além disso, \(n=20\) e \(m=22\).</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: tempo de incubação de dois vírus</h2></hgroup><article  id="exemplo-tempo-de-incubacao-de-dois-virus-2" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo: tempo de incubação de dois vírus</h2></hgroup><article  id="exemplo-tempo-de-incubacao-de-dois-virus-2" class="build">
 
 <p>Portanto, um Intervalo de \(95\%\) de confiança para \(\mu_1-\mu_2\) é dado por: \[\begin{aligned}
 IC(\mu_1-\mu_2, 0.95)&amp;= (\bar{x} - \bar{y}) \pm z_{0.025} \sqrt{\frac{\sigma_1^{2}}{n} + \frac{\sigma_2^{2}}{m}} \\
@@ -265,7 +265,7 @@ IC(\mu_1-\mu_2, 0.95)&amp;= (\bar{x} - \bar{y}) \pm z_{0.025} \sqrt{\frac{\sigma
 
 <p><strong>Interpretação:</strong> Com grau de confiança igual a 95%, estimamos que a diferença entre o tempo médio de incubação do vírus 1 para o vírus 2 está entre 1.44 e 2.94 meses.</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo" class="build">
 
 <p>Dois tipos diferentes de tecido devem ser comparados. Uma máquina de testes <em>Martindale</em> pode comparar duas amostras ao mesmo tempo. Os pesos (em miligramas) para sete experimentos foram:</p>
 
@@ -308,7 +308,7 @@ IC(\mu_1-\mu_2, 0.95)&amp;= (\bar{x} - \bar{y}) \pm z_{0.025} \sqrt{\frac{\sigma
 
 <p><em>Adaptado de: Profa. Nancy Garcia</em>, Notas de aula.</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao" class="build">
 
 <p>Os tecidos do tipo A tem uma média amostral igual a \(\bar{x}_A=30.86\). Já os tecidos do tipo B têm média amostral de \(\bar{x}_B=33.57\).</p>
 
@@ -316,7 +316,7 @@ IC(\mu_1-\mu_2, 0.95)&amp;= (\bar{x} - \bar{y}) \pm z_{0.025} \sqrt{\frac{\sigma
 
 <p><strong>Suposições:</strong> Como os tamanhos amostrais \(n=m=7\) são pequenos, devemos assumir os pesos dos tecidos dos dois tipos são normalmente distribuídos ou seja, \(X_A \sim N(\mu_A, \sigma^2)\) e \(X_B \sim N(\mu_B, \sigma^2)\). Além disso são independentes e com variâncias iguais.</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-1" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-1" class="build">
 
 <p>Assumindo que as variâncias são iguais e <strong>conhecidas</strong> (\(\sigma_1^2=\sigma_2^2=49\)), um IC de 95% para \(\mu_A - \mu_B\) é dado por: \[\begin{aligned}
 IC(\mu_A - \mu_B, 0.95) &amp;= (\bar{x}_A - \bar{x}_B) \pm z_{0.025} \sqrt{\sigma^2 \left(\frac{1}{n} + \frac{1}{m} \right)} \\
@@ -328,7 +328,7 @@ IC(\mu_A - \mu_B, 0.95) &amp;= (\bar{x}_A - \bar{x}_B) \pm z_{0.025} \sqrt{\sigm
 
 <p>Portanto, com um grau de confiança de 95%, estimamos que a diferença entre os pesos médios dos tecidos do tipo A e tipo B está entre -10.04 e 4.62 mg.</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-2" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-2" class="build">
 
 <p>Vamos assumir agora que a variância populacional não fosse conhecida.</p>
 
@@ -340,7 +340,7 @@ s_p^2 &amp;= \frac{(n-1)s_1^2 + (m-1)s_2^2}{n+m-2}\\
 &amp;= 48.38
 \end{aligned}\]</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-3" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-3" class="build">
 
 <p>Nesse caso, um IC de 95% para \(\mu_A - \mu_B\) é dado por: \[\begin{aligned}
 IC(\mu_A - \mu_B, 0.95) &amp;= (\bar{x}_A - \bar{x}_B) \pm t_{n+m-2, 0.025} \sqrt{s_p^2 \left(\frac{1}{n} + \frac{1}{m} \right)} \\
@@ -354,7 +354,7 @@ IC(\mu_A - \mu_B, 0.95) &amp;= (\bar{x}_A - \bar{x}_B) \pm t_{n+m-2, 0.025} \sqr
 
 <p>Note que a margem de erro desse IC é maior que o caso anterior.</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: tempo de adaptação</h2></hgroup><article  id="exemplo-tempo-de-adaptacao" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo: tempo de adaptação</h2></hgroup><article  id="exemplo-tempo-de-adaptacao" class="build">
 
 <p>Num estudo comparativo do tempo médio de adaptação (em anos), uma amostra aleatória, de 50 homens e 50 mulheres de um grande complexo industrial, produziu os seguintes resultados:</p>
 
@@ -380,7 +380,7 @@ IC(\mu_A - \mu_B, 0.95) &amp;= (\bar{x}_A - \bar{x}_B) \pm t_{n+m-2, 0.025} \sqr
 
 <p><em>Fonte:</em> Adaptado de Morettin &amp; Bussab, Estatística Básica \(5^a\) edição, pág 365.</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-4" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-4" class="build">
 
 <p>Veja que não sabemos a variância populacional, mas temos os desvios-padrão amostrais e estes são bem próximos. Então iremos assumir que as variâncias são iguais porém desconhecidas.</p>
 
@@ -392,7 +392,7 @@ s_p^2 &amp;= \frac{(n-1)s_1^2 + (m-1)s_2^2}{n+m-2}\\
 &amp;= 0.73
 \end{aligned}\]</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-5" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-5" class="build">
 
 <p>Nesse caso, um IC de 95% para \(\mu_H - \mu_M\) é dado por: \[\begin{aligned}
 IC(\mu_H - \mu_M, 0.95) &amp;= (\bar{x}_H - \bar{x}_M) \pm t_{n+m-2, 0.025} \sqrt{s_p^2 \left(\frac{1}{n} + \frac{1}{m} \right)} \\
@@ -404,7 +404,7 @@ IC(\mu_H - \mu_M, 0.95) &amp;= (\bar{x}_H - \bar{x}_M) \pm t_{n+m-2, 0.025} \sqr
 
 <p>Com um grau de confiança de 95%, estimamos que a diferença entre os tempos médios de adaptação entre homens e mulheres está entre -0.84 e -0.16 anos.</p>
 
-</article></slide><slide class=''><hgroup><h2>Intervalo de Confiança para duas proporções</h2></hgroup><article  id="intervalo-de-confianca-para-duas-proporcoes" class="build">
+</article></slide><slide class=""><hgroup><h2>Intervalo de Confiança para duas proporções</h2></hgroup><article  id="intervalo-de-confianca-para-duas-proporcoes" class="build">
 
 <p>Considere \(X_1, \ldots,X_{n_1}\) e \(Y_1, \ldots,Y_{n_2}\) duas amostras independentes de ensaios de Bernoulli tal que \(X \sim b(p_1)\) e \(Y \sim b(p_2)\), com probabilidade \(p_1\) e \(p_2\) de apresentarem uma certa característica.</p>
 
@@ -414,7 +414,7 @@ IC(\mu_H - \mu_M, 0.95) &amp;= (\bar{x}_H - \bar{x}_M) \pm t_{n+m-2, 0.025} \sqr
 
 <p>Como as variâncias de \(\hat p_1\) e \(\hat p_2\) dependem de \(p_1\) e \(p_2\) e, portanto, não são conhecidas, iremos usar uma estimativa dessas variâncias.</p>
 
-</article></slide><slide class=''><hgroup><h2>Intervalo de Confiança para duas proporções</h2></hgroup><article  id="intervalo-de-confianca-para-duas-proporcoes-1" class="build">
+</article></slide><slide class=""><hgroup><h2>Intervalo de Confiança para duas proporções</h2></hgroup><article  id="intervalo-de-confianca-para-duas-proporcoes-1" class="build">
 
 <p>Ou seja, \[\hat p_1 \sim N\left(p_1,\frac{\hat p_1(1 - \hat p_1)}{n_1} \right) \quad \mbox{e} \quad  \hat p_2 \sim N\left(p_2,\frac{\hat p_2(1 - \hat p_2)}{n_2} \right)\]</p>
 
@@ -422,7 +422,7 @@ IC(\mu_H - \mu_M, 0.95) &amp;= (\bar{x}_H - \bar{x}_M) \pm t_{n+m-2, 0.025} \sqr
 
 <p>Então, \[Z = \frac{(\hat p_1 - \hat p_2) - (p_1 - p_2)}{\sqrt{\frac{\hat p_1(1 - \hat p_1)}{n_1} + \frac{\hat p_2(1 - \hat p_2)}{n_2}}} \sim N(0, 1)\]</p>
 
-</article></slide><slide class=''><hgroup><h2>Intervalo de Confiança para duas proporções</h2></hgroup><article  id="intervalo-de-confianca-para-duas-proporcoes-2" class="build">
+</article></slide><slide class=""><hgroup><h2>Intervalo de Confiança para duas proporções</h2></hgroup><article  id="intervalo-de-confianca-para-duas-proporcoes-2" class="build">
 
 <p>Similar com o que fizemos para uma proporção, podemos então construir um IC de \(100(1-\alpha)\%\) para \(p_1 - p_2\) da seguinte forma:</p>
 
@@ -430,7 +430,7 @@ IC(\mu_H - \mu_M, 0.95) &amp;= (\bar{x}_H - \bar{x}_M) \pm t_{n+m-2, 0.025} \sqr
 
 <p>Então, um IC de \(100(1-\alpha)\%\) para \(p_1 - p_2\) é dado por: \[IC(p_1 - p_2, 1-\alpha) = (\hat p_1 - \hat p_2) \pm z_{\alpha/2} \sqrt{\frac{\hat p_1 (1 - \hat p_1)}{n_1} + \frac{\hat p_2 (1 - \hat p_2)}{n_2}}\]</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-1" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-1" class="build">
 
 <p>Para o lançamento da nova embalagem de um sabonete a divisão de criação estuda duas propostas:</p>
 
@@ -443,7 +443,7 @@ IC(\mu_H - \mu_M, 0.95) &amp;= (\bar{x}_H - \bar{x}_M) \pm t_{n+m-2, 0.025} \sqr
 
 <p>Realizaram uma pesquisa em dois supermercados “semelhantes” e perguntaram para um total de 1000 clientes se eles haviam notado a embalagem e então pediram para descrevê-la. Os resultados estão na tabela seguir.</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-6" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-6" class="build">
 
 <table class = 'rmdtable'>
 <tr class="header">
@@ -478,7 +478,7 @@ IC(\mu_H - \mu_M, 0.95) &amp;= (\bar{x}_H - \bar{x}_M) \pm t_{n+m-2, 0.025} \sqr
 <li><p>Usando os dados da tabela: \[\hat p_A = \frac{168}{400}=0.42 \quad \mbox{e} \quad \hat p_B = \frac{180}{600}=0.3 \]</p></li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-7" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-7" class="build">
 
 <p>Veja que as condições são satisfeitas.</p>
 
@@ -492,7 +492,7 @@ IC(p_A - p_B, 0.95) &amp;= (\hat p_1 - \hat p_2) \pm z_{0.025} \sqrt{\frac{\hat 
 
 <p>Portanto, com um grau de confiança de 95%, estimamos que a diferença entre as proporções \(p_A\) e \(p_B\) está entre 0.059 e 0.181.</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: Ensaio Clínico</h2></hgroup><article  id="exemplo-ensaio-clinico" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo: Ensaio Clínico</h2></hgroup><article  id="exemplo-ensaio-clinico" class="build">
 
 <p>Um ensaio clínico é realizado para avaliar um novo tipo de tratamento contra uma doença e comparar os resultados com aqueles obtidos usando o tratamento tradicional.</p>
 
@@ -502,7 +502,7 @@ IC(p_A - p_B, 0.95) &amp;= (\hat p_1 - \hat p_2) \pm z_{0.025} \sqrt{\frac{\hat 
 
 <p>Encontre um IC de 99% para \(p_1 - p_2\).</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-8" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo (continuação)</h2></hgroup><article  id="exemplo-continuacao-8" class="build">
 
 <p>A proporção de curados pelos tratamentos novo e antigo são, respectivamente: \[\hat p_1 = \frac{36}{50}=0.72 \quad \mbox{e} \quad \hat p_2 = \frac{29}{45}=0.8 \]</p>
 
@@ -515,7 +515,7 @@ IC(p_1 - p_2, 0.99) &amp;= (0.72 - 0.8) \pm z_{0.005} \sqrt{\frac{0.72 (0.28)}{5
 
 <p>Portanto, com um grau de confiança de 99%, estimamos que a diferença entre as proporções de curados pelos tratamentos novo e antigo está entre -0.305 e 0.145.</p>
 
-</article></slide><slide class=''><hgroup><h2>Leituras</h2></hgroup><article  id="leituras">
+</article></slide><slide class=""><hgroup><h2>Leituras</h2></hgroup><article  id="leituras">
 
 <ul>
 <li><a href='http://www.sciencedirect.com/science/article/pii/B9780123743886000107' title=''>Ross</a>: capítulo 10.</li>
@@ -523,7 +523,7 @@ IC(p_1 - p_2, 0.99) &amp;= (0.72 - 0.8) \pm z_{0.005} \sqrt{\frac{0.72 (0.28)}{5
 <li>Magalhães: capítulo 9.</li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section">
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section">
 
 <p>Slides produzidos pelos professores:</p>
 

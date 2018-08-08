@@ -26,7 +26,7 @@
         usePrettify: true,
         enableSlideAreas: true,
         enableTouch: true,
-                        favIcon: '../logo-imecc.png',
+                        favIcon: 'logo-imecc.png',
               },
 
       // Author information
@@ -78,7 +78,7 @@
       position: absolute;
       bottom: 20px;
       left: 60px;
-      background: url(../logo-imecc.png) no-repeat 0 50%;
+      background: url(logo-imecc.png) no-repeat 0 50%;
       -webkit-background-size: 30px 30px;
       -moz-background-size: 30px 30px;
       -o-background-size: 30px 30px;
@@ -97,7 +97,7 @@
 <slides class="layout-widescreen">
 
   <slide class="title-slide segue nobackground">
-        <aside class="gdbar"><img src="/Users/imac/Dropbox/Me414-offline-slides/logo-imecc.png"></aside>
+        <aside class="gdbar"><img src="logo-imecc.png"></aside>
         <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
     <hgroup class="auto-fadein">
       <h1 data-config-title><!-- populated from slide_config.json --></h1>
@@ -106,9 +106,9 @@
           </hgroup>
   </slide>
 
-<slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Testes Chi-Quadrado: Aderência e Independência</h2></hgroup><article  id="testes-chi-quadrado-aderencia-e-independencia">
+<slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Testes Chi-Quadrado: Aderência e Independência</h2></hgroup><article  id="testes-chi-quadrado-aderencia-e-independencia">
 
-</article></slide><slide class=''><hgroup><h2>Introdução</h2></hgroup><article  id="introducao" class="build">
+</article></slide><slide class=""><hgroup><h2>Introdução</h2></hgroup><article  id="introducao" class="build">
 
 <p>Muitas vezes, a informação da amostra coletada tem a estrutura de dados categorizados, ou seja, cada membro da população pode assumir um entre \(k\) valores de uma ou mais características estudadas.</p>
 
@@ -123,7 +123,7 @@
 <li><p>Teste de Independência</p></li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2>Introdução</h2></hgroup><article  id="introducao-1" class="build">
+</article></slide><slide class=""><hgroup><h2>Introdução</h2></hgroup><article  id="introducao-1" class="build">
 
 <p><strong>Teste de Aderência:</strong> considere uma população na qual cada membro assume qualquer um de \(k\) possíveis valores. Iremos verificar quão adequado uma amostra obtida dessa população se ajusta a um modelo de probabilidade proposto.</p>
 
@@ -133,7 +133,7 @@
 
 <p>Na aula de hoje iremos focar em Testes de Aderência.</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: Cores de Geladeira</h2></hgroup><article  id="exemplo-cores-de-geladeira" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo: Cores de Geladeira</h2></hgroup><article  id="exemplo-cores-de-geladeira" class="build">
 
 <p>Uma determinada marca de geladeira é vendida em cinco cores diferentes e uma pesquisa de mercado quer avaliar a popularidade das várias cores.</p>
 
@@ -168,9 +168,9 @@ Vendas das cinco cores das geladeiras da marca W
 </tr>
 </table>
 
-</article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Modelo Multinomial</h2></hgroup><article  id="modelo-multinomial">
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Modelo Multinomial</h2></hgroup><article  id="modelo-multinomial">
 
-</article></slide><slide class=''><hgroup><h2>Distribuição Multinomial</h2></hgroup><article  id="distribuicao-multinomial" class="build">
+</article></slide><slide class=""><hgroup><h2>Distribuição Multinomial</h2></hgroup><article  id="distribuicao-multinomial" class="build">
 
 <p>Para acomodar dados como no Exemplo 1, precisamos estender o modelo Bernoulli de forma que os resultados possam ser classificados em mais de duas categorias. Esse modelo é chamado de <strong>distribuição multinomial</strong>.</p>
 
@@ -182,7 +182,7 @@ Vendas das cinco cores das geladeiras da marca W
 <li><p>As observações são independentes.</p></li>
 </ol>
 
-</article></slide><slide class=''><hgroup><h2>Distribuição Multinomial</h2></hgroup><article  id="distribuicao-multinomial-1" class="build">
+</article></slide><slide class=""><hgroup><h2>Distribuição Multinomial</h2></hgroup><article  id="distribuicao-multinomial-1" class="build">
 
 <p>Considere uma amostra de uma população que consiste de elementos em diversas categorias, por exemplo, \(k\) valores possíveis.</p>
 
@@ -194,7 +194,7 @@ Vendas das cinco cores das geladeiras da marca W
 
 <p>em que \(\displaystyle \sum_{i=1}^{k}n_{i}=n\) e com \(\displaystyle \sum_{i=1}^{k}p_{i}=1\).</p>
 
-</article></slide><slide class=''><hgroup><h2>Distribuição Multinomial</h2></hgroup><article  id="distribuicao-multinomial-2" class="build">
+</article></slide><slide class=""><hgroup><h2>Distribuição Multinomial</h2></hgroup><article  id="distribuicao-multinomial-2" class="build">
 
 <p>Se designarmos a componente \(n_1\) como &quot;sucesso&quot; e juntarmos as demais numa mesma que designamos &quot;fracasso&quot;, a variável aleatória \(n_1\) é o número de sucessos em \(n\) ensaios de Bernoulli, ou seja, \(n_1 \sim Bin(n,p_1)\).</p>
 
@@ -204,9 +204,9 @@ Vendas das cinco cores das geladeiras da marca W
 
 <p>Iremos usar o valor esperado de \(n_i\) nos testes que veremos a seguir.</p>
 
-</article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Teste de Aderência</h2></hgroup><article  id="teste-de-aderencia">
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Teste de Aderência</h2></hgroup><article  id="teste-de-aderencia">
 
-</article></slide><slide class=''><hgroup><h2>Teste de Aderência</h2></hgroup><article  id="teste-de-aderencia-1" class="build">
+</article></slide><slide class=""><hgroup><h2>Teste de Aderência</h2></hgroup><article  id="teste-de-aderencia-1" class="build">
 
 <p><strong>Objetivo:</strong> Testar quão adequado é assumir um modelo probabilístico para descrever um determinado conjunto de dados.</p>
 
@@ -220,7 +220,7 @@ Vendas das cinco cores das geladeiras da marca W
 
 <p>3 genótipos (categorias): AA, Aa e aa</p>
 
-</article></slide><slide class=''><hgroup><h2>Teste de Aderência</h2></hgroup><article  id="teste-de-aderencia-2" class="build">
+</article></slide><slide class=""><hgroup><h2>Teste de Aderência</h2></hgroup><article  id="teste-de-aderencia-2" class="build">
 
 <p>Em uma certa população, 100 descendentes foram estudados, fornecendo a tabela a seguir:</p>
 
@@ -245,7 +245,7 @@ Vendas das cinco cores das geladeiras da marca W
 
 <p><strong>Objetivo:</strong> Verificar se o modelo genético proposto (Equilíbrio de Hardy-Weinberg) é adequado para essa população.</p>
 
-</article></slide><slide class=''><hgroup><h2>Teste de Aderência</h2></hgroup><article  id="teste-de-aderencia-3" class="build">
+</article></slide><slide class=""><hgroup><h2>Teste de Aderência</h2></hgroup><article  id="teste-de-aderencia-3" class="build">
 
 <p>Se o modelo teórico for adequado, a freqüência esperada de descendentes para o genótipo AA, dentre os 100 indivíduos, pode ser calculada por: \[100 \times P(AA) = 100 \times \frac{1}{4} = 25\]</p>
 
@@ -253,7 +253,7 @@ Vendas das cinco cores das geladeiras da marca W
 
 <p>E para o genótipo aa: \[100 \times P(aa) = 100 \times \frac{1}{4} = 25\]</p>
 
-</article></slide><slide class=''><hgroup><h2>Teste de Aderência</h2></hgroup><article  id="teste-de-aderencia-4" class="build">
+</article></slide><slide class=""><hgroup><h2>Teste de Aderência</h2></hgroup><article  id="teste-de-aderencia-4" class="build">
 
 <p>Podemos expandir a tabela de frequências dada anteriormente com as frequências esperadas sob o modelo teórico:</p>
 
@@ -285,7 +285,7 @@ Vendas das cinco cores das geladeiras da marca W
 
 <p>O procedimento que responde esse tipo de pergunta é chamado de <strong>teste de bondade de ajuste</strong> ou <strong>teste de aderência</strong>.</p>
 
-</article></slide><slide class=''><hgroup><h2>Teste de Aderência - Procedimento</h2></hgroup><article  id="teste-de-aderencia---procedimento" class="build">
+</article></slide><slide class=""><hgroup><h2>Teste de Aderência - Procedimento</h2></hgroup><article  id="teste-de-aderencia---procedimento" class="build">
 
 <p>Considere uma tabela de freqüências, com \(k \geq 2\) categorias de resultados:</p>
 
@@ -320,7 +320,7 @@ H_a: &amp; \mbox{existe pelo menos uma diferença}
 \end{aligned}
 \] sendo \(p_{0i}\) a probabilidade da categoria \(i\) sob o modelo teórico e \(\sum_{i=1}^k p_{0i} =1\)</p>
 
-</article></slide><slide class=''><hgroup><h2>Teste de Aderência - Procedimento</h2></hgroup><article  id="teste-de-aderencia---procedimento-1" class="build">
+</article></slide><slide class=""><hgroup><h2>Teste de Aderência - Procedimento</h2></hgroup><article  id="teste-de-aderencia---procedimento-1" class="build">
 
 <p>Se \(E_i\) é o total de indivíduos esperados na categoria \(i\), quando a hipótese nula \(H_0\) é verdadeira, então:</p>
 
@@ -355,7 +355,7 @@ H_a: &amp; \mbox{existe pelo menos uma diferença}
 </tr>
 </table>
 
-</article></slide><slide class=''><hgroup><h2>Teste de Aderência - Procedimento</h2></hgroup><article  id="teste-de-aderencia---procedimento-2" class="build">
+</article></slide><slide class=""><hgroup><h2>Teste de Aderência - Procedimento</h2></hgroup><article  id="teste-de-aderencia---procedimento-2" class="build">
 
 <p>Para quantificar quão distante os frequências observadas estão das frequências esperadas, usamos a seguinte estatística:</p>
 
@@ -367,7 +367,7 @@ H_a: &amp; \mbox{existe pelo menos uma diferença}
 
 <p><strong>Condição</strong>: Este resultado é válido para \(n\) grande e para frequências esperadas maiores ou iguais a 5.</p>
 
-</article></slide><slide class=''><hgroup><h2>Teste de Aderência - Procedimento</h2></hgroup><article  id="teste-de-aderencia---procedimento-3" class="build">
+</article></slide><slide class=""><hgroup><h2>Teste de Aderência - Procedimento</h2></hgroup><article  id="teste-de-aderencia---procedimento-3" class="build">
 
 <p>Calcular o <strong>valor-de-p</strong> ou encontrar o <strong>valor crítico</strong>.</p>
 
@@ -379,7 +379,7 @@ H_a: &amp; \mbox{existe pelo menos uma diferença}
 
 </center>
 
-</article></slide><slide class=''><hgroup><h2>Teste de Aderência - Procedimento</h2></hgroup><article  id="teste-de-aderencia---procedimento-4" class="build">
+</article></slide><slide class=""><hgroup><h2>Teste de Aderência - Procedimento</h2></hgroup><article  id="teste-de-aderencia---procedimento-4" class="build">
 
 <p><strong>Valor Crítico</strong>: Para um nível de significância \(\alpha\), encontrar o valor crítico \(\chi^2_{crit}\) na tabela Chi-quadrado tal que \(P(\chi^2_{k-1} \geq \chi^2_{crit}) = \alpha.\)</p>
 
@@ -393,7 +393,7 @@ H_a: &amp; \mbox{existe pelo menos uma diferença}
 
 <p>\[\mbox{valor-de-p} \leq \alpha \quad \mbox{ou} \quad \chi_{obs}^2 \geq \chi^2_{crit}\]</p>
 
-</article></slide><slide class=''><hgroup><h2>Tabela da Distribuição Chi-Quadrado</h2></hgroup><article  id="tabela-da-distribuicao-chi-quadrado">
+</article></slide><slide class=""><hgroup><h2>Tabela da Distribuição Chi-Quadrado</h2></hgroup><article  id="tabela-da-distribuicao-chi-quadrado">
 
 <center>
 
@@ -401,7 +401,7 @@ H_a: &amp; \mbox{existe pelo menos uma diferença}
 
 </center>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: Genética</h2></hgroup><article  id="exemplo-genetica" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo: Genética</h2></hgroup><article  id="exemplo-genetica" class="build">
 
 <p>Voltando no exemplo da Genética</p>
 
@@ -417,7 +417,7 @@ H_a: &amp; \mbox{ao menos umas das desigualdades não verifica}
 \end{aligned}
 \] sendo \(p_1=P(AA), p_2=P(Aa)\) e \(p_3=P(aa)\).</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: Genética</h2></hgroup><article  id="exemplo-genetica-1" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo: Genética</h2></hgroup><article  id="exemplo-genetica-1" class="build">
 
 <p>A tabela seguinte apresenta os valores observados e esperados (calculados anteriormente).</p>
 
@@ -452,7 +452,7 @@ H_a: &amp; \mbox{ao menos umas das desigualdades não verifica}
 \end{aligned}
 \]</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: Genética</h2></hgroup><article  id="exemplo-genetica-2" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo: Genética</h2></hgroup><article  id="exemplo-genetica-2" class="build">
 
 <p>Sob \(H_0\), a estatística \(\chi^2 \sim \chi^2_2\). Veja que os graus de liberdade é o número de categorias menos 1. Então o valor-de-p é dado por:</p>
 
@@ -464,7 +464,7 @@ H_a: &amp; \mbox{ao menos umas das desigualdades não verifica}
 
 <p>Ou como \(\chi^2_{obs}=1.18 &lt; 5.991 = \chi^2_{crit},\) não rejeitamos a hipótese \(H_0\).</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: Genética</h2></hgroup><article  id="exemplo-genetica-3">
+</article></slide><slide class=""><hgroup><h2>Exemplo: Genética</h2></hgroup><article  id="exemplo-genetica-3">
 
 <center>
 
@@ -472,7 +472,7 @@ H_a: &amp; \mbox{ao menos umas das desigualdades não verifica}
 
 </center>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: Cores de Geladeira</h2></hgroup><article  id="exemplo-cores-de-geladeira-1" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo: Cores de Geladeira</h2></hgroup><article  id="exemplo-cores-de-geladeira-1" class="build">
 
 <p>Voltando aos dados do exemplo das cores da geladeira, cujas componentes têm frequências multinomiais, a hipótese nula especifica que as cinco cores são igualmente populares. Ou seja,<br/>\[\begin{aligned}
 H_0: &amp; p_1=p_2= \ldots = p_k= 1/5 \\
@@ -503,7 +503,7 @@ H_a: &amp; \mbox{existe pelo menos uma diferença}
 
 <p>Como as probabilidades das componentes na hipótese nula são todas iguais, as frequências esperadas também serão todas iguais, ou seja, \[E_i = n\times \frac{1}{5} = 300\times \frac{1}{5} = 60, \quad i=1,2,3,4,5.\]</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: Cores de Geladeira</h2></hgroup><article  id="exemplo-cores-de-geladeira-2" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo: Cores de Geladeira</h2></hgroup><article  id="exemplo-cores-de-geladeira-2" class="build">
 
 <table class = 'rmdtable'>
 <tr class="header">
@@ -550,7 +550,7 @@ H_a: &amp; \mbox{existe pelo menos uma diferença}
 \end{aligned}
 \]</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: Cores de Geladeira</h2></hgroup><article  id="exemplo-cores-de-geladeira-3" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo: Cores de Geladeira</h2></hgroup><article  id="exemplo-cores-de-geladeira-3" class="build">
 
 <p>Olhando na tabela Qui-quadrado com 4 graus de liberdade, para \(\alpha=0.05\), o valor crítico é \(\chi^2_{crit} = \chi^2_{4, 0.05} = 9.488\).</p>
 
@@ -562,7 +562,7 @@ H_a: &amp; \mbox{existe pelo menos uma diferença}
 
 <p><strong>Conclusão:</strong> Para \(\alpha = 0.05\), como \(\chi^2_{obs}= 21.63 &gt; 9.488 = \chi^2_{crit},\) rejeitamos a hipótese de que as cinco cores são igualmente populares.</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: Tipo Sanguíneo</h2></hgroup><article  id="exemplo-tipo-sanguineo" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo: Tipo Sanguíneo</h2></hgroup><article  id="exemplo-tipo-sanguineo" class="build">
 
 <p>Entre os americanos, 41% tem sangue do tipo A, 9% tem sangue tipo B, 4% tipo AB e 46% tem sangue tipo O.</p>
 
@@ -589,7 +589,7 @@ H_a: &amp; \mbox{existe pelo menos uma diferença}
 
 <p>Essas frequências observadas trazem evidência contra a hipótese de que a distribuição do tipo sanguíneo dos pacientes é igual à distribuição dos tipos sanguíneos na população geral americana? Use nível de significância \(\alpha=0.05\).</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: Tipo Sanguíneo</h2></hgroup><article  id="exemplo-tipo-sanguineo-1" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo: Tipo Sanguíneo</h2></hgroup><article  id="exemplo-tipo-sanguineo-1" class="build">
 
 <p>\[\begin{aligned}
 H_0: &amp; p_1=0.41, p_2=0.09, p_3=0.04 , p_4=0.46 \\
@@ -634,7 +634,7 @@ H_a: &amp; \mbox{existe pelo menos uma diferença}
 
 <p><strong>Estatística do Teste:</strong> \(\displaystyle \chi^2=\sum_{i=1}^4 \frac{(O_i-E_i)^2}{E_i} = 4.14\)</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: Tipo Sanguíneo</h2></hgroup><article  id="exemplo-tipo-sanguineo-2" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo: Tipo Sanguíneo</h2></hgroup><article  id="exemplo-tipo-sanguineo-2" class="build">
 
 <center>
 
@@ -646,7 +646,7 @@ H_a: &amp; \mbox{existe pelo menos uma diferença}
 
 <p>Portanto, concluímos que não há discrepância significativa entre o que foi observado e a distribuição sanguínea da população americana.</p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: Ervilhas de Mendel</h2></hgroup><article  id="exemplo-ervilhas-de-mendel">
+</article></slide><slide class=""><hgroup><h2>Exemplo: Ervilhas de Mendel</h2></hgroup><article  id="exemplo-ervilhas-de-mendel">
 
 <center>
 
@@ -654,7 +654,7 @@ H_a: &amp; \mbox{existe pelo menos uma diferença}
 
 </center>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: Ervilhas de Mendel</h2></hgroup><article  id="exemplo-ervilhas-de-mendel-1">
+</article></slide><slide class=""><hgroup><h2>Exemplo: Ervilhas de Mendel</h2></hgroup><article  id="exemplo-ervilhas-de-mendel-1">
 
 <center>
 
@@ -664,7 +664,7 @@ H_a: &amp; \mbox{existe pelo menos uma diferença}
 
 <p><em>Figura: (Esquerda) Cruzamento de ervilhas puramente amarelas e puramente verdes e (Direta) cruzamento de ervilhas híbridas (Direita)</em></p>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: Ervilhas de Mendel</h2></hgroup><article  id="exemplo-ervilhas-de-mendel-2" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo: Ervilhas de Mendel</h2></hgroup><article  id="exemplo-ervilhas-de-mendel-2" class="build">
 
 <p>Mendel fez o cruzamento de 8023 ervilhas híbridas e o resultado foram 6022 ervilhas amarelas e 2001 ervilhas verdes. Teoricamente, cada cruzamento deve resultar em ervilha amarela com probabilidade \(3/4\) e verde com probabilidade \(1/4\).</p>
 
@@ -701,7 +701,7 @@ H_a: &amp; \mbox{existe pelo menos uma diferença}
 </tr>
 </table>
 
-</article></slide><slide class=''><hgroup><h2>Exemplo: Ervilhas de Mendel</h2></hgroup><article  id="exemplo-ervilhas-de-mendel-3" class="build">
+</article></slide><slide class=""><hgroup><h2>Exemplo: Ervilhas de Mendel</h2></hgroup><article  id="exemplo-ervilhas-de-mendel-3" class="build">
 
 <p><strong>Estatística do Teste:</strong> \(\displaystyle \chi^2=\sum_{i=1}^2 \frac{(O_i-E_i)^2}{E_i} = 0.015\)</p>
 
@@ -713,7 +713,7 @@ H_a: &amp; \mbox{existe pelo menos uma diferença}
 
 <p><strong>Conclusão:</strong> Como \(\chi^2_{obs} = 0.015 \leq 3.841= \chi^2_{1, 0.05}\), não temos evidência para rejeitar a hipótese nula. Concluímos que não há discrepância significativa entre o que foi observado e a hipótese nula.</p>
 
-</article></slide><slide class=''><hgroup><h2>Leituras</h2></hgroup><article  id="leituras">
+</article></slide><slide class=""><hgroup><h2>Leituras</h2></hgroup><article  id="leituras">
 
 <ul>
 <li><a href='http://www.sciencedirect.com/science/article/pii/B9780123743886000132' title=''>Ross</a>: capítulo 13.</li>
@@ -726,7 +726,7 @@ H_a: &amp; \mbox{existe pelo menos uma diferença}
 
 </center>
 
-</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section">
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section">
 
 <p>Slides produzidos pelos professores:</p>
 
