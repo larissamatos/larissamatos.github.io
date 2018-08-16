@@ -9,7 +9,9 @@ output:
 
 **Segundo Semestre de 2018**
 
-**Aulas:** Segundas e Quintas (PB16), 21h00-23h00 
+**Aulas:** Segundas (CB15) e Quintas (PB16), 21h00-23h00 
+
+**AVISO:**<span style="color:red"> As aulas de segunda-feira no PB16 mudaram para o CB15!!! </span>
 
 ----
 
@@ -114,6 +116,15 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 ### Listas
 
+- Lista 1
+
+- Lista 2
+
+- Lista 3
+
+- Lista 4
+
+- [Lista Extra](Disciplinas/ME_414_2s2018/ListaExtra_Veronica.pdf) (Verônica)
 
 ----
 
