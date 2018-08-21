@@ -4,7 +4,7 @@
 
 <head>
 
-<meta charset="utf-8">
+<meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 
@@ -20,9 +20,11 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
-<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -31,10 +33,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -88,6 +92,9 @@ img {
 }
 .tabbed-pane {
   padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
 }
 button.code-folding-btn:focus {
   outline: none;
@@ -245,9 +252,9 @@ $(document).ready(function () {
 <h3>Artigos Científicos</h3>
 <hr />
 <ul>
-<li><p>LACHOS, VICTOR H.; <strong>MATOS, LARISSA A.</strong>; CASTRO, LUIS M.; CHEN, MING-HUI (2018). <em>Flexible Longitudinal Linear Mixed Models for Multiple Censored Responses Data.</em> (Statistics in Medicine - Conditionally accepted) </br></p></li>
-<li><p><strong>MATOS, LARISSA A.</strong>; CASTRO, LUIS M.; CABRAL, CELSO RÔMULO BARBOSA; LACHOS, VICTOR H. (2018). <em>Multivariate Measurement Error Models Based on Student-t Distribution under Censored Responses.</em> (Statistics - Minor Revision).</br></p></li>
-<li><p><strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H.; LIN, T.I.; CASTRO, LUIS M. (2018). <em>Heavy-tailed longitudinal regression models for censored data: A robust parametric approach.</em> (TEST - Aceito para publicação)</br></p></li>
+<li><p>LACHOS, VICTOR H.; <strong>MATOS, LARISSA A.</strong>; CASTRO, LUIS M.; CHEN, MING-HUI (2018). <em>Flexible Longitudinal Linear Mixed Models for Multiple Censored Responses Data.</em> (Statistics in Medicine - Conditionally accepted) </p></li>
+<li><p><strong>MATOS, LARISSA A.</strong>; CASTRO, LUIS M.; CABRAL, CELSO RÔMULO BARBOSA; LACHOS, VICTOR H. (2018). <em>Multivariate Measurement Error Models Based on Student-t Distribution under Censored Responses.</em> (Statistics - Minor Revision).</p></li>
+<li><p><strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H.; LIN, T.I.; CASTRO, LUIS M. (2018). <em>Heavy-tailed longitudinal regression models for censored data: A robust parametric approach.</em> (TEST - doi: <a href="http://link.springer.com/article/10.1007/s11749-018-0603-5">10.1007/s11749-018-0603-5</a>) </p></li>
 <li><p>LACHOS, VICTOR H.; <strong>MATOS, LARISSA A.</strong>; BARBOSA, THAIS S.; GARAY, Aldo M.; DEY, DIPAK K.. <em>Influence diagnostics in spatial models with censored response.</em> ENVIRONMETRICS, v. 28, p. e2464, 2017. </br></p></li>
 <li><p><strong>MATOS, LARISSA A.</strong>; CASTRO, LUIS M.; LACHOS, VICTOR H.. <em>Censored mixed-effects models for irregularly observed repeated measures with applications to HIV viral loads.</em> TEST, v. 25, p. 627-653, 2016. </br></p></li>
 <li><p><strong>MATOS, LARISSA A.</strong>; BANDYOPADHYAY, DIPANKAR; CASTRO, LUIS M.; LACHOS, VICTOR H.. <em>Influence assessment in censored mixed-effects models using the multivariate Students-t.</em> JOURNAL OF MULTIVARIATE ANALYSIS, v. 141, p. 104-117, 2015. </br></p></li>
@@ -280,7 +287,7 @@ $(document).ready(function () {
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>

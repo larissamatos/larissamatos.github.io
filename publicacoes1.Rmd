@@ -15,7 +15,7 @@ output:
 - **MATOS, LARISSA A.**; CASTRO, LUIS M.; CABRAL, CELSO RÔMULO BARBOSA; LACHOS, VICTOR H. (2018). *Multivariate Measurement Error Models Based on Student-t Distribution under Censored Responses.* (Statistics - Minor Revision).\medskip
 </br>
 
-- **MATOS, LARISSA A.**; LACHOS, VICTOR H.; LIN, T.I.; CASTRO, LUIS M. (2018). *Heavy-tailed longitudinal regression models for censored data: A robust parametric approach.* (TEST - Aceito para publicação)\medskip
+- **MATOS, LARISSA A.**; LACHOS, VICTOR H.; LIN, T.I.; CASTRO, LUIS M. (2018). *Heavy-tailed longitudinal regression models for censored data: A robust parametric approach.* (TEST - doi: [10.1007/s11749-018-0603-5](http://link.springer.com/article/10.1007/s11749-018-0603-5)) \medskip
 </br>
 
 - LACHOS, VICTOR H.; **MATOS, LARISSA A.**; BARBOSA, THAIS S.; GARAY, Aldo M.; DEY, DIPAK K.. *Influence diagnostics in spatial models with censored response.* ENVIRONMETRICS, v. 28, p. e2464, 2017.
