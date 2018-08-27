@@ -365,7 +365,7 @@ Para que um elemento esteja em $A$, há duas possibilidades:
 
 ## Teorema das Probabilidades Totais {.build}
 
-Dizemos que os eventos $\{B_1, B_2, \ldots, B_k\}$ formam um partição do espaço amostral $\Omega$ se 
+Dizemos que os eventos $\{B_1, B_2, \ldots, B_n\}$ formam uma partição do espaço amostral $\Omega$ se 
  são mutuamente exclusivos e a união desses eventos é $\Omega$.
  
  <center><img src="figuras/totalprobability.png" width=350></center>
