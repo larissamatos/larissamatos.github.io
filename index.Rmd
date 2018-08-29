@@ -1,5 +1,5 @@
 ---
-title: "Larissa Avila Matos"
+title: "![](imagens/logo-unicamp1.png){width=150px} \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Larissa Avila Matos \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ ![](imagens/logoimecc1.png){width=100px}" 
 output:
   html_document:
     fig_width: 1
