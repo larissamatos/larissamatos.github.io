@@ -12,7 +12,8 @@ output:
 
 - **2006-2010**: Graduação em Estatística
 
-                Universidade Estadual de Campinas, UNICAMP, Brasil. 
+                Universidade Estadual de Campinas, UNICAMP, Brasil.
+    <!-- Universidade Estadual de Campinas, UNICAMP, Brasil. ![](imagens/logo-unicamp1.png){width=50px}  -->
 
 - **2010-2012**: Mestrado em Estatística: 
 
@@ -22,7 +23,7 @@ output:
 - **2012-2016**: Doutorado em Estatística
 
                 Universidade Estadual de Campinas, UNICAMP, Brasil.
-                Bolsista FAPESP (Processo 2011/22063-9). 
+                Bolsista FAPESP (Processo 2011/22063-9).
                 2015-2016: Período sanduíche em University of Connecticut (Processo 2015/05385-3).
 
 - **2016-2017**: Pós-Doutorado 
