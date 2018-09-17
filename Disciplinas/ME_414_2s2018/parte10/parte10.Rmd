@@ -148,7 +148,7 @@ $$\mu_{X}=\mathbb E\left(X\right)=\sum_{i\geq 1}x_ip_i$$
 
 $$P\left(X \geq Md\right)\geq \frac{1}{2} \quad \mbox{e} \quad P\left(X \leq Md\right)\geq \frac{1}{2}$$
 
-* A **moda** (Mo) é o valor da variével $X$ que tem maior probabilidade de ocorrência: 
+* A **moda** (Mo) é o valor da variável $X$ que tem maior probabilidade de ocorrência: 
 
 $$P\left(X=Mo\right)=\max\{p_{1},p_{2},\ldots \}$$
 

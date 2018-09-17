@@ -15,6 +15,22 @@ output:
 
 ----
 
+### Informações Gerais
+
+**Instruções para a prova:**
+
+- O(a) aluno(a) deverá apresentar seu RA e RG/CNH quando entregar a prova e assinar presença.
+
+- O(a) aluno(a) só poderá sair da sala após 40 minutos do início da prova, mesmo que já tenha finalizado a prova. Após a saída do(a) primeiro(a) aluno(a) não será permitida a entrada de nenhum(a) outro(a) aluno(a).
+
+- O(a) aluno(a) poderá utilizar apenas caneta, lápis, borracha e calculadora simples. Não poderá utilizar a calculadora do celular.
+
+- O(a) aluno(a) não poderá utilizar calculadora científica.
+
+- Não será permitido empréstimo de material de qualquer tipo entre alunos durante a prova. 
+
+----
+
 ### Ementa
 
 - [Ementa](Disciplinas/ME_414_2s2018/Ementa.pdf)
