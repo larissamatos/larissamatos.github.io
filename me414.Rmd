@@ -146,5 +146,7 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 ### Notas
 
-
+      
+- [Notas](Disciplinas/ME_414_2s2018/Notas.html)
+      
 ----

@@ -1,0 +1,133 @@
+---
+output:
+  html_document:
+    fig_width: 1
+---
+
+<style>
+.column-left{
+  float: left;
+  width: 48%;
+  text-align: left;
+}
+.column-right{
+  float: right;
+  width: 48%;
+  text-align: left;
+}
+.column-center{
+  float: right;
+  width: 4%;
+  text-align: left;
+}
+.column{
+  float: left;
+  width: 100%;
+  text-align: left;
+}  
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, include=FALSE}
+library(reshape2)
+library(ggplot2)
+# library(printr)
+library(knitr)
+```
+
+## Notas
+
+----
+
+<div class="column-left">
+
+  |     RA|   P1|P2 |MF |
+  |:------:|:----:|:--:|:--:|
+  |  96854| 5.55|   |   |
+  | 121337| 0.00|   |   |
+  | 140689| 9.30|   |   |
+  | 148613| 4.95|   |   |
+  | 154511| 7.30|   |   |
+  | 155006| 9.25|   |   |
+  | 155428| 3.00|   |   |
+  | 156994| 8.75|   |   |
+  | 156997| 9.40|   |   |
+  | 158062| 8.05|   |   |
+  | 159639| 6.50|   |   |
+  | 166785| 4.30|   |   |
+  | 168158| 8.00|   |   |
+  | 171081| 2.80|   |   |
+  | 171431| 3.55|   |   |
+  | 171456| 2.80|   |   |
+  | 171489| 7.85|   |   |
+  | 172657| 3.25|   |   |
+  | 174439| 5.30|   |   |
+  | 175049| 6.65|   |   |
+  | 175358| 0.00|   |   |
+  | 175677| 3.05|   |   |
+  | 176225| 3.75|   |   |
+  | 176234| 9.25|   |   |
+  | 177584| 7.85|   |   |
+</div>
+
+<div class="column-center">
+
+</div>
+
+<div class="column-right">
+  |     RA|   P1|P2 |MF |
+  |:------:|:----:|:--:|:--:|
+  | 183517| 8.75|   |   |
+  | 184390| 4.85|   |   |
+  | 185760| 9.50|   |   |
+  | 194182| 3.35|   |   |
+  | 194185| 3.40|   |   |
+  | 200123| 2.60|   |   |
+  | 201385| 5.30|   |   |
+  | 202722| 7.75|   |   |
+  | 203263| 9.25|   |   |
+  | 203845| 5.80|   |   |
+  | 203932| 5.60|   |   |
+  | 204163| 5.35|   |   |
+  | 204402| 5.05|   |   |
+  | 204523| 7.85|   |   |
+  | 204644| 4.30|   |   |
+  | 205497| 4.80|   |   |
+  | 205885| 7.75|   |   |
+  | 206917| 5.75|   |   |
+  | 207354| 1.90|   |   |
+  | 214613| 6.80|   |   |
+  | 221444| 6.80|   |   |
+  | 223188| 7.50|   |   |
+  | 223638| 4.85|   |   |
+  | 228476| 1.90|   |   |
+
+</div>
+
+<div class="column">
+
+----
+
+### Resumo das Notas da P1
+
+  | Minimo | $1^o$ Quartil | Mediana | Média | $3^o$ Quartil |   Máximo |
+  |:------:|:-------------:|:-------:|:-----:|:-------------:|:--------:|
+  | 0.00  | 3.55         | 5.55   | 5.66 | 7.85         | 9.50    | 
+  
+
+```{r, echo=FALSE, fig.width=6, fig.height=5, warning=FALSE}
+#library("gdata")
+#notas = read.xls("/Users/Larissa/Desktop/2S2018/ME414/G_ME414A_2018S2 Notas.xls",sheet=2,header = TRUE)
+#require(xtable)
+#table(notas)
+#kable(notas)
+notasp1<-c(5.55,0.00,9.30,4.95,7.30,9.25,3.00,8.75,9.40,8.05,6.50,4.30,8.00,2.80,3.55,2.80,7.85,3.25,5.30,6.65,0.00,3.05,3.75,9.25,7.85,8.75,4.85,9.50,3.35,3.40,2.60,5.30,7.75,9.25,5.80,5.60,5.35,5.05,7.85,4.30,4.80,7.75,5.75,1.90,6.80,6.80,7.50,4.85,1.90)
+boxplot(notasp1, horizontal=TRUE,  outline=TRUE,col="lightblue", type=3, ylim=c(0,10))
+abline(v=6,lty=2)
+#a<-summary(notasp1)
+```
+</div>
+
