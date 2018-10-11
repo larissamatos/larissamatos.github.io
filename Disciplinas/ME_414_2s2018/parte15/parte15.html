@@ -578,7 +578,7 @@ IC(p, 0.95) &amp;= \left[0.61 - 1.96\times0.02\,;\,0.55 + 1.96 \times 0.02\right
 
 </article></slide><slide class=""><hgroup><h2>Exemplo</h2></hgroup><article  id="exemplo-5" class="build">
 
-<p>A Datafolha quer fazer uma pesquisa de boca-de-urna para predizer o resultado de uma eleição com apenas dois candidatos.</p>
+<p>O Datafolha quer fazer uma pesquisa de boca-de-urna para predizer o resultado de uma eleição com apenas dois candidatos.</p>
 
 <p>Seleciona então uma a.a. de eleitores e pergunta em quem cada um votou. Para esta pesquisa, o Datafolha quer uma margem de erro de 4%. Qual o tamanho de amostra necessário?</p>
 
@@ -703,7 +703,7 @@ IC(p, 0.95) &amp;= \left[0.61 - 1.96\times0.02\,;\,0.55 + 1.96 \times 0.02\right
 <p>\[P \left( |\hat{p}-p| &lt; 0.01 \right) =  P \left( -0.01 &lt; \hat{p} - p &lt; 0.01 \right )\]</p>
 
 <blockquote>
-<p>\[P \left( -\frac{0.01}{\sqrt{Var(\hat{p})}} &lt; \frac{\hat{p} - p}{Var(\hat{p})} &lt; \frac{0.01}{Var(\hat{p})} \right )\]</p>
+<p>\[P \left( -\frac{0.01}{\sqrt{Var(\hat{p})}} &lt; \frac{\hat{p} - p}{\sqrt{Var(\hat{p})}} &lt; \frac{0.01}{\sqrt{Var(\hat{p})}} \right)\]</p>
 </blockquote>
 
 <blockquote>
@@ -765,12 +765,8 @@ IC(p, 0.95) &amp;= \left[0.61 - 1.96\times0.02\,;\,0.55 + 1.96 \times 0.02\right
 <p>Suponha que estejamos interessados em estimar a porcentagem de consumidores de um certo produto. Se a amostra de tamanho 300 forneceu 100 indivíduos que consomem o dado produto, determine:</p>
 
 <ul>
-<li><ol>
-<li>O intervalo de confiança de \(p\), com i.c. de \(95\%\); interprete o resultado.</li>
-</ol></li>
-<li><ol>
-<li>O tamanho da amostra para que o erro da estimativa não exceda 0.02 unidades com probabilidade de \(95\%\); interprete o resultado.</li>
-</ol></li>
+<li><p>O intervalo de confiança de \(p\), com i.c. de \(95\%\); interprete o resultado.</p></li>
+<li><p>O tamanho da amostra para que o erro da estimativa não exceda 0.02 unidades com probabilidade de \(95\%\); interprete o resultado.</p></li>
 </ul>
 
 <p><em>Fonte: Morettin &amp; Bussab</em>, Estatística Básica \(5^a\) edição, pág 309.</p>
@@ -778,9 +774,7 @@ IC(p, 0.95) &amp;= \left[0.61 - 1.96\times0.02\,;\,0.55 + 1.96 \times 0.02\right
 </article></slide><slide class=""><hgroup><h2>Intervalo de Confiança para proporções</h2></hgroup><article  id="intervalo-de-confianca-para-proporcoes-2">
 
 <ul>
-<li><ol>
 <li>O intervalo de confiança de \(95\%\) é dado por: \[ \mbox{IC}(p;0.95) = 0.333 \pm 1.96 \sqrt{\frac{0.333 \cdot 0.667}{300}} = 0.333 \pm 0.053\] Ou simplesmente \((0.280 ; 0.387)\).</li>
-</ol></li>
 </ul>
 
 <p><strong>Interpretação:</strong> Se pudéssemos construir um grande número de intervalos aleatórios para \(p\), todos baseados em amostras de tamanho n, \(95\%\) deles conteriam o parâmetro \(p\).</p>
@@ -788,17 +782,13 @@ IC(p, 0.95) &amp;= \left[0.61 - 1.96\times0.02\,;\,0.55 + 1.96 \times 0.02\right
 </article></slide><slide class=""><hgroup><h2>Intervalo de Confiança para proporções</h2></hgroup><article  id="intervalo-de-confianca-para-proporcoes-3">
 
 <ul>
-<li><ol>
 <li>Utilizando a estimativa da amostra observada (\(\hat{p}=0.333\)), temos que \(n\) é dado por \[ n= \left( \frac{1.96}{0.02} \right)^2 \times 0.333 \times 0.667 \cong 2134.\] Contudo, frequentemente devemos determinar o tamanho da amostra antes de realizar qualquer experimento, isto é, sem nenhuma informação prévia de \(p\). Se esse for o caso, devemos considerar o caso em que a variância da amostra é a pior possível.</li>
-</ol></li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>Intervalo de Confiança para proporções</h2></hgroup><article  id="intervalo-de-confianca-para-proporcoes-4">
 
 <ul>
-<li><ol>
 <li>Utilizando o valor máximo de \(p(1-p)\), isto é, \(1/4\), obtemos \[ n= \left( \frac{1.96}{0.02} \right)^2 \times \frac{1}{4} \! \cong 2401 \]</li>
-</ol></li>
 </ul>
 
 <p><strong>Interpretação:</strong> Utilizando o tamanho amostral encontrado, teremos uma probabilidade de \(95\%\) de que a proporção amostral não difira do verdadeiro valor de \(p\) em menos que \(2\%\).</p>

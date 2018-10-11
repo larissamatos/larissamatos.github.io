@@ -130,18 +130,22 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 ### Listas
 
-- [Lista 1](Disciplinas/ME_414_2s2018/Lista1.pdf):  Estatística Descritiva
+- [Lista 1](Disciplinas/ME_414_2s2018/Lista1.pdf): Estatística Descritiva
 
-- [Lista 2](Disciplinas/ME_414_2s2018/Lista2.pdf):  Probabilidade e Variáveis Aleatórias Discretas
+- [Lista 2](Disciplinas/ME_414_2s2018/Lista2.pdf): Probabilidade e Variáveis Aleatórias Discretas
       
       - [Gabarito](Disciplinas/ME_414_2s2018/Lista2Gabarito.pdf)
 
-- Lista 3
+- [Lista 3](Disciplinas/ME_414_2s2018/Lista3.pdf): Variáveis Aleatóorias Contínuas
 
 - Lista 4
 
 - [Lista Extra](Disciplinas/ME_414_2s2018/ListaExtra_Veronica.pdf) (Verônica)
 
+</br>
+
+- [Tabelas das distribuições](Disciplinas/ME_414_2s2018/Tabelas.pdf): Tabelas para serem usadas na resolução dos exercícios. 
+    
 ----
 
 ### Notas

@@ -481,7 +481,7 @@ Com maior grau de confiança, temos uma margem de erro um pouco maior.
 
 ##Exemplo {.build}
 
-A Datafolha quer fazer uma pesquisa de boca-de-urna para predizer o resultado de uma eleição com apenas dois candidatos.  
+O Datafolha quer fazer uma pesquisa de boca-de-urna para predizer o resultado de uma eleição com apenas dois candidatos.  
 
 Seleciona então uma a.a. de eleitores e pergunta em quem cada um votou. Para esta pesquisa, o Datafolha quer uma margem de erro de 4\%. Qual o tamanho de amostra necessário?
 
@@ -581,7 +581,7 @@ Sabemos que $\mathbb E(\bar{X}_n)= \mathbb E(X_i)=p$ e   $Var(\bar{X}_n)=\frac{V
 
 $$P \left( |\hat{p}-p| < 0.01 \right) =  P \left( -0.01 < \hat{p} - p < 0.01 \right )$$
 
-> $$P \left( -\frac{0.01}{\sqrt{Var(\hat{p})}} < \frac{\hat{p} - p}{Var(\hat{p})} < \frac{0.01}{Var(\hat{p})} \right )$$
+> $$P \left( -\frac{0.01}{\sqrt{Var(\hat{p})}} < \frac{\hat{p} - p}{\sqrt{Var(\hat{p})}} < \frac{0.01}{\sqrt{Var(\hat{p})}} \right)$$
 
 > $$P \left( \frac{-0.01}{\sqrt{0.021}} < Z < \frac{0.01}{\sqrt{0.021}} \right) = P(-0.07 < Z < 0.07) =  0.056\,.$$ 
 
@@ -632,9 +632,9 @@ Observe agora que $$P \left( \sum_{i=1}^{50} X_i = 15 \right) = {\binom{50}{15}}
 
 Suponha que estejamos interessados em estimar a porcentagem de consumidores de um certo produto. Se a amostra de tamanho 300 forneceu 100 indivíduos que consomem o dado produto, determine:
 
-* a) O intervalo de confiança de $p$, com i.c. de $95\%$; interprete o resultado.
+* O intervalo de confiança de $p$, com i.c. de $95\%$; interprete o resultado.
 
-* b) O tamanho da amostra para que o erro da estimativa não exceda 0.02 unidades com probabilidade de $95\%$; interprete o resultado.
+* O tamanho da amostra para que o erro da estimativa não exceda 0.02 unidades com probabilidade de $95\%$; interprete o resultado.
 
 
 *Fonte: Morettin \& Bussab*, Estatística Básica $5^a$ edição, pág 309.
@@ -642,18 +642,18 @@ Suponha que estejamos interessados em estimar a porcentagem de consumidores de u
 
 ## Intervalo de Confiança para proporções
 
-* a) O intervalo de confiança de $95\%$ é dado por: $$ \mbox{IC}(p;0.95) = 0.333 \pm 1.96 \sqrt{\frac{0.333 \cdot 0.667}{300}} = 0.333 \pm 0.053$$ Ou simplesmente $(0.280 ; 0.387)$. 
+* O intervalo de confiança de $95\%$ é dado por: $$ \mbox{IC}(p;0.95) = 0.333 \pm 1.96 \sqrt{\frac{0.333 \cdot 0.667}{300}} = 0.333 \pm 0.053$$ Ou simplesmente $(0.280 ; 0.387)$. 
 
 **Interpretação:** Se pudéssemos construir um grande número de intervalos aleatórios para $p$, todos baseados em amostras de tamanho n, $95\%$ deles conteriam o parâmetro $p$.
 
 ## Intervalo de Confiança para proporções
 
-* b) Utilizando a estimativa da amostra observada ($\hat{p}=0.333$), temos que $n$ é dado por $$ n= \left( \frac{1.96}{0.02} \right)^2 \times 0.333 \times 0.667 \cong 2134.$$ Contudo, frequentemente devemos determinar o tamanho da amostra antes de realizar qualquer experimento, isto é, sem nenhuma informação prévia de $p$. Se esse for o caso, devemos considerar o caso em que a variância da amostra é a pior possível.
+*  Utilizando a estimativa da amostra observada ($\hat{p}=0.333$), temos que $n$ é dado por $$ n= \left( \frac{1.96}{0.02} \right)^2 \times 0.333 \times 0.667 \cong 2134.$$ Contudo, frequentemente devemos determinar o tamanho da amostra antes de realizar qualquer experimento, isto é, sem nenhuma informação prévia de $p$. Se esse for o caso, devemos considerar o caso em que a variância da amostra é a pior possível.
 
 
 ## Intervalo de Confiança para proporções
 
-* b) Utilizando o valor máximo de $p(1-p)$, isto é, $1/4$, obtemos $$ n= \left( \frac{1.96}{0.02} \right)^2 \times \frac{1}{4} \! \cong 2401 $$
+* Utilizando o valor máximo de $p(1-p)$, isto é, $1/4$, obtemos $$ n= \left( \frac{1.96}{0.02} \right)^2 \times \frac{1}{4} \! \cong 2401 $$
 
 
 **Interpretação:** Utilizando o tamanho amostral encontrado, teremos uma probabilidade de $95\%$ de que a proporção amostral não difira do verdadeiro valor de $p$ em menos que $2\%$. 

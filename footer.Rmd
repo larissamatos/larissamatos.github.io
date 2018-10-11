@@ -1,0 +1,22 @@
+<style>
+.column-left{
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+.column-right{
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+</style>
+
+<div class="column-left">
+<p>  ![](imagens/logo-unicamp1.png){width=150px} </p>
+</div>
+
+<div class="column-right">  
+<p> ![](imagens/logoimecc1.png){width=100px} </p>
+</div>
+
