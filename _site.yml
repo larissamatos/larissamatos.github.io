@@ -27,7 +27,7 @@ navbar:
 output_dir: "."
 output:
   html_document:
-    theme: lumen
+    theme: lumen # cosmo 
     highlight: textmate
 #    include:
 #      after_body: footer.html

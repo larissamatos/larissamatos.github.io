@@ -14,19 +14,19 @@ output:
 - [ME414 - Estatística para Experimentalistas](me414.html)
 </br>
 
-- [ME710 - Assessoria Estatística](Disciplinas/EmentaME710_2s2018.pdf)
+- [ME710 - Assessoria Estatística](Disciplinas/EmentaME710_2S2018.pdf)
 </br>
 
-- [ME712 -  Consultoria Estatística I](Disciplinas/EmentaME712e812_2s2018.pdf)
+- [ME712 -  Consultoria Estatística I](Disciplinas/EmentaME712e812_2S2018.pdf)
 </br>
 
-- [ME810 - Estágio Supervisionado](Disciplinas/EmentaME810_2s2018.pdf)
+- [ME810 - Estágio Supervisionado](Disciplinas/EmentaME810_2S2018.pdf)
 </br>
 
-- [ME812 -  Consultoria Estatística II](Disciplinas/EmentaME712e812_2s2018.pdf)
+- [ME812 -  Consultoria Estatística II](Disciplinas/EmentaME712e812_2S2018.pdf)
 </br>
 
-- [ME850 - Seminários de Estatística](Disciplinas/EmentaME850_2s2018.pdf)
+- [ME850 - Seminários de Estatística](Disciplinas/EmentaME850_2S2018.pdf)
 </br>
 
 #### 1S2018

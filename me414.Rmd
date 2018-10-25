@@ -138,7 +138,7 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 - [Lista 3](Disciplinas/ME_414_2s2018/Lista3.pdf): Variáveis Aleatóorias Contínuas
 
-- Lista 4
+- [Lista 4](Disciplinas/ME_414_2s2018/Lista4.pdf): Inferência Estatística
 
 - [Lista Extra](Disciplinas/ME_414_2s2018/ListaExtra_Veronica.pdf) (Verônica)
 
