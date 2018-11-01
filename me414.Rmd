@@ -125,6 +125,10 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 - [Parte 19](Disciplinas/ME_414_2s2018/parte19/parte19.html)
 - [Parte 20](Disciplinas/ME_414_2s2018/parte20/parte20.html)
 - [Parte 21](Disciplinas/ME_414_2s2018/parte21/parte21.html)
+- [Parte 22](Disciplinas/ME_414_2s2018/parte22/parte22.html)
+- [Parte 23](Disciplinas/ME_414_2s2018/parte23/parte23.html)
+- [Parte 24](Disciplinas/ME_414_2s2018/parte24/parte24.html)
+
 
 ---- 
 

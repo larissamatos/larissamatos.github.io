@@ -7,6 +7,15 @@ output:
 
 ----
 
+### Pós-Graduação
+
+#### 2S2017
+
+- MI416 - Introdução aos Modelos Lineares 
+</br>
+
+----
+
 ### Graduação
 
 #### 2S2018
@@ -55,12 +64,3 @@ output:
 </br>
 
 ---- 
-
-### Pós-Graduação
-
-#### 2S2017
-
-- MI416 - Introdução aos Modelos Lineares 
-</br>
-
-----
