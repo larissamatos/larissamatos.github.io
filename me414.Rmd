@@ -27,6 +27,11 @@ output:
 
 - Não será permitido empréstimo de material de qualquer tipo entre alunos durante a prova. 
 
+- Para a P2 o(a) aluno(a) deverá levar as [tabelas](Disciplinas/ME_414_2s2018/Tabelas.pdf). **As tabelas não poderão estar rasuradas.** 
+
+- [Formulário](Disciplinas/ME_414_2s2018/Formulario.pdf): Uma cópia será fornecida durante a prova.
+
+
 ----
 
 ### Ementa
