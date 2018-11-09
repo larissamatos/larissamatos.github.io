@@ -597,7 +597,7 @@ kable(e)
 
 A estatística $\chi^2$ tem o valor observado de 
 
-$\chi^2_{obs}=\frac{(`r x[1,1]`-`r e[1,1]`)^2}{`r e[1,1]`}+\frac{(`r x[1,2]`-`r e[1,2]`)^2}{`r e[1,2]`}+\frac{(`r x[2,1]`-`r e[2,1]`)^2}{`r e[2,1]`}+\frac{(`r x[2,2]`-`r e[2,2]`)^2}{`r e[2,2]`}=`r round(a$statistic,2)` \stackrel{H_0}{\sim} \chi^2_{`r a$parameter`}$
+$\chi^2_{obs}=\frac{(`r x[1,1]`-`r e[1,1]`)^2}{`r e[1,1]`}+\frac{(`r x[1,2]`-`r e[1,2]`)^2}{`r e[1,2]`}+\frac{(`r x[2,1]`-`r e[2,1]`)^2}{`r e[2,1]`}+\frac{(`r x[2,2]`-`r e[2,2]`)^2}{`r e[2,2]`}+...=`r round(a$statistic,2)` \stackrel{H_0}{\sim} \chi^2_{`r a$parameter`}$
 
 Usando o nível de significância $\alpha=`r alpha`$, o valor crítico é $\chi^2_{crit} = \chi^2_{`r a$parameter`, `r alpha`} = `r chi_crit`$.  Como $\chi^2_{obs}= `r round(a$statistic,2)` < `r chi_crit` = \chi^2_{crit}$, não rejeitamos a hipótese nula de homogeneidade.
 
