@@ -115,9 +115,6 @@ library(knitr)
 **P2** | 0.25|    1.50|   3.75| 3.55|    4.88| 9.75|
 **MF** | 0.00|    2.35|   3.88| 4.15|    5.60| 9.61|
 
-\    | APROVADOS | EXAMES | REPROVADOS | 
-----:|----------:|-------:|-----------:|
-**Frequência**|        10 |     18 |         18 | 
 
 ```{r, echo=FALSE, include=FALSE, warning=FALSE}
 library("gdata")
