@@ -42,68 +42,54 @@ library(knitr)
 
 ----
 
-<div class="column-left">
-
-|     RA|   P1|   P2|   MF|          |
-|------:|----:|----:|----:|---------:|
-|  96854| 5.55| 2.25| 3.57|<span style="color:orange">  </span>      |
-| 121337|   NA|   NA| 0.00|<span style="color:red"> </span>  |
-| 140689| 9.30| 4.75| 6.57|<span style="color:green"> APROVADO </span>   |
-| 148613| 4.95|   NA| 1.98|<span style="color:red"> </span>  |
-| 154511| 7.30| 9.00| 8.32|<span style="color:green"> APROVADO </span>   |
-| 155006| 9.25| 7.75| 8.35|<span style="color:green"> APROVADO </span>   |
-| 156994| 9.50| 7.50| 8.30|<span style="color:green"> APROVADO </span>   |
-| 156997| 9.40| 9.75| 9.61|<span style="color:green"> APROVADO </span>   |
-| 158062| 8.05| 5.50| 6.52|<span style="color:green"> APROVADO </span>   |
-| 159639| 6.50| 2.00| 3.80|<span style="color:orange">  </span>      |
-| 166785| 4.30|   NA| 1.72|<span style="color:red"> </span>  |
-| 168158| 8.00| 6.00| 6.80|<span style="color:green"> APROVADO </span>   |
-| 171081| 2.80| 1.50| 2.02|<span style="color:orange">  </span>      |
-| 171431| 3.55|   NA| 1.42|<span style="color:red"> </span>  |
-| 171456| 2.80| 1.00| 1.72|<span style="color:red"> </span>  |
-| 171489| 7.85| 3.75| 5.39|<span style="color:red"> </span>  |
-| 172657| 3.25|   NA| 1.30|<span style="color:red"> </span>  |
-| 174439| 5.30| 1.50| 3.02|<span style="color:orange">  </span>      |
-| 175049| 6.65| 2.50| 4.16|<span style="color:red"> </span>  |
-| 175358|   NA| 4.75| 2.85|<span style="color:red"> </span>  |
-| 175677| 3.05| 2.25| 2.57|<span style="color:orange">  </span>      |
-| 176225| 3.75| 4.00| 3.90|<span style="color:orange">  </span>      |
-| 176234| 9.25| 1.25| 4.45|<span style="color:red"> </span>  |
-</div>
-
-<div class="column-center">
-
-</div>
-
-<div class="column-right">
-|     RA|   P1|   P2|   MF|          |
-|------:|----:|----:|----:|---------:|
-| 177584| 7.85| 3.75| 5.39|<span style="color:orange">  </span>      |
-| 183517| 8.75| 5.75| 6.95|<span style="color:green"> APROVADO </span>   |
-| 184390| 4.85| 2.00| 3.14|<span style="color:red"> </span>  |
-| 185760| 9.50| 4.00| 6.20|<span style="color:green"> APROVADO </span>   |
-| 194182| 3.35| 0.25| 1.49|<span style="color:red"> </span>  |
-| 201385| 5.30| 0.25| 2.27|<span style="color:orange">  </span>      |
-| 202722| 7.75| 1.25| 3.85|<span style="color:orange">  </span>      |
-| 203263| 9.25| 5.25| 6.85|<span style="color:green"> APROVADO </span>   |
-| 203845| 5.80| 4.00| 4.72|<span style="color:orange">  </span>      |
-| 203932| 5.60| 0.75| 2.69|<span style="color:red"> </span>  |
-| 204163| 5.35| 2.25| 3.49|<span style="color:orange">  </span>      |
-| 204402| 5.05| 4.00| 4.42|<span style="color:orange">  </span>      |
-| 204523| 7.85| 3.25| 5.09|<span style="color:red"> </span>  |
-| 204644| 4.30|   NA| 1.72|<span style="color:red"> </span>  |
-| 205497| 5.55| 5.75| 5.67|<span style="color:orange">  </span>      |
-| 205885| 7.75| 4.50| 5.80|<span style="color:orange">  </span>      |
-| 206917| 5.75| 3.75| 4.55|<span style="color:orange">  </span>      |
-| 207354| 1.90|   NA| 0.76|<span style="color:red"> </span>  |
-| 214613| 6.80| 1.50| 3.62|<span style="color:red"> </span>  |
-| 221444| 6.80| 0.50| 3.02|<span style="color:orange">  </span>      |
-| 223188| 7.50| 3.00| 4.80|<span style="color:orange">  </span>      |
-| 223638| 4.85| 5.00| 4.94|<span style="color:orange">  </span>      |
-| 228476| 1.90| 0.75| 1.21|<span style="color:red"> </span>  |
-</div>
-
-<div class="column">
+|     RA|   P1|   P2|SUB  |   MF| EXAME|    NF| Faltas|          |
+|------:|----:|----:|----:|----:|-----:|-----:|------:|---------:|
+|  96854| 5.55| 2.25|1.75 | 3.57|      |      |      1|<span style="color:orange"> EXAME </span>      |
+| 121337|   NA|   NA|-    | 0.00|-     | 0.0  |     28|<span style="color:red"> REPROVADO </span>  |
+| 140689| 9.30| 4.75|-    | 6.57|-     | 6.6  |      4|<span style="color:green"> APROVADO </span>   |
+| 148613| 4.95|   NA|-    | 1.98|-     | 1.0  |     12|<span style="color:red"> REPROVADO </span>  |
+| 154511| 7.30| 9.00|-    | 8.32|-     | 8.3  |      6|<span style="color:green"> APROVADO </span>   |
+| 155006| 9.25| 7.75|-    | 8.35|-     | 8.4  |      8|<span style="color:green"> APROVADO </span>   |
+| 156994| 9.50| 7.50|-    | 8.30|-     | 8.3  |      4|<span style="color:green"> APROVADO </span>   |
+| 156997| 9.40| 9.75|-    | 9.61|-     | 9.6  |      0|<span style="color:green"> APROVADO </span>   |
+| 158062| 8.05| 5.50|-    | 6.52|-     | 6.5  |      6|<span style="color:green"> APROVADO </span>   |
+| 159639| 6.50| 2.00|-    | 3.80|      |      |      8|<span style="color:orange"> EXAME </span>      |
+| 166785| 4.30|   NA|-    | 1.72|-     | 0.9  |      9|<span style="color:red"> REPROVADO </span>  |
+| 168158| 8.00| 6.00|-    | 6.80|-     | 6.8  |      8|<span style="color:green"> APROVADO </span>   |
+| 171081| 2.80| 1.50|-    | 2.02|-     | 1.0  |      5|<span style="color:RED"> REPROVADO </span>      |
+| 171431| 3.55|   NA|-    | 1.42|-     | 0.7  |     18|<span style="color:red"> REPROVADO </span>  |
+| 171456| 2.80| 1.00|2.75 | 2.77|-     |      |      8|<span style="color:orange"> EXAME </span>      |
+| 171489| 7.85| 3.75|6.5  | 7.04|-     | 7.0  |      8|<span style="color:green"> APROVADO </span>   |
+| 172657| 3.25|   NA|-    | 1.30|-     | 0.7  |      9|<span style="color:red"> REPROVADO </span>  |
+| 174439| 5.30| 1.50|4.75 | 4.97|      |      |      8|<span style="color:orange"> EXAME </span>      |
+| 175049| 6.65| 2.50|4.25 | 5.21|-     | 2.6  |     11|<span style="color:red"> REPROVADO </span>  |
+| 175358| 0.00| 4.75|7    | 5.65|-     | 2.8  |     27|<span style="color:red"> REPROVADO </span>  |
+| 175677| 3.05| 2.25|3    | 3.02|      |      |      5|<span style="color:orange"> EXAME </span>      |
+| 176225| 3.75| 4.00|4.5  | 4.20|      |      |      6|<span style="color:orange"> EXAME </span>      |
+| 176234| 9.25| 1.25|4.25 | 6.25|-     | 6.3  |      8|<span style="color:green"> APROVADO </span>   |
+| 177584| 7.85| 3.75|5    | 6.14|-     | 6.1  |      7|<span style="color:green"> APROVADO </span>   |
+| 183517| 8.75| 5.75|-    | 6.95|-     | 7.0  |      7|<span style="color:green"> APROVADO </span>   |
+| 184390| 4.85| 2.00|2.5  | 3.44|-     | 1.7  |     28|<span style="color:red"> REPROVADO </span>  |
+| 185760| 9.50| 4.00|-    | 6.20|-     | 6.2  |      6|<span style="color:green"> APROVADO </span>   |
+| 194182| 3.35| 0.25|3.25 | 3.29|-     | 1.6  |      9|<span style="color:red"> REPROVADO </span>  |
+| 201385| 5.30| 0.25|3    | 3.92|      |      |      6|<span style="color:orange"> EXAME </span>      |
+| 202722| 7.75| 1.25|6.5  | 7.00|-     | 7.0  |      7|<span style="color:green"> APROVADO </span>   |
+| 203263| 9.25| 5.25|-    | 6.85|-     | 6.9  |      1|<span style="color:green"> APROVADO </span>   |
+| 203845| 5.80| 4.00|5.25 | 5.47|      |      |      1|<span style="color:orange"> EXAME </span>      |
+| 203932| 5.60| 0.75|4    | 4.64|-     |      |      8|<span style="color:orange"> EXAME </span>      |
+| 204163| 5.35| 2.25|3.75 | 4.39|      |      |      6|<span style="color:orange"> EXAME </span>      |
+| 204402| 5.05| 4.00|4.25 | 4.57|      |      |      8|<span style="color:orange"> EXAME </span>      |
+| 204523| 7.85| 3.25|5    | 6.14|-     | 6.1  |      8|<span style="color:green"> APROVADO </span>   |
+| 204644| 4.30|   NA|-    | 1.72|-     | 0.9  |     25|<span style="color:red"> REPROVADO </span>  |
+| 205497| 5.55| 5.75|6.25 | 6.00|-     | 6.0  |      4|<span style="color:green"> APROVADO </span>   |
+| 205885| 7.75| 4.50|4.75 | 6.00|-     | 6.0  |      7|<span style="color:green"> APROVADO </span>   |
+| 206917| 5.75| 3.75|2.25 | 4.55|      |      |      4|<span style="color:orange"> EXAME </span>      |
+| 207354| 1.90|   NA|-    | 0.76|-     | 0.4  |     12|<span style="color:red"> REPROVADO </span>  |
+| 214613| 6.80| 1.50|5.75 | 6.17|-     | 6.2  |      8|<span style="color:green"> APROVADO </span>   |
+| 221444| 6.80| 0.50|0.75 | 3.17|      |      |      6|<span style="color:orange"> EXAME </span>      |
+| 223188| 7.50| 3.00|4.5  | 5.70|      |      |      7|<span style="color:orange"> EXAME </span>      |
+| 223638| 4.85| 5.00|4.75 | 4.94|      |      |      6|<span style="color:orange"> EXAME </span>      |
+| 228476| 1.90| 0.75|0.5  | 1.21|-     | 0.6  |     10|<span style="color:red"> REPROVADO </span>  |
 
 ----
 
@@ -113,8 +99,11 @@ library(knitr)
 ----:|----:|-------:|------:|----:|-------:|----:|
 **P1** | 1.90|    4.71|   5.78| 6.13|    7.85| 9.50|
 **P2** | 0.25|    1.50|   3.75| 3.55|    4.88| 9.75|
-**MF** | 0.00|    2.35|   3.88| 4.15|    5.60| 9.61|
+**MF** | 0.00|    3.20|   4.96| 4.75|    6.24| 9.61|
 
+\ | APROVADOS | EXAMES | REPROVADOS |
+:-|:---------|:------|:----------|
+Frequência | 18 | 15 | 13 |
 
 ```{r, echo=FALSE, include=FALSE, warning=FALSE}
 library("gdata")
@@ -124,17 +113,14 @@ notas$S[notas$MF<6 & notas$Faltas<=8]<-"EXAME"
 notas$S[notas$MF<6 & notas$Faltas>8]<-"REPROVADO"
 require(xtable)
 kable(notas)
-notasp1<-c(5.55,NA,9.30,4.95,7.30,9.25,9.50,9.40,8.05,6.50,4.30,8.00,2.80,3.55,2.80,7.85,3.25,5.30,6.65,
-           NA,3.05,3.75,9.25,7.85,8.75,4.85,9.50,3.35,5.30,7.75,9.25,5.80,5.60,5.35,5.05,7.85,4.30,5.55,
-           7.75,5.75,1.90,6.80,6.80,7.50,4.85,1.90)
-notasp2<-c(2.25,NA,4.75,NA,9.00,7.75,7.50,9.75,5.50,2.00,NA,6.00,1.50,NA,1.00,3.75,NA,1.50,2.50,4.75,
-           2.25,4.00,1.25,3.75,5.75,2.00,4.00,0.25,0.25,1.25,5.25,4.00,0.75,2.25,4.00,3.25,NA,5.75,
-           4.50,3.75,NA,1.50,0.50,3.00,5.00,0.75)
-notasf<-c(3.57,0.00,6.57,1.98,8.32,8.35,8.30,9.61,6.52,3.80,1.72,6.80,2.02,1.42,1.72,5.39,1.30,3.02,
-          4.16,2.85,2.57,3.90,4.45,5.39,6.95,3.14,6.20,1.49,2.27,3.85,6.85,4.72,2.69,3.49,4.42,5.09,
-          1.72,5.67,5.80,4.55,0.76,3.62,3.02,4.80,4.94,1.21)
-faltas<-c(1,28,4,12,6,14,4,0,6,8,9,23,5,18,9,10,9,8,11,27,5,6,16,7,7,28,6,9,6,7,1,1,9,6,8,14,25,4,7,4,
-          12,11,6,7,6,10)
+notasp1<-c(5.55,NA,9.30,4.95,7.30,9.25,9.50,9.40,8.05,6.50,4.30,8.00,2.80,3.55,2.80,7.85,3.25,5.30,6.65,NA,3.05,3.75,9.25,
+           7.85,8.75,4.85,9.50,3.35,5.30,7.75,9.25,5.80,5.60,5.35,5.05,7.85,4.30,5.55,7.75,5.75,1.90,6.80,6.80,7.50,4.85,1.90)
+notasp2<-c(2.25,NA,4.75,NA,9.00,7.75,7.50,9.75,5.50,2.00,NA,6.00,1.50,NA,1.00,3.75,NA,1.50,2.50,4.75,2.25,4.00,1.25,3.75,
+           5.75,2.00,4.00,0.25,0.25,1.25,5.25,4.00,0.75,2.25,4.00,3.25,NA,5.75,4.50,3.75,NA,1.50,0.50,3.00,5.00,0.75)
+notasf<-c(3.57,0.00,6.57,1.98,8.32,8.35,8.30,9.61,6.52,3.80,1.72,6.80,2.02,1.42,2.77,7.04,1.30,4.97,5.21,5.65,3.02,4.20,6.25,
+          6.14,6.95,3.44,6.20,3.29,3.92,7.00,6.85,5.47,4.64,4.39,4.57,6.14,1.72,6.00,6.00,4.55,0.76,6.17,3.17,5.70,4.94,1.21)
+faltas<-c(1,28,4,12,6,14,4,0,6,8,9,23,5,18,8,10,9,8,11,27,5,6,16,7,7,28,6,9,6,7,1,1,8,6,8,14,25,4,7,4,12,11,6,7,6,10)
+
 #boxplot(notasp1, horizontal=TRUE,  outline=TRUE,col="lightblue", type=3, ylim=c(0,10))
 #abline(v=6,lty=2)
 #boxplot(notasp2, horizontal=TRUE,  outline=TRUE,col="lightblue", type=3, ylim=c(0,10))
