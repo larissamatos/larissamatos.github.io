@@ -1,21 +1,79 @@
 ---
-title: "Publicações"
+title: "Programas de computador sem registro"
 output:
   html_document:
     fig_width: 1
+    toc_float: false
 ---
 
-### Programas de computador sem registro
+<style type="text/css">
+.nav.navbar-nav.navbar-right a {
+    color: black;
+}
+.navbar {
+  background-color:maroon;
+  border-color:black;
+  icon-color:white;
+}
+.navbar-brand {
+color:black!important;
+}
+body{ /* Normal  */
+      font-size: 15px;
+  }
+h1.title {
+  font-size: 30px;
+}
+h3 { /* Header 3 */
+  font-size: 24px;
+  color: DarkRed;
+}
+</style>
+
+<style>
+a:link {
+    color: darkred;
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    color: blue;
+}
+.column-f1{
+  float: left;
+  width: 20%;
+  text-align: left;
+}
+.column-f2{
+  float: right;
+  width: 20%;
+  text-align: right;
+}
+</style>
 
 ---- 
 
 
-- LEMUS, MARCELA N.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2018). *PartCensReg: Partially Censored Regression Models Based on Heavy-Tailed Distributions.* https://cran.rproject.org/web/packages/PartCensReg/index.html
+- LEMUS, MARCELA N.; GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H. (2018). *PartCensReg: Partially Censored Regression Models Based on Heavy-Tailed Distributions.* https://cran.rproject.org/web/packages/PartCensReg/index.html
 </br>
 
-- MASSUIA, MONIQUE B.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2015). *CensRegMod: Fits Normal and Student-t Censored Regression Model.*
+- MASSUIA, MONIQUE B.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H. (2015). *CensRegMod: Fits Normal and Student-t Censored Regression Model.*
 https://cran.r-project.org/web/packages/CensRegMod/index.html
 </br>
 
-- **MATOS, LARISSA A.**; PRATES, MARCOS O.; LACHOS, VICTOR H. (2011). *tlmec: Linear Student-t Mixed-Effects Models with Censored Data.* https://cran.r-project.org/web/packages/tlmec/index.html
+- <span style="color:darkred"> **MATOS, LARISSA A.**</span>; PRATES, MARCOS O.; LACHOS, VICTOR H. (2011). *tlmec: Linear Student-t Mixed-Effects Models with Censored Data.* https://cran.r-project.org/web/packages/tlmec/index.html
 </br>
+
+----
+
+<div id="footer">
+<p>
+<div class="column-f1">
+![](imagens/logo-unicamp1.png){width=150px}
+</div>
+<div class="column-f2">
+![](imagens/logoimecc1.png){width=100px}
+</div>
+</p>
+</div>

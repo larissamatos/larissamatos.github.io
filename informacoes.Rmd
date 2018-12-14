@@ -3,52 +3,103 @@ title: "Informações acadêmicas"
 output:
   html_document:
     fig_width: 1
+    toc_float: false
 ---
+
+<style type="text/css">
+.nav.navbar-nav.navbar-right a {
+    color: white;
+}
+.navbar {
+  background-color:maroon;
+  border-color:black;
+  icon-color:white;
+}
+.navbar-brand {
+color:black!important;
+}
+body{ /* Normal  */
+      font-size: 15px;
+  }
+h1.title {
+  font-size: 32px;
+}
+h3 { /* Header 3 */
+  font-size: 24px;
+  color: DarkRed;
+}
+</style>
+
+<style>
+a:link {
+    color: darkred;
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    color: blue;
+}
+.column-f1{
+  float: left;
+  width: 20%;
+  text-align: left;
+}
+.column-f2{
+  float: right;
+  width: 20%;
+  text-align: right;
+}
+</style>
 
 ---- 
 
-### Formação acadêmica/titulação
+### **Formação acadêmica/titulação**
 
 
-- **2006-2010**: Graduação em Estatística
+- 2006-2010: **Graduação em Estatística** ![](imagens/logounicamp.jpg){width=50px} 
+     
+     `Universidade Estadual de Campinas, UNICAMP.`  
 
-                Universidade Estadual de Campinas, UNICAMP, Brasil.
-    <!-- Universidade Estadual de Campinas, UNICAMP, Brasil. ![](imagens/logo-unicamp1.png){width=50px}  -->
-
-- **2010-2012**: Mestrado em Estatística: 
-
-                Universidade Estadual de Campinas, UNICAMP, Brasil.
-                Bolsista CAPES.
-
-- **2012-2016**: Doutorado em Estatística
-
-                Universidade Estadual de Campinas, UNICAMP, Brasil.
-                Bolsista FAPESP (Processo 2011/22063-9).
-                2015-2016: Período sanduíche em University of Connecticut (Processo 2015/05385-3).
-
-- **2016-2017**: Pós-Doutorado 
-                
-                Universidade Estadual de Campinas, UNICAMP, Brasil.
-                Bolsista FAPESP (Processo 2016/05420-6) .
-
-----
-
-### Linhas de Pesquisa
-
-- Inferência e Métodos Estatísticos
-
-    Modelos de efeitos mistos; Modelos Semi-parametrico; Modelos Espaciais; Dados censurados; Diagnóstico.
+- 2010-2012: **Mestrado em Estatística** ![](imagens/logounicamp.jpg){width=50px}![](imagens/logocapes.png){width=50px}  
     
-- Bioestatística 
+    `Universidade Estadual de Campinas, UNICAMP. Bolsista CAPES.` 
 
-    Modelos de efeitos mistos; Dados censurados; Diagnóstico.
+- 2012-2016: **Doutorado em Estatística** ![](imagens/logounicamp.jpg){width=50px}![](imagens/logouconn2.jpg){width=70px}![](imagens/logofapesp.png){width=60px}  
+
+    `Universidade Estadual de Campinas, UNICAMP. Bolsista FAPESP (Processo 2011/22063-9).`
+  
+    `Período sanduíche em University of Connecticut (Processo 2015/05385-3).`
+
+- 2016-2017: **Pós-Doutorado** ![](imagens/logounicamp.jpg){width=50px}![](imagens/logofapesp.png){width=60px}
+                
+    `Universidade Estadual de Campinas, UNICAMP. Bolsista FAPESP (Processo 2016/05420-6).` 
 
 ----
 
-### Informações adicionais
+### **Linhas de Pesquisa**
+
+- **Inferência e Métodos Estatísticos**: Modelos de efeitos mistos; Modelos Semi-parametrico; Modelos Espaciais; Dados censurados; Diagnóstico.
+    
+- **Bioestatística**: Modelos de efeitos mistos; Dados censurados; Diagnóstico.
+
+----
+
+### **Informações adicionais**
 
 - CV Lattes: http://lattes.cnpq.br/6330766834005870
 
 - MyCitations (Google Scholar): https://scholar.google.com.br/citations?hl=en&user=lSCYxF0AAAAJ
 
+----
 
+<div id="footer">
+<p>
+<div class="column-f1">
+![](imagens/logo-unicamp1.png){width=150px}
+</div>
+<div class="column-f2">
+![](imagens/logoimecc1.png){width=100px}
+</div>
+</p>
+</div>

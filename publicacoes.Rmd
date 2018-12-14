@@ -3,54 +3,119 @@ title: "Publicações"
 output:
   html_document:
     fig_width: 1
+    toc_float: false    
 ---
 
+<style type="text/css">
+.nav.navbar-nav.navbar-right a {
+    color: white;
+}
+.navbar {
+  background-color:maroon;
+  border-color:black;
+  icon-color:white;
+}
+.navbar-brand {
+color:black!important;
+}
+body{ /* Normal  */
+      font-size: 15px;
+  }
+h1.title {
+  font-size: 32px;
+}
+h3 { /* Header 3 */
+  font-size: 24px;
+  color: DarkRed;
+}
+</style>
+
+<style>
+a:link {
+    color: darkred;
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    color: blue;
+}
+.column-f1{
+  float: left;
+  width: 20%;
+  text-align: left;
+}
+.column-f2{
+  float: right;
+  width: 20%;
+  text-align: right;
+}
+</style>
+
 ----
 
-### Artigos Científicos
+### **Artigos Científicos**
 
-- **MATOS, LARISSA A.**; LACHOS, VICTOR H.; BALAKRISHNAN, N.; LABRA, FILIDOR V. . Influence diagnostics in linear and nonlinear mixed-effects models with censored data. Computational Statistics & Data Analysis (Print), v. 57, p. 450-464, 2013. 
+- LACHOS, VICTOR H.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; CASTRO, LUIS M.; CHEN, MING-HUI (2018). *Flexible Longitudinal Linear Mixed Models for Multiple Censored Responses Data.* (Statistics in Medicine) \medskip
 </br>
 
-- **MATOS, LARISSA A.**; PRATES, MARCOS O.; CHEN, MING-HUI; LACHOS, VICTOR H. . Likelihood Based Inference Mixed-Effects Models with Censored Responses Using the Multivariate-t Distribution. Statistica Sinica, v. 23, p. 1323-1345, 2013.
+- <span style="color:darkred"> **MATOS, LARISSA A.**</span>; CASTRO, LUIS M. ; CABRAL, CELSO R. B. ; LACHOS, VICTOR H. *Multivariate measurement error models based on Student- distribution under censored responses.* STATISTICS, v. 52, p. 1395-1416, 2018. [Link.](https://www.tandfonline.com/doi/abs/10.1080/02331888.2018.1527841) \medskip
 </br>
 
-- MASSUIA, MONIQUE B.; CABRAL, CELSO RÔMULO BARBOSA; **MATOS, LARISSA A.**; LACHOS, VICTOR H. . Influence diagnostics for Student- t censored linear regression models. Statistics (Berlin), v. 49, p. 1-21, 2014.
+- <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VÍCTOR H.; LIN, TSUNG-I; CASTRO, LUIS M. *Heavy-tailed longitudinal regression models for censored data: a robust parametric approach*. TEST, v. -, p. -, 2018. [Link.](https://link.springer.com/article/10.1007/s11749-018-0603-5) \medskip
 </br>
 
-- **MATOS, LARISSA A.**; BANDYOPADHYAY, DIPANKAR; CASTRO, LUIS M.; LACHOS, VICTOR H. . Influence assessment in censored mixed-effects models using the multivariate Student?s-. JOURNAL OF MULTIVARIATE ANALYSIS, v. 141, p. 104-117, 2015.
+- LACHOS, VICTOR H.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; BARBOSA, THAIS S.; GARAY, Aldo M.; DEY, DIPAK K. *Influence diagnostics in spatial models with censored response.* ENVIRONMETRICS, v. 28, p. e2464, 2017. [Link.](https://onlinelibrary.wiley.com/doi/abs/10.1002/env.2464)\medskip
 </br>
 
-- **MATOS, LARISSA A.**; CASTRO, LUIS M.; LACHOS, VICTOR H. . Censored mixed-effects models for irregularly observed repeated measures with applications to HIV viral loads. TEST, v. 25, p. 627-653, 2016.
+- <span style="color:darkred"> **MATOS, LARISSA A.**</span>; CASTRO, LUIS M.; LACHOS, VICTOR H. *Censored mixed-effects models for irregularly observed repeated measures with applications to HIV viral loads.* TEST, v. 25, p. 627-653, 2016. [Link.](https://link.springer.com/article/10.1007/s11749-016-0486-2)\medskip
 </br>
 
-- LACHOS, VICTOR H.; **MATOS, LARISSA A.**; BARBOSA, THAIS S.; GARAY, Aldo M.; DEY, DIPAK K. . Influence diagnostics in spatial models with censored response. ENVIRONMETRICS, v. 28, p. e2464, 2017.
+- <span style="color:darkred"> **MATOS, LARISSA A.**</span>; BANDYOPADHYAY, DIPANKAR; CASTRO, LUIS M.; LACHOS, VICTOR H. *Influence assessment in censored mixed-effects models using the multivariate Students-t.* JOURNAL OF MULTIVARIATE ANALYSIS, v. 141, p. 104-117, 2015. [Link.](https://www.sciencedirect.com/science/article/pii/S0047259X15001591)\medskip
+</br>
+
+- MASSUIA, MONIQUE B.; CABRAL, CELSO RÔMULO BARBOSA; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H. *Influence diagnostics for Student- t censored linear regression models.* Statistics (Berlin), v. 49, p. 1-21, 2014. [Link.](https://www.tandfonline.com/doi/abs/10.1080/02331888.2014.958489) \medskip
+</br>
+
+- <span style="color:darkred"> **MATOS, LARISSA A.**</span>; PRATES, MARCOS O.; CHEN, MING-HUI; LACHOS, VICTOR H. *Likelihood Based Inference Mixed-Effects Models with Censored Responses Using the Multivariate-t Distribution.* Statistica Sinica, v. 23, p. 1323-1345, 2013. [Link.](https://www.jstor.org/stable/24310797?casa_token=M6ta3whn1KwAAAAA:ufWMXvGQRiHve3_lOgpXTDp8hJTCk-I4_YNUet8rY0iSpveLNEsLkarqhji6npYGYRYYnL919UoaQ9qS356eu0cCTQ2l1RaEMgU_Vk-RDql_CfEPYWkd#metadata_info_tab_contents) \medskip
+</br>
+
+- <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H.; BALAKRISHNAN, N.; LABRA, FILIDOR V. *Influence diagnostics in linear and nonlinear mixed-effects models with censored data.* Computational Statistics & Data Analysis (Print), v. 57, p. 450-464, 2013. [Link.](https://www.sciencedirect.com/science/article/pii/S0167947312002629) \medskip
 </br>
 
 ----
 
-### Relatórios Técnicos
+### **Relatórios Técnicos**
 
-- **MATOS, LARISSA A.**; LACHOS, VICTOR H.; LIN, T.I.; CASTRO, LUIS M. . Heavy-tailed longitudinal regression models for censored data: A likelihood based perspective. RT 01 IMECC-UNICAMP, 2016.\medskip
+- LEMUS, MARCELA N.; LACHOS, VICTOR H.; GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span> . *Estimation and Diagnostics for Partially Censored Regression Models Based on Heavy-Tailed Distributions.* Technical Report, 18-02, University of Connecticut.
 </br>
 
-- **MATOS, LARISSA A.**; CABRAL, CELSO RÔMULO BARBOSA; LACHOS, VICTOR H.; CASTRO, LUIS M. . Multivariate Measurement Error Models Based on Student-t Distribution with Censored Responses.  Statistics.\medskip
-</br>
-
-- LACHOS, VICTOR H.; **MATOS, LARISSA A.**; CASTRO, LUIS M.; CHEN, MING-HUI. Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data.\medskip
-</br>
-
-- LEMUS, MARCELA N.; LACHOS, VICTOR H.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.** . Estimation and Diagnostics for Partially Censored Regression Models Based on Heavy-Tailed Distributions. Technical Report, 18-02, University of Connecticut.
-</br>
+- BARBOSA, T. S.; LACHOS, VICTOR H.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; PRATES, MARCOS O. (2016). *Estimation in Spatial Models with Censored Response.* 
 
 ---- 
 
-### Programas de computador sem registro
+### **Programas de computador sem registro**
 
-- MATOS, LARISSA A.; PRATES, MARCOS O.; LACHOS, VICTOR H. (2011). tlmec: Linear Student-t Mixed-Effects Models with Censored Data. https://cran.r-project.org/web/packages/tlmec/index.html
+- LEMUS, MARCELA N.; GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H. (2018). *PartCensReg: Partially Censored Regression Models Based on Heavy-Tailed Distributions.* https://cran.rproject.org/web/packages/PartCensReg/index.html
 </br>
 
-- LEMUS, MARCELA N.; GALARZA, CHRISTIAN E.; MATOS, LARISSA A.; LACHOS, VICTOR H. (2018). PartCensReg: Partially Censored Regression Models Based on Heavy-Tailed Distributions. https://cran.rproject.org/web/packages/PartCensReg/index.html
+- MASSUIA, MONIQUE B.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H. (2015). *CensRegMod: Fits Normal and Student-t Censored Regression Model.*
+https://cran.r-project.org/web/packages/CensRegMod/index.html
 </br>
+
+- <span style="color:darkred"> **MATOS, LARISSA A.**</span>; PRATES, MARCOS O.; LACHOS, VICTOR H. (2011). *tlmec: Linear Student-t Mixed-Effects Models with Censored Data.* https://cran.r-project.org/web/packages/tlmec/index.html
+</br>
+
 
 ----
+
+<div id="footer">
+<p>
+<div class="column-f1">
+![](imagens/logo-unicamp1.png){width=150px}
+</div>
+<div class="column-f2">
+![](imagens/logoimecc1.png){width=100px}
+</div>
+</p>
+</div>

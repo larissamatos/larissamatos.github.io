@@ -11,7 +11,7 @@
 
 
 
-<title>                      Larissa Avila Matos</title>
+<title>Larissa Avila Matos</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -179,11 +179,16 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Larissa A. Matos</a>
+      <a class="navbar-brand" href="index.html"></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+  </a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
@@ -200,25 +205,12 @@ $(document).ready(function () {
     Ensino
   </a>
 </li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<li>
+  <a href="publicacoes.html">
     <span class="fa fa-sticky-note"></span>
      
     Publicações
-     
-    <span class="caret"></span>
   </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="publicacoes1.html">Artigos</a>
-    </li>
-    <li>
-      <a href="publicacoes2.html">Relatórios</a>
-    </li>
-    <li>
-      <a href="publicacoes3.html">Programas</a>
-    </li>
-  </ul>
 </li>
 <li>
   <a href="alunos.html">
@@ -243,11 +235,55 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore"><img src="imagens/logo-unicamp1.png" width="150" />                      Larissa Avila Matos                      <img src="imagens/logoimecc1.png" width="100" /></h1>
+<h1 class="title toc-ignore">Larissa Avila Matos</h1>
 
 </div>
 
 
+<style type="text/css">
+.nav.navbar-nav.navbar-right a {
+    color: white;
+}
+.navbar {
+  background-color:maroon;
+  border-color:black;
+  icon-color:white;
+}
+.navbar-brand {
+color:black!important;
+}
+
+body{ /* Normal  */
+      font-size: 15px;
+      background-color: white
+  }
+<!-- td {  /* Table  */ -->
+<!--   font-size: 8px; -->
+<!-- } -->
+h1.title {
+  font-size: 36px;
+  <!-- color: DarkRed; -->
+}
+<!-- h1 { /* Header 1 */ -->
+<!--   font-size: 28px; -->
+<!--   color: DarkBlue; -->
+<!-- } -->
+<!-- h2 { /* Header 2 */ -->
+<!--     font-size: 22px; -->
+<!--   color: DarkBlue; -->
+<!-- } -->
+<!-- h3 { /* Header 3 */ -->
+<!--   font-size: 18px; -->
+<!--   font-family: "Times New Roman", Times, serif; -->
+<!--   color: DarkBlue; -->
+<!-- } -->
+<!-- code.r{ /* Code block */ -->
+<!--     font-size: 12px; -->
+<!-- } -->
+<!-- pre { /* Code block - determines code spacing between lines */ -->
+<!--     font-size: 14px; -->
+<!-- } -->
+</style>
 <style>
 .column-left{
   float: left;
@@ -263,6 +299,17 @@ $(document).ready(function () {
   float: left;
   width: 100%;
   text-align: left;
+} 
+.column-f1{
+  float: left;
+  width: 20%;
+  text-align: left;
+}
+.column-f2{
+  float: right;
+  width: 20%;
+  text-align: right;
+}
 </style>
 <hr />
 <div class="column-left">
@@ -273,56 +320,30 @@ $(document).ready(function () {
 </div>
 <div class="column-right">
 <p></br></p>
-<p><strong>Professora Doutora (MS-3.1)</strong></p>
+<p><span style="color:darkred"> <strong>Professora Doutora (MS-3.1)</strong> </span></p>
 <p>Departamento de Estatística</p>
-<p>Instituto de Matemática, Estatística e Computação Científica - <strong>IMECC</strong></p>
-<p>Universidade Estadual de Campinas - <strong>UNICAMP</strong>.</p>
+<p>Instituto de Matemática, Estatística e Computação Científica - <span style="color:darkred"> <strong>IMECC</strong> </span></p>
+<p>Universidade Estadual de Campinas - <span style="color:darkred"> <strong>UNICAMP</strong> </span></p>
 <p></br> <!-- **Email: larissam\@ime.unicamp.br** --></p>
 </div>
 <div class="column">
 <hr />
-<!-- </div> -->
-<!-- <div class="column"> -->
-<!-- <style> -->
-<!-- .column-1{ -->
-<!--   float: left; -->
-<!--   width: 20%; -->
-<!--   text-align: left; -->
-<!-- } -->
-<!-- .column-2{ -->
-<!--   float: left; -->
-<!--   width: 20%; -->
-<!--   text-align: left; -->
-<!-- } -->
-<!-- .column-3{ -->
-<!--   float: left; -->
-<!--   width: 20%; -->
-<!--   text-align: left; -->
-<!-- } -->
-<!-- .column-4{ -->
-<!--   float: left; -->
-<!--   width: 20%; -->
-<!--   text-align: left; -->
-<!-- } -->
-<!-- .column-5{ -->
-<!--   float: left; -->
-<!--   width: 20%; -->
-<!--   text-align: left; -->
-<!-- } -->
-<!-- </style> -->
-<!-- </div> -->
-<!-- <div class="column-1"> -->
-<!-- ![](imagens/git.png){height="36px" width="36px"} [larissamatos](https://github.com/larissamatos)  -->
-<!-- </div> -->
-<!-- <div class="column-2"> -->
-<!-- ![](imagens/Linkedin.png){height="36px" width="36px"} [Linkedin](https://www.linkedin.com/feed/) -->
-<!-- <div class="column-3"> -->
-<!-- </div> -->
-<!-- <div class="column-4"> -->
-<!-- </div> -->
-<!-- <div class="column-5"> -->
-<!-- </div> -->
-<!-- </div> -->
+<div id="footer">
+<p>
+<div class="column-f1">
+<div class="figure">
+<img src="imagens/logo-unicamp1.png" width="150" />
+
+</div>
+</div>
+<div class="column-f2">
+<div class="figure">
+<img src="imagens/logoimecc1.png" width="100" />
+
+</div>
+</div>
+</p>
+</div>
 
 
 

@@ -3,7 +3,53 @@ title: "ME414 - Estatística para Experimentalistas"
 output:
   html_document:
     fig_width: 1
+    toc_float: false
 ---
+
+<style type="text/css">
+.nav.navbar-nav.navbar-right a {
+    color: white;
+}
+.navbar {
+  background-color:maroon;
+  border-color:black;
+}
+.navbar-brand {
+color:black!important;
+}
+body{ /* Normal  */
+      font-size: 15px;
+  }
+h1.title {
+  font-size: 30px;
+}
+h3 { /* Header 3 */
+  font-size: 24px;
+  color: DarkRed;
+}
+</style>
+
+<style>
+a:link {
+    color: darkred;
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    color: blue;
+}
+.column-f1{
+  float: left;
+  width: 20%;
+  text-align: left;
+}
+.column-f2{
+  float: right;
+  width: 20%;
+  text-align: right;
+}
+</style>
 
 ----
 
@@ -15,7 +61,7 @@ output:
 
 ----
 
-### Informações Gerais
+### **Informações Gerais**
 
 **Instruções para a prova:**
 
@@ -34,7 +80,7 @@ output:
 
 ----
 
-### Ementa
+### **Ementa**
 
 - [Ementa](Disciplinas/ME_414_2s2018/Ementa.pdf)
 
@@ -95,7 +141,7 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 ----
 
-### Datas Importantes
+### **Datas Importantes**
 
 - Prova 1 (P1): 	20/09/18	 
 
@@ -107,7 +153,7 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 ---- 
 
-### Aulas
+### **Aulas**
 
 - [Parte 1](Disciplinas/ME_414_2s2018/parte01/parte01.html)
 - [Parte 2](Disciplinas/ME_414_2s2018/parte02/parte02.html)
@@ -137,7 +183,7 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 ---- 
 
-### Listas
+### **Listas**
 
 - [Lista 1](Disciplinas/ME_414_2s2018/Lista1.pdf): Estatística Descritiva
 
@@ -157,9 +203,20 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
     
 ----
 
-### Notas
+### **Notas**
 
       
 - [Notas](Disciplinas/ME_414_2s2018/notas.html)
       
 ----
+
+<div id="footer">
+<p>
+<div class="column-f1">
+![](imagens/logo-unicamp1.png){width=150px}
+</div>
+<div class="column-f2">
+![](imagens/logoimecc1.png){width=100px}
+</div>
+</p>
+</div>

@@ -1,6 +1,9 @@
 name: “Larissa Avila Matos”
 navbar:
-  title: Larissa A. Matos
+  title: 
+  left:
+    - icon: fa-home
+      href: index.html
   right:
     - text: Informações Acadêmicas
       icon: fa-graduation-cap
@@ -10,14 +13,14 @@ navbar:
       href: ensino.html
     - text: Publicações
       icon: fa-sticky-note
-#      href: publicacoes.html
-      menu:
-        - text: Artigos
-          href: publicacoes1.html
-        - text: Relatórios
-          href: publicacoes2.html
-        - text: Programas
-          href: publicacoes3.html
+      href: publicacoes.html
+#       menu:
+#         - text: Artigos
+#           href: publicacoes1.html
+#         - text: Relatórios
+#           href: publicacoes2.html
+#         - text: Programas
+#           href: publicacoes3.html
     - text: Alunos
       icon: fa-users
       href: alunos.html
@@ -27,9 +30,10 @@ navbar:
 output_dir: "."
 output:
   html_document:
-    theme: lumen # cosmo 
+    theme: lumen  # cosmo
     highlight: textmate
 #    include:
 #      after_body: footer.html
 
 # https://fontawesome.com/icons?d=gallery
+# http://bl.ocks.org/hempro00/6ce58ddc46407185e148

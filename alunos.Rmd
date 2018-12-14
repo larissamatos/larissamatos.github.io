@@ -5,35 +5,47 @@ output:
     fig_width: 1
 ---
 
+<style type="text/css">
+.nav.navbar-nav.navbar-right a {
+    color: white;
+}
+.navbar {
+  background-color:maroon;
+  border-color:black;
+  icon-color:white;
+}
+.navbar-brand {
+color:black!important;
+}
+body{ /* Normal  */
+      font-size: 15px;
+  }
+h1.title {
+  font-size: 32px;
+}
+h3 { /* Header 3 */
+  font-size: 24px;
+  color: DarkRed;
+}
+</style>
+
+<style>
+.column-f1{
+  float: left;
+  width: 20%;
+  text-align: left;
+}
+.column-f2{
+  float: right;
+  width: 20%;
+  text-align: right;
+}
+</style>
+
+
 ----
 
-### Graduação
-
-- Daniel Marques Paula de Oliveira - Orientando de ME810 (2S2018)
-</br>
-
-- Francisco Hildemar Calixto de Alencar - Orientando do Programa de Estágio Docente PED (2S2018)
-</br>
-
-- Giovanni Samartini - Orientando do Programa de Apoio Didático PAD (1S2018) 
-</br>
-
-- Ana Julieth Calderón Márquez - Orientanda do Programa de Estágio Docente PED (2S2017)
-</br>
-
----- 
-
-### Mestrado
-
-- Katherine Andreina Loor Valeriano - Mestrado em andamento (Fomento: CAPES) 
-</br>
-
-- Marcela Nuñez Lemus - Concluído (Fomento: CAPES) 
-</br>
-
-----
-
-### Doutorado
+### **Doutorado**
 
 - Fernanda Lang Schumacher - Doutorado em andamento (Fomento: CAPES) 
 </br>
@@ -48,9 +60,46 @@ output:
 </br>
 
 - Christian Eduardo Galarza Morales - Doutorado em andamento (Fomento: FAPESP - Processo: 2015/17110-9)
-</br>   
+</br> 
+
+---- 
+
+### **Mestrado**
+
+- Katherine Andreina Loor Valeriano - Mestrado em andamento (Fomento: CAPES) 
+</br>
+
+- Marcela Nuñez Lemus - Concluído (Fomento: CAPES) 
+</br>
 
 ----
+
+### **Graduação**
+
+- Daniel Marques Paula de Oliveira - Orientando de ME810 (2S2018)
+</br>
+
+- Francisco Hildemar Calixto de Alencar - Orientando do Programa de Estágio Docente PED (2S2018)
+</br>
+
+- Giovanni Samartini - Orientando do Programa de Apoio Didático PAD (1S2018) 
+</br>
+
+- Ana Julieth Calderón Márquez - Orientanda do Programa de Estágio Docente PED (2S2017)
+</br>
+
+----
+
+<div id="footer">
+<p>
+<div class="column-f1">
+![](imagens/logo-unicamp1.png){width=150px}
+</div>
+<div class="column-f2">
+![](imagens/logoimecc1.png){width=100px}
+</div>
+</p>
+</div>
 
 
 
