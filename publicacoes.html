@@ -22,9 +22,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -99,6 +98,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -113,7 +115,6 @@ body {
   padding-top: 59px;
   margin-top: -59px;
 }
-
 .section h2 {
   padding-top: 59px;
   margin-top: -59px;
@@ -133,6 +134,43 @@ body {
 .section h6 {
   padding-top: 59px;
   margin-top: -59px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -154,18 +192,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -288,13 +385,13 @@ a:hover {
 <div id="artigos-cientificos" class="section level3">
 <h3><strong>Artigos Científicos</strong></h3>
 <ul>
-<li><p>LACHOS, VICTOR H.; <span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span>; CASTRO, LUIS M.; CHEN, MING-HUI (2018). <em>Flexible Longitudinal Linear Mixed Models for Multiple Censored Responses Data.</em> (Statistics in Medicine) </p></li>
-<li><p><span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span>; CASTRO, LUIS M. ; CABRAL, CELSO R. B. ; LACHOS, VICTOR H. <em>Multivariate measurement error models based on Student- distribution under censored responses.</em> STATISTICS, v. 52, p. 1395-1416, 2018. <a href="https://www.tandfonline.com/doi/abs/10.1080/02331888.2018.1527841">Link.</a> </p></li>
-<li><p><span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span>; LACHOS, VÍCTOR H.; LIN, TSUNG-I; CASTRO, LUIS M. <em>Heavy-tailed longitudinal regression models for censored data: a robust parametric approach</em>. TEST, v. -, p. -, 2018. <a href="https://link.springer.com/article/10.1007/s11749-018-0603-5">Link.</a> </p></li>
-<li><p>LACHOS, VICTOR H.; <span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span>; BARBOSA, THAIS S.; GARAY, Aldo M.; DEY, DIPAK K. <em>Influence diagnostics in spatial models with censored response.</em> ENVIRONMETRICS, v. 28, p. e2464, 2017. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/env.2464">Link.</a></p></li>
+<li><p>LACHOS, VICTOR H.; <span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span>; CASTRO, LUIS M.; CHEN, MING-HUI (2018). <em>Flexible Longitudinal Linear Mixed Models for Multiple Censored Responses Data.</em> Statistics in Medicine. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.8017">Link.</a> </p></li>
+<li><p><span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span>; CASTRO, LUIS M. ; CABRAL, CELSO R. B.; LACHOS, VICTOR H. <em>Multivariate measurement error models based on Student- distribution under censored responses.</em> STATISTICS, v. 52, p. 1395-1416, 2018. <a href="https://www.tandfonline.com/doi/abs/10.1080/02331888.2018.1527841">Link.</a> </p></li>
+<li><p><span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span>; LACHOS, VICTOR H.; LIN, TSUNG-I; CASTRO, LUIS M. <em>Heavy-tailed longitudinal regression models for censored data: a robust parametric approach</em>. TEST, v. -, p. -, 2018. <a href="https://link.springer.com/article/10.1007/s11749-018-0603-5">Link.</a> </p></li>
+<li><p>LACHOS, VICTOR H.; <span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span>; BARBOSA, THAIS S.; GARAY, ALDO M.; DEY, DIPAK K. <em>Influence diagnostics in spatial models with censored response.</em> ENVIRONMETRICS, v. 28, p. e2464, 2017. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/env.2464">Link.</a></p></li>
 <li><p><span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span>; CASTRO, LUIS M.; LACHOS, VICTOR H. <em>Censored mixed-effects models for irregularly observed repeated measures with applications to HIV viral loads.</em> TEST, v. 25, p. 627-653, 2016. <a href="https://link.springer.com/article/10.1007/s11749-016-0486-2">Link.</a></p></li>
 <li><p><span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span>; BANDYOPADHYAY, DIPANKAR; CASTRO, LUIS M.; LACHOS, VICTOR H. <em>Influence assessment in censored mixed-effects models using the multivariate Students-t.</em> JOURNAL OF MULTIVARIATE ANALYSIS, v. 141, p. 104-117, 2015. <a href="https://www.sciencedirect.com/science/article/pii/S0047259X15001591">Link.</a></p></li>
-<li><p>MASSUIA, MONIQUE B.; CABRAL, CELSO RÔMULO BARBOSA; <span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span>; LACHOS, VICTOR H. <em>Influence diagnostics for Student- t censored linear regression models.</em> Statistics (Berlin), v. 49, p. 1-21, 2014. <a href="https://www.tandfonline.com/doi/abs/10.1080/02331888.2014.958489">Link.</a> </p></li>
+<li><p>MASSUIA, MONIQUE B.; CABRAL, CELSO R. B.; <span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span>; LACHOS, VICTOR H. <em>Influence diagnostics for Student- t censored linear regression models.</em> STATISTICS, v. 49, p. 1-21, 2014. <a href="https://www.tandfonline.com/doi/abs/10.1080/02331888.2014.958489">Link.</a> </p></li>
 <li><p><span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span>; PRATES, MARCOS O.; CHEN, MING-HUI; LACHOS, VICTOR H. <em>Likelihood Based Inference Mixed-Effects Models with Censored Responses Using the Multivariate-t Distribution.</em> Statistica Sinica, v. 23, p. 1323-1345, 2013. <a href="https://www.jstor.org/stable/24310797?casa_token=M6ta3whn1KwAAAAA:ufWMXvGQRiHve3_lOgpXTDp8hJTCk-I4_YNUet8rY0iSpveLNEsLkarqhji6npYGYRYYnL919UoaQ9qS356eu0cCTQ2l1RaEMgU_Vk-RDql_CfEPYWkd#metadata_info_tab_contents">Link.</a> </p></li>
 <li><p><span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span>; LACHOS, VICTOR H.; BALAKRISHNAN, N.; LABRA, FILIDOR V. <em>Influence diagnostics in linear and nonlinear mixed-effects models with censored data.</em> Computational Statistics &amp; Data Analysis (Print), v. 57, p. 450-464, 2013. <a href="https://www.sciencedirect.com/science/article/pii/S0167947312002629">Link.</a> </p></li>
 </ul>
@@ -303,17 +400,20 @@ a:hover {
 <div id="relatorios-tecnicos" class="section level3">
 <h3><strong>Relatórios Técnicos</strong></h3>
 <ul>
-<li><p>LEMUS, MARCELA N.; LACHOS, VICTOR H.; GALARZA, CHRISTIAN E.; <span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span> . <em>Estimation and Diagnostics for Partially Censored Regression Models Based on Heavy-Tailed Distributions.</em> Technical Report, 18-02, University of Connecticut. </br></p></li>
-<li><p>BARBOSA, T. S.; LACHOS, VICTOR H.; <span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span>; PRATES, MARCOS O. (2016). <em>Estimation in Spatial Models with Censored Response.</em></p></li>
+<li><p>OLIVARI, ROMMY C.; GARAY, ALDO M.; LACHOS, VICTOR H.; <span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span> <em>Autoregressive Mixed-Effects Models for Censored Data.</em> Technical Report, 19-02, University of Connecticut. (2019)</p></li>
+<li><p>VALERIANO, KATHERINE A. L.; LACHOS, VICTOR H.; <span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span> <em>Likelihood Based Inference for Spatio-Temporal Data with Censored and Missing Responses.</em> Technical Report, 19-01, University of Connecticut. (2019)</p></li>
+<li><p>LEMUS, MARCELA N.; LACHOS, VICTOR H.; GALARZA, CHRISTIAN E.; <span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span> <em>Estimation and Diagnostics for Partially Censored Regression Models Based on Heavy-Tailed Distributions.</em> Technical Report, 18-02, University of Connecticut. (2018)</p></li>
+<li><p>BARBOSA, T. S.; LACHOS, VICTOR H.; <span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span>; PRATES, MARCOS O. <em>Estimation in Spatial Models with Censored Response.</em> (2016) </p></li>
 </ul>
 <hr />
 </div>
 <div id="programas-de-computador-sem-registro" class="section level3">
 <h3><strong>Programas de computador sem registro</strong></h3>
 <ul>
-<li><p>LEMUS, MARCELA N.; GALARZA, CHRISTIAN E.; <span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span>; LACHOS, VICTOR H. (2018). <em>PartCensReg: Partially Censored Regression Models Based on Heavy-Tailed Distributions.</em> <a href="https://cran.rproject.org/web/packages/PartCensReg/index.html" class="uri">https://cran.rproject.org/web/packages/PartCensReg/index.html</a> </br></p></li>
-<li><p>MASSUIA, MONIQUE B.; <span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span>; LACHOS, VICTOR H. (2015). <em>CensRegMod: Fits Normal and Student-t Censored Regression Model.</em> <a href="https://cran.r-project.org/web/packages/CensRegMod/index.html" class="uri">https://cran.r-project.org/web/packages/CensRegMod/index.html</a> </br></p></li>
-<li><p><span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span>; PRATES, MARCOS O.; LACHOS, VICTOR H. (2011). <em>tlmec: Linear Student-t Mixed-Effects Models with Censored Data.</em> <a href="https://cran.r-project.org/web/packages/tlmec/index.html" class="uri">https://cran.r-project.org/web/packages/tlmec/index.html</a> </br></p></li>
+<li><p>VALERIANO, KATHERINE A. L.; LACHOS, VICTOR H.; <span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span> (2019). StempCens: <em>Spatio-Temporal Estimation and Prediction for Censored/Missing Responses.</em> <a href="https://cran.r-project.org/web/packages/StempCens/index.html" class="uri">https://cran.r-project.org/web/packages/StempCens/index.html</a> </p></li>
+<li><p>LEMUS, MARCELA N.; GALARZA, CHRISTIAN E.; <span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span>; LACHOS, VICTOR H. (2018). <em>PartCensReg: Partially Censored Regression Models Based on Heavy-Tailed Distributions.</em> <a href="https://cran.rproject.org/web/packages/PartCensReg/index.html" class="uri">https://cran.rproject.org/web/packages/PartCensReg/index.html</a> </p></li>
+<li><p>MASSUIA, MONIQUE B.; <span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span>; LACHOS, VICTOR H. (2015). <em>CensRegMod: Fits Normal and Student-t Censored Regression Model.</em> <a href="https://cran.r-project.org/web/packages/CensRegMod/index.html" class="uri">https://cran.r-project.org/web/packages/CensRegMod/index.html</a> </p></li>
+<li><p><span style="color:darkred"> <strong>MATOS, LARISSA A.</strong></span>; PRATES, MARCOS O.; LACHOS, VICTOR H. (2011). <em>tlmec: Linear Student-t Mixed-Effects Models with Censored Data.</em> <a href="https://cran.r-project.org/web/packages/tlmec/index.html" class="uri">https://cran.r-project.org/web/packages/tlmec/index.html</a> </p></li>
 </ul>
 <hr />
 <div id="footer">
