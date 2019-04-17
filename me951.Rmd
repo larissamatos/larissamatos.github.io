@@ -57,7 +57,7 @@ a:hover {
 
 **Aulas:** Segundas (IM34), 19h00-21h00 e Terças (IM34), 21h00-23h00
 
-<!-- **AVISO:**<span style="color:red"> aviso  </span> -->
+ **AVISO:**<span style="color:red"> Monitoria - DIA 17/04 as 18h - Sala 221  </span>
 
 ----
 
