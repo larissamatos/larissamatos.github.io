@@ -1,0 +1,172 @@
+---
+output:
+  html_document:
+    fig_width: 1
+---
+
+<style type="text/css">
+.nav.navbar-nav.navbar-right a {
+    color: white;
+}
+.navbar {
+  background-color:maroon;
+  border-color:black;
+  icon-color:white;
+}
+.navbar-brand {
+color:black!important;
+}
+body{ /* Normal  */
+      font-size: 15px;
+  }
+h1.title {
+  font-size: 32px;
+}
+h3 { /* Header 3 */
+  font-size: 24px;
+  color: DarkRed;
+}
+</style>
+
+<style>
+.column-f1{
+  float: left;
+  width: 20%;
+  text-align: left;
+}
+.column-f2{
+  float: right;
+  width: 20%;
+  text-align: right;
+}
+
+.column-left{
+  float: left;
+  width: 45%;
+  text-align: left;
+}
+.column-right{
+  float: right;
+  width: 45%;
+  text-align: left;
+}
+.column{
+  float: left;
+  width: 100%;
+  text-align: left;
+} 
+</style>
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, include=FALSE}
+library(reshape2)
+library(ggplot2)
+# library(printr)
+library(knitr)
+```
+
+## Notas
+
+----
+
+<div class="column-left">
+
+|     RA|    P1| Faltas|
+|:------|:----:|------:|
+| 119228|  8,75|      0|
+| 138347|  9,50|      3|
+| 147114|  5,75|      2|
+| 154954|  8,50|      3|
+| 155766|  1,50|      4|
+| 157276|  F   |      4|
+| 158365|  2,75|      1|
+| 165150|  5,25|      1|
+| 168614| 10,00|      2|
+| 170789|  6,50|      0|
+| 170882|  5,00|      3|
+| 171889|  5,25|      5|
+| 173019|  F   |      4|
+| 174763|  3,50|      0|
+
+</div>
+<div class="column-right">
+
+|     RA|    P1| Faltas|
+|:------|:----:|------:|
+| 175238|  2,25|      7|
+| 175247|  5,25|      4|
+| 175615|  7,25|      0|
+| 175913|  4,25|      0|
+| 177349|  8,75|      1|
+| 181987|  2,25|      0|
+| 183800|  4,50|      1|
+| 183848|  5,25|      3|
+| 183883|  6,25|      2|
+| 184050|  3,25|      0|
+| 184679|  6,00|      1|
+| 185451|  6,25|      0|
+| 186109|  7,00|      0|
+| 194478|  6,25|      0|
+
+</div>
+
+<div class="column">
+----
+
+### Resumo das Notas 
+
+\    | Min.| 1st Qu.| Median| Mean| 3rd Qu.| Max.|
+:----:|:----:|:-------:|:------:|:----:|:-------:|:----:|
+**P1** | 1,50|    4,31|   5,5| 5,65|    6,88| 10,00|
+
+
+
+```{r, echo=FALSE, include=FALSE, warning=FALSE}
+library("gdata")
+notas = read.xls("/Users/Larissa/Desktop/1S2019/ME_951/Provas/Notas.xls",header = TRUE)
+require(xtable)
+kable(notas)
+notasp1<-notas$P1
+notasp1[notasp1==0]<-NA
+b<-rbind(summary(notasp1))
+```
+
+```{r, echo=FALSE, fig.width=10, fig.height=5, warning=FALSE}
+par(mfrow=c(1,1))
+# boxplot(notasp1,col="lightblue", type=3, ylim=c(0,10),main="P1")
+# points(mean(notasp1,na.rm=TRUE))
+# abline(h=6,lty=2)
+boxplot(notasp1, horizontal=TRUE,  outline=TRUE,col="rosybrown3", type=3, ylim=c(0,10))
+points(mean(notasp1,na.rm=TRUE))
+abline(v=6,lty=2)
+
+```
+
+### Resumo das Notas P1/Faltas
+
+\    | Min.| 1st Qu.| Median| Mean| 3rd Qu.| Max.|
+:----:|:----:|:-------:|:------:|:----:|:-------:|:----:|
+**Faltas<=3** | 2,25|    4,62|   6,13| 6,03|    7,19| 10,00|
+**Faltas>=4** | 1,50|    2,06|   3,75| 3,57|    5,25| 5,25|
+
+<center>
+```{r, echo=FALSE, fig.width=7, fig.height=5, warning=FALSE}
+par(mfrow=c(1,1))
+faltas<-notas$Faltas
+faltas[faltas==0]<-faltas[faltas==1]<-faltas[faltas==2]<-faltas[faltas==3]<-"Faltas<=3"
+faltas[faltas==4]<-faltas[faltas==5]<-faltas[faltas==7]<-"Faltas>=4"
+faltas<-as.factor(faltas)
+boxplot(notasp1~faltas,col="rosybrown3", type=3, ylim=c(0,10))
+#abline(v=6,lty=2)
+#tapply(notasp1,faltas,summary)
+#boxplot(notasp1~as.factor(notas$Faltas),col="rosybrown3", type=3, ylim=c(0,10))
+```
+</center>
+
+</div>
+
