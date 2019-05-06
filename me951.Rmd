@@ -57,7 +57,7 @@ a:hover {
 
 **Aulas:** Segundas (IM34), 19h00-21h00 e Terças (IM34), 21h00-23h00
 
-**AVISO:**<span style="color:red"> Não haverá aula hoje (30/5) - Expediente suspenso - [Comunicado da Unicamp](https://www.unicamp.br/unicamp/noticias/2019/04/30/unicamp-suspende-atividades-academicas-no-campus-de-barao-geraldo-nesta-terca)  </span> 
+<!-- **AVISO:**<span style="color:red"> Não haverá aula hoje (30/5) - Expediente suspenso - [Comunicado da Unicamp](https://www.unicamp.br/unicamp/noticias/2019/04/30/unicamp-suspende-atividades-academicas-no-campus-de-barao-geraldo-nesta-terca)  </span>  -->
 
 ----
 
