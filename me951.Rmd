@@ -57,7 +57,7 @@ a:hover {
 
 **Aulas:** Segundas (IM34), 19h00-21h00 e Terças (IM34), 21h00-23h00
 
-**AVISO:**<span style="color:red"> No dia 20/5, não haverá atendimento do professor das 18 as 19h -  </span>
+**AVISO:**<span style="color:red"> No dia 20/5 não haverá atendimento do professor das 18h as 19h.  </span>
 
 ----
 
