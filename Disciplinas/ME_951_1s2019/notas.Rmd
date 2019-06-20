@@ -74,35 +74,35 @@ library(knitr)
 
 ----
 
-|     RA|    P1|    P2| Faltas|   MF|S         |
-|------:|-----:|-----:|------:|----:|:--------:|
-| 119228|  8,75| 10,00|      0| 5,63|        |
-| 138347|  9,50|  8,50|      5| 5,40|        |
-| 147114|  5,75|  4,75|      3| 3,15|        |
-| 154954|  8,50|  8,00|      3| 4,95|        |
-| 155766|  1,50|  0,00|      9| 0,45| <span style="color:maroon"> REPROVADO </span>
-| 157276|  0,00|  3,75|      5| 1,13|        |
-| 158365|  2,75|  7,75|      2| 3,15|        |
-| 165150|  5,25|  0,75|      2| 1,80|        |
-| 168614| 10,00|  5,75|      4| 4,73|        |
-| 170789|  6,50| 10,00|      0| 4,95|        |
-| 170882|  5,00|  2,75|      3| 2,33|        |
-| 171889|  5,25|  5,25|      6| 3,15|        |
-| 173019|  0,00|  0,00|      8| 0,00| <span style="color:maroon"> REPROVADO </span>
-| 174763|  3,50|  4,75|      1| 2,48|        |
-| 175238|  2,25|  2,50|      7| 1,43|        |
-| 175247|  5,25|  5,25|      5| 3,15|        |
-| 175615|  7,25|  8,75|      1| 4,80|        |
-| 175913|  4,25|  1,75|      2| 1,80|        |
-| 177349|  8,75|  8,00|      5| 5,03|        |
-| 183800|  4,50|  5,25|      3| 2,93|        |
-| 183848|  5,25|  5,75|      4| 3,30|        |
-| 183883|  6,25|  7,25|      3| 4,05|        |
-| 184050|  3,25|  3,50|      2| 2,03|        |
-| 184679|  6,00|  1,50|      2| 2,25|        |
-| 185451|  6,25|  2,75|      0| 2,70|        |
-| 186109|  7,00|  6,75|      2| 4,13|        |
-| 194478|  6,25|  8,50|      0| 4,43|        |
+|     RA|    P1|    P2|   P3| Faltas|   MF|S         |
+|------:|-----:|-----:|----:|------:|----:|:---------|
+| 119228|  8,75| 10,00| 9,75|      0| 9,53|<span style="color:green"> APROVADO </span>  |
+| 138347|  9,50|  8,50| 0,00|      7| 5,40|<span style="color:green"> APROVADO </span>  |
+| 147114|  5,75|  4,75| 2,50|      4| 4,15|<span style="color:maroon"> EXAME </span>     |
+| 154954|  8,50|  8,00| 8,50|      4| 8,35|<span style="color:green"> APROVADO </span>  |
+| 155766|  1,50|  0,00| 0,00|     15| 0,45|<span style="color:red"> REPROVADO FALTA/NOTA </span> |
+| 157276|  4,25|  3,75| 1,00|      7| 2,80|<span style="color:maroon"> EXAME </span>     |
+| 158365|  2,75|  7,75| 6,00|      4| 5,55|<span style="color:green"> APROVADO </span>  |
+| 165150|  5,25|  0,75| 2,25|      3| 2,70|<span style="color:maroon"> EXAME </span>     |
+| 168614| 10,00|  5,75| 6,75|      4| 7,43|<span style="color:green"> APROVADO </span>  |
+| 170789|  6,50| 10,00| 6,50|      1| 7,55|<span style="color:green"> APROVADO </span>  |
+| 170882|  5,00|  2,75| 1,50|      4| 2,93|<span style="color:maroon"> EXAME </span>     |
+| 171889|  5,25|  5,25| 2,00|      6| 3,95|<span style="color:maroon"> EXAME </span>     |
+| 173019|  0,00|  0,00| 0,00|     14| 0,00|<span style="color:red"> REPROVADO FALTA/NOTA </span> |
+| 174763|  3,50|  4,75| 4,50|      2| 4,28|<span style="color:maroon"> EXAME </span>     |
+| 175238|  2,25|  2,50| 4,50|      7| 3,23|<span style="color:maroon"> EXAME </span>     |
+| 175247|  5,25|  5,25| 6,00|      5| 5,55|<span style="color:green"> APROVADO </span>  |
+| 175615|  7,25|  8,75| 6,50|      1| 7,40|<span style="color:green"> APROVADO </span>  |
+| 175913|  4,25|  1,75| 5,75|      4| 4,10|<span style="color:maroon"> EXAME </span>     |
+| 177349|  8,75|  8,00| 3,25|      7| 6,33|<span style="color:green"> APROVADO </span>  |
+| 183800|  4,50|  5,25| 5,50|      4| 5,13|<span style="color:green"> APROVADO </span>  |
+| 183848|  5,25|  5,75| 3,00|      6| 4,50|<span style="color:maroon"> EXAME </span>     |
+| 183883|  6,25|  7,25| 3,75|      3| 5,55|<span style="color:green"> APROVADO </span>  |
+| 184050|  3,25|  3,50| 7,50|      3| 5,03|<span style="color:green"> APROVADO </span>  |
+| 184679|  6,00|  1,50| 3,50|      2| 3,65|<span style="color:maroon"> EXAME </span>     |
+| 185451|  6,25|  2,75| 7,50|      2| 5,70|<span style="color:green"> APROVADO </span>  |
+| 186109|  7,00|  6,75| 6,50|      2| 6,73|<span style="color:green"> APROVADO </span>  |
+| 194478|  6,25|  8,50| 7,00|      1| 7,23|<span style="color:green"> APROVADO </span>  |
 
 ----
 
@@ -110,29 +110,33 @@ library(knitr)
 
 \    | Min.| 1st Qu.| Median| Mean| 3rd Qu.| Max.|
 :----:|:----:|:-------:|:------:|:----:|:-------:|:----:|
-**P1** | 0,00|    4,31|   5,50| 5,57|    6,88| 10,00|
+**P1** | 0,00|    4,25|   5,25| 5,52|    6,75| 10,00|
 **P2** | 0,00|    2,75|   5,25| 5,17|    7,87| 10,00|
+**P3** | 0,00|    2,37|   4,50| 4,50|    6,50| 9,75|
+**MF** | 0,00|    3,80|   5,13| 5,01|    6,53| 9,53|
 
+\ | APROVADOS | EXAME | REPROVADOS FALTA/NOTA |
+:-:|:---------:|:------:|:------:|
+Frequência | 15 | 10 | 2 |
 
 ```{r, echo=FALSE, include=FALSE, warning=FALSE}
 library("gdata")
-notas = read.xls("/Users/Larissa/Desktop/1S2019/ME_951/Provas/notas.xls",header = TRUE)
+notas = read.xls("/Users/Larissa/Desktop/1S2019/ME_951/Provas/Notas.xls",header = TRUE)
+notas = read.table("/Users/Larissa/Desktop/1S2019/ME_951/Provas/notas.txt",header = TRUE)
 require(xtable)
-kable(notas[,c(1,2,3,7,8)])
+kable(notas[,c(1,2,3,4,7,8,9)])
 notasp1<-notas$P1
-notasp1[6]<-NA
 b<-rbind(summary(notasp1))
 notasp2<-notas$P2
 b1<-rbind(summary(notasp2))
-
-#notas$S[notas$MF>=6]<-"APROVADO"
-#notas$S[notas$MF<6 & notas$Faltas<=8]<-"EXAME"
-notas$S[notas$Faltas>=8]<-"REPROVADO POR FALTA"
-
+notasp3<-notas$P3
+b2<-rbind(summary(notasp3))
+notasmf<-notas$MF
+b3<-rbind(summary(notasmf))
 ```
 
 ```{r, echo=FALSE, fig.width=10, fig.height=5, warning=FALSE}
-par(mfrow=c(1,2))
+par(mfrow=c(1,4))
 # boxplot(notasp1,col="lightblue", type=3, ylim=c(0,10),main="P1")
 # points(mean(notasp1,na.rm=TRUE))
 # abline(h=6,lty=2)
@@ -142,7 +146,12 @@ abline(h=6,lty=2)
 boxplot(notasp2, horizontal=F,  outline=TRUE,col="rosybrown3", type=3, ylim=c(0,10),main="P2",cex.main=1)
 points(mean(notasp2,na.rm=TRUE))
 abline(h=6,lty=2)
-
+boxplot(notasp3, horizontal=F,  outline=TRUE,col="rosybrown3", type=3, ylim=c(0,10),main="P3",cex.main=1)
+points(mean(notasp3,na.rm=TRUE))
+abline(h=6,lty=2)
+boxplot(notasmf, horizontal=F,  outline=TRUE,col="rosybrown3", type=3, ylim=c(0,10),main="MF",cex.main=1)
+points(mean(notasmf,na.rm=TRUE))
+abline(h=5,lty=2)
 ```
 
 <!-- ### Resumo das Notas P1/Faltas -->

@@ -57,7 +57,7 @@ a:hover {
 
 **Aulas:** Segundas (IM34), 19h00-21h00 e Terças (IM34), 21h00-23h00
 
-<!-- **AVISO:**<span style="color:red"> No dia 20/5 não haverá atendimento do professor das 18h as 19h.  </span> -->
+**AVISO:**<span style="color:red"> EXAME - DIA 15/07/19 as 19h.  </span>  
 
 ----
 
@@ -105,7 +105,7 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 - Prova 3 (P3):   18/06/19	 
 
-- Exame final:    08/07/19 
+- Exame final:    15/07/19 
 
 ----
 
