@@ -65,6 +65,14 @@ a:hover {
 
 ### **Graduação**
 
+#### 2S2019
+
+- [ME414 - Estatística para Experimentalistas](me414_2s2019.html)
+</br>
+
+- [ME720 -  Modelos Lineares Generalizados](me720.html)
+</br>
+
 #### 1S2019
 
 - [ME951 - Estatística e Probabilidade I](me951.html)
@@ -73,7 +81,7 @@ a:hover {
 
 #### 2S2018
 
-- [ME414 - Estatística para Experimentalistas](me414.html)
+- [ME414 - Estatística para Experimentalistas](me414_2s2018.html)
 </br>
 
 - [ME710 - Assessoria Estatística](Disciplinas/EmentaME710_2S2018.pdf)
