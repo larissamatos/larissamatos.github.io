@@ -80,7 +80,7 @@ library(knitr)
 | 138347|  9,50|  8,50| 0,00|      |      7| 5,4|<span style="color:green"> APROVADO </span>  |
 | 147114|  5,75|  4,75| 2,50|  5,85|      4| 5,0|<span style="color:green"> APROVADO </span>  |
 | 154954|  8,50|  8,00| 8,50|      |      4| 8,4|<span style="color:green"> APROVADO </span>  |
-| 155766|  1,50|  0,00| 0,00|  0,00|     15| 0,2|<span style="color:red"> REPROVADO FALTA E NOTA </span> |
+| 155766|  1,50|  0,00| 0,00|  0,00|     15| 0,2|<span style="color:maroon"> REPROVADO FALTA E NOTA </span> |
 | 157276|  4,25|  3,75| 1,00|  0,00|      7| 1,4|<span style="color:red"> REPROVADO </span> |
 | 158365|  2,75|  7,75| 6,00|      |      4| 5,6|<span style="color:green"> APROVADO </span>  |
 | 165150|  5,25|  0,75| 2,25|  0,00|      3| 1,4|<span style="color:red"> REPROVADO </span> |
@@ -88,7 +88,7 @@ library(knitr)
 | 170789|  6,50| 10,00| 6,50|      |      1| 7,6|<span style="color:green"> APROVADO </span>  |
 | 170882|  5,00|  2,75| 1,50|  8,75|      4| 5,8|<span style="color:green"> APROVADO </span>  |
 | 171889|  5,25|  5,25| 2,00|  2,00|      6| 3,0|<span style="color:red"> REPROVADO </span>  |
-| 173019|  0,00|  0,00| 0,00|  0,00|     14| 0,0|<span style="color:red"> REPROVADO FALTA E NOTA </span> |
+| 173019|  0,00|  0,00| 0,00|  0,00|     14| 0,0|<span style="color:maroon"> REPROVADO FALTA E NOTA </span> |
 | 174763|  3,50|  4,75| 4,50|  5,00|      2| 4,6|<span style="color:red"> REPROVADO </span>  |
 | 175238|  2,25|  2,50| 4,50|  8,00|      7| 5,6|<span style="color:green"> APROVADO </span>  |
 | 175247|  5,25|  5,25| 6,00|      |      5| 5,6|<span style="color:green"> APROVADO </span>  |
