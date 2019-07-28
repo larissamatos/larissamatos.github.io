@@ -47,7 +47,7 @@ h3 { /* Header 3 */
 
 ### **Doutorado**
 
-- Fernanda Lang Schumacher - Doutorado em andamento (Fomento: CAPES) 
+- Fernanda Lang Schumacher - Doutorado em andamento (Fomento: CNPq) 
 </br>
 
 - Jose Alejandro Ordoñez  - Doutorado em andamento - Co-orientadora (Fomento: CAPES) 
@@ -75,6 +75,13 @@ h3 { /* Header 3 */
         
     `Dissertação: Estimação e diagnóstico em modelos parcialmente lineares censurados sob distribuições de` 
     `cauda pesada.`
+</br>
+
+---- 
+
+### **Iniciação Científica**
+
+- Nathan Brusamarello De Souto - IC em andamento (Fomento: CNPq) 
 </br>
 
 ----

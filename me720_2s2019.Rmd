@@ -1,0 +1,155 @@
+---
+title: "ME720 - Modelos Lineares Generalizados"
+output:
+  html_document:
+    fig_width: 1
+    toc_float: false
+---
+
+<style type="text/css">
+.nav.navbar-nav.navbar-right a {
+    color: white;
+}
+.navbar {
+  background-color:maroon;
+  border-color:black;
+  icon-color:white;
+}
+.navbar-brand {
+color:black!important;
+}
+body{ /* Normal  */
+      font-size: 15px;
+  }
+h1.title {
+  font-size: 30px;
+}
+h3 { /* Header 3 */
+  font-size: 24px;
+  color: DarkRed;
+}
+</style>
+
+<style>
+a:link {
+    color: darkred;
+}
+a:visited {
+    color: darkred;
+}
+a:hover {
+    color: blue;
+}
+.column-f1{
+  float: left;
+  width: 20%;
+  text-align: left;
+}
+.column-f2{
+  float: right;
+  width: 20%;
+  text-align: right;
+}
+</style>
+
+----
+
+**Segundo Semestre de 2019**
+
+**Aulas:** Terças e Quintas (IM13), 16h00-18h00
+
+----
+
+### **Ementa**
+
+- [Ementa](Disciplinas/ME_720_2s2019/Ementa.pdf)
+
+**Programa**
+
+Revisão de Modelos Lineares. Conceitos básicos, terminologia e notações. Família exponencial de distribuições e Modelos Lineares Generalizados. Estimação e Inferência. Verificação do ajuste do modelo. Modelos para dados binários. Modelos para dados de contagem. Sobredispersão e modelo binomial negativa. Modelos para dados de contagem com excesso de zeros. Modelos não lineares e Modelos lineares mistos. Elaboração de relatórios que inclua análise de dados.
+ 
+**Atendimento**
+
+- Atendimento (Professor)*: Quintas, das 13h às 14h - Sala 234.
+
+*Para o atendimento com o professor, o aluno deverá enviar um e-mail para larissam@ime.unicamp.br com pelo menos 3 horas de antecedência, solicitando o agendamento de atendimento.
+
+**Referências Bibliográficas**
+
+- Agresti, A. (2015). *Foundations of Linear and Generalized Linear Models*. Wiley series in probability and statistics.
+- Paula, G.A. (2013). *Modelos de Regressão com Apoio Computacional*. Texto disponível em [http://www.ime.usp.br/~giapaula/texto_2013.pdf](http://www.ime.usp.br/~giapaula/texto_2013.pdf).
+- McCulloch, C. \& Searle, S. (2001). *Generalized, Linear and Mixed Models*. Wiley: New York.
+- Faraway, J. J. (2006). *Extending the Linear Model with R. Generalized Linear, Mixed Effects and Nonparametric Regression Models*. Chapaman and Hall/CRC.
+
+
+**Critérios de Avaliação**
+
+- A média final (MF) será a média ponderada de duas provas (P1 e P2) e um seminário  (S). Os alunos que obtiverem nota superior ou igual a **$\small 6,0$** estarão **aprovados**. 
+
+- Então, o aluno será aprovado se
+  $$\small \mbox{MF} = 0,4*\mbox{P1} + 0,4*\mbox{P2} + 0,2*\mbox{S} \geq 6,0.$$
+
+- Os alunos que obtiverem nota final inferior a $\small 6,0$ deverão realizar um exame final. A nota final do curso será a média aritmética simples da nota final do semestre e a nota do exame final, ou seja, 
+$$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
+
+----
+
+### **Datas Importantes**
+
+- Prova 1 (P1): 	24/09/19	 
+
+- Prova 2 (P2):   12/11/19	 
+
+-  Seminários (S):  19 e 21 de novembro de 2019
+
+- Exame final:    10/12/19 
+
+----
+
+### **Informações gerais**
+
+- Avisos, atividades e notas estarão disponíveis nesta página.
+	
+- O aluno deverá ter frequência mínima para aprovação de 75\% nas aulas. O Artigo 72 e 73 do Regimento Geral de Graduação será utilizado nos casos de pedido de abono de faltas e sugiro a leitura dos Artigos 74 a 78, que tratam de detalhes sobre o Regime de Exercícios Domiciliares.
+	
+- Seção X - Do Abono de Faltas Artigo 72 - O abono de faltas está previsto nos casos descritos a seguir, mediante apresentação de documentos comprobatórios ao docente responsável pela disciplina, num prazo de 15 (quinze) dias após a ocorrência, durante a vigência do período letivo.
+
+    I) Exercício de representação estudantil nos órgãos colegiados, durante os horários das reuniões;
+    
+    II) Convocação para cumprimento de serviços obrigatórios por lei;
+    
+    III) Falecimento do cônjuge, filho, inclusive natimorto, pais, irmãos e avós até 03 (três) dias;
+    
+    IV) Falecimento de padrasto, madrasta, sogros e cunhados até 02 (dois) dias.
+    
+    Parágrafo único - O aluno terá direito a uma nova avaliação a ser agendada com o professor responsável pela disciplina, caso ocorra prova ou exame no dia da falta abonada.
+	
+- Para a realização do Exame Final, será utilizado o Artigo 57 do Regimento Geral de Graduação. Aqueles que obtiverem $\small \mbox{MF}  \geq 6,0$ estão dispensados do Exame e Aprovados na disciplina. Aqueles que obtiverem $\small 2,5 \leq \mbox{MF}  < 6,0$, e frequência mínima de 75\% poderão fazer o Exame Final. Aqueles com $\small \mbox{MF}  < 2,5$ e/ou frequência menor que 75\% não poderão fazer o Exame e estão Reprovados.
+	
+- O aluno deverá apresentar o RG e o RA durante as provas, se o aluno não apresentar os dois documentos sua prova será anulada.
+	
+- Caso o aluno não compareça no dia da P1, P2 ou P3, deverá enviar a justificativa pelo email. Os alunos com justificativas aceitas poderão realizar a prova substitutiva, que poderá contemplar qualquer conteúdo ministrado durante o semestre.
+	
+- No evento de paralizações, protestos estudantis, piquetes e greves, o docente se reserva o direito de alterar os critérios de presença e metodologia de avaliação. Todas as alterações serão anunciadas no Moodle, em e-mail institucional e na página do curso com a maior antecedência possível, e serão tomadas com propósito de minimizar conflitos e não prejudicar nenhum dos alunos. Em particular, para alguns problemas comuns, são soluções:
+
+    1. Se houver impedimento para a realização das aulas, elas poderão ser substituídas por atividades online incluindo leitura de material, com presença verificada através de pequenos testes sobre o assunto da aula.
+    
+    2. Se houver impedimento para a realização de provas durante o semestre, elas serão adiadas, preferencialmente para a aula seguinte à prova interrompida, em horário da aula; se houver indicação de que as interrupções persistirão, as provas poderão ser transformadas em atividades online que devem ser submetidas pelo Moodle em prazos curtos de tempo (2 horas de duração), com peso idêntico ao da prova correspondente interrompida, e também na semana seguinte à data da prova originalmente interrompida.
+    
+    3. Se houver impedimento para a realização do exame, ele será adiado.
+
+    Em todos os casos, prevalecerá a orientação da reitoria sobre quaisquer alterações de calendário. Note também que as alterações listadas só se aplicarão em caso de impedimento da atividade, e valem para a classe toda. Um aluno não poderá solicitar o adiamento só da sua prova, etc. Casos omissos são decididos pelo docente.
+
+
+----
+
+<div id="footer">
+<p>
+<div class="column-f1">
+![](imagens/logo-unicamp1.png){width=150px}
+</div>
+<div class="column-f2">
+![](imagens/logoimecc1.png){width=100px}
+</div>
+</p>
+</div>

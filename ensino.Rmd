@@ -70,7 +70,7 @@ a:hover {
 - [ME414 - Estatística para Experimentalistas](me414_2s2019.html)
 </br>
 
-- [ME720 -  Modelos Lineares Generalizados](me720.html)
+- [ME720 -  Modelos Lineares Generalizados](me720_2s2019.html)
 </br>
 
 #### 1S2019
