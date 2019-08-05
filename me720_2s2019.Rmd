@@ -58,7 +58,7 @@ a:hover {
 
 **Aulas:** Terças e Quintas (IM13), 16h00-18h00
 
-**AVISO:**<span style="color:red"> As aulas terão início no dia 06/08/2019.  </span>  
+<!-- **AVISO:**<span style="color:red"> As aulas terão início no dia 06/08/2019.  </span>   -->
 
 ----
 
@@ -142,6 +142,11 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
     Em todos os casos, prevalecerá a orientação da reitoria sobre quaisquer alterações de calendário. Note também que as alterações listadas só se aplicarão em caso de impedimento da atividade, e valem para a classe toda. Um aluno não poderá solicitar o adiamento só da sua prova, etc. Casos omissos são decididos pelo docente.
 
+---- 
+
+### **Aulas**
+
+- [Parte 1](Disciplinas/ME_720_2s2019/Parte1.pdf)
 
 ----
 
