@@ -152,6 +152,15 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 - [Parte 3](Disciplinas/ME_720_2s2019/Parte3.pdf)
 
+- [Parte 4](Disciplinas/ME_720_2s2019/Parte4.pdf)
+
+----
+
+### **Listas**
+
+  
+- [Lista 1](Disciplinas/ME_720_2s2019/Lista1.pdf): Modelos Lineares. 
+
 ----
 
 <div id="footer">
