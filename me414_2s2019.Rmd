@@ -177,9 +177,9 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 - [Parte 4](Disciplinas/ME_414_2s2019/Parte4.pdf): Análise Descritiva Bivariada: Diagrama de dispersão; Correlação; Tabelas de contingência e gráficos de barras.
 
-<!-- - [Parte 5](Disciplinas/ME_414_2s2019/Parte5.pdf): Probabilidade: Definição; Espaço amostral; Eventos; Operações com eventos; Partições do espaço amostral. -->
+- [Parte 5](Disciplinas/ME_414_2s2019/Parte5.pdf): Probabilidade: Definição; Espaço amostral; Eventos; Operações com eventos; Partições do espaço amostral.
 
-<!-- - [Parte 6](Disciplinas/ME_414_2s2019/Parte6.pdf): Regras de Contagem / Amostragem  -->
+- [Parte 6](Disciplinas/ME_414_2s2019/Parte6.pdf): Regras de Contagem / Amostragem
 
 <!-- - [Parte 7](Disciplinas/ME_414_2s2019/Parte7.pdf):  Probabilidade Condicional; Independência de Eventos; Teorema de Bayes. -->
 
