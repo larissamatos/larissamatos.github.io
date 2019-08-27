@@ -181,11 +181,11 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 - [Parte 6](Disciplinas/ME_414_2s2019/Parte6.pdf): Regras de Contagem / Amostragem
 
-<!-- - [Parte 7](Disciplinas/ME_414_2s2019/Parte7.pdf):  Probabilidade Condicional; Independência de Eventos; Teorema de Bayes. -->
+- [Parte 7](Disciplinas/ME_414_2s2019/Parte7.pdf):  Probabilidade Condicional; Independência de Eventos; Teorema de Bayes.
 
-<!-- - [Parte 8](Disciplinas/ME_414_2s2019/Parte8.pdf): Teorema de Bayes.   -->
+- [Parte 8](Disciplinas/ME_414_2s2019/Parte8.pdf): Teorema de Bayes.
 
-<!-- - [Parte 9](Disciplinas/ME_414_2s2019/Parte9.pdf): Variáveis aleatórias discretas; Distribuições de Probabilidade Discreta; Função de Distribuição Acumulada (FDA); Valor esperado e variância.   -->
+- [Parte 9](Disciplinas/ME_414_2s2019/Parte9.pdf): Variáveis aleatórias discretas; Distribuições de Probabilidade Discreta; Função de Distribuição Acumulada (FDA); Valor esperado e variância.
 
 <!-- - [Parte 10](Disciplinas/ME_414_2s2019/Parte10.pdf): Distribuições discretas: Uniforme, Bernoulli e Binomial.  -->
 

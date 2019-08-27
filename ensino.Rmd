@@ -67,61 +67,61 @@ a:hover {
 
 #### 2S2019
 
-- [ME414 - Estatística para Experimentalistas](me414_2s2019.html)
+- [ME414 H - Estatística para Experimentalistas](me414_2s2019.html)
 </br>
 
-- [ME720 -  Modelos Lineares Generalizados](me720_2s2019.html)
+- [ME720 A -  Modelos Lineares Generalizados](me720_2s2019.html)
 </br>
 
 #### 1S2019
 
-- [ME951 - Estatística e Probabilidade I](me951.html)
+- [ME951 A - Estatística e Probabilidade I](me951.html)
 </br>
 
 
 #### 2S2018
 
-- [ME414 - Estatística para Experimentalistas](me414_2s2018.html)
+- [ME414 A - Estatística para Experimentalistas](me414_2s2018.html)
 </br>
 
-- [ME710 - Assessoria Estatística](Disciplinas/EmentaME710_2S2018.pdf)
+- [ME710 A - Assessoria Estatística](Disciplinas/EmentaME710_2S2018.pdf)
 </br>
 
-- [ME712 -  Consultoria Estatística I](Disciplinas/EmentaME712e812_2S2018.pdf)
+- [ME712 A -  Consultoria Estatística I](Disciplinas/EmentaME712e812_2S2018.pdf)
 </br>
 
-- [ME810 - Estágio Supervisionado](Disciplinas/EmentaME810_2S2018.pdf)
+- [ME810 A - Estágio Supervisionado](Disciplinas/EmentaME810_2S2018.pdf)
 </br>
 
-- [ME812 -  Consultoria Estatística II](Disciplinas/EmentaME712e812_2S2018.pdf)
+- [ME812 A -  Consultoria Estatística II](Disciplinas/EmentaME712e812_2S2018.pdf)
 </br>
 
-- [ME850 - Seminários de Estatística](Disciplinas/EmentaME850_2S2018.pdf)
+- [ME850 A - Seminários de Estatística](Disciplinas/EmentaME850_2S2018.pdf)
 </br>
 
 #### 1S2018
 
-- [ME111 - Laboratório de Estatística](me111.html)
+- [ME111 A e B - Laboratório de Estatística](me111.html)
 </br>
 
-- [ME639 -  Metodologias e Técnicas de Pesquisa](me639.html)
+- [ME639 A -  Metodologias e Técnicas de Pesquisa](me639.html)
 </br>
 
-- [ME710 - Assessoria Estatística](Disciplinas/EmentaME710_1s2018.pdf)
+- [ME710 A - Assessoria Estatística](Disciplinas/EmentaME710_1s2018.pdf)
 </br>
 
-- [ME712 -  Consultoria Estatística I](Disciplinas/EmentaME712_1s2018.pdf)
+- [ME712 A -  Consultoria Estatística I](Disciplinas/EmentaME712_1s2018.pdf)
 </br>
 
-- [ME810 - Estágio Supervisionado](Disciplinas/EmentaME810_1s2018.pdf)
+- [ME810 A - Estágio Supervisionado](Disciplinas/EmentaME810_1s2018.pdf)
 </br>
 
-- [ME850 - Seminários de Estatística](Disciplinas/EmentaME850_1s2018.pdf)
+- [ME850 A - Seminários de Estatística](Disciplinas/EmentaME850_1s2018.pdf)
 </br>
 
 #### 2S2017
 
-- ME414 - Estatística para Experimentalistas
+- ME414 H - Estatística para Experimentalistas
 </br>
 
 ----

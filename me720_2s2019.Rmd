@@ -146,20 +146,26 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 ### **Aulas**
 
-- [Parte 1](Disciplinas/ME_720_2s2019/Parte1.pdf): Introdução e Revisão de Álgebra de Matrizes
+- [Parte 1](Disciplinas/ME_720_2s2019/Parte1.pdf): Introdução e Revisão de Álgebra de Matrizes.
 
-- [Parte 2](Disciplinas/ME_720_2s2019/Parte2.pdf): A Distribuição Normal Multivariada
+- [Parte 2](Disciplinas/ME_720_2s2019/Parte2.pdf): A Distribuição Normal Multivariada.
 
-- [Parte 3](Disciplinas/ME_720_2s2019/Parte3.pdf): Introdução aos modelos normais lineares
+- [Parte 3](Disciplinas/ME_720_2s2019/Parte3.pdf): Introdução aos modelos normais lineares.
 
-- [Parte 4](Disciplinas/ME_720_2s2019/Parte4.pdf): Teste de hipótese em modelos normais lineares
+- [Parte 4](Disciplinas/ME_720_2s2019/Parte4.pdf): Teste de hipótese em modelos normais lineares.
 
-    - [Extra](Disciplinas/ME_720_2s2019/Testes de comparacao multipla.pdf): Testes de comparação múltipla
+    - [Extra](Disciplinas/ME_720_2s2019/Testes de comparacao multipla.pdf): Testes de comparação múltipla.
     
-- [Parte 5](Disciplinas/ME_720_2s2019/Parte5.pdf): Poder do teste e determinação do tamanho da amostra em modelos normais lineares
+- [Parte 5](Disciplinas/ME_720_2s2019/Parte5.pdf): Poder do teste e determinação do tamanho da amostra em modelos normais lineares.
 
-- [Parte 6](Disciplinas/ME_720_2s2019/Parte6.pdf): Métodos de diagnóstico em modelos normais lineares
+- [Parte 6](Disciplinas/ME_720_2s2019/Parte6.pdf): Métodos de diagnóstico em modelos normais lineares.
 
+- [Parte 7](Disciplinas/ME_720_2s2019/Parte7.pdf): Estimabilidade em modelos normais lineares.
+
+    - [Exercício](Disciplinas/ME_720_2s2019/Parte7Ex.pdf): Testes de comparação múltipla.
+    
+- [Parte 8](Disciplinas/ME_720_2s2019/Parte8.pdf): MLGs - Introdução.
+    
 ----
 
 ### **Listas**
