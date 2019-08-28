@@ -223,7 +223,7 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 - [Lista 1](Disciplinas/ME_414_2s2019/Lista1.pdf): Estatística Descritiva.
 
-<!-- - [Lista 2](Disciplinas/ME_414_2s2019/Lista2.pdf): Probabilidade. -->
+- [Lista 2](Disciplinas/ME_414_2s2019/Lista2.pdf): Probabilidade.
 
 <!-- - [Lista 3](Disciplinas/ME_414_2s2019/Lista3.pdf): Variáveis Aleatórias Discretas. -->
 
