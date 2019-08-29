@@ -165,6 +165,8 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
     - [Exercício](Disciplinas/ME_720_2s2019/Parte7Ex.pdf): Testes de comparação múltipla.
     
 - [Parte 8](Disciplinas/ME_720_2s2019/Parte8.pdf): MLGs - Introdução.
+
+- [Parte 9](Disciplinas/ME_720_2s2019/Parte9.pdf): - Inferência em MLGs.
     
 ----
 
