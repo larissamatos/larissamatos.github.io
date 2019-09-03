@@ -187,7 +187,7 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 - [Parte 9](Disciplinas/ME_414_2s2019/Parte9.pdf): Variáveis aleatórias discretas; Distribuições de Probabilidade Discreta; Função de Distribuição Acumulada (FDA); Valor esperado e variância.
 
-<!-- - [Parte 10](Disciplinas/ME_414_2s2019/Parte10.pdf): Distribuições discretas: Uniforme, Bernoulli e Binomial.  -->
+- [Parte 10](Disciplinas/ME_414_2s2019/Parte10.pdf): Distribuições discretas: Uniforme, Bernoulli e Binomial.
 
 <!-- - [Parte 11](Disciplinas/ME_414_2s2019/Parte11.pdf): Distribuições discretas: Geométrica, Hipergeométrica e Poisson; Aproximação da Binomial pela Poisson. -->
 
@@ -225,7 +225,7 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 - [Lista 2](Disciplinas/ME_414_2s2019/Lista2.pdf): Probabilidade.
 
-<!-- - [Lista 3](Disciplinas/ME_414_2s2019/Lista3.pdf): Variáveis Aleatórias Discretas. -->
+- [Lista 3](Disciplinas/ME_414_2s2019/Lista3.pdf): Variáveis Aleatórias Discretas.
 
 <!-- - [Lista 4](Disciplinas/ME_414_2s2019/Lista4.pdf): Variáveis Aleatórias Contínuas. -->
 
