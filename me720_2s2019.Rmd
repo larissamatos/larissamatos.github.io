@@ -98,7 +98,7 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 ### **Datas Importantes**
 
-- Prova 1 (P1): 	24/09/19	 
+- Prova 1 (P1): 	01/10/19	 
 
 - Prova 2 (P2):   12/11/19	 
 
