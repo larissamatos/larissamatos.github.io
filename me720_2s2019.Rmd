@@ -180,6 +180,8 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
   
 - [Lista 1](Disciplinas/ME_720_2s2019/Lista1.pdf): Modelos Lineares. 
 
+- [Lista 2](Disciplinas/ME_720_2s2019/Lista2.pdf): Modelos Lineares Generalizados. 
+
 ----
 
 <div id="footer">
