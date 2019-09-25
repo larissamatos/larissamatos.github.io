@@ -1,0 +1,169 @@
+---
+output:
+  html_document:
+    fig_width: 1
+---
+
+<style type="text/css">
+.nav.navbar-nav.navbar-right a {
+    color: white;
+}
+.navbar {
+  background-color:maroon;
+  border-color:black;
+  icon-color:white;
+}
+.navbar-brand {
+color:black!important;
+}
+body{ /* Normal  */
+      font-size: 15px;
+  }
+h1.title {
+  font-size: 32px;
+}
+h3 { /* Header 3 */
+  font-size: 24px;
+  color: DarkRed;
+}
+</style>
+
+<style>
+.column-f1{
+  float: left;
+  width: 20%;
+  text-align: left;
+}
+.column-f2{
+  float: right;
+  width: 20%;
+  text-align: right;
+}
+
+.column-left{
+  float: left;
+  width: 47%;
+  text-align: left;
+}
+.column-right{
+  float: right;
+  width: 47%;
+  text-align: left;
+}
+.column{
+  float: left;
+  width: 100%;
+  text-align: left;
+} 
+</style>
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, include=FALSE}
+library(reshape2)
+library(ggplot2)
+# library(printr)
+library(knitr)
+library(plotly)
+library(DT)
+
+```
+
+## Notas
+
+----
+
+```{r, echo=FALSE, include=FALSE, warning=FALSE}
+library("gdata")
+notas = read.table("/Users/Larissa/Desktop/2S2019/ME414/Provas/notas.txt",header = TRUE)
+require(xtable)
+kable(notas[,c(1,2,8)])
+notasp1<-notas$Prova1
+b<-rbind(summary(notasp1))
+```
+
+```{r, echo=FALSE, warning=FALSE}
+library("gdata")
+notas = read.table("/Users/Larissa/Desktop/2S2019/ME414/Provas/notas.txt",header = TRUE)
+require(xtable)
+#kable(notas[,c(1,2,8)])
+dd <- data.frame(v1=notas[,1], v2=notas[,2], v3=notas[,8], v4=rep(0,63))
+colnames(dd)=c("RA", "P1", "Faltas"," ")
+dd[dd[,3]>=8,4] <- '<span style="color:maroon"> REPROVADO POR FALTA </span>'
+dd[dd[,3]<=7,4] <- " "
+notasp1<-notas$Prova1
+b<-rbind(summary(notasp1))
+datatable(dd, rownames=FALSE, escape = FALSE, options = list(columnDefs = list(list(className = 'dt-right', targets = 3))))
+```
+
+----
+
+</br>
+
+### Resumo das Notas 
+
+\    | Min.| 1st Qu.| Median| Mean| 3rd Qu.| Max.|
+:----:|:----:|:-------:|:------:|:----:|:-------:|:----:|
+**P1** | 0,00|    6,00|   6,70| 6,55|    8,00| 10,00|
+
+<center>
+```{r, echo=FALSE, fig.width=6, fig.height=5, warning=FALSE}
+par(mfrow=c(1,1))
+# boxplot(notasp1,col="lightblue", type=3, ylim=c(0,10),main="P1")
+# points(mean(notasp1,na.rm=TRUE))
+# abline(h=6,lty=2)
+boxplot(notasp1, horizontal=F,  outline=TRUE,col="rosybrown3", type=3, ylim=c(0,10),main="P1",cex.main=1)
+points(mean(notasp1,na.rm=TRUE),pch=8)
+abline(h=6,lty=2)
+```
+</center>
+
+### Resumo das Notas P1/Faltas
+
+\    | Min.| 1st Qu.| Median| Mean| 3rd Qu.| Max.|
+:----:|:----:|:-------:|:------:|:----:|:-------:|:----:|
+**Faltas<=3** | 4,00|    6,00|   7,3| 7,00|    8,20| 10,00|
+**Faltas>=4** | 0,00|    0,00|   6,00| 4,30|    7,00| 8,70|
+
+<center>
+```{r, echo=FALSE, fig.width=6, fig.height=5, warning=FALSE}
+par(mfrow=c(1,1))
+faltas<-notas$FaltasP1
+faltas[faltas==0]<-faltas[faltas==1]<-faltas[faltas==2]<-faltas[faltas==3]<-"Faltas<=3"
+faltas[faltas==4]<-faltas[faltas==5]<-faltas[faltas==6]<-faltas[faltas==7]<-faltas[faltas==8]<-faltas[faltas==11]<-faltas[faltas==12]<-"Faltas>=4"
+faltas<-as.factor(faltas)
+boxplot(notasp1~faltas,col="rosybrown3", type=3, ylim=c(0,10))
+#abline(v=6,lty=2)
+#tapply(notasp1,faltas,summary)
+#boxplot(notasp1~as.factor(notas$Faltas),col="rosybrown3", type=3, ylim=c(0,10))
+```
+</center>
+
+<!-- ### Resumo das Notas P2/Faltas -->
+
+<!-- \    | Min.| 1st Qu.| Median| Mean| 3rd Qu.| Max.| -->
+<!-- :----:|:----:|:-------:|:------:|:----:|:-------:|:----:| -->
+<!-- **Faltas<5** | 0,75|    3,50|   5,50| 5,63|    7,75| 10,00| -->
+<!-- **Faltas>=5** | 0,00|    0,62|   3,12| 2,75|    4,69| 5,25| -->
+
+<!-- <center> -->
+<!-- ```{r, echo=FALSE, fig.width=7, fig.height=5, warning=FALSE} -->
+<!-- par(mfrow=c(1,1)) -->
+<!-- faltas<-notas$Faltas -->
+<!-- faltas[faltas<5]<-1 -->
+<!-- faltas[faltas>=5]<-2 -->
+<!-- faltas[faltas==1]<-"Faltas<5" -->
+<!-- faltas[faltas==2]<-"Faltas>=5" -->
+<!-- faltas<-as.factor(faltas) -->
+<!-- boxplot(notasp2~faltas,col="rosybrown3", type=3, ylim=c(0,10)) -->
+<!-- #abline(v=6,lty=2) -->
+<!-- #tapply(notasp2,faltas,summary) -->
+<!-- #boxplot(notasp2~as.factor(notas$Faltas),col="rosybrown3", type=3, ylim=c(0,10)) -->
+<!-- ``` -->
+<!-- </center> -->
+
+
