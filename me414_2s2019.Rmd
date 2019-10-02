@@ -214,7 +214,7 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 - [Parte 13](Disciplinas/ME_414_2s2019/Parte13.pdf): Distribuições contínuas: Uniforme, Exponencial e Normal; Aproximação da Binomial pela Normal. Distribuições contínuas: Gamma e Beta.
 
-<!-- - [Parte 14](Disciplinas/ME_414_2s2019/Parte14.pdf): Noções de Inferência Estatística. -->
+- [Parte 14](Disciplinas/ME_414_2s2019/Parte14.pdf): Noções de Inferência Estatística.
 
 <!-- - [Parte 15](Disciplinas/ME_414_2s2019/Parte15.pdf): Intervalo de confiança. Intervalo de confiança para proporção.  -->
 
@@ -238,7 +238,7 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 ### **Listas**
 
-<!-- - [Tabelas das distribuições](Disciplinas/ME_414_2s2019/Tabelas.pdf): Tabelas para serem usadas na resolução dos exercícios.  -->
+- [Tabelas das distribuições](Disciplinas/ME_414_2s2019/Tabelas.pdf): Tabelas para serem usadas na resolução dos exercícios.  -->
 
 - [Lista 1](Disciplinas/ME_414_2s2019/Lista1.pdf): Estatística Descritiva.
 
@@ -246,7 +246,7 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 - [Lista 3](Disciplinas/ME_414_2s2019/Lista3.pdf): Variáveis Aleatórias Discretas.
 
-<!-- - [Lista 4](Disciplinas/ME_414_2s2019/Lista4.pdf): Variáveis Aleatórias Contínuas. -->
+- [Lista 4](Disciplinas/ME_414_2s2019/Lista4.pdf): Variáveis Aleatórias Contínuas. 
 
 <!-- - [Lista 5](Disciplinas/ME_414_2s2019/Lista5.pdf): Variáveis Aleatórias Contínuas e IC para proporção. -->
 
