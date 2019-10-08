@@ -216,9 +216,9 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 - [Parte 14](Disciplinas/ME_414_2s2019/Parte14.pdf): Noções de Inferência Estatística.
 
-<!-- - [Parte 15](Disciplinas/ME_414_2s2019/Parte15.pdf): Intervalo de confiança. Intervalo de confiança para proporção.  -->
+- [Parte 15](Disciplinas/ME_414_2s2019/Parte15.pdf): Intervalo de confiança. Intervalo de confiança para proporção.  
 
-<!-- - [Parte 16](Disciplinas/ME_414_2s2019/Parte16.pdf): Intervalo de confiança para a média populacional.    -->
+- [Parte 16](Disciplinas/ME_414_2s2019/Parte16.pdf): Intervalo de confiança para a média populacional.    
 
 <!-- - [Parte 17](Disciplinas/ME_414_2s2019/Parte17.pdf): Teste de Hipóteses: Introdução.   -->
 
@@ -248,7 +248,7 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 - [Lista 4](Disciplinas/ME_414_2s2019/Lista4.pdf): Variáveis Aleatórias Contínuas. 
 
-<!-- - [Lista 5](Disciplinas/ME_414_2s2019/Lista5.pdf): Variáveis Aleatórias Contínuas e IC para proporção. -->
+- [Lista 5](Disciplinas/ME_414_2s2019/Lista5.pdf): Variáveis Aleatórias Contínuas e IC para proporção.
 
 <!-- - [Lista 6](Disciplinas/ME_414_2s2019/Lista6.pdf): Intervalo de confiança. -->
 
