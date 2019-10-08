@@ -170,10 +170,14 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 - [Parte 10](Disciplinas/ME_720_2s2019/Parte10.pdf): Teste de hipótese em MLGs.
 
-- [Atividade](Disciplinas/ME_720_2s2019/Parte12Atividade.pdf): Atividade (Aulas 17/09 e 19/09).
+- [Atividade](Disciplinas/ME_720_2s2019/Atividade.pdf): Atividade (Aulas 17/09 e 19/09).
+
+    - [Resolução](Disciplinas/ME_720_2s2019/AtividadeResolucao.pdf): Resolução Atividade.
 
 - [Parte 11](Disciplinas/ME_720_2s2019/Parte11.pdf): Modelos para Dados Binários.
-    
+
+- [Função MLG](Disciplinas/ME_720_2s2019/Parte11-fcMLG.pdf): Criando a sua própria função `glm`.
+
 ----
 
 ### **Listas**
