@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>ME720 - Modelos Lineares Generalizados</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 54px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 59px;
+  margin-top: -59px;
+}
+.section h2 {
+  padding-top: 59px;
+  margin-top: -59px;
+}
+.section h3 {
+  padding-top: 59px;
+  margin-top: -59px;
+}
+.section h4 {
+  padding-top: 59px;
+  margin-top: -59px;
+}
+.section h5 {
+  padding-top: 59px;
+  margin-top: -59px;
+}
+.section h6 {
+  padding-top: 59px;
+  margin-top: -59px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="informacoes.html">
+    <span class="fa fa-graduation-cap"></span>
+     
+    Informações Acadêmicas
+  </a>
+</li>
+<li>
+  <a href="ensino.html">
+    <span class="fa fa-book"></span>
+     
+    Ensino
+  </a>
+</li>
+<li>
+  <a href="publicacoes.html">
+    <span class="fa fa-sticky-note"></span>
+     
+    Publicações
+  </a>
+</li>
+<li>
+  <a href="alunos.html">
+    <span class="fa fa-users"></span>
+     
+    Alunos
+  </a>
+</li>
+<li>
+  <a href="contato.html">
+    <span class="fa fa-envelope"></span>
+     
+    Contato
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">ME720 - Modelos Lineares Generalizados</h1>
+
+</div>
+
+
+<style type="text/css">
+.nav.navbar-nav.navbar-right a {
+    color: white;
+}
+.navbar {
+  background-color:maroon;
+  border-color:black;
+  icon-color:white;
+}
+.navbar-brand {
+color:black!important;
+}
+body{ /* Normal  */
+      font-size: 15px;
+  }
+h1.title {
+  font-size: 30px;
+}
+h3 { /* Header 3 */
+  font-size: 24px;
+  color: DarkRed;
+}
+</style>
+<style>
+a:link {
+    color: darkred;
+}
+a:visited {
+    color: darkred;
+}
+a:hover {
+    color: blue;
+}
+.column-f1{
+  float: left;
+  width: 20%;
+  text-align: left;
+}
+.column-f2{
+  float: right;
+  width: 20%;
+  text-align: right;
+}
+</style>
+<hr />
+<p><strong>Segundo Semestre de 2019</strong></p>
+<p><strong>Aulas:</strong> Terças e Quintas (IM13), 16h00-18h00</p>
+<!-- **AVISO:**<span style="color:red"> As aulas terão início no dia 06/08/2019.  </span>   -->
+<hr />
+<div id="ementa" class="section level3">
+<h3><strong>Ementa</strong></h3>
+<ul>
+<li><a href="Disciplinas/ME_720_2s2019/Ementa.pdf">Ementa</a></li>
+</ul>
+<p><strong>Programa</strong></p>
+<p>Revisão de Modelos Lineares. Conceitos básicos, terminologia e notações. Família exponencial de distribuições e Modelos Lineares Generalizados. Estimação e Inferência. Verificação do ajuste do modelo. Modelos para dados binários. Modelos para dados de contagem. Sobredispersão e modelo binomial negativa. Modelos para dados de contagem com excesso de zeros. Modelos não lineares e Modelos lineares mistos. Elaboração de relatórios que inclua análise de dados.</p>
+<p><strong>Atendimento</strong></p>
+<ul>
+<li>Atendimento (Professor)*: Quintas, das 13h às 14h - Sala 234.</li>
+</ul>
+<p>*Para o atendimento com o professor, o aluno deverá enviar um e-mail para <a href="mailto:larissam@ime.unicamp.br">larissam@ime.unicamp.br</a> com pelo menos 3 horas de antecedência, solicitando o agendamento de atendimento.</p>
+<p><strong>Referências Bibliográficas</strong></p>
+<ul>
+<li>Agresti, A. (2015). <em>Foundations of Linear and Generalized Linear Models</em>. Wiley series in probability and statistics.</li>
+<li>Paula, G.A. (2013). <em>Modelos de Regressão com Apoio Computacional</em>. Texto disponível em <a href="http://www.ime.usp.br/~giapaula/texto_2013.pdf" class="uri">http://www.ime.usp.br/~giapaula/texto_2013.pdf</a>.</li>
+<li>McCulloch, C. &amp; Searle, S. (2001). <em>Generalized, Linear and Mixed Models</em>. Wiley: New York.</li>
+<li>Faraway, J. J. (2006). <em>Extending the Linear Model with R. Generalized Linear, Mixed Effects and Nonparametric Regression Models</em>. Chapaman and Hall/CRC.</li>
+</ul>
+<p><strong>Critérios de Avaliação</strong></p>
+<ul>
+<li><p>A média final (MF) será a média ponderada de duas provas (P1 e P2) e um seminário (S). Os alunos que obtiverem nota superior ou igual a <strong><span class="math inline">\(\small 6,0\)</span></strong> estarão <strong>aprovados</strong>.</p></li>
+<li><p>Então, o aluno será aprovado se <span class="math display">\[\small \mbox{MF} = 0,4*\mbox{P1} + 0,4*\mbox{P2} + 0,2*\mbox{S} \geq 6,0.\]</span></p></li>
+<li><p>Os alunos que obtiverem nota final inferior a <span class="math inline">\(\small 6,0\)</span> deverão realizar um exame final. A nota final do curso será a média aritmética simples da nota final do semestre e a nota do exame final, ou seja, <span class="math display">\[\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.\]</span></p></li>
+</ul>
+<hr />
+</div>
+<div id="datas-importantes" class="section level3">
+<h3><strong>Datas Importantes</strong></h3>
+<ul>
+<li><p>Prova 1 (P1): 01/10/19</p></li>
+<li><p>Prova 2 (P2): 12/11/19</p></li>
+<li><p>Seminários (S): 19 e 21 de novembro de 2019</p></li>
+<li><p>Exame final: 10/12/19</p></li>
+</ul>
+<hr />
+</div>
+<div id="informacoes-gerais" class="section level3">
+<h3><strong>Informações gerais</strong></h3>
+<ul>
+<li><p>Avisos, atividades e notas estarão disponíveis nesta página.</p></li>
+<li><p>O aluno deverá ter frequência mínima para aprovação de 75% nas aulas. O Artigo 72 e 73 do Regimento Geral de Graduação será utilizado nos casos de pedido de abono de faltas e sugiro a leitura dos Artigos 74 a 78, que tratam de detalhes sobre o Regime de Exercícios Domiciliares.</p></li>
+<li><p>Seção X - Do Abono de Faltas Artigo 72 - O abono de faltas está previsto nos casos descritos a seguir, mediante apresentação de documentos comprobatórios ao docente responsável pela disciplina, num prazo de 15 (quinze) dias após a ocorrência, durante a vigência do período letivo.</p>
+<ol style="list-style-type: upper-roman">
+<li><p>Exercício de representação estudantil nos órgãos colegiados, durante os horários das reuniões;</p></li>
+<li><p>Convocação para cumprimento de serviços obrigatórios por lei;</p></li>
+<li><p>Falecimento do cônjuge, filho, inclusive natimorto, pais, irmãos e avós até 03 (três) dias;</p></li>
+<li><p>Falecimento de padrasto, madrasta, sogros e cunhados até 02 (dois) dias.</p></li>
+</ol>
+<p>Parágrafo único - O aluno terá direito a uma nova avaliação a ser agendada com o professor responsável pela disciplina, caso ocorra prova ou exame no dia da falta abonada.</p></li>
+<li><p>Para a realização do Exame Final, será utilizado o Artigo 57 do Regimento Geral de Graduação. Aqueles que obtiverem <span class="math inline">\(\small \mbox{MF} \geq 6,0\)</span> estão dispensados do Exame e Aprovados na disciplina. Aqueles que obtiverem <span class="math inline">\(\small 2,5 \leq \mbox{MF} &lt; 6,0\)</span>, e frequência mínima de 75% poderão fazer o Exame Final. Aqueles com <span class="math inline">\(\small \mbox{MF} &lt; 2,5\)</span> e/ou frequência menor que 75% não poderão fazer o Exame e estão Reprovados.</p></li>
+<li><p>O aluno deverá apresentar o RG e o RA durante as provas, se o aluno não apresentar os dois documentos sua prova será anulada.</p></li>
+<li><p>Caso o aluno não compareça no dia da P1, P2 ou P3, deverá enviar a justificativa pelo email. Os alunos com justificativas aceitas poderão realizar a prova substitutiva, que poderá contemplar qualquer conteúdo ministrado durante o semestre.</p></li>
+<li><p>No evento de paralizações, protestos estudantis, piquetes e greves, o docente se reserva o direito de alterar os critérios de presença e metodologia de avaliação. Todas as alterações serão anunciadas no Moodle, em e-mail institucional e na página do curso com a maior antecedência possível, e serão tomadas com propósito de minimizar conflitos e não prejudicar nenhum dos alunos. Em particular, para alguns problemas comuns, são soluções:</p>
+<ol style="list-style-type: decimal">
+<li><p>Se houver impedimento para a realização das aulas, elas poderão ser substituídas por atividades online incluindo leitura de material, com presença verificada através de pequenos testes sobre o assunto da aula.</p></li>
+<li><p>Se houver impedimento para a realização de provas durante o semestre, elas serão adiadas, preferencialmente para a aula seguinte à prova interrompida, em horário da aula; se houver indicação de que as interrupções persistirão, as provas poderão ser transformadas em atividades online que devem ser submetidas pelo Moodle em prazos curtos de tempo (2 horas de duração), com peso idêntico ao da prova correspondente interrompida, e também na semana seguinte à data da prova originalmente interrompida.</p></li>
+<li><p>Se houver impedimento para a realização do exame, ele será adiado.</p></li>
+</ol>
+<p>Em todos os casos, prevalecerá a orientação da reitoria sobre quaisquer alterações de calendário. Note também que as alterações listadas só se aplicarão em caso de impedimento da atividade, e valem para a classe toda. Um aluno não poderá solicitar o adiamento só da sua prova, etc. Casos omissos são decididos pelo docente.</p></li>
+</ul>
+<hr />
+</div>
+<div id="aulas" class="section level3">
+<h3><strong>Aulas</strong></h3>
+<ul>
+<li><p><a href="Disciplinas/ME_720_2s2019/Parte1.pdf">Parte 1</a>: Introdução e Revisão de Álgebra de Matrizes.</p></li>
+<li><p><a href="Disciplinas/ME_720_2s2019/Parte2.pdf">Parte 2</a>: A Distribuição Normal Multivariada.</p></li>
+<li><p><a href="Disciplinas/ME_720_2s2019/Parte3.pdf">Parte 3</a>: Introdução aos modelos normais lineares.</p></li>
+<li><p><a href="Disciplinas/ME_720_2s2019/Parte4.pdf">Parte 4</a>: Teste de hipótese em modelos normais lineares.</p>
+<ul>
+<li><a href="Disciplinas/ME_720_2s2019/Testes%20de%20comparacao%20multipla.pdf">Extra</a>: Testes de comparação múltipla.</li>
+</ul></li>
+<li><p><a href="Disciplinas/ME_720_2s2019/Parte5.pdf">Parte 5</a>: Poder do teste e determinação do tamanho da amostra em modelos normais lineares.</p></li>
+<li><p><a href="Disciplinas/ME_720_2s2019/Parte6.pdf">Parte 6</a>: Métodos de diagnóstico em modelos normais lineares.</p></li>
+<li><p><a href="Disciplinas/ME_720_2s2019/Parte7.pdf">Parte 7</a>: Estimabilidade em modelos normais lineares.</p>
+<ul>
+<li><a href="Disciplinas/ME_720_2s2019/Parte7Ex.pdf">Exercício</a>: Testes de comparação múltipla.</li>
+</ul></li>
+<li><p><a href="Disciplinas/ME_720_2s2019/Parte8.pdf">Parte 8</a>: MLGs - Introdução.</p></li>
+<li><p><a href="Disciplinas/ME_720_2s2019/Parte9.pdf">Parte 9</a>: Inferência em MLGs.</p></li>
+<li><p><a href="Disciplinas/ME_720_2s2019/Parte10.pdf">Parte 10</a>: Teste de hipótese em MLGs.</p></li>
+<li><p><a href="Disciplinas/ME_720_2s2019/Atividade.pdf">Atividade</a>: Atividade (Aulas 17/09 e 19/09).</p>
+<ul>
+<li><a href="Disciplinas/ME_720_2s2019/AtividadeResolucao.pdf">Resolução</a>: Resolução Atividade.</li>
+</ul></li>
+<li><p><a href="Disciplinas/ME_720_2s2019/Parte11.pdf">Parte 11</a>: Modelos para Dados Binários.</p></li>
+<li><p><a href="Disciplinas/ME_720_2s2019/Parte11-fcMLG.pdf">Função MLG</a>: Criando a sua própria função <code>glm</code>.</p></li>
+<li><p><a href="Disciplinas/ME_720_2s2019/Parte11_Lab.pdf">Lab</a>:</p></li>
+</ul>
+<hr />
+</div>
+<div id="listas" class="section level3">
+<h3><strong>Listas</strong></h3>
+<ul>
+<li><p><a href="Disciplinas/ME_720_2s2019/Lista1.pdf">Lista 1</a>: Modelos Lineares.</p></li>
+<li><p><a href="Disciplinas/ME_720_2s2019/Lista2.pdf">Lista 2</a>: Modelos Lineares Generalizados.</p></li>
+</ul>
+<hr />
+<div id="footer">
+<p>
+<div class="column-f1">
+<div class="figure">
+<img src="imagens/logo-unicamp1.png" width="150" />
+
+</div>
+</div>
+<div class="column-f2">
+<div class="figure">
+<img src="imagens/logoimecc1.png" width="100" />
+
+</div>
+</div>
+</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
