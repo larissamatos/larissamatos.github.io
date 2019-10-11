@@ -60,23 +60,23 @@ a:hover {
 <!-- **AVISO:**<span style="color:red"> As aulas terão início no dia 07/08/2019.  </span>   -->
 
 
-<!-- ---- -->
+----
 
-<!-- #### **Instruções para a prova** -->
+#### **Instruções para a prova**
 
-<!-- - A prova 1 (P1) será realizada no  dia 18/09 - das 10:00-12:00 hs na <span style="color:red"> sala PB17 </span>. -->
+- A prova 2 (P2) será realizada no  dia 18/10 - das 10:00-12:00 hs na <span style="color:red"> sala PB17 </span>.
 
-<!-- - O(a) aluno(a) deverá apresentar seu RA e RG/CNH quando entregar a prova e assinar presença. -->
+- O(a) aluno(a) deverá apresentar seu RA e RG/CNH quando entregar a prova e assinar presença.
 
-<!-- - O(a) aluno(a) só poderá sair da sala após 40 minutos do início da prova, mesmo que já tenha finalizado a prova. Após a saída do(a) primeiro(a) aluno(a) não será permitida a entrada de nenhum(a) outro(a) aluno(a). -->
+- O(a) aluno(a) só poderá sair da sala após 40 minutos do início da prova, mesmo que já tenha finalizado a prova. Após a saída do(a) primeiro(a) aluno(a) não será permitida a entrada de nenhum(a) outro(a) aluno(a).
 
-<!-- - O(a) aluno(a) poderá utilizar apenas caneta, lápis, borracha e calculadora. <span style="color:red"> Não poderá utilizar a calculadora do celular </span>. -->
+- O(a) aluno(a) poderá utilizar apenas caneta, lápis, borracha e calculadora. <span style="color:red"> Não poderá utilizar a calculadora do celular </span>.
 
-<!-- - Não será permitido empréstimo de material de qualquer tipo entre alunos durante a prova.  -->
+- Não será permitido empréstimo de material de qualquer tipo entre alunos durante a prova.
 
-<!-- <!-- - Para a P2 o(a) aluno(a) deverá levar as [tabelas](Disciplinas/ME_414_2s2018/Tabelas.pdf). **As tabelas não poderão estar rasuradas.**  --> 
+ - Para a P2 o(a) aluno(a) deverá levar a tabela da distribuição Normal ([tabela](Disciplinas/ME_414_2s2019/TabelaNormal.pdf)).  **As tabelas não poderão estar rasuradas.**
 
-<!-- - [Formulário](Disciplinas/ME_414_2s2019/Formulario.pdf): Uma cópia será fornecida durante a prova. -->
+- [Formulário](Disciplinas/ME_414_2s2019/Formulario2.pdf): Uma cópia será fornecida durante a prova.
 
 ----
 
@@ -218,7 +218,7 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 - [Parte 15](Disciplinas/ME_414_2s2019/Parte15.pdf): Intervalo de confiança. Intervalo de confiança para proporção.  
 
-- [Parte 16](Disciplinas/ME_414_2s2019/Parte16.pdf): Intervalo de confiança para a média populacional.    
+<!-- - [Parte 16](Disciplinas/ME_414_2s2019/Parte16.pdf): Intervalo de confiança para a média populacional.     -->
 
 <!-- - [Parte 17](Disciplinas/ME_414_2s2019/Parte17.pdf): Teste de Hipóteses: Introdução.   -->
 
