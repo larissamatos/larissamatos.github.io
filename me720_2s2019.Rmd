@@ -178,7 +178,7 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 - [Função MLG](Disciplinas/ME_720_2s2019/Parte11-fcMLG.pdf): Criando a sua própria função `glm`.
 
-- [Lab](Disciplinas/ME_720_2s2019/Parte11_Lab.pdf):
+- [Laboratório](Disciplinas/ME_720_2s2019/Parte11_Lab.pdf): Dados Binários - regressão logística.
 
 ----
 
