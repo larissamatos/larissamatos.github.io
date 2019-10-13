@@ -248,8 +248,12 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 - [Lista 4](Disciplinas/ME_414_2s2019/Lista4.pdf): Variáveis Aleatórias Contínuas. 
 
+    -  [Gabarito](Disciplinas/ME_414_2s2019/Lista4_Gab.pdf): Gabarito Lista 4.
+
 - [Lista 5](Disciplinas/ME_414_2s2019/Lista5.pdf): Variáveis Aleatórias Contínuas e IC para proporção.
 
+     -  [Gabarito](Disciplinas/ME_414_2s2019/Lista5_Gab.pdf): Gabarito Lista 5.
+ 
 <!-- - [Lista 6](Disciplinas/ME_414_2s2019/Lista6.pdf): Intervalo de confiança. -->
 
 <!-- - [Lista 7](Disciplinas/ME_414_2s2019/Lista7.pdf): Teste de Hipóteses. -->
