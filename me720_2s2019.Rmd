@@ -190,6 +190,12 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 ----
 
+### **Notas**
+
+- [Notas](Disciplinas/ME_720_2s2019/notas.html)
+
+----
+
 <div id="footer">
 <p>
 <div class="column-f1">
