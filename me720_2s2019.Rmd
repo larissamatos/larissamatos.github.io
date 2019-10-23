@@ -180,6 +180,8 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 - [Laboratório](Disciplinas/ME_720_2s2019/Parte11_Lab.pdf): Dados Binários - regressão logística.
 
+- [Parte 12](Disciplinas/ME_720_2s2019/Parte11.pdf): Modelos Multinomiais.
+
 ----
 
 ### **Listas**
