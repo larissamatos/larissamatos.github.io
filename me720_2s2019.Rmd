@@ -155,7 +155,8 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 - [Parte 4](Disciplinas/ME_720_2s2019/Parte4.pdf): Teste de hipótese em modelos normais lineares.
 
     - [Extra](Disciplinas/ME_720_2s2019/Testes de comparacao multipla.pdf): Testes de comparação múltipla.
-    
+</p>
+
 - [Parte 5](Disciplinas/ME_720_2s2019/Parte5.pdf): Poder do teste e determinação do tamanho da amostra em modelos normais lineares.
 
 - [Parte 6](Disciplinas/ME_720_2s2019/Parte6.pdf): Métodos de diagnóstico em modelos normais lineares.
@@ -163,6 +164,7 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 - [Parte 7](Disciplinas/ME_720_2s2019/Parte7.pdf): Estimabilidade em modelos normais lineares.
 
     - [Exercício](Disciplinas/ME_720_2s2019/Parte7Ex.pdf): Exercícios de modelos normais lineares.
+</p>
     
 - [Parte 8](Disciplinas/ME_720_2s2019/Parte8.pdf): MLGs - Introdução.
 
@@ -173,6 +175,7 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 - [Atividade](Disciplinas/ME_720_2s2019/Atividade.pdf): Atividade (Aulas 17/09 e 19/09).
 
     - [Resolução](Disciplinas/ME_720_2s2019/AtividadeResolucao.pdf): Resolução Atividade.
+</p>
 
 - [Parte 11](Disciplinas/ME_720_2s2019/Parte11.pdf): Modelos para Dados Binários.
 
@@ -183,6 +186,7 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 - [Parte 12](Disciplinas/ME_720_2s2019/Parte12.pdf): Modelos Multinomiais.
 
     - [Exemplo](Disciplinas/ME_720_2s2019/ExemploGPA.pdf): Exemplo modelo logito cumulativo.
+</p>
 
 - [Parte 13](Disciplinas/ME_720_2s2019/Parte13.pdf): Modelos para Dados de Contagem.
 
