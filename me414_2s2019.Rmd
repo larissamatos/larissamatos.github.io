@@ -222,9 +222,9 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 - [Parte 17](Disciplinas/ME_414_2s2019/Parte17.pdf): Teste de Hipóteses: Introdução. 
 
-<!-- - [Parte 18](Disciplinas/ME_414_2s2019/Parte18.pdf): Teste de Hipóteses: para médias e proporções.  -->
+- [Parte 18](Disciplinas/ME_414_2s2019/Parte18.pdf): Teste de Hipóteses: para médias e proporções.
 
-<!-- - [Parte 19](Disciplinas/ME_414_2s2019/Parte19.pdf): Inferência para duas populações: Intervalo de confiança.    -->
+- [Parte 19](Disciplinas/ME_414_2s2019/Parte19.pdf): Inferência para duas populações: Intervalo de confiança.
 
 <!-- - [Parte 20](Disciplinas/ME_414_2s2019/Parte20.pdf): Inferência para duas populações: Teste de Hipóteses.  -->
 
@@ -238,7 +238,7 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 ### **Listas**
 
-- [Tabelas das distribuições](Disciplinas/ME_414_2s2019/Tabelas.pdf): Tabelas para serem usadas na resolução dos exercícios.  -->
+- [Tabelas das distribuições](Disciplinas/ME_414_2s2019/Tabelas.pdf): Tabelas para serem usadas na resolução dos exercícios.
 
 - [Lista 1](Disciplinas/ME_414_2s2019/Lista1.pdf): Estatística Descritiva.
 
@@ -249,14 +249,16 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 - [Lista 4](Disciplinas/ME_414_2s2019/Lista4.pdf): Variáveis Aleatórias Contínuas. 
 
     -  [Gabarito](Disciplinas/ME_414_2s2019/Lista4_Gab.pdf): Gabarito Lista 4.
+</p>
 
 - [Lista 5](Disciplinas/ME_414_2s2019/Lista5.pdf): Variáveis Aleatórias Contínuas e IC para proporção.
 
      -  [Gabarito](Disciplinas/ME_414_2s2019/Lista5_Gab.pdf): Gabarito Lista 5.
- 
+</p>
+
 - [Lista 6](Disciplinas/ME_414_2s2019/Lista6.pdf): Intervalo de confiança. 
 
-<!-- - [Lista 7](Disciplinas/ME_414_2s2019/Lista7.pdf): Teste de Hipóteses. -->
+- [Lista 7](Disciplinas/ME_414_2s2019/Lista7.pdf): Teste de Hipóteses. 
 
 ----
 
