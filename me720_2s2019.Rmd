@@ -188,6 +188,9 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
     - [Exemplo](Disciplinas/ME_720_2s2019/ExemploGPA.pdf): Exemplo modelo logito cumulativo.
 </p>
 
+    - [Exercício](Disciplinas/ME_720_2s2019/Parte12Ex.pdf): Exercício modelo logito cumulativo.
+</p>
+
 - [Parte 13](Disciplinas/ME_720_2s2019/Parte13.pdf): Modelos para Dados de Contagem.
 
 ----
