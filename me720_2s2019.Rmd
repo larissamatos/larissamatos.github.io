@@ -193,6 +193,8 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 - [Parte 13](Disciplinas/ME_720_2s2019/Parte13.pdf): Modelos para Dados de Contagem.
 
+- [Parte 14](Disciplinas/ME_720_2s2019/Parte14.pdf): Modelos para Dados de Contagem - Binomial Negativa.
+
 ----
 
 ### **Listas**
