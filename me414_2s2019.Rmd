@@ -230,9 +230,9 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 - [Parte 21](Disciplinas/ME_414_2s2019/Parte21.pdf): Testes Chi-Quadrado: Aderência e Independência.
 
-<!-- - [Parte 22](Disciplinas/ME_414_2s2019/Parte22.pdf): Testes de Independência e Homogeneidade. -->
+- [Parte 22](Disciplinas/ME_414_2s2019/Parte22.pdf): Testes de Independência e Homogeneidade. 
 
-<!-- - [Parte 23](Disciplinas/ME_414_2s2019/Parte23.pdf): Regressão. -->
+- [Parte 23](Disciplinas/ME_414_2s2019/Parte23.pdf): Regressão. 
 
 ---- 
 
