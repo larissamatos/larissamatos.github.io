@@ -258,7 +258,17 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 - [Lista 6](Disciplinas/ME_414_2s2019/Lista6.pdf): Intervalo de confiança. 
 
+
+     -  [Gabarito](Disciplinas/ME_414_2s2019/Lista6_Gab.pdf): Gabarito Lista 6.
+</p>
+
+
 - [Lista 7](Disciplinas/ME_414_2s2019/Lista7.pdf): Teste de Hipóteses. 
+
+
+     -  [Gabarito](Disciplinas/ME_414_2s2019/Lista7_Gab.pdf): Gabarito Lista 7.
+</p>
+
 
 ----
 
