@@ -75,7 +75,7 @@ a:hover {
 
 #### 1S2019
 
-- [ME951 A - Estatística e Probabilidade I](me951.html)
+- [ME951 A - Estatística e Probabilidade I](me951_1s2019.html)
 </br>
 
 
@@ -101,10 +101,10 @@ a:hover {
 
 #### 1S2018
 
-- [ME111 A e B - Laboratório de Estatística](me111.html)
+- [ME111 A e B - Laboratório de Estatística](me111_1s2018.html)
 </br>
 
-- [ME639 A -  Metodologias e Técnicas de Pesquisa](me639.html)
+- [ME639 A -  Metodologias e Técnicas de Pesquisa](me639_1s2018.html)
 </br>
 
 - [ME710 A - Assessoria Estatística](Disciplinas/EmentaME710_1s2018.pdf)

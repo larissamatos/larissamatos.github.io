@@ -58,27 +58,26 @@ a:hover {
 **Aulas:** Quartas (CB15) e Sextas (CB11), 10h00-12h00
 
 <!-- **AVISO:**<span style="color:red"> As aulas terão início no dia 07/08/2019.  </span>   -->
+**AVISO:**<span style="color:red"> REVISÃO DO EXAME - DIA 12/12/19 das 16:30h as 17:30h.  </span>  
 
-**AVISOS:** O Exame será realizado no  dia 11/12/19 - das 10:00-12:00 hs na <span style="color:red"> sala CB15 </span>.
 
+<!-- ---- -->
 
-----
+<!-- #### **Instruções para o Exame** -->
 
-#### **Instruções para o Exame**
+<!-- - O Exame será realizado no  dia 11/12/19 - das 10:00-12:00 hs na <span style="color:red"> sala CB15 </span>. -->
 
-- O Exame será realizado no  dia 11/12/19 - das 10:00-12:00 hs na <span style="color:red"> sala CB15 </span>.
+<!-- - O(a) aluno(a) deverá apresentar seu RA e RG/CNH quando entregar a prova e assinar presença. -->
 
-- O(a) aluno(a) deverá apresentar seu RA e RG/CNH quando entregar a prova e assinar presença.
+<!-- - O(a) aluno(a) só poderá sair da sala após 40 minutos do início da prova, mesmo que já tenha finalizado a prova. Após a saída do(a) primeiro(a) aluno(a) não será permitida a entrada de nenhum(a) outro(a) aluno(a). -->
 
-- O(a) aluno(a) só poderá sair da sala após 40 minutos do início da prova, mesmo que já tenha finalizado a prova. Após a saída do(a) primeiro(a) aluno(a) não será permitida a entrada de nenhum(a) outro(a) aluno(a).
+<!-- - O(a) aluno(a) poderá utilizar apenas caneta, lápis, borracha e calculadora. <span style="color:red"> Não poderá utilizar a calculadora do celular </span>. -->
 
-- O(a) aluno(a) poderá utilizar apenas caneta, lápis, borracha e calculadora. <span style="color:red"> Não poderá utilizar a calculadora do celular </span>.
+<!-- - Não será permitido empréstimo de material de qualquer tipo entre alunos durante a prova. -->
 
-- Não será permitido empréstimo de material de qualquer tipo entre alunos durante a prova.
+<!--  - Para o Exame o(a) aluno(a) deverá levar as [tabelas](Disciplinas/ME_414_2s2019/Tabelas.pdf) das distribuições.  **As tabelas não poderão estar rasuradas.** -->
 
- - Para o Exame o(a) aluno(a) deverá levar as [tabelas](Disciplinas/ME_414_2s2019/Tabelas.pdf) das distribuições.  **As tabelas não poderão estar rasuradas.**
-
-- [Formulário](Disciplinas/ME_414_2s2019/Formulario3.pdf): Uma cópia será fornecida durante a prova.
+<!-- - [Formulário](Disciplinas/ME_414_2s2019/Formulario3.pdf): Uma cópia será fornecida durante a prova. -->
 
 ----
 
