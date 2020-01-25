@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -71,9 +72,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -87,7 +86,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -192,8 +190,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -250,20 +246,17 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -382,7 +375,7 @@ a:hover {
 }
 </style>
 <hr />
-<div id="endereco" class="section level3">
+<div id="endereço" class="section level3">
 <h3><strong>Endereço</strong></h3>
 <p>Rua Sergio Buarque de Holanda, 651 - Sala: 234</p>
 <p>Cidade Universitária, Campinas/SP - Brasil - CEP: 13083-859</p>
@@ -395,7 +388,7 @@ a:hover {
 </div>
 <div id="email" class="section level3">
 <h3><strong>Email</strong></h3>
-<p>larissam[at]ime.unicamp.br</p>
+<p>larissam[at]unicamp.br</p>
 <hr />
 <p><img src="imagens/git.png" width="36" height="36" /> <a href="https://github.com/larissamatos">larissamatos</a> <img src="imagens/Linkedin.png" width="36" height="36" /> <a href="https://www.linkedin.com/in/larissa-avila-matos-0624bb123/">Linkedin</a></p>
 <hr />
@@ -409,7 +402,7 @@ a:hover {
 </div>
 <div class="column-f2">
 <div class="figure">
-<img src="imagens/logoimecc1.png" width="100" />
+<img src="imagens/logoimecc1.png" width="60" />
 
 </div>
 </div>
@@ -434,6 +427,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

@@ -65,6 +65,17 @@ a:hover {
 
 ### **Graduação**
 
+#### 1S2020
+
+- [ME951 A - Estatística e Probabilidade I](me951_1s2020.html)
+</br>
+
+- ME712 A -  Consultoria Estatística I
+</br>
+
+- ME812 A -  Consultoria Estatística II
+</br>
+
 #### 2S2019
 
 - [ME414 H - Estatística para Experimentalistas](me414_2s2019.html)
@@ -132,7 +143,7 @@ a:hover {
 ![](imagens/logo-unicamp1.png){width=150px}
 </div>
 <div class="column-f2">
-![](imagens/logoimecc1.png){width=100px}
+![](imagens/logoimecc1.png){width=60px}
 </div>
 </p>
 </div>

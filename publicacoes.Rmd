@@ -113,24 +113,31 @@ a:hover {
 
 ### **Programas de computador sem registro**
 
-- VALERIANO, KATHERINE A. L.; LACHOS, VICTOR H.; <span style="color:darkred"> **MATOS, LARISSA A.**</span> (2019). StempCens: *Spatio-Temporal Estimation and Prediction for Censored/Missing Responses.*
+- ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H. (2019). `CensMFM`: *Finite Mixture of Multivariate Censored/Missing Data.*
+https://cran.r-project.org/web/packages/CensMFM/index.html \medskip
+</br>
+
+
+- VALERIANO, KATHERINE A. L.; LACHOS, VICTOR H.; <span style="color:darkred"> **MATOS, LARISSA A.**</span> (2019). `StempCens`: *Spatio-Temporal Estimation and Prediction for Censored/Missing Responses.*
 https://cran.r-project.org/web/packages/StempCens/index.html \medskip
 </br>
 
-- LEMUS, MARCELA N.; GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H. (2018). *PartCensReg: Partially Censored Regression Models Based on Heavy-Tailed Distributions.* https://cran.rproject.org/web/packages/PartCensReg/index.html \medskip
+- LEMUS, MARCELA N.; GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H. (2018). `PartCensReg`: *Partially Censored Regression Models Based on Heavy-Tailed Distributions.* https://cran.rproject.org/web/packages/PartCensReg/index.html \medskip
 </br>
 
-- MASSUIA, MONIQUE B.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H. (2015). *CensRegMod: Fits Normal and Student-t Censored Regression Model.*
+- MASSUIA, MONIQUE B.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H. (2015). `CensRegMod`: *Fits Normal and Student-t Censored Regression Model.*
 https://cran.r-project.org/web/packages/CensRegMod/index.html \medskip
 </br>
 
-- <span style="color:darkred"> **MATOS, LARISSA A.**</span>; PRATES, MARCOS O.; LACHOS, VICTOR H. (2011). *tlmec: Linear Student-t Mixed-Effects Models with Censored Data.* 
+- <span style="color:darkred"> **MATOS, LARISSA A.**</span>; PRATES, MARCOS O.; LACHOS, VICTOR H. (2011). `tlmec`: *Linear Student-t Mixed-Effects Models with Censored Data.* 
 https://cran.r-project.org/web/packages/tlmec/index.html \medskip
 </br>
 
 ---- 
 
 ### **Participação em eventos**
+
+- VI Workshop em Análise de Sobrevivência e Aplicações (WASA 2019). Longitudinal Models for Multiple Censored Responses Data. 2019. [Pôster.](Apresentacoes/19_Wasa.pdf) 
 
 - 3rd International Conference on Econometrics and Statistics (EcoSta 2019). Estimation for partially linear censored regression models based on heavy tailed distributions. 2019. [Apresentação.](Apresentacoes/19_EcoSta.pdf) \medskip
 
@@ -158,7 +165,7 @@ https://cran.r-project.org/web/packages/tlmec/index.html \medskip
 ![](imagens/logo-unicamp1.png){width=150px}
 </div>
 <div class="column-f2">
-![](imagens/logoimecc1.png){width=100px}
+![](imagens/logoimecc1.png){width=60px}
 </div>
 </p>
 </div>

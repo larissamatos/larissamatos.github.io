@@ -84,29 +84,42 @@ h3 { /* Header 3 */
 - Nathan Brusamarello De Souto - IC em andamento (Fomento: CNPq) 
 </br>
 
+- Paulo César de Oliveira Rodrigues - Concluído
+
+    `Projeto: Influência que os professores da educação infantil e fundamental I que gostam ou não de` 
+    `matemática exercem sobre seus alunos.`
+</br>
+
 ----
 
 ### **Graduação**
 </br>
 
-#### Orientandos de ME710/810 e ME712/812
+#### Orientandos de ME710/810 
 
 2S2018
 
 - Daniel Marques Paula de Oliveira (Orientando de ME810) 
+
+       `Projeto: Estudo de Bioequivalência para o medicamento abiraterona.` 
+</br>
 </br>
 
-- Luiza Blota Ramos, Matheus Mendes Galvão, Natalia Ocaso Seraphim  e Michely Wu Hsieh (Orientandos de ME712/812) 
+#### Orientandos de ME712/812
+
+2S2018
+
+- Luiza Blota Ramos, Matheus Mendes Galvão, Natalia Ocaso Seraphim  e Michely Wu Hsieh 
 
        `Projeto: O Papel da Necromassa no Ciclo do Carbono na Mata Atlântica.` 
 </br>     
 
-- Lucas Ferreira dos Santos, Laís Cristina Cruz Bordin, Gabriel Bueno Bottignon e Lucas Moraes Mascarenhas (Orientandos de ME712/812)      
+- Lucas Ferreira dos Santos, Laís Cristina Cruz Bordin, Gabriel Bueno Bottignon e Lucas Moraes Mascarenhas
       
       `Projeto: Análise da Taxa de Decomposição de Madeira Morta na Mata Atlântica.` 
 </br>
 
-- Diogo Aggio, Helena G. de M. Viana, Luke Zhi Wei Zheng e Rafael Antônio R. Branco (Orientandos de ME712/812)  
+- Diogo Aggio, Helena G. de M. Viana, Luke Zhi Wei Zheng e Rafael Antônio R. Branco 
       
       `Projeto: Influência da Diversidade de Espécies na Produção e Estoque de Madeira Morta em Áreas de` 
       `Restauração Florestal na Mata Atlântica.` 
@@ -114,7 +127,7 @@ h3 { /* Header 3 */
       
 1S2018
 
-- Aldrey Villas Bôas, Larissa Ribeiro da Silva, Lucas Mattos Souza e Mariana Racioni Gonçalves (Orientandos de ME712/812) 
+- Aldrey Villas Bôas, Larissa Ribeiro da Silva, Lucas Mattos Souza e Mariana Racioni Gonçalves 
 
       `Projeto1: Análise estatística de parasitismo em traíras.` 
       
@@ -122,7 +135,7 @@ h3 { /* Header 3 */
       `sustentabilidade.` 
 </br>
 
-- Amanda Cristina Silva, Aline Dias Nunes e Mariane Sahú (Orientandos de ME712/812) 
+- Amanda Cristina Silva, Aline Dias Nunes e Mariane Sahú 
 
       `Projeto1: Estudo do Plano Diretor aprovado após o Estatuto da Cidade nos municípios brasileiros com`
       `população de até 20 mil habitantes.` 
@@ -131,23 +144,26 @@ h3 { /* Header 3 */
       `Regeneração.` 
 </br>
 
-- Diogo Aggio, Jonas F. D. Branco de Araújo, Lucas Moraes Mascarenhas e Tomás C. Weguelin Vieira (Orientandos de ME712/812) 
+- Diogo Aggio, Jonas F. D. Branco de Araújo, Lucas Moraes Mascarenhas e Tomás C. Weguelin Vieira 
 
     `Projeto: Análise de Variância dos fatores nos números de microrganismos em Carne Dry-Aged.` 
 </br>
 
-- Erika dos Santos Barbosa, Nara Stefani de Oliveira, Rafaella Konno e Rodrigo Fadel Stahl (Orientandos de ME712/812) 
+- Erika dos Santos Barbosa, Nara Stefani de Oliveira, Rafaella Konno e Rodrigo Fadel Stahl 
 
     `Projeto: Teoria da mente - Crença Falsa e Ignorância.` 
 </br>
 
-- Daniela Rosa de Moraes, Henrique Capatto, Marcos Antonio Ferreira e Murilo Salgado Razoli (Orientandos de ME712/812) 
+- Daniela Rosa de Moraes, Henrique Capatto, Marcos Antonio Ferreira e Murilo Salgado Razoli 
 
     `Projeto: Engajamento dos Estudantes da Unicamp.`
 </br>
 </br>
 
 #### Orientandos do Programa de Apoio Didático PAD / Orientandos do Programa de Estágio Docente PED 
+
+- Katherine Andreina Loor Valeriano - PED (2S2019)
+</br>
 
 - Nilmara Biscaia - PED (1S2019)
 </br>
@@ -169,7 +185,7 @@ h3 { /* Header 3 */
 ![](imagens/logo-unicamp1.png){width=150px}
 </div>
 <div class="column-f2">
-![](imagens/logoimecc1.png){width=100px}
+![](imagens/logoimecc1.png){width=60px}
 </div>
 </p>
 </div>

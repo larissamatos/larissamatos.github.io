@@ -17,6 +17,6 @@
 </div>
 
 <div class="column-right">  
-<p> ![](imagens/logoimecc1.png){width=100px} </p>
+<p> ![](imagens/logoimecc1.png){width=60px} </p>
 </div>
 

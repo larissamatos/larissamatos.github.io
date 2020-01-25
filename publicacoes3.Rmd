@@ -73,7 +73,7 @@ https://cran.r-project.org/web/packages/CensRegMod/index.html
 ![](imagens/logo-unicamp1.png){width=150px}
 </div>
 <div class="column-f2">
-![](imagens/logoimecc1.png){width=100px}
+![](imagens/logoimecc1.png){width=60px}
 </div>
 </p>
 </div>
