@@ -285,7 +285,7 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 ![](imagens/logo-unicamp1.png){width=150px}
 </div>
 <div class="column-f2">
-![](imagens/logoimecc1.png){width=60px}
+![](imagens/logoimecc1.png){width=50px}
 </div>
 </p>
 </div>

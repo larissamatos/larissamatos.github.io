@@ -87,6 +87,14 @@ a:hover {
 
 ### **Relatórios Técnicos**
 
+- SCHUMACHER, FERNANDA L.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H. (2019). *Scale Mixture of Skew-Normal Linear Mixed Models with Within-Subject Serial Dependence*. Technical Report, 20-05, University of Connecticut. (2020)\medskip
+</br>
+
+- ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>;  LACHOS, VICTOR H.	*Finite Mixture Modeling of Censored and Missing Data Using the Multivariate Skew-Normal Distribution.* Technical Report, 19-31, University of Connecticut. (2019)\medskip
+</br>
+
+- GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; DEY, DIPAK K.; LACHOS, VICTOR H.	*Efficient Computation of Moments of Folded and Doubly Truncated Multivariate Extended Skew-Normal Distributions.* Technical Report, 19-29, University of Connecticut. (2019)\medskip
+</br>
 
 - ALENCAR, FRANCISCO H.C.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>;  LACHOS, VICTOR H.	*Finite Mixture of Censored Linear Mixed Models for Irregularly Observed Longitudinal Data.* Technical Report, 19-23, University of Connecticut. (2019)\medskip
 </br>
@@ -137,6 +145,8 @@ https://cran.r-project.org/web/packages/tlmec/index.html \medskip
 
 ### **Participação em eventos**
 
+- 8th Workshop on Probabilistic and Statistical Methods. A semiparametric mixed-effects model for censored longitudinal data. [Apresentação.](Apresentacoes/20_WPSM.pdf) \medskip
+
 - VI Workshop em Análise de Sobrevivência e Aplicações (WASA 2019). Longitudinal Models for Multiple Censored Responses Data. 2019. [Pôster.](Apresentacoes/19_Wasa.pdf) 
 
 - 3rd International Conference on Econometrics and Statistics (EcoSta 2019). Estimation for partially linear censored regression models based on heavy tailed distributions. 2019. [Apresentação.](Apresentacoes/19_EcoSta.pdf) \medskip
@@ -165,7 +175,7 @@ https://cran.r-project.org/web/packages/tlmec/index.html \medskip
 ![](imagens/logo-unicamp1.png){width=150px}
 </div>
 <div class="column-f2">
-![](imagens/logoimecc1.png){width=60px}
+![](imagens/logoimecc1.png){width=50px}
 </div>
 </p>
 </div>
