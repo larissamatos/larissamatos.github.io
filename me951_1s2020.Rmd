@@ -74,9 +74,10 @@ Análise exploratória de dados; noções de amostragem e planejamento de experi
 **Atendimento**
 
 - Atendimento (Professor)*: Segundas, das 18h às 19h - Sala 234.
-- Atendimento PED (Fernanda Paula Rocha): Terças, das 18h às 19h - Sala ??. 
+- Atendimento PED (Fernanda Paula Rocha - f179097@dac.unicamp.br): Terças, das 18h às 19h - Sala 222. 
 
 *Para o atendimento com o professor, o aluno deverá enviar um e-mail para larissam@unicamp.br com pelo menos 4 horas de antecedência, solicitando o agendamento de atendimento.
+
 
 
 **Referências Bibliográficas**
