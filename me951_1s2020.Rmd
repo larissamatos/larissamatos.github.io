@@ -150,7 +150,7 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 - [Parte 1](Disciplinas/ME_951_1s2019/Parte1.pdf): Estatística Descritiva: Introdução; Classificação de variáveis.
 
-<!-- - [Parte 2](Disciplinas/ME_951_1s2019/Parte2.pdf): Estatísticas Sumárias. -->
+- [Parte 2](Disciplinas/ME_951_1s2019/Parte2.pdf): Estatísticas Sumárias. 
 
 <!-- - [Parte 3](Disciplinas/ME_951_1s2019/Parte3.pdf):  Análise Exploratória dos dados: Dispersão; Assimetria; Quartis. -->
 
