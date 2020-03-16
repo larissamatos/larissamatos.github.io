@@ -152,9 +152,9 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 - [Parte 2](Disciplinas/ME_951_1s2019/Parte2.pdf): Estatísticas Sumárias. 
 
-<!-- - [Parte 3](Disciplinas/ME_951_1s2019/Parte3.pdf):  Análise Exploratória dos dados: Dispersão; Assimetria; Quartis. -->
+- [Parte 3](Disciplinas/ME_951_1s2019/Parte3.pdf):  Análise Exploratória dos dados: Dispersão; Assimetria; Quartis. 
 
-<!-- - [Parte 4](Disciplinas/ME_951_1s2019/Parte4.pdf): Análise Descritiva Bivariada: Diagrama de dispersão; Correlação; Tabelas de contingência e gráficos de barras. -->
+- [Parte 4](Disciplinas/ME_951_1s2019/Parte4.pdf): Análise Descritiva Bivariada: Diagrama de dispersão; Correlação; Tabelas de contingência e gráficos de barras. 
 
 <!-- - [Parte 5](Disciplinas/ME_951_1s2019/Parte5.pdf): Probabilidade: Definição; Espaço amostral; Eventos; Operações com eventos; Partições do espaço amostral. -->
 
@@ -188,13 +188,13 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 
 <!-- - [Parte 20](Disciplinas/ME_951_1s2019/Parte20.pdf): Inferência para duas populações: Teste de Hipóteses. -->
 
-<!-- ----  -->
+----
 
-<!-- ### **Listas** -->
+### **Listas**
 
 <!-- - [Tabelas das distribuições](Disciplinas/ME_951_1s2019/Tabelas.pdf): Tabelas para serem usadas na resolução dos exercícios. -->
 
-<!-- - [Lista 1](Disciplinas/ME_951_1s2020/Lista1.pdf): Estatística Descritiva. -->
+- [Lista 1](Disciplinas/ME_951_1s2020/Lista1.pdf): Estatística Descritiva. 
 
 <!-- - [Lista 2](Disciplinas/ME_951_1s2020/Lista2.pdf): Probabilidade. -->
 
