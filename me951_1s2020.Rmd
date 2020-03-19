@@ -65,6 +65,8 @@ a:hover {
 
 - [Ementa](Disciplinas/ME_951_1s2020/EmentaNew.pdf): Ementa atualizada devido ao COVID-19.
 
+    - [Vídeo](https://youtu.be/J-N6LGQkAtA): Vídeo explicando a nova ementa e a exclarencendo como será a disciplina durante o isolamento.
+
 <!-- - [Cronograma](Disciplinas/ME_951_1s2020/Cronograma.pdf) -->
 
 ----
