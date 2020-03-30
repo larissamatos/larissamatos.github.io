@@ -93,7 +93,7 @@ a:hover {
  
 </p>
 
-- [Parte 6](Disciplinas/ME_951_1s2019/Parte6.pdf): Regras de Contagem / Amostragem
+- [Parte 6](Disciplinas/ME_951_1s2019/Parte6.pdf): Regras de Contagem / Amostragem.
 
      - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-4-contagem?module_item_id=211202)
 
