@@ -97,11 +97,11 @@ a:hover {
 
      - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-4-contagem?module_item_id=211202)
 
-<!-- </p> -->
+</p>
 
-<!-- - [Parte 7](Disciplinas/ME_951_1s2019/Parte7.pdf):  Probabilidade Condicional; Independência de Eventos; Teorema de Bayes. -->
+- [Parte 7](Disciplinas/ME_951_1s2019/Parte7.pdf):  Probabilidade Condicional; Independência de Eventos; Teorema de Bayes.
 
-<!--     - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-5-teoremas-de-probabilidade?module_item_id=211175) -->
+    - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-5-teoremas-de-probabilidade?module_item_id=211175)
 
 <!-- </p> -->
 
@@ -139,7 +139,7 @@ a:hover {
 
 - [Lista 1](Disciplinas/ME_951_1s2020/Lista1.pdf): Estatística Descritiva. 
 
-<!-- - [Lista 2](Disciplinas/ME_951_1s2020/Lista2.pdf): Probabilidade. -->
+- [Lista 2](Disciplinas/ME_951_1s2020/Lista2.pdf): Probabilidade.
 
 <!-- - [Lista 3](Disciplinas/ME_951_1s2020/Lista3.pdf): Variáveis Aleatórias Discretas. -->
 
