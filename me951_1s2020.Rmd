@@ -131,21 +131,25 @@ a:hover {
 
 </p>
 
-<!-- - [Parte 11](Disciplinas/ME_951_1s2020/Parte11.pdf): Variáveis aleatórias contínuas: Função de densidade; Função de Distribuição Acumulada (FDA); Valor esperado e variância. -->
+- [Parte 11](Disciplinas/ME_951_1s2020/Parte11.pdf): Variáveis aleatórias contínuas: Função de densidade; Função de Distribuição Acumulada (FDA); Valor esperado e variância.
 
-<!-- - [Parte 12](Disciplinas/ME_951_1s2020/Parte12.pdf): Distribuições contínuas: Uniforme, Exponencial, Gamma e Beta. -->
+    - [Videoaula](Disciplinas/ME_951_1s2020/Parte11_VideoAula.mov).
 
-<!--     - [Videoaula](ss) -->
+</p>
 
-<!-- </p> -->
+- [Parte 12](Disciplinas/ME_951_1s2020/Parte12.pdf): Distribuições contínuas: Uniforme, Exponencial, Gamma e Beta.
 
-<!-- - [Parte 13](Disciplinas/ME_951_1s2020/Parte13.pdf): Distribuição Normal - Aproximação da Binomial pela Normal. -->
+    - [Videoaula](Disciplinas/ME_951_1s2020/Parte11_VideoAula.mov)
 
-<!--     - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-9-distribuicoes-de-probabilidade?module_item_id=211148) -->
+</p>
 
-<!--     - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-10-exercicios-sobre-distribuicao-de-probabilidade?module_item_id=211150) -->
+- [Parte 13](Disciplinas/ME_951_1s2020/Parte13.pdf): Distribuição Normal - Aproximação da Binomial pela Normal.
 
-<!-- </p> -->
+    - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-9-distribuicoes-de-probabilidade?module_item_id=211148)
+
+    - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-10-exercicios-sobre-distribuicao-de-probabilidade?module_item_id=211150)
+
+</p>
 
 <!-- - [Parte 14](Disciplinas/ME_951_1s2019/Parte14.pdf): Noções de Inferência Estatística. -->
 
@@ -173,7 +177,7 @@ a:hover {
 
 - [Lista 3](Disciplinas/ME_951_1s2020/Lista3.pdf): Variáveis Aleatórias Discretas.
 
-<!-- - [Lista 4](Disciplinas/ME_951_1s2020/Lista4.pdf): Variáveis Aleatórias Contínuas.  -->
+- [Lista 4](Disciplinas/ME_951_1s2020/Lista4.pdf): Variáveis Aleatórias Contínuas.  
 
 <!-- - [Lista 5](Disciplinas/ME_951_1s2020/Lista5.pdf): Variáveis Aleatórias Contínuas e IC para proporção. -->
 
