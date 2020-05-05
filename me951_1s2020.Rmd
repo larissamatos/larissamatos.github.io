@@ -133,13 +133,13 @@ a:hover {
 
 - [Parte 11](Disciplinas/ME_951_1s2020/Parte11.pdf): Variáveis aleatórias contínuas: Função de densidade; Função de Distribuição Acumulada (FDA); Valor esperado e variância.
 
-    - [Videoaula](Disciplinas/ME_951_1s2020/Parte11_VideoAula.mov).
+    - [Videoaula](https://youtu.be/TyhXaEFRt5A).
 
 </p>
 
 - [Parte 12](Disciplinas/ME_951_1s2020/Parte12.pdf): Distribuições contínuas: Uniforme, Exponencial, Gamma e Beta.
 
-    - [Videoaula](Disciplinas/ME_951_1s2020/Parte11_VideoAula.mov)
+    - [Videoaula](https://youtu.be/nA3a-kAzGc8)
 
 </p>
 
