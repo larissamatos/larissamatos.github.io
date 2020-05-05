@@ -139,7 +139,7 @@ a:hover {
 
 - [Parte 12](Disciplinas/ME_951_1s2020/Parte12.pdf): Distribuições contínuas: Uniforme, Exponencial, Gamma e Beta.
 
-    - [Videoaula](https://youtu.be/nA3a-kAzGc8)
+    - [Videoaula](https://youtu.be/IB28tbR15ik)
 
 </p>
 
