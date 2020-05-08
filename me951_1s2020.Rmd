@@ -73,9 +73,9 @@ a:hover {
 
 ### **Aulas**
 
-- [Parte 1](Disciplinas/ME_951_1s2019/Parte1.pdf): Estatística Descritiva: Introdução; Classificação de variáveis. 
+- [Parte 1](Disciplinas/ME_951_1s2020/Parte1.pdf): Estatística Descritiva: Introdução; Classificação de variáveis. 
 
-- [Parte 2](Disciplinas/ME_951_1s2019/Parte2.pdf): Estatísticas Sumárias. 
+- [Parte 2](Disciplinas/ME_951_1s2020/Parte2.pdf): Estatísticas Sumárias. 
 
 - [Parte 3](Disciplinas/ME_951_1s2019/Parte3.pdf):  Análise Exploratória dos dados: Dispersão; Assimetria; Quartis. 
 
@@ -85,7 +85,7 @@ a:hover {
  
 </p>
 
-- [Parte 4](Disciplinas/ME_951_1s2019/Parte4.pdf): Análise Descritiva Bivariada: Diagrama de dispersão; Correlação; Tabelas de contingência e gráficos de barras. 
+- [Parte 4](Disciplinas/ME_951_1s2020/Parte4.pdf): Análise Descritiva Bivariada: Diagrama de dispersão; Correlação; Tabelas de contingência e gráficos de barras. 
 
 - [Parte 5](Disciplinas/ME_951_1s2020/Parte5.pdf): Probabilidade: Definição; Espaço amostral; Eventos; Operações com eventos; Partições do espaço amostral.
 
@@ -157,9 +157,29 @@ a:hover {
 
 <!-- - [Parte 16](Disciplinas/ME_951_1s2019/Parte16.pdf): Intervalo de confiança para a média populacional.   -->
 
+<!--     - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-17-intervalo-de-confianca-para-media?module_item_id=211105) -->
+
+<!--     - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-18-exercicios-sobre-intervalo-de-confianca-para-media?module_item_id=211107) -->
+
+<!--     - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-19-intervalo-de-confianca-para-proporcao-e-media-com-variancia-desconhecida?module_item_id=211109) -->
+
+<!--     - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-20-exercicios-sobre-intervalo-de-confianca-para-proporcao-e-media-com-variancia-desconhecida?module_item_id=211111) -->
+
+<!-- </p>     -->
+
 <!-- - [Parte 17](Disciplinas/ME_951_1s2019/Parte17.pdf): Teste de Hipóteses: Introdução.  -->
 
 <!-- - [Parte 18](Disciplinas/ME_951_1s2019/Parte18.pdf): Teste de Hipóteses: para médias e proporções. -->
+
+<!--     - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-21-teste-de-hipoteses-para-media?module_item_id=211087) -->
+
+<!--     - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-22-exercicios-sobre-teste-de-hipoteses-para-media?module_item_id=211089) -->
+
+<!--     - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-23-teste-de-hipoteses-para-proporcao?module_item_id=211091) -->
+
+<!--     - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-24-teste-de-hipoteses-para-media-com-variancia-desconhecida?module_item_id=211093) -->
+
+<!-- </p>     -->
 
 <!-- - [Parte 19](Disciplinas/ME_951_1s2019/Parte19.pdf): Inferência para duas populações: Intervalo de confiança. -->
 
@@ -179,11 +199,11 @@ a:hover {
 
 - [Lista 4](Disciplinas/ME_951_1s2020/Lista4.pdf): Variáveis Aleatórias Contínuas.  
 
-<!-- - [Lista 5](Disciplinas/ME_951_1s2020/Lista5.pdf): Variáveis Aleatórias Contínuas e IC para proporção. -->
+<!-- - [Lista 5](Disciplinas/ME_951_1s2020/Lista5.pdf): Intervalo de confiança para média e proporção. -->
 
-<!-- - [Lista 6](Disciplinas/ME_951_1s2020/Lista6.pdf): Intervalo de confiança.  -->
+<!-- - [Lista 6](Disciplinas/ME_951_1s2020/Lista6.pdf): Teste de Hipóteses para média e proporção.  -->
 
-<!-- - [Lista 7](Disciplinas/ME_951_1s2020/Lista7.pdf): Teste de Hipóteses.  -->
+<!-- - [Lista 7](Disciplinas/ME_951_1s2020/Lista7.pdf): IC e TH para duas populações.  -->
 
 ----
 
