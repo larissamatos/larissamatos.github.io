@@ -191,7 +191,9 @@ a:hover {
 
 <!-- - [Tabelas das distribuições](Disciplinas/ME_951_1s2019/Tabelas.pdf): Tabelas para serem usadas na resolução dos exercícios. -->
 
-- [Tabela Normal](Disciplinas/ME_951_1s2020/TabelaNormal.pdf): Tabelas para serem usadas na resolução dos exercícios. 
+- [Tabela Normal](Disciplinas/ME_951_1s2020/TabelaNormal.pdf): Tabela Normal. 
+
+- [Tabelas](Disciplinas/ME_414_2s2018/Tabelas.pdf): Tabelas para serem usadas na resolução dos exercícios. 
 
 - [Lista 1](Disciplinas/ME_951_1s2020/Lista1.pdf): Estatística Descritiva. 
 
