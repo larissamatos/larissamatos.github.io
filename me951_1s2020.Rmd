@@ -151,21 +151,21 @@ a:hover {
 
 </p>
 
-<!-- - [Parte 14](Disciplinas/ME_951_1s2019/Parte14.pdf): Noções de Inferência Estatística. -->
+- [Parte 14](Disciplinas/ME_951_1s2019/Parte14.pdf): Noções de Inferência Estatística.
 
-<!-- - [Parte 15](Disciplinas/ME_951_1s2019/Parte15.pdf): Intervalo de confiança. Intervalo de confiança para proporção.   -->
+- [Parte 15](Disciplinas/ME_951_1s2019/Parte15.pdf): Intervalo de confiança. Intervalo de confiança para proporção.
 
-<!-- - [Parte 16](Disciplinas/ME_951_1s2019/Parte16.pdf): Intervalo de confiança para a média populacional.   -->
+- [Parte 16](Disciplinas/ME_951_1s2019/Parte16.pdf): Intervalo de confiança para a média populacional.
 
-<!--     - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-17-intervalo-de-confianca-para-media?module_item_id=211105) -->
+    - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-17-intervalo-de-confianca-para-media?module_item_id=211105)
 
-<!--     - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-18-exercicios-sobre-intervalo-de-confianca-para-media?module_item_id=211107) -->
+    - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-18-exercicios-sobre-intervalo-de-confianca-para-media?module_item_id=211107)
 
-<!--     - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-19-intervalo-de-confianca-para-proporcao-e-media-com-variancia-desconhecida?module_item_id=211109) -->
+    - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-19-intervalo-de-confianca-para-proporcao-e-media-com-variancia-desconhecida?module_item_id=211109)
 
-<!--     - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-20-exercicios-sobre-intervalo-de-confianca-para-proporcao-e-media-com-variancia-desconhecida?module_item_id=211111) -->
+    - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-20-exercicios-sobre-intervalo-de-confianca-para-proporcao-e-media-com-variancia-desconhecida?module_item_id=211111)
 
-<!-- </p>     -->
+</p>
 
 <!-- - [Parte 17](Disciplinas/ME_951_1s2019/Parte17.pdf): Teste de Hipóteses: Introdução.  -->
 
@@ -201,7 +201,7 @@ a:hover {
 
 - [Lista 4](Disciplinas/ME_951_1s2020/Lista4.pdf): Variáveis Aleatórias Contínuas.  
 
-<!-- - [Lista 5](Disciplinas/ME_951_1s2020/Lista5.pdf): Intervalo de confiança para média e proporção. -->
+- [Lista 5](Disciplinas/ME_951_1s2020/Lista5.pdf): Intervalo de confiança para média e proporção.
 
 <!-- - [Lista 6](Disciplinas/ME_951_1s2020/Lista6.pdf): Teste de Hipóteses para média e proporção.  -->
 

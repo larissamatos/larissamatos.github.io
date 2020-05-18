@@ -59,7 +59,9 @@ h3 { /* Header 3 */
 - Thalita do Bem Mattos - Doutorado em andamento (Fomento: CAPES) 
 </br>
 
-- Christian Eduardo Galarza Morales - Doutorado em andamento (Fomento: FAPESP - Processo: 2015/17110-9)
+- Christian Eduardo Galarza Morales - Concluído (Fomento: FAPESP - Processo: 2015/17110-9)
+
+    `Tese: On Moments of doubly truncated multivariate distributions`
 </br> 
 
 ---- 

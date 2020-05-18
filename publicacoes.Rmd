@@ -88,35 +88,47 @@ a:hover {
 </ol>
 ----
 
+### **Submetidos (Under review)**
+
+<ol reversed>
+
+<li> VALERIANO, KATHERINE A. L.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; PRATES, M.O.; LACHOS, VICTOR H. (2020+) *Likelihood Based Inference for Spatio-Temporal Data with Censored and Missing Responses.* Environmetrics (Under review). \medskip </li>
+</br>
+
+<li> OLIVARI, ROMMY C.; GARAY, ALDO M.; LACHOS, VICTOR H.; <span style="color:darkred"> **MATOS, LARISSA A.**</span> (2020+) *Autoregressive Mixed-Effects Models for Censored Data.* Journal of Biopharmaceutical Statistics (Under review).  \medskip </li>
+</br>
+
+<li> GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>;  LACHOS, VICTOR H. (2020+). *Likelihood-based inference for multivariate skew-normal censored responses.* Metron (Under review).\medskip </li>
+</br>
+
+<li> ALENCAR, FRANCISCO H.C.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>;  LACHOS, VICTOR H.	(2020+) *Finite Mixture of Censored Linear Mixed Models for Irregularly Observed Longitudinal Data.* The Canadian Journal of Statistics (Under review). \medskip </li>
+</br>
+
+<li> ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>;  LACHOS, VICTOR H. (2020+)	*Finite Mixture Modeling of Censored and Missing Data Using the Multivariate Skew-Normal Distribution.*  Advances and Data Analysis and Classification (Under review). \medskip </li>
+</br>
+
+<li> LEMUS, MARCELA N.; LACHOS, VICTOR H.; GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span> (2020+) *Estimation and Diagnostics for Partially Censored Regression Models Based on Heavy-Tailed Distributions.* Statistics and its Interface (Under review). \medskip </li>
+</br>
+
+</ol>
+
 ### **Relatórios Técnicos**
 
 <ol reversed>
 
-<li> SCHUMACHER, FERNANDA L.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H. (2019). *Scale Mixture of Skew-Normal Linear Mixed Models with Within-Subject Serial Dependence*. Technical Report, 20-05, University of Connecticut. (2020)\medskip </li>
+<li> ORDOÑEZ A.C.; PRATES, M.O.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H. (2020). Objective Bayesian analysis for spatial Student-t regression models. [arXiv:2004.04341](https://arxiv.org/abs/2004.04341) \medskip </li>
 </br>
 
-<li> ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>;  LACHOS, VICTOR H.	*Finite Mixture Modeling of Censored and Missing Data Using the Multivariate Skew-Normal Distribution.* Technical Report, 19-31, University of Connecticut. (2019)\medskip </li>
+<li> SCHUMACHER, FERNANDA L.; LACHOS, VICTOR H.; <span style="color:darkred"> **MATOS, LARISSA A.**</span> (2020). *Scale Mixture of Skew-Normal Linear Mixed Models with Within-Subject Serial Dependence*. [arXiv:2002.01040](https://arxiv.org/abs/2002.01040)\medskip </li>
 </br>
 
-<li> GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; DEY, DIPAK K.; LACHOS, VICTOR H.	*Efficient Computation of Moments of Folded and Doubly Truncated Multivariate Extended Skew-Normal Distributions.* Technical Report, 19-29, University of Connecticut. (2019)\medskip </li>
-</br>
-
-<li> ALENCAR, FRANCISCO H.C.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>;  LACHOS, VICTOR H.	*Finite Mixture of Censored Linear Mixed Models for Irregularly Observed Longitudinal Data.* Technical Report, 19-23, University of Connecticut. (2019)\medskip </li>
+<li> GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; DEY, DIPAK K.; LACHOS, VICTOR H.  	*Efficient Computation of Moments of Folded and Doubly Truncated Multivariate Extended Skew-Normal Distributions.*  Technical Report, 19-29, University of Connecticut. (2019)  \medskip </li>
 </br>
 
 <li> MATTOS,	THALITA B.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H.	*A Semiparametric Mixed-Effects Model for Censored Longitudinal Data.* Technical Report, 19-15, University of Connecticut. (2019)\medskip </li>
 </br>
 
 <li> GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; DEY, DIPAK K.; LACHOS, VICTOR H.	*On Moments of Folded and Truncated Multivariate Extended Skew-Normal Distributions.* Technical Report, 19-14, University of Connecticut. (2019)\medskip </li>
-</br>
-
-<li> OLIVARI, ROMMY C.; GARAY, ALDO M.; LACHOS, VICTOR H.; <span style="color:darkred"> **MATOS, LARISSA A.**</span> *Autoregressive Mixed-Effects Models for Censored Data.* Technical Report, 19-02, University of Connecticut. (2019)\medskip </li>
-</br>
-
-<li> VALERIANO, KATHERINE A. L.; LACHOS, VICTOR H.; <span style="color:darkred"> **MATOS, LARISSA A.**</span> *Likelihood Based Inference for Spatio-Temporal Data with Censored and Missing Responses.* Technical Report, 19-01, University of Connecticut. (2019)\medskip </li>
-</br>
-
-<li> LEMUS, MARCELA N.; LACHOS, VICTOR H.; GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span> *Estimation and Diagnostics for Partially Censored Regression Models Based on Heavy-Tailed Distributions.* Technical Report, 18-02, University of Connecticut. (2018)\medskip </li>
 </br>
 
 <li> BARBOSA, T. S.; LACHOS, VICTOR H.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; PRATES, MARCOS O. *Estimation in Spatial Models with Censored Response.* (2016) \medskip </li>
@@ -129,23 +141,37 @@ a:hover {
 
 <ol reversed>
 
-<li> ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H. (2019). `CensMFM`: *Finite Mixture of Multivariate Censored/Missing Data.*
-https://cran.r-project.org/web/packages/CensMFM/index.html \medskip </li>
+<li> [`skewlmm`](https://cran.r-project.org/web/packages/skewlmm/index.html): *Scale Mixture of Skew-Normal Linear Mixed Models.* (2020).
+<!-- SCHUMACHER, FERNANDA L.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H. -->
+\medskip </li>
 </br>
 
-<li> VALERIANO, KATHERINE A. L.; LACHOS, VICTOR H.; <span style="color:darkred"> **MATOS, LARISSA A.**</span> (2019). `StempCens`: *Spatio-Temporal Estimation and Prediction for Censored/Missing Responses.*
-https://cran.r-project.org/web/packages/StempCens/index.html \medskip </li>
+<li> [`OBASpatial`](https://cran.r-project.org/web/packages/OBASpatial/index.html): *Objective Bayesian Analysis for Spatial Regression Models.* (2020).
+<!-- ORDOÑEZ A.C.; PRATES, M.O.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H. -->
+\medskip </li>
 </br>
 
-<li> LEMUS, MARCELA N.; GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H. (2018). `PartCensReg`: *Partially Censored Regression Models Based on Heavy-Tailed Distributions.* https://cran.rproject.org/web/packages/PartCensReg/index.html \medskip </li>
+<li> [`CensMFM`](https://cran.r-project.org/web/packages/CensMFM/index.html): *Finite Mixture of Multivariate Censored/Missing Data.* (2019). 
+<!-- ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H.  -->
+\medskip </li>
 </br>
 
-<li> MASSUIA, MONIQUE B.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H. (2015). `CensRegMod`: *Fits Normal and Student-t Censored Regression Model.*
-https://cran.r-project.org/web/packages/CensRegMod/index.html \medskip </li>
+<li> [`StempCens`](https://cran.r-project.org/web/packages/StempCens/index.html): *Spatio-Temporal Estimation and Prediction for Censored/Missing Responses.*  (2019).
+ <!-- VALERIANO, KATHERINE A. L.; LACHOS, VICTOR H.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>  -->
+\medskip </li>
 </br>
 
-<li> <span style="color:darkred"> **MATOS, LARISSA A.**</span>; PRATES, MARCOS O.; LACHOS, VICTOR H. (2011). `tlmec`: *Linear Student-t Mixed-Effects Models with Censored Data.* 
-https://cran.r-project.org/web/packages/tlmec/index.html \medskip </li>
+<li> [`PartCensReg`](https://cran.rproject.org/web/packages/PartCensReg/index.html): *Partially Censored Regression Models Based on Heavy-Tailed Distributions.* (2018).  <!-- LEMUS, MARCELA N.; GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H.  --> \medskip </li>
+</br>
+
+<li>  [`CensRegMod`](https://cran.r-project.org/web/packages/CensRegMod/index.html): *Fits Normal and Student-t Censored Regression Model.*  (2015).
+ <!-- MASSUIA, MONIQUE B.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H.  -->
+\medskip </li>
+</br>
+
+<li> [`tlmec`](https://cran.r-project.org/web/packages/tlmec/index.html): *Linear Student-t Mixed-Effects Models with Censored Data.* (2011).
+ <!-- <span style="color:darkred"> **MATOS, LARISSA A.**</span>; PRATES, MARCOS O.; LACHOS, VICTOR H.  -->
+\medskip </li>
 </br>
 
 </ol>
