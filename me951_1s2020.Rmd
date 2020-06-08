@@ -167,19 +167,19 @@ a:hover {
 
 </p>
 
-<!-- - [Parte 17](Disciplinas/ME_951_1s2019/Parte17.pdf): Teste de Hipóteses: Introdução.  -->
+- [Parte 17](Disciplinas/ME_951_1s2019/Parte17.pdf): Teste de Hipóteses: Introdução.
 
-<!-- - [Parte 18](Disciplinas/ME_951_1s2019/Parte18.pdf): Teste de Hipóteses: para médias e proporções. -->
+- [Parte 18](Disciplinas/ME_951_1s2019/Parte18.pdf): Teste de Hipóteses: para médias e proporções.
 
-<!--     - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-21-teste-de-hipoteses-para-media?module_item_id=211087) -->
+    - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-21-teste-de-hipoteses-para-media?module_item_id=211087)
 
-<!--     - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-22-exercicios-sobre-teste-de-hipoteses-para-media?module_item_id=211089) -->
+    - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-22-exercicios-sobre-teste-de-hipoteses-para-media?module_item_id=211089)
 
-<!--     - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-23-teste-de-hipoteses-para-proporcao?module_item_id=211091) -->
+    - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-23-teste-de-hipoteses-para-proporcao?module_item_id=211091)
 
-<!--     - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-24-teste-de-hipoteses-para-media-com-variancia-desconhecida?module_item_id=211093) -->
+    - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-24-teste-de-hipoteses-para-media-com-variancia-desconhecida?module_item_id=211093)
 
-<!-- </p>     -->
+</p>
 
 <!-- - [Parte 19](Disciplinas/ME_951_1s2019/Parte19.pdf): Inferência para duas populações: Intervalo de confiança. -->
 
@@ -205,7 +205,7 @@ a:hover {
 
 - [Lista 5](Disciplinas/ME_951_1s2020/Lista5.pdf): Intervalo de confiança para média e proporção.
 
-<!-- - [Lista 6](Disciplinas/ME_951_1s2020/Lista6.pdf): Teste de Hipóteses para média e proporção.  -->
+- [Lista 6](Disciplinas/ME_951_1s2020/Lista6.pdf): Teste de Hipóteses para média e proporção.
 
 <!-- - [Lista 7](Disciplinas/ME_951_1s2020/Lista7.pdf): IC e TH para duas populações.  -->
 
