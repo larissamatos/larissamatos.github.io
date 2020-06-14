@@ -151,11 +151,11 @@ a:hover {
 
 </p>
 
-- [Parte 14](Disciplinas/ME_951_1s2019/Parte14.pdf): Noções de Inferência Estatística.
+- [Parte 14](Disciplinas/ME_951_1s2020/Parte14.pdf): Noções de Inferência Estatística.
 
-- [Parte 15](Disciplinas/ME_951_1s2019/Parte15.pdf): Intervalo de confiança. Intervalo de confiança para proporção.
+- [Parte 15](Disciplinas/ME_951_1s2020/Parte15.pdf): Intervalo de confiança. Intervalo de confiança para proporção.
 
-- [Parte 16](Disciplinas/ME_951_1s2019/Parte16.pdf): Intervalo de confiança para a média populacional.
+- [Parte 16](Disciplinas/ME_951_1s2020/Parte16.pdf): Intervalo de confiança para a média populacional.
 
     - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-17-intervalo-de-confianca-para-media?module_item_id=211105)
 
@@ -167,9 +167,9 @@ a:hover {
 
 </p>
 
-- [Parte 17](Disciplinas/ME_951_1s2019/Parte17.pdf): Teste de Hipóteses: Introdução.
+- [Parte 17](Disciplinas/ME_951_1s2020/Parte17.pdf): Teste de Hipóteses: Introdução.
 
-- [Parte 18](Disciplinas/ME_951_1s2019/Parte18.pdf): Teste de Hipóteses: para médias e proporções.
+- [Parte 18](Disciplinas/ME_951_1s2020/Parte18.pdf): Teste de Hipóteses: para médias e proporções.
 
     - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-21-teste-de-hipoteses-para-media?module_item_id=211087)
 
@@ -181,9 +181,9 @@ a:hover {
 
 </p>
 
-<!-- - [Parte 19](Disciplinas/ME_951_1s2019/Parte19.pdf): Inferência para duas populações: Intervalo de confiança. -->
+<!-- - [Parte 19](Disciplinas/ME_951_1s2020/Parte19.pdf): Inferência para duas populações: Intervalo de confiança. -->
 
-<!-- - [Parte 20](Disciplinas/ME_951_1s2019/Parte20.pdf): Inferência para duas populações: Teste de Hipóteses. -->
+<!-- - [Parte 20](Disciplinas/ME_951_1s2020/Parte20.pdf): Inferência para duas populações: Teste de Hipóteses. -->
 
 ----
 

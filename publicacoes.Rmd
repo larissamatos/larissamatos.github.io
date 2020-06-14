@@ -92,6 +92,12 @@ a:hover {
 
 <ol reversed>
 
+<li> MATTOS,	THALITA B.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H. (2020+)	*Likelihood-based inference for mixed-effects models with censored response using skew-normal distribution.* International Journal of Biostatistics (Under review).\medskip </li>
+</br>
+
+<li> GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; DEY, DIPAK K.; LACHOS, VICTOR H. (2020+)	*On Moments of Folded and Truncated Multivariate Extended Skew-Normal Distributions.* Journal of Computational and Graphical Statistics (Under review) \medskip </li>
+</br>
+
 <li> VALERIANO, KATHERINE A. L.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; PRATES, M.O.; LACHOS, VICTOR H. (2020+) *Likelihood Based Inference for Spatio-Temporal Data with Censored and Missing Responses.* Environmetrics (Under review). \medskip </li>
 </br>
 
@@ -116,22 +122,23 @@ a:hover {
 
 <ol reversed>
 
+<li> MATTOS,	THALITA B.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H. (2020).	*Extending Multivariate-t Semiparametric Mixed Models for Longitudinal data with Censored Responses and Heavy Tails.* Relatório Técnico [1/2020](https://www.ime.unicamp.br/sites/default/files/pesquisa/relatorios/rp-2020-01.pdf), IMECC/Unicamp. \medskip </li>
+</br>
+
 <li> ORDOÑEZ A.C.; PRATES, M.O.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H. (2020). Objective Bayesian analysis for spatial Student-t regression models. [arXiv:2004.04341](https://arxiv.org/abs/2004.04341) \medskip </li>
 </br>
 
 <li> SCHUMACHER, FERNANDA L.; LACHOS, VICTOR H.; <span style="color:darkred"> **MATOS, LARISSA A.**</span> (2020). *Scale Mixture of Skew-Normal Linear Mixed Models with Within-Subject Serial Dependence*. [arXiv:2002.01040](https://arxiv.org/abs/2002.01040)\medskip </li>
 </br>
 
-<li> GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; DEY, DIPAK K.; LACHOS, VICTOR H.  	*Efficient Computation of Moments of Folded and Doubly Truncated Multivariate Extended Skew-Normal Distributions.*  Technical Report, 19-29, University of Connecticut. (2019)  \medskip </li>
+<li> GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; DEY, DIPAK K.; LACHOS, VICTOR H. (2019). 	*Efficient Computation of Moments of Folded and Doubly Truncated Multivariate Extended Skew-Normal Distributions.*  Technical Report, 19-29, University of Connecticut. \medskip </li>
 </br>
 
-<li> MATTOS,	THALITA B.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H.	*A Semiparametric Mixed-Effects Model for Censored Longitudinal Data.* Technical Report, 19-15, University of Connecticut. (2019)\medskip </li>
+<li> MATTOS,	THALITA B.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; LACHOS, VICTOR H. (2019).	*A Semiparametric Mixed-Effects Model for Censored Longitudinal Data.* Technical Report, 19-15, University of Connecticut. \medskip </li>
 </br>
 
-<li> GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; DEY, DIPAK K.; LACHOS, VICTOR H.	*On Moments of Folded and Truncated Multivariate Extended Skew-Normal Distributions.* Technical Report, 19-14, University of Connecticut. (2019)\medskip </li>
-</br>
 
-<li> BARBOSA, T. S.; LACHOS, VICTOR H.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; PRATES, MARCOS O. *Estimation in Spatial Models with Censored Response.* (2016) \medskip </li>
+<li> BARBOSA, T. S.; LACHOS, VICTOR H.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; PRATES, MARCOS O. (2016). *Estimation in Spatial Models with Censored Response.* \medskip </li>
 </br>
 
 </ol>
