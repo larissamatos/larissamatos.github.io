@@ -3,83 +3,10 @@ title: "Larissa Avila Matos" #espaço:\_\_\_\_\_
 output:
   html_document:
     fig_width: 1
+    include:
+      after_body: footer.html    
     
 ---
-
-
-
-<style type="text/css">
-.nav.navbar-nav.navbar-right a {
-    color: white;
-}
-.navbar {
-  background-color:maroon;
-  border-color:black;
-  icon-color:white;
-}
-.navbar-brand {
-color:black!important;
-}
-
-body{ /* Normal  */
-      font-size: 15px;
-      background-color: white
-  }
-<!-- td {  /* Table  */ -->
-<!--   font-size: 8px; -->
-<!-- } -->
-h1.title {
-  font-size: 36px;
-  <!-- color: DarkRed; -->
-}
-<!-- h1 { /* Header 1 */ -->
-<!--   font-size: 28px; -->
-<!--   color: DarkBlue; -->
-<!-- } -->
-<!-- h2 { /* Header 2 */ -->
-<!--     font-size: 22px; -->
-<!--   color: DarkBlue; -->
-<!-- } -->
-<!-- h3 { /* Header 3 */ -->
-<!--   font-size: 18px; -->
-<!--   font-family: "Times New Roman", Times, serif; -->
-<!--   color: DarkBlue; -->
-<!-- } -->
-<!-- code.r{ /* Code block */ -->
-<!--     font-size: 12px; -->
-<!-- } -->
-<!-- pre { /* Code block - determines code spacing between lines */ -->
-<!--     font-size: 14px; -->
-<!-- } -->
-</style>
-
-<style>
-.column-left{
-  float: left;
-  width: 20%;
-  text-align: left;
-}
-.column-right{
-  float: right;
-  width: 80%;
-  text-align: left;
-}
-.column{
-  float: left;
-  width: 100%;
-  text-align: left;
-} 
-.column-f1{
-  float: left;
-  width: 20%;
-  text-align: left;
-}
-.column-f2{
-  float: right;
-  width: 20%;
-  text-align: right;
-}
-</style>
 
 ----
 
@@ -105,15 +32,4 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 
 <div class="column">
 ----
-
-<div id="footer">
-<p>
-<div class="column-f1">
-![](imagens/logo-unicamp1.png){width=150px}
-</div>
-<div class="column-f2">
-![](imagens/logoimecc1.png){width=50px}
-</div>
-</p>
-</div>
 

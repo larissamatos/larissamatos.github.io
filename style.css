@@ -1,0 +1,67 @@
+.nav.navbar-nav.navbar-right a {
+    color: white;
+}
+
+.navbar {
+  background-color:maroon;
+  border-color:black;
+  icon-color:white;
+}
+
+.navbar-brand {
+  color:black!important;
+}
+
+
+body{ /* Normal  */
+    font-size: 15px;
+  background-color: white
+}
+
+h1.title {
+  font-size: 32px;
+}
+h3 { /* Header 3 */
+    font-size: 24px;
+  color: DarkRed;
+}
+
+a:link {
+    color: darkred;
+  }
+a:visited {
+  color: darkred;
+}
+a:hover {
+  color: blue;
+}
+
+.column-left{
+    float: left;
+    width: 20%;
+    text-align: left;
+  }
+.column-right{
+  float: right;
+  width: 80%;
+  text-align: left;
+}
+.column{
+  float: left;
+  width: 100%;
+  text-align: left;
+} 
+.column-f1{
+  float: left;
+  width: 20%;
+  text-align: left;
+}
+.column-f2{
+  float: right;
+  width: 20%;
+  text-align: right;
+}
+
+
+
+  

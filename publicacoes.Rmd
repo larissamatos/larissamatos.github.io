@@ -3,60 +3,19 @@ title: "Publicações"
 output:
   html_document:
     fig_width: 1
-    toc_float: false    
+    toc_float: false
+    include:
+      after_body: footer.html          
 ---
-
-<style type="text/css">
-.nav.navbar-nav.navbar-right a {
-    color: white;
-}
-.navbar {
-  background-color:maroon;
-  border-color:black;
-  icon-color:white;
-}
-.navbar-brand {
-color:black!important;
-}
-body{ /* Normal  */
-      font-size: 15px;
-  }
-h1.title {
-  font-size: 32px;
-}
-h3 { /* Header 3 */
-  font-size: 24px;
-  color: DarkRed;
-}
-</style>
-
-<style>
-a:link {
-    color: darkred;
-}
-a:visited {
-    color: darkred;
-}
-a:hover {
-    color: blue;
-}
-.column-f1{
-  float: left;
-  width: 20%;
-  text-align: left;
-}
-.column-f2{
-  float: right;
-  width: 20%;
-  text-align: right;
-}
-</style>
 
 ----
 
 ### **Artigos Científicos**
 
 <ol reversed>
+
+<li> LEMUS, MARCELA N.; LACHOS, VICTOR H.; GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span> (2020+) *Estimation and Diagnostics for Partially Censored Regression Models Based on Heavy-Tailed Distributions.* Statistics and its Interface (Aceito). \medskip </li>
+</br>
 
 <li> LACHOS, VICTOR H.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>; CASTRO, LUIS M.; CHEN, MING-HUI (2018). *Flexible Longitudinal Linear Mixed Models for Multiple Censored Responses Data.* Statistics in Medicine. [Link.](https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.8017) \medskip </li>
 </br>
@@ -111,9 +70,6 @@ a:hover {
 </br>
 
 <li> ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span>;  LACHOS, VICTOR H. (2020+)	*Finite Mixture Modeling of Censored and Missing Data Using the Multivariate Skew-Normal Distribution.*  Advances and Data Analysis and Classification (Under review). \medskip </li>
-</br>
-
-<li> LEMUS, MARCELA N.; LACHOS, VICTOR H.; GALARZA, CHRISTIAN E.; <span style="color:darkred"> **MATOS, LARISSA A.**</span> (2020+) *Estimation and Diagnostics for Partially Censored Regression Models Based on Heavy-Tailed Distributions.* Statistics and its Interface (Under review). \medskip </li>
 </br>
 
 </ol>
@@ -214,14 +170,3 @@ a:hover {
 </ol>
 
 ----
-
-<div id="footer">
-<p>
-<div class="column-f1">
-![](imagens/logo-unicamp1.png){width=150px}
-</div>
-<div class="column-f2">
-![](imagens/logoimecc1.png){width=50px}
-</div>
-</p>
-</div>

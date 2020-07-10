@@ -3,45 +3,11 @@ title: "Alunos"
 output:
   html_document:
     fig_width: 1
+    include:
+      after_body: footer.html  
 ---
 
-<style type="text/css">
-.nav.navbar-nav.navbar-right a {
-    color: white;
-}
-.navbar {
-  background-color:maroon;
-  border-color:black;
-  icon-color:white;
-}
-.navbar-brand {
-color:black!important;
-}
-body{ /* Normal  */
-      font-size: 15px;
-  }
-h1.title {
-  font-size: 32px;
-}
-h3 { /* Header 3 */
-  font-size: 24px;
-  color: DarkRed;
-}
-</style>
-
-<style>
-.column-f1{
-  float: left;
-  width: 20%;
-  text-align: left;
-}
-.column-f2{
-  float: right;
-  width: 20%;
-  text-align: right;
-}
-</style>
-
+[<i class='fas fa-images' style='font-size:20px'></i>](afotos.html) 
 
 ----
 
@@ -56,12 +22,14 @@ h3 { /* Header 3 */
 - Francisco Hildemar Calixto de Alencar - Doutorado em andamento (Fomento: CAPES) 
 </br>
 
-- Thalita do Bem Mattos - Doutorado em andamento (Fomento: CAPES) 
-</br>
+- Thalita do Bem Mattos - Concluído (Fomento: CAPES) 
+  
+    `Tese: Parametric and semiparametric mixed-effects models for longitudinal censored data.`
+</br> 
 
 - Christian Eduardo Galarza Morales - Concluído (Fomento: FAPESP - Processo: 2015/17110-9)
 
-    `Tese: On Moments of doubly truncated multivariate distributions`
+    `Tese: On Moments of doubly truncated multivariate distributions.`
 </br> 
 
 ---- 
@@ -109,9 +77,28 @@ h3 { /* Header 3 */
 
 #### Orientandos de ME712/812
 
+1S2020
+
+- Carolina Andrade, Luccas Fortunatto e Suellen Sena
+
+       `Projeto: Estudo de caso de gosto musical na era digital.` 
+</br>    
+
+
+- Bruno Santos, Krismann Pedrosa e Nicole Nogueira
+
+       `Projeto: Análise do tratamento de água residuária de piscicultura utilizando a tecnologia de`
+       `eletrocoagulação.` 
+</br>    
+
+- Aline Pelegrino Shikasho, Beatriz Heloise Messias e Giuseppe Tinti Tomio
+
+       `Projeto: Análise estatística da resposta imune adaptativa na neuroinvasão por Oropouche.` 
+</br>    
+
 2S2018
 
-- Luiza Blota Ramos, Matheus Mendes Galvão, Natalia Ocaso Seraphim  e Michely Wu Hsieh 
+- Luiza Blota Ramos, Matheus Mendes Galvão, Natalia Ocaso Seraphim e Michely Wu Hsieh 
 
        `Projeto: O Papel da Necromassa no Ciclo do Carbono na Mata Atlântica.` 
 </br>     
@@ -181,16 +168,6 @@ h3 { /* Header 3 */
 
 ----
 
-<div id="footer">
-<p>
-<div class="column-f1">
-![](imagens/logo-unicamp1.png){width=150px}
-</div>
-<div class="column-f2">
-![](imagens/logoimecc1.png){width=50px}
-</div>
-</p>
-</div>
 
 
 

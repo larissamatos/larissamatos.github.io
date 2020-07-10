@@ -1,91 +1,35 @@
 ---
-title: "Contato"
+title: "Contato" 
 output:
   html_document:
     fig_width: 1
     toc_float: false
+    include:
+      after_body: footer.html      
 ---
 
-<style type="text/css">
-.nav.navbar-nav.navbar-right a {
-    color: white;
-}
-.navbar {
-  background-color:maroon;
-  border-color:black;
-  icon-color:white;
-}
-.navbar-brand {
-color:black!important;
-}
-body{ /* Normal  */
-      font-size: 15px;
-  }
-h1.title {
-  font-size: 30px;
-}
-h3 { /* Header 3 */
-  font-size: 24px;
-  color: DarkRed;
-}
-</style>
+----
 
-<style>
-a:link {
-    color: darkred;
-}
-a:visited {
-    color: darkred;
-}
-a:hover {
-    color: blue;
-}
-.column-f1{
-  float: left;
-  width: 20%;
-  text-align: left;
-}
-.column-f2{
-  float: right;
-  width: 20%;
-  text-align: right;
-}
-</style>
+### **Endereço** <i class="fas fa-address-card"  style='font-size:16px'></i>  
+
+<i class="fas fa-map-marker-alt"></i> \ Rua Sergio Buarque de Holanda, 651 - Sala  234 - Cidade Universitária, Campinas/SP - Brasil - CEP: 13083-859
 
 ----
 
-### **Endereço**
-
-Rua Sergio Buarque de Holanda, 651 - Sala: 234
-
-Cidade Universitária, Campinas/SP - Brasil - CEP: 13083-859
-
-----
-
-### **Telefone**
+### **Telefone** <i class="fas fa-phone" style='font-size:16px'></i>
 
 Interno/Externo: 16077 / 3521-6077
 
 ----
 
-### **Email**
+### **Email** <i class="fas fa-at" style='font-size:16px'></i> 
 
 larissam[at]unicamp.br
 
 ----
 
-![](imagens/git.png){height="36px" width="36px"} [larissamatos](https://github.com/larissamatos)    ![](imagens/Linkedin.png){height="36px" width="36px"} [Linkedin](https://www.linkedin.com/in/larissa-avila-matos-0624bb123/)
+[<i class='fab fa-github' style='font-size:30px'></i>](https://github.com/larissamatos) \ \  [<i class='fab fa-linkedin' style='font-size:30px'></i>](https://www.linkedin.com/in/larissa-avila-matos-0624bb123/) 
 
+<!-- <i class='fab fa-linkedin' style='font-size:24px;color:blue'></i> -->
 
 ----
-
-<div id="footer">
-<p>
-<div class="column-f1">
-![](imagens/logo-unicamp1.png){width=150px}
-</div>
-<div class="column-f2">
-![](imagens/logoimecc1.png){width=50px}
-</div>
-</p>
-</div>

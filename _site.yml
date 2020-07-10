@@ -1,6 +1,7 @@
 name: “Larissa Avila Matos”
 navbar:
   title: 
+  type: inverse # se for usar o menu
   left:
     - icon: fa-home
       href: index.html
@@ -14,13 +15,6 @@ navbar:
     - text: Publicações
       icon: fa-sticky-note
       href: publicacoes.html
-#       menu:
-#         - text: Artigos
-#           href: publicacoes1.html
-#         - text: Relatórios
-#           href: publicacoes2.html
-#         - text: Programas
-#           href: publicacoes3.html
     - text: Alunos
       icon: fa-users
       href: alunos.html
@@ -32,8 +26,7 @@ output:
   html_document:
     theme: lumen  # cosmo
     highlight: textmate
-#    include:
-#      after_body: footer.html
+    css: style.css
 
 # https://fontawesome.com/icons?d=gallery
 # http://bl.ocks.org/hempro00/6ce58ddc46407185e148

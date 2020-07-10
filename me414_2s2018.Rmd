@@ -4,52 +4,9 @@ output:
   html_document:
     fig_width: 1
     toc_float: false
+    include:
+      after_body: footer.html  
 ---
-
-<style type="text/css">
-.nav.navbar-nav.navbar-right a {
-    color: white;
-}
-.navbar {
-  background-color:maroon;
-  border-color:black;
-}
-.navbar-brand {
-color:black!important;
-}
-body{ /* Normal  */
-      font-size: 15px;
-  }
-h1.title {
-  font-size: 30px;
-}
-h3 { /* Header 3 */
-  font-size: 24px;
-  color: DarkRed;
-}
-</style>
-
-<style>
-a:link {
-    color: darkred;
-}
-a:visited {
-    color: darkred;
-}
-a:hover {
-    color: blue;
-}
-.column-f1{
-  float: left;
-  width: 20%;
-  text-align: left;
-}
-.column-f2{
-  float: right;
-  width: 20%;
-  text-align: right;
-}
-</style>
 
 ----
 
@@ -209,14 +166,3 @@ $$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
 - [Notas](Disciplinas/ME_414_2s2018/notas.html)
       
 ----
-
-<div id="footer">
-<p>
-<div class="column-f1">
-![](imagens/logo-unicamp1.png){width=150px}
-</div>
-<div class="column-f2">
-![](imagens/logoimecc1.png){width=50px}
-</div>
-</p>
-</div>

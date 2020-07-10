@@ -1,0 +1,118 @@
+---
+title: "Fotos"
+output:
+  html_document:
+    fig_width: 1
+    include:
+      after_body: footer.html    
+    
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(magick)
+```
+
+<style>
+.column-f5{
+  float: left;
+  width: 14.28%;
+  text-align: center;
+}
+.column-f2c{
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+----
+
+<!-- ```{r}  -->
+<!-- # thalita <- image_read('imagens/fotos/Thalita1.png') -->
+<!-- # thalita <- image_annotate(thalita, "Thalita do Bem Mattos", color = "black", size = 15) -->
+<!-- # thalita <- image_scale(thalita, "300") -->
+<!-- # hildemar <- image_read('imagens/fotos/hildemar1.png') -->
+<!-- # hildemar <- image_annotate(hildemar, "Francisco Hildemar Calixto", color = "black", size = 15) -->
+<!-- # hildemar <- image_scale(hildemar, "300") -->
+<!-- # img <- c(thalita, hildemar) -->
+<!-- # img <- image_scale(img, "300x300") -->
+<!-- #  -->
+<!--  image_append(image_scale(img, "x200")) -->
+<!-- ``` -->
+
+</br>
+
+<div class="row">
+<div class="column-f5">
+<figure><img src="imagens/fotos/Christian1.png", width = "90%">
+<figcaption>Christian</figcaption></figure>
+</div>
+<div class="column-f5">
+<figure><img src="imagens/fotos/Thalita1.png", width = "90%">
+<figcaption>Thalita</figcaption></figure>
+</div>
+<div class="column-f5">
+<figure><img src="imagens/fotos/Hildemar2.png", width = "90%">
+<figcaption>Hildemar</figcaption></figure>
+</div>
+<div class="column-f5">
+<figure><img src="imagens/fotos/Fernanda1.png", width = "90%">
+<figcaption>Fernanda</figcaption></figure>
+</div>
+<div class="column-f5">
+<figure><img src="imagens/fotos/Alejandro1.png", width = "90%">
+<figcaption>Alejandro</figcaption></figure>
+</div>
+<div class="column-f5">
+<figure><img src="imagens/fotos/Katherine1.png", width = "90%">
+<figcaption>Katherine</figcaption></figure>
+</div>
+<div class="column-f5">
+<figure><img src="imagens/fotos/Marcela1.png", width = "90%">
+<figcaption>Marcela</figcaption></figure>
+</div>
+</div>
+
+<!-- <img src="imagens/fotos/Christian1.png", width = "13%"> -->
+<!-- <img src="imagens/fotos/Thalita1.png", width = "13%"> -->
+<!-- <img src="imagens/fotos/Hildemar1.png", width = "13%"> -->
+<!-- <img src="imagens/fotos/Fernanda1.png", width = "13%"> -->
+<!-- <img src="imagens/fotos/Alejandro1.png", width = "13%"> -->
+<!-- <img src="imagens/fotos/Katherine1.png", width = "13%"> -->
+<!-- <img src="imagens/fotos/Marcela1.png", width = "13%"> -->
+
+----
+
+</br>
+
+<div class="row">
+<div class="column-f2c">
+<figure><img src="imagens/fotos/A1.jpg", width = "90%">
+</figure>
+</div>
+<div class="column-f2c">
+<figure><img src="imagens/fotos/A3.jpg", width = "90%">
+</figure>
+</div>
+</div>
+
+</br>
+
+<div class="row">
+<div class="column-f2c">
+<figure><img src="imagens/fotos/A4.jpg", width = "90%">
+</figure>
+</div>
+<div class="column-f2c">
+<figure><img src="imagens/fotos/A2.jpg", width = "90%">
+</figure>
+</div>
+</div>
+
+----

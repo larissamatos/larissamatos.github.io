@@ -4,52 +4,9 @@ output:
   html_document:
     fig_width: 1
     toc_float: false
+    include:
+      after_body: footer.html   
 ---
-
-<style type="text/css">
-.nav.navbar-nav.navbar-right a {
-    color: white;
-}
-.navbar {
-  background-color:maroon;
-  border-color:black;
-}
-.navbar-brand {
-color:black!important;
-}
-body{ /* Normal  */
-      font-size: 15px;
-  }
-h1.title {
-  font-size: 30px;
-}
-h3 { /* Header 3 */
-  font-size: 24px;
-  color: DarkRed;
-}
-</style>
-
-<style>
-a:link {
-    color: darkred;
-}
-a:visited {
-    color: darkred;
-}
-a:hover {
-    color: blue;
-}
-.column-f1{
-  float: left;
-  width: 20%;
-  text-align: left;
-}
-.column-f2{
-  float: right;
-  width: 20%;
-  text-align: right;
-}
-</style>
 
 ----
 
@@ -66,8 +23,6 @@ a:hover {
 - [Ementa](Disciplinas/ME_951_1s2020/EmentaNew.pdf): Ementa atualizada devido ao COVID-19.
 
     - [Vídeo](https://youtu.be/J-N6LGQkAtA): Vídeo explicando a nova ementa e a exclarencendo como será a disciplina durante o isolamento.
-
-<!-- - [Cronograma](Disciplinas/ME_951_1s2020/Cronograma.pdf) -->
 
 ----
 
@@ -181,15 +136,9 @@ a:hover {
 
 </p>
 
-<!-- - [Parte 19](Disciplinas/ME_951_1s2020/Parte19.pdf): Inferência para duas populações: Intervalo de confiança. -->
-
-<!-- - [Parte 20](Disciplinas/ME_951_1s2020/Parte20.pdf): Inferência para duas populações: Teste de Hipóteses. -->
-
 ----
 
 ### **Listas**
-
-<!-- - [Tabelas das distribuições](Disciplinas/ME_951_1s2019/Tabelas.pdf): Tabelas para serem usadas na resolução dos exercícios. -->
 
 - [Tabela Normal](Disciplinas/ME_951_1s2020/TabelaNormal.pdf): Tabela Normal. 
 
@@ -207,17 +156,5 @@ a:hover {
 
 - [Lista 6](Disciplinas/ME_951_1s2020/Lista6.pdf): Teste de Hipóteses para média e proporção.
 
-<!-- - [Lista 7](Disciplinas/ME_951_1s2020/Lista7.pdf): IC e TH para duas populações.  -->
-
 ----
 
-<div id="footer">
-<p>
-<div class="column-f1">
-![](imagens/logo-unicamp1.png){width=150px}
-</div>
-<div class="column-f2">
-![](imagens/logoimecc1.png){width=50px}
-</div>
-</p>
-</div>

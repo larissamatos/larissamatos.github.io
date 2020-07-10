@@ -1,22 +1,17 @@
-<style>
-.column-left{
-  float: left;
-  width: 50%;
-  text-align: left;
-}
-.column-right{
-  float: right;
-  width: 50%;
-  text-align: right;
-}
+---
+title: ''
+output: 
+  html_document:
+    css: style.css
+---
 
-</style>
-
-<div class="column-left">
-<p>  ![](imagens/logo-unicamp1.png){width=150px} </p>
+<div id="footer">
+<p>
+<div class="column-f1">
+![](imagens/logo-unicamp1.png){width=150px}
 </div>
-
-<div class="column-right">  
-<p> ![](imagens/logoimecc1.png){width=50px} </p>
+<div class="column-f2">
+![](imagens/logoimecc1.png){width=50px}
 </div>
-
+</p>
+</div>
