@@ -8,7 +8,7 @@ output:
     
 ---
 
-----
+<hr class="new1"></hr>
 
 <div class="column-left">
 ![](imagens/foto2.png)
@@ -27,9 +27,12 @@ Instituto de Matemática, Estatística e Computação Científica - <span style=
 Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </span>
 
 </br>
-<!-- **Email: larissam\@ime.unicamp.br** -->
+
 </div>
 
 <div class="column">
-----
+
+</br>
+
+<p class="outset"></p>
 

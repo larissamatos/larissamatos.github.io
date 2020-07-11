@@ -1,9 +1,10 @@
 name: “Larissa Avila Matos”
 navbar:
   title: 
-  type: inverse # se for usar o menu
+  type: inverse 
   left:
-    - icon: fa-home
+    - text: Home
+      icon: fa-home
       href: index.html
   right:
     - text: Informações Acadêmicas
@@ -24,7 +25,7 @@ navbar:
 output_dir: "."
 output:
   html_document:
-    theme: lumen  # cosmo
+    theme: simplex  # lumen cosmo
     highlight: textmate
     css: style.css
 

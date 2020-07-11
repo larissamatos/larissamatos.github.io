@@ -5,7 +5,6 @@ output:
     fig_width: 1
     include:
       after_body: footer.html    
-    
 ---
 
 ```{r setup, include=FALSE}
@@ -45,8 +44,6 @@ library(magick)
 <!-- #  -->
 <!--  image_append(image_scale(img, "x200")) -->
 <!-- ``` -->
-
-</br>
 
 <div class="row">
 <div class="column-f5">
@@ -115,4 +112,6 @@ library(magick)
 </div>
 </div>
 
-----
+</br>
+
+<p class="outset"></p>

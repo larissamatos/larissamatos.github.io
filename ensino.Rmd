@@ -10,7 +10,7 @@ output:
 
 ----
 
-### **Pós-Graduação**
+### Pós-Graduação
 
 #### 2S2017
 
@@ -19,7 +19,7 @@ output:
 
 ----
 
-### **Graduação**
+### Graduação
 
 #### 1S2020
 
@@ -89,7 +89,8 @@ output:
 #### 2S2017
 
 - ME414 H - Estatística para Experimentalistas
+
 </br>
 
-----
+<p class="outset"></p>
 

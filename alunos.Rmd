@@ -4,65 +4,49 @@ output:
   html_document:
     fig_width: 1
     include:
-      after_body: footer.html  
+      after_body: footer.html    
 ---
 
 [<i class='fas fa-images' style='font-size:20px'></i>](afotos.html) 
 
 ----
 
-### **Doutorado**
+### Doutorado
 
 - Fernanda Lang Schumacher - Doutorado em andamento (Fomento: CNPq) 
-</br>
 
 - Jose Alejandro Ordoñez  - Doutorado em andamento - Co-orientadora (Fomento: CAPES) 
-</br>
 
 - Francisco Hildemar Calixto de Alencar - Doutorado em andamento (Fomento: CAPES) 
-</br>
 
 - Thalita do Bem Mattos - Concluído (Fomento: CAPES) 
-  
-    `Tese: Parametric and semiparametric mixed-effects models for longitudinal censored data.`
-</br> 
+    <p class="cc"> Tese: Parametric and semiparametric mixed-effects models for longitudinal censored data.</p> 
 
 - Christian Eduardo Galarza Morales - Concluído (Fomento: FAPESP - Processo: 2015/17110-9)
-
-    `Tese: On Moments of doubly truncated multivariate distributions.`
-</br> 
+    <p class="cc"> Tese: On Moments of doubly truncated multivariate distributions.</p> 
 
 ---- 
 
-### **Mestrado**
+### Mestrado
 
 - Katherine Andreina Loor Valeriano -  Concluído (Fomento: CAPES) 
-
-    `Dissertação: Inferência para dados espaço-temporais com respostas censuradas e faltantes.`
-</br>
+    <p class="cc"> Dissertação: Inferência para dados espaço-temporais com respostas censuradas e faltantes.</p> 
 
 - Marcela Nuñez Lemus - Concluído (Fomento: CAPES) 
-        
-    `Dissertação: Estimação e diagnóstico em modelos parcialmente lineares censurados sob distribuições de` 
-    `cauda pesada.`
-</br>
+    <p class="cc"> Dissertação: Estimação e diagnóstico em modelos parcialmente lineares censurados sob distribuições de cauda pesada.</p> 
 
 ---- 
 
-### **Iniciação Científica**
+### Iniciação Científica
 
 - Nathan Brusamarello De Souto - IC em andamento (Fomento: CNPq) 
-</br>
 
 - Paulo César de Oliveira Rodrigues - Concluído
-
-    `Projeto: Influência que os professores da educação infantil e fundamental I que gostam ou não de` 
-    `matemática exercem sobre seus alunos.`
-</br>
+    <p class="cc"> Projeto: Influência que os professores da educação infantil e fundamental I que gostam ou não de matemática exercem sobre seus alunos.</p> 
 
 ----
 
-### **Graduação**
+### Graduação
 </br>
 
 #### Orientandos de ME710/810 
@@ -70,9 +54,8 @@ output:
 2S2018
 
 - Daniel Marques Paula de Oliveira (Orientando de ME810) 
+    <p class="cc"> Projeto: Estudo de Bioequivalência para o medicamento abiraterona.</p>  
 
-       `Projeto: Estudo de Bioequivalência para o medicamento abiraterona.` 
-</br>
 </br>
 
 #### Orientandos de ME712/812
@@ -80,94 +63,63 @@ output:
 1S2020
 
 - Carolina Andrade, Luccas Fortunatto e Suellen Sena
-
-       `Projeto: Estudo de caso de gosto musical na era digital.` 
-</br>    
-
-
+    <p class="cc"> Projeto: Estudo de caso de gosto musical na era digital.</p>  
+ 
 - Bruno Santos, Krismann Pedrosa e Nicole Nogueira
-
-       `Projeto: Análise do tratamento de água residuária de piscicultura utilizando a tecnologia de`
-       `eletrocoagulação.` 
-</br>    
-
+     <p class="cc"> Projeto: Análise do tratamento de água residuária de piscicultura utilizando a tecnologia de eletrocoagulação.</p>  
+ 
 - Aline Pelegrino Shikasho, Beatriz Heloise Messias e Giuseppe Tinti Tomio
-
-       `Projeto: Análise estatística da resposta imune adaptativa na neuroinvasão por Oropouche.` 
-</br>    
+     <p class="cc"> Projeto: Análise estatística da resposta imune adaptativa na neuroinvasão por Oropouche.</p>  
 
 2S2018
 
 - Luiza Blota Ramos, Matheus Mendes Galvão, Natalia Ocaso Seraphim e Michely Wu Hsieh 
-
-       `Projeto: O Papel da Necromassa no Ciclo do Carbono na Mata Atlântica.` 
-</br>     
-
+    <p class="cc"> Projeto: O Papel da Necromassa no Ciclo do Carbono na Mata Atlântica. </p> 
+    
 - Lucas Ferreira dos Santos, Laís Cristina Cruz Bordin, Gabriel Bueno Bottignon e Lucas Moraes Mascarenhas
-      
-      `Projeto: Análise da Taxa de Decomposição de Madeira Morta na Mata Atlântica.` 
-</br>
+    <p class="cc"> Projeto: Análise da Taxa de Decomposição de Madeira Morta na Mata Atlântica.</p> 
 
 - Diogo Aggio, Helena G. de M. Viana, Luke Zhi Wei Zheng e Rafael Antônio R. Branco 
-      
-      `Projeto: Influência da Diversidade de Espécies na Produção e Estoque de Madeira Morta em Áreas de` 
-      `Restauração Florestal na Mata Atlântica.` 
-</br>
-      
+    <p class="cc"> Projeto: Influência da Diversidade de Espécies na Produção e Estoque de Madeira Morta em Áreas de Restauração Florestal na Mata Atlântica. </p> 
+
 1S2018
 
 - Aldrey Villas Bôas, Larissa Ribeiro da Silva, Lucas Mattos Souza e Mariana Racioni Gonçalves 
-
-      `Projeto1: Análise estatística de parasitismo em traíras.` 
-      
-      `Projeto2: Consumo, estrutura social e inclusão: Discussões entre China e Brasil em torno da` 
-      `sustentabilidade.` 
-</br>
+    <p class="cc"> Projeto1: Análise estatística de parasitismo em traíras.</p>  
+    <p class="cc"> Projeto2: Consumo, estrutura social e inclusão: Discussões entre China e Brasil em torno da sustentabilidade.</p>  
 
 - Amanda Cristina Silva, Aline Dias Nunes e Mariane Sahú 
-
-      `Projeto1: Estudo do Plano Diretor aprovado após o Estatuto da Cidade nos municípios brasileiros com`
-      `população de até 20 mil habitantes.` 
-    
-      `Projeto2: Ecologia de Corujas e Efeitos Recíprocos sobre a Vegetação de uma Floresta Atlântica em` 
-      `Regeneração.` 
-</br>
+    <p class="cc"> Projeto1: Estudo do Plano Diretor aprovado após o Estatuto da Cidade nos municípios brasileiros com população de até 20 mil habitantes.</p>  
+    <p class="cc"> Projeto2: Ecologia de Corujas e Efeitos Recíprocos sobre a Vegetação de uma Floresta Atlântica em Regeneração. </p> 
 
 - Diogo Aggio, Jonas F. D. Branco de Araújo, Lucas Moraes Mascarenhas e Tomás C. Weguelin Vieira 
-
-    `Projeto: Análise de Variância dos fatores nos números de microrganismos em Carne Dry-Aged.` 
-</br>
+    <p class="cc"> Projeto: Análise de Variância dos fatores nos números de microrganismos em Carne Dry-Aged.</p>  
 
 - Erika dos Santos Barbosa, Nara Stefani de Oliveira, Rafaella Konno e Rodrigo Fadel Stahl 
-
-    `Projeto: Teoria da mente - Crença Falsa e Ignorância.` 
-</br>
+    <p class="cc"> Projeto: Teoria da mente - Crença Falsa e Ignorância.</p> 
 
 - Daniela Rosa de Moraes, Henrique Capatto, Marcos Antonio Ferreira e Murilo Salgado Razoli 
-
-    `Projeto: Engajamento dos Estudantes da Unicamp.`
-</br>
+    <p class="cc"> Projeto: Engajamento dos Estudantes da Unicamp.</p> 
+    
 </br>
 
 #### Orientandos do Programa de Apoio Didático PAD / Orientandos do Programa de Estágio Docente PED 
 
+- Fernanda Paula Rocha - PED (1S2020)
+
 - Katherine Andreina Loor Valeriano - PED (2S2019)
-</br>
 
 - Nilmara Biscaia - PED (1S2019)
-</br>
 
 - Francisco Hildemar Calixto de Alencar - PED (2S2018)
-</br>
 
 - Giovanni Samartini - PAD (1S2018)
-</br>
 
 - Ana Julieth Calderón Márquez - PED (2S2017)
+
 </br>
 
-----
-
+<p class="outset"></p>
 
 
 
