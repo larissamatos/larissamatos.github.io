@@ -47,32 +47,32 @@ library(magick)
 
 <div class="row">
 <div class="column-f5">
-<figure><img src="imagens/fotos/Christian1.png", width = "90%">
-<figcaption>Christian</figcaption></figure>
+<figure><img src="imagens/fotos/Christian1.png", width = "80%">
+<figcaption> <p class="cc3"> Christian </p> </figcaption></figure>
 </div>
 <div class="column-f5">
-<figure><img src="imagens/fotos/Thalita1.png", width = "90%">
-<figcaption>Thalita</figcaption></figure>
+<figure><img src="imagens/fotos/Thalita1.png", width = "80%">
+<figcaption> <p class="cc3">Thalita </p> </figcaption></figure>
 </div>
 <div class="column-f5">
-<figure><img src="imagens/fotos/Hildemar2.png", width = "90%">
-<figcaption>Hildemar</figcaption></figure>
+<figure><img src="imagens/fotos/Hildemar2.png", width = "80%">
+<figcaption> <p class="cc3"> Hildemar </p></figcaption></figure>
 </div>
 <div class="column-f5">
-<figure><img src="imagens/fotos/Fernanda1.png", width = "90%">
-<figcaption>Fernanda</figcaption></figure>
+<figure><img src="imagens/fotos/Fernanda1.png", width = "80%">
+<figcaption> <p class="cc3"> Fernanda </p> </figcaption></figure>
 </div>
 <div class="column-f5">
-<figure><img src="imagens/fotos/Alejandro1.png", width = "90%">
-<figcaption>Alejandro</figcaption></figure>
+<figure><img src="imagens/fotos/Alejandro1.png", width = "80%">
+<figcaption> <p class="cc3"> Alejandro </p> </figcaption></figure>
 </div>
 <div class="column-f5">
-<figure><img src="imagens/fotos/Katherine1.png", width = "90%">
-<figcaption>Katherine</figcaption></figure>
+<figure><img src="imagens/fotos/Katherine1.png", width = "80%">
+<figcaption> <p class="cc3"> Katherine </p> </figcaption></figure>
 </div>
 <div class="column-f5">
-<figure><img src="imagens/fotos/Marcela1.png", width = "90%">
-<figcaption>Marcela</figcaption></figure>
+<figure><img src="imagens/fotos/Marcela1.png", width = "80%">
+<figcaption> <p class="cc3"> Marcela </p> </figcaption></figure>
 </div>
 </div>
 
