@@ -8,10 +8,12 @@ output:
 <div id="footer">
 <p>
 <div class="column-f1">
-![](imagens/logo-unicamp1.png){width=120px}
+<img src="imagens/logo-unicamp1.png" width="100" height="50">
+<!-- ![](imagens/logo-unicamp1.png){width=120px, heigth = 40px} -->
 </div>
 <div class="column-f2">
-![](imagens/logoimecc.png){width=45px}
+<img src="imagens/logoimecc.png" width="50" height="50">
+<!-- ![](imagens/logoimecc.png){width=45px, heigth = 40px} -->
 </div>
 </p>
 </div>
