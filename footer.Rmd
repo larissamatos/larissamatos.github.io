@@ -8,7 +8,7 @@ output:
 <div id="footer">
 <p>
 <div class="column-f1">
-![](imagens/logo-unicamp1.png){width=100px}
+![](imagens/logo-unicamp1.png){width=120px}
 </div>
 <div class="column-f2">
 ![](imagens/logoimecc.png){width=40px}
