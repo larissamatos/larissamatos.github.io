@@ -53,12 +53,12 @@ a:hover {
 } 
 .column-f1{
   float: left;
-  width: 20%;
+  width: 40%;
   text-align: left;
 }
 .column-f2{
   float: right;
-  width: 20%;
+  width: 40%;
   text-align: right;
 }
 
