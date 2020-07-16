@@ -1,16 +1,15 @@
 ---
-title: "Ensino"
+title: "<i class='fas fa-book' style='font-size:20px'></i> Ensino"
 output:
   html_document:
     toc_float: false
     fig_width: 1
-    include:
-      after_body: footer.html      
 ---
 
 ----
 
 ### Pós-Graduação
+<p class="ptitle"> \ </p>
 
 #### 2S2017
 
@@ -20,6 +19,7 @@ output:
 ----
 
 ### Graduação
+<p class="ptitle"> \ </p>
 
 #### 1S2020
 
@@ -93,4 +93,13 @@ output:
 </br>
 
 <p class="outset"></p>
-
+<div id="footer">
+<p>
+<div class="column-f1">
+<img src="imagens/logo-unicamp1.png" width="120" height="55">
+</div>
+<div class="column-f2">
+<img src="imagens/logoimecc.png" width="50" height="50">
+</div>
+</p>
+</div>

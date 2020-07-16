@@ -1,10 +1,8 @@
 ---
-title: "Fotos"
+title: "<i class='fas fa-images' style='font-size:20px'></i>  Fotos"
 output:
   html_document:
     fig_width: 1
-    include:
-      after_body: footer.html    
 ---
 
 ```{r setup, include=FALSE}
@@ -47,32 +45,32 @@ library(magick)
 
 <div class="row">
 <div class="column-f5">
-<figure><img src="imagens/fotos/Christian1.png", width = "80%">
-<figcaption> <p class="cc3"> Christian </p> </figcaption></figure>
+<figure><img src="imagens/fotos/Christian.png", width = "80%">
+<figcaption> <p class="cc3"> Christian <br> [<img src="imagens/lattes.png", width = "10%">](http://lattes.cnpq.br/1340975521059252) <br> </p> </figcaption></figure>
 </div>
 <div class="column-f5">
-<figure><img src="imagens/fotos/Thalita1.png", width = "80%">
-<figcaption> <p class="cc3">Thalita </p> </figcaption></figure>
+<figure><img src="imagens/fotos/Thalita.png", width = "80%">
+<figcaption> <p class="cc3">Thalita <br> [<img src="imagens/lattes.png", width = "10%">](http://lattes.cnpq.br/9500569794852267) <br> </p> </figcaption></figure>
 </div>
 <div class="column-f5">
-<figure><img src="imagens/fotos/Hildemar2.png", width = "80%">
-<figcaption> <p class="cc3"> Hildemar </p></figcaption></figure>
+<figure><img src="imagens/fotos/Hildemar.png", width = "80%">
+<figcaption> <p class="cc3"> Hildemar <br> [<img src="imagens/lattes.png", width = "10%">](http://lattes.cnpq.br/0442780507213647) <br> </p></figcaption></figure>
 </div>
 <div class="column-f5">
-<figure><img src="imagens/fotos/Fernanda1.png", width = "80%">
-<figcaption> <p class="cc3"> Fernanda </p> </figcaption></figure>
+<figure><img src="imagens/fotos/Alejandro.png", width = "80%">
+<figcaption> <p class="cc3"> Alejandro <br> [<img src="imagens/lattes.png", width = "10%">](http://lattes.cnpq.br/7635604449274955) <br> </p> </figcaption></figure>
 </div>
 <div class="column-f5">
-<figure><img src="imagens/fotos/Alejandro1.png", width = "80%">
-<figcaption> <p class="cc3"> Alejandro </p> </figcaption></figure>
+<figure><img src="imagens/fotos/Fernanda.png", width = "80%">
+<figcaption> <p class="cc3"> Fernanda <br> [<img src="imagens/lattes.png", width = "10%">](http://lattes.cnpq.br/8132149083320545) <br> </p> </figcaption></figure>
 </div>
 <div class="column-f5">
-<figure><img src="imagens/fotos/Katherine1.png", width = "80%">
-<figcaption> <p class="cc3"> Katherine </p> </figcaption></figure>
+<figure><img src="imagens/fotos/Marcela.png", width = "80%">
+<figcaption> <p class="cc3"> Marcela <br> [<img src="imagens/lattes.png", width = "10%">](http://lattes.cnpq.br/5012340622923104) <br> </p> </figcaption></figure>
 </div>
 <div class="column-f5">
-<figure><img src="imagens/fotos/Marcela1.png", width = "80%">
-<figcaption> <p class="cc3"> Marcela </p> </figcaption></figure>
+<figure><img src="imagens/fotos/Katherine.png", width = "80%">
+<figcaption> <p class="cc3"> Katherine <br> [<img src="imagens/lattes.png", width = "10%">](http://lattes.cnpq.br/8992394367424165) <br> </p> </figcaption></figure>
 </div>
 </div>
 
@@ -107,6 +105,15 @@ library(magick)
 </figure>
 </div>
 <div class="column-f2c">
+<figure><img src="imagens/fotos/A5.jpeg", width = "90%">
+</figure>
+</div>
+</div>
+
+</br>
+
+<div class="row">
+<div class="column-f2c">
 <figure><img src="imagens/fotos/A2.jpg", width = "90%">
 </figure>
 </div>
@@ -115,3 +122,13 @@ library(magick)
 </br>
 
 <p class="outset"></p>
+<div id="footer">
+<p>
+<div class="column-f1">
+<img src="imagens/logo-unicamp1.png" width="120" height="55">
+</div>
+<div class="column-f2">
+<img src="imagens/logoimecc.png" width="50" height="50">
+</div>
+</p>
+</div>

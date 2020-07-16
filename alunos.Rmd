@@ -1,17 +1,16 @@
 ---
-title: "Alunos"
+title: "<i class='fas fa-users' style='font-size:20px'></i> Alunos" 
 output:
   html_document:
     fig_width: 1
-    include:
-      after_body: footer.html    
 ---
 
-[<i class='fas fa-images' style='font-size:20px'></i>](afotos.html) 
+<!-- [<i class='fas fa-images' style='font-size:20px'></i>](afotos.html)  -->
 
 ----
 
 ### Doutorado
+<p class="ptitle"> \ </p>
 
 - Fernanda Lang Schumacher - Doutorado em andamento (Fomento: CNPq) 
 
@@ -19,25 +18,27 @@ output:
 
 - Francisco Hildemar Calixto de Alencar - Doutorado em andamento (Fomento: CAPES) 
 
-- Thalita do Bem Mattos - Concluído (Fomento: CAPES) 
-    <p class="cc"> Tese: Parametric and semiparametric mixed-effects models for longitudinal censored data.</p> 
-
-- Christian Eduardo Galarza Morales - Concluído (Fomento: FAPESP - Processo: 2015/17110-9)
+- Thalita do Bem Mattos (Fomento: CAPES). Ano de conclusão: 2020. 
+    <p class="cc"> Tese: Parametric and semiparametric mixed-effects models for longitudinal censored data.</p>
+    
+- Christian Eduardo Galarza Morales (Fomento: FAPESP - Processo: 2015/17110-9). Ano de conclusão: 2020.
     <p class="cc"> Tese: On Moments of doubly truncated multivariate distributions.</p> 
 
 ---- 
 
 ### Mestrado
+<p class="ptitle"> \ </p>
 
-- Katherine Andreina Loor Valeriano -  Concluído (Fomento: CAPES) 
+- Katherine Andreina Loor Valeriano (Fomento: CAPES). Ano de conclusão: 2019. 
     <p class="cc"> Dissertação: Inferência para dados espaço-temporais com respostas censuradas e faltantes.</p> 
 
-- Marcela Nuñez Lemus - Concluído (Fomento: CAPES) 
+- Marcela Nuñez Lemus (Fomento: CAPES). Ano de conclusão: 2018.  
     <p class="cc"> Dissertação: Estimação e diagnóstico em modelos parcialmente lineares censurados sob distribuições de cauda pesada.</p> 
 
 ---- 
 
 ### Iniciação Científica
+<p class="ptitle"> \ </p>
 
 - Nathan Brusamarello De Souto - IC em andamento (Fomento: CNPq) 
 
@@ -47,7 +48,7 @@ output:
 ----
 
 ### Graduação
-</br>
+<p class="ptitle"> \ </p>
 
 #### Orientandos de ME710/810 
 
@@ -120,7 +121,16 @@ output:
 </br>
 
 <p class="outset"></p>
-
+<div id="footer">
+<p>
+<div class="column-f1">
+<img src="imagens/logo-unicamp1.png" width="120" height="55">
+</div>
+<div class="column-f2">
+<img src="imagens/logoimecc.png" width="50" height="50">
+</div>
+</p>
+</div>
 
 
 

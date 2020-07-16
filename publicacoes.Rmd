@@ -1,16 +1,15 @@
 ---
-title: "Publicações"
+title: "<i class='fas fa-sticky-note' style='font-size:20px'></i> Publicações"
 output:
   html_document:
     fig_width: 1
     toc_float: false
-    include:
-      after_body: footer.html          
 ---
 
 ----
 
 ### Artigos Científicos
+<p class="ptitle"> \ </p>
 
 <ol reversed>
 
@@ -49,6 +48,7 @@ output:
 ----
 
 ### Submetidos (Under review)
+<p class="ptitle"> \ </p>
 
 <ol reversed>
 
@@ -78,6 +78,7 @@ output:
 ----
 
 ### Relatórios Técnicos
+<p class="ptitle"> \ </p>
 
 <ol reversed>
 
@@ -105,6 +106,7 @@ output:
 ---- 
 
 ### Programas de computador sem registro
+<p class="ptitle"> \ </p>
 
 <ol reversed>
 
@@ -146,6 +148,7 @@ output:
 ---- 
 
 ### Participação em eventos
+<p class="ptitle"> \ </p>
 
 <ol reversed>
 
@@ -176,3 +179,13 @@ output:
 </br>
 
 <p class="outset"></p>
+<div id="footer">
+<p>
+<div class="column-f1">
+<img src="imagens/logo-unicamp1.png" width="120" height="55">
+</div>
+<div class="column-f2">
+<img src="imagens/logoimecc.png" width="50" height="50">
+</div>
+</p>
+</div>

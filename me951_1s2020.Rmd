@@ -4,8 +4,6 @@ output:
   html_document:
     fig_width: 1
     toc_float: false
-    include:
-      after_body: footer.html   
 ---
 
 ----

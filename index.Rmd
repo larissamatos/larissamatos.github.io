@@ -3,8 +3,6 @@ title: "Larissa Avila Matos" #espaço:\_\_\_\_\_
 output:
   html_document:
     fig_width: 1
-    include:
-      after_body: footer.html    
     
 ---
 
@@ -35,4 +33,14 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 </br>
 
 <p class="outset"></p>
+<div id="footer">
+<p>
+<div class="column-f1">
+<img src="imagens/logo-unicamp1.png" width="120" height="55">
+</div>
+<div class="column-f2">
+<img src="imagens/logoimecc.png" width="50" height="50">
+</div>
+</p>
+</div>
 

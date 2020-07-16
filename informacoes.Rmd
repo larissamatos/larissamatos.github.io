@@ -1,16 +1,15 @@
 ---
-title: "Informações acadêmicas"
+title: "<i class='fas fa-graduation-cap' style='font-size:20px'></i> Informações acadêmicas"
 output:
   html_document:
     fig_width: 1
     toc_float: false
-    include:
-      after_body: footer.html      
 ---
 
 ---- 
 
 ### Formação acadêmica/titulação
+<p class="ptitle"> \ </p>
 
 - 2006-2010: **Graduação em Estatística** \ \ ![](imagens/logo-unicampT.png){width=25px} 
      <p class="cc"> Universidade Estadual de Campinas, UNICAMP.</p>  
@@ -28,6 +27,7 @@ output:
 ----
 
 ### Linhas de Pesquisa
+<p class="ptitle"> \ </p>
 
 - **Inferência e Métodos Estatísticos**: Modelos de efeitos mistos; Modelos Semi-parametrico; Modelos Espaciais; Dados censurados; Diagnóstico.
     
@@ -36,11 +36,22 @@ output:
 ----
 
 ### Informações adicionais
+<p class="ptitle"> \ </p>
 
-- CV Lattes: http://lattes.cnpq.br/6330766834005870
+- CV Lattes \ [<img src="imagens/lattes.png", width = "1.5%">](http://lattes.cnpq.br/6330766834005870)
 
-- MyCitations (Google Scholar): https://scholar.google.com.br/citations?hl=en&user=lSCYxF0AAAAJ
+- MyCitations ([Google Scholar](https://scholar.google.com.br/citations?hl=en&user=lSCYxF0AAAAJ))
 
 </br>
 
 <p class="outset"></p>
+<div id="footer">
+<p>
+<div class="column-f1">
+<img src="imagens/logo-unicamp1.png" width="120" height="55">
+</div>
+<div class="column-f2">
+<img src="imagens/logoimecc.png" width="50" height="50">
+</div>
+</p>
+</div>

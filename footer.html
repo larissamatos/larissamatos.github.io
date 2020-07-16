@@ -304,12 +304,23 @@ $(document).ready(function () {
     Publicações
   </a>
 </li>
-<li>
-  <a href="alunos.html">
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     <span class="fa fa-users"></span>
      
     Alunos
+     
+    <span class="caret"></span>
   </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="alunos.html">Alunos</a>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="afotos.html">Fotos</a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="contato.html">

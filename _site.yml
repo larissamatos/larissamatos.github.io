@@ -18,10 +18,17 @@ navbar:
       href: publicacoes.html
     - text: Alunos
       icon: fa-users
-      href: alunos.html
+      menu:  # menu nao funciona com include: after_body: footer.html   
+       #- text: "Heading 1"
+       - text: Alunos
+         href: alunos.html
+       - text: "---------"
+       - text: Fotos
+         href: afotos.html
     - text: Contato
       icon: fa-envelope
       href: contato.html
+
 output_dir: "."
 output:
   html_document:

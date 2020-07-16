@@ -1,11 +1,9 @@
 ---
-title: "Contato" 
+title: "<i class='fas fa-envelope' style='font-size:20px'></i> Contato" 
 output:
   html_document:
     fig_width: 1
     toc_float: false
-    include:
-      after_body: footer.html      
 ---
 
 ----
@@ -35,3 +33,13 @@ larissam[at]unicamp.br
 </br>
 
 <p class="outset"></p>
+<div id="footer">
+<p>
+<div class="column-f1">
+<img src="imagens/logo-unicamp1.png" width="120" height="55">
+</div>
+<div class="column-f2">
+<img src="imagens/logoimecc.png" width="50" height="50">
+</div>
+</p>
+</div>
