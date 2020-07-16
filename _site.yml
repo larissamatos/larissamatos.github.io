@@ -22,7 +22,7 @@ navbar:
        #- text: "Heading 1"
        - text: Alunos
          href: alunos.html
-       - text: "---------"
+       #- text: "---------"
        - text: Fotos
          href: afotos.html
     - text: Contato
