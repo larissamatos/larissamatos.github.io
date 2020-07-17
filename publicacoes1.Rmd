@@ -213,26 +213,26 @@ font-style: normal;
 
 <ol reversed>
 
-<li> 8th Workshop on Probabilistic and Statistical Methods. A semiparametric mixed-effects model for censored longitudinal data. [Apresentação.](Apresentacoes/20_WPSM.pdf) \medskip </li>
+<li> 8th Workshop on Probabilistic and Statistical Methods. A semiparametric mixed-effects model for censored longitudinal data (2020). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/20_WPSM.pdf) \medskip </li>
 
-<li> VI Workshop em Análise de Sobrevivência e Aplicações (WASA 2019). Longitudinal Models for Multiple Censored Responses Data. 2019. [Pôster.](Apresentacoes/19_Wasa.pdf) 
+<li> VI Workshop em Análise de Sobrevivência e Aplicações (WASA 2019). Longitudinal Models for Multiple Censored Responses Data (2019). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/19_Wasa.pdf) 
 
-<li> 3rd International Conference on Econometrics and Statistics (EcoSta 2019). Estimation for partially linear censored regression models based on heavy tailed distributions. 2019. [Apresentação.](Apresentacoes/19_EcoSta.pdf) \medskip </li>
+<li> 3rd International Conference on Econometrics and Statistics (EcoSta 2019). Estimation for partially linear censored regression models based on heavy tailed distributions (2019). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/19_EcoSta.pdf) \medskip </li>
 
-<li> 33rd New England Statistics Symposium (NESS). Flexible longitudinal linear mixed models for multiple censored responses data. 2019. [Apresentação.](Apresentacoes/19_NESS.pdf) \medskip </li>
+<li> 33rd New England Statistics Symposium (NESS). Flexible longitudinal linear mixed models for multiple censored responses data (2019). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/19_NESS.pdf) \medskip </li>
 
-<li> XVI EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Estimation and diagnostics for partially linear censored regression models based on heavy-tailed distributions. 2019. [Apresentação.](Apresentacoes/19_EMR.pdf) \medskip </li>
+<li> XVI EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Estimation and diagnostics for partially linear censored regression models based on heavy-tailed distributions (2019). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/19_EMR.pdf) \medskip </li>
 
-<li> 23º SINAPE - Simpósio Nacional de Probabilidade e Estatística. Estimação e diagnóstico em modelos multivariados para dados censurados. 2018. (Simpósio). [Apresentação.](Apresentacoes/18_SINAPE.pdf) \medskip </li>
+<li> 23º SINAPE - Simpósio Nacional de Probabilidade e Estatística. Estimação e diagnóstico em modelos multivariados para dados censurados (2018). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/18_SINAPE.pdf) \medskip </li>
 </br>
 
-<li> 10th International Conference of the ERCIM WG on Computational and Methodological Statistics. Heavy-tailed longitudinal regression models for censored data: A likelihood based perspective. 2017. (Congresso). [Apresentação.](Apresentacoes/17_CMStatistics.pdf) \medskip </li>
+<li> 10th International Conference of the ERCIM WG on Computational and Methodological Statistics. Heavy-tailed longitudinal regression models for censored data: A likelihood based perspective (2017). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/17_CMStatistics.pdf) \medskip </li>
 </br>
 
-<li> XV EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data. 2017. (Congresso). [Apresentação.](Apresentacoes/17_EMR.pdf) \medskip </li>
+<li> XV EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data (2017). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/17_EMR.pdf) \medskip </li>
 </br>
 
-<li> CLATSE - CONGRESO LATINOAMERICANO DE SOCIEDADES DE ESTADÍSTICA. Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data. 2016. (Congresso). [Apresentação.](Apresentacoes/16_CLATSE.pdf) \medskip </li>
+<li> CLATSE - CONGRESO LATINOAMERICANO DE SOCIEDADES DE ESTADÍSTICA. Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data (2016). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/16_CLATSE.pdf) \medskip </li>
 </br>
 </ol>
 
