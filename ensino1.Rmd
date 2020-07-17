@@ -31,7 +31,7 @@ body {font-family: Open Sans;}
   text-align: center;
   cursor: pointer;
   transition: 0.3s;
-  font-size: 15px;
+  font-size: 14px;
   font-family: 'Open Sans';
   font-style: normal;
 }
@@ -100,7 +100,7 @@ body {font-family: Open Sans;}
 <p>
 </br>
 
-- [ME951 A - Estatística e Probabilidade I](me951_1s2020.html)
+- [ME951 A - Estatística e ProbabilidadeI](me951_1s2020.html)
 </br>
 
 - ME712 A -  Consultoria Estatística I
@@ -131,7 +131,7 @@ body {font-family: Open Sans;}
 <p>
 </br>
 
-- [ME951 A - Estatística e Probabilidade I](me951_1s2019.html)
+- [ME951 A - Estatística e ProbabilidadeI](me951_1s2019.html)
 
 </p>
 </div>
