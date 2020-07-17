@@ -28,6 +28,9 @@ navbar:
     - text: Contato
       icon: fa-envelope
       href: contato.html
+    - text:  
+      icon: fa-images
+      href: foto.html
 
 output_dir: "."
 output:

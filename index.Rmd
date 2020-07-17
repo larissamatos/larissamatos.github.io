@@ -26,8 +26,6 @@ Instituto de Matemática, Estatística e Computação Científica - <span style=
 
 Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </span>
 
-[<i class='fas fa-images' style='font-size:20px'></i>](fotos.html) 
-
 </br>
 
 </div>
