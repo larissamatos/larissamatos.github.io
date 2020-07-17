@@ -1,12 +1,14 @@
 ---
-title: "Larissa Avila Matos \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  [<i class='fas fa-images' style='font-size:20px'></i>](fotos.html) " 
+title: "Larissa Avila Matos" #espaço:\_\_\_\_\_ 
 output:
   html_document:
     fig_width: 1
     
 ---
 
+
 <hr class="new1"></hr>
+<p class="ptitle"> \ </p>
 
 <div class="column-left">
 ![](imagens/foto2.png)
@@ -23,6 +25,8 @@ Departamento de Estatística
 Instituto de Matemática, Estatística e Computação Científica - <span style="color:darkred"> **IMECC** </span>
 
 Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </span>
+
+[<i class='fas fa-images' style='font-size:20px'></i>](fotos.html) 
 
 </br>
 
