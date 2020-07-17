@@ -344,28 +344,32 @@ $(document).ready(function () {
 
 <style>
 * {box-sizing: border-box}
+body {font-family: Open Sans;}
 
 /* Style the tab */
 .tab {
   float: left;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
-  width: 30%;
-  height: 300px;
+  width: 15%;
+  height: 262px;
 }
 
 /* Style the buttons inside the tab */
 .tab button {
   display: block;
   background-color: inherit;
-  color: black;
-  padding: 22px 16px;
+  color: #737373;
+  padding: 8px 8px;
   width: 100%;
   border: none;
   outline: none;
-  text-align: left;
+  text-align: center;
   cursor: pointer;
-  font-size: 17px;
+  transition: 0.3s;
+  font-size: 15px;
+  font-family: 'Open Sans';
+  font-style: normal;
 }
 
 /* Change background color of buttons on hover */
@@ -383,17 +387,12 @@ $(document).ready(function () {
   float: left;
   padding: 0px 12px;
   border: 1px solid #ccc;
-  width: 70%;
+  width: 85%;
   border-left: none;
-  height: 300px;
-  display: none;
-}
-
-/* Clear floats after the tab */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+  height: 262px;
+  font-size: 13px;
+  font-family: 'Open Sans';
+  font-style: normal;
 }
 </style>
 <hr />
@@ -416,57 +415,124 @@ $(document).ready(function () {
  
 </p>
 <div class="tab">
-<button class="tablinks" onmouseover="openCity(event, '1S2020')">
+<button class="tablinks" onclick="openE(event, '2S2020')">
+2S2020
+</button>
+<button class="tablinks" onclick="openE(event, '1S2020')" id="defaultOpen">
 1S2020
 </button>
-<button class="tablinks" onmouseover="openCity(event, '2S2019')">
+<button class="tablinks" onclick="openE(event, '2S2019')">
 2S2019
 </button>
-<button class="tablinks" onmouseover="openCity(event, '1S2019')">
+<button class="tablinks" onclick="openE(event, '1S2019')">
 1S2019
 </button>
+<button class="tablinks" onclick="openE(event, '2S2018')">
+2S2018
+</button>
+<button class="tablinks" onclick="openE(event, '1S2018')">
+1S2018
+</button>
+<button class="tablinks" onclick="openE(event, '2S2017')">
+2S2017
+</button>
+</div>
+<div id="2S2020" class="tabcontent">
+</br>
+<h3>
+Segundo Semestre de 2020
+</h3>
+<p>
+</br> .
+</p>
 </div>
 <div id="1S2020" class="tabcontent">
+</br>
 <h3>
-1S2020
+Primeiro Semestre de 2020
 </h3>
 <p>
 <p></br></p>
 <ul>
 <li><p><a href="me951_1s2020.html">ME951 A - Estatística e Probabilidade I</a> </br></p></li>
 <li><p>ME712 A - Consultoria Estatística I </br></p></li>
-<li>ME812 A - Consultoria Estatística II </br></li>
+<li><p>ME812 A - Consultoria Estatística II</p></li>
 </ul>
 </p>
 </div>
 <div id="2S2019" class="tabcontent">
+</br>
 <h3>
-2S2019
+Segundo Semestre de 2019
 </h3>
 <p>
 <p></br></p>
 <ul>
 <li><p><a href="me414_2s2019.html">ME414 H - Estatística para Experimentalistas</a> </br></p></li>
-<li><a href="me720_2s2019.html">ME720 A - Modelos Lineares Generalizados</a> </br></li>
+<li><p><a href="me720_2s2019.html">ME720 A - Modelos Lineares Generalizados</a></p></li>
 </ul>
 </p>
 </div>
 <div id="1S2019" class="tabcontent">
+</br>
 <h3>
-1S2019
+Primeiro Semestre de 2019
 </h3>
 <p>
 <p></br></p>
 <ul>
-<li><a href="me951_1s2019.html">ME951 A - Estatística e Probabilidade I</a> </br></li>
+<li><a href="me951_1s2019.html">ME951 A - Estatística e Probabilidade I</a></li>
 </ul>
 </p>
 </div>
-<div class="clearfix">
-
+<div id="2S2018" class="tabcontent">
+</br>
+<h3>
+Segundo Semestre de 2018
+</h3>
+<p>
+<p></br></p>
+<ul>
+<li><p><a href="me414_2s2018.html">ME414 A - Estatística para Experimentalistas</a> </br></p></li>
+<li><p><a href="Disciplinas/EmentaME710_2S2018.pdf">ME710 A - Assessoria Estatística</a> </br></p></li>
+<li><p><a href="Disciplinas/EmentaME712e812_2S2018.pdf">ME712 A - Consultoria Estatística I</a> </br></p></li>
+<li><p><a href="Disciplinas/EmentaME810_2S2018.pdf">ME810 A - Estágio Supervisionado</a> </br></p></li>
+<li><p><a href="Disciplinas/EmentaME712e812_2S2018.pdf">ME812 A - Consultoria Estatística II</a> </br></p></li>
+<li><p><a href="Disciplinas/EmentaME850_2S2018.pdf">ME850 A - Seminários de Estatística</a></p></li>
+</ul>
+</p>
+</div>
+<div id="1S2018" class="tabcontent">
+</br>
+<h3>
+Primeiro Semestre de 2018
+</h3>
+<p>
+<p></br></p>
+<ul>
+<li><p><a href="me111_1s2018.html">ME111 A e B - Laboratório de Estatística</a> </br></p></li>
+<li><p><a href="me639_1s2018.html">ME639 A - Metodologias e Técnicas de Pesquisa</a> </br></p></li>
+<li><p><a href="Disciplinas/EmentaME710_1s2018.pdf">ME710 A - Assessoria Estatística</a> </br></p></li>
+<li><p><a href="Disciplinas/EmentaME712_1s2018.pdf">ME712 A - Consultoria Estatística I</a> </br></p></li>
+<li><p><a href="Disciplinas/EmentaME810_1s2018.pdf">ME810 A - Estágio Supervisionado</a> </br></p></li>
+<li><p><a href="Disciplinas/EmentaME850_1s2018.pdf">ME850 A - Seminários de Estatística</a></p></li>
+</ul>
+</p>
+</div>
+<div id="2S2017" class="tabcontent">
+</br>
+<h3>
+Segundo Semestre de 2017
+</h3>
+<p>
+<p></br></p>
+<ul>
+<li>ME414 H - Estatística para Experimentalistas</li>
+</ul>
+</p>
 </div>
 <script>
-function openCity(evt, cityName) {
+function openE(evt, cityName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
@@ -479,35 +545,13 @@ function openCity(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
 </script>
-<div id="s2018" class="section level4">
-<h4>2S2018</h4>
-<ul>
-<li><p><a href="me414_2s2018.html">ME414 A - Estatística para Experimentalistas</a> </br></p></li>
-<li><p><a href="Disciplinas/EmentaME710_2S2018.pdf">ME710 A - Assessoria Estatística</a> </br></p></li>
-<li><p><a href="Disciplinas/EmentaME712e812_2S2018.pdf">ME712 A - Consultoria Estatística I</a> </br></p></li>
-<li><p><a href="Disciplinas/EmentaME810_2S2018.pdf">ME810 A - Estágio Supervisionado</a> </br></p></li>
-<li><p><a href="Disciplinas/EmentaME712e812_2S2018.pdf">ME812 A - Consultoria Estatística II</a> </br></p></li>
-<li><p><a href="Disciplinas/EmentaME850_2S2018.pdf">ME850 A - Seminários de Estatística</a> </br></p></li>
-</ul>
-</div>
-<div id="s2018-1" class="section level4">
-<h4>1S2018</h4>
-<ul>
-<li><p><a href="me111_1s2018.html">ME111 A e B - Laboratório de Estatística</a> </br></p></li>
-<li><p><a href="me639_1s2018.html">ME639 A - Metodologias e Técnicas de Pesquisa</a> </br></p></li>
-<li><p><a href="Disciplinas/EmentaME710_1s2018.pdf">ME710 A - Assessoria Estatística</a> </br></p></li>
-<li><p><a href="Disciplinas/EmentaME712_1s2018.pdf">ME712 A - Consultoria Estatística I</a> </br></p></li>
-<li><p><a href="Disciplinas/EmentaME810_1s2018.pdf">ME810 A - Estágio Supervisionado</a> </br></p></li>
-<li><p><a href="Disciplinas/EmentaME850_1s2018.pdf">ME850 A - Seminários de Estatística</a> </br></p></li>
-</ul>
-</div>
-<div id="s2017-1" class="section level4">
-<h4>2S2017</h4>
-<ul>
-<li>ME414 H - Estatística para Experimentalistas</li>
-</ul>
+<p> </p>
 <p></br></p>
+<!-- ----------------------------------------- -->
 <p class="outset">
 </p>
 <div id="footer">
@@ -519,7 +563,6 @@ function openCity(evt, cityName) {
 <p><img src="imagens/logoimecc.png" width="50" height="50"></p>
 </div>
 </p>
-</div>
 </div>
 </div>
 
