@@ -1,5 +1,5 @@
 ---
-title: "Larissa Avila Matos" #espaço:\_\_\_\_\_ 
+title: "Larissa Avila Matos \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  [<i class='fas fa-images' style='font-size:20px'></i>](fotos.html) " 
 output:
   html_document:
     fig_width: 1
