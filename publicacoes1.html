@@ -342,9 +342,70 @@ $(document).ready(function () {
 </div>
 
 
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+height: 100%;
+margin: 0;
+font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+background-color: #999999;
+color: white;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 8px 8px;
+font-size: 15px;
+width: 20%;
+}
+
+.tablink:hover {
+background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+color: #737373;
+display: none;
+padding: 40px 20px;
+height: 100%;
+font-size: 13px;
+font-family: 'Open Sans';
+font-style: normal;
+}
+
+#AC {background-color: white;}
+#RT {background-color: white;}
+#Pck {background-color: white;}
+#Ev {background-color: white;}
+</style>
 <hr />
-<div id="artigos-científicos" class="section level3">
-<h3>Artigos Científicos</h3>
+<button class="tablink" onclick="openPage('AC', this, 'DarkRed')" id="defaultOpen">
+Artigos
+</button>
+<button class="tablink" onclick="openPage('Sub', this, 'DarkRed')">
+Submetidos
+</button>
+<button class="tablink" onclick="openPage('RT', this, 'DarkRed')">
+Relatórios
+</button>
+<button class="tablink" onclick="openPage('Pck', this, 'DarkRed')">
+Pacotes
+</button>
+<button class="tablink" onclick="openPage('Ev', this, 'DarkRed')">
+Eventos
+</button>
+<div id="AC" class="tabcontent">
+<h3>
+Artigos Científicos
+</h3>
+<p>
 <p class="ptitle">
  
 </p>
@@ -368,12 +429,15 @@ $(document).ready(function () {
 <li>
 <p><strong>MATOS, LARISSA A.</strong>; PRATES, MARCOS O.; CHEN, MING-HUI; LACHOS, VICTOR H. <em>Likelihood Based Inference Mixed-Effects Models with Censored Responses Using the Multivariate-t Distribution.</em> Statistica Sinica, v. 23, p. 1323-1345, 2013. <a href="https://www.jstor.org/stable/24310797?casa_token=M6ta3whn1KwAAAAA:ufWMXvGQRiHve3_lOgpXTDp8hJTCk-I4_YNUet8rY0iSpveLNEsLkarqhji6npYGYRYYnL919UoaQ9qS356eu0cCTQ2l1RaEMgU_Vk-RDql_CfEPYWkd#metadata_info_tab_contents"><i class="fas fa-link"></i></a>  </br></p>
 <li>
-<p><strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H.; BALAKRISHNAN, N.; LABRA, FILIDOR V. <em>Influence diagnostics in linear and nonlinear mixed-effects models with censored data.</em> Computational Statistics &amp; Data Analysis (Print), v. 57, p. 450-464, 2013. <a href="https://www.sciencedirect.com/science/article/pii/S0167947312002629"><i class="fas fa-link"></i></a>  </br></p>
+<strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H.; BALAKRISHNAN, N.; LABRA, FILIDOR V. <em>Influence diagnostics in linear and nonlinear mixed-effects models with censored data.</em> Computational Statistics &amp; Data Analysis (Print), v. 57, p. 450-464, 2013. <a href="https://www.sciencedirect.com/science/article/pii/S0167947312002629"><i class="fas fa-link"></i></a>  </br>
 </ol>
-<hr />
+</p>
 </div>
-<div id="submetidos-under-review" class="section level3">
-<h3>Submetidos (Under review)</h3>
+<div id="Sub" class="tabcontent">
+<h3>
+Under review
+</h3>
+<p>
 <p class="ptitle">
  
 </p>
@@ -391,12 +455,15 @@ $(document).ready(function () {
 <li>
 <p>ALENCAR, FRANCISCO H.C.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. (2020+) <em>Finite Mixture of Censored Linear Mixed Models for Irregularly Observed Longitudinal Data.</em> The Canadian Journal of Statistics (Under review).  </br></p>
 <li>
-<p>ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. (2020+) <em>Finite Mixture Modeling of Censored and Missing Data Using the Multivariate Skew-Normal Distribution.</em> Advances and Data Analysis and Classification (Under review).  </br></p>
+ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. (2020+) <em>Finite Mixture Modeling of Censored and Missing Data Using the Multivariate Skew-Normal Distribution.</em> Advances and Data Analysis and Classification (Under review).  </br>
 </ol>
-<hr />
+</p>
 </div>
-<div id="relatórios-técnicos" class="section level3">
-<h3>Relatórios Técnicos</h3>
+<div id="RT" class="tabcontent">
+<h3>
+Relatórios Técnicos
+</h3>
+<p>
 <p class="ptitle">
  
 </p>
@@ -412,12 +479,15 @@ $(document).ready(function () {
 <li>
 <p>MATTOS, THALITA B.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. (2019). <em>A Semiparametric Mixed-Effects Model for Censored Longitudinal Data.</em> Technical Report, 19-15, University of Connecticut.  </br></p>
 <li>
-<p>BARBOSA, T. S.; LACHOS, VICTOR H.; <strong>MATOS, LARISSA A.</strong>; PRATES, MARCOS O. (2016). <em>Estimation in Spatial Models with Censored Response.</em>  </br></p>
+BARBOSA, T. S.; LACHOS, VICTOR H.; <strong>MATOS, LARISSA A.</strong>; PRATES, MARCOS O. (2016). <em>Estimation in Spatial Models with Censored Response.</em>  </br>
 </ol>
-<hr />
+</p>
 </div>
-<div id="programas-de-computador-sem-registro" class="section level3">
-<h3>Programas de computador sem registro</h3>
+<div id="Pck" class="tabcontent">
+<h3>
+Programas de computador sem registro
+</h3>
+<p>
 <p class="ptitle">
  
 </p>
@@ -435,12 +505,15 @@ $(document).ready(function () {
 <li>
 <p><a href="https://cran.r-project.org/web/packages/CensRegMod/index.html"><code>CensRegMod</code></a>: <em>Fits Normal and Student-t Censored Regression Model.</em> (2015). <!-- MASSUIA, MONIQUE B.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H.  -->  </br></p>
 <li>
-<p><a href="https://cran.r-project.org/web/packages/tlmec/index.html"><code>tlmec</code></a>: <em>Linear Student-t Mixed-Effects Models with Censored Data.</em> (2011). <!--  **MATOS, LARISSA A.**; PRATES, MARCOS O.; LACHOS, VICTOR H.  -->  </br></p>
+<a href="https://cran.r-project.org/web/packages/tlmec/index.html"><code>tlmec</code></a>: <em>Linear Student-t Mixed-Effects Models with Censored Data.</em> (2011). <!--  **MATOS, LARISSA A.**; PRATES, MARCOS O.; LACHOS, VICTOR H.  -->  </br>
 </ol>
-<hr />
+</p>
 </div>
-<div id="participação-em-eventos" class="section level3">
-<h3>Participação em eventos</h3>
+<div id="Ev" class="tabcontent">
+<h3>
+Participação em eventos
+</h3>
+<p>
 <p class="ptitle">
  
 </p>
@@ -462,9 +535,29 @@ $(document).ready(function () {
 <li>
 <p>XV EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data. 2017. (Congresso). <a href="Apresentacoes/17_EMR.pdf">Apresentação.</a>  </br></p>
 <li>
-<p>CLATSE - CONGRESO LATINOAMERICANO DE SOCIEDADES DE ESTADÍSTICA. Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data. 2016. (Congresso). <a href="Apresentacoes/16_CLATSE.pdf">Apresentação.</a>  </br></p>
+CLATSE - CONGRESO LATINOAMERICANO DE SOCIEDADES DE ESTADÍSTICA. Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data. 2016. (Congresso). <a href="Apresentacoes/16_CLATSE.pdf">Apresentação.</a>  </br>
 </ol>
-<p></br></p>
+</p>
+</div>
+<script>
+function openPage(pageName,elmnt,color) {
+var i, tabcontent, tablinks;
+tabcontent = document.getElementsByClassName("tabcontent");
+for (i = 0; i < tabcontent.length; i++) {
+tabcontent[i].style.display = "none";
+}
+tablinks = document.getElementsByClassName("tablink");
+for (i = 0; i < tablinks.length; i++) {
+tablinks[i].style.backgroundColor = "";
+}
+document.getElementById(pageName).style.display = "block";
+elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+<!-- ----------------------------------------- -->
 <p class="outset">
 </p>
 <div id="footer">
@@ -476,7 +569,6 @@ $(document).ready(function () {
 <p><img src="imagens/logoimecc.png" width="50" height="50"></p>
 </div>
 </p>
-</div>
 </div>
 
 

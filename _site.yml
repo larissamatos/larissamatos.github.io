@@ -15,7 +15,7 @@ navbar:
       href: ensino.html
     - text: Publicações
       icon: fa-sticky-note
-      href: publicacoes.html
+      href: publicacoes1.html
     - text: Alunos
       icon: fa-users
       menu:  # menu nao funciona com include: after_body: footer.html   
