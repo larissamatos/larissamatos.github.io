@@ -346,13 +346,18 @@ $(document).ready(function () {
 * {box-sizing: border-box}
 body {font-family: Open Sans;}
 
+h3a { /* Header 3*/
+    font-size: 20px;
+    color: #4d4d4d;
+}
+
 /* Style the tab */
 .tab {
   float: left;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
   width: 15%;
-  height: 262px;
+  height: 400px;
 }
 
 /* Style the buttons inside the tab */
@@ -389,7 +394,7 @@ body {font-family: Open Sans;}
   border: 1px solid #ccc;
   width: 85%;
   border-left: none;
-  height: 262px;
+  height: 400px;
   font-size: 13px;
   font-family: 'Open Sans';
   font-style: normal;
@@ -415,117 +420,77 @@ body {font-family: Open Sans;}
  
 </p>
 <div class="tab">
-<button class="tablinks" onclick="openE(event, '2S2020')">
-2S2020
+<button class="tablinks" onclick="openE(event, '2020')" id="defaultOpen">
+2020
 </button>
-<button class="tablinks" onclick="openE(event, '1S2020')" id="defaultOpen">
-1S2020
+<button class="tablinks" onclick="openE(event, '2019')">
+2019
 </button>
-<button class="tablinks" onclick="openE(event, '2S2019')">
-2S2019
+<button class="tablinks" onclick="openE(event, '2018')">
+2018
 </button>
-<button class="tablinks" onclick="openE(event, '1S2019')">
-1S2019
-</button>
-<button class="tablinks" onclick="openE(event, '2S2018')">
-2S2018
-</button>
-<button class="tablinks" onclick="openE(event, '1S2018')">
-1S2018
-</button>
-<button class="tablinks" onclick="openE(event, '2S2017')">
-2S2017
+<button class="tablinks" onclick="openE(event, '2017')">
+2017
 </button>
 </div>
-<div id="2S2020" class="tabcontent">
-</br>
-<h3>
-Segundo Semestre de 2020
-</h3>
-<p>
-</br> .
-</p>
-</div>
-<div id="1S2020" class="tabcontent">
-</br>
-<h3>
-Primeiro Semestre de 2020
-</h3>
-<p>
+<div id="2020" class="tabcontent">
 <p></br></p>
+<h3a>Segundo Semestre de 2020</h3a>
+<p>
+</p>
+<p></br></p>
+<h3a>Primeiro Semestre de 2020</h3a>
+<p>
 <ul>
-<li><p><a href="me951_1s2020.html">ME951 A - Estatística e ProbabilidadeI</a> </br></p></li>
+<li><p><a href="me951_1s2020.html">ME951 A</a> - Estatística e ProbabilidadeI </br></p></li>
 <li><p>ME712 A - Consultoria Estatística I </br></p></li>
 <li><p>ME812 A - Consultoria Estatística II</p></li>
 </ul>
 </p>
 </div>
-<div id="2S2019" class="tabcontent">
-</br>
-<h3>
-Segundo Semestre de 2019
-</h3>
-<p>
+<div id="2019" class="tabcontent">
 <p></br></p>
+<h3a>Segundo Semestre de 2019</h3a>
+<p>
 <ul>
-<li><p><a href="me414_2s2019.html">ME414 H - Estatística para Experimentalistas</a> </br></p></li>
-<li><p><a href="me720_2s2019.html">ME720 A - Modelos Lineares Generalizados</a></p></li>
+<li><p><a href="me414_2s2019.html">ME414 H</a> - Estatística para Experimentalistas </br></p></li>
+<li><p><a href="me720_2s2019.html">ME720 A</a> - Modelos Lineares Generalizados</p></li>
+</ul>
+</p>
+<p></br></p>
+<h3a>Primeiro Semestre de 2019</h3a>
+<p>
+<ul>
+<li><a href="me951_1s2019.html">ME951 A</a> - Estatística e Probabilidade I</li>
 </ul>
 </p>
 </div>
-<div id="1S2019" class="tabcontent">
-</br>
-<h3>
-Primeiro Semestre de 2019
-</h3>
-<p>
+<div id="2018" class="tabcontent">
 <p></br></p>
+<h3a>Segundo Semestre de 2018</h3a>
+<p>
 <ul>
-<li><a href="me951_1s2019.html">ME951 A - Estatística e ProbabilidadeI</a></li>
+<li><p><a href="me414_2s2018.html">ME414 A</a> - Estatística para Experimentalistas </br></p></li>
+<li><p><a href="Disciplinas/EmentaME710_2S2018.pdf">ME710 A</a> e <a href="Disciplinas/EmentaME810_2S2018.pdf">ME810 A</a> - Assessoria Estatística e Estágio Supervisionado </br></p></li>
+<li><p><a href="Disciplinas/EmentaME712e812_2S2018.pdf">ME712 A</a> e <a href="Disciplinas/EmentaME712e812_2S2018.pdf">ME812 A</a> - Consultoria Estatística I e II </br></p></li>
+<li><p><a href="Disciplinas/EmentaME850_2S2018.pdf">ME850 A</a> - Seminários de Estatística</p></li>
+</ul>
+</p>
+<p></br></p>
+<h3a>Primeiro Semestre de 2018</h3a>
+<p>
+<ul>
+<li><p><a href="me111_1s2018.html">ME111 A e B</a> - Laboratório de Estatística </br></p></li>
+<li><p><a href="me639_1s2018.html">ME639 A</a> - Metodologias e Técnicas de Pesquisa </br></p></li>
+<li><p><a href="Disciplinas/EmentaME710_1s2018.pdf">ME710 A</a> e <a href="Disciplinas/EmentaME810_1s2018.pdf">ME810 A</a> - Assessoria Estatística e Estágio Supervisionado </br></p></li>
+<li><p><a href="Disciplinas/EmentaME712_1s2018.pdf">ME712 A</a> - Consultoria Estatística I </br></p></li>
+<li><p><a href="Disciplinas/EmentaME850_1s2018.pdf">ME850 A</a> - Seminários de Estatística</p></li>
 </ul>
 </p>
 </div>
-<div id="2S2018" class="tabcontent">
-</br>
-<h3>
-Segundo Semestre de 2018
-</h3>
+<div id="2017" class="tabcontent">
+</br> <h3a>Segundo Semestre de 2017</h3a>
 <p>
-<p></br></p>
-<ul>
-<li><p><a href="me414_2s2018.html">ME414 A - Estatística para Experimentalistas</a> </br></p></li>
-<li><p><a href="Disciplinas/EmentaME710_2S2018.pdf">ME710 A - Assessoria Estatística</a> </br></p></li>
-<li><p><a href="Disciplinas/EmentaME712e812_2S2018.pdf">ME712 A - Consultoria Estatística I</a> </br></p></li>
-<li><p><a href="Disciplinas/EmentaME810_2S2018.pdf">ME810 A - Estágio Supervisionado</a> </br></p></li>
-<li><p><a href="Disciplinas/EmentaME712e812_2S2018.pdf">ME812 A - Consultoria Estatística II</a> </br></p></li>
-<li><p><a href="Disciplinas/EmentaME850_2S2018.pdf">ME850 A - Seminários de Estatística</a></p></li>
-</ul>
-</p>
-</div>
-<div id="1S2018" class="tabcontent">
-</br>
-<h3>
-Primeiro Semestre de 2018
-</h3>
-<p>
-<p></br></p>
-<ul>
-<li><p><a href="me111_1s2018.html">ME111 A e B - Laboratório de Estatística</a> </br></p></li>
-<li><p><a href="me639_1s2018.html">ME639 A - Metodologias e Técnicas de Pesquisa</a> </br></p></li>
-<li><p><a href="Disciplinas/EmentaME710_1s2018.pdf">ME710 A - Assessoria Estatística</a> </br></p></li>
-<li><p><a href="Disciplinas/EmentaME712_1s2018.pdf">ME712 A - Consultoria Estatística I</a> </br></p></li>
-<li><p><a href="Disciplinas/EmentaME810_1s2018.pdf">ME810 A - Estágio Supervisionado</a> </br></p></li>
-<li><p><a href="Disciplinas/EmentaME850_1s2018.pdf">ME850 A - Seminários de Estatística</a></p></li>
-</ul>
-</p>
-</div>
-<div id="2S2017" class="tabcontent">
-</br>
-<h3>
-Segundo Semestre de 2017
-</h3>
-<p>
-<p></br></p>
 <ul>
 <li>ME414 H - Estatística para Experimentalistas</li>
 </ul>
