@@ -38,12 +38,12 @@ a:hover {
 
 .column-left{
     float: left;
-    width: 25%;
-    text-align: left;
+    width: 30%;
+    text-align: center;
   }
 .column-right{
   float: right;
-  width: 75%;
+  width: 70%;
   text-align: left;
 }
 .column{
