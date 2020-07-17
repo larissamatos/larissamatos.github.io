@@ -12,7 +12,7 @@ navbar:
       href: informacoes.html
     - text: Ensino
       icon: fa-book
-      href: ensino.html
+      href: ensino1.html
     - text: Publicações
       icon: fa-sticky-note
       href: publicacoes1.html
