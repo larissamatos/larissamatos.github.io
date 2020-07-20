@@ -1,0 +1,210 @@
+---
+title: "<i class='fas fa-images' style='font-size:20px'></i>  Fotos"
+output:
+html_document:
+fig_width: 1
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(magick)
+```
+
+<style>
+.column-f5{
+float: left;
+width: 14.28%;
+text-align: center;
+}
+.column-f2c{
+float: left;
+width: 33.33%;
+text-align: center;
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+</style>
+
+----
+
+#### Departamento de Estatística - IMECC/Unicamp
+<p class="ptitle"> \ </p>
+
+<div class="row">
+<div class="column-f2c">
+<figure><img src="imagens/fotos/DE2.jpg", width = "90%">
+<figcaption> <p class="cc3"> DE </p></figcaption>
+</figure>
+</div>
+<div class="column-f2c">
+<figure><img src="imagens/fotos/DE5.png", width="71%" >
+<figcaption> <p class="cc3"> =D </p></figcaption>
+</figure>
+</div>
+<div class="column-f2c">
+</div>
+</div>
+
+</br>
+
+----
+
+#### Congressos
+<p class="ptitle"> \ </p>
+
+<div class="row">
+<div class="column-f2c">
+<figure><img src="imagens/fotos/C20_F1.png", width = "88%">
+<figcaption> <p class="cc3"> 2020 - 8th WPSM - São Carlos/SP </p></figcaption>
+</figure>
+</div>
+<div class="column-f2c">
+<figure><img src="imagens/fotos/C19_F4.jpeg", width = "93%">
+<figcaption> <p class="cc3"> 2019 - VI WASA - Piracicaba/SP </p></figcaption>
+</figure>
+</div>
+<div class="column-f2c">
+<figure><img src="imagens/fotos/C19_F3.png", width="88%" >
+<figcaption> <p class="cc3"> 2019 - 3rd EcoSta - Taichung/Taiwan </p></figcaption>
+</div>
+</div>
+
+</br>
+
+<div class="row">
+<div class="column-f2c">
+<figure><img src="imagens/fotos/C19_F2.png", width="88%" >
+<figcaption> <p class="cc3"> 2019 - 33th NESS - Hartford/USA </p></figcaption>
+</div>
+<div class="column-f2c">
+<figure><img src="imagens/fotos/C19_F1.png", width = "87%">
+<figcaption> <p class="cc3"> 2019 - XVI EMR -  Pirenópolis/GO </p></figcaption>
+</figure>
+</div>
+<div class="column-f2c">
+<figure><img src="imagens/fotos/C18_F1.png", width="86%" >
+<figcaption> <p class="cc3"> 2018 - 23º SINAPE - São Pedro/SP </p></figcaption>
+</figure>
+</div>
+</div>
+
+</br>
+
+<div class="row">
+<div class="column-f2c">
+<figure><img src="imagens/fotos/C17_F2.png", width="88%" >
+<figcaption> <p class="cc3"> 2017 - 10th CMStatistics - London/UK  </p></figcaption>
+</div>
+<div class="column-f2c">
+<figure><img src="imagens/fotos/C17_F11.png", width = "88%">
+<figcaption> <p class="cc3"> 2017 - XV EMR -  Goiânia/GO </p></figcaption>
+</figure>
+</div>
+<div class="column-f2c">
+<figure><img src="imagens/fotos/C16_F1.jpg", width="88%" >
+<figcaption> <p class="cc3"> 2016 - CLATSE - Chiclayo/Peru </p></figcaption>
+</figure>
+</div>
+</div>
+
+</br>
+
+<div class="row">
+<div class="column-f2c">
+<figure><img src="imagens/fotos/C15_F1.png", width = "90%">
+<figcaption> <p class="cc3"> 2015 - XIV EMR - Campinas/SP </p></figcaption>
+</figure>
+</div>
+<div class="column-f2c">
+<figure><img src="imagens/fotos/C13_F1.png", width="87%" >
+<figcaption> <p class="cc3"> 2013 - 28th IWSM - Palermo/Italy </p></figcaption>
+</figure>
+</div>
+<div class="column-f2c">
+<figure><img src="imagens/fotos/C13_F2.jpg", width="89%" >
+<figcaption> <p class="cc3"> 2013 - III WASA - Campinas/SP  </p></figcaption>
+</div>
+</div>
+
+</br>
+
+<div class="row">
+<div class="column-f2c">
+
+<figcaption> <p class="cc3"> 2012 - 20º SINAPE - João Pessoa/PB </p></figcaption>
+</figure>
+</div>
+<div class="column-f2c">
+
+<figcaption> <p class="cc3"> 2012 - 27th IWSM - Prague/Czech Republic </p></figcaption>
+</figure>
+</div>
+<div class="column-f2c">
+<figure><img src="imagens/fotos/C11_F1.jpg", width="87%" >
+<figcaption> <p class="cc3"> 2011 - 14ª ESTE - Gramado/RS </p></figcaption>
+</div>
+</div>
+
+</br>
+
+----
+
+#### Trajetória acadêmica
+<p class="ptitle"> \ </p>
+
+<div class="row">
+<div class="column-f2c">
+<figure><img src="imagens/fotos/E1_Grad.jpg", width = "88%">
+<figcaption> <p class="cc3"> Graduação </p></figcaption>
+</figure>
+</div>
+<div class="column-f2c">
+<figure><img src="imagens/fotos/E2_mest.jpg", width = "99%">
+<figcaption> <p class="cc3"> Defesa Mestrado </p></figcaption>
+</figure>
+</div>
+<div class="column-f2c">
+<figure><img src="imagens/fotos/E4_QualiO.jpg", width="88%" >
+<figcaption> <p class="cc3"> Qualificação Doutorado </p></figcaption>
+</figure>
+</div>
+</div>
+
+</br>
+
+<div class="row">
+<div class="column-f2c">
+<figure><img src="imagens/fotos/E3_QualiE.jpg", width = "89%">
+<figcaption> <p class="cc3"> Qualificação Escrita Doutorado </p></figcaption>
+</figure>
+</div>
+<div class="column-f2c">
+<figure><img src="imagens/fotos/Chen.jpg", width = "99%">
+<figcaption> <p class="cc3"> Uconn - Chen </p></figcaption>
+</figure>
+</div>
+<div class="column-f2c">
+<figure><img src="imagens/fotos/E6_Dout1.png", width = "90%">
+<figcaption> <p class="cc3"> Defesa Doutorado </p></figcaption>
+</figure>
+</div>
+</div>
+
+</br>
+
+<!-- ----------------------- -->
+
+<p class="outset"></p>
+<div id="footer">
+<p>
+<div class="column-f1">
+<img src="imagens/logo-unicamp1.png" width="120" height="55">
+</div>
+<div class="column-f2">
+<img src="imagens/logoimecc.png" width="50" height="50">
+</div>
+</p>
+</div>

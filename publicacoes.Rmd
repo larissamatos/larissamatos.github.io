@@ -1,16 +1,70 @@
 ---
 title: "<i class='fas fa-sticky-note' style='font-size:20px'></i> Publicações"
 output:
-  html_document:
-    fig_width: 1
-    toc_float: false
+html_document:
+fig_width: 1
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(magick)
+```
+
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+height: 100%;
+margin: 0;
+font-family: Open Sans;
+}
+
+/* Style tab links */
+.tablink {
+background-color: #999999;
+color: white;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 8px 8px;
+font-size: 15px;
+width: 25%;
+}
+
+.tablink:hover {
+background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+color: #737373;
+display: none;
+padding: 40px 20px;
+height: 100%;
+font-size: 13px;
+font-family: 'Open Sans';
+font-style: normal;
+}
+
+#AC {background-color: white;}
+#RT {background-color: white;}
+#Pck {background-color: white;}
+#Ev {background-color: white;}
+</style>
 
 ----
 
-### Artigos Científicos
-<p class="ptitle"> \ </p>
+<button class="tablink" onclick="openPage('AC', this, 'DarkRed')"id="defaultOpen">Artigos</button>
+<button class="tablink" onclick="openPage('RT', this, 'DarkRed')">Relatórios</button>
+<button class="tablink" onclick="openPage('Pck', this, 'DarkRed')">Pacotes</button>
+<button class="tablink" onclick="openPage('Ev', this, 'DarkRed')">Eventos</button>
 
+<div id="AC" class="tabcontent">
+<h3>Artigos Científicos</h3>
+<p>
+<p class="ptitle"> \ </p>
 <ol reversed>
 
 <li> LEMUS, MARCELA N.; LACHOS, VICTOR H.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.** (2020+) *Estimation and Diagnostics for Partially Censored Regression Models Based on Heavy-Tailed Distributions.* Statistics and its Interface (Aceito). \medskip </li>
@@ -42,14 +96,15 @@ output:
 
 <li>  **MATOS, LARISSA A.**; LACHOS, VICTOR H.; BALAKRISHNAN, N.; LABRA, FILIDOR V. *Influence diagnostics in linear and nonlinear mixed-effects models with censored data.* Computational Statistics & Data Analysis (Print), v. 57, p. 450-464, 2013. [<i class="fas fa-link"></i>](https://www.sciencedirect.com/science/article/pii/S0167947312002629) \medskip </li>
 </br>
-
 </ol>
 
-----
+</p>
+</div>
 
-### Submetidos (Under review)
+<div id="RT" class="tabcontent">
+<h3>Artigos Científico (under review)</h3>
+<p>
 <p class="ptitle"> \ </p>
-
 <ol reversed>
 
 <li> MATTOS,	THALITA B.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2020+)	*Likelihood-based inference for mixed-effects models with censored response using skew-normal distribution.* International Journal of Biostatistics (Under review).\medskip </li>
@@ -72,12 +127,14 @@ output:
 
 <li> ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H. (2020+)	*Finite Mixture Modeling of Censored and Missing Data Using the Multivariate Skew-Normal Distribution.*  Advances and Data Analysis and Classification (Under review). \medskip </li>
 </br>
-
 </ol>
+
+</p>
 
 ----
 
-### Relatórios Técnicos
+<h3>Relatórios Técnicos</h3>
+<p>
 <p class="ptitle"> \ </p>
 
 <ol reversed>
@@ -97,15 +154,16 @@ output:
 <li> MATTOS,	THALITA B.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2019).	*A Semiparametric Mixed-Effects Model for Censored Longitudinal Data.* Technical Report, 19-15, University of Connecticut. \medskip </li>
 </br>
 
-
 <li> BARBOSA, T. S.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.**; PRATES, MARCOS O. (2016). *Estimation in Spatial Models with Censored Response.* \medskip </li>
 </br>
-
 </ol>
 
----- 
+</p>
+</div>
 
-### Programas de computador sem registro
+<div id="Pck" class="tabcontent">
+<h3>Programas de computador sem registro</h3>
+<p>
 <p class="ptitle"> \ </p>
 
 <ol reversed>
@@ -142,42 +200,64 @@ output:
  <!--  **MATOS, LARISSA A.**; PRATES, MARCOS O.; LACHOS, VICTOR H.  -->
 \medskip </li>
 </br>
-
 </ol>
 
----- 
+</p>
+</div>
 
-### Participação em eventos
+<div id="Ev" class="tabcontent">
+<h3>Participação em eventos</h3>
+<p>
 <p class="ptitle"> \ </p>
 
 <ol reversed>
 
-<li> 8th Workshop on Probabilistic and Statistical Methods. A semiparametric mixed-effects model for censored longitudinal data. [Apresentação.](Apresentacoes/20_WPSM.pdf) \medskip </li>
+<li> 8th Workshop on Probabilistic and Statistical Methods. A semiparametric mixed-effects model for censored longitudinal data (2020). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/20_WPSM.pdf) \medskip </li>
 
-<li> VI Workshop em Análise de Sobrevivência e Aplicações (WASA 2019). Longitudinal Models for Multiple Censored Responses Data. 2019. [Pôster.](Apresentacoes/19_Wasa.pdf) 
+<li> VI Workshop em Análise de Sobrevivência e Aplicações (WASA 2019). Longitudinal Models for Multiple Censored Responses Data (2019). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/19_Wasa.pdf) 
 
-<li> 3rd International Conference on Econometrics and Statistics (EcoSta 2019). Estimation for partially linear censored regression models based on heavy tailed distributions. 2019. [Apresentação.](Apresentacoes/19_EcoSta.pdf) \medskip </li>
+<li> 3rd International Conference on Econometrics and Statistics (EcoSta 2019). Estimation for partially linear censored regression models based on heavy tailed distributions (2019). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/19_EcoSta.pdf) \medskip </li>
 
-<li> 33rd New England Statistics Symposium (NESS). Flexible longitudinal linear mixed models for multiple censored responses data. 2019. [Apresentação.](Apresentacoes/19_NESS.pdf) \medskip </li>
+<li> 33rd New England Statistics Symposium (NESS). Flexible longitudinal linear mixed models for multiple censored responses data (2019). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/19_NESS.pdf) \medskip </li>
 
-<li> XVI EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Estimation and diagnostics for partially linear censored regression models based on heavy-tailed distributions. 2019. [Apresentação.](Apresentacoes/19_EMR.pdf) \medskip </li>
+<li> XVI EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Estimation and diagnostics for partially linear censored regression models based on heavy-tailed distributions (2019). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/19_EMR.pdf) \medskip </li>
 
-<li> 23º SINAPE - Simpósio Nacional de Probabilidade e Estatística. Estimação e diagnóstico em modelos multivariados para dados censurados. 2018. (Simpósio). [Apresentação.](Apresentacoes/18_SINAPE.pdf) \medskip </li>
+<li> 23º SINAPE - Simpósio Nacional de Probabilidade e Estatística. Estimação e diagnóstico em modelos multivariados para dados censurados (2018). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/18_SINAPE.pdf) \medskip </li>
 </br>
 
-<li> 10th International Conference of the ERCIM WG on Computational and Methodological Statistics. Heavy-tailed longitudinal regression models for censored data: A likelihood based perspective. 2017. (Congresso). [Apresentação.](Apresentacoes/17_CMStatistics.pdf) \medskip </li>
+<li> 10th International Conference of the ERCIM WG on Computational and Methodological Statistics. Heavy-tailed longitudinal regression models for censored data: A likelihood based perspective (2017). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/17_CMStatistics.pdf) \medskip </li>
 </br>
 
-<li> XV EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data. 2017. (Congresso). [Apresentação.](Apresentacoes/17_EMR.pdf) \medskip </li>
+<li> XV EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data (2017). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/17_EMR.pdf) \medskip </li>
 </br>
 
-<li> CLATSE - CONGRESO LATINOAMERICANO DE SOCIEDADES DE ESTADÍSTICA. Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data. 2016. (Congresso). [Apresentação.](Apresentacoes/16_CLATSE.pdf) \medskip </li>
+<li> CLATSE - CONGRESO LATINOAMERICANO DE SOCIEDADES DE ESTADÍSTICA. Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data (2016). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/16_CLATSE.pdf) \medskip </li>
 </br>
-
 </ol>
 
-</br>
+</p> 
+</div>
 
+<script>
+function openPage(pageName,elmnt,color) {
+var i, tabcontent, tablinks;
+tabcontent = document.getElementsByClassName("tabcontent");
+for (i = 0; i < tabcontent.length; i++) {
+tabcontent[i].style.display = "none";
+}
+tablinks = document.getElementsByClassName("tablink");
+for (i = 0; i < tablinks.length; i++) {
+tablinks[i].style.backgroundColor = "";
+}
+document.getElementById(pageName).style.display = "block";
+elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+<!-- ----------------------------------------- -->
 <p class="outset"></p>
 <div id="footer">
 <p>

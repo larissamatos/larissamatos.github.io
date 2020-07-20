@@ -291,14 +291,14 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="ensino1.html">
+  <a href="ensino.html">
     <span class="fa fa-book"></span>
      
     Ensino
   </a>
 </li>
 <li>
-  <a href="publicacoes1.html">
+  <a href="publicacoes.html">
     <span class="fa fa-sticky-note"></span>
      
     Publicações
@@ -329,7 +329,7 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="foto.html">
+  <a href="fotos.html">
     <span class="fa fa-images"></span>
      
   </a>
@@ -348,9 +348,67 @@ $(document).ready(function () {
 </div>
 
 
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+height: 100%;
+margin: 0;
+font-family: Open Sans;
+}
+
+/* Style tab links */
+.tablink {
+background-color: #999999;
+color: white;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 8px 8px;
+font-size: 15px;
+width: 25%;
+}
+
+.tablink:hover {
+background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+color: #737373;
+display: none;
+padding: 40px 20px;
+height: 100%;
+font-size: 13px;
+font-family: 'Open Sans';
+font-style: normal;
+}
+
+#AC {background-color: white;}
+#RT {background-color: white;}
+#Pck {background-color: white;}
+#Ev {background-color: white;}
+</style>
 <hr />
-<div id="artigos-científicos" class="section level3">
-<h3>Artigos Científicos</h3>
+<button class="tablink" onclick="openPage('AC', this, 'DarkRed')" id="defaultOpen">
+Artigos
+</button>
+<button class="tablink" onclick="openPage('RT', this, 'DarkRed')">
+Relatórios
+</button>
+<button class="tablink" onclick="openPage('Pck', this, 'DarkRed')">
+Pacotes
+</button>
+<button class="tablink" onclick="openPage('Ev', this, 'DarkRed')">
+Eventos
+</button>
+<div id="AC" class="tabcontent">
+<h3>
+Artigos Científicos
+</h3>
+<p>
 <p class="ptitle">
  
 </p>
@@ -374,12 +432,15 @@ $(document).ready(function () {
 <li>
 <p><strong>MATOS, LARISSA A.</strong>; PRATES, MARCOS O.; CHEN, MING-HUI; LACHOS, VICTOR H. <em>Likelihood Based Inference Mixed-Effects Models with Censored Responses Using the Multivariate-t Distribution.</em> Statistica Sinica, v. 23, p. 1323-1345, 2013. <a href="https://www.jstor.org/stable/24310797?casa_token=M6ta3whn1KwAAAAA:ufWMXvGQRiHve3_lOgpXTDp8hJTCk-I4_YNUet8rY0iSpveLNEsLkarqhji6npYGYRYYnL919UoaQ9qS356eu0cCTQ2l1RaEMgU_Vk-RDql_CfEPYWkd#metadata_info_tab_contents"><i class="fas fa-link"></i></a>  </br></p>
 <li>
-<p><strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H.; BALAKRISHNAN, N.; LABRA, FILIDOR V. <em>Influence diagnostics in linear and nonlinear mixed-effects models with censored data.</em> Computational Statistics &amp; Data Analysis (Print), v. 57, p. 450-464, 2013. <a href="https://www.sciencedirect.com/science/article/pii/S0167947312002629"><i class="fas fa-link"></i></a>  </br></p>
+<strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H.; BALAKRISHNAN, N.; LABRA, FILIDOR V. <em>Influence diagnostics in linear and nonlinear mixed-effects models with censored data.</em> Computational Statistics &amp; Data Analysis (Print), v. 57, p. 450-464, 2013. <a href="https://www.sciencedirect.com/science/article/pii/S0167947312002629"><i class="fas fa-link"></i></a>  </br>
 </ol>
-<hr />
+</p>
 </div>
-<div id="submetidos-under-review" class="section level3">
-<h3>Submetidos (Under review)</h3>
+<div id="RT" class="tabcontent">
+<h3>
+Artigos Científico (under review)
+</h3>
+<p>
 <p class="ptitle">
  
 </p>
@@ -397,12 +458,14 @@ $(document).ready(function () {
 <li>
 <p>ALENCAR, FRANCISCO H.C.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. (2020+) <em>Finite Mixture of Censored Linear Mixed Models for Irregularly Observed Longitudinal Data.</em> The Canadian Journal of Statistics (Under review).  </br></p>
 <li>
-<p>ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. (2020+) <em>Finite Mixture Modeling of Censored and Missing Data Using the Multivariate Skew-Normal Distribution.</em> Advances and Data Analysis and Classification (Under review).  </br></p>
+ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. (2020+) <em>Finite Mixture Modeling of Censored and Missing Data Using the Multivariate Skew-Normal Distribution.</em> Advances and Data Analysis and Classification (Under review).  </br>
 </ol>
+</p>
 <hr />
-</div>
-<div id="relatórios-técnicos" class="section level3">
-<h3>Relatórios Técnicos</h3>
+<h3>
+Relatórios Técnicos
+</h3>
+<p>
 <p class="ptitle">
  
 </p>
@@ -418,12 +481,15 @@ $(document).ready(function () {
 <li>
 <p>MATTOS, THALITA B.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. (2019). <em>A Semiparametric Mixed-Effects Model for Censored Longitudinal Data.</em> Technical Report, 19-15, University of Connecticut.  </br></p>
 <li>
-<p>BARBOSA, T. S.; LACHOS, VICTOR H.; <strong>MATOS, LARISSA A.</strong>; PRATES, MARCOS O. (2016). <em>Estimation in Spatial Models with Censored Response.</em>  </br></p>
+BARBOSA, T. S.; LACHOS, VICTOR H.; <strong>MATOS, LARISSA A.</strong>; PRATES, MARCOS O. (2016). <em>Estimation in Spatial Models with Censored Response.</em>  </br>
 </ol>
-<hr />
+</p>
 </div>
-<div id="programas-de-computador-sem-registro" class="section level3">
-<h3>Programas de computador sem registro</h3>
+<div id="Pck" class="tabcontent">
+<h3>
+Programas de computador sem registro
+</h3>
+<p>
 <p class="ptitle">
  
 </p>
@@ -441,36 +507,59 @@ $(document).ready(function () {
 <li>
 <p><a href="https://cran.r-project.org/web/packages/CensRegMod/index.html"><code>CensRegMod</code></a>: <em>Fits Normal and Student-t Censored Regression Model.</em> (2015). <!-- MASSUIA, MONIQUE B.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H.  -->  </br></p>
 <li>
-<p><a href="https://cran.r-project.org/web/packages/tlmec/index.html"><code>tlmec</code></a>: <em>Linear Student-t Mixed-Effects Models with Censored Data.</em> (2011). <!--  **MATOS, LARISSA A.**; PRATES, MARCOS O.; LACHOS, VICTOR H.  -->  </br></p>
+<a href="https://cran.r-project.org/web/packages/tlmec/index.html"><code>tlmec</code></a>: <em>Linear Student-t Mixed-Effects Models with Censored Data.</em> (2011). <!--  **MATOS, LARISSA A.**; PRATES, MARCOS O.; LACHOS, VICTOR H.  -->  </br>
 </ol>
-<hr />
+</p>
 </div>
-<div id="participação-em-eventos" class="section level3">
-<h3>Participação em eventos</h3>
+<div id="Ev" class="tabcontent">
+<h3>
+Participação em eventos
+</h3>
+<p>
 <p class="ptitle">
  
 </p>
 <ol reversed>
 <li>
-<p>8th Workshop on Probabilistic and Statistical Methods. A semiparametric mixed-effects model for censored longitudinal data. <a href="Apresentacoes/20_WPSM.pdf">Apresentação.</a> </p>
+<p>8th Workshop on Probabilistic and Statistical Methods. A semiparametric mixed-effects model for censored longitudinal data (2020).  <a href="Apresentacoes/20_WPSM.pdf"><i class="fas fa-file-pdf"></i></a> </p>
 <li>
-<p>VI Workshop em Análise de Sobrevivência e Aplicações (WASA 2019). Longitudinal Models for Multiple Censored Responses Data. 2019. <a href="Apresentacoes/19_Wasa.pdf">Pôster.</a></p>
+<p>VI Workshop em Análise de Sobrevivência e Aplicações (WASA 2019). Longitudinal Models for Multiple Censored Responses Data (2019).  <a href="Apresentacoes/19_Wasa.pdf"><i class="fas fa-file-pdf"></i></a></p>
 <li>
-<p>3rd International Conference on Econometrics and Statistics (EcoSta 2019). Estimation for partially linear censored regression models based on heavy tailed distributions. 2019. <a href="Apresentacoes/19_EcoSta.pdf">Apresentação.</a> </p>
+<p>3rd International Conference on Econometrics and Statistics (EcoSta 2019). Estimation for partially linear censored regression models based on heavy tailed distributions (2019).  <a href="Apresentacoes/19_EcoSta.pdf"><i class="fas fa-file-pdf"></i></a> </p>
 <li>
-<p>33rd New England Statistics Symposium (NESS). Flexible longitudinal linear mixed models for multiple censored responses data. 2019. <a href="Apresentacoes/19_NESS.pdf">Apresentação.</a> </p>
+<p>33rd New England Statistics Symposium (NESS). Flexible longitudinal linear mixed models for multiple censored responses data (2019).  <a href="Apresentacoes/19_NESS.pdf"><i class="fas fa-file-pdf"></i></a> </p>
 <li>
-<p>XVI EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Estimation and diagnostics for partially linear censored regression models based on heavy-tailed distributions. 2019. <a href="Apresentacoes/19_EMR.pdf">Apresentação.</a> </p>
+<p>XVI EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Estimation and diagnostics for partially linear censored regression models based on heavy-tailed distributions (2019).  <a href="Apresentacoes/19_EMR.pdf"><i class="fas fa-file-pdf"></i></a> </p>
 <li>
-<p>23º SINAPE - Simpósio Nacional de Probabilidade e Estatística. Estimação e diagnóstico em modelos multivariados para dados censurados. 2018. (Simpósio). <a href="Apresentacoes/18_SINAPE.pdf">Apresentação.</a>  </br></p>
+<p>23º SINAPE - Simpósio Nacional de Probabilidade e Estatística. Estimação e diagnóstico em modelos multivariados para dados censurados (2018).  <a href="Apresentacoes/18_SINAPE.pdf"><i class="fas fa-file-pdf"></i></a>  </br></p>
 <li>
-<p>10th International Conference of the ERCIM WG on Computational and Methodological Statistics. Heavy-tailed longitudinal regression models for censored data: A likelihood based perspective. 2017. (Congresso). <a href="Apresentacoes/17_CMStatistics.pdf">Apresentação.</a>  </br></p>
+<p>10th International Conference of the ERCIM WG on Computational and Methodological Statistics. Heavy-tailed longitudinal regression models for censored data: A likelihood based perspective (2017).  <a href="Apresentacoes/17_CMStatistics.pdf"><i class="fas fa-file-pdf"></i></a>  </br></p>
 <li>
-<p>XV EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data. 2017. (Congresso). <a href="Apresentacoes/17_EMR.pdf">Apresentação.</a>  </br></p>
+<p>XV EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data (2017).  <a href="Apresentacoes/17_EMR.pdf"><i class="fas fa-file-pdf"></i></a>  </br></p>
 <li>
-<p>CLATSE - CONGRESO LATINOAMERICANO DE SOCIEDADES DE ESTADÍSTICA. Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data. 2016. (Congresso). <a href="Apresentacoes/16_CLATSE.pdf">Apresentação.</a>  </br></p>
+CLATSE - CONGRESO LATINOAMERICANO DE SOCIEDADES DE ESTADÍSTICA. Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data (2016).  <a href="Apresentacoes/16_CLATSE.pdf"><i class="fas fa-file-pdf"></i></a>  </br>
 </ol>
-<p></br></p>
+</p>
+</div>
+<script>
+function openPage(pageName,elmnt,color) {
+var i, tabcontent, tablinks;
+tabcontent = document.getElementsByClassName("tabcontent");
+for (i = 0; i < tabcontent.length; i++) {
+tabcontent[i].style.display = "none";
+}
+tablinks = document.getElementsByClassName("tablink");
+for (i = 0; i < tablinks.length; i++) {
+tablinks[i].style.backgroundColor = "";
+}
+document.getElementById(pageName).style.display = "block";
+elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+<!-- ----------------------------------------- -->
 <p class="outset">
 </p>
 <div id="footer">
@@ -482,7 +571,6 @@ $(document).ready(function () {
 <p><img src="imagens/logoimecc.png" width="50" height="50"></p>
 </div>
 </p>
-</div>
 </div>
 
 

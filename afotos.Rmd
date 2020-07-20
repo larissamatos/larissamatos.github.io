@@ -18,7 +18,7 @@ library(magick)
 }
 .column-f2c{
   float: left;
-  width: 50%;
+  width: 33.33%;
   text-align: center;
 }
 .row:after {
@@ -45,31 +45,31 @@ library(magick)
 
 <div class="row">
 <div class="column-f5">
-<figure><img src="imagens/fotos/Christian.png", width = "80%">
+<figure><img src="imagens/fotos/Christian.png", width = "70%">
 <figcaption> <p class="cc3"> [Christian](http://lattes.cnpq.br/1340975521059252) </p> </figcaption></figure>
 </div>
 <div class="column-f5">
-<figure><img src="imagens/fotos/Thalita.png", width = "80%">
+<figure><img src="imagens/fotos/Thalita.png", width = "70%">
 <figcaption> <p class="cc3"> [Thalita](http://lattes.cnpq.br/9500569794852267) </p> </figcaption></figure>
 </div>
 <div class="column-f5">
-<figure><img src="imagens/fotos/Hildemar.png", width = "80%">
+<figure><img src="imagens/fotos/Hildemar.png", width = "70%">
 <figcaption> <p class="cc3"> [Hildemar](http://lattes.cnpq.br/0442780507213647) </p></figcaption></figure>
 </div>
 <div class="column-f5">
-<figure><img src="imagens/fotos/Alejandro.png", width = "80%">
+<figure><img src="imagens/fotos/Alejandro.png", width = "70%">
 <figcaption> <p class="cc3"> [Alejandro](http://lattes.cnpq.br/7635604449274955) </p> </figcaption></figure>
 </div>
 <div class="column-f5">
-<figure><img src="imagens/fotos/Fernanda.png", width = "80%">
+<figure><img src="imagens/fotos/Fernanda.png", width = "70%">
 <figcaption> <p class="cc3"> [Fernanda](http://lattes.cnpq.br/8132149083320545) </p> </figcaption></figure>
 </div>
 <div class="column-f5">
-<figure><img src="imagens/fotos/Marcela.png", width = "80%">
+<figure><img src="imagens/fotos/Marcela.png", width = "70%">
 <figcaption> <p class="cc3"> [Marcela](http://lattes.cnpq.br/5012340622923104) </p> </figcaption></figure>
 </div>
 <div class="column-f5">
-<figure><img src="imagens/fotos/Katherine.png", width = "80%">
+<figure><img src="imagens/fotos/Katherine.png", width = "70%">
 <figcaption> <p class="cc3"> [Katherine](http://lattes.cnpq.br/8992394367424165) </p> </figcaption></figure>
 </div>
 <!-- <div class="column-f5"> -->
@@ -92,11 +92,15 @@ library(magick)
 
 <div class="row">
 <div class="column-f2c">
-<figure><img src="imagens/fotos/A1.jpg", width = "90%">
+<figure><img src="imagens/fotos/A5.jpg", width = "90%">
 </figure>
 </div>
 <div class="column-f2c">
 <figure><img src="imagens/fotos/A3.jpg", width = "90%">
+</figure>
+</div>
+<div class="column-f2c">
+<figure><img src="imagens/fotos/A6.jpg", width = "90%">
 </figure>
 </div>
 </div>
@@ -109,16 +113,11 @@ library(magick)
 </figure>
 </div>
 <div class="column-f2c">
-<figure><img src="imagens/fotos/A5.jpeg", width = "90%">
+<figure><img src="imagens/fotos/A7.jpg", width = "90%">
 </figure>
 </div>
-</div>
-
-</br>
-
-<div class="row">
 <div class="column-f2c">
-<figure><img src="imagens/fotos/A2.jpg", width = "90%">
+<figure><img src="imagens/fotos/A2.jpg",  width = "90%">
 </figure>
 </div>
 </div>

@@ -12,10 +12,10 @@ navbar:
       href: informacoes.html
     - text: Ensino
       icon: fa-book
-      href: ensino1.html
+      href: ensino.html
     - text: Publicações
       icon: fa-sticky-note
-      href: publicacoes1.html
+      href: publicacoes.html
     - text: Alunos
       icon: fa-users
       menu:  # menu nao funciona com include: after_body: footer.html   
@@ -30,7 +30,7 @@ navbar:
       href: contato.html
     - text:  
       icon: fa-images
-      href: foto.html
+      href: fotos.html
 
 output_dir: "."
 output:
