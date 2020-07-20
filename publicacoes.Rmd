@@ -233,6 +233,26 @@ font-style: normal;
 
 <li> CLATSE - CONGRESO LATINOAMERICANO DE SOCIEDADES DE ESTADÍSTICA. Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data (2016). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/16_CLATSE.pdf) \medskip </li>
 </br>
+
+
+<li> XIV EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Censored mixed-effects models for irregularly observed repeated measures with applications to HIV viral loads (2015). \medskip </li>
+</br>
+
+<li> 28th International Workshop on Statistical Modelling. Influence diagnostics in linear and nonlinear mixed-effects models with censored data using the multivariate-t distribution (2013). \medskip </li>
+</br>
+
+<li> III Workshop em Análise de Sobrevivência e Aplicações (WASA-2013). Diagnostic Analysis of Censored HIV Viral Dynamics Load with Multivariate Student-t Distribution (2013). \medskip </li>
+</br>
+
+<li> 20º SINAPE - Simpósio Nacional de Probabilidade e Estatística. Modelos Lineares e não Lineares de Efeito Misto para Respostas Censuradas usando as Distribuições Normal E Student-t Multivariada (2012).\medskip </li>
+</br>
+
+<li> 27th International Workshop on Statistical Modelling. Likelihood based inference for linear and nonlinear mixed-effects models with censored response using the multivariate t distribution (2012). \medskip </li>
+</br>
+
+<li> 14ª Escola de Séries Temporais e Econometria (2011). \medskip </li>
+</br>
+
 </ol>
 
 </p> 
