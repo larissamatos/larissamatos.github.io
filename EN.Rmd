@@ -1,0 +1,476 @@
+---
+output:
+  html_document:
+    fig_width: 1
+    css: styleEN.css
+
+    
+---
+
+</br>
+
+<button class="tablink" onclick="openPage('Home', this, 'DarkRed')"id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('About me', this, 'DarkRed')">About me</button>
+<button class="tablink" onclick="openPage('Publications', this, 'DarkRed')">Publications</button>
+<button class="tablink" onclick="openPage('Students', this, 'DarkRed')">Students</button>
+<button class="tablink" onclick="openPage('Contact', this, 'DarkRed')">Contact</button>
+
+
+<!-- ################################################################################################################################################### -->
+<!-- ################################################################################################################################################### -->
+<!-- ################################################################################################################################################### -->
+<!-- ################################################################################################################################################### -->
+
+<div id="Home" class="tabcontent">
+
+<p>
+
+<p class="ptitle"> \ </p>
+<h1>Larissa Avila Matos</h1>
+<hr class="new1"></hr>
+<p class="ptitle"> \ </p>
+
+<span style="color:darkred"> **Assistant Professor** </span>
+
+Department of Statistics
+
+Instituto de Matemática, Estatística e Computação Científica - <span style="color:darkred"> **IMECC** </span>
+
+Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </span>
+
+</br>
+
+</p>
+
+</div>
+
+<!-- ################################################################################################################################################### -->
+<!-- ################################################################################################################################################### -->
+<!-- ################################################################################################################################################### -->
+<!-- ################################################################################################################################################### -->
+
+<div id="About me" class="tabcontent">
+
+<p>
+
+<h3> EDUCATION </h3>
+<p class="ptitle"> \ </p>
+
+- 2006-2010: **Bachelor Degree in Statistics** \ \ ![](imagens/logo-unicampT.png){width=25px} 
+     <p class="cc"> Universidade Estadual de Campinas, UNICAMP.</p>  
+
+- 2010-2012: **Master Degree in Statistics** ![](imagens/logo-unicampT.png){width=25px} \ \  ![](imagens/logocapesT.png){width=50px}  
+     <p class="cc"> Universidade Estadual de Campinas, UNICAMP.</p> 
+     
+- 2012-2016: **Ph.D. Degree in Statistics** \ \ ![](imagens/logo-unicampT.png){width=25px} \ ![](imagens/logouconn2.png){width=70px} ![](imagens/logofapesp.png){width=60px}  
+     <p class="cc"> Universidade Estadual de Campinas, UNICAMP. </p> 
+     <p class="cc"> University of Connecticut (6 months).</p> 
+
+- 2016-2017: **Postdoctoral Research** \ \ ![](imagens/logo-unicampT.png){width=25px} \ \ ![](imagens/logofapesp.png){width=60px}
+     <p class="cc"> Universidade Estadual de Campinas, UNICAMP.</p>  
+
+----
+
+<h3> Research Interests </h3>
+<p class="ptitle"> \ </p>
+
+1. Linear/Non Linear Mixed-Effects Models
+2. Semiparemetrics Models
+3. Generalized Linear Mixed Models
+4. Spatial Models
+5. Measurement Error Models
+6. Censored Models
+7. Censored Data
+
+----
+
+<h3> Additional information </h3>
+<p class="ptitle"> \ </p>
+
+- CV Lattes \ [<img src="imagens/lattes.png", width = "1.5%">](http://lattes.cnpq.br/6330766834005870)
+
+- MyCitations ([Google Scholar](https://scholar.google.com.br/citations?hl=en&user=lSCYxF0AAAAJ))
+
+</br>
+
+</p> 
+
+</div>
+
+<!-- ################################################################################################################################################### -->
+<!-- ################################################################################################################################################### -->
+<!-- ################################################################################################################################################### -->
+<!-- ################################################################################################################################################### -->
+
+<div id="Publications" class="tabcontent">
+
+<p>
+
+<p class="ptitle"> \ </p>
+<h3>List of Publications</h3>
+<p class="ptitle"> \ </p>
+
+<ol reversed>
+
+<li> LEMUS, MARCELA N.; LACHOS, VICTOR H.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.** (2020+) *Estimation and Diagnostics for Partially Censored Regression Models Based on Heavy-Tailed Distributions.* Statistics and its Interface (Aceito). \medskip </li>
+</br>
+
+<li> LACHOS, VICTOR H.;  **MATOS, LARISSA A.**; CASTRO, LUIS M.; CHEN, MING-HUI (2018). *Flexible Longitudinal Linear Mixed Models for Multiple Censored Responses Data.* Statistics in Medicine. [<i class="fas fa-link"></i>](https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.8017) \medskip </li>
+</br>
+
+<li>  **MATOS, LARISSA A.**; CASTRO, LUIS M. ; CABRAL, CELSO R. B.; LACHOS, VICTOR H. *Multivariate measurement error models based on Student- distribution under censored responses.* STATISTICS, v. 52, p. 1395-1416, 2018. [<i class="fas fa-link"></i>](https://www.tandfonline.com/doi/abs/10.1080/02331888.2018.1527841) \medskip </li>
+</br>
+
+<li>  **MATOS, LARISSA A.**; LACHOS, VICTOR H.; LIN, TSUNG-I; CASTRO, LUIS M. *Heavy-tailed longitudinal regression models for censored data: a robust parametric approach*. TEST, v. -, p. -, 2018. [<i class="fas fa-link"></i>](https://link.springer.com/article/10.1007/s11749-018-0603-5) \medskip </li>
+</br>
+
+<li> LACHOS, VICTOR H.;  **MATOS, LARISSA A.**; BARBOSA, THAIS S.; GARAY, ALDO M.; DEY, DIPAK K. *Influence diagnostics in spatial models with censored response.* ENVIRONMETRICS, v. 28, p. e2464, 2017. [<i class="fas fa-link"></i>](https://onlinelibrary.wiley.com/doi/abs/10.1002/env.2464)\medskip </li>
+</br>
+
+<li>  **MATOS, LARISSA A.**; CASTRO, LUIS M.; LACHOS, VICTOR H. *Censored mixed-effects models for irregularly observed repeated measures with applications to HIV viral loads.* TEST, v. 25, p. 627-653, 2016. [<i class="fas fa-link"></i>](https://link.springer.com/article/10.1007/s11749-016-0486-2)\medskip </li>
+</br>
+
+<li>  **MATOS, LARISSA A.**; BANDYOPADHYAY, DIPANKAR; CASTRO, LUIS M.; LACHOS, VICTOR H. *Influence assessment in censored mixed-effects models using the multivariate Students-t.* JOURNAL OF MULTIVARIATE ANALYSIS, v. 141, p. 104-117, 2015. [<i class="fas fa-link"></i>](https://www.sciencedirect.com/science/article/pii/S0047259X15001591)\medskip </li>
+</br>
+
+<li> MASSUIA, MONIQUE B.; CABRAL, CELSO R. B.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. *Influence diagnostics for Student- t censored linear regression models.* STATISTICS, v. 49, p. 1-21, 2014. [<i class="fas fa-link"></i>](https://www.tandfonline.com/doi/abs/10.1080/02331888.2014.958489) \medskip </li>
+</br>
+
+<li>  **MATOS, LARISSA A.**; PRATES, MARCOS O.; CHEN, MING-HUI; LACHOS, VICTOR H. *Likelihood Based Inference Mixed-Effects Models with Censored Responses Using the Multivariate-t Distribution.* Statistica Sinica, v. 23, p. 1323-1345, 2013. [<i class="fas fa-link"></i>](https://www.jstor.org/stable/24310797?casa_token=M6ta3whn1KwAAAAA:ufWMXvGQRiHve3_lOgpXTDp8hJTCk-I4_YNUet8rY0iSpveLNEsLkarqhji6npYGYRYYnL919UoaQ9qS356eu0cCTQ2l1RaEMgU_Vk-RDql_CfEPYWkd#metadata_info_tab_contents) \medskip </li>
+</br>
+
+<li>  **MATOS, LARISSA A.**; LACHOS, VICTOR H.; BALAKRISHNAN, N.; LABRA, FILIDOR V. *Influence diagnostics in linear and nonlinear mixed-effects models with censored data.* Computational Statistics & Data Analysis (Print), v. 57, p. 450-464, 2013. [<i class="fas fa-link"></i>](https://www.sciencedirect.com/science/article/pii/S0167947312002629) \medskip </li>
+</br>
+</ol>
+
+----
+
+<h3> Under review </h3>
+<p class="ptitle"> \ </p>
+
+<ol reversed>
+
+<li> MATTOS,	THALITA B.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2020+)	*Likelihood-based inference for mixed-effects models with censored response using skew-normal distribution.* International Journal of Biostatistics (Under review).\medskip </li>
+</br>
+
+<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; DEY, DIPAK K.; LACHOS, VICTOR H. (2020+)	*On Moments of Folded and Truncated Multivariate Extended Skew-Normal Distributions.* Journal of Computational and Graphical Statistics (Under review) \medskip </li>
+</br>
+
+<li> VALERIANO, KATHERINE A. L.;  **MATOS, LARISSA A.**; PRATES, M.O.; LACHOS, VICTOR H. (2020+) *Likelihood Based Inference for Spatio-Temporal Data with Censored and Missing Responses.* Environmetrics (Under review). \medskip </li>
+</br>
+
+<li> OLIVARI, ROMMY C.; GARAY, ALDO M.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.** (2020+) *Autoregressive Mixed-Effects Models for Censored Data.* Journal of Biopharmaceutical Statistics (Under review).  \medskip </li>
+</br>
+
+<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H. (2020+). *Likelihood-based inference for multivariate skew-normal censored responses.* Metron (Under review).\medskip </li>
+</br>
+
+<li> ALENCAR, FRANCISCO H.C.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H.	(2020+) *Finite Mixture of Censored Linear Mixed Models for Irregularly Observed Longitudinal Data.* The Canadian Journal of Statistics (Under review). \medskip </li>
+</br>
+
+<li> ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H. (2020+)	*Finite Mixture Modeling of Censored and Missing Data Using the Multivariate Skew-Normal Distribution.*  Advances and Data Analysis and Classification (Under review). \medskip </li>
+</br>
+</ol>
+
+----
+
+<h3> Tech reports </h3>
+<p class="ptitle"> \ </p>
+
+<ol reversed>
+
+<li> MATTOS,	THALITA B.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2020).	*Extending Multivariate-t Semiparametric Mixed Models for Longitudinal data with Censored Responses and Heavy Tails.* Relatório Técnico 1/2020, IMECC/Unicamp. [<i class="fas fa-link"></i>](https://www.ime.unicamp.br/sites/default/files/pesquisa/relatorios/rp-2020-01.pdf) \medskip </li>
+</br>
+
+<li> ORDOÑEZ A.C.; PRATES, M.O.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2020). Objective Bayesian analysis for spatial Student-t regression models. arXiv:2004.04341 [<i class="fas fa-link"></i>](https://arxiv.org/abs/2004.04341) \medskip </li>
+</br>
+
+<li> SCHUMACHER, FERNANDA L.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.** (2020). *Scale Mixture of Skew-Normal Linear Mixed Models with Within-Subject Serial Dependence*. arXiv:2002.01040 [<i class="fas fa-link"></i>](https://arxiv.org/abs/2002.01040)\medskip </li>
+</br>
+
+<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; DEY, DIPAK K.; LACHOS, VICTOR H. (2019). 	*Efficient Computation of Moments of Folded and Doubly Truncated Multivariate Extended Skew-Normal Distributions.*  Technical Report, 19-29, University of Connecticut. \medskip </li>
+</br>
+
+<li> MATTOS,	THALITA B.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2019).	*A Semiparametric Mixed-Effects Model for Censored Longitudinal Data.* Technical Report, 19-15, University of Connecticut. \medskip </li>
+</br>
+
+<li> BARBOSA, T. S.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.**; PRATES, MARCOS O. (2016). *Estimation in Spatial Models with Censored Response.* \medskip </li>
+</br>
+</ol>
+
+---- 
+
+<h3> Packages </h3>
+<p class="ptitle"> \ </p>
+
+<ol reversed>
+
+<li> [`skewlmm`](https://cran.r-project.org/web/packages/skewlmm/index.html): *Scale Mixture of Skew-Normal Linear Mixed Models.* (2020).
+<!-- SCHUMACHER, FERNANDA L.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. -->
+\medskip </li>
+</br>
+
+<li> [`OBASpatial`](https://cran.r-project.org/web/packages/OBASpatial/index.html): *Objective Bayesian Analysis for Spatial Regression Models.* (2020).
+<!-- ORDOÑEZ A.C.; PRATES, M.O.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. -->
+\medskip </li>
+</br>
+
+<li> [`CensMFM`](https://cran.r-project.org/web/packages/CensMFM/index.html): *Finite Mixture of Multivariate Censored/Missing Data.* (2019). 
+<!-- ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H.  -->
+\medskip </li>
+</br>
+
+<li> [`StempCens`](https://cran.r-project.org/web/packages/StempCens/index.html): *Spatio-Temporal Estimation and Prediction for Censored/Missing Responses.*  (2019).
+<!-- VALERIANO, KATHERINE A. L.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.**  -->
+\medskip </li>
+</br>
+
+<li> [`PartCensReg`](https://cran.rproject.org/web/packages/PartCensReg/index.html): *Partially Censored Regression Models Based on Heavy-Tailed Distributions.* (2018).  <!-- LEMUS, MARCELA N.; GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H.  --> \medskip </li>
+</br>
+
+<li>  [`CensRegMod`](https://cran.r-project.org/web/packages/CensRegMod/index.html): *Fits Normal and Student-t Censored Regression Model.*  (2015).
+<!-- MASSUIA, MONIQUE B.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H.  -->
+\medskip </li>
+</br>
+
+<li> [`tlmec`](https://cran.r-project.org/web/packages/tlmec/index.html): *Linear Student-t Mixed-Effects Models with Censored Data.* (2011).
+<!--  **MATOS, LARISSA A.**; PRATES, MARCOS O.; LACHOS, VICTOR H.  -->
+\medskip </li>
+</br>
+</ol>
+
+---- 
+
+<h3> Conferences </h3>
+<p class="ptitle"> \ </p>
+
+<ol reversed>
+
+<li> 8th Workshop on Probabilistic and Statistical Methods. A semiparametric mixed-effects model for censored longitudinal data (2020). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/20_WPSM.pdf) \medskip </li>
+
+<li> VI Workshop em Análise de Sobrevivência e Aplicações (WASA 2019). Longitudinal Models for Multiple Censored Responses Data (2019). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/19_Wasa.pdf) 
+
+<li> 3rd International Conference on Econometrics and Statistics (EcoSta 2019). Estimation for partially linear censored regression models based on heavy tailed distributions (2019). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/19_EcoSta.pdf) \medskip </li>
+
+<li> 33rd New England Statistics Symposium (NESS). Flexible longitudinal linear mixed models for multiple censored responses data (2019). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/19_NESS.pdf) \medskip </li>
+
+<li> XVI EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Estimation and diagnostics for partially linear censored regression models based on heavy-tailed distributions (2019). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/19_EMR.pdf) \medskip </li>
+
+<li> 23º SINAPE - Simpósio Nacional de Probabilidade e Estatística. Estimação e diagnóstico em modelos multivariados para dados censurados (2018). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/18_SINAPE.pdf) \medskip </li>
+</br>
+
+<li> 10th International Conference of the ERCIM WG on Computational and Methodological Statistics. Heavy-tailed longitudinal regression models for censored data: A likelihood based perspective (2017). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/17_CMStatistics.pdf) \medskip </li>
+</br>
+
+<li> XV EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data (2017). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/17_EMR.pdf) \medskip </li>
+</br>
+
+<li> CLATSE - CONGRESO LATINOAMERICANO DE SOCIEDADES DE ESTADÍSTICA. Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data (2016). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/16_CLATSE.pdf) \medskip </li>
+</br>
+
+
+<li> XIV EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Censored mixed-effects models for irregularly observed repeated measures with applications to HIV viral loads (2015). \medskip </li>
+</br>
+
+<li> 28th International Workshop on Statistical Modelling. Influence diagnostics in linear and nonlinear mixed-effects models with censored data using the multivariate-t distribution (2013). \medskip </li>
+</br>
+
+<li> III Workshop em Análise de Sobrevivência e Aplicações (WASA-2013). Diagnostic Analysis of Censored HIV Viral Dynamics Load with Multivariate Student-t Distribution (2013). \medskip </li>
+</br>
+
+<li> 20º SINAPE - Simpósio Nacional de Probabilidade e Estatística. Modelos Lineares e não Lineares de Efeito Misto para Respostas Censuradas usando as Distribuições Normal E Student-t Multivariada (2012).\medskip </li>
+</br>
+
+<li> 27th International Workshop on Statistical Modelling. Likelihood based inference for linear and nonlinear mixed-effects models with censored response using the multivariate t distribution (2012). \medskip </li>
+</br>
+
+<li> 14ª Escola de Séries Temporais e Econometria (2011). \medskip </li>
+</br>
+
+</ol>
+
+</p> 
+</div>
+
+<!-- ################################################################################################################################################### -->
+<!-- ################################################################################################################################################### -->
+<!-- ################################################################################################################################################### -->
+<!-- ################################################################################################################################################### -->
+
+<div id="Students" class="tabcontent">
+<p>
+
+<h3>  Ph.D Students </h3> 
+<p class="ptitle"> \ </p>
+
+- Fernanda Lang Schumacher - ongoing
+
+- Jose Alejandro Ordoñez - Co-adivisor - ongoing
+
+- Francisco Hildemar Calixto de Alencar -  ongoing
+
+- Thalita do Bem Mattos (2020)
+    <p class="cc"> Thesis: Parametric and semiparametric mixed-effects models for longitudinal censored data.</p>
+    
+- Christian Eduardo Galarza Morales (2020)
+    <p class="cc"> Thesis: On Moments of doubly truncated multivariate distributions.</p> 
+
+---- 
+
+<h3> Master Students </h3> 
+<p class="ptitle"> \ </p>
+
+- Katherine Andreina Loor Valeriano (2019) 
+    <p class="cc"> Dissertation: Inferência para dados espaço-temporais com respostas censuradas e faltantes.</p> 
+
+- Marcela Nuñez Lemus (2018)
+    <p class="cc"> Dissertation: Estimação e diagnóstico em modelos parcialmente lineares censurados sob distribuições de cauda pesada.</p> 
+
+
+----
+
+<h3> Undergraduate Students</h3> 
+<p class="ptitle"> \ </p>
+
+<h4> IC </h4> 
+
+- Nathan Brusamarello De Souto - ongoing
+
+- Paulo César de Oliveira Rodrigues (2019)
+    <p class="cc"> Project: Influência que os professores da educação infantil e fundamental I que gostam ou não de matemática exercem sobre seus alunos.</p> 
+
+<h4>2020</h4>
+
+- Carolina Andrade, Luccas Fortunatto e Suellen Sena
+    <p class="cc"> Project: Estudo de caso de gosto musical na era digital.</p>  
+ 
+- Bruno Santos, Krismann Pedrosa e Nicole Nogueira
+     <p class="cc"> Project: Análise do tratamento de água residuária de piscicultura utilizando a tecnologia de eletrocoagulação.</p>  
+ 
+- Aline Pelegrino Shikasho, Beatriz Heloise Messias e Giuseppe Tinti Tomio
+     <p class="cc"> Project: Análise estatística da resposta imune adaptativa na neuroinvasão por Oropouche.</p>  
+
+<h4>2018</h4>
+
+- Daniel Marques Paula de Oliveira 
+    <p class="cc"> Project: Estudo de Bioequivalência para o medicamento abiraterona.</p>  
+
+- Luiza Blota Ramos, Matheus Mendes Galvão, Natalia Ocaso Seraphim e Michely Wu Hsieh 
+    <p class="cc"> Project: O Papel da Necromassa no Ciclo do Carbono na Mata Atlântica. </p> 
+    
+- Lucas Ferreira dos Santos, Laís Cristina Cruz Bordin, Gabriel Bueno Bottignon e Lucas Moraes Mascarenhas
+    <p class="cc"> Project: Análise da Taxa de Decomposição de Madeira Morta na Mata Atlântica.</p> 
+
+- Diogo Aggio, Helena G. de M. Viana, Luke Zhi Wei Zheng e Rafael Antônio R. Branco 
+    <p class="cc"> Project: Influência da Diversidade de Espécies na Produção e Estoque de Madeira Morta em Áreas de Restauração Florestal na Mata Atlântica. </p> 
+
+- Aldrey Villas Bôas, Larissa Ribeiro da Silva, Lucas Mattos Souza e Mariana Racioni Gonçalves 
+    <p class="cc"> Projeto1: Análise estatística de parasitismo em traíras.</p>  
+    <p class="cc"> Projeto2: Consumo, estrutura social e inclusão: Discussões entre China e Brasil em torno da sustentabilidade.</p>  
+
+- Amanda Cristina Silva, Aline Dias Nunes e Mariane Sahú 
+    <p class="cc"> Projeto1: Estudo do Plano Diretor aprovado após o Estatuto da Cidade nos municípios brasileiros com população de até 20 mil habitantes.</p>  
+    <p class="cc"> Projeto2: Ecologia de Corujas e Efeitos Recíprocos sobre a Vegetação de uma Floresta Atlântica em Regeneração. </p> 
+
+- Diogo Aggio, Jonas F. D. Branco de Araújo, Lucas Moraes Mascarenhas e Tomás C. Weguelin Vieira 
+    <p class="cc"> Project: Análise de Variância dos fatores nos números de microrganismos em Carne Dry-Aged.</p>  
+
+- Erika dos Santos Barbosa, Nara Stefani de Oliveira, Rafaella Konno e Rodrigo Fadel Stahl 
+    <p class="cc"> Project: Teoria da mente - Crença Falsa e Ignorância.</p> 
+
+- Daniela Rosa de Moraes, Henrique Capatto, Marcos Antonio Ferreira e Murilo Salgado Razoli 
+    <p class="cc"> Project: Engajamento dos Estudantes da Unicamp.</p> 
+    
+</br>
+
+<h4> PAD/PED  </h4>
+
+- Fernanda Paula Rocha - PED (1S2020)
+
+- Katherine Andreina Loor Valeriano - PED (2S2019)
+
+- Nilmara Biscaia - PED (1S2019)
+
+- Francisco Hildemar Calixto de Alencar - PED (2S2018)
+
+- Giovanni Samartini - PAD (1S2018)
+
+- Ana Julieth Calderón Márquez - PED (2S2017)
+
+</br>
+
+</p> 
+</div>
+
+<!-- ################################################################################################################################################### -->
+<!-- ################################################################################################################################################### -->
+<!-- ################################################################################################################################################### -->
+<!-- ################################################################################################################################################### -->
+
+<div id="Contact" class="tabcontent">
+
+<p>
+
+<p class="ptitle"> \ </p>
+
+<h3> Adress <i class="fas fa-address-card"  style='font-size:16px'></i> </h3>
+
+<i class="fas fa-map-marker-alt"></i> \ Rua Sergio Buarque de Holanda, 651 - Office  234 - Cidade Universitária, Campinas/SP - Brasil - CEP: 13083-859
+
+<hr class="new1"></hr>
+
+<h3> Phone <i class="fas fa-phone" style='font-size:16px'></i> </h3>
+
++55 (19) 3521-6077
+
+<hr class="new1"></hr>
+
+<h3> E-mail <i class="fas fa-at" style='font-size:16px'></i>  </h3>
+
+larissam[at]unicamp.br
+
+<hr class="new1"></hr>
+
+[<i class='fab fa-github' style='font-size:30px'></i>](https://github.com/larissamatos) \ \  [<i class='fab fa-linkedin' style='font-size:30px'></i>](https://www.linkedin.com/in/larissa-avila-matos-0624bb123/)
+</p> 
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+<!-- ################################################################################################################################################### -->
+<!-- ################################################################################################################################################### -->
+<!-- ################################################################################################################################################### -->
+<!-- ################################################################################################################################################### -->
+
+
+</br>
+
+<p class="outset"></p>
+<div id="footer">
+<p>
+<div class="column-f1">
+<img src="imagens/logo-unicamp1.png" width="120" height="55">
+</div>
+<div class="column-f2">
+<img src="imagens/logoimecc.png" width="50" height="50">
+</div>
+</p>
+</div>
+

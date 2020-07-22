@@ -1,0 +1,136 @@
+.navbar {
+  background-color:maroon; 
+  border-color:black;
+}
+
+body{ /* Normal  */
+    font-size: 13px;
+    background-color: white
+}
+
+h1.title {
+  font-size: 26px;
+}
+
+h2 { /* Header 2 */
+    font-size: 24px;
+    color: DarkRed;
+}
+
+h3 { /* Header 3*/
+    font-size: 20px;
+    color: DarkRed;
+}
+
+h4 { /* Header 4*/
+    font-size: 14px;
+}
+
+a:link {
+    color: darkred;
+  }
+a:visited {
+  color: darkred;
+}
+a:hover {
+  color: blue;
+}
+
+.column-left{
+    float: left;
+    width: 30%;
+    text-align: center;
+  }
+.column-right{
+  float: right;
+  width: 70%;
+  text-align: center;
+}
+.column{
+  float: left;
+  width: 100%;
+  text-align: left;
+} 
+.column-f1{
+  float: left;
+  width: 40%;
+  text-align: left;
+}
+.column-f2{
+  float: right;
+  width: 40%;
+  text-align: right;
+}
+
+p.outset {border-style: outset;}
+p.groove {border-style: groove;
+          border-color: DarkRed;
+}
+
+p.bor {
+  border-bottom: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+  background-color: white;
+}
+
+hr{
+  border: 0.5px solid DarkRed;
+}
+
+hr.new{
+  border: 5px solid DarkRed;
+  border-radius: 5px;
+}
+
+hr.new1{
+  border: 0.5px solid #e6e6e6;
+}
+
+.cc {
+  font-family: "Lucida Console", Courier;
+  font-size: 13px;
+}
+
+.cc3 {
+  font-size: 11px;
+}
+
+.ptitle{line-height: 0.5em;}
+
+
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+height: 100%;
+margin: 0;
+font-family: Open Sans;
+}
+
+/* Style tab links */
+.tablink {
+background-color: #999999;
+color: white;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 8px 8px;
+font-size: 15px;
+width: 20%;
+}
+
+.tablink:hover {
+background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+color: #737373;
+display: none;
+padding: 40px 20px;
+height: 100%;
+font-size: 13px;
+font-family: 'Open Sans';
+font-style: normal;
+}

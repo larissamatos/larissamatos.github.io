@@ -31,6 +31,9 @@ navbar:
     - text:  
       icon: fa-images
       href: fotos.html
+    - text: En 
+      icon: fa-flag
+      href: EN.html
 
 output_dir: "."
 output:
