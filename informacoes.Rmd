@@ -11,18 +11,18 @@ output:
 ### Formação acadêmica/titulação
 <p class="ptitle"> \ </p>
 
-- 2006-2010: **Graduação em Estatística** \ \ ![](imagens/logo-unicampT.png){width=25px} 
-     <p class="cc"> Universidade Estadual de Campinas, UNICAMP.</p>  
+- 2016-2017: **Pós-Doutorado** \ \ ![](imagens/logo-unicampT.png){width=25px} \ \ ![](imagens/logofapesp.png){width=60px}
+     <p class="cc"> Universidade Estadual de Campinas, UNICAMP. Bolsista FAPESP (Processo 2016/05420-6).</p>  
 
-- 2010-2012: **Mestrado em Estatística** ![](imagens/logo-unicampT.png){width=25px} \ \  ![](imagens/logocapesT.png){width=50px}  
-     <p class="cc"> Universidade Estadual de Campinas, UNICAMP. Bolsista CAPES.</p> 
-     
 - 2012-2016: **Doutorado em Estatística** \ \ ![](imagens/logo-unicampT.png){width=25px} \ ![](imagens/logouconn2.png){width=70px} ![](imagens/logofapesp.png){width=60px}  
      <p class="cc"> Universidade Estadual de Campinas, UNICAMP. Bolsista FAPESP (Processo 2011/22063-9).</p> 
      <p class="cc"> Período sanduíche em University of Connecticut (Processo 2015/05385-3).</p> 
 
-- 2016-2017: **Pós-Doutorado** \ \ ![](imagens/logo-unicampT.png){width=25px} \ \ ![](imagens/logofapesp.png){width=60px}
-     <p class="cc"> Universidade Estadual de Campinas, UNICAMP. Bolsista FAPESP (Processo 2016/05420-6).</p>  
+- 2010-2012: **Mestrado em Estatística** ![](imagens/logo-unicampT.png){width=25px} \ \  ![](imagens/logocapesT.png){width=50px}  
+     <p class="cc"> Universidade Estadual de Campinas, UNICAMP. Bolsista CAPES.</p> 
+     
+- 2006-2010: **Graduação em Estatística** \ \ ![](imagens/logo-unicampT.png){width=25px} 
+     <p class="cc"> Universidade Estadual de Campinas, UNICAMP.</p>  
 
 ----
 

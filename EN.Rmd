@@ -56,17 +56,19 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 <h3> EDUCATION </h3>
 <p class="ptitle"> \ </p>
 
-- 2006-2010: **Bachelor Degree in Statistics** \ \ ![](imagens/logo-unicampT.png){width=25px} 
+- 2016-2017: **Postdoctoral Research** \ \ ![](imagens/logo-unicampT.png){width=25px} \ \ ![](imagens/logofapesp.png){width=60px}
      <p class="cc"> Universidade Estadual de Campinas, UNICAMP.</p>  
 
-- 2010-2012: **Master Degree in Statistics** ![](imagens/logo-unicampT.png){width=25px} \ \  ![](imagens/logocapesT.png){width=50px}  
-     <p class="cc"> Universidade Estadual de Campinas, UNICAMP.</p> 
-     
+
 - 2012-2016: **Ph.D. Degree in Statistics** \ \ ![](imagens/logo-unicampT.png){width=25px} \ ![](imagens/logouconn2.png){width=70px} ![](imagens/logofapesp.png){width=60px}  
      <p class="cc"> Universidade Estadual de Campinas, UNICAMP. </p> 
      <p class="cc"> University of Connecticut (6 months).</p> 
 
-- 2016-2017: **Postdoctoral Research** \ \ ![](imagens/logo-unicampT.png){width=25px} \ \ ![](imagens/logofapesp.png){width=60px}
+- 2010-2012: **Master Degree in Statistics** ![](imagens/logo-unicampT.png){width=25px} \ \  ![](imagens/logocapesT.png){width=50px}  
+     <p class="cc"> Universidade Estadual de Campinas, UNICAMP.</p> 
+   
+
+- 2006-2010: **Bachelor Degree in Statistics** \ \ ![](imagens/logo-unicampT.png){width=25px} 
      <p class="cc"> Universidade Estadual de Campinas, UNICAMP.</p>  
 
 ----
