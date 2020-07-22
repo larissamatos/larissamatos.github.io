@@ -3,7 +3,6 @@ title: "<i class='fas fa-envelope' style='font-size:20px'></i> Contato"
 output:
   html_document:
     fig_width: 1
-    toc_float: false
 ---
 
 ----

@@ -3,7 +3,6 @@ title: "Larissa Avila Matos" #espaço:\_\_\_\_\_
 output:
   html_document:
     fig_width: 1
-    
 ---
 
 
