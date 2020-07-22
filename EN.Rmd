@@ -34,7 +34,7 @@ output:
 
 Department of Statistics
 
-Instituto de Matemática, Estatística e Computação Científica - <span style="color:darkred"> **IMECC** </span>
+Institute of Mathematics, Statistics and Scientific Computation - <span style="color:darkred"> **IMECC** </span>
 
 Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </span>
 
