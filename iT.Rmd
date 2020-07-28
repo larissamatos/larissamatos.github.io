@@ -35,11 +35,15 @@ output:
 
 </br>
 
-<!-- <div class="hero"> Consultoria Estatística  </div> -->
+<!-- <div class="hero"> Consultoria Estatística </div> -->
 
 
 <div class="hero">
-  <img src="imagens/aa1.jpeg" alt="bubbles from surf" class="hero-image">
+  <img src="imagens/aa.jpeg" alt="bubbles from surf" class="hero-image">
+</div>
+
+<div class="hero">
+  <img src="imagens/aa2.jpeg" alt="bubbles from surf" class="hero-image">
 </div>
 
 
