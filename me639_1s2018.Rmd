@@ -42,4 +42,6 @@ output:
 
 - [Projeto Final](Disciplinas/ME_639_1s2018/ProjetoFinal.pdf)
 
+- [EstatCon](iT.html)
+
 ----
