@@ -67,6 +67,9 @@ font-style: normal;
 <p class="ptitle"> \ </p>
 <ol reversed>
 
+<li> OLIVARI, ROMMY C.; GARAY, ALDO M.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.** (2020+) *Mixed-Effects Models for Censored Data with Autoregressive Errors.* Journal of Biopharmaceutical Statistics (Aceito).  \medskip </li>
+</br>
+
 <li> LEMUS, MARCELA N.; LACHOS, VICTOR H.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.** (2020+) *Estimation and Diagnostics for Partially Censored Regression Models Based on Heavy-Tailed Distributions.* Statistics and its Interface (Aceito). \medskip </li>
 </br>
 
@@ -117,9 +120,6 @@ font-style: normal;
 </br>
 
 <li> VALERIANO, KATHERINE A. L.;  **MATOS, LARISSA A.**; PRATES, M.O.; LACHOS, VICTOR H. (2020+) *Likelihood Based Inference for Spatio-Temporal Data with Censored and Missing Responses.* Environmetrics (Under review). \medskip </li>
-</br>
-
-<li> OLIVARI, ROMMY C.; GARAY, ALDO M.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.** (2020+) *Autoregressive Mixed-Effects Models for Censored Data.* Journal of Biopharmaceutical Statistics (Under review).  \medskip </li>
 </br>
 
 <li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H. (2020+). *Likelihood-based inference for multivariate skew-normal censored responses.* Metron (Under review).\medskip </li>
