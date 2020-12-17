@@ -112,11 +112,15 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 
 <ol reversed>
 
-<li> VALERIANO, KATHERINE A. L.;  **MATOS, LARISSA A.**; PRATES, M.O.; LACHOS, VICTOR H. (2020) *Likelihood Based Inference for Spatio-Temporal Data with Censored and Missing Responses.* Environmetrics (Accepted). [<i class="fas fa-link"></i>](https://onlinelibrary.wiley.com/doi/10.1002/env.2663) \medskip </li>
+<li> SCHUMACHER, FERNANDA L.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.** (2020). *Scale Mixture of Skew-Normal Linear Mixed Models with Within-Subject Serial Dependence*. Statistics in Medicine (Accepted).\medskip </li>
 </br>
 
 
-<li> OLIVARI, ROMMY C.; GARAY, ALDO M.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.** (2020) *Mixed-Effects Models for Censored Data with Autoregressive Errors.* Journal of Biopharmaceutical Statistics (Accepted).  \medskip </li>
+<li> VALERIANO, KATHERINE A. L.;  **MATOS, LARISSA A.**; PRATES, M.O.; LACHOS, VICTOR H. (2020) *Likelihood Based Inference for Spatio-Temporal Data with Censored and Missing Responses.* Environmetrics. [<i class="fas fa-link"></i>](https://onlinelibrary.wiley.com/doi/10.1002/env.2663) \medskip </li>
+</br>
+
+
+<li> OLIVARI, ROMMY C.; GARAY, ALDO M.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.** (2020) *Mixed-Effects Models for Censored Data with Autoregressive Errors.* Journal of Biopharmaceutical Statistics. [<i class="fas fa-link"></i>](https://doi.org/10.1080/10543406.2020.1852246) \medskip </li>
 </br>
 
 <li> LEMUS, MARCELA N.; LACHOS, VICTOR H.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.** (2020) *Estimation and Diagnostics for Partially Censored Regression Models Based on Heavy-Tailed Distributions.* Statistics and its Interface (Accepted). \medskip </li>
@@ -184,9 +188,6 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 </br>
 
 <li> ORDOÑEZ A.C.; PRATES, M.O.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2020). Objective Bayesian analysis for spatial Student-t regression models. arXiv:2004.04341 [<i class="fas fa-link"></i>](https://arxiv.org/abs/2004.04341) \medskip </li>
-</br>
-
-<li> SCHUMACHER, FERNANDA L.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.** (2020). *Scale Mixture of Skew-Normal Linear Mixed Models with Within-Subject Serial Dependence*. arXiv:2002.01040 [<i class="fas fa-link"></i>](https://arxiv.org/abs/2002.01040)\medskip </li>
 </br>
 
 <li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; DEY, DIPAK K.; LACHOS, VICTOR H. (2019). 	*Efficient Computation of Moments of Folded and Doubly Truncated Multivariate Extended Skew-Normal Distributions.*  Technical Report, 19-29, University of Connecticut. \medskip </li>
