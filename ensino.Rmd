@@ -29,7 +29,7 @@ h3a { /* Header 3*/
   display: block;
   background-color: #999999;
   color: white;
-  padding: 11.3px 8px;
+  padding: 8.7px 8px;
   width: 100%;
   border: none;
   outline: none;
@@ -75,19 +75,43 @@ h3a { /* Header 3*/
 - MI416 - Introdução aos Modelos Lineares 
 </br>
 
+#### 1S2021
+
+- MI908 - Seminário de Estatística I 
+</br>
+
+
 ----
 
 ### Graduação
 <p class="ptitle"> \ </p>
 
 <div class="tab">
-  <button class="tablinks" onclick="openE(event, '2S20')" id="defaultOpen">2S20</button>
+  <button class="tablinks" onclick="openE(event, '1S21')" id="defaultOpen">1S21</button>
+  <button class="tablinks" onclick="openE(event, '2S20')" >2S20</button>
   <button class="tablinks" onclick="openE(event, '1S20')" >1S20</button>
   <button class="tablinks" onclick="openE(event, '2S19')">2S19</button>
   <button class="tablinks" onclick="openE(event, '1S19')">1S19</button>
   <button class="tablinks" onclick="openE(event, '2S18')">2S18</button>
   <button class="tablinks" onclick="openE(event, '1S18')">1S18</button>
   <button class="tablinks" onclick="openE(event, '2S17')">2S17</button>
+</div>
+
+<div id="1S21" class="tabcontent">
+</br>
+
+<h3a>Primeiro Semestre de 2021</h3a>
+<p>
+
+- ME951 A - Estatística e Probabilidade I
+</br>
+
+- ME712 A -  Consultoria Estatística I
+</br>
+
+- ME812 A -  Consultoria Estatística II
+
+</p>
 </div>
 
 <div id="2S20" class="tabcontent">
