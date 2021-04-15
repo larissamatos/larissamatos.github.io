@@ -12,6 +12,8 @@ output:
 ### Doutorado
 <p class="ptitle"> \ </p>
 
+- Katherine Andreina Loor Valeriano - Doutorado em andamento (Fomento: CAPES) 
+
 - Fernanda Lang Schumacher - Doutorado em andamento (Fomento: CNPq) 
 
 - Jose Alejandro Ordoñez  - Doutorado em andamento - Co-orientadora (Fomento: CAPES) 
@@ -62,6 +64,25 @@ output:
 
 #### Orientandos de ME712/812
 
+1S2021
+
+- 
+
+-
+
+-
+     
+2S2020
+
+- Enrico Nunes Pellegrino,	Felipe Augusto Britto Vieira,	Leonardo Henrique Silva,	Marianna Degani	e Roger Mainardes Dos Reis
+    <p class="cc"> Projeto: Levantamento Uso de Álcool e Outras Drogas na Quarentena.</p>  
+
+- Alexandre Garcia Dias,	Ana Carolina Alves Oliveira,	Eduardo de Paiva Romero	e Tiago Gimenez	
+    <p class="cc"> Projeto: A espectroscopia de prótons de H por Ressonância Magnética como ferramenta para o diagnóstico diferencial entre tumores cerebrais primários versus secundários.</p>  
+
+- Anderson Gabriel dos Reis Ortelan,	Jessica Fernanda Teixeira do Prado,	Leticia Bettini Infante,	Mateus Dias Lima e	Vinicius Luis Belem Bronzatti
+    <p class="cc"> Projeto: Efeitos do limoneno e do limoneno-1,2-diol em camundongos alimentados com dieta rica em gordura.</p>      
+    
 1S2020
 
 - Carolina Andrade, Luccas Fortunatto e Suellen Sena
