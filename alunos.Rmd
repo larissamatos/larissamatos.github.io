@@ -64,14 +64,14 @@ output:
 
 #### Orientandos de ME712/812
 
-1S2021
+<!-- 1S2021 -->
 
-- 
+<!-- -  -->
 
--
+<!-- - -->
 
--
-     
+<!-- - -->
+
 2S2020
 
 - Enrico Nunes Pellegrino,	Felipe Augusto Britto Vieira,	Leonardo Henrique Silva,	Marianna Degani	e Roger Mainardes Dos Reis
@@ -128,7 +128,7 @@ output:
 
 #### Orientandos do Programa de Apoio Didático PAD / Orientandos do Programa de Estágio Docente PED 
 
-- Fernanda Paula Rocha - PED (1S2020)
+- Fernanda Paula Rocha - PED (1S2020; 2S2020)
 
 - Katherine Andreina Loor Valeriano - PED (2S2019)
 

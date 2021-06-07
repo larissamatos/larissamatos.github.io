@@ -13,24 +13,38 @@
 
 <title> Publicações</title>
 
+<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -43,32 +57,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
@@ -79,10 +68,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -99,40 +84,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 41px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 46px;
-  margin-top: -46px;
-}
-.section h2 {
-  padding-top: 46px;
-  margin-top: -46px;
-}
-.section h3 {
-  padding-top: 46px;
-  margin-top: -46px;
-}
-.section h4 {
-  padding-top: 46px;
-  margin-top: -46px;
-}
-.section h5 {
-  padding-top: 46px;
-  margin-top: -46px;
-}
-.section h6 {
-  padding-top: 46px;
-  margin-top: -46px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -160,7 +118,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -172,7 +130,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -183,10 +141,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -198,7 +169,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -276,7 +246,7 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fa fa-home"></span>
+    <span class="fas fa-home"></span>
      
     Home
   </a>
@@ -285,28 +255,28 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="informacoes.html">
-    <span class="fa fa-graduation-cap"></span>
+    <span class="fas fa-graduation-cap"></span>
      
     Informações Acadêmicas
   </a>
 </li>
 <li>
   <a href="ensino.html">
-    <span class="fa fa-book"></span>
+    <span class="fas fa-book"></span>
      
     Ensino
   </a>
 </li>
 <li>
   <a href="publicacoes.html">
-    <span class="fa fa-sticky-note"></span>
+    <span class="fas fa-sticky-note"></span>
      
     Publicações
   </a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fa fa-users"></span>
+    <span class="fas fa-users"></span>
      
     Alunos
      
@@ -323,20 +293,20 @@ $(document).ready(function () {
 </li>
 <li>
   <a href="contato.html">
-    <span class="fa fa-envelope"></span>
+    <span class="fas fa-envelope"></span>
      
     Contato
   </a>
 </li>
 <li>
   <a href="fotos.html">
-    <span class="fa fa-images"></span>
+    <span class="fas fa-images"></span>
      
   </a>
 </li>
 <li>
   <a href="EN.html">
-    <span class="fa fa-flag"></span>
+    <span class="fas fa-flag"></span>
      
     En
   </a>
@@ -346,7 +316,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -399,16 +369,16 @@ font-style: normal;
 #Ev {background-color: white;}
 </style>
 <hr />
-<button class="tablink" onclick="openPage('AC', this, 'DarkRed')" id="defaultOpen">
+<button class="tablink" onclick="openPage(&#39;AC&#39;, this, &#39;DarkRed&#39;)" id="defaultOpen">
 Artigos
 </button>
-<button class="tablink" onclick="openPage('RT', this, 'DarkRed')">
+<button class="tablink" onclick="openPage(&#39;RT&#39;, this, &#39;DarkRed&#39;)">
 Relatórios
 </button>
-<button class="tablink" onclick="openPage('Pck', this, 'DarkRed')">
+<button class="tablink" onclick="openPage(&#39;Pck&#39;, this, &#39;DarkRed&#39;)">
 Pacotes
 </button>
-<button class="tablink" onclick="openPage('Ev', this, 'DarkRed')">
+<button class="tablink" onclick="openPage(&#39;Ev&#39;, this, &#39;DarkRed&#39;)">
 Eventos
 </button>
 <div id="AC" class="tabcontent">
@@ -421,31 +391,57 @@ Artigos Científicos
 </p>
 <ol reversed>
 <li>
-<p>SCHUMACHER, FERNANDA L.; LACHOS, VICTOR H.; <strong>MATOS, LARISSA A.</strong> (2020). Statistics in Medicine. <em>Scale Mixture of Skew-Normal Linear Mixed Models with Within-Subject Serial Dependence</em> (Aceito).  </br></p>
+SCHUMACHER, FERNANDA L.; LACHOS, VICTOR H.; <strong>MATOS, LARISSA A.</strong> (2020). Statistics in Medicine. <em>Scale Mixture of Skew-Normal Linear Mixed Models with Within-Subject Serial Dependence</em> (Aceito). 
+</li>
+<p></br></p>
 <li>
-<p>VALERIANO, KATHERINE A. L.; <strong>MATOS, LARISSA A.</strong>; PRATES, M.O.; LACHOS, VICTOR H. (2020) <em>Likelihood Based Inference for Spatio-Temporal Data with Censored and Missing Responses.</em> Environmetrics. <a href="https://onlinelibrary.wiley.com/doi/10.1002/env.2663"><i class="fas fa-link"></i></a>  </br></p>
+VALERIANO, KATHERINE A. L.; <strong>MATOS, LARISSA A.</strong>; PRATES, M.O.; LACHOS, VICTOR H. (2020) <em>Likelihood Based Inference for Spatio-Temporal Data with Censored and Missing Responses.</em> Environmetrics. <a href="https://onlinelibrary.wiley.com/doi/10.1002/env.2663"><i class="fas fa-link"></i></a> 
+</li>
+<p></br></p>
 <li>
-<p>OLIVARI, ROMMY C.; GARAY, ALDO M.; LACHOS, VICTOR H.; <strong>MATOS, LARISSA A.</strong> (2020) <em>Mixed-Effects Models for Censored Data with Autoregressive Errors.</em> Journal of Biopharmaceutical Statistics. <a href="https://doi.org/10.1080/10543406.2020.1852246"><i class="fas fa-link"></i></a>  </br></p>
+OLIVARI, ROMMY C.; GARAY, ALDO M.; LACHOS, VICTOR H.; <strong>MATOS, LARISSA A.</strong> (2020) <em>Mixed-Effects Models for Censored Data with Autoregressive Errors.</em> Journal of Biopharmaceutical Statistics. <a href="https://doi.org/10.1080/10543406.2020.1852246"><i class="fas fa-link"></i></a> 
+</li>
+<p></br></p>
 <li>
-<p>LEMUS, MARCELA N.; LACHOS, VICTOR H.; GALARZA, CHRISTIAN E.; <strong>MATOS, LARISSA A.</strong> (2020) <em>Estimation and Diagnostics for Partially Censored Regression Models Based on Heavy-Tailed Distributions.</em> Statistics and its Interface (Aceito).  </br></p>
+LEMUS, MARCELA N.; LACHOS, VICTOR H.; GALARZA, CHRISTIAN E.; <strong>MATOS, LARISSA A.</strong> (2020) <em>Estimation and Diagnostics for Partially Censored Regression Models Based on Heavy-Tailed Distributions.</em> Statistics and its Interface (Aceito). 
+</li>
+<p></br></p>
 <li>
-<p>LACHOS, VICTOR H.; <strong>MATOS, LARISSA A.</strong>; CASTRO, LUIS M.; CHEN, MING-HUI (2018). <em>Flexible Longitudinal Linear Mixed Models for Multiple Censored Responses Data.</em> Statistics in Medicine. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.8017"><i class="fas fa-link"></i></a>  </br></p>
+LACHOS, VICTOR H.; <strong>MATOS, LARISSA A.</strong>; CASTRO, LUIS M.; CHEN, MING-HUI (2018). <em>Flexible Longitudinal Linear Mixed Models for Multiple Censored Responses Data.</em> Statistics in Medicine. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.8017"><i class="fas fa-link"></i></a> 
+</li>
+<p></br></p>
 <li>
-<p><strong>MATOS, LARISSA A.</strong>; CASTRO, LUIS M. ; CABRAL, CELSO R. B.; LACHOS, VICTOR H. <em>Multivariate measurement error models based on Student- distribution under censored responses.</em> STATISTICS, v. 52, p. 1395-1416, 2018. <a href="https://www.tandfonline.com/doi/abs/10.1080/02331888.2018.1527841"><i class="fas fa-link"></i></a>  </br></p>
+<strong>MATOS, LARISSA A.</strong>; CASTRO, LUIS M. ; CABRAL, CELSO R. B.; LACHOS, VICTOR H. <em>Multivariate measurement error models based on Student- distribution under censored responses.</em> STATISTICS, v. 52, p. 1395-1416, 2018. <a href="https://www.tandfonline.com/doi/abs/10.1080/02331888.2018.1527841"><i class="fas fa-link"></i></a> 
+</li>
+<p></br></p>
 <li>
-<p><strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H.; LIN, TSUNG-I; CASTRO, LUIS M. <em>Heavy-tailed longitudinal regression models for censored data: a robust parametric approach</em>. TEST, v. -, p. -, 2018. <a href="https://link.springer.com/article/10.1007/s11749-018-0603-5"><i class="fas fa-link"></i></a>  </br></p>
+<strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H.; LIN, TSUNG-I; CASTRO, LUIS M. <em>Heavy-tailed longitudinal regression models for censored data: a robust parametric approach</em>. TEST, v. -, p. -, 2018. <a href="https://link.springer.com/article/10.1007/s11749-018-0603-5"><i class="fas fa-link"></i></a> 
+</li>
+<p></br></p>
 <li>
-<p>LACHOS, VICTOR H.; <strong>MATOS, LARISSA A.</strong>; BARBOSA, THAIS S.; GARAY, ALDO M.; DEY, DIPAK K. <em>Influence diagnostics in spatial models with censored response.</em> ENVIRONMETRICS, v. 28, p. e2464, 2017. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/env.2464"><i class="fas fa-link"></i></a> </br></p>
+LACHOS, VICTOR H.; <strong>MATOS, LARISSA A.</strong>; BARBOSA, THAIS S.; GARAY, ALDO M.; DEY, DIPAK K. <em>Influence diagnostics in spatial models with censored response.</em> ENVIRONMETRICS, v. 28, p. e2464, 2017. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/env.2464"><i class="fas fa-link"></i></a>
+</li>
+<p></br></p>
 <li>
-<p><strong>MATOS, LARISSA A.</strong>; CASTRO, LUIS M.; LACHOS, VICTOR H. <em>Censored mixed-effects models for irregularly observed repeated measures with applications to HIV viral loads.</em> TEST, v. 25, p. 627-653, 2016. <a href="https://link.springer.com/article/10.1007/s11749-016-0486-2"><i class="fas fa-link"></i></a> </br></p>
+<strong>MATOS, LARISSA A.</strong>; CASTRO, LUIS M.; LACHOS, VICTOR H. <em>Censored mixed-effects models for irregularly observed repeated measures with applications to HIV viral loads.</em> TEST, v. 25, p. 627-653, 2016. <a href="https://link.springer.com/article/10.1007/s11749-016-0486-2"><i class="fas fa-link"></i></a>
+</li>
+<p></br></p>
 <li>
-<p><strong>MATOS, LARISSA A.</strong>; BANDYOPADHYAY, DIPANKAR; CASTRO, LUIS M.; LACHOS, VICTOR H. <em>Influence assessment in censored mixed-effects models using the multivariate Students-t.</em> JOURNAL OF MULTIVARIATE ANALYSIS, v. 141, p. 104-117, 2015. <a href="https://www.sciencedirect.com/science/article/pii/S0047259X15001591"><i class="fas fa-link"></i></a> </br></p>
+<strong>MATOS, LARISSA A.</strong>; BANDYOPADHYAY, DIPANKAR; CASTRO, LUIS M.; LACHOS, VICTOR H. <em>Influence assessment in censored mixed-effects models using the multivariate Students-t.</em> JOURNAL OF MULTIVARIATE ANALYSIS, v. 141, p. 104-117, 2015. <a href="https://www.sciencedirect.com/science/article/pii/S0047259X15001591"><i class="fas fa-link"></i></a>
+</li>
+<p></br></p>
 <li>
-<p>MASSUIA, MONIQUE B.; CABRAL, CELSO R. B.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. <em>Influence diagnostics for Student- t censored linear regression models.</em> STATISTICS, v. 49, p. 1-21, 2014. <a href="https://www.tandfonline.com/doi/abs/10.1080/02331888.2014.958489"><i class="fas fa-link"></i></a>  </br></p>
+MASSUIA, MONIQUE B.; CABRAL, CELSO R. B.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. <em>Influence diagnostics for Student- t censored linear regression models.</em> STATISTICS, v. 49, p. 1-21, 2014. <a href="https://www.tandfonline.com/doi/abs/10.1080/02331888.2014.958489"><i class="fas fa-link"></i></a> 
+</li>
+<p></br></p>
 <li>
-<p><strong>MATOS, LARISSA A.</strong>; PRATES, MARCOS O.; CHEN, MING-HUI; LACHOS, VICTOR H. <em>Likelihood Based Inference Mixed-Effects Models with Censored Responses Using the Multivariate-t Distribution.</em> Statistica Sinica, v. 23, p. 1323-1345, 2013. <a href="https://www.jstor.org/stable/24310797"><i class="fas fa-link"></i></a>  </br></p>
+<strong>MATOS, LARISSA A.</strong>; PRATES, MARCOS O.; CHEN, MING-HUI; LACHOS, VICTOR H. <em>Likelihood Based Inference Mixed-Effects Models with Censored Responses Using the Multivariate-t Distribution.</em> Statistica Sinica, v. 23, p. 1323-1345, 2013. <a href="https://www.jstor.org/stable/24310797"><i class="fas fa-link"></i></a> 
+</li>
+<p></br></p>
 <li>
-<strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H.; BALAKRISHNAN, N.; LABRA, FILIDOR V. <em>Influence diagnostics in linear and nonlinear mixed-effects models with censored data.</em> Computational Statistics &amp; Data Analysis (Print), v. 57, p. 450-464, 2013. <a href="https://www.sciencedirect.com/science/article/pii/S0167947312002629"><i class="fas fa-link"></i></a>  </br>
+<strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H.; BALAKRISHNAN, N.; LABRA, FILIDOR V. <em>Influence diagnostics in linear and nonlinear mixed-effects models with censored data.</em> Computational Statistics &amp; Data Analysis (Print), v. 57, p. 450-464, 2013. <a href="https://www.sciencedirect.com/science/article/pii/S0167947312002629"><i class="fas fa-link"></i></a> 
+</li>
+</br>
 </ol>
 </p>
 </div>
@@ -459,17 +455,29 @@ Artigos Científico (under review)
 </p>
 <ol reversed>
 <li>
-<p>MATTOS, THALITA B.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. (2020+). <em>A Semiparametric Mixed-Effects Model for Censored Longitudinal Data.</em> (Under review).  </br></p>
+MATTOS, THALITA B.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. (2020+). <em>A Semiparametric Mixed-Effects Model for Censored Longitudinal Data.</em> (Under review). 
+</li>
+<p></br></p>
 <li>
-<p>MATTOS, THALITA B.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. (2020+) <em>Likelihood-based inference for mixed-effects models with censored response using skew-normal distribution.</em> International Journal of Biostatistics (Under review). </br></p>
+MATTOS, THALITA B.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. (2020+) <em>Likelihood-based inference for mixed-effects models with censored response using skew-normal distribution.</em> International Journal of Biostatistics (Under review).
+</li>
+<p></br></p>
 <li>
-<p>GALARZA, CHRISTIAN E.; <strong>MATOS, LARISSA A.</strong>; DEY, DIPAK K.; LACHOS, VICTOR H. (2020+) <em>On Moments of Folded and Truncated Multivariate Extended Skew-Normal Distributions.</em> Journal of Computational and Graphical Statistics (Under review).  </br></p>
+GALARZA, CHRISTIAN E.; <strong>MATOS, LARISSA A.</strong>; DEY, DIPAK K.; LACHOS, VICTOR H. (2020+) <em>On Moments of Folded and Truncated Multivariate Extended Skew-Normal Distributions.</em> Journal of Computational and Graphical Statistics (Under review). 
+</li>
+<p></br></p>
 <li>
-<p>GALARZA, CHRISTIAN E.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. (2020+). <em>Likelihood-based inference for multivariate skew-normal censored responses.</em> Metron (Under review). </br></p>
+GALARZA, CHRISTIAN E.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. (2020+). <em>Likelihood-based inference for multivariate skew-normal censored responses.</em> Metron (Under review).
+</li>
+<p></br></p>
 <li>
-<p>ALENCAR, FRANCISCO H.C.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. (2020+) <em>Finite Mixture of Censored Linear Mixed Models for Irregularly Observed Longitudinal Data.</em> The Canadian Journal of Statistics (Under review).  </br></p>
+ALENCAR, FRANCISCO H.C.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. (2020+) <em>Finite Mixture of Censored Linear Mixed Models for Irregularly Observed Longitudinal Data.</em> The Canadian Journal of Statistics (Under review). 
+</li>
+<p></br></p>
 <li>
-ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. (2020+) <em>Finite Mixture Modeling of Censored and Missing Data Using the Multivariate Skew-Normal Distribution.</em> Advances and Data Analysis and Classification (Under review).  </br>
+ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. (2020+) <em>Finite Mixture Modeling of Censored and Missing Data Using the Multivariate Skew-Normal Distribution.</em> Advances and Data Analysis and Classification (Under review). 
+</li>
+</br>
 </ol>
 </p>
 <hr />
@@ -482,15 +490,24 @@ Relatórios Técnicos
 </p>
 <ol reversed>
 <li>
-<p>GALARZA, CHRISTIAN E.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. (2020). <em>Moments of the doubly truncated selection elliptical distributions with emphasis on the unified multivariate skew-t distribution.</em> arXiv:2007.14980 <a href="https://arxiv.org/abs/2007.14980"><i class="fas fa-link"></i></a> </p>
+GALARZA, CHRISTIAN E.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. (2020). <em>Moments of the doubly truncated selection elliptical distributions with emphasis on the unified multivariate skew-t distribution.</em> arXiv:2007.14980 <a href="https://arxiv.org/abs/2007.14980"><i class="fas fa-link"></i></a> 
+</li>
 <li>
-<p>MATTOS, THALITA B.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. (2020). <em>Extending Multivariate-t Semiparametric Mixed Models for Longitudinal data with Censored Responses and Heavy Tails.</em> Relatório Técnico 1/2020, IMECC/Unicamp. <a href="https://www.ime.unicamp.br/sites/default/files/pesquisa/relatorios/rp-2020-01.pdf"><i class="fas fa-link"></i></a>  </br></p>
+MATTOS, THALITA B.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. (2020). <em>Extending Multivariate-t Semiparametric Mixed Models for Longitudinal data with Censored Responses and Heavy Tails.</em> Relatório Técnico 1/2020, IMECC/Unicamp. <a href="https://www.ime.unicamp.br/sites/default/files/pesquisa/relatorios/rp-2020-01.pdf"><i class="fas fa-link"></i></a> 
+</li>
+<p></br></p>
 <li>
-<p>ORDOÑEZ A.C.; PRATES, M.O.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. (2020). <em>Objective Bayesian analysis for spatial Student-t regression models.</em> arXiv:2004.04341 <a href="https://arxiv.org/abs/2004.04341"><i class="fas fa-link"></i></a>  </br></p>
+ORDOÑEZ A.C.; PRATES, M.O.; <strong>MATOS, LARISSA A.</strong>; LACHOS, VICTOR H. (2020). <em>Objective Bayesian analysis for spatial Student-t regression models.</em> arXiv:2004.04341 <a href="https://arxiv.org/abs/2004.04341"><i class="fas fa-link"></i></a> 
+</li>
+<p></br></p>
 <li>
-<p>GALARZA, CHRISTIAN E.; <strong>MATOS, LARISSA A.</strong>; DEY, DIPAK K.; LACHOS, VICTOR H. (2019). <em>Efficient Computation of Moments of Folded and Doubly Truncated Multivariate Extended Skew-Normal Distributions.</em> Technical Report, 19-29, University of Connecticut.  </br></p>
+GALARZA, CHRISTIAN E.; <strong>MATOS, LARISSA A.</strong>; DEY, DIPAK K.; LACHOS, VICTOR H. (2019). <em>Efficient Computation of Moments of Folded and Doubly Truncated Multivariate Extended Skew-Normal Distributions.</em> Technical Report, 19-29, University of Connecticut. 
+</li>
+<p></br></p>
 <li>
-BARBOSA, T. S.; LACHOS, VICTOR H.; <strong>MATOS, LARISSA A.</strong>; PRATES, MARCOS O. (2016). <em>Estimation in Spatial Models with Censored Response.</em>  </br>
+BARBOSA, T. S.; LACHOS, VICTOR H.; <strong>MATOS, LARISSA A.</strong>; PRATES, MARCOS O. (2016). <em>Estimation in Spatial Models with Censored Response.</em> 
+</li>
+</br>
 </ol>
 </p>
 </div>
@@ -504,19 +521,33 @@ Programas de computador sem registro
 </p>
 <ol reversed>
 <li>
-<p><a href="https://cran.r-project.org/web/packages/skewlmm/index.html"><code>skewlmm</code></a>: <em>Scale Mixture of Skew-Normal Linear Mixed Models.</em> (2020). <!-- SCHUMACHER, FERNANDA L.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. -->  </br></p>
+<a href="https://cran.r-project.org/web/packages/skewlmm/index.html"><code>skewlmm</code></a>: <em>Scale Mixture of Skew-Normal Linear Mixed Models.</em> (2020). <!-- SCHUMACHER, FERNANDA L.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. --> 
+</li>
+<p></br></p>
 <li>
-<p><a href="https://cran.r-project.org/web/packages/OBASpatial/index.html"><code>OBASpatial</code></a>: <em>Objective Bayesian Analysis for Spatial Regression Models.</em> (2020). <!-- ORDOÑEZ A.C.; PRATES, M.O.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. -->  </br></p>
+<a href="https://cran.r-project.org/web/packages/OBASpatial/index.html"><code>OBASpatial</code></a>: <em>Objective Bayesian Analysis for Spatial Regression Models.</em> (2020). <!-- ORDOÑEZ A.C.; PRATES, M.O.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. --> 
+</li>
+<p></br></p>
 <li>
-<p><a href="https://cran.r-project.org/web/packages/CensMFM/index.html"><code>CensMFM</code></a>: <em>Finite Mixture of Multivariate Censored/Missing Data.</em> (2019). <!-- ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H.  -->  </br></p>
+<a href="https://cran.r-project.org/web/packages/CensMFM/index.html"><code>CensMFM</code></a>: <em>Finite Mixture of Multivariate Censored/Missing Data.</em> (2019). <!-- ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H.  --> 
+</li>
+<p></br></p>
 <li>
-<p><a href="https://cran.r-project.org/web/packages/StempCens/index.html"><code>StempCens</code></a>: <em>Spatio-Temporal Estimation and Prediction for Censored/Missing Responses.</em> (2019). <!-- VALERIANO, KATHERINE A. L.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.**  -->  </br></p>
+<a href="https://cran.r-project.org/web/packages/StempCens/index.html"><code>StempCens</code></a>: <em>Spatio-Temporal Estimation and Prediction for Censored/Missing Responses.</em> (2019). <!-- VALERIANO, KATHERINE A. L.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.**  --> 
+</li>
+<p></br></p>
 <li>
-<p><a href="https://cran.rproject.org/web/packages/PartCensReg/index.html"><code>PartCensReg</code></a>: <em>Partially Censored Regression Models Based on Heavy-Tailed Distributions.</em> (2018). <!-- LEMUS, MARCELA N.; GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H.  -->  </br></p>
+<a href="https://cran.rproject.org/web/packages/PartCensReg/index.html"><code>PartCensReg</code></a>: <em>Partially Censored Regression Models Based on Heavy-Tailed Distributions.</em> (2018). <!-- LEMUS, MARCELA N.; GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H.  --> 
+</li>
+<p></br></p>
 <li>
-<p><a href="https://cran.r-project.org/web/packages/CensRegMod/index.html"><code>CensRegMod</code></a>: <em>Fits Normal and Student-t Censored Regression Model.</em> (2015). <!-- MASSUIA, MONIQUE B.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H.  -->  </br></p>
+<a href="https://cran.r-project.org/web/packages/CensRegMod/index.html"><code>CensRegMod</code></a>: <em>Fits Normal and Student-t Censored Regression Model.</em> (2015). <!-- MASSUIA, MONIQUE B.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H.  --> 
+</li>
+<p></br></p>
 <li>
-<a href="https://cran.r-project.org/web/packages/tlmec/index.html"><code>tlmec</code></a>: <em>Linear Student-t Mixed-Effects Models with Censored Data.</em> (2011). <!--  **MATOS, LARISSA A.**; PRATES, MARCOS O.; LACHOS, VICTOR H.  -->  </br>
+<a href="https://cran.r-project.org/web/packages/tlmec/index.html"><code>tlmec</code></a>: <em>Linear Student-t Mixed-Effects Models with Censored Data.</em> (2011). <!--  **MATOS, LARISSA A.**; PRATES, MARCOS O.; LACHOS, VICTOR H.  --> 
+</li>
+</br>
 </ol>
 </p>
 </div>
@@ -530,35 +561,63 @@ Participação em eventos
 </p>
 <ol reversed>
 <li>
-<p>8th Workshop on Probabilistic and Statistical Methods. A semiparametric mixed-effects model for censored longitudinal data (2020).  <a href="Apresentacoes/20_WPSM.pdf"><i class="fas fa-file-pdf"></i></a> </p>
+8th Workshop on Probabilistic and Statistical Methods. A semiparametric mixed-effects model for censored longitudinal data (2020).  <a href="Apresentacoes/20_WPSM.pdf"><i class="fas fa-file-pdf"></i></a> 
+</li>
 <li>
 <p>VI Workshop em Análise de Sobrevivência e Aplicações (WASA 2019). Longitudinal Models for Multiple Censored Responses Data (2019).  <a href="Apresentacoes/19_Wasa.pdf"><i class="fas fa-file-pdf"></i></a></p>
 <li>
-<p>3rd International Conference on Econometrics and Statistics (EcoSta 2019). Estimation for partially linear censored regression models based on heavy tailed distributions (2019).  <a href="Apresentacoes/19_EcoSta.pdf"><i class="fas fa-file-pdf"></i></a> </p>
+3rd International Conference on Econometrics and Statistics (EcoSta 2019). Estimation for partially linear censored regression models based on heavy tailed distributions (2019).  <a href="Apresentacoes/19_EcoSta.pdf"><i class="fas fa-file-pdf"></i></a> 
+</li>
 <li>
-<p>33rd New England Statistics Symposium (NESS). Flexible longitudinal linear mixed models for multiple censored responses data (2019).  <a href="Apresentacoes/19_NESS.pdf"><i class="fas fa-file-pdf"></i></a> </p>
+33rd New England Statistics Symposium (NESS). Flexible longitudinal linear mixed models for multiple censored responses data (2019).  <a href="Apresentacoes/19_NESS.pdf"><i class="fas fa-file-pdf"></i></a> 
+</li>
 <li>
-<p>XVI EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Estimation and diagnostics for partially linear censored regression models based on heavy-tailed distributions (2019).  <a href="Apresentacoes/19_EMR.pdf"><i class="fas fa-file-pdf"></i></a> </p>
+XVI EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Estimation and diagnostics for partially linear censored regression models based on heavy-tailed distributions (2019).  <a href="Apresentacoes/19_EMR.pdf"><i class="fas fa-file-pdf"></i></a> 
+</li>
 <li>
-<p>23º SINAPE - Simpósio Nacional de Probabilidade e Estatística. Estimação e diagnóstico em modelos multivariados para dados censurados (2018).  <a href="Apresentacoes/18_SINAPE.pdf"><i class="fas fa-file-pdf"></i></a>  </br></p>
+23º SINAPE - Simpósio Nacional de Probabilidade e Estatística. Estimação e diagnóstico em modelos multivariados para dados censurados (2018).  <a href="Apresentacoes/18_SINAPE.pdf"><i class="fas fa-file-pdf"></i></a> 
+</li>
+<p></br></p>
 <li>
-<p>10th International Conference of the ERCIM WG on Computational and Methodological Statistics. Heavy-tailed longitudinal regression models for censored data: A likelihood based perspective (2017).  <a href="Apresentacoes/17_CMStatistics.pdf"><i class="fas fa-file-pdf"></i></a>  </br></p>
+10th International Conference of the ERCIM WG on Computational and Methodological Statistics. Heavy-tailed longitudinal regression models for censored data: A likelihood based perspective (2017).  <a href="Apresentacoes/17_CMStatistics.pdf"><i class="fas fa-file-pdf"></i></a> 
+</li>
+<p></br></p>
 <li>
-<p>XV EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data (2017).  <a href="Apresentacoes/17_EMR.pdf"><i class="fas fa-file-pdf"></i></a>  </br></p>
+XV EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data (2017).  <a href="Apresentacoes/17_EMR.pdf"><i class="fas fa-file-pdf"></i></a> 
+</li>
+<p></br></p>
 <li>
-<p>CLATSE - CONGRESO LATINOAMERICANO DE SOCIEDADES DE ESTADÍSTICA. Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data (2016).  <a href="Apresentacoes/16_CLATSE.pdf"><i class="fas fa-file-pdf"></i></a>  </br></p>
+CLATSE - CONGRESO LATINOAMERICANO DE SOCIEDADES DE ESTADÍSTICA. Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data (2016).  <a href="Apresentacoes/16_CLATSE.pdf"><i class="fas fa-file-pdf"></i></a> 
+</li>
+<p></br></p>
 <li>
-<p>XIV EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Censored mixed-effects models for irregularly observed repeated measures with applications to HIV viral loads (2015).  </br></p>
+XIV EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Censored mixed-effects models for irregularly observed repeated measures with applications to HIV viral loads (2015). 
+</li>
+<p></br></p>
 <li>
-<p>28th International Workshop on Statistical Modelling. Influence diagnostics in linear and nonlinear mixed-effects models with censored data using the multivariate-t distribution (2013).  </br></p>
+28th International Workshop on Statistical Modelling. Influence diagnostics in linear and nonlinear mixed-effects models with censored data using the multivariate-t distribution (2013). 
+</li>
+<p></br></p>
 <li>
-<p>III Workshop em Análise de Sobrevivência e Aplicações (WASA-2013). Diagnostic Analysis of Censored HIV Viral Dynamics Load with Multivariate Student-t Distribution (2013).  </br></p>
+III Workshop em Análise de Sobrevivência e Aplicações (WASA-2013). Diagnostic Analysis of Censored HIV Viral Dynamics Load with Multivariate Student-t Distribution (2013). 
+</li>
+<p></br></p>
 <li>
-<p>20º SINAPE - Simpósio Nacional de Probabilidade e Estatística. Modelos Lineares e não Lineares de Efeito Misto para Respostas Censuradas usando as Distribuições Normal E Student-t Multivariada (2012). </br></p>
+20º SINAPE - Simpósio Nacional de Probabilidade e Estatística. Modelos Lineares e não Lineares de Efeito Misto para Respostas Censuradas usando as Distribuições Normal E Student-t Multivariada (2012).
+</li>
+<p></br></p>
 <li>
-<p>27th International Workshop on Statistical Modelling. Likelihood based inference for linear and nonlinear mixed-effects models with censored response using the multivariate t distribution (2012).  </br></p>
+27th International Workshop on Statistical Modelling. Likelihood based inference for linear and nonlinear mixed-effects models with censored response using the multivariate t distribution (2012). 
+</li>
+<p></br></p>
 <li>
-<p>14ª Escola de Séries Temporais e Econometria (2011).  </br></p>
+14ª Escola de Séries Temporais e Econometria (2011). 
+</li>
+<p></br></p>
+<li>
+<a href="Slides.html">elza</a>. 
+</li>
+<p></br></p>
 </ol>
 </p>
 </div>
@@ -603,7 +662,7 @@ document.getElementById("defaultOpen").click();
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -621,7 +680,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
