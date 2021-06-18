@@ -87,7 +87,7 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 <h3> Additional information </h3>
 <p class="ptitle"> \ </p>
 
-- CV Lattes \ [<img src="imagens/lattes.png", width = "1.5%">](http://lattes.cnpq.br/6330766834005870)
+- [CV Lattes](http://lattes.cnpq.br/6330766834005870)
 
 - MyCitations ([Google Scholar](https://scholar.google.com.br/citations?hl=en&user=lSCYxF0AAAAJ))
 
@@ -112,21 +112,22 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 
 <ol reversed>
 
-<li> SCHUMACHER, FERNANDA L.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.** (2020). *Scale Mixture of Skew-Normal Linear Mixed Models with Within-Subject Serial Dependence*. Statistics in Medicine (Accepted).\medskip </li>
+<li> ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2021). Statistics in Medicine. *Finite mixture modeling of censored and missing data using the multivariate skew-normal distribution*. Advances in Data Analysis and Classification. [<i class="fas fa-link"></i>](https://link.springer.com/article/10.1007/s11634-021-00448-5) \medskip </li>
 </br>
 
-
-<li> VALERIANO, KATHERINE A. L.;  **MATOS, LARISSA A.**; PRATES, M.O.; LACHOS, VICTOR H. (2020) *Likelihood Based Inference for Spatio-Temporal Data with Censored and Missing Responses.* Environmetrics. [<i class="fas fa-link"></i>](https://onlinelibrary.wiley.com/doi/10.1002/env.2663) \medskip </li>
+<li> SCHUMACHER, FERNANDA L.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.** Statistics in Medicine. *Scale Mixture of Skew-Normal Linear Mixed Models with Within-Subject Serial Dependence* . Statistics in Medicine, v. -, p. -, 2021. [<i class="fas fa-link"></i>](https://onlinelibrary.wiley.com/doi/10.1002/sim.8870) \medskip </li>
 </br>
 
-
-<li> OLIVARI, ROMMY C.; GARAY, ALDO M.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.** (2020) *Mixed-Effects Models for Censored Data with Autoregressive Errors.* Journal of Biopharmaceutical Statistics. [<i class="fas fa-link"></i>](https://doi.org/10.1080/10543406.2020.1852246) \medskip </li>
+<li> VALERIANO, KATHERINE A. L.;  **MATOS, LARISSA A.**; PRATES, M.O.; LACHOS, VICTOR H. *Likelihood Based Inference for Spatio-Temporal Data with Censored and Missing Responses.* Environmetrics, v. -, p. -, 2020. [<i class="fas fa-link"></i>](https://onlinelibrary.wiley.com/doi/10.1002/env.2663) \medskip </li>
 </br>
 
-<li> LEMUS, MARCELA N.; LACHOS, VICTOR H.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.** (2020) *Estimation and Diagnostics for Partially Censored Regression Models Based on Heavy-Tailed Distributions.* Statistics and its Interface (Accepted). \medskip </li>
+<li> OLIVARI, ROMMY C.; GARAY, ALDO M.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.** *Mixed-Effects Models for Censored Data with Autoregressive Errors.* Journal of Biopharmaceutical Statistics, v. -, p. 1-22, 2020. [<i class="fas fa-link"></i>](https://doi.org/10.1080/10543406.2020.1852246)  \medskip </li>
 </br>
 
-<li> LACHOS, VICTOR H.;  **MATOS, LARISSA A.**; CASTRO, LUIS M.; CHEN, MING-HUI (2018). *Flexible Longitudinal Linear Mixed Models for Multiple Censored Responses Data.* Statistics in Medicine. [<i class="fas fa-link"></i>](https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.8017) \medskip </li>
+<li> LEMUS, MARCELA N.; LACHOS, VICTOR H.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.** *Estimation and Diagnostics for Partially Censored Regression Models Based on Heavy-Tailed Distributions.* Statistics and its Interface, v. 14, p. 165-182, 2021. [<i class="fas fa-link"></i>](https://www.intlpress.com/site/pub/pages/journals/items/sii/content/vols/0014/0002/a007/) \medskip </li>
+</br>
+
+<li> LACHOS, VICTOR H.;  **MATOS, LARISSA A.**; CASTRO, LUIS M.; CHEN, MING-HUI. *Flexible Longitudinal Linear Mixed Models for Multiple Censored Responses Data.* Statistics in Medicine, v. -, p. -, 2018. [<i class="fas fa-link"></i>](https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.8017) \medskip </li>
 </br>
 
 <li>  **MATOS, LARISSA A.**; CASTRO, LUIS M. ; CABRAL, CELSO R. B.; LACHOS, VICTOR H. *Multivariate measurement error models based on Student- distribution under censored responses.* STATISTICS, v. 52, p. 1395-1416, 2018. [<i class="fas fa-link"></i>](https://www.tandfonline.com/doi/abs/10.1080/02331888.2018.1527841) \medskip </li>
@@ -147,7 +148,7 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 <li> MASSUIA, MONIQUE B.; CABRAL, CELSO R. B.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. *Influence diagnostics for Student- t censored linear regression models.* STATISTICS, v. 49, p. 1-21, 2014. [<i class="fas fa-link"></i>](https://www.tandfonline.com/doi/abs/10.1080/02331888.2014.958489) \medskip </li>
 </br>
 
-<li>  **MATOS, LARISSA A.**; PRATES, MARCOS O.; CHEN, MING-HUI; LACHOS, VICTOR H. *Likelihood Based Inference Mixed-Effects Models with Censored Responses Using the Multivariate-t Distribution.* Statistica Sinica, v. 23, p. 1323-1345, 2013. [<i class="fas fa-link"></i>](https://www.jstor.org/stable/24310797?casa_token=M6ta3whn1KwAAAAA:ufWMXvGQRiHve3_lOgpXTDp8hJTCk-I4_YNUet8rY0iSpveLNEsLkarqhji6npYGYRYYnL919UoaQ9qS356eu0cCTQ2l1RaEMgU_Vk-RDql_CfEPYWkd#metadata_info_tab_contents) \medskip </li>
+<li>  **MATOS, LARISSA A.**; PRATES, MARCOS O.; CHEN, MING-HUI; LACHOS, VICTOR H. *Likelihood Based Inference Mixed-Effects Models with Censored Responses Using the Multivariate-t Distribution.* Statistica Sinica, v. 23, p. 1323-1345, 2013. [<i class="fas fa-link"></i>](https://www.jstor.org/stable/24310797) \medskip </li>
 </br>
 
 <li>  **MATOS, LARISSA A.**; LACHOS, VICTOR H.; BALAKRISHNAN, N.; LABRA, FILIDOR V. *Influence diagnostics in linear and nonlinear mixed-effects models with censored data.* Computational Statistics & Data Analysis (Print), v. 57, p. 450-464, 2013. [<i class="fas fa-link"></i>](https://www.sciencedirect.com/science/article/pii/S0167947312002629) \medskip </li>
@@ -173,8 +174,6 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 <li> ALENCAR, FRANCISCO H.C.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H.	(2020+) *Finite Mixture of Censored Linear Mixed Models for Irregularly Observed Longitudinal Data.* The Canadian Journal of Statistics (Under review). \medskip </li>
 </br>
 
-<li> ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H. (2020+)	*Finite Mixture Modeling of Censored and Missing Data Using the Multivariate Skew-Normal Distribution.*  Advances and Data Analysis and Classification (Under review). \medskip </li>
-</br>
 </ol>
 
 ----
@@ -249,14 +248,19 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 <ol reversed>
 
 <li> 8th Workshop on Probabilistic and Statistical Methods. A semiparametric mixed-effects model for censored longitudinal data (2020). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/20_WPSM.pdf) \medskip </li>
+</br>
 
-<li> VI Workshop em Análise de Sobrevivência e Aplicações (WASA 2019). Longitudinal Models for Multiple Censored Responses Data (2019). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/19_Wasa.pdf) 
+<li> VI Workshop em Análise de Sobrevivência e Aplicações (WASA 2019). Longitudinal Models for Multiple Censored Responses Data (2019). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/19_Wasa.pdf) </li>
+</br>
 
 <li> 3rd International Conference on Econometrics and Statistics (EcoSta 2019). Estimation for partially linear censored regression models based on heavy tailed distributions (2019). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/19_EcoSta.pdf) \medskip </li>
+</br>
 
 <li> 33rd New England Statistics Symposium (NESS). Flexible longitudinal linear mixed models for multiple censored responses data (2019). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/19_NESS.pdf) \medskip </li>
+</br>
 
 <li> XVI EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Estimation and diagnostics for partially linear censored regression models based on heavy-tailed distributions (2019). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/19_EMR.pdf) \medskip </li>
+</br>
 
 <li> 23º SINAPE - Simpósio Nacional de Probabilidade e Estatística. Estimação e diagnóstico em modelos multivariados para dados censurados (2018). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/18_SINAPE.pdf) \medskip </li>
 </br>
@@ -269,7 +273,6 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 
 <li> CLATSE - CONGRESO LATINOAMERICANO DE SOCIEDADES DE ESTADÍSTICA. Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data (2016). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/16_CLATSE.pdf) \medskip </li>
 </br>
-
 
 <li> XIV EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Censored mixed-effects models for irregularly observed repeated measures with applications to HIV viral loads (2015). \medskip </li>
 </br>
@@ -305,17 +308,21 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 <h3>  Ph.D Students </h3> 
 <p class="ptitle"> \ </p>
 
+- Katherine Andreina Loor Valeriano - ongoing
+
 - Fernanda Lang Schumacher - ongoing
 
-- Jose Alejandro Ordoñez - Co-adivisor - ongoing
+- Francisco Hildemar Calixto de Alencar - ongoing
 
-- Francisco Hildemar Calixto de Alencar -  ongoing
+- Jose Alejandro Ordoñez - Co-adivisor (2021)
+   <p class="cc"> `Thesis: On Default Priors for Regression Analysis`.</p>
 
 - Thalita do Bem Mattos (2020)
-    <p class="cc"> Thesis: Parametric and semiparametric mixed-effects models for longitudinal censored data.</p>
+    <p class="cc"> `Thesis: Parametric and semiparametric mixed-effects models for longitudinal censored data.`</p>
+
     
 - Christian Eduardo Galarza Morales (2020)
-    <p class="cc"> Thesis: On Moments of doubly truncated multivariate distributions.</p> 
+    <p class="cc"> `Thesis: On Moments of doubly truncated multivariate distributions.`</p> 
 
 ---- 
 
@@ -344,6 +351,14 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 
 <h4>2020</h4>
 
+- Enrico Nunes Pellegrino,	Felipe Augusto Britto Vieira,	Leonardo Henrique Silva,	Marianna Degani	e Roger Mainardes Dos Reis
+    <p class="cc"> Project: Levantamento Uso de Álcool e Outras Drogas na Quarentena.</p>  
+
+- Alexandre Garcia Dias,	Ana Carolina Alves Oliveira,	Eduardo de Paiva Romero	e Tiago Gimenez	
+    <p class="cc"> Project: A espectroscopia de prótons de H por Ressonância Magnética como ferramenta para o diagnóstico diferencial entre tumores cerebrais primários versus secundários.</p>  
+
+- Anderson Gabriel dos Reis Ortelan,	Jessica Fernanda Teixeira do Prado,	Leticia Bettini Infante,	Mateus Dias Lima e	Vinicius Luis Belem Bronzatti
+    <p class="cc"> Project: Efeitos do limoneno e do limoneno-1,2-diol em camundongos alimentados com dieta rica em gordura.</p>      
 - Carolina Andrade, Luccas Fortunatto e Suellen Sena
     <p class="cc"> Project: Estudo de caso de gosto musical na era digital.</p>  
  
@@ -388,7 +403,7 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 
 <h4> PAD/PED  </h4>
 
-- Fernanda Paula Rocha - PED (1S2020)
+- Fernanda Paula Rocha - PED (1S2020; 2S2020)
 
 - Katherine Andreina Loor Valeriano - PED (2S2019)
 

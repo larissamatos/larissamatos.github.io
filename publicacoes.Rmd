@@ -67,19 +67,22 @@ font-style: normal;
 <p class="ptitle"> \ </p>
 <ol reversed>
 
-<li> SCHUMACHER, FERNANDA L.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.** (2020). Statistics in Medicine. *Scale Mixture of Skew-Normal Linear Mixed Models with Within-Subject Serial Dependence* (Aceito). \medskip </li>
+<li> ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2021). Statistics in Medicine. *Finite mixture modeling of censored and missing data using the multivariate skew-normal distribution*. Advances in Data Analysis and Classification. [<i class="fas fa-link"></i>](https://link.springer.com/article/10.1007/s11634-021-00448-5) \medskip </li>
 </br>
 
-<li> VALERIANO, KATHERINE A. L.;  **MATOS, LARISSA A.**; PRATES, M.O.; LACHOS, VICTOR H. (2020) *Likelihood Based Inference for Spatio-Temporal Data with Censored and Missing Responses.* Environmetrics. [<i class="fas fa-link"></i>](https://onlinelibrary.wiley.com/doi/10.1002/env.2663) \medskip </li>
+<li> SCHUMACHER, FERNANDA L.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.** Statistics in Medicine. *Scale Mixture of Skew-Normal Linear Mixed Models with Within-Subject Serial Dependence* . Statistics in Medicine, v. -, p. -, 2021. [<i class="fas fa-link"></i>](https://onlinelibrary.wiley.com/doi/10.1002/sim.8870) \medskip </li>
 </br>
 
-<li> OLIVARI, ROMMY C.; GARAY, ALDO M.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.** (2020) *Mixed-Effects Models for Censored Data with Autoregressive Errors.* Journal of Biopharmaceutical Statistics. [<i class="fas fa-link"></i>](https://doi.org/10.1080/10543406.2020.1852246)  \medskip </li>
+<li> VALERIANO, KATHERINE A. L.;  **MATOS, LARISSA A.**; PRATES, M.O.; LACHOS, VICTOR H. *Likelihood Based Inference for Spatio-Temporal Data with Censored and Missing Responses.* Environmetrics, v. -, p. -, 2020. [<i class="fas fa-link"></i>](https://onlinelibrary.wiley.com/doi/10.1002/env.2663) \medskip </li>
 </br>
 
-<li> LEMUS, MARCELA N.; LACHOS, VICTOR H.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.** (2020) *Estimation and Diagnostics for Partially Censored Regression Models Based on Heavy-Tailed Distributions.* Statistics and its Interface (Aceito). \medskip </li>
+<li> OLIVARI, ROMMY C.; GARAY, ALDO M.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.** *Mixed-Effects Models for Censored Data with Autoregressive Errors.* Journal of Biopharmaceutical Statistics, v. -, p. 1-22, 2020. [<i class="fas fa-link"></i>](https://doi.org/10.1080/10543406.2020.1852246)  \medskip </li>
 </br>
 
-<li> LACHOS, VICTOR H.;  **MATOS, LARISSA A.**; CASTRO, LUIS M.; CHEN, MING-HUI (2018). *Flexible Longitudinal Linear Mixed Models for Multiple Censored Responses Data.* Statistics in Medicine. [<i class="fas fa-link"></i>](https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.8017) \medskip </li>
+<li> LEMUS, MARCELA N.; LACHOS, VICTOR H.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.** *Estimation and Diagnostics for Partially Censored Regression Models Based on Heavy-Tailed Distributions.* Statistics and its Interface, v. 14, p. 165-182, 2021. [<i class="fas fa-link"></i>](https://www.intlpress.com/site/pub/pages/journals/items/sii/content/vols/0014/0002/a007/) \medskip </li>
+</br>
+
+<li> LACHOS, VICTOR H.;  **MATOS, LARISSA A.**; CASTRO, LUIS M.; CHEN, MING-HUI. *Flexible Longitudinal Linear Mixed Models for Multiple Censored Responses Data.* Statistics in Medicine, v. -, p. -, 2018. [<i class="fas fa-link"></i>](https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.8017) \medskip </li>
 </br>
 
 <li>  **MATOS, LARISSA A.**; CASTRO, LUIS M. ; CABRAL, CELSO R. B.; LACHOS, VICTOR H. *Multivariate measurement error models based on Student- distribution under censored responses.* STATISTICS, v. 52, p. 1395-1416, 2018. [<i class="fas fa-link"></i>](https://www.tandfonline.com/doi/abs/10.1080/02331888.2018.1527841) \medskip </li>
@@ -131,8 +134,6 @@ font-style: normal;
 <li> ALENCAR, FRANCISCO H.C.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H.	(2020+) *Finite Mixture of Censored Linear Mixed Models for Irregularly Observed Longitudinal Data.* The Canadian Journal of Statistics (Under review). \medskip </li>
 </br>
 
-<li> ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H. (2020+)	*Finite Mixture Modeling of Censored and Missing Data Using the Multivariate Skew-Normal Distribution.*  Advances and Data Analysis and Classification (Under review). \medskip </li>
-</br>
 </ol>
 
 </p>
@@ -146,6 +147,7 @@ font-style: normal;
 <ol reversed>
 
 <li> GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2020).	*Moments of the doubly truncated selection elliptical distributions with emphasis on the unified multivariate skew-t distribution.* arXiv:2007.14980 [<i class="fas fa-link"></i>](https://arxiv.org/abs/2007.14980) \medskip </li>
+</br>
 
 <li> MATTOS,	THALITA B.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2020).	*Extending Multivariate-t Semiparametric Mixed Models for Longitudinal data with Censored Responses and Heavy Tails.* Relatório Técnico 1/2020, IMECC/Unicamp. [<i class="fas fa-link"></i>](https://www.ime.unicamp.br/sites/default/files/pesquisa/relatorios/rp-2020-01.pdf) \medskip </li>
 </br>
@@ -215,14 +217,19 @@ font-style: normal;
 <ol reversed>
 
 <li> 8th Workshop on Probabilistic and Statistical Methods. A semiparametric mixed-effects model for censored longitudinal data (2020). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/20_WPSM.pdf) \medskip </li>
+</br>
 
-<li> VI Workshop em Análise de Sobrevivência e Aplicações (WASA 2019). Longitudinal Models for Multiple Censored Responses Data (2019). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/19_Wasa.pdf) 
+<li> VI Workshop em Análise de Sobrevivência e Aplicações (WASA 2019). Longitudinal Models for Multiple Censored Responses Data (2019). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/19_Wasa.pdf)  \medskip </li>
+</br>
 
 <li> 3rd International Conference on Econometrics and Statistics (EcoSta 2019). Estimation for partially linear censored regression models based on heavy tailed distributions (2019). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/19_EcoSta.pdf) \medskip </li>
+</br>
 
 <li> 33rd New England Statistics Symposium (NESS). Flexible longitudinal linear mixed models for multiple censored responses data (2019). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/19_NESS.pdf) \medskip </li>
+</br>
 
 <li> XVI EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Estimation and diagnostics for partially linear censored regression models based on heavy-tailed distributions (2019). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/19_EMR.pdf) \medskip </li>
+</br>
 
 <li> 23º SINAPE - Simpósio Nacional de Probabilidade e Estatística. Estimação e diagnóstico em modelos multivariados para dados censurados (2018). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/18_SINAPE.pdf) \medskip </li>
 </br>
@@ -235,7 +242,6 @@ font-style: normal;
 
 <li> CLATSE - CONGRESO LATINOAMERICANO DE SOCIEDADES DE ESTADÍSTICA. Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data (2016). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/16_CLATSE.pdf) \medskip </li>
 </br>
-
 
 <li> XIV EMR - Escola de Modelos de Regressão (Brazilian School of Regression Models). Censored mixed-effects models for irregularly observed repeated measures with applications to HIV viral loads (2015). \medskip </li>
 </br>
@@ -254,10 +260,6 @@ font-style: normal;
 
 <li> 14ª Escola de Séries Temporais e Econometria (2011). \medskip </li>
 </br>
-
-<li> [elza](Slides.html). \medskip </li>
-</br>
-
 
 </ol>
 

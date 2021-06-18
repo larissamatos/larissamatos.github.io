@@ -70,16 +70,11 @@ h3a { /* Header 3*/
 ### Pós-Graduação
 <p class="ptitle"> \ </p>
 
-#### 2S2017
-
-- MI416 - Introdução aos Modelos Lineares 
+- MI908 - Seminário de Estatística I (1S2021)
 </br>
 
-#### 1S2021
-
-- MI908 - Seminário de Estatística I 
+- MI416 - Introdução aos Modelos Lineares (2S2017)
 </br>
-
 
 ----
 

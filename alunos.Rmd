@@ -16,15 +16,16 @@ output:
 
 - Fernanda Lang Schumacher - Doutorado em andamento (Fomento: CNPq) 
 
-- Jose Alejandro Ordoñez  - Doutorado em andamento - Co-orientadora (Fomento: CAPES) 
-
 - Francisco Hildemar Calixto de Alencar - Doutorado em andamento (Fomento: CAPES) 
 
+- Jose Alejandro Ordoñez (Fomento: CAPES). Ano de conclusão: 2021 - Co-orientadora 
+    <p class="cc"> `Tese: On Default Priors for Regression Analysis.`</p>
+    
 - Thalita do Bem Mattos (Fomento: CAPES). Ano de conclusão: 2020. 
-    <p class="cc"> Tese: Parametric and semiparametric mixed-effects models for longitudinal censored data.</p>
+    <p class="cc"> `Tese: Parametric and semiparametric mixed-effects models for longitudinal censored data.`</p>
     
 - Christian Eduardo Galarza Morales (Fomento: FAPESP - Processo: 2015/17110-9). Ano de conclusão: 2020.
-    <p class="cc"> Tese: On Moments of doubly truncated multivariate distributions.</p> 
+    <p class="cc"> `Tese: On Moments of doubly truncated multivariate distributions.`</p> 
 
 ---- 
 
