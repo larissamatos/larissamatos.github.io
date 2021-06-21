@@ -13,6 +13,7 @@ output:
 ![](imagens/foto2.png)
 
 </div>
+
 <div class="column-right">
 
 </br>
@@ -27,11 +28,15 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 
 </br>
 
+</br>
+
 </div>
 
-<div class="column">
+</br>
 
 </br>
+
+[<i class='fas fa-envelope' style='font-size:20px'></i>](contato.html)
 
 <p class="outset"></p>
 <div id="footer">

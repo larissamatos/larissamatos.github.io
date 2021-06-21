@@ -134,3 +134,7 @@ font-size: 13px;
 font-family: 'Open Sans';
 font-style: normal;
 }
+
+p.big {
+  line-height: 1.3;
+}
