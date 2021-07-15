@@ -1,0 +1,39 @@
+.reveal section p {
+  color: blue;
+}
+
+.c2-left{
+  float: left;
+  width: 40%;
+}
+.c2-right{
+  float: right;
+  width: 40%;
+}
+
+.c3-left{
+  float: left;
+  width: 65%;
+}
+.c3-right{
+  float: right;
+  width: 25%;
+}
+
+body {
+  /*background-image: url("Grupo-Elza1.png");
+  min-height: 500px;*/
+  background-color: #ffffff;
+  /* Set background image to fixed (don't scroll along with the page) */
+  background-attachment: fixed;
+  background-position: right top;
+  /* Set the background image to no repeat */
+  background-repeat: no-repeat;
+  /* Scale the background image to be as large as possible */
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: #9966ff;
+}

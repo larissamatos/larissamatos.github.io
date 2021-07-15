@@ -291,6 +291,9 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 <li> 14ª Escola de Séries Temporais e Econometria (2011). \medskip </li>
 <p class="big"> </p>
 
+<li> [Slide](Apresentacoes/Slides.html). \medskip </li>
+<p class="big"> </p>
+
 </ol>
 
 </p> 
