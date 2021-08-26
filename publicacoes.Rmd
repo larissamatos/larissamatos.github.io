@@ -72,6 +72,8 @@ p.big {
 <p class="ptitle"> \ </p>
 <ol reversed>
 
+<li> MATTOS, T. B.; **MATOS, LARISSA A.**; LACHOS, VICTOR H., (2021+). *A semiparametric mixed-effects model for censored longitudinal data*. STATISTICAL METHODS IN MEDICAL RESEARCH. </li>  \medskip </li> </p>
+
 <li> ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2021). Statistics in Medicine. *Finite mixture modeling of censored and missing data using the multivariate skew-normal distribution*. Advances in Data Analysis and Classification. [<i class="fas fa-link"></i>](https://link.springer.com/article/10.1007/s11634-021-00448-5) \medskip </li>
 <p class="big"> </p>
 
