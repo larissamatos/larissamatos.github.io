@@ -124,20 +124,21 @@ p.big {
 <p class="ptitle"> \ </p>
 <ol reversed>
 
-<li> MATTOS,	THALITA B.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2020+).	*A Semiparametric Mixed-Effects Model for Censored Longitudinal Data.* (Under review). \medskip </li>
+<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; CASTRO, LUIS M.; LACHOS, VICTOR H. (2021+)	*Moments of the doubly truncated selection elliptical distributions with emphasis on the unified multivariate skew-t distribution.* Journal of Multivariate Analysis (Under review). \medskip </li>
 <p class="big"> </p>
 
-<li> MATTOS,	THALITA B.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2020+)	*Likelihood-based inference for mixed-effects models with censored response using skew-normal distribution.* International Journal of Biostatistics (Under review).\medskip </li>
+<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; DEY, DIPAK K.; LACHOS, VICTOR H. (2021+)	*On Moments of Folded and Truncated Multivariate Extended Skew-Normal Distributions.* Journal of Computational and Graphical Statistics (Under review). \medskip </li>
 <p class="big"> </p>
 
-<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; DEY, DIPAK K.; LACHOS, VICTOR H. (2020+)	*On Moments of Folded and Truncated Multivariate Extended Skew-Normal Distributions.* Journal of Computational and Graphical Statistics (Under review). \medskip </li>
+<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H. (2021+). *Likelihood-based inference for multivariate skew-normal censored responses.* Metron (Under review).\medskip </li>
 <p class="big"> </p>
 
-<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H. (2020+). *Likelihood-based inference for multivariate skew-normal censored responses.* Metron (Under review).\medskip </li>
+<li> ALENCAR, FRANCISCO H.C.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H.	(2021+) *Finite Mixture of Censored Linear Mixed Models for Irregularly Observed Longitudinal Data.* Journal of Classification (Under review). \medskip </li>
 <p class="big"> </p>
 
-<li> ALENCAR, FRANCISCO H.C.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H.	(2020+) *Finite Mixture of Censored Linear Mixed Models for Irregularly Observed Longitudinal Data.* The Canadian Journal of Statistics (Under review). \medskip </li>
+<li> MATTOS,	THALITA B.; **MATOS, LARISSA A.**; CASTRO, LUIS M.; LACHOS, VICTOR H. (2021+).	*Extending Multivariate-t Semiparametric Mixed Models for Longitudinal data with Censored Responses and Heavy Tails.* Statistics in Medicine (Under review). \medskip </li>
 <p class="big"> </p>
+
 
 </ol>
 
@@ -151,16 +152,7 @@ p.big {
 
 <ol reversed>
 
-<li> GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2020).	*Moments of the doubly truncated selection elliptical distributions with emphasis on the unified multivariate skew-t distribution.* arXiv:2007.14980 [<i class="fas fa-link"></i>](https://arxiv.org/abs/2007.14980) \medskip </li>
-<p class="big"> </p>
-
-<li> MATTOS,	THALITA B.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2020).	*Extending Multivariate-t Semiparametric Mixed Models for Longitudinal data with Censored Responses and Heavy Tails.* Relatório Técnico 1/2020, IMECC/Unicamp. [<i class="fas fa-link"></i>](https://www.ime.unicamp.br/sites/default/files/pesquisa/relatorios/rp-2020-01.pdf) \medskip </li>
-<p class="big"> </p>
-
 <li> ORDOÑEZ A.C.; PRATES, M.O.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2020). *Objective Bayesian analysis for spatial Student-t regression models.* arXiv:2004.04341 [<i class="fas fa-link"></i>](https://arxiv.org/abs/2004.04341) \medskip </li>
-<p class="big"> </p>
-
-<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; DEY, DIPAK K.; LACHOS, VICTOR H. (2019). 	*Efficient Computation of Moments of Folded and Doubly Truncated Multivariate Extended Skew-Normal Distributions.*  Technical Report, 19-29, University of Connecticut. \medskip </li>
 <p class="big"> </p>
 
 <li> BARBOSA, T. S.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.**; PRATES, MARCOS O. (2016). *Estimation in Spatial Models with Censored Response.* \medskip </li>

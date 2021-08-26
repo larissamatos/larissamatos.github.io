@@ -58,7 +58,7 @@ h3a { /* Header 3*/
   border: 1px solid #ccc;
   width: 85%;
   border-left: none;
-  height: 300px;
+  height: 337px;
   font-size: 13px;
   font-family: 'Open Sans';
   font-style: normal;
@@ -82,7 +82,8 @@ h3a { /* Header 3*/
 <p class="ptitle"> \ </p>
 
 <div class="tab">
-  <button class="tablinks" onclick="openE(event, '1S21')" id="defaultOpen">1S21</button>
+  <button class="tablinks" onclick="openE(event, '2S21')" id="defaultOpen">2S21</button>
+  <button class="tablinks" onclick="openE(event, '1S21')" >1S21</button>
   <button class="tablinks" onclick="openE(event, '2S20')" >2S20</button>
   <button class="tablinks" onclick="openE(event, '1S20')" >1S20</button>
   <button class="tablinks" onclick="openE(event, '2S19')">2S19</button>
@@ -90,6 +91,20 @@ h3a { /* Header 3*/
   <button class="tablinks" onclick="openE(event, '2S18')">2S18</button>
   <button class="tablinks" onclick="openE(event, '1S18')">1S18</button>
   <button class="tablinks" onclick="openE(event, '2S17')">2S17</button>
+</div>
+
+<div id="2S21" class="tabcontent">
+</br>
+
+<h3a>Segundo Semestre de 2021</h3a>
+<p>
+
+- ME712 A -  Consultoria Estatística I
+</br>
+
+- ME812 A -  Consultoria Estatística II
+
+</p>
 </div>
 
 <div id="1S21" class="tabcontent">

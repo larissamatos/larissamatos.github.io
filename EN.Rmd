@@ -161,16 +161,19 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 
 <ol reversed>
 
-<li> MATTOS,	THALITA B.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2020+)	*Likelihood-based inference for mixed-effects models with censored response using skew-normal distribution.* International Journal of Biostatistics (Under review).\medskip </li>
+<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; CASTRO, LUIS M.; LACHOS, VICTOR H. (2021+)	*Moments of the doubly truncated selection elliptical distributions with emphasis on the unified multivariate skew-t distribution.* Journal of Multivariate Analysis (Under review). \medskip </li>
 <p class="big"> </p>
 
-<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; DEY, DIPAK K.; LACHOS, VICTOR H. (2020+)	*On Moments of Folded and Truncated Multivariate Extended Skew-Normal Distributions.* Journal of Computational and Graphical Statistics (Under review) \medskip </li>
+<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; DEY, DIPAK K.; LACHOS, VICTOR H. (2021+)	*On Moments of Folded and Truncated Multivariate Extended Skew-Normal Distributions.* Journal of Computational and Graphical Statistics (Under review). \medskip </li>
 <p class="big"> </p>
 
-<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H. (2020+). *Likelihood-based inference for multivariate skew-normal censored responses.* Metron (Under review).\medskip </li>
+<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H. (2021+). *Likelihood-based inference for multivariate skew-normal censored responses.* Metron (Under review).\medskip </li>
 <p class="big"> </p>
 
-<li> ALENCAR, FRANCISCO H.C.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H.	(2020+) *Finite Mixture of Censored Linear Mixed Models for Irregularly Observed Longitudinal Data.* The Canadian Journal of Statistics (Under review). \medskip </li>
+<li> ALENCAR, FRANCISCO H.C.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H.	(2021+) *Finite Mixture of Censored Linear Mixed Models for Irregularly Observed Longitudinal Data.* Journal of Classification (Under review). \medskip </li>
+<p class="big"> </p>
+
+<li> MATTOS,	THALITA B.; **MATOS, LARISSA A.**; CASTRO, LUIS M.; LACHOS, VICTOR H. (2021+).	*Extending Multivariate-t Semiparametric Mixed Models for Longitudinal data with Censored Responses and Heavy Tails.* Statistics in Medicine (Under review). \medskip </li>
 <p class="big"> </p>
 
 </ol>
@@ -182,16 +185,7 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 
 <ol reversed>
 
-<li> MATTOS,	THALITA B.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2020).	*Extending Multivariate-t Semiparametric Mixed Models for Longitudinal data with Censored Responses and Heavy Tails.* Relatório Técnico 1/2020, IMECC/Unicamp. [<i class="fas fa-link"></i>](https://www.ime.unicamp.br/sites/default/files/pesquisa/relatorios/rp-2020-01.pdf) \medskip </li>
-<p class="big"> </p>
-
 <li> ORDOÑEZ A.C.; PRATES, M.O.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2020). Objective Bayesian analysis for spatial Student-t regression models. arXiv:2004.04341 [<i class="fas fa-link"></i>](https://arxiv.org/abs/2004.04341) \medskip </li>
-<p class="big"> </p>
-
-<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; DEY, DIPAK K.; LACHOS, VICTOR H. (2019). 	*Efficient Computation of Moments of Folded and Doubly Truncated Multivariate Extended Skew-Normal Distributions.*  Technical Report, 19-29, University of Connecticut. \medskip </li>
-<p class="big"> </p>
-
-<li> MATTOS,	THALITA B.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2019).	*A Semiparametric Mixed-Effects Model for Censored Longitudinal Data.* Technical Report, 19-15, University of Connecticut. \medskip </li>
 <p class="big"> </p>
 
 <li> BARBOSA, T. S.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.**; PRATES, MARCOS O. (2016). *Estimation in Spatial Models with Censored Response.* \medskip </li>
@@ -351,6 +345,18 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 - Paulo César de Oliveira Rodrigues (2019)
     <p class="cc"> Project: Influência que os professores da educação infantil e fundamental I que gostam ou não de matemática exercem sobre seus alunos.</p> 
 
+
+<h4>2021</h4>
+
+- Gustavo Sanches Guaragna, Júlia Ferri Martinazzo Fontes, Maria Helena Garrido Barretto Reis	e Matheus Luis De Souza Alves
+    <p class="cc"> Project: Avaliação longitudinal dos médicos residentes de oftalmologia: um estudo prospectivo.</p>  
+
+- Augusto Carvalho D'Arruda Neto,	Leticia Helena Porfirio, Lívia Da Cunha Fabris e	Nicholas Salgado Soria
+    <p class="cc"> Project: Plataforma #MemóriasCovid19.</p>  
+
+- Giovanna Miyuki Yoshida,	Nathalia Baltazar Desiderio,	Renan Cyrillo Lima e	Rômulo Cabral Mangiapelo
+    <p class="cc"> Project: Avaliação do declínio cognitivo nas formas crônicas da doença de Chagas e sua relação com o envelhecimento.</p>  
+    
 <h4>2020</h4>
 
 - Enrico Nunes Pellegrino,	Felipe Augusto Britto Vieira,	Leonardo Henrique Silva,	Marianna Degani	e Roger Mainardes Dos Reis
