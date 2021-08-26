@@ -1,5 +1,6 @@
 .reveal section p {
-  color: blue;
+  color: gray;
+  font-size: 15px;
 }
 
 .c2-left{
@@ -20,6 +21,15 @@
   width: 25%;
 }
 
+.c4-left{
+  float: left;
+  width: 25%;
+}
+.c4-right{
+  float: right;
+  width: 65%;
+}
+
 body {
   /*background-image: url("Grupo-Elza1.png");
   min-height: 500px;*/
@@ -36,4 +46,60 @@ body {
 a {
   text-decoration: none;
   color: #9966ff;
+}
+
+.arrow {
+  border: solid #73a1eb;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 2px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+#triangulo-para-cima {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 25px solid #5386E4;
+}
+#triangulo-para-direita {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 25px solid #4C4B63;
+}
+#triangulo-para-baixo {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #949396;
+}
+#triangulo-para-esquerda {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-right:25px solid #ABA8B2;
 }
