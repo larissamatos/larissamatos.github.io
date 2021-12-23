@@ -111,9 +111,18 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 
 <ol reversed>
 
-<li> MATTOS, T. B.; **MATOS, LARISSA A.**; LACHOS, VICTOR H., (2021+). *A semiparametric mixed-effects model for censored longitudinal data*. STATISTICAL METHODS IN MEDICAL RESEARCH. </li>  \medskip </li> </p>
+<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; CASTRO, LUIS M.; LACHOS, VICTOR H. (2021+).	*Moments of the doubly truncated selection elliptical distributions with emphasis on the unified multivariate skew-t distribution.* Journal of Multivariate Analysis. \medskip </li>
+<p class="big"> </p>
 
-<li> ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2021). Statistics in Medicine. *Finite mixture modeling of censored and missing data using the multivariate skew-normal distribution*. Advances in Data Analysis and Classification. [<i class="fas fa-link"></i>](https://link.springer.com/article/10.1007/s11634-021-00448-5) \medskip </li>
+<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H. (2021+). *Likelihood-based inference for multivariate skew-normal censored responses.* Metron.\medskip </li>
+<p class="big"> </p>
+
+<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; DEY, DIPAK K.; LACHOS, VICTOR H. (2021). *On Moments of Folded and Truncated Multivariate Extended Skew-Normal Distributions.* Journal of Computational and Graphical Statistics. [<i class="fas fa-link"></i>](https://www.tandfonline.com/doi/abs/10.1080/10618600.2021.2000869) \medskip </li>
+<p class="big"> </p>
+
+<li> MATTOS, T. B.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2021). *A semiparametric mixed-effects model for censored longitudinal data*. STATISTICAL METHODS IN MEDICAL RESEARCH. [<i class="fas fa-link"></i>](https://doi.org/10.1177/09622802211046387) \medskip </li> </p>
+
+<li> ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2021). *Finite mixture modeling of censored and missing data using the multivariate skew-normal distribution*. Advances in Data Analysis and Classification. [<i class="fas fa-link"></i>](https://link.springer.com/article/10.1007/s11634-021-00448-5) \medskip </li>
 <p class="big"> </p>
 
 <li> SCHUMACHER, FERNANDA L.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.** Statistics in Medicine. *Scale Mixture of Skew-Normal Linear Mixed Models with Within-Subject Serial Dependence* . Statistics in Medicine, v. 40, p. 1790-1810, 2021. [<i class="fas fa-link"></i>](https://onlinelibrary.wiley.com/doi/10.1002/sim.8870) \medskip </li>
@@ -163,15 +172,6 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 
 <ol reversed>
 
-<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; CASTRO, LUIS M.; LACHOS, VICTOR H. (2021+)	*Moments of the doubly truncated selection elliptical distributions with emphasis on the unified multivariate skew-t distribution.* Journal of Multivariate Analysis (Under review). \medskip </li>
-<p class="big"> </p>
-
-<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; DEY, DIPAK K.; LACHOS, VICTOR H. (2021+)	*On Moments of Folded and Truncated Multivariate Extended Skew-Normal Distributions.* Journal of Computational and Graphical Statistics (Under review). \medskip </li>
-<p class="big"> </p>
-
-<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H. (2021+). *Likelihood-based inference for multivariate skew-normal censored responses.* Metron (Under review).\medskip </li>
-<p class="big"> </p>
-
 <li> ALENCAR, FRANCISCO H.C.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H.	(2021+) *Finite Mixture of Censored Linear Mixed Models for Irregularly Observed Longitudinal Data.* Journal of Classification (Under review). \medskip </li>
 <p class="big"> </p>
 
@@ -187,6 +187,15 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 
 <ol reversed>
 
+<li> VALERIANO, KATHERINE A. L.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.** (2021). *Moments and random number generation for the truncated elliptical family of distributions.* arXiv:2112.09319 [<i class="fas fa-link"></i>](https://arxiv.org/abs/2112.09319) \medskip </li>
+<p class="big"> </p>
+
+<li> VALERIANO, KATHERINE A. L.; SCHUMACHER, FERNANDA L.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.** (2021). *Censored autoregressive regression models with Student-t innovations.* arXiv:2110.00224 [<i class="fas fa-link"></i>](https://arxiv.org/abs/2110.00224) \medskip </li>
+<p class="big"> </p>
+
+<li> SCHUMACHER, FERNANDA L.; **MATOS, LARISSA A.**; CABRAL, CELSO R. B. (2021). *Canonical fundamental skew-t linear mixed models.* arXiv:2109.12152  [<i class="fas fa-link"></i>](https://arxiv.org/abs/2109.12152) \medskip </li>
+<p class="big"> </p>
+
 <li> ORDOÑEZ A.C.; PRATES, M.O.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2020). Objective Bayesian analysis for spatial Student-t regression models. arXiv:2004.04341 [<i class="fas fa-link"></i>](https://arxiv.org/abs/2004.04341) \medskip </li>
 <p class="big"> </p>
 
@@ -200,6 +209,16 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 <p class="ptitle"> \ </p>
 
 <ol reversed>
+
+<li> [`relliptical`](https://cran.r-project.org/web/packages/relliptical/index.html): *The Truncated Elliptical Family of Distributions.* (2021).
+<!-- VALERIANO, KATHERINE A. L.; **MATOS, LARISSA A.**; GALARZA, CHRISTIAN E. -->
+\medskip </li>
+<p class="big"> </p>
+
+<li> [`RcppCensSpatial`](https://cran.r-project.org/web/packages/RcppCensSpatial/index.html): *Spatial Estimation and Prediction for Censored/Missing Responses.* (2021).
+<!--  VALERIANO, KATHERINE A. L.; ORDOÑEZ A.C.; GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.** -->
+\medskip </li>
+<p class="big"> </p>
 
 <li> [`skewlmm`](https://cran.r-project.org/web/packages/skewlmm/index.html): *Scale Mixture of Skew-Normal Linear Mixed Models.* (2020).
 <!-- SCHUMACHER, FERNANDA L.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. -->
@@ -305,9 +324,10 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 
 - Katherine Andreina Loor Valeriano - ongoing
 
-- Fernanda Lang Schumacher - ongoing
-
 - Francisco Hildemar Calixto de Alencar - ongoing
+
+- Fernanda Lang Schumacher (2021)
+    <p class="cc"> `Tese: Robust linear mixed models for longitudinal data using skewed and heavy-tailed distributions.`</p>
 
 - Jose Alejandro Ordoñez - Co-adivisor (2021)
    <p class="cc"> `Thesis: On Default Priors for Regression Analysis`.</p>
@@ -315,7 +335,6 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 - Thalita do Bem Mattos (2020)
     <p class="cc"> `Thesis: Parametric and semiparametric mixed-effects models for longitudinal censored data.`</p>
 
-    
 - Christian Eduardo Galarza Morales (2020)
     <p class="cc"> `Thesis: On Moments of doubly truncated multivariate distributions.`</p> 
 
@@ -324,11 +343,13 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 <h3> Master Students </h3> 
 <p class="ptitle"> \ </p>
 
+- Keyliane Travassos Almeida da Silva - ongoing
+
 - Katherine Andreina Loor Valeriano (2019) 
-    <p class="cc"> Dissertation: Inferência para dados espaço-temporais com respostas censuradas e faltantes.</p> 
+    <p class="cc"> `Dissertation: Likelihood based inference for spatio-temporal data with censored and missing responses.`</p> 
 
 - Marcela Nuñez Lemus (2018)
-    <p class="cc"> Dissertation: Estimação e diagnóstico em modelos parcialmente lineares censurados sob distribuições de cauda pesada.</p> 
+    <p class="cc"> `Dissertation: Estimation and diagnostics for partially linear censored regression models based on heavy-tailed distributions.`</p> 
 
 
 ----
@@ -346,6 +367,15 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 
 
 <h4>2021</h4>
+
+- Carlos Eduardo Lima Kamioka, Luana Paias Martínez e Wesley Cabral Alves
+    <p class="cc"> Projeto: Análise das diferenças entre edificações escolares comuns e com certificação AQUA_HQE.</p>  
+
+- João Pedro Shimizu Rodrigues, Rafael Ribeiro De Souza Nania, Sofia Teixeira De Oliveira e Vinícius Nascimento de Oliveira
+    <p class="cc"> Projeto: Análise de perfil e desempenho dos alunos da Usina da Dança.</p>  
+
+- Gabriela Inocente Yogi, Giovanna Machado Flores, Guilherme Artoni e Wesley Ricardo Da Silva Satelis
+    <p class="cc"> Projeto: Delimitação de espécies no complexo Myrcia neoobscura (Myrtaceae).</p>
 
 - Gustavo Sanches Guaragna, Júlia Ferri Martinazzo Fontes, Maria Helena Garrido Barretto Reis	e Matheus Luis De Souza Alves
     <p class="cc"> Project: Avaliação longitudinal dos médicos residentes de oftalmologia: um estudo prospectivo.</p>  

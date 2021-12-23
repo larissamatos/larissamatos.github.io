@@ -14,9 +14,10 @@ output:
 
 - Katherine Andreina Loor Valeriano - Doutorado em andamento (Fomento: CAPES) 
 
-- Fernanda Lang Schumacher - Doutorado em andamento (Fomento: CNPq) 
-
 - Francisco Hildemar Calixto de Alencar - Doutorado em andamento (Fomento: CAPES) 
+
+- Fernanda Lang Schumacher - Doutorado em andamento (Fomento: CAPES e CNPq). Ano de conclusão: 2021.
+    <p class="cc"> `Tese: Robust linear mixed models for longitudinal data using skewed and heavy-tailed distributions.`</p>
 
 - Jose Alejandro Ordoñez (Fomento: CAPES). Ano de conclusão: 2021 - Co-orientadora 
     <p class="cc"> `Tese: On Default Priors for Regression Analysis.`</p>
@@ -32,11 +33,13 @@ output:
 ### Mestrado
 <p class="ptitle"> \ </p>
 
+- Keyliane Travassos Almeida da Silva - Mestrado em andamento (Fomento: CAPES). 
+
 - Katherine Andreina Loor Valeriano (Fomento: CAPES). Ano de conclusão: 2019. 
-    <p class="cc"> Dissertação: Inferência para dados espaço-temporais com respostas censuradas e faltantes.</p> 
+    <p class="cc"> `Dissertação: Inferência para dados espaço-temporais com respostas censuradas e faltantes.`</p> 
 
 - Marcela Nuñez Lemus (Fomento: CAPES). Ano de conclusão: 2018.  
-    <p class="cc"> Dissertação: Estimação e diagnóstico em modelos parcialmente lineares censurados sob distribuições de cauda pesada.</p> 
+    <p class="cc"> `Dissertação: Estimação e diagnóstico em modelos parcialmente lineares censurados sob distribuições de cauda pesada.`</p> 
 
 ---- 
 
@@ -73,6 +76,17 @@ output:
 
 <!-- - -->
 
+2S2021
+
+- Carlos Eduardo Lima Kamioka, Luana Paias Martínez e Wesley Cabral Alves
+    <p class="cc"> Projeto: Análise das diferenças entre edificações escolares comuns e com certificação AQUA_HQE.</p>  
+
+- João Pedro Shimizu Rodrigues, Rafael Ribeiro De Souza Nania, Sofia Teixeira De Oliveira e Vinícius Nascimento de Oliveira
+    <p class="cc"> Projeto: Análise de perfil e desempenho dos alunos da Usina da Dança.</p>  
+
+- Gabriela Inocente Yogi, Giovanna Machado Flores, Guilherme Artoni e Wesley Ricardo Da Silva Satelis
+    <p class="cc"> Projeto: Delimitação de espécies no complexo Myrcia neoobscura (Myrtaceae).</p>
+    
 1S2021
 
 - Gustavo Sanches Guaragna, Júlia Ferri Martinazzo Fontes, Maria Helena Garrido Barretto Reis	e Matheus Luis De Souza Alves
