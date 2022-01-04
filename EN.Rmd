@@ -111,18 +111,18 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 
 <ol reversed>
 
-<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; CASTRO, LUIS M.; LACHOS, VICTOR H. (2021+).	*Moments of the doubly truncated selection elliptical distributions with emphasis on the unified multivariate skew-t distribution.* Journal of Multivariate Analysis. \medskip </li>
+<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H. (2022+). *Likelihood-based inference for multivariate skew-normal censored responses.* Metron.\medskip </li>
 <p class="big"> </p>
 
-<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H. (2021+). *Likelihood-based inference for multivariate skew-normal censored responses.* Metron.\medskip </li>
+<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; CASTRO, LUIS M.; LACHOS, VICTOR H. *Moments of the doubly truncated selection elliptical distributions with emphasis on the unified multivariate skew-t distribution.* Journal of Multivariate Analysis, v. 189, p. -, 2022. [<i class="fas fa-link"></i>](https://authors.elsevier.com/c/1eL-V,14nMrx9E) \medskip </li>
 <p class="big"> </p>
 
-<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; DEY, DIPAK K.; LACHOS, VICTOR H. (2021). *On Moments of Folded and Truncated Multivariate Extended Skew-Normal Distributions.* Journal of Computational and Graphical Statistics. [<i class="fas fa-link"></i>](https://www.tandfonline.com/doi/abs/10.1080/10618600.2021.2000869) \medskip </li>
+<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; DEY, DIPAK K.; LACHOS, VICTOR H. *On Moments of Folded and Truncated Multivariate Extended Skew-Normal Distributions.* Journal of Computational and Graphical Statistics, v. -, p. 1-29, 2021. [<i class="fas fa-link"></i>](https://www.tandfonline.com/doi/abs/10.1080/10618600.2021.2000869) \medskip </li>
 <p class="big"> </p>
 
-<li> MATTOS, T. B.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2021). *A semiparametric mixed-effects model for censored longitudinal data*. STATISTICAL METHODS IN MEDICAL RESEARCH. [<i class="fas fa-link"></i>](https://doi.org/10.1177/09622802211046387) \medskip </li> </p>
+<li> MATTOS, T. B.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. *A semiparametric mixed-effects model for censored longitudinal data*. STATISTICAL METHODS IN MEDICAL RESEARCH, v. 30, p. 2582-2603, 2021. [<i class="fas fa-link"></i>](https://doi.org/10.1177/09622802211046387) \medskip </li> <p class="big"> </p>
 
-<li> ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2021). *Finite mixture modeling of censored and missing data using the multivariate skew-normal distribution*. Advances in Data Analysis and Classification. [<i class="fas fa-link"></i>](https://link.springer.com/article/10.1007/s11634-021-00448-5) \medskip </li>
+<li> DE ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. *Finite mixture modeling of censored and missing data using the multivariate skew-normal distribution*, v. -, p. -, 2021. Advances in Data Analysis and Classification. [<i class="fas fa-link"></i>](https://link.springer.com/article/10.1007/s11634-021-00448-5) \medskip </li>
 <p class="big"> </p>
 
 <li> SCHUMACHER, FERNANDA L.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.** Statistics in Medicine. *Scale Mixture of Skew-Normal Linear Mixed Models with Within-Subject Serial Dependence* . Statistics in Medicine, v. 40, p. 1790-1810, 2021. [<i class="fas fa-link"></i>](https://onlinelibrary.wiley.com/doi/10.1002/sim.8870) \medskip </li>
@@ -172,7 +172,7 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 
 <ol reversed>
 
-<li> ALENCAR, FRANCISCO H.C.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H.	(2021+) *Finite Mixture of Censored Linear Mixed Models for Irregularly Observed Longitudinal Data.* Journal of Classification (Under review). \medskip </li>
+<li> DE ALENCAR, FRANCISCO H.C.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H.	(2021+) *Finite Mixture of Censored Linear Mixed Models for Irregularly Observed Longitudinal Data.* Journal of Classification (Under review). \medskip </li>
 <p class="big"> </p>
 
 <li> MATTOS,	THALITA B.; **MATOS, LARISSA A.**; CASTRO, LUIS M.; LACHOS, VICTOR H. (2021+).	*Extending Multivariate-t Semiparametric Mixed Models for Longitudinal data with Censored Responses and Heavy Tails.* Statistics in Medicine (Under review). \medskip </li>
@@ -231,7 +231,7 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 <p class="big"> </p>
 
 <li> [`CensMFM`](https://cran.r-project.org/web/packages/CensMFM/index.html): *Finite Mixture of Multivariate Censored/Missing Data.* (2019). 
-<!-- ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H.  -->
+<!-- DE ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H.  -->
 \medskip </li>
 <p class="big"> </p>
 
