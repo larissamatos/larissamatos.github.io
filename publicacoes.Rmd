@@ -165,6 +165,9 @@ p.big {
 <li> ORDOÑEZ A.C.; PRATES, M.O.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2020). *Objective Bayesian analysis for spatial Student-t regression models.* arXiv:2004.04341 [<i class="fas fa-link"></i>](https://arxiv.org/abs/2004.04341) \medskip </li>
 <p class="big"> </p>
 
+<li> MATTOS, T. B.; **MATOS, LARISSA A.**; LACHOS, V. H. (2020). *Likelihood-based inference for mixed-effects models with censored response using skew-normal distribution.* \medskip </li>
+<p class="big"> </p>
+
 <li> BARBOSA, T. S.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.**; PRATES, MARCOS O. (2016). *Estimation in Spatial Models with Censored Response.* \medskip </li>
 <p class="big"> </p>
 </ol>
@@ -209,7 +212,7 @@ p.big {
 \medskip </li>
 <p class="big"> </p>
 
-<li> [`PartCensReg`](https://cran.rproject.org/web/packages/PartCensReg/index.html): *Partially Censored Regression Models Based on Heavy-Tailed Distributions.* (2018).  <!-- LEMUS, MARCELA N.; GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H.  --> \medskip </li>
+<li> [`PartCensReg`](https://cran.r-project.org/web/packages/PartCensReg/index.html): *Partially Censored Regression Models Based on Heavy-Tailed Distributions.* (2018).  <!-- LEMUS, MARCELA N.; GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H.  --> \medskip </li>
 <p class="big"> </p>
 
 <li>  [`CensRegMod`](https://cran.r-project.org/web/packages/CensRegMod/index.html): *Fits Normal and Student-t Censored Regression Model.*  (2015).
@@ -273,6 +276,12 @@ p.big {
 <p class="big"> </p>
 
 <li> 27th International Workshop on Statistical Modelling. Likelihood based inference for linear and nonlinear mixed-effects models with censored response using the multivariate t distribution (2012). \medskip </li>
+<p class="big"> </p>
+
+<li> VII Encontro Científico dos Pós-Graduandos do IMECC. (2012). \medskip </li>
+<p class="big"> </p>
+
+<li> VI Encontro Científico dos Pós-Graduandos do IMECC. Diagnostics analysis in linear and non-linear mixed-effects models with censored data (2011). \medskip </li>
 <p class="big"> </p>
 
 <li> 14ª Escola de Séries Temporais e Econometria (2011). \medskip </li>
