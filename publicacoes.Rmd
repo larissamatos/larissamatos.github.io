@@ -162,7 +162,7 @@ p.big {
 <li> SCHUMACHER, FERNANDA L.; **MATOS, LARISSA A.**; CABRAL, CELSO R. B. (2021). *Canonical fundamental skew-t linear mixed models.* arXiv:2109.12152  [<i class="fas fa-link"></i>](https://arxiv.org/abs/2109.12152) \medskip </li>
 <p class="big"> </p>
 
-<li> ORDOÑEZ A.C.; PRATES, M.O.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2020). *Objective Bayesian analysis for spatial Student-t regression models.* arXiv:2004.04341 [<i class="fas fa-link"></i>](https://arxiv.org/abs/2004.04341) \medskip </li>
+<li> ORDOÑEZ J.A.; PRATES, M.O.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2020). *Objective Bayesian analysis for spatial Student-t regression models.* arXiv:2004.04341 [<i class="fas fa-link"></i>](https://arxiv.org/abs/2004.04341) \medskip </li>
 <p class="big"> </p>
 
 <li> MATTOS, T. B.; **MATOS, LARISSA A.**; LACHOS, V. H. (2020). *Likelihood-based inference for mixed-effects models with censored response using skew-normal distribution.* \medskip </li>
@@ -198,7 +198,7 @@ p.big {
 <p class="big"> </p>
 
 <li> [`OBASpatial`](https://cran.r-project.org/web/packages/OBASpatial/index.html): *Objective Bayesian Analysis for Spatial Regression Models.* (2020).
-<!-- ORDOÑEZ A.C.; PRATES, M.O.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. -->
+<!-- ORDOÑEZ J.A.; PRATES, M.O.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. -->
 \medskip </li>
 <p class="big"> </p>
 
