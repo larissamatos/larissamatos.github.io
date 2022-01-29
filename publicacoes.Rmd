@@ -73,7 +73,7 @@ p.big {
 <ol reversed>
 
 
-<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H. (2022+). *Likelihood-based inference for multivariate skew-normal censored responses.* Metron.\medskip </li>
+<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H. *An EM algorithm for estimating the parameters of the multivariate skew-normal distribution with censored responses.* Metron, v. -, p. -, 2022.[<i class="fas fa-link"></i>](https://doi.org/10.1007/s40300-021-00227-4)  \medskip </li>
 <p class="big"> </p>
 
 <li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; CASTRO, LUIS M.; LACHOS, VICTOR H. *Moments of the doubly truncated selection elliptical distributions with emphasis on the unified multivariate skew-t distribution.* Journal of Multivariate Analysis, v. 189, p. 104944, 2022. [<i class="fas fa-link"></i>](https://authors.elsevier.com/c/1eL-V,14nMrx9E) \medskip </li>
