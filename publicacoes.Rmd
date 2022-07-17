@@ -236,6 +236,9 @@ p.big {
 
 <ol reversed>
 
+<li> 2022 ICSA Applied Statistics Symposium. Extending multivariate Student’s-t semiparametric mixed models for longitudinal data with censored responses and heavy tails (2022). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/22_ICSA.pdf) \medskip </li>
+<p class="big"> </p>
+
 <li> 8th Workshop on Probabilistic and Statistical Methods. A semiparametric mixed-effects model for censored longitudinal data (2020). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/20_WPSM.pdf) \medskip </li>
 <p class="big"> </p>
 
