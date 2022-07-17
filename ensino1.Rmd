@@ -105,6 +105,19 @@ h3a { /* Header 3*/
 - ME812 A -  Consultoria Estatística II
 
 </p>
+
+</br>
+
+<h3a>Segundo Semestre de 2022</h3a>
+<p>
+
+- ME712 A -  Consultoria Estatística I
+</br>
+
+- ME812 A -  Consultoria Estatística II
+
+</p>
+
 </div>
 
 <div id="2021" class="tabcontent">
