@@ -13,8 +13,8 @@
 
 <title> Contato</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -59,6 +59,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 
@@ -83,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -235,7 +239,7 @@ $(document).ready(function () {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -246,7 +250,7 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa-home"></span>
+    <span class="fa fa-home"></span>
      
     Home
   </a>
@@ -255,28 +259,28 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="informacoes.html">
-    <span class="fas fa-graduation-cap"></span>
+    <span class="fa fa-graduation-cap"></span>
      
     Informações Acadêmicas
   </a>
 </li>
 <li>
   <a href="ensino1.html">
-    <span class="fas fa-book"></span>
+    <span class="fa fa-book"></span>
      
     Ensino
   </a>
 </li>
 <li>
   <a href="publicacoes.html">
-    <span class="fas fa-sticky-note"></span>
+    <span class="fa fa-sticky-note"></span>
      
     Publicações
   </a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fas fa-users"></span>
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-users"></span>
      
     Alunos
      
@@ -293,20 +297,20 @@ $(document).ready(function () {
 </li>
 <li>
   <a href="contato.html">
-    <span class="fas fa-envelope"></span>
+    <span class="fa fa-envelope"></span>
      
     Contato
   </a>
 </li>
 <li>
   <a href="fotos.html">
-    <span class="fas fa-images"></span>
+    <span class="fa fa-images"></span>
      
   </a>
 </li>
 <li>
   <a href="EN.html">
-    <span class="fas fa-flag"></span>
+    <span class="fa fa-flag"></span>
      
     En
   </a>
@@ -320,15 +324,19 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore"><i class='fas fa-envelope' style='font-size:20px'></i> Contato</h1>
+<h1 class="title toc-ignore"><i class='fas fa-envelope' style='font-size:20px'></i>
+Contato</h1>
 
 </div>
 
 
 <hr />
 <div id="endereço" class="section level3">
-<h3>Endereço <i class="fas fa-address-card"  style='font-size:16px'></i></h3>
-<p><i class="fas fa-map-marker-alt"></i>  Rua Sergio Buarque de Holanda, 651 - Sala 234 - Cidade Universitária, Campinas/SP - Brasil - CEP: 13083-859</p>
+<h3>Endereço
+<i class="fas fa-address-card"  style='font-size:16px'></i></h3>
+<p><i class="fas fa-map-marker-alt"></i>  Rua Sergio Buarque de Holanda,
+651 - Sala 234 - Cidade Universitária, Campinas/SP - Brasil - CEP:
+13083-859</p>
 <hr class="new1">
 </hr>
 </div>
@@ -343,7 +351,10 @@ $(document).ready(function () {
 <p>larissam[at]unicamp.br</p>
 <hr class="new1">
 </hr>
-<p><a href="https://github.com/larissamatos"><i class='fab fa-github' style='font-size:30px'></i></a>    <a href="https://www.linkedin.com/in/larissa-avila-matos-0624bb123/"><i class='fab fa-linkedin' style='font-size:30px'></i></a></p>
+<p><a
+href="https://github.com/larissamatos"><i class='fab fa-github' style='font-size:30px'></i></a>
+   <a
+href="https://www.linkedin.com/in/larissa-avila-matos-0624bb123/"><i class='fab fa-linkedin' style='font-size:30px'></i></a></p>
 <!-- <i class='fab fa-linkedin' style='font-size:24px;color:blue'></i> -->
 <p></br></p>
 <p class="outset">

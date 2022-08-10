@@ -157,32 +157,32 @@ clear: both;
 
 <div class="row">
 <div class="column-f2c">
-<img id="myImg"  class="imageClass" src="imagens/fotos/C22_F3.jpeg" alt=" 2022 ICSA - Flórida/USA"
+<img id="myImg"  class="imageClass" src="imagens/fotos/C22_F5.jpeg" alt="2022 - 24º SINAPE - Gramado/RS"
 style="width:93%;max-width:300px">
 <div id="myModal" class="modal">
   <span class="close">&times;</span>
   <img class="modal-content" id="img01">
   <div id="caption"></div>
 </div>
-<figcaption> <p class="cc3">  2022 ICSA - Flórida/USA </p></figcaption>
+<figcaption> <p class="cc3"> 2022 - 24º SINAPE - Gramado/RS </p></figcaption>
 </div>
 <div class="column-f2c">
-<img id="myImg"  class="imageClass" src="imagens/fotos/C22_F2.jpg" alt=" 2022 ICSA - Flórida/USA" style="width:93%;max-width:300px">
+<img id="myImg"  class="imageClass" src="imagens/fotos/C22_F4.jpg" alt=" 2022 - 24º SINAPE - Gramado/RS" style="width:93%;max-width:300px">
 <div id="myModal" class="modal">
   <span class="close">&times;</span>
   <img class="modal-content" id="img01">
   <div id="caption"></div>
 </div>
-<figcaption> <p class="cc3"> 2022 ICSA - Flórida/USA </p></figcaption>
+<figcaption> <p class="cc3">  2022 - 24º SINAPE - Gramado/RS  </p></figcaption>
 </div>
 <div class="column-f2c">
-<img id="myImg"  class="imageClass" src="imagens/fotos/C22_F1.jpeg" alt="2022 ICSA - Flórida/USA" style="width:50%;max-width:300px">
+<img id="myImg"  class="imageClass" src="imagens/fotos/C22_F2.jpg" alt="2022 ICSA - Flórida/USA" style="width:93%;max-width:300px">
 <div id="myModal" class="modal">
   <span class="close">&times;</span>
   <img class="modal-content" id="img01">
   <div id="caption"></div>
 </div>
-<figcaption> <p class="cc3"> 2022 ICSA - Flórida/USA </p></figcaption>
+<figcaption> <p class="cc3"> 2022 - ICSA - Flórida/USA </p></figcaption>
 </div>
 </div>
 
