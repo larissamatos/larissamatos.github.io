@@ -72,7 +72,6 @@ p.big {
 <p class="ptitle"> \ </p>
 <ol reversed>
 
-
 <li> DE ALENCAR, FRANCISCO H. C.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. *Finite Mixture of Censored Linear Mixed Models for Irregularly Observed Longitudinal Data.* Journal of Classification, 2022. [<i class="fas fa-link"></i>](https://link.springer.com/article/10.1007/s00357-022-09415-x) \medskip </li> <p class="big"> </p>
 
 <li> MATTOS, THALITA B.; LACHOS, VICTOR H.; CASTRO, LUIS M.; **MATOS, LARISSA A.** *Extending multivariate Student's-$t$ semiparametric mixed models for longitudinal data with censored responses and heavy tails.* STATISTICS IN MEDICINE, v. -, p. -, 2022. [<i class="fas fa-link"></i>](https://doi.org/10.1002/sim.9443)

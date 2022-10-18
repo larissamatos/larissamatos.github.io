@@ -11,7 +11,7 @@ output:
 body {font-family: Open Sans;}
 
 h3a { /* Header 3*/
-    font-size: 20px;
+    font-size: 16px;
     color: #4d4d4d;
 }
 
@@ -21,7 +21,7 @@ h3a { /* Header 3*/
   border: 1px solid #ccc;
   background-color: #f1f1f1;
   width: 15%;
-  height: 300px;
+  height: 349px;
 }
 
 /* Style the buttons inside the tab */
@@ -29,7 +29,7 @@ h3a { /* Header 3*/
   display: block;
   background-color: #999999;
   color: white;
-  padding: 8.7px 8px;
+  padding: 19px 8px;
   width: 100%;
   border: none;
   outline: none;
@@ -58,8 +58,8 @@ h3a { /* Header 3*/
   border: 1px solid #ccc;
   width: 85%;
   border-left: none;
-  height: 337px;
-  font-size: 13px;
+  height: 349px;
+  font-size: 12px;
   font-family: 'Open Sans';
   font-style: normal;
 }
@@ -82,32 +82,40 @@ h3a { /* Header 3*/
 <p class="ptitle"> \ </p>
 
 <div class="tab">
-  <button class="tablinks" onclick="openE(event, '2S21')" id="defaultOpen">2S21</button>
-  <button class="tablinks" onclick="openE(event, '1S21')" >1S21</button>
-  <button class="tablinks" onclick="openE(event, '2S20')" >2S20</button>
-  <button class="tablinks" onclick="openE(event, '1S20')" >1S20</button>
-  <button class="tablinks" onclick="openE(event, '2S19')">2S19</button>
-  <button class="tablinks" onclick="openE(event, '1S19')">1S19</button>
-  <button class="tablinks" onclick="openE(event, '2S18')">2S18</button>
-  <button class="tablinks" onclick="openE(event, '1S18')">1S18</button>
-  <button class="tablinks" onclick="openE(event, '2S17')">2S17</button>
+  <button class="tablinks" onclick="openE(event, '2022')" id="defaultOpen">2022</button>
+  <button class="tablinks" onclick="openE(event, '2021')" >2021</button>
+  <button class="tablinks" onclick="openE(event, '2020')" >2020</button>
+  <button class="tablinks" onclick="openE(event, '2019')" >2019</button>
+  <button class="tablinks" onclick="openE(event, '2018')" >2018</button>
+  <button class="tablinks" onclick="openE(event, '2017')" >2017</button>
 </div>
 
-<div id="2S21" class="tabcontent">
+<div id="2022" class="tabcontent">
 </br>
 
-<h3a>Segundo Semestre de 2021</h3a>
-<p>
+<h3a>Primeiro Semestre de 2022</h3a>
+<p> 
+
+- ME173 B - Estatística Descritiva
+</br>
 
 - ME712 A -  Consultoria Estatística I
 </br>
 
 - ME812 A -  Consultoria Estatística II
 
-</p>
+</br>
+
+<h3a>Segundo Semestre de 2022</h3a>
+
+- ME712 A -  Consultoria Estatística I
+</br>
+
+- ME812 A -  Consultoria Estatística II
+
 </div>
 
-<div id="1S21" class="tabcontent">
+<div id="2021" class="tabcontent">
 </br>
 
 <h3a>Primeiro Semestre de 2021</h3a>
@@ -121,27 +129,18 @@ h3a { /* Header 3*/
 
 - ME812 A -  Consultoria Estatística II
 
-</p>
-</div>
-
-<div id="2S20" class="tabcontent">
 </br>
 
-<h3a>Segundo Semestre de 2020</h3a>
-<p>
-
-- [ME414 C](http://me414-unicamp.github.io) - Estatística para Experimentalistas 
-</br>
+<h3a>Segundo Semestre de 2021</h3a>
 
 - ME712 A -  Consultoria Estatística I
 </br>
 
 - ME812 A -  Consultoria Estatística II
 
-</p>
 </div>
 
-<div id="1S20" class="tabcontent">
+<div id="2020" class="tabcontent">
 </br>
 
 <h3a>Primeiro Semestre de 2020</h3a>
@@ -155,25 +154,21 @@ h3a { /* Header 3*/
 
 - ME812 A -  Consultoria Estatística II
 
-</p>
-</div>
-
-<div id="2S19" class="tabcontent">
 </br>
 
-<h3a>Segundo Semestre de 2019</h3a>
-<p>
+<h3a>Segundo Semestre de 2020</h3a>
 
-- [ME414 H](me414_2s2019.html) - Estatística para Experimentalistas
+- [ME414 C](http://me414-unicamp.github.io) - Estatística para Experimentalistas 
 </br>
 
-- [ME720 A](me720_2s2019.html) -  Modelos Lineares Generalizados
+- ME712 A -  Consultoria Estatística I
+</br>
 
-</p>
+- ME812 A -  Consultoria Estatística II
 
 </div>
 
-<div id="1S19" class="tabcontent">
+<div id="2019" class="tabcontent">
 </br>
 
 <h3a>Primeiro Semestre de 2019</h3a>
@@ -181,30 +176,19 @@ h3a { /* Header 3*/
 
 - [ME951 A](me951_1s2019.html) - Estatística e Probabilidade I
 
-</p>
+</br>
+
+<h3a>Segundo Semestre de 2019</h3a>
+
+- [ME414 H](me414_2s2019.html) - Estatística para Experimentalistas
+</br>
+
+- [ME720 A](me720_2s2019.html) -  Modelos Lineares Generalizados
+
 </div>
 
-<div id="2S18" class="tabcontent">
-</br>
+<div id="2018" class="tabcontent">
 
-<h3a>Segundo Semestre de 2018</h3a>
-<p>
-
-- [ME414 A](me414_2s2018.html) - Estatística para Experimentalistas
-</br>
-
-- [ME710 A](Disciplinas/EmentaME710_2S2018.pdf) e [ME810 A](Disciplinas/EmentaME810_2S2018.pdf) - Assessoria Estatística e Estágio Supervisionado
-</br>
-
-- [ME712 A ](Disciplinas/EmentaME712e812_2S2018.pdf) e [ME812 A](Disciplinas/EmentaME712e812_2S2018.pdf) -  Consultoria Estatística I e II
-</br>
-
-- [ME850 A](Disciplinas/EmentaME850_2S2018.pdf) - Seminários de Estatística
-
-</p>
-</div>
-
-<div id="1S18" class="tabcontent">
 </br>
 
 <h3a>Primeiro Semestre de 2018</h3a>
@@ -224,17 +208,31 @@ h3a { /* Header 3*/
 
 - [ME850 A](Disciplinas/EmentaME850_1s2018.pdf) - Seminários de Estatística
 
-</p>
+</br>
+
+<h3a>Segundo Semestre de 2018</h3a>
+
+- [ME414 A](me414_2s2018.html) - Estatística para Experimentalistas
+</br>
+
+- [ME710 A](Disciplinas/EmentaME710_2S2018.pdf) e [ME810 A](Disciplinas/EmentaME810_2S2018.pdf) - Assessoria Estatística e Estágio Supervisionado
+</br>
+
+- [ME712 A ](Disciplinas/EmentaME712e812_2S2018.pdf) e [ME812 A](Disciplinas/EmentaME712e812_2S2018.pdf) -  Consultoria Estatística I e II
+</br>
+
+- [ME850 A](Disciplinas/EmentaME850_2S2018.pdf) - Seminários de Estatística
+
 </div>
 
-<div id="2S17" class="tabcontent">
+<div id="2017" class="tabcontent">
 </br>
 <h3a>Segundo Semestre de 2017</h3a>
 <p>
 
 - ME414 H - Estatística para Experimentalistas
 
-</p>
+
 </div>
 
 <script>

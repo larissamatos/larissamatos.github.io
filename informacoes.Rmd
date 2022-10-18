@@ -47,8 +47,14 @@ output:
 
 ----
 
-### Informações adicionais
+### Informações adicionais 
 <p class="ptitle"> \ </p>
+
+- Tesoureira da Associação Brasileira de Estatística - ABE (2020 - 2022)
+
+- Editora do Boletim da Associação Brasileira de Estatística - ABE (2018 - 2020)
+
+</br>
 
 <img id="myImg"  class="imageClass" src="imagens/lattes.png" alt=" " style="width:2%"> \ [CV Lattes](http://lattes.cnpq.br/6330766834005870)  
 

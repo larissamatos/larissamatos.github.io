@@ -1,7 +1,7 @@
 name: “Larissa Avila Matos”
 navbar:
-  title: 
-  type: inverse 
+  title:
+  type: inverse
   left:
     - text: Home
       icon: fa-home
@@ -12,26 +12,28 @@ navbar:
       href: informacoes.html
     - text: Ensino
       icon: fa-book
-      href: ensino1.html
+      href: ensino.html
     - text: Publicações
       icon: fa-sticky-note
       href: publicacoes.html
     - text: Alunos
       icon: fa-users
-      menu:  # menu nao funciona com include: after_body: footer.html   
+      menu:  # menu nao funciona com include: after_body: footer.html
        #- text: "Heading 1"
        - text: Alunos
          href: alunos.html
        #- text: "---------"
        - text: Fotos
          href: afotos.html
+       - text: Prêmios
+         href: apremios.html
     - text: Contato
       icon: fa-envelope
       href: contato.html
-    - text:  
+    - text:
       icon: fa-images
       href: fotos.html
-    - text: En 
+    - text: En
       icon: fa-flag
       href: EN.html
 

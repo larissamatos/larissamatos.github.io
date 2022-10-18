@@ -13,8 +13,8 @@
 
 <title>ME414 - Estatística para Experimentalistas</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -59,6 +59,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 
@@ -83,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -140,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -235,7 +243,7 @@ $(document).ready(function () {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -246,7 +254,7 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa-home"></span>
+    <span class="fa fa-home"></span>
      
     Home
   </a>
@@ -255,28 +263,28 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="informacoes.html">
-    <span class="fas fa-graduation-cap"></span>
+    <span class="fa fa-graduation-cap"></span>
      
     Informações Acadêmicas
   </a>
 </li>
 <li>
-  <a href="ensino1.html">
-    <span class="fas fa-book"></span>
+  <a href="ensino.html">
+    <span class="fa fa-book"></span>
      
     Ensino
   </a>
 </li>
 <li>
   <a href="publicacoes.html">
-    <span class="fas fa-sticky-note"></span>
+    <span class="fa fa-sticky-note"></span>
      
     Publicações
   </a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fas fa-users"></span>
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-users"></span>
      
     Alunos
      
@@ -289,24 +297,27 @@ $(document).ready(function () {
     <li>
       <a href="afotos.html">Fotos</a>
     </li>
+    <li>
+      <a href="apremios.html">Prêmios</a>
+    </li>
   </ul>
 </li>
 <li>
   <a href="contato.html">
-    <span class="fas fa-envelope"></span>
+    <span class="fa fa-envelope"></span>
      
     Contato
   </a>
 </li>
 <li>
   <a href="fotos.html">
-    <span class="fas fa-images"></span>
+    <span class="fa fa-images"></span>
      
   </a>
 </li>
 <li>
   <a href="EN.html">
-    <span class="fas fa-flag"></span>
+    <span class="fa fa-flag"></span>
      
     En
   </a>
@@ -320,16 +331,19 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">ME414 - Estatística para Experimentalistas</h1>
+<h1 class="title toc-ignore">ME414 - Estatística para
+Experimentalistas</h1>
 
 </div>
 
 
 <hr />
 <p><strong>Segundo Semestre de 2019</strong></p>
-<p><strong>Aulas:</strong> Quartas (CB15) e Sextas (CB11), 10h00-12h00</p>
+<p><strong>Aulas:</strong> Quartas (CB15) e Sextas (CB11),
+10h00-12h00</p>
 <!-- **AVISO:**<span style="color:red"> As aulas terão início no dia 07/08/2019.  </span>   -->
-<p><strong>AVISO:</strong><span style="color:red"> REVISÃO DO EXAME - DIA 12/12/19 das 16:30h as 17:30h. </span></p>
+<p><strong>AVISO:</strong><span style="color:red"> REVISÃO DO EXAME -
+DIA 12/12/19 das 16:30h as 17:30h. </span></p>
 <!-- ---- -->
 <!-- #### **Instruções para o Exame** -->
 <!-- - O Exame será realizado no  dia 11/12/19 - das 10:00-12:00 hs na <span style="color:red"> sala CB15 </span>. -->
@@ -352,33 +366,68 @@ $(document).ready(function () {
 <ol style="list-style-type: lower-alpha">
 <li>Introdução;</li>
 <li>Classificação de variáveis;</li>
-<li>Variáveis Categóricas: Distribuição de Frequência (tabelas e gráficos de barras);<br />
+<li>Variáveis Categóricas: Distribuição de Frequência (tabelas e
+gráficos de barras);<br />
 </li>
-<li>Variáveis Contínuas: Histograma, Ramo e Folha, Box-Plot, Esquema dos cinco números, Medidas de tendência central e de dispersão;</li>
-<li>Análise descritivas bivariada: Diagrama de dispersão, Correlação, Tabelas de contingência e gráficos de barras.</li>
+<li>Variáveis Contínuas: Histograma, Ramo e Folha, Box-Plot, Esquema dos
+cinco números, Medidas de tendência central e de dispersão;</li>
+<li>Análise descritivas bivariada: Diagrama de dispersão, Correlação,
+Tabelas de contingência e gráficos de barras.</li>
 </ol></li>
-<li><p>Probabilidade (a) Definição; Espaço amostral; Eventos; Operações com eventos; Partições do espaço amostral; (b) Probabilidade Condicional; Independência de Eventos; (c) Teorema de Bayes; (d) Variáveis aleatórias discretas; Distribuições de Probabilidade Discreta; Função de Distribuição Acumulada (FDA); Valor esperado e variância; Distribuições discretas: Uniforme, Bernoulli, Binomial, Geométrica, Hipergeométrica e Poisson; Aproximação da Binomial pela Poisson; (e) Variáveis aleatórias continuas: Função de densidade, Função de Distribuição Acumulada (FDA), Valor esperado e variância, Distribuições continuas: Uniforme, Exponencial, Normal; Aproximação da Binomial pela Normal.</p></li>
-<li><p>Amostragem e Inferência Estatística (a) População e Amostra; Amostra Aleatória Simples; Estatística e Parâmetro; Distribuições Amostrais; Teorema Central do Limite; (b) Estimação, Pontual e por Intervalo; (c) Testes de Hipóteses: para médias e proporções (uma e duas populações); (d) Testes de Aderência, Independência e Homogeneidade.</p></li>
+<li><p>Probabilidade (a) Definição; Espaço amostral; Eventos; Operações
+com eventos; Partições do espaço amostral; (b) Probabilidade
+Condicional; Independência de Eventos; (c) Teorema de Bayes; (d)
+Variáveis aleatórias discretas; Distribuições de Probabilidade Discreta;
+Função de Distribuição Acumulada (FDA); Valor esperado e variância;
+Distribuições discretas: Uniforme, Bernoulli, Binomial, Geométrica,
+Hipergeométrica e Poisson; Aproximação da Binomial pela Poisson; (e)
+Variáveis aleatórias continuas: Função de densidade, Função de
+Distribuição Acumulada (FDA), Valor esperado e variância, Distribuições
+continuas: Uniforme, Exponencial, Normal; Aproximação da Binomial pela
+Normal.</p></li>
+<li><p>Amostragem e Inferência Estatística (a) População e Amostra;
+Amostra Aleatória Simples; Estatística e Parâmetro; Distribuições
+Amostrais; Teorema Central do Limite; (b) Estimação, Pontual e por
+Intervalo; (c) Testes de Hipóteses: para médias e proporções (uma e duas
+populações); (d) Testes de Aderência, Independência e
+Homogeneidade.</p></li>
 <li><p>Regressão Linear Simples</p></li>
 </ol>
 <p><strong>Atendimento</strong></p>
 <ul>
 <li>Atendimento (Professor)*: Quartas, das 13h às 14h - Sala 234.</li>
-<li>Atendimento PED (Katherine): Segundas (Sala 125) e Quintas (Sala 123), das 13h às 14h.</li>
+<li>Atendimento PED (Katherine): Segundas (Sala 125) e Quintas (Sala
+123), das 13h às 14h.</li>
 </ul>
-<p>*Para o atendimento com o professor, o aluno deverá enviar um e-mail para <a href="mailto:larissam@ime.unicamp.br" class="email">larissam@ime.unicamp.br</a> com pelo menos 3 horas de antecedência, solicitando o agendamento de atendimento.</p>
+<p>*Para o atendimento com o professor, o aluno deverá enviar um e-mail
+para <a href="mailto:larissam@ime.unicamp.br"
+class="email">larissam@ime.unicamp.br</a> com pelo menos 3 horas de
+antecedência, solicitando o agendamento de atendimento.</p>
 <p><strong>Referências Bibliográficas</strong></p>
 <ul>
-<li>Bussab, W. O. &amp; Morettin, P. A. (1987). <em>Estatística Básica</em>. Atual Editora Ltda., São Paulo.</li>
-<li>Magalhães, M. N., &amp; de Lima, A. C. P. (2001). <em>Noções de probabilidade e estatística</em>. São Paulo: IME-USP.</li>
+<li>Bussab, W. O. &amp; Morettin, P. A. (1987). <em>Estatística
+Básica</em>. Atual Editora Ltda., São Paulo.</li>
+<li>Magalhães, M. N., &amp; de Lima, A. C. P. (2001). <em>Noções de
+probabilidade e estatística</em>. São Paulo: IME-USP.</li>
 <li>Ross, S. M. (2010). <em>Introductory Statistics.</em></li>
-<li>Diez, D. M.; Barr, C. D.; Çetinkaya-Rundel, M. (2015). <em>OpenIntro Statistics.</em></li>
+<li>Diez, D. M.; Barr, C. D.; Çetinkaya-Rundel, M. (2015). <em>OpenIntro
+Statistics.</em></li>
 </ul>
 <p><strong>Critérios de Avaliação</strong></p>
 <ul>
-<li><p>A média final (MF) será a média ponderada de três provas (P1, P2 e P3). Os alunos que obtiverem nota superior ou igual a <strong><span class="math inline">\(\small 6,0\)</span></strong> estarão <strong>aprovados</strong>.</p></li>
-<li><p>Então, o aluno será aprovado se <span class="math display">\[\small \mbox{MF} = 0,3*\mbox{P1} + 0,3*\mbox{P2} + 0,4*\mbox{P3} \geq 6,0.\]</span></p></li>
-<li><p>Os alunos que obtiverem nota final inferior a <span class="math inline">\(\small 6,0\)</span> deverão realizar um exame final. A nota final do curso será a média aritmética simples da nota final do semestre e a nota do exame final, ou seja, <span class="math display">\[\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.\]</span></p></li>
+<li><p>A média final (MF) será a média ponderada de três provas (P1, P2
+e P3). Os alunos que obtiverem nota superior ou igual a <strong><span
+class="math inline">\(\small 6,0\)</span></strong> estarão
+<strong>aprovados</strong>.</p></li>
+<li><p>Então, o aluno será aprovado se <span
+class="math display">\[\small \mbox{MF} = 0,3*\mbox{P1} + 0,3*\mbox{P2}
++ 0,4*\mbox{P3} \geq 6,0.\]</span></p></li>
+<li><p>Os alunos que obtiverem nota final inferior a <span
+class="math inline">\(\small 6,0\)</span> deverão realizar um exame
+final. A nota final do curso será a média aritmética simples da nota
+final do semestre e a nota do exame final, ou seja, <span
+class="math display">\[\small \mbox{NF} = \frac{\mbox{MF} +
+\mbox{Exame}}{2}.\]</span></p></li>
 </ul>
 <hr />
 </div>
@@ -395,83 +444,174 @@ $(document).ready(function () {
 <div id="informações-gerais" class="section level3">
 <h3><strong>Informações gerais</strong></h3>
 <ul>
-<li><p>Avisos, atividades e notas estarão disponíveis nesta página.</p></li>
-<li><p>O aluno deverá ter frequência mínima para aprovação de 75% nas aulas. O Artigo 72 e 73 do Regimento Geral de Graduação será utilizado nos casos de pedido de abono de faltas e sugiro a leitura dos Artigos 74 a 78, que tratam de detalhes sobre o Regime de Exercícios Domiciliares.</p></li>
-<li><p>Seção X - Do Abono de Faltas Artigo 72 - O abono de faltas está previsto nos casos descritos a seguir, mediante apresentação de documentos comprobatórios ao docente responsável pela disciplina, num prazo de 15 (quinze) dias após a ocorrência, durante a vigência do período letivo.</p>
+<li><p>Avisos, atividades e notas estarão disponíveis nesta
+página.</p></li>
+<li><p>O aluno deverá ter frequência mínima para aprovação de 75% nas
+aulas. O Artigo 72 e 73 do Regimento Geral de Graduação será utilizado
+nos casos de pedido de abono de faltas e sugiro a leitura dos Artigos 74
+a 78, que tratam de detalhes sobre o Regime de Exercícios
+Domiciliares.</p></li>
+<li><p>Seção X - Do Abono de Faltas Artigo 72 - O abono de faltas está
+previsto nos casos descritos a seguir, mediante apresentação de
+documentos comprobatórios ao docente responsável pela disciplina, num
+prazo de 15 (quinze) dias após a ocorrência, durante a vigência do
+período letivo.</p>
 <ol style="list-style-type: upper-roman">
-<li><p>Exercício de representação estudantil nos órgãos colegiados, durante os horários das reuniões;</p></li>
-<li><p>Convocação para cumprimento de serviços obrigatórios por lei;</p></li>
-<li><p>Falecimento do cônjuge, filho, inclusive natimorto, pais, irmãos e avós até 03 (três) dias;</p></li>
-<li><p>Falecimento de padrasto, madrasta, sogros e cunhados até 02 (dois) dias.</p></li>
+<li><p>Exercício de representação estudantil nos órgãos colegiados,
+durante os horários das reuniões;</p></li>
+<li><p>Convocação para cumprimento de serviços obrigatórios por
+lei;</p></li>
+<li><p>Falecimento do cônjuge, filho, inclusive natimorto, pais, irmãos
+e avós até 03 (três) dias;</p></li>
+<li><p>Falecimento de padrasto, madrasta, sogros e cunhados até 02
+(dois) dias.</p></li>
 </ol>
-<p>Parágrafo único - O aluno terá direito a uma nova avaliação a ser agendada com o professor responsável pela disciplina, caso ocorra prova ou exame no dia da falta abonada.</p></li>
-<li><p>Para a realização do Exame Final, será utilizado o Artigo 57 do Regimento Geral de Graduação. Aqueles que obtiverem <span class="math inline">\(\small \mbox{MF} \geq 6,0\)</span> estão dispensados do Exame e Aprovados na disciplina. Aqueles que obtiverem <span class="math inline">\(\small 2,5 \leq \mbox{MF} &lt; 6,0\)</span>, e frequência mínima de 75% poderão fazer o Exame Final. Aqueles com <span class="math inline">\(\small \mbox{MF} &lt; 2,5\)</span> e/ou frequência menor que 75% não poderão fazer o Exame e estão Reprovados.</p></li>
-<li><p>O aluno deverá apresentar o RG e o RA durante as provas, se o aluno não apresentar os dois documentos sua prova será anulada.</p></li>
-<li><p>Caso o aluno não compareça no dia da P1, P2 ou P3, deverá enviar a justificativa pelo email. Os alunos com justificativas aceitas poderão realizar a prova substitutiva, que poderá contemplar qualquer conteúdo ministrado durante o semestre.</p></li>
-<li><p>No evento de paralizações, protestos estudantis, piquetes e greves, o docente se reserva o direito de alterar os critérios de presença e metodologia de avaliação. Todas as alterações serão anunciadas na página do curso com a maior antecedência possível, e serão tomadas com propósito de minimizar conflitos e não prejudicar nenhum dos alunos. Em particular, para alguns problemas comuns, são soluções:</p>
+<p>Parágrafo único - O aluno terá direito a uma nova avaliação a ser
+agendada com o professor responsável pela disciplina, caso ocorra prova
+ou exame no dia da falta abonada.</p></li>
+<li><p>Para a realização do Exame Final, será utilizado o Artigo 57 do
+Regimento Geral de Graduação. Aqueles que obtiverem <span
+class="math inline">\(\small \mbox{MF} \geq 6,0\)</span> estão
+dispensados do Exame e Aprovados na disciplina. Aqueles que obtiverem
+<span class="math inline">\(\small 2,5 \leq \mbox{MF} &lt; 6,0\)</span>,
+e frequência mínima de 75% poderão fazer o Exame Final. Aqueles com
+<span class="math inline">\(\small \mbox{MF} &lt; 2,5\)</span> e/ou
+frequência menor que 75% não poderão fazer o Exame e estão
+Reprovados.</p></li>
+<li><p>O aluno deverá apresentar o RG e o RA durante as provas, se o
+aluno não apresentar os dois documentos sua prova será anulada.</p></li>
+<li><p>Caso o aluno não compareça no dia da P1, P2 ou P3, deverá enviar
+a justificativa pelo email. Os alunos com justificativas aceitas poderão
+realizar a prova substitutiva, que poderá contemplar qualquer conteúdo
+ministrado durante o semestre.</p></li>
+<li><p>No evento de paralizações, protestos estudantis, piquetes e
+greves, o docente se reserva o direito de alterar os critérios de
+presença e metodologia de avaliação. Todas as alterações serão
+anunciadas na página do curso com a maior antecedência possível, e serão
+tomadas com propósito de minimizar conflitos e não prejudicar nenhum dos
+alunos. Em particular, para alguns problemas comuns, são soluções:</p>
 <ol style="list-style-type: decimal">
-<li><p>Se houver impedimento para a realização das aulas, elas poderão ser substituídas por atividades online incluindo leitura de material, com presença verificada através de pequenos testes sobre o assunto da aula.</p></li>
-<li><p>Se houver impedimento para a realização de provas durante o semestre, elas serão adiadas, preferencialmente para a aula seguinte à prova interrompida, em horário da aula; se houver indicação de que as interrupções persistirão, as provas poderão ser transformadas em atividades online que devem ser submetidas por email em prazos curtos de tempo (2 horas de duração), com peso idêntico ao da prova correspondente interrompida, e também na semana seguinte à data da prova originalmente interrompida.</p></li>
-<li><p>Se houver impedimento para a realização do exame, ele será adiado.</p></li>
+<li><p>Se houver impedimento para a realização das aulas, elas poderão
+ser substituídas por atividades online incluindo leitura de material,
+com presença verificada através de pequenos testes sobre o assunto da
+aula.</p></li>
+<li><p>Se houver impedimento para a realização de provas durante o
+semestre, elas serão adiadas, preferencialmente para a aula seguinte à
+prova interrompida, em horário da aula; se houver indicação de que as
+interrupções persistirão, as provas poderão ser transformadas em
+atividades online que devem ser submetidas por email em prazos curtos de
+tempo (2 horas de duração), com peso idêntico ao da prova correspondente
+interrompida, e também na semana seguinte à data da prova originalmente
+interrompida.</p></li>
+<li><p>Se houver impedimento para a realização do exame, ele será
+adiado.</p></li>
 </ol>
-<p>Em todos os casos, prevalecerá a orientação da reitoria sobre quaisquer alterações de calendário. Note também que as alterações listadas só se aplicarão em caso de impedimento da atividade, e valem para a classe toda. Um aluno não poderá solicitar o adiamento só da sua prova, etc. Casos omissos são decididos pelo docente.</p></li>
+<p>Em todos os casos, prevalecerá a orientação da reitoria sobre
+quaisquer alterações de calendário. Note também que as alterações
+listadas só se aplicarão em caso de impedimento da atividade, e valem
+para a classe toda. Um aluno não poderá solicitar o adiamento só da sua
+prova, etc. Casos omissos são decididos pelo docente.</p></li>
 </ul>
 <hr />
 </div>
 <div id="aulas" class="section level3">
 <h3><strong>Aulas</strong></h3>
 <ul>
-<li><p><a href="Disciplinas/ME_414_2s2019/Parte1.pdf">Parte 1</a>: Estatística Descritiva: Introdução; Classificação de variáveis.</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Parte2.pdf">Parte 2</a>: Estatísticas Sumárias.</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Parte3.pdf">Parte 3</a>: Análise Exploratória dos dados: Dispersão; Assimetria; Quartis.</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Parte4.pdf">Parte 4</a>: Análise Descritiva Bivariada: Diagrama de dispersão; Correlação; Tabelas de contingência e gráficos de barras.</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Parte5.pdf">Parte 5</a>: Probabilidade: Definição; Espaço amostral; Eventos; Operações com eventos; Partições do espaço amostral.</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Parte6.pdf">Parte 6</a>: Regras de Contagem / Amostragem</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Parte7.pdf">Parte 7</a>: Probabilidade Condicional; Independência de Eventos; Teorema de Bayes.</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Parte8.pdf">Parte 8</a>: Teorema de Bayes.</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Parte9.pdf">Parte 9</a>: Variáveis aleatórias discretas; Distribuições de Probabilidade Discreta; Função de Distribuição Acumulada (FDA); Valor esperado e variância.</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Parte10.pdf">Parte 10</a>: Distribuições discretas: Uniforme, Bernoulli e Binomial.</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Parte11.pdf">Parte 11</a>: Distribuições discretas: Geométrica, Hipergeométrica e Poisson; Aproximação da Binomial pela Poisson.</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Parte12.pdf">Parte 12</a>: Variáveis aleatórias contínuas: Função de densidade; Função de Distribuição Acumulada (FDA); Valor esperado e variância.</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Parte13.pdf">Parte 13</a>: Distribuições contínuas: Uniforme, Exponencial e Normal; Aproximação da Binomial pela Normal. Distribuições contínuas: Gamma e Beta.</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Parte14.pdf">Parte 14</a>: Noções de Inferência Estatística.</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Parte15.pdf">Parte 15</a>: Intervalo de confiança. Intervalo de confiança para proporção.</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Parte16.pdf">Parte 16</a>: Intervalo de confiança para a média populacional.</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Parte17.pdf">Parte 17</a>: Teste de Hipóteses: Introdução.</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Parte18.pdf">Parte 18</a>: Teste de Hipóteses: para médias e proporções.</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Parte19.pdf">Parte 19</a>: Inferência para duas populações: Intervalo de confiança.</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Parte20.pdf">Parte 20</a>: Inferência para duas populações: Teste de Hipóteses.</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Parte21.pdf">Parte 21</a>: Testes Chi-Quadrado: Aderência e Independência.</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Parte22.pdf">Parte 22</a>: Testes de Independência e Homogeneidade.</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Parte23.pdf">Parte 23</a>: Regressão.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Parte1.pdf">Parte 1</a>:
+Estatística Descritiva: Introdução; Classificação de variáveis.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Parte2.pdf">Parte 2</a>:
+Estatísticas Sumárias.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Parte3.pdf">Parte 3</a>:
+Análise Exploratória dos dados: Dispersão; Assimetria; Quartis.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Parte4.pdf">Parte 4</a>:
+Análise Descritiva Bivariada: Diagrama de dispersão; Correlação; Tabelas
+de contingência e gráficos de barras.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Parte5.pdf">Parte 5</a>:
+Probabilidade: Definição; Espaço amostral; Eventos; Operações com
+eventos; Partições do espaço amostral.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Parte6.pdf">Parte 6</a>:
+Regras de Contagem / Amostragem</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Parte7.pdf">Parte 7</a>:
+Probabilidade Condicional; Independência de Eventos; Teorema de
+Bayes.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Parte8.pdf">Parte 8</a>:
+Teorema de Bayes.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Parte9.pdf">Parte 9</a>:
+Variáveis aleatórias discretas; Distribuições de Probabilidade Discreta;
+Função de Distribuição Acumulada (FDA); Valor esperado e
+variância.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Parte10.pdf">Parte 10</a>:
+Distribuições discretas: Uniforme, Bernoulli e Binomial.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Parte11.pdf">Parte 11</a>:
+Distribuições discretas: Geométrica, Hipergeométrica e Poisson;
+Aproximação da Binomial pela Poisson.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Parte12.pdf">Parte 12</a>:
+Variáveis aleatórias contínuas: Função de densidade; Função de
+Distribuição Acumulada (FDA); Valor esperado e variância.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Parte13.pdf">Parte 13</a>:
+Distribuições contínuas: Uniforme, Exponencial e Normal; Aproximação da
+Binomial pela Normal. Distribuições contínuas: Gamma e Beta.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Parte14.pdf">Parte 14</a>:
+Noções de Inferência Estatística.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Parte15.pdf">Parte 15</a>:
+Intervalo de confiança. Intervalo de confiança para proporção.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Parte16.pdf">Parte 16</a>:
+Intervalo de confiança para a média populacional.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Parte17.pdf">Parte 17</a>:
+Teste de Hipóteses: Introdução.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Parte18.pdf">Parte 18</a>:
+Teste de Hipóteses: para médias e proporções.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Parte19.pdf">Parte 19</a>:
+Inferência para duas populações: Intervalo de confiança.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Parte20.pdf">Parte 20</a>:
+Inferência para duas populações: Teste de Hipóteses.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Parte21.pdf">Parte 21</a>:
+Testes Chi-Quadrado: Aderência e Independência.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Parte22.pdf">Parte 22</a>:
+Testes de Independência e Homogeneidade.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Parte23.pdf">Parte 23</a>:
+Regressão.</p></li>
 </ul>
 <hr />
 </div>
 <div id="listas" class="section level3">
 <h3><strong>Listas</strong></h3>
 <ul>
-<li><p><a href="Disciplinas/ME_414_2s2019/Tabelas.pdf">Tabelas das distribuições</a>: Tabelas para serem usadas na resolução dos exercícios.</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Lista1.pdf">Lista 1</a>: Estatística Descritiva.</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Lista2.pdf">Lista 2</a>: Probabilidade.</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Lista3.pdf">Lista 3</a>: Variáveis Aleatórias Discretas.</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Lista4.pdf">Lista 4</a>: Variáveis Aleatórias Contínuas.</p>
+<li><p><a href="Disciplinas/ME_414_2s2019/Tabelas.pdf">Tabelas das
+distribuições</a>: Tabelas para serem usadas na resolução dos
+exercícios.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Lista1.pdf">Lista 1</a>:
+Estatística Descritiva.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Lista2.pdf">Lista 2</a>:
+Probabilidade.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Lista3.pdf">Lista 3</a>:
+Variáveis Aleatórias Discretas.</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2019/Lista4.pdf">Lista 4</a>:
+Variáveis Aleatórias Contínuas.</p>
 <ul>
-<li><a href="Disciplinas/ME_414_2s2019/Lista4_Gab.pdf">Gabarito</a>: Gabarito Lista 4.
+<li><a href="Disciplinas/ME_414_2s2019/Lista4_Gab.pdf">Gabarito</a>:
+Gabarito Lista 4.
 </p></li>
 </ul></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Lista5.pdf">Lista 5</a>: Variáveis Aleatórias Contínuas e IC para proporção.</p>
+<li><p><a href="Disciplinas/ME_414_2s2019/Lista5.pdf">Lista 5</a>:
+Variáveis Aleatórias Contínuas e IC para proporção.</p>
 <ul>
-<li><a href="Disciplinas/ME_414_2s2019/Lista5_Gab.pdf">Gabarito</a>: Gabarito Lista 5.
+<li><a href="Disciplinas/ME_414_2s2019/Lista5_Gab.pdf">Gabarito</a>:
+Gabarito Lista 5.
 </p></li>
 </ul></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Lista6.pdf">Lista 6</a>: Intervalo de confiança.</p>
+<li><p><a href="Disciplinas/ME_414_2s2019/Lista6.pdf">Lista 6</a>:
+Intervalo de confiança.</p>
 <ul>
-<li><a href="Disciplinas/ME_414_2s2019/Lista6_Gab.pdf">Gabarito</a>: Gabarito Lista 6.
+<li><a href="Disciplinas/ME_414_2s2019/Lista6_Gab.pdf">Gabarito</a>:
+Gabarito Lista 6.
 </p></li>
 </ul></li>
-<li><p><a href="Disciplinas/ME_414_2s2019/Lista7.pdf">Lista 7</a>: Teste de Hipóteses.</p>
+<li><p><a href="Disciplinas/ME_414_2s2019/Lista7.pdf">Lista 7</a>: Teste
+de Hipóteses.</p>
 <ul>
-<li><a href="Disciplinas/ME_414_2s2019/Lista7_Gab.pdf">Gabarito</a>: Gabarito Lista 7.
+<li><a href="Disciplinas/ME_414_2s2019/Lista7_Gab.pdf">Gabarito</a>:
+Gabarito Lista 7.
 </p></li>
 </ul></li>
 </ul>

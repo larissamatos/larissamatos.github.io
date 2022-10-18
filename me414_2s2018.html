@@ -13,8 +13,8 @@
 
 <title>ME414 - Estatística para Experimentalistas</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -59,6 +59,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 
@@ -83,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -140,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -235,7 +243,7 @@ $(document).ready(function () {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -246,7 +254,7 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa-home"></span>
+    <span class="fa fa-home"></span>
      
     Home
   </a>
@@ -255,28 +263,28 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="informacoes.html">
-    <span class="fas fa-graduation-cap"></span>
+    <span class="fa fa-graduation-cap"></span>
      
     Informações Acadêmicas
   </a>
 </li>
 <li>
-  <a href="ensino1.html">
-    <span class="fas fa-book"></span>
+  <a href="ensino.html">
+    <span class="fa fa-book"></span>
      
     Ensino
   </a>
 </li>
 <li>
   <a href="publicacoes.html">
-    <span class="fas fa-sticky-note"></span>
+    <span class="fa fa-sticky-note"></span>
      
     Publicações
   </a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fas fa-users"></span>
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-users"></span>
      
     Alunos
      
@@ -289,24 +297,27 @@ $(document).ready(function () {
     <li>
       <a href="afotos.html">Fotos</a>
     </li>
+    <li>
+      <a href="apremios.html">Prêmios</a>
+    </li>
   </ul>
 </li>
 <li>
   <a href="contato.html">
-    <span class="fas fa-envelope"></span>
+    <span class="fa fa-envelope"></span>
      
     Contato
   </a>
 </li>
 <li>
   <a href="fotos.html">
-    <span class="fas fa-images"></span>
+    <span class="fa fa-images"></span>
      
   </a>
 </li>
 <li>
   <a href="EN.html">
-    <span class="fas fa-flag"></span>
+    <span class="fa fa-flag"></span>
      
     En
   </a>
@@ -320,26 +331,39 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">ME414 - Estatística para Experimentalistas</h1>
+<h1 class="title toc-ignore">ME414 - Estatística para
+Experimentalistas</h1>
 
 </div>
 
 
 <hr />
 <p><strong>Segundo Semestre de 2018</strong></p>
-<p><strong>Aulas:</strong> Segundas (CB15) e Quintas (PB16), 21h00-23h00</p>
-<p><strong>AVISO:</strong><span style="color:red"> REVISÃO DO EXAME - DIA 13/12 as 16h. </span></p>
+<p><strong>Aulas:</strong> Segundas (CB15) e Quintas (PB16),
+21h00-23h00</p>
+<p><strong>AVISO:</strong><span style="color:red"> REVISÃO DO EXAME -
+DIA 13/12 as 16h. </span></p>
 <hr />
 <div id="informações-gerais" class="section level3">
 <h3><strong>Informações Gerais</strong></h3>
 <p><strong>Instruções para a prova:</strong></p>
 <ul>
-<li><p>O(a) aluno(a) deverá apresentar seu RA e RG/CNH quando entregar a prova e assinar presença.</p></li>
-<li><p>O(a) aluno(a) só poderá sair da sala após 40 minutos do início da prova, mesmo que já tenha finalizado a prova. Após a saída do(a) primeiro(a) aluno(a) não será permitida a entrada de nenhum(a) outro(a) aluno(a).</p></li>
-<li><p>O(a) aluno(a) poderá utilizar apenas caneta, lápis, borracha e calculadora. Não poderá utilizar a calculadora do celular.</p></li>
-<li><p>Não será permitido empréstimo de material de qualquer tipo entre alunos durante a prova.</p></li>
-<li><p>Para a P2 o(a) aluno(a) deverá levar as <a href="Disciplinas/ME_414_2s2018/Tabelas.pdf">tabelas</a>. <strong>As tabelas não poderão estar rasuradas.</strong></p></li>
-<li><p><a href="Disciplinas/ME_414_2s2018/Formulario.pdf">Formulário</a>: Uma cópia será fornecida durante a prova.</p></li>
+<li><p>O(a) aluno(a) deverá apresentar seu RA e RG/CNH quando entregar a
+prova e assinar presença.</p></li>
+<li><p>O(a) aluno(a) só poderá sair da sala após 40 minutos do início da
+prova, mesmo que já tenha finalizado a prova. Após a saída do(a)
+primeiro(a) aluno(a) não será permitida a entrada de nenhum(a) outro(a)
+aluno(a).</p></li>
+<li><p>O(a) aluno(a) poderá utilizar apenas caneta, lápis, borracha e
+calculadora. Não poderá utilizar a calculadora do celular.</p></li>
+<li><p>Não será permitido empréstimo de material de qualquer tipo entre
+alunos durante a prova.</p></li>
+<li><p>Para a P2 o(a) aluno(a) deverá levar as <a
+href="Disciplinas/ME_414_2s2018/Tabelas.pdf">tabelas</a>. <strong>As
+tabelas não poderão estar rasuradas.</strong></p></li>
+<li><p><a
+href="Disciplinas/ME_414_2s2018/Formulario.pdf">Formulário</a>: Uma
+cópia será fornecida durante a prova.</p></li>
 </ul>
 <hr />
 </div>
@@ -350,35 +374,83 @@ $(document).ready(function () {
 </ul>
 <p><strong>Programa</strong></p>
 <ol style="list-style-type: decimal">
-<li><p>Estatística Descritiva (a) Introdução; (b) Classificação de variáveis; (c) Variáveis Categóricas: Distribuição de Frequência (tabelas e gráficos de barras);<br />
-(d) Variáveis Contínuas: Histograma, Ramo e Folha, Box-Plot, Esquema dos cinco números, Medidas de tendência central e de dispersão; (e) Análise descritivas bivariada: Diagrama de dispersão, Correlação, Tabelas de contingência e gráficos de barras.</p></li>
-<li><p>Probabilidade (a) Definição; Espaço amostral; Eventos; Operações com eventos; Partições do espaço amostral; (b) Probabilidade Condicional; Independência de Eventos; (c) Teorema de Bayes; (d) Variáveis aleatórias discretas; Distribuições de Probabilidade Discreta; Função de Distribuição Acumulada (FDA); Valor esperado e variância; Distribuições discretas: Uniforme, Bernoulli, Binomial, Geométrica, Hipergeométrica e Poisson; Aproximação da Binomial pela Poisson; (e) Variáveis aleatórias continuas: Função de densidade, Função de Distribuição Acumulada (FDA), Valor esperado e variância, Distribuições continuas: Uniforme, Exponencial, Normal; Aproximação da Binomial pela Normal.</p></li>
-<li><p>Amostragem e Inferência Estatística (a) População e Amostra; Amostra Aleatória Simples; Estatística e Parâmetro; Distribuições Amostrais; Teorema Central do Limite; (b) Estimação, Pontual e por Intervalo; (c) Testes de Hipóteses: para médias e proporções (uma e duas populações); (d) Testes de Aderência, Independência e Homogeneidade.</p></li>
+<li><p>Estatística Descritiva (a) Introdução; (b) Classificação de
+variáveis; (c) Variáveis Categóricas: Distribuição de Frequência
+(tabelas e gráficos de barras);<br />
+(d) Variáveis Contínuas: Histograma, Ramo e Folha, Box-Plot, Esquema dos
+cinco números, Medidas de tendência central e de dispersão; (e) Análise
+descritivas bivariada: Diagrama de dispersão, Correlação, Tabelas de
+contingência e gráficos de barras.</p></li>
+<li><p>Probabilidade (a) Definição; Espaço amostral; Eventos; Operações
+com eventos; Partições do espaço amostral; (b) Probabilidade
+Condicional; Independência de Eventos; (c) Teorema de Bayes; (d)
+Variáveis aleatórias discretas; Distribuições de Probabilidade Discreta;
+Função de Distribuição Acumulada (FDA); Valor esperado e variância;
+Distribuições discretas: Uniforme, Bernoulli, Binomial, Geométrica,
+Hipergeométrica e Poisson; Aproximação da Binomial pela Poisson; (e)
+Variáveis aleatórias continuas: Função de densidade, Função de
+Distribuição Acumulada (FDA), Valor esperado e variância, Distribuições
+continuas: Uniforme, Exponencial, Normal; Aproximação da Binomial pela
+Normal.</p></li>
+<li><p>Amostragem e Inferência Estatística (a) População e Amostra;
+Amostra Aleatória Simples; Estatística e Parâmetro; Distribuições
+Amostrais; Teorema Central do Limite; (b) Estimação, Pontual e por
+Intervalo; (c) Testes de Hipóteses: para médias e proporções (uma e duas
+populações); (d) Testes de Aderência, Independência e
+Homogeneidade.</p></li>
 <li><p>Regressão Linear Simples</p></li>
 </ol>
 <p><strong>Atendimento</strong></p>
 <ul>
 <li>Atendimento (Professor): Segundas, das 18h às 19h - Sala 234.</li>
-<li>Atendimento PED (Francisco Hildemar): Terças, das 18h às 19h - Sala 225.</li>
+<li>Atendimento PED (Francisco Hildemar): Terças, das 18h às 19h - Sala
+225.</li>
 </ul>
 <p><strong>Referências Bibliográficas</strong></p>
 <ul>
-<li>Bussab, W. O. &amp; Morettin, P. A. (1987). <em>Estatística Básica</em>. Atual Editora Ltda., São Paulo.</li>
-<li>Magalhães, M. N., &amp; de Lima, A. C. P. (2001). <em>Noções de probabilidade e estatística</em>. São Paulo: IME-USP.</li>
+<li>Bussab, W. O. &amp; Morettin, P. A. (1987). <em>Estatística
+Básica</em>. Atual Editora Ltda., São Paulo.</li>
+<li>Magalhães, M. N., &amp; de Lima, A. C. P. (2001). <em>Noções de
+probabilidade e estatística</em>. São Paulo: IME-USP.</li>
 <li>Ross, S. M. (2010). <em>Introductory Statistics.</em></li>
-<li>Diez, D. M.; Barr, C. D.; Çetinkaya-Rundel, M. (2015). <em>OpenIntro Statistics.</em></li>
+<li>Diez, D. M.; Barr, C. D.; Çetinkaya-Rundel, M. (2015). <em>OpenIntro
+Statistics.</em></li>
 </ul>
 <p><strong>Critérios de Avaliação</strong></p>
 <ul>
-<li><p>A média final (MF) será a média ponderada de duas provas (P1 e P2). Os alunos que obtiverem nota superior ou igual a <strong><span class="math inline">\(\small 6,0\)</span></strong> estarão <strong>aprovados</strong>.</p></li>
-<li><p>Então, o aluno será aprovado se <span class="math display">\[\small \mbox{MF} = 0,4*\mbox{P1} + 0,6*\mbox{P2} \geq 6,0.\]</span></p></li>
-<li><p>Os alunos que obtiverem nota final inferior a <span class="math inline">\(\small 6,0\)</span> deverão realizar um exame final. A nota final do curso será a média aritmética simples da nota final do semestre e a nota do exame final, ou seja, <span class="math display">\[\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.\]</span></p>
+<li><p>A média final (MF) será a média ponderada de duas provas (P1 e
+P2). Os alunos que obtiverem nota superior ou igual a <strong><span
+class="math inline">\(\small 6,0\)</span></strong> estarão
+<strong>aprovados</strong>.</p></li>
+<li><p>Então, o aluno será aprovado se <span
+class="math display">\[\small \mbox{MF} = 0,4*\mbox{P1} + 0,6*\mbox{P2}
+\geq 6,0.\]</span></p></li>
+<li><p>Os alunos que obtiverem nota final inferior a <span
+class="math inline">\(\small 6,0\)</span> deverão realizar um exame
+final. A nota final do curso será a média aritmética simples da nota
+final do semestre e a nota do exame final, ou seja, <span
+class="math display">\[\small \mbox{NF} = \frac{\mbox{MF} +
+\mbox{Exame}}{2}.\]</span></p>
 <p>Observações:</p>
 <ol style="list-style-type: decimal">
-<li>Frequência mínima para aprovação é de <span class="math inline">\(\small 75\%\)</span>.</li>
-<li>Para a realização do Exame Final, será utilizado o Artigo 57 do Regimento Geral de Graduação. Aqueles que obtiverem <span class="math inline">\(\small \mbox{MF} \geq 6,0\)</span> estão dispensados do Exame e Aprovados na disciplina. Aqueles que obtiverem <span class="math inline">\(\small 2,5 \leq \mbox{MF} \leq 6,0\)</span> e frequência mínima de <span class="math inline">\(\small 75\%\)</span> poderão fazer o Exame Final. Aqueles com <span class="math inline">\(\small \mbox{MF} &lt; 2,5\)</span> ou frequência menor que <span class="math inline">\(\small 75\%\)</span> não poderão fazer o Exame e estão Reprovados.</li>
-<li>O aluno deverá apresentar o RG e o RA durante as provas, se o aluno não apresentar os dois documentos sua prova será anulada.</li>
-<li>Caso o aluno não compareça no dia da P1 ou da P2, deverá enviar a justificativa pelo email. Os alunos com justificativas aceitas poderão realizar a prova substitutiva, que poderá contemplar qualquer conteúdo ministrado durante o semestre.</li>
+<li>Frequência mínima para aprovação é de <span
+class="math inline">\(\small 75\%\)</span>.</li>
+<li>Para a realização do Exame Final, será utilizado o Artigo 57 do
+Regimento Geral de Graduação. Aqueles que obtiverem <span
+class="math inline">\(\small \mbox{MF} \geq 6,0\)</span> estão
+dispensados do Exame e Aprovados na disciplina. Aqueles que obtiverem
+<span class="math inline">\(\small 2,5 \leq \mbox{MF} \leq 6,0\)</span>
+e frequência mínima de <span class="math inline">\(\small 75\%\)</span>
+poderão fazer o Exame Final. Aqueles com <span
+class="math inline">\(\small \mbox{MF} &lt; 2,5\)</span> ou frequência
+menor que <span class="math inline">\(\small 75\%\)</span> não poderão
+fazer o Exame e estão Reprovados.</li>
+<li>O aluno deverá apresentar o RG e o RA durante as provas, se o aluno
+não apresentar os dois documentos sua prova será anulada.</li>
+<li>Caso o aluno não compareça no dia da P1 ou da P2, deverá enviar a
+justificativa pelo email. Os alunos com justificativas aceitas poderão
+realizar a prova substitutiva, que poderá contemplar qualquer conteúdo
+ministrado durante o semestre.</li>
 </ol></li>
 </ul>
 <hr />
@@ -396,46 +468,79 @@ $(document).ready(function () {
 <div id="aulas" class="section level3">
 <h3><strong>Aulas</strong></h3>
 <ul>
-<li><a href="Disciplinas/ME_414_2s2018/parte01/parte01.html">Parte 1</a></li>
-<li><a href="Disciplinas/ME_414_2s2018/parte02/parte02.html">Parte 2</a></li>
-<li><a href="Disciplinas/ME_414_2s2018/parte03/parte03.html">Parte 3</a></li>
-<li><a href="Disciplinas/ME_414_2s2018/parte04/parte04.html">Parte 4</a></li>
-<li><a href="Disciplinas/ME_414_2s2018/parte05/parte05.html">Parte 5</a></li>
-<li><a href="Disciplinas/ME_414_2s2018/parte06/parte06.html">Parte 6</a></li>
-<li><a href="Disciplinas/ME_414_2s2018/parte07/parte07.html">Parte 7</a></li>
-<li><a href="Disciplinas/ME_414_2s2018/parte08/parte08.html">Parte 8</a> ( <a href="Disciplinas/ME_414_2s2018/parte08/PortaDosDesesperados.R">Código R</a> )</li>
-<li><a href="Disciplinas/ME_414_2s2018/parte09/parte09.html">Parte 9</a></li>
-<li><a href="Disciplinas/ME_414_2s2018/parte10/parte10.html">Parte 10</a></li>
-<li><a href="Disciplinas/ME_414_2s2018/parte11/parte11.html">Parte 11</a></li>
-<li><a href="Disciplinas/ME_414_2s2018/parte12/parte12.html">Parte 12</a></li>
-<li><a href="Disciplinas/ME_414_2s2018/parte13/parte13.html">Parte 13</a></li>
-<li><a href="Disciplinas/ME_414_2s2018/parte14/parte14.html">Parte 14</a></li>
-<li><a href="Disciplinas/ME_414_2s2018/parte15/parte15.html">Parte 15</a></li>
-<li><a href="Disciplinas/ME_414_2s2018/parte16/parte16.html">Parte 16</a></li>
-<li><a href="Disciplinas/ME_414_2s2018/parte17/parte17.html">Parte 17</a></li>
-<li><a href="Disciplinas/ME_414_2s2018/parte18/parte18.html">Parte 18</a></li>
-<li><a href="Disciplinas/ME_414_2s2018/parte19/parte19.html">Parte 19</a></li>
-<li><a href="Disciplinas/ME_414_2s2018/parte20/parte20.html">Parte 20</a></li>
-<li><a href="Disciplinas/ME_414_2s2018/parte21/parte21.html">Parte 21</a></li>
-<li><a href="Disciplinas/ME_414_2s2018/parte22/parte22.html">Parte 22</a></li>
-<li><a href="Disciplinas/ME_414_2s2018/parte23/parte23.html">Parte 23</a></li>
-<li><a href="Disciplinas/ME_414_2s2018/parte24/parte24.html">Parte 24</a></li>
+<li><a href="Disciplinas/ME_414_2s2018/parte01/parte01.html">Parte
+1</a></li>
+<li><a href="Disciplinas/ME_414_2s2018/parte02/parte02.html">Parte
+2</a></li>
+<li><a href="Disciplinas/ME_414_2s2018/parte03/parte03.html">Parte
+3</a></li>
+<li><a href="Disciplinas/ME_414_2s2018/parte04/parte04.html">Parte
+4</a></li>
+<li><a href="Disciplinas/ME_414_2s2018/parte05/parte05.html">Parte
+5</a></li>
+<li><a href="Disciplinas/ME_414_2s2018/parte06/parte06.html">Parte
+6</a></li>
+<li><a href="Disciplinas/ME_414_2s2018/parte07/parte07.html">Parte
+7</a></li>
+<li><a href="Disciplinas/ME_414_2s2018/parte08/parte08.html">Parte 8</a>
+( <a
+href="Disciplinas/ME_414_2s2018/parte08/PortaDosDesesperados.R">Código
+R</a> )</li>
+<li><a href="Disciplinas/ME_414_2s2018/parte09/parte09.html">Parte
+9</a></li>
+<li><a href="Disciplinas/ME_414_2s2018/parte10/parte10.html">Parte
+10</a></li>
+<li><a href="Disciplinas/ME_414_2s2018/parte11/parte11.html">Parte
+11</a></li>
+<li><a href="Disciplinas/ME_414_2s2018/parte12/parte12.html">Parte
+12</a></li>
+<li><a href="Disciplinas/ME_414_2s2018/parte13/parte13.html">Parte
+13</a></li>
+<li><a href="Disciplinas/ME_414_2s2018/parte14/parte14.html">Parte
+14</a></li>
+<li><a href="Disciplinas/ME_414_2s2018/parte15/parte15.html">Parte
+15</a></li>
+<li><a href="Disciplinas/ME_414_2s2018/parte16/parte16.html">Parte
+16</a></li>
+<li><a href="Disciplinas/ME_414_2s2018/parte17/parte17.html">Parte
+17</a></li>
+<li><a href="Disciplinas/ME_414_2s2018/parte18/parte18.html">Parte
+18</a></li>
+<li><a href="Disciplinas/ME_414_2s2018/parte19/parte19.html">Parte
+19</a></li>
+<li><a href="Disciplinas/ME_414_2s2018/parte20/parte20.html">Parte
+20</a></li>
+<li><a href="Disciplinas/ME_414_2s2018/parte21/parte21.html">Parte
+21</a></li>
+<li><a href="Disciplinas/ME_414_2s2018/parte22/parte22.html">Parte
+22</a></li>
+<li><a href="Disciplinas/ME_414_2s2018/parte23/parte23.html">Parte
+23</a></li>
+<li><a href="Disciplinas/ME_414_2s2018/parte24/parte24.html">Parte
+24</a></li>
 </ul>
 <hr />
 </div>
 <div id="listas" class="section level3">
 <h3><strong>Listas</strong></h3>
 <ul>
-<li><p><a href="Disciplinas/ME_414_2s2018/Lista1.pdf">Lista 1</a>: Estatística Descritiva</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2018/Lista2.pdf">Lista 2</a>: Probabilidade e Variáveis Aleatórias Discretas</p>
+<li><p><a href="Disciplinas/ME_414_2s2018/Lista1.pdf">Lista 1</a>:
+Estatística Descritiva</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2018/Lista2.pdf">Lista 2</a>:
+Probabilidade e Variáveis Aleatórias Discretas</p>
 <pre><code>&lt;!-- - [Gabarito](Disciplinas/ME_414_2s2018/Lista2Gabarito.pdf) --&gt;</code></pre></li>
-<li><p><a href="Disciplinas/ME_414_2s2018/Lista3.pdf">Lista 3</a>: Variáveis Aleatóorias Contínuas</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2018/Lista4.pdf">Lista 4</a>: Inferência Estatística</p></li>
-<li><p><a href="Disciplinas/ME_414_2s2018/ListaExtra_Veronica.pdf">Lista Extra</a> (Verônica)</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2018/Lista3.pdf">Lista 3</a>:
+Variáveis Aleatóorias Contínuas</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2018/Lista4.pdf">Lista 4</a>:
+Inferência Estatística</p></li>
+<li><p><a href="Disciplinas/ME_414_2s2018/ListaExtra_Veronica.pdf">Lista
+Extra</a> (Verônica)</p></li>
 </ul>
 <p></br></p>
 <ul>
-<li><a href="Disciplinas/ME_414_2s2018/Tabelas.pdf">Tabelas das distribuições</a>: Tabelas para serem usadas na resolução dos exercícios.</li>
+<li><a href="Disciplinas/ME_414_2s2018/Tabelas.pdf">Tabelas das
+distribuições</a>: Tabelas para serem usadas na resolução dos
+exercícios.</li>
 </ul>
 <hr />
 </div>

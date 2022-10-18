@@ -1,0 +1,46 @@
+---
+title: "<i class='fas fa-trophy' style='font-size:20px'></i>  Prêmios"
+output:
+  html_document:
+    fig_width: 1
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(magick)
+```
+
+----
+
+- <span style="color:darkred"> Christian Eduardo Galarza Morales  </span>
+    
+   1. O trabalho *On moments of folded and truncated multivariate extended skew-normal distributions* do aluno Christian E. Galarza recebeu o prêmio Best LACSC 2019 Paper Award no 4th Latin American Conference for Statistical Computing.
+    
+   2. O trabalho *Truncated moments of selection elliptical distributions with applications in robust modelling of HIV longitudinal censored data* do aluno Christian E. Galarza recebeu o prêmio ISI-IBS Young Ambassadors na International Biometrics Conference (IBC 2020).
+
+- <span style="color:darkred"> José Alejandro Ordoñez </span>
+    
+   O trabalho *Objective Bayesian analysis for the spatial Student-t regression model* do aluno José Alejandro Ordoñez ganhou o prêmio do melhor pôster no XV Brazilian Meeting of Bayesian Statistics. 
+
+- <span style="color:darkred"> Katherine Andreina Loor Valeriano </span>
+    
+   A dissertação de mestrado da aluna Katherine Andreina Loor Valeriano ganhou menção honrosa no Concurso de Dissertação de Mestrado do Simpósio Nacional de Probabilidade e Estatística. 
+
+- <span style="color:darkred"> Fernanda Lang Schumacher </span>
+    
+   O trabalho *Canonical fundamental skew-t linear mixed models* da aluna Fernanda Lang Schumacher foi um dos vencedores do prêmio Student competition in association with the Conference in Honour of Fred Smith & Chris Skinner.
+
+</br>
+
+<!-- ----------------------- -->
+<p class="outset"></p>
+<div id="footer">
+<p>
+<div class="column-f1">
+<img src="imagens/logo-unicamp1.png" width="120" height="55">
+</div>
+<div class="column-f2">
+<img src="imagens/logoimecc.png" width="50" height="50">
+</div>
+</p>
+</div>

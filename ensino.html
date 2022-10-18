@@ -13,8 +13,8 @@
 
 <title> Ensino</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -59,6 +59,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 
@@ -83,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -140,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -235,7 +243,7 @@ $(document).ready(function () {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -246,7 +254,7 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa-home"></span>
+    <span class="fa fa-home"></span>
      
     Home
   </a>
@@ -255,28 +263,28 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="informacoes.html">
-    <span class="fas fa-graduation-cap"></span>
+    <span class="fa fa-graduation-cap"></span>
      
     Informações Acadêmicas
   </a>
 </li>
 <li>
-  <a href="ensino1.html">
-    <span class="fas fa-book"></span>
+  <a href="ensino.html">
+    <span class="fa fa-book"></span>
      
     Ensino
   </a>
 </li>
 <li>
   <a href="publicacoes.html">
-    <span class="fas fa-sticky-note"></span>
+    <span class="fa fa-sticky-note"></span>
      
     Publicações
   </a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fas fa-users"></span>
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-users"></span>
      
     Alunos
      
@@ -289,24 +297,27 @@ $(document).ready(function () {
     <li>
       <a href="afotos.html">Fotos</a>
     </li>
+    <li>
+      <a href="apremios.html">Prêmios</a>
+    </li>
   </ul>
 </li>
 <li>
   <a href="contato.html">
-    <span class="fas fa-envelope"></span>
+    <span class="fa fa-envelope"></span>
      
     Contato
   </a>
 </li>
 <li>
   <a href="fotos.html">
-    <span class="fas fa-images"></span>
+    <span class="fa fa-images"></span>
      
   </a>
 </li>
 <li>
   <a href="EN.html">
-    <span class="fas fa-flag"></span>
+    <span class="fa fa-flag"></span>
      
     En
   </a>
@@ -320,7 +331,8 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore"><i class='fas fa-book' style='font-size:20px'></i> Ensino</h1>
+<h1 class="title toc-ignore"><i class='fas fa-book' style='font-size:20px'></i>
+Ensino</h1>
 
 </div>
 
@@ -330,7 +342,7 @@ $(document).ready(function () {
 body {font-family: Open Sans;}
 
 h3a { /* Header 3*/
-    font-size: 20px;
+    font-size: 16px;
     color: #4d4d4d;
 }
 
@@ -340,7 +352,7 @@ h3a { /* Header 3*/
   border: 1px solid #ccc;
   background-color: #f1f1f1;
   width: 15%;
-  height: 300px;
+  height: 349px;
 }
 
 /* Style the buttons inside the tab */
@@ -348,7 +360,7 @@ h3a { /* Header 3*/
   display: block;
   background-color: #999999;
   color: white;
-  padding: 8.7px 8px;
+  padding: 19px 8px;
   width: 100%;
   border: none;
   outline: none;
@@ -377,8 +389,8 @@ h3a { /* Header 3*/
   border: 1px solid #ccc;
   width: 85%;
   border-left: none;
-  height: 337px;
-  font-size: 13px;
+  height: 349px;
+  font-size: 12px;
   font-family: 'Open Sans';
   font-style: normal;
 }
@@ -401,19 +413,30 @@ h3a { /* Header 3*/
  
 </p>
 <div class="tab">
-<p><button class="tablinks" onclick="openE(event, '2S21')" id="defaultOpen">2S21</button> <button class="tablinks" onclick="openE(event, '1S21')" >1S21</button> <button class="tablinks" onclick="openE(event, '2S20')" >2S20</button> <button class="tablinks" onclick="openE(event, '1S20')" >1S20</button> <button class="tablinks" onclick="openE(event, '2S19')">2S19</button> <button class="tablinks" onclick="openE(event, '1S19')">1S19</button> <button class="tablinks" onclick="openE(event, '2S18')">2S18</button> <button class="tablinks" onclick="openE(event, '1S18')">1S18</button> <button class="tablinks" onclick="openE(event, '2S17')">2S17</button></p>
+<p><button class="tablinks" onclick="openE(event, '2022')" id="defaultOpen">2022</button>
+<button class="tablinks" onclick="openE(event, '2021')" >2021</button>
+<button class="tablinks" onclick="openE(event, '2020')" >2020</button>
+<button class="tablinks" onclick="openE(event, '2019')" >2019</button>
+<button class="tablinks" onclick="openE(event, '2018')" >2018</button>
+<button class="tablinks" onclick="openE(event, '2017')" >2017</button></p>
 </div>
-<div id="2S21" class="tabcontent">
+<div id="2022" class="tabcontent">
 <p></br></p>
-<h3a>Segundo Semestre de 2021</h3a>
+<h3a>Primeiro Semestre de 2022</h3a>
 <p>
+<ul>
+<li><p>ME173 B - Estatística Descritiva </br></p></li>
+<li><p>ME712 A - Consultoria Estatística I </br></p></li>
+<li><p>ME812 A - Consultoria Estatística II</p></li>
+</ul>
+<p></br></p>
+<p><h3a>Segundo Semestre de 2022</h3a></p>
 <ul>
 <li><p>ME712 A - Consultoria Estatística I </br></p></li>
 <li><p>ME812 A - Consultoria Estatística II</p></li>
 </ul>
-</p>
 </div>
-<div id="1S21" class="tabcontent">
+<div id="2021" class="tabcontent">
 <p></br></p>
 <h3a>Primeiro Semestre de 2021</h3a>
 <p>
@@ -422,81 +445,88 @@ h3a { /* Header 3*/
 <li><p>ME712 A - Consultoria Estatística I </br></p></li>
 <li><p>ME812 A - Consultoria Estatística II</p></li>
 </ul>
-</p>
-</div>
-<div id="2S20" class="tabcontent">
 <p></br></p>
-<h3a>Segundo Semestre de 2020</h3a>
-<p>
+<p><h3a>Segundo Semestre de 2021</h3a></p>
 <ul>
-<li><p><a href="http://me414-unicamp.github.io">ME414 C</a> - Estatística para Experimentalistas </br></p></li>
 <li><p>ME712 A - Consultoria Estatística I </br></p></li>
 <li><p>ME812 A - Consultoria Estatística II</p></li>
 </ul>
-</p>
 </div>
-<div id="1S20" class="tabcontent">
+<div id="2020" class="tabcontent">
 <p></br></p>
 <h3a>Primeiro Semestre de 2020</h3a>
 <p>
 <ul>
-<li><p><a href="me951_1s2020.html">ME951 A</a> - Estatística e Probabilidade I </br></p></li>
+<li><p><a href="me951_1s2020.html">ME951 A</a> - Estatística e
+Probabilidade I </br></p></li>
 <li><p>ME712 A - Consultoria Estatística I </br></p></li>
 <li><p>ME812 A - Consultoria Estatística II</p></li>
 </ul>
-</p>
-</div>
-<div id="2S19" class="tabcontent">
 <p></br></p>
-<h3a>Segundo Semestre de 2019</h3a>
-<p>
+<p><h3a>Segundo Semestre de 2020</h3a></p>
 <ul>
-<li><p><a href="me414_2s2019.html">ME414 H</a> - Estatística para Experimentalistas </br></p></li>
-<li><p><a href="me720_2s2019.html">ME720 A</a> - Modelos Lineares Generalizados</p></li>
+<li><p><a href="http://me414-unicamp.github.io">ME414 C</a> -
+Estatística para Experimentalistas </br></p></li>
+<li><p>ME712 A - Consultoria Estatística I </br></p></li>
+<li><p>ME812 A - Consultoria Estatística II</p></li>
 </ul>
-</p>
 </div>
-<div id="1S19" class="tabcontent">
+<div id="2019" class="tabcontent">
 <p></br></p>
 <h3a>Primeiro Semestre de 2019</h3a>
 <p>
 <ul>
-<li><a href="me951_1s2019.html">ME951 A</a> - Estatística e Probabilidade I</li>
+<li><a href="me951_1s2019.html">ME951 A</a> - Estatística e
+Probabilidade I</li>
 </ul>
-</p>
-</div>
-<div id="2S18" class="tabcontent">
 <p></br></p>
-<h3a>Segundo Semestre de 2018</h3a>
-<p>
+<p><h3a>Segundo Semestre de 2019</h3a></p>
 <ul>
-<li><p><a href="me414_2s2018.html">ME414 A</a> - Estatística para Experimentalistas </br></p></li>
-<li><p><a href="Disciplinas/EmentaME710_2S2018.pdf">ME710 A</a> e <a href="Disciplinas/EmentaME810_2S2018.pdf">ME810 A</a> - Assessoria Estatística e Estágio Supervisionado </br></p></li>
-<li><p><a href="Disciplinas/EmentaME712e812_2S2018.pdf">ME712 A</a> e <a href="Disciplinas/EmentaME712e812_2S2018.pdf">ME812 A</a> - Consultoria Estatística I e II </br></p></li>
-<li><p><a href="Disciplinas/EmentaME850_2S2018.pdf">ME850 A</a> - Seminários de Estatística</p></li>
+<li><p><a href="me414_2s2019.html">ME414 H</a> - Estatística para
+Experimentalistas </br></p></li>
+<li><p><a href="me720_2s2019.html">ME720 A</a> - Modelos Lineares
+Generalizados</p></li>
 </ul>
-</p>
 </div>
-<div id="1S18" class="tabcontent">
+<div id="2018" class="tabcontent">
+
 <p></br></p>
 <h3a>Primeiro Semestre de 2018</h3a>
 <p>
 <ul>
-<li><p><a href="me111_1s2018.html">ME111 A e B</a> - Laboratório de Estatística </br></p></li>
-<li><p><a href="me639_1s2018.html">ME639 A</a> - Metodologias e Técnicas de Pesquisa </br></p></li>
-<li><p><a href="Disciplinas/EmentaME710_1s2018.pdf">ME710 A</a> e <a href="Disciplinas/EmentaME810_1s2018.pdf">ME810 A</a> - Assessoria Estatística e Estágio Supervisionado </br></p></li>
-<li><p><a href="Disciplinas/EmentaME712_1s2018.pdf">ME712 A</a> - Consultoria Estatística I </br></p></li>
-<li><p><a href="Disciplinas/EmentaME850_1s2018.pdf">ME850 A</a> - Seminários de Estatística</p></li>
+<li><p><a href="me111_1s2018.html">ME111 A e B</a> - Laboratório de
+Estatística </br></p></li>
+<li><p><a href="me639_1s2018.html">ME639 A</a> - Metodologias e Técnicas
+de Pesquisa </br></p></li>
+<li><p><a href="Disciplinas/EmentaME710_1s2018.pdf">ME710 A</a> e <a
+href="Disciplinas/EmentaME810_1s2018.pdf">ME810 A</a> - Assessoria
+Estatística e Estágio Supervisionado </br></p></li>
+<li><p><a href="Disciplinas/EmentaME712_1s2018.pdf">ME712 A</a> -
+Consultoria Estatística I </br></p></li>
+<li><p><a href="Disciplinas/EmentaME850_1s2018.pdf">ME850 A</a> -
+Seminários de Estatística</p></li>
 </ul>
-</p>
+<p></br></p>
+<p><h3a>Segundo Semestre de 2018</h3a></p>
+<ul>
+<li><p><a href="me414_2s2018.html">ME414 A</a> - Estatística para
+Experimentalistas </br></p></li>
+<li><p><a href="Disciplinas/EmentaME710_2S2018.pdf">ME710 A</a> e <a
+href="Disciplinas/EmentaME810_2S2018.pdf">ME810 A</a> - Assessoria
+Estatística e Estágio Supervisionado </br></p></li>
+<li><p><a href="Disciplinas/EmentaME712e812_2S2018.pdf">ME712 A</a> e <a
+href="Disciplinas/EmentaME712e812_2S2018.pdf">ME812 A</a> - Consultoria
+Estatística I e II </br></p></li>
+<li><p><a href="Disciplinas/EmentaME850_2S2018.pdf">ME850 A</a> -
+Seminários de Estatística</p></li>
+</ul>
 </div>
-<div id="2S17" class="tabcontent">
+<div id="2017" class="tabcontent">
 </br> <h3a>Segundo Semestre de 2017</h3a>
 <p>
 <ul>
 <li>ME414 H - Estatística para Experimentalistas</li>
 </ul>
-</p>
 </div>
 <script>
 function openE(evt, cityName) {
