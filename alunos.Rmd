@@ -33,6 +33,10 @@ output:
 ### Mestrado
 <p class="ptitle"> \ </p>
 
+- Letícia Bettine Infante - Mestrado em andamento - Co-orientadora.
+
+- Vitor Macedo Rocha - Mestrado em andamento.
+
 - Keyliane Travassos Almeida da Silva - Mestrado em andamento (Fomento: CAPES). 
 
 - Katherine Andreina Loor Valeriano (Fomento: CAPES). Ano de conclusão: 2019. 
@@ -70,12 +74,20 @@ output:
 
 <!-- 1S2021 -->
 
-<!-- -  -->
+1S2022
 
-<!-- - -->
-
-<!-- - -->
-
+- Beatriz Moreira Amaral,	Maicon Douglas Carvalho,	Tiago Henrique da Cruz e	Vinícius Litvinoff Justus
+    <p class="cc"> Projeto: Análise da utilização da órtese em "T" de Montgomery nas estenoses traqueais e laringotraqueais.</p>  
+    
+- Laura Thereza Zaia Ferro,	Marcos Cesar Manente Júnior,	Paloma Araujo Leme e	Rodrigo Forti
+    <p class="cc"> Projeto: Tratamento do Pé Diabético Infectado: Relato Retrospectivo dos Casos.</p>  
+    
+- Caio Souza Lopes Da Silva,	Flávia Moura Siqueira,	Julia Martins Guardia e	Pedro Elias Bernardo Magalhães Crescenti
+    <p class="cc"> Projeto: Parentalidade e Altas Habilidades ou superdotação: um estudo sobre os impactos e sobrecarga parental.</p>  
+    
+- Caroline Da Silva Mangile,	Hellen Mayra Ribeiro Freitas,	Rafael Ribeiro Santos e	Victor De Souza Teixeira
+    <p class="cc"> Projeto: Análise da Inclusão e Mobilidade Social Dos Egressos das Licenciaturas da UNICAMP.</p>  
+    
 2S2021
 
 - Carlos Eduardo Lima Kamioka, Luana Paias Martínez e Wesley Cabral Alves

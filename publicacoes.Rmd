@@ -241,6 +241,9 @@ p.big {
 
 <ol reversed>
 
+<li> IV Congresso Brasileiro de Jovens Pesquisadores em Matemática Pura, Aplicada e Estatística (2022).\medskip </li> 
+<p class="big"> </p>
+
 <li> 24º SINAPE - Simpósio Nacional de Probabilidade e Estatística. Tutorial: Modeling Longitudinal Data using Robust Mixed Models in R (2022). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/22_SINAPE.pdf) \ [<i class='fab fa-github' style='font-size:15px'></i>](https://github.com/fernandalschumacher/SINAPE2022-tutorial) \medskip </li> 
 <p class="big"> </p>
 
@@ -301,6 +304,30 @@ p.big {
 </ol>
 
 </p> 
+
+<h3>Comissões</h3>
+<p>
+<p class="ptitle"> \ </p>
+
+<ol reversed>
+
+<li> Coordenadora da sessão intitulada **Estatística e Aprendizado de Máquinas** no *IV Congresso Brasileiro de Jovens Pesquisadores em Matemática Pura, Aplicada e Estatística*, realizado e sediado pelo Departamento de Matemática da Universidade Federal da Paraíba (DM-UFPB), em João Pessoa/PB, de 05 a 07 de outubro de 2022. \medskip </li>
+<p class="big"> </p>
+
+<li> Membro da Comissão Organizadora do 24o SINAPE | Simpósio Nacional de Probabilidade e Estatística, realizado 31 de julho a 5 de agosto de 2022, Hotel Serra Azul. \medskip </li>
+<p class="big"> </p>
+
+
+<li> Membro da Comissão Científica do *XVI Encontro Científico de Pós-Graduandos do IMECC* (Instituto de Matemática, Estatística e Computação Científica), realizado no período de 11 a 14 de Abril de 2022. \medskip </li>
+<p class="big"> </p>
+
+<li> Membro da Comissão Científica do *XV Encontro Científico de Pós-Graduandos do IMECC* (Instituto de Matemática, Estatística e Computação Científica), realizado no período de 23 a 26 de Novembro de 2020.\medskip </li>
+<p class="big"> </p>
+
+</ol>
+
+</p> 
+
 </div>
 
 <script>

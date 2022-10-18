@@ -6,13 +6,12 @@ output:
     toc_float: false
 ---
 
+<p class="ptitle"> \ </p>
+
 ---- 
 
 ### Formação acadêmica/titulação
 <p class="ptitle"> \ </p>
-
-- 2016-2017: **Pós-Doutorado** \ \ ![](imagens/logo-unicampT.png){width=25px} \ \ ![](imagens/logofapesp.png){width=60px}
-     <p class="cc"> Universidade Estadual de Campinas, UNICAMP. Bolsista FAPESP (Processo 2016/05420-6).</p>  
 
 - 2012-2016: **Doutorado em Estatística** \ \ ![](imagens/logo-unicampT.png){width=25px} \ ![](imagens/logouconn2.png){width=70px} ![](imagens/logofapesp.png){width=60px}  
      <p class="cc"> Universidade Estadual de Campinas, UNICAMP. Bolsista FAPESP (Processo 2011/22063-9).</p> 
@@ -24,6 +23,19 @@ output:
 - 2006-2010: **Graduação em Estatística** \ \ ![](imagens/logo-unicampT.png){width=25px} 
      <p class="cc"> Universidade Estadual de Campinas, UNICAMP.</p>  
 
+
+----
+
+### Pós-doutorado e Livre-docência
+<p class="ptitle"> \ </p>
+
+
+- 2022: **Livre-docência**  \ \ ![](imagens/logo-unicampT.png){width=25px} 
+     <p class="cc"> Universidade Estadual de Campinas, UNICAMP.</p>  
+
+- 2016-2017: **Pós-Doutorado** \ \ ![](imagens/logo-unicampT.png){width=25px} \ \ ![](imagens/logofapesp.png){width=60px}
+     <p class="cc"> Universidade Estadual de Campinas, UNICAMP. Bolsista FAPESP (Processo 2016/05420-6).</p>  
+     
 ----
 
 ### Linhas de Pesquisa

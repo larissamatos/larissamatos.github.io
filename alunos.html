@@ -13,8 +13,8 @@
 
 <title> Alunos</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -59,6 +59,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 
@@ -83,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -140,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -235,7 +243,7 @@ $(document).ready(function () {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -246,7 +254,7 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa-home"></span>
+    <span class="fa fa-home"></span>
      
     Home
   </a>
@@ -255,28 +263,28 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="informacoes.html">
-    <span class="fas fa-graduation-cap"></span>
+    <span class="fa fa-graduation-cap"></span>
      
     Informações Acadêmicas
   </a>
 </li>
 <li>
   <a href="ensino1.html">
-    <span class="fas fa-book"></span>
+    <span class="fa fa-book"></span>
      
     Ensino
   </a>
 </li>
 <li>
   <a href="publicacoes.html">
-    <span class="fas fa-sticky-note"></span>
+    <span class="fa fa-sticky-note"></span>
      
     Publicações
   </a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fas fa-users"></span>
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-users"></span>
      
     Alunos
      
@@ -293,20 +301,20 @@ $(document).ready(function () {
 </li>
 <li>
   <a href="contato.html">
-    <span class="fas fa-envelope"></span>
+    <span class="fa fa-envelope"></span>
      
     Contato
   </a>
 </li>
 <li>
   <a href="fotos.html">
-    <span class="fas fa-images"></span>
+    <span class="fa fa-images"></span>
      
   </a>
 </li>
 <li>
   <a href="EN.html">
-    <span class="fas fa-flag"></span>
+    <span class="fa fa-flag"></span>
      
     En
   </a>
@@ -320,7 +328,8 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore"><i class='fas fa-users' style='font-size:20px'></i> Alunos</h1>
+<h1 class="title toc-ignore"><i class='fas fa-users' style='font-size:20px'></i>
+Alunos</h1>
 
 </div>
 
@@ -333,21 +342,27 @@ $(document).ready(function () {
  
 </p>
 <ul>
-<li><p>Katherine Andreina Loor Valeriano - Doutorado em andamento (Fomento: CAPES)</p></li>
-<li><p>Francisco Hildemar Calixto de Alencar - Doutorado em andamento (Fomento: CAPES)</p></li>
-<li><p>Fernanda Lang Schumacher - Doutorado em andamento (Fomento: CAPES e CNPq). Ano de conclusão: 2021.</p>
+<li><p>Katherine Andreina Loor Valeriano - Doutorado em andamento
+(Fomento: CAPES)</p></li>
+<li><p>Francisco Hildemar Calixto de Alencar - Doutorado em andamento
+(Fomento: CAPES)</p></li>
+<li><p>Fernanda Lang Schumacher - Doutorado em andamento (Fomento: CAPES
+e CNPq). Ano de conclusão: 2021.</p>
 <p class="cc">
 <p><code>Tese: Robust linear mixed models for longitudinal data using skewed and heavy-tailed distributions.</code></p>
 </p></li>
-<li><p>Jose Alejandro Ordoñez (Fomento: CAPES). Ano de conclusão: 2021 - Co-orientadora</p>
+<li><p>Jose Alejandro Ordoñez (Fomento: CAPES). Ano de conclusão: 2021 -
+Co-orientadora</p>
 <p class="cc">
 <p><code>Tese: On Default Priors for Regression Analysis.</code></p>
 </p></li>
-<li><p>Thalita do Bem Mattos (Fomento: CAPES). Ano de conclusão: 2020.</p>
+<li><p>Thalita do Bem Mattos (Fomento: CAPES). Ano de conclusão:
+2020.</p>
 <p class="cc">
 <p><code>Tese: Parametric and semiparametric mixed-effects models for longitudinal censored data.</code></p>
 </p></li>
-<li><p>Christian Eduardo Galarza Morales (Fomento: FAPESP - Processo: 2015/17110-9). Ano de conclusão: 2020.</p>
+<li><p>Christian Eduardo Galarza Morales (Fomento: FAPESP - Processo:
+2015/17110-9). Ano de conclusão: 2020.</p>
 <p class="cc">
 <p><code>Tese: On Moments of doubly truncated multivariate distributions.</code></p>
 </p></li>
@@ -360,12 +375,18 @@ $(document).ready(function () {
  
 </p>
 <ul>
-<li><p>Keyliane Travassos Almeida da Silva - Mestrado em andamento (Fomento: CAPES).</p></li>
-<li><p>Katherine Andreina Loor Valeriano (Fomento: CAPES). Ano de conclusão: 2019.</p>
+<li><p>Letícia Bettine Infante - Mestrado em andamento -
+Co-orientadora.</p></li>
+<li><p>Vitor Macedo Rocha - Mestrado em andamento.</p></li>
+<li><p>Keyliane Travassos Almeida da Silva - Mestrado em andamento
+(Fomento: CAPES).</p></li>
+<li><p>Katherine Andreina Loor Valeriano (Fomento: CAPES). Ano de
+conclusão: 2019.</p>
 <p class="cc">
 <p><code>Dissertação: Inferência para dados espaço-temporais com respostas censuradas e faltantes.</code></p>
 </p></li>
-<li><p>Marcela Nuñez Lemus (Fomento: CAPES). Ano de conclusão: 2018.<br />
+<li><p>Marcela Nuñez Lemus (Fomento: CAPES). Ano de conclusão:
+2018.<br />
 </p>
 <p class="cc">
 <p><code>Dissertação: Estimação e diagnóstico em modelos parcialmente lineares censurados sob distribuições de cauda pesada.</code></p>
@@ -379,15 +400,19 @@ $(document).ready(function () {
  
 </p>
 <ul>
-<li>Nathan Brusamarello De Souto (Fomento: CNPq) - Concluído - Ano de conclusão: 2020.<br />
+<li>Nathan Brusamarello De Souto (Fomento: CNPq) - Concluído - Ano de
+conclusão: 2020.<br />
 
 <p class="cc">
-Projeto: Inferência para dados espaço-temporais com respostas censuradas e faltantes: Uma aplicação em dados meteorológicos.
+Projeto: Inferência para dados espaço-temporais com respostas censuradas
+e faltantes: Uma aplicação em dados meteorológicos.
 </p></li>
-<li>Paulo César de Oliveira Rodrigues - Concluído - Ano de conclusão: 2019.<br />
+<li>Paulo César de Oliveira Rodrigues - Concluído - Ano de conclusão:
+2019.<br />
 
 <p class="cc">
-Projeto: Influência que os professores da educação infantil e fundamental I que gostam ou não de matemática exercem sobre seus alunos.
+Projeto: Influência que os professores da educação infantil e
+fundamental I que gostam ou não de matemática exercem sobre seus alunos.
 </p></li>
 </ul>
 <hr />
@@ -411,52 +436,93 @@ Projeto: Estudo de Bioequivalência para o medicamento abiraterona.
 <div id="orientandos-de-me712812" class="section level4">
 <h4>Orientandos de ME712/812</h4>
 <!-- 1S2021 -->
-<!-- -  -->
-<!-- - -->
-<!-- - -->
+<p>1S2022</p>
+<ul>
+<li>Beatriz Moreira Amaral, Maicon Douglas Carvalho, Tiago Henrique da
+Cruz e Vinícius Litvinoff Justus
+<p class="cc">
+Projeto: Análise da utilização da órtese em “T” de Montgomery nas
+estenoses traqueais e laringotraqueais.
+</p></li>
+<li>Laura Thereza Zaia Ferro, Marcos Cesar Manente Júnior, Paloma Araujo
+Leme e Rodrigo Forti
+<p class="cc">
+Projeto: Tratamento do Pé Diabético Infectado: Relato Retrospectivo dos
+Casos.
+</p></li>
+<li>Caio Souza Lopes Da Silva, Flávia Moura Siqueira, Julia Martins
+Guardia e Pedro Elias Bernardo Magalhães Crescenti
+<p class="cc">
+Projeto: Parentalidade e Altas Habilidades ou superdotação: um estudo
+sobre os impactos e sobrecarga parental.
+</p></li>
+<li>Caroline Da Silva Mangile, Hellen Mayra Ribeiro Freitas, Rafael
+Ribeiro Santos e Victor De Souza Teixeira
+<p class="cc">
+Projeto: Análise da Inclusão e Mobilidade Social Dos Egressos das
+Licenciaturas da UNICAMP.
+</p></li>
+</ul>
 <p>2S2021</p>
 <ul>
-<li>Carlos Eduardo Lima Kamioka, Luana Paias Martínez e Wesley Cabral Alves
+<li>Carlos Eduardo Lima Kamioka, Luana Paias Martínez e Wesley Cabral
+Alves
 <p class="cc">
-Projeto: Análise das diferenças entre edificações escolares comuns e com certificação AQUA_HQE.
+Projeto: Análise das diferenças entre edificações escolares comuns e com
+certificação AQUA_HQE.
 </p></li>
-<li>João Pedro Shimizu Rodrigues, Rafael Ribeiro De Souza Nania, Sofia Teixeira De Oliveira e Vinícius Nascimento de Oliveira
+<li>João Pedro Shimizu Rodrigues, Rafael Ribeiro De Souza Nania, Sofia
+Teixeira De Oliveira e Vinícius Nascimento de Oliveira
 <p class="cc">
 Projeto: Análise de perfil e desempenho dos alunos da Usina da Dança.
 </p></li>
-<li>Gabriela Inocente Yogi, Giovanna Machado Flores, Guilherme Artoni e Wesley Ricardo Da Silva Satelis
+<li>Gabriela Inocente Yogi, Giovanna Machado Flores, Guilherme Artoni e
+Wesley Ricardo Da Silva Satelis
 <p class="cc">
-Projeto: Delimitação de espécies no complexo Myrcia neoobscura (Myrtaceae).
+Projeto: Delimitação de espécies no complexo Myrcia neoobscura
+(Myrtaceae).
 </p></li>
 </ul>
 <p>1S2021</p>
 <ul>
-<li>Gustavo Sanches Guaragna, Júlia Ferri Martinazzo Fontes, Maria Helena Garrido Barretto Reis e Matheus Luis De Souza Alves
+<li>Gustavo Sanches Guaragna, Júlia Ferri Martinazzo Fontes, Maria
+Helena Garrido Barretto Reis e Matheus Luis De Souza Alves
 <p class="cc">
-Projeto: Avaliação longitudinal dos médicos residentes de oftalmologia: um estudo prospectivo.
+Projeto: Avaliação longitudinal dos médicos residentes de oftalmologia:
+um estudo prospectivo.
 </p></li>
-<li>Augusto Carvalho D’Arruda Neto, Leticia Helena Porfirio, Lívia Da Cunha Fabris e Nicholas Salgado Soria
+<li>Augusto Carvalho D’Arruda Neto, Leticia Helena Porfirio, Lívia Da
+Cunha Fabris e Nicholas Salgado Soria
 <p class="cc">
 Projeto: Plataforma #MemóriasCovid19.
 </p></li>
-<li>Giovanna Miyuki Yoshida, Nathalia Baltazar Desiderio, Renan Cyrillo Lima e Rômulo Cabral Mangiapelo
+<li>Giovanna Miyuki Yoshida, Nathalia Baltazar Desiderio, Renan Cyrillo
+Lima e Rômulo Cabral Mangiapelo
 <p class="cc">
-Projeto: Avaliação do declínio cognitivo nas formas crônicas da doença de Chagas e sua relação com o envelhecimento.
+Projeto: Avaliação do declínio cognitivo nas formas crônicas da doença
+de Chagas e sua relação com o envelhecimento.
 </p></li>
 </ul>
 <p>2S2020</p>
 <ul>
-<li>Enrico Nunes Pellegrino, Felipe Augusto Britto Vieira, Leonardo Henrique Silva, Marianna Degani e Roger Mainardes Dos Reis
+<li>Enrico Nunes Pellegrino, Felipe Augusto Britto Vieira, Leonardo
+Henrique Silva, Marianna Degani e Roger Mainardes Dos Reis
 <p class="cc">
 Projeto: Levantamento Uso de Álcool e Outras Drogas na Quarentena.
 </p></li>
-<li>Alexandre Garcia Dias, Ana Carolina Alves Oliveira, Eduardo de Paiva Romero e Tiago Gimenez
+<li>Alexandre Garcia Dias, Ana Carolina Alves Oliveira, Eduardo de Paiva
+Romero e Tiago Gimenez
 <p class="cc">
-Projeto: A espectroscopia de prótons de H por Ressonância Magnética como ferramenta para o diagnóstico diferencial entre tumores cerebrais primários versus secundários.
+Projeto: A espectroscopia de prótons de H por Ressonância Magnética como
+ferramenta para o diagnóstico diferencial entre tumores cerebrais
+primários versus secundários.
 </p></li>
-<li>Anderson Gabriel dos Reis Ortelan, Jessica Fernanda Teixeira do Prado, Leticia Bettini Infante, Mateus Dias Lima e Vinicius Luis Belem Bronzatti
+<li>Anderson Gabriel dos Reis Ortelan, Jessica Fernanda Teixeira do
+Prado, Leticia Bettini Infante, Mateus Dias Lima e Vinicius Luis Belem
+Bronzatti
 <p class="cc">
-Projeto: Efeitos do limoneno e do limoneno-1,2-diol em camundongos alimentados com dieta rica em gordura.
+Projeto: Efeitos do limoneno e do limoneno-1,2-diol em camundongos
+alimentados com dieta rica em gordura.
 </p></li>
 </ul>
 <p>1S2020</p>
@@ -467,61 +533,80 @@ Projeto: Estudo de caso de gosto musical na era digital.
 </p></li>
 <li>Bruno Santos, Krismann Pedrosa e Nicole Nogueira
 <p class="cc">
-Projeto: Análise do tratamento de água residuária de piscicultura utilizando a tecnologia de eletrocoagulação.
+Projeto: Análise do tratamento de água residuária de piscicultura
+utilizando a tecnologia de eletrocoagulação.
 </p></li>
-<li>Aline Pelegrino Shikasho, Beatriz Heloise Messias e Giuseppe Tinti Tomio
+<li>Aline Pelegrino Shikasho, Beatriz Heloise Messias e Giuseppe Tinti
+Tomio
 <p class="cc">
-Projeto: Análise estatística da resposta imune adaptativa na neuroinvasão por Oropouche.
+Projeto: Análise estatística da resposta imune adaptativa na
+neuroinvasão por Oropouche.
 </p></li>
 </ul>
 <p>2S2018</p>
 <ul>
-<li>Luiza Blota Ramos, Matheus Mendes Galvão, Natalia Ocaso Seraphim e Michely Wu Hsieh
+<li>Luiza Blota Ramos, Matheus Mendes Galvão, Natalia Ocaso Seraphim e
+Michely Wu Hsieh
 <p class="cc">
 Projeto: O Papel da Necromassa no Ciclo do Carbono na Mata Atlântica.
 </p></li>
-<li>Lucas Ferreira dos Santos, Laís Cristina Cruz Bordin, Gabriel Bueno Bottignon e Lucas Moraes Mascarenhas
+<li>Lucas Ferreira dos Santos, Laís Cristina Cruz Bordin, Gabriel Bueno
+Bottignon e Lucas Moraes Mascarenhas
 <p class="cc">
-Projeto: Análise da Taxa de Decomposição de Madeira Morta na Mata Atlântica.
+Projeto: Análise da Taxa de Decomposição de Madeira Morta na Mata
+Atlântica.
 </p></li>
-<li>Diogo Aggio, Helena G. de M. Viana, Luke Zhi Wei Zheng e Rafael Antônio R. Branco
+<li>Diogo Aggio, Helena G. de M. Viana, Luke Zhi Wei Zheng e Rafael
+Antônio R. Branco
 <p class="cc">
-Projeto: Influência da Diversidade de Espécies na Produção e Estoque de Madeira Morta em Áreas de Restauração Florestal na Mata Atlântica.
+Projeto: Influência da Diversidade de Espécies na Produção e Estoque de
+Madeira Morta em Áreas de Restauração Florestal na Mata Atlântica.
 </p></li>
 </ul>
 <p>1S2018</p>
 <ul>
-<li>Aldrey Villas Bôas, Larissa Ribeiro da Silva, Lucas Mattos Souza e Mariana Racioni Gonçalves
+<li>Aldrey Villas Bôas, Larissa Ribeiro da Silva, Lucas Mattos Souza e
+Mariana Racioni Gonçalves
 <p class="cc">
 Projeto1: Análise estatística de parasitismo em traíras.
 </p>
 <p class="cc">
-Projeto2: Consumo, estrutura social e inclusão: Discussões entre China e Brasil em torno da sustentabilidade.
+Projeto2: Consumo, estrutura social e inclusão: Discussões entre China e
+Brasil em torno da sustentabilidade.
 </p></li>
 <li>Amanda Cristina Silva, Aline Dias Nunes e Mariane Sahú
 <p class="cc">
-Projeto1: Estudo do Plano Diretor aprovado após o Estatuto da Cidade nos municípios brasileiros com população de até 20 mil habitantes.
+Projeto1: Estudo do Plano Diretor aprovado após o Estatuto da Cidade nos
+municípios brasileiros com população de até 20 mil habitantes.
 </p>
 <p class="cc">
-Projeto2: Ecologia de Corujas e Efeitos Recíprocos sobre a Vegetação de uma Floresta Atlântica em Regeneração.
+Projeto2: Ecologia de Corujas e Efeitos Recíprocos sobre a Vegetação de
+uma Floresta Atlântica em Regeneração.
 </p></li>
-<li>Diogo Aggio, Jonas F. D. Branco de Araújo, Lucas Moraes Mascarenhas e Tomás C. Weguelin Vieira
+<li>Diogo Aggio, Jonas F. D. Branco de Araújo, Lucas Moraes Mascarenhas
+e Tomás C. Weguelin Vieira
 <p class="cc">
-Projeto: Análise de Variância dos fatores nos números de microrganismos em Carne Dry-Aged.
+Projeto: Análise de Variância dos fatores nos números de microrganismos
+em Carne Dry-Aged.
 </p></li>
-<li>Erika dos Santos Barbosa, Nara Stefani de Oliveira, Rafaella Konno e Rodrigo Fadel Stahl
+<li>Erika dos Santos Barbosa, Nara Stefani de Oliveira, Rafaella Konno e
+Rodrigo Fadel Stahl
 <p class="cc">
 Projeto: Teoria da mente - Crença Falsa e Ignorância.
 </p></li>
-<li>Daniela Rosa de Moraes, Henrique Capatto, Marcos Antonio Ferreira e Murilo Salgado Razoli
+<li>Daniela Rosa de Moraes, Henrique Capatto, Marcos Antonio Ferreira e
+Murilo Salgado Razoli
 <p class="cc">
 Projeto: Engajamento dos Estudantes da Unicamp.
 </p></li>
 </ul>
 <p></br></p>
 </div>
-<div id="orientandos-do-programa-de-apoio-didático-pad-orientandos-do-programa-de-estágio-docente-ped" class="section level4">
-<h4>Orientandos do Programa de Apoio Didático PAD / Orientandos do Programa de Estágio Docente PED</h4>
+<div
+id="orientandos-do-programa-de-apoio-didático-pad-orientandos-do-programa-de-estágio-docente-ped"
+class="section level4">
+<h4>Orientandos do Programa de Apoio Didático PAD / Orientandos do
+Programa de Estágio Docente PED</h4>
 <ul>
 <li><p>Fernanda Paula Rocha - PED (1S2020; 2S2020)</p></li>
 <li><p>Katherine Andreina Loor Valeriano - PED (2S2019)</p></li>

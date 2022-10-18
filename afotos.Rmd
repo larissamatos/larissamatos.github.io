@@ -13,7 +13,7 @@ library(magick)
 <style>
 .column-f5{
   float: left;
-  width: 14.28%;
+  width: 20%;
   text-align: center;
 }
 .column-f2c{
@@ -129,22 +129,68 @@ library(magick)
 <figcaption> <p class="cc3"> [Hildemar](http://lattes.cnpq.br/0442780507213647) </p></figcaption></figure>
 </div>
 <div class="column-f5">
-<figure><img id="myImg"  class="imageClass" src="imagens/fotos/Alejandro.png" alt=" " style="width:70%">
-<figcaption> <p class="cc3"> [Alejandro](http://lattes.cnpq.br/7635604449274955) </p> </figcaption></figure>
-</div>
-<div class="column-f5">
 <figure><img id="myImg"  class="imageClass" src="imagens/fotos/Fernanda.png" alt=" " style="width:70%">
 <figcaption> <p class="cc3"> [Fernanda](http://lattes.cnpq.br/8132149083320545) </p> </figcaption></figure>
-</div>
-<div class="column-f5">
-<figure><img id="myImg"  class="imageClass" src="imagens/fotos/Marcela.png" alt=" " style="width:70%">
-<figcaption> <p class="cc3"> [Marcela](http://lattes.cnpq.br/5012340622923104) </p> </figcaption></figure>
 </div>
 <div class="column-f5">
 <figure><img id="myImg"  class="imageClass" src="imagens/fotos/Katherine.png" alt=" " style="width:70%">
 <figcaption> <p class="cc3"> [Katherine](http://lattes.cnpq.br/8992394367424165) </p> </figcaption></figure>
 </div>
 </div>
+
+<div class="row">
+<div class="column-f5">
+<figure><img id="myImg"  class="imageClass" src="imagens/fotos/Leticia.png" alt=" " style="width:70%">
+<figcaption> <p class="cc3"> [Letícia](http://lattes.cnpq.br/7158806142046600) </p></figcaption></figure>
+</div>
+<div class="column-f5">
+<figure><img id="myImg"  class="imageClass" src="imagens/fotos/Vitor.png" alt=" " style="width:70%">
+<figcaption> <p class="cc3"> [Vitor](http://lattes.cnpq.br/7749317090142178) </p> </figcaption></figure>
+</div>
+<div class="column-f5">
+<figure><img id="myImg"  class="imageClass" src="imagens/fotos/Keyliane.png" alt=" " style="width:70%">
+<figcaption> <p class="cc3"> [Keyliane](http://lattes.cnpq.br/3118772117815080) </p> </figcaption></figure>
+</div>
+<div class="column-f5">
+<figure><img id="myImg"  class="imageClass" src="imagens/fotos/Alejandro.png" alt=" " style="width:70%">
+<figcaption> <p class="cc3"> [Alejandro](http://lattes.cnpq.br/7635604449274955) </p> </figcaption></figure>
+</div>
+<div class="column-f5">
+<figure><img id="myImg"  class="imageClass" src="imagens/fotos/Marcela.png" alt=" " style="width:70%">
+<figcaption> <p class="cc3"> [Marcela](http://lattes.cnpq.br/5012340622923104) </p> </figcaption></figure>
+</div>
+</div>
+
+<!-- <div class="row"> -->
+<!-- <div class="column-f5"> -->
+<!-- <figure><img id="myImg"  class="imageClass" src="imagens/fotos/Christian.png" alt=" " style="width:70%"> -->
+<!-- <figcaption> <p class="cc3"> [Christian](http://lattes.cnpq.br/1340975521059252) </p> </figcaption></figure> -->
+<!-- </div> -->
+<!-- <div class="column-f5"> -->
+<!-- <figure><img id="myImg"  class="imageClass" src="imagens/fotos/Thalita.png" alt=" " style="width:70%"> -->
+<!-- <figcaption> <p class="cc3"> [Thalita](http://lattes.cnpq.br/9500569794852267) </p> </figcaption></figure> -->
+<!-- </div> -->
+<!-- <div class="column-f5"> -->
+<!-- <figure><img id="myImg"  class="imageClass" src="imagens/fotos/Hildemar.png" alt=" " style="width:70%"> -->
+<!-- <figcaption> <p class="cc3"> [Hildemar](http://lattes.cnpq.br/0442780507213647) </p></figcaption></figure> -->
+<!-- </div> -->
+<!-- <div class="column-f5"> -->
+<!-- <figure><img id="myImg"  class="imageClass" src="imagens/fotos/Alejandro.png" alt=" " style="width:70%"> -->
+<!-- <figcaption> <p class="cc3"> [Alejandro](http://lattes.cnpq.br/7635604449274955) </p> </figcaption></figure> -->
+<!-- </div> -->
+<!-- <div class="column-f5"> -->
+<!-- <figure><img id="myImg"  class="imageClass" src="imagens/fotos/Fernanda.png" alt=" " style="width:70%"> -->
+<!-- <figcaption> <p class="cc3"> [Fernanda](http://lattes.cnpq.br/8132149083320545) </p> </figcaption></figure> -->
+<!-- </div> -->
+<!-- <div class="column-f5"> -->
+<!-- <figure><img id="myImg"  class="imageClass" src="imagens/fotos/Marcela.png" alt=" " style="width:70%"> -->
+<!-- <figcaption> <p class="cc3"> [Marcela](http://lattes.cnpq.br/5012340622923104) </p> </figcaption></figure> -->
+<!-- </div> -->
+<!-- <div class="column-f5"> -->
+<!-- <figure><img id="myImg"  class="imageClass" src="imagens/fotos/Katherine.png" alt=" " style="width:70%"> -->
+<!-- <figcaption> <p class="cc3"> [Katherine](http://lattes.cnpq.br/8992394367424165) </p> </figcaption></figure> -->
+<!-- </div> -->
+<!-- </div> -->
 
 ----
 

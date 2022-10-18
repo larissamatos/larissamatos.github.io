@@ -28,7 +28,7 @@ output:
 <hr class="new1"></hr>
 <p class="ptitle"> \ </p>
 
-<span style="color:darkred"> **Assistant Professor** </span>
+<span style="color:darkred"> **Associate Professor** </span>
 
 Department of Statistics
 
@@ -111,7 +111,12 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 
 <ol reversed>
 
-<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H. (2022+). *Likelihood-based inference for multivariate skew-normal censored responses.* Metron.\medskip </li>
+<li> DE ALENCAR, FRANCISCO H. C.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. *Finite Mixture of Censored Linear Mixed Models for Irregularly Observed Longitudinal Data.* Journal of Classification, 2022. [<i class="fas fa-link"></i>](https://link.springer.com/article/10.1007/s00357-022-09415-x) \medskip </li> <p class="big"> </p>
+
+<li> MATTOS, THALITA B.; LACHOS, VICTOR H.; CASTRO, LUIS M.; **MATOS, LARISSA A.** *Extending multivariate Student's-$t$ semiparametric mixed models for longitudinal data with censored responses and heavy tails.* STATISTICS IN MEDICINE, v. -, p. -, 2022. [<i class="fas fa-link"></i>](https://doi.org/10.1002/sim.9443)
+\medskip </li> <p class="big"> </p>
+
+<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H. *An EM algorithm for estimating the parameters of the multivariate skew-normal distribution with censored responses.* Metron, v. -, p. -, 2022.[<i class="fas fa-link"></i>](https://doi.org/10.1007/s40300-021-00227-4)  \medskip </li>
 <p class="big"> </p>
 
 <li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; CASTRO, LUIS M.; LACHOS, VICTOR H. *Moments of the doubly truncated selection elliptical distributions with emphasis on the unified multivariate skew-t distribution.* Journal of Multivariate Analysis, v. 189, p. 104944, 2022. [<i class="fas fa-link"></i>](https://authors.elsevier.com/c/1eL-V,14nMrx9E) \medskip </li>
@@ -167,20 +172,20 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 
 ----
 
-<h3> Under review </h3>
-<p class="ptitle"> \ </p>
+<!-- <h3> Under review </h3> -->
+<!-- <p class="ptitle"> \ </p> -->
 
-<ol reversed>
+<!-- <ol reversed> -->
 
-<li> DE ALENCAR, FRANCISCO H.C.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H.	(2021+) *Finite Mixture of Censored Linear Mixed Models for Irregularly Observed Longitudinal Data.* Journal of Classification (Under review). \medskip </li>
-<p class="big"> </p>
+<!-- <li> DE ALENCAR, FRANCISCO H.C.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H.	(2021+) *Finite Mixture of Censored Linear Mixed Models for Irregularly Observed Longitudinal Data.* Journal of Classification (Under review). \medskip </li> -->
+<!-- <p class="big"> </p> -->
 
-<li> MATTOS,	THALITA B.; **MATOS, LARISSA A.**; CASTRO, LUIS M.; LACHOS, VICTOR H. (2021+).	*Extending Multivariate-t Semiparametric Mixed Models for Longitudinal data with Censored Responses and Heavy Tails.* Statistics in Medicine (Under review). \medskip </li>
-<p class="big"> </p>
+<!-- <li> MATTOS,	THALITA B.; **MATOS, LARISSA A.**; CASTRO, LUIS M.; LACHOS, VICTOR H. (2021+).	*Extending Multivariate-t Semiparametric Mixed Models for Longitudinal data with Censored Responses and Heavy Tails.* Statistics in Medicine (Under review). \medskip </li> -->
+<!-- <p class="big"> </p> -->
 
-</ol>
+<!-- </ol> -->
 
-----
+<!-- ---- -->
 
 <h3> Tech reports </h3>
 <p class="ptitle"> \ </p>
@@ -196,7 +201,7 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 <li> SCHUMACHER, FERNANDA L.; **MATOS, LARISSA A.**; CABRAL, CELSO R. B. (2021). *Canonical fundamental skew-t linear mixed models.* arXiv:2109.12152  [<i class="fas fa-link"></i>](https://arxiv.org/abs/2109.12152) \medskip </li>
 <p class="big"> </p>
 
-<li> ORDOÑEZ J.A.; PRATES, M.O.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2020). Objective Bayesian analysis for spatial Student-t regression models. arXiv:2004.04341 [<i class="fas fa-link"></i>](https://arxiv.org/abs/2004.04341) \medskip </li>
+<li> ORDOÑEZ J.A.; PRATES, M.O.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2020). *Objective Bayesian analysis for spatial Student-t regression models.* arXiv:2004.04341 [<i class="fas fa-link"></i>](https://arxiv.org/abs/2004.04341) \medskip </li>
 <p class="big"> </p>
 
 <li> MATTOS, T. B.; **MATOS, LARISSA A.**; LACHOS, V. H. (2020). *Likelihood-based inference for mixed-effects models with censored response using skew-normal distribution.* \medskip </li>
@@ -263,6 +268,15 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 <p class="ptitle"> \ </p>
 
 <ol reversed>
+
+<li> IV Congresso Brasileiro de Jovens Pesquisadores em Matemática Pura, Aplicada e Estatística (2022).\medskip </li> 
+<p class="big"> </p>
+
+<li> 24º SINAPE - Simpósio Nacional de Probabilidade e Estatística. Tutorial: Modeling Longitudinal Data using Robust Mixed Models in R (2022). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/22_SINAPE.pdf) \ [<i class='fab fa-github' style='font-size:15px'></i>](https://github.com/fernandalschumacher/SINAPE2022-tutorial) \medskip </li> 
+<p class="big"> </p>
+
+<li> 2022 ICSA Applied Statistics Symposium. Extending multivariate Student’s-t semiparametric mixed models for longitudinal data with censored responses and heavy tails (2022). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/22_ICSA.pdf) \medskip </li>
+<p class="big"> </p>
 
 <li> 8th Workshop on Probabilistic and Statistical Methods. A semiparametric mixed-effects model for censored longitudinal data (2020). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/20_WPSM.pdf) \medskip </li>
 <p class="big"> </p>
@@ -352,6 +366,10 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 <h3> Master Students </h3> 
 <p class="ptitle"> \ </p>
 
+- Letícia Bettine Infante - Co-adivisor  - ongoing
+
+- Vitor Macedo Rocha - ongoing
+
 - Keyliane Travassos Almeida da Silva - ongoing
 
 - Katherine Andreina Loor Valeriano (2019) 
@@ -375,6 +393,20 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
     <p class="cc"> Project: Influência que os professores da educação infantil e fundamental I que gostam ou não de matemática exercem sobre seus alunos.</p> 
 
 
+<h4>2022</h4>
+
+- Beatriz Moreira Amaral,	Maicon Douglas Carvalho,	Tiago Henrique da Cruz e	Vinícius Litvinoff Justus
+    <p class="cc"> Projeto: Análise da utilização da órtese em "T" de Montgomery nas estenoses traqueais e laringotraqueais.</p>  
+    
+- Laura Thereza Zaia Ferro,	Marcos Cesar Manente Júnior,	Paloma Araujo Leme e	Rodrigo Forti
+    <p class="cc"> Projeto: Tratamento do Pé Diabético Infectado: Relato Retrospectivo dos Casos.</p>  
+    
+- Caio Souza Lopes Da Silva,	Flávia Moura Siqueira,	Julia Martins Guardia e	Pedro Elias Bernardo Magalhães Crescenti
+    <p class="cc"> Projeto: Parentalidade e Altas Habilidades ou superdotação: um estudo sobre os impactos e sobrecarga parental.</p>  
+    
+- Caroline Da Silva Mangile,	Hellen Mayra Ribeiro Freitas,	Rafael Ribeiro Santos e	Victor De Souza Teixeira
+    <p class="cc"> Projeto: Análise da Inclusão e Mobilidade Social Dos Egressos das Licenciaturas da UNICAMP.</p>  
+  
 <h4>2021</h4>
 
 - Carlos Eduardo Lima Kamioka, Luana Paias Martínez e Wesley Cabral Alves

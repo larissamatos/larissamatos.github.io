@@ -13,7 +13,7 @@
 
 <title> Publicações</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
@@ -144,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -756,6 +760,12 @@ Participação em eventos
 </p>
 <ol reversed>
 <li>
+IV Congresso Brasileiro de Jovens Pesquisadores em Matemática Pura,
+Aplicada e Estatística (2022).
+</li>
+<p class="big">
+</p>
+<li>
 24º SINAPE - Simpósio Nacional de Probabilidade e Estatística. Tutorial:
 Modeling Longitudinal Data using Robust Mixed Models in R (2022).  <a
 href="Apresentacoes/22_SINAPE.pdf"><i class="fas fa-file-pdf"></i></a>
@@ -888,6 +898,48 @@ in linear and non-linear mixed-effects models with censored data (2011).
 </p>
 <li>
 14ª Escola de Séries Temporais e Econometria (2011).
+</li>
+<p class="big">
+</p>
+</ol>
+</p>
+<h3>
+Comissões
+</h3>
+<p>
+<p class="ptitle">
+ 
+</p>
+<ol reversed>
+<li>
+Coordenadora da sessão intitulada <strong>Estatística e Aprendizado de
+Máquinas</strong> no <em>IV Congresso Brasileiro de Jovens Pesquisadores
+em Matemática Pura, Aplicada e Estatística</em>, realizado e sediado
+pelo Departamento de Matemática da Universidade Federal da Paraíba
+(DM-UFPB), em João Pessoa/PB, de 05 a 07 de outubro de 2022.
+</li>
+<p class="big">
+</p>
+<li>
+Membro da Comissão Organizadora do 24o SINAPE | Simpósio Nacional de
+Probabilidade e Estatística, realizado 31 de julho a 5 de agosto de
+2022, Hotel Serra Azul.
+</li>
+<p class="big">
+</p>
+<li>
+Membro da Comissão Científica do <em>XVI Encontro Científico de
+Pós-Graduandos do IMECC</em> (Instituto de Matemática, Estatística e
+Computação Científica), realizado no período de 11 a 14 de Abril de
+2022.
+</li>
+<p class="big">
+</p>
+<li>
+Membro da Comissão Científica do <em>XV Encontro Científico de
+Pós-Graduandos do IMECC</em> (Instituto de Matemática, Estatística e
+Computação Científica), realizado no período de 23 a 26 de Novembro de
+2020.
 </li>
 <p class="big">
 </p>
