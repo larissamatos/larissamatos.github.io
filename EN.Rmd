@@ -111,6 +111,14 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 
 <ol reversed>
 
+<li> VALERIANO, KATHERINE A. L.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.** *Moments and random number generation for the truncated elliptical family of distributions.* In Press - Statistics and Computing (2022+) 
+<!-- arXiv:2112.09319 [<i class="fas fa-link"></i>](https://arxiv.org/abs/2112.09319).   -->
+\medskip </li>
+<p class="big"> </p>
+
+<li> MATTOS, T. B.; **MATOS, LARISSA A.**; LACHOS, V. H. (2022). *Likelihood-based inference for mixed-effects models with censored response using skew-normal distribution.* Springer International Publishing.  Edited volume in ‘Innovations in multivariate statistical modeling: navigating theoretical and multidisciplinary domains”. 1st ed. [<i class="fas fa-link"></i>](https://link.springer.com/book/10.1007/978-3-031-13971-0?sap-outbound-id=628B1C84C5E769FCC909C170C4C063AF7B77785E#toc) \medskip </li>
+<p class="big"> </p>
+
 <li> DE ALENCAR, FRANCISCO H. C.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. *Finite Mixture of Censored Linear Mixed Models for Irregularly Observed Longitudinal Data.* Journal of Classification, 2022. [<i class="fas fa-link"></i>](https://link.springer.com/article/10.1007/s00357-022-09415-x) \medskip </li> <p class="big"> </p>
 
 <li> MATTOS, THALITA B.; LACHOS, VICTOR H.; CASTRO, LUIS M.; **MATOS, LARISSA A.** *Extending multivariate Student's-$t$ semiparametric mixed models for longitudinal data with censored responses and heavy tails.* STATISTICS IN MEDICINE, v. -, p. -, 2022. [<i class="fas fa-link"></i>](https://doi.org/10.1002/sim.9443)
@@ -192,9 +200,6 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 
 <ol reversed>
 
-<li> VALERIANO, KATHERINE A. L.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.** (2021). *Moments and random number generation for the truncated elliptical family of distributions.* arXiv:2112.09319 [<i class="fas fa-link"></i>](https://arxiv.org/abs/2112.09319) \medskip </li>
-<p class="big"> </p>
-
 <li> VALERIANO, KATHERINE A. L.; SCHUMACHER, FERNANDA L.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.** (2021). *Censored autoregressive regression models with Student-t innovations.* arXiv:2110.00224 [<i class="fas fa-link"></i>](https://arxiv.org/abs/2110.00224) \medskip </li>
 <p class="big"> </p>
 
@@ -202,9 +207,6 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 <p class="big"> </p>
 
 <li> ORDOÑEZ J.A.; PRATES, M.O.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2020). *Objective Bayesian analysis for spatial Student-t regression models.* arXiv:2004.04341 [<i class="fas fa-link"></i>](https://arxiv.org/abs/2004.04341) \medskip </li>
-<p class="big"> </p>
-
-<li> MATTOS, T. B.; **MATOS, LARISSA A.**; LACHOS, V. H. (2020). *Likelihood-based inference for mixed-effects models with censored response using skew-normal distribution.* \medskip </li>
 <p class="big"> </p>
 
 <li> BARBOSA, T. S.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.**; PRATES, MARCOS O. (2016). *Estimation in Spatial Models with Censored Response.* \medskip </li>
@@ -345,6 +347,8 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 <h3>  Ph.D Students </h3> 
 <p class="ptitle"> \ </p>
 
+- Carina Brunehilde Pinto da Silva - ongoing
+
 - Katherine Andreina Loor Valeriano - ongoing
 
 - Francisco Hildemar Calixto de Alencar - ongoing
@@ -392,31 +396,42 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 - Paulo César de Oliveira Rodrigues (2019)
     <p class="cc"> Project: Influência que os professores da educação infantil e fundamental I que gostam ou não de matemática exercem sobre seus alunos.</p> 
 
-
 <h4>2022</h4>
 
+- Carlos Henrique Ferreira da Silva Bueno, Gabriel Silva Bertizoli, Nathalia Carolina Chenfer e Ricardo Hideki Tamada Shiraishi 
+    <p class="cc"> Project: Importância da presença de mulheres em cargos de liderança na qualidade da alimentação escolar.</p>  
+    
+- Ana Clara Estevam Pereira, Jonathan Ricardo Smaile Fusco e Thomás Sperandio Denadai
+    <p class="cc"> Project: Validação de dados secundários de rótulos de alimentos e bebidas para o monitoramento e avaliação de políticas públicas de rotulagem nutricional.</p> 
+    
+- Hugo de Siqueira Pereira, Matheus Cruz Braga e Rafael Zanfelice Montesso
+    <p class="cc"> Project: Função motora esofágica em pacientes com fibrose cística.</p> 
+    
+- Ana Clara Emy Shiraiwa Kuniyoshi, Andrei dos Santos Piscitelli e Guilherme Barbosa Lisboa
+    <p class="cc"> Project: Análise da carga horária dos docentes do Instituto de Matemática, Estatística e Computação Científica (IMECC).</p> 
+
 - Beatriz Moreira Amaral,	Maicon Douglas Carvalho,	Tiago Henrique da Cruz e	Vinícius Litvinoff Justus
-    <p class="cc"> Projeto: Análise da utilização da órtese em "T" de Montgomery nas estenoses traqueais e laringotraqueais.</p>  
+    <p class="cc"> Project: Análise da utilização da órtese em "T" de Montgomery nas estenoses traqueais e laringotraqueais.</p>  
     
 - Laura Thereza Zaia Ferro,	Marcos Cesar Manente Júnior,	Paloma Araujo Leme e	Rodrigo Forti
-    <p class="cc"> Projeto: Tratamento do Pé Diabético Infectado: Relato Retrospectivo dos Casos.</p>  
+    <p class="cc"> Project: Tratamento do Pé Diabético Infectado: Relato Retrospectivo dos Casos.</p>  
     
 - Caio Souza Lopes Da Silva,	Flávia Moura Siqueira,	Julia Martins Guardia e	Pedro Elias Bernardo Magalhães Crescenti
-    <p class="cc"> Projeto: Parentalidade e Altas Habilidades ou superdotação: um estudo sobre os impactos e sobrecarga parental.</p>  
+    <p class="cc"> Project: Parentalidade e Altas Habilidades ou superdotação: um estudo sobre os impactos e sobrecarga parental.</p>  
     
 - Caroline Da Silva Mangile,	Hellen Mayra Ribeiro Freitas,	Rafael Ribeiro Santos e	Victor De Souza Teixeira
-    <p class="cc"> Projeto: Análise da Inclusão e Mobilidade Social Dos Egressos das Licenciaturas da UNICAMP.</p>  
+    <p class="cc"> Project: Análise da Inclusão e Mobilidade Social Dos Egressos das Licenciaturas da UNICAMP.</p>  
   
 <h4>2021</h4>
 
 - Carlos Eduardo Lima Kamioka, Luana Paias Martínez e Wesley Cabral Alves
-    <p class="cc"> Projeto: Análise das diferenças entre edificações escolares comuns e com certificação AQUA_HQE.</p>  
+    <p class="cc"> Project: Análise das diferenças entre edificações escolares comuns e com certificação AQUA_HQE.</p>  
 
 - João Pedro Shimizu Rodrigues, Rafael Ribeiro De Souza Nania, Sofia Teixeira De Oliveira e Vinícius Nascimento de Oliveira
-    <p class="cc"> Projeto: Análise de perfil e desempenho dos alunos da Usina da Dança.</p>  
+    <p class="cc"> Project: Análise de perfil e desempenho dos alunos da Usina da Dança.</p>  
 
 - Gabriela Inocente Yogi, Giovanna Machado Flores, Guilherme Artoni e Wesley Ricardo Da Silva Satelis
-    <p class="cc"> Projeto: Delimitação de espécies no complexo Myrcia neoobscura (Myrtaceae).</p>
+    <p class="cc"> Project: Delimitação de espécies no complexo Myrcia neoobscura (Myrtaceae).</p>
 
 - Gustavo Sanches Guaragna, Júlia Ferri Martinazzo Fontes, Maria Helena Garrido Barretto Reis	e Matheus Luis De Souza Alves
     <p class="cc"> Project: Avaliação longitudinal dos médicos residentes de oftalmologia: um estudo prospectivo.</p>  

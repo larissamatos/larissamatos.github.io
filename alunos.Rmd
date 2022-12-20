@@ -12,11 +12,13 @@ output:
 ### Doutorado
 <p class="ptitle"> \ </p>
 
+- Carina Brunehilde Pinto da Silva - Doutorado em andamento. 
+
 - Katherine Andreina Loor Valeriano - Doutorado em andamento (Fomento: CAPES) 
 
 - Francisco Hildemar Calixto de Alencar - Doutorado em andamento (Fomento: CAPES) 
 
-- Fernanda Lang Schumacher - Doutorado em andamento (Fomento: CAPES e CNPq). Ano de conclusão: 2021.
+- Fernanda Lang Schumacher (Fomento: CAPES e CNPq). Ano de conclusão: 2021.
     <p class="cc"> `Tese: Robust linear mixed models for longitudinal data using skewed and heavy-tailed distributions.`</p>
 
 - Jose Alejandro Ordoñez (Fomento: CAPES). Ano de conclusão: 2021 - Co-orientadora 
@@ -74,6 +76,21 @@ output:
 
 <!-- 1S2021 -->
 
+2S2022
+ 
+- Carlos Henrique Ferreira da Silva Bueno, Gabriel Silva Bertizoli, Nathalia Carolina Chenfer e Ricardo Hideki Tamada Shiraishi 
+    <p class="cc"> Projeto: Importância da presença de mulheres em cargos de liderança na qualidade da alimentação escolar.</p>  
+    
+- Ana Clara Estevam Pereira, Jonathan Ricardo Smaile Fusco e Thomás Sperandio Denadai
+    <p class="cc"> Projeto: Validação de dados secundários de rótulos de alimentos e bebidas para o monitoramento e avaliação de políticas públicas de rotulagem nutricional.</p> 
+    
+- Hugo de Siqueira Pereira, Matheus Cruz Braga e Rafael Zanfelice Montesso
+    <p class="cc"> Projeto: Função motora esofágica em pacientes com fibrose cística.</p> 
+    
+- Ana Clara Emy Shiraiwa Kuniyoshi, Andrei dos Santos Piscitelli e Guilherme Barbosa Lisboa
+    <p class="cc"> Projeto: Análise da carga horária dos docentes do Instituto de Matemática, Estatística e Computação Científica (IMECC).</p> 
+    
+    
 1S2022
 
 - Beatriz Moreira Amaral,	Maicon Douglas Carvalho,	Tiago Henrique da Cruz e	Vinícius Litvinoff Justus
