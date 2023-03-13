@@ -39,7 +39,8 @@ output:
 
 - Vitor Macedo Rocha - Mestrado em andamento.
 
-- Keyliane Travassos Almeida da Silva - Mestrado em andamento (Fomento: CAPES). 
+- Keyliane Travassos Almeida da Silva (Fomento: CAPES). Ano de conclusão: 2023. 
+    <p class="cc"> `Dissertação: Análise de diagnóstico em modelos lineares mistos na mistura de escala skew-normal.`</p> 
 
 - Katherine Andreina Loor Valeriano (Fomento: CAPES). Ano de conclusão: 2019. 
     <p class="cc"> `Dissertação: Inferência para dados espaço-temporais com respostas censuradas e faltantes.`</p> 

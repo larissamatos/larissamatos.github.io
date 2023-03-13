@@ -72,49 +72,56 @@ p.big {
 <p class="ptitle"> \ </p>
 <ol reversed>
 
-<li> VALERIANO, KATHERINE A. L.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.** *Moments and random number generation for the truncated elliptical family of distributions.* Aceito - Statistics and Computing (2022+) 
-<!-- arXiv:2112.09319 [<i class="fas fa-link"></i>](https://arxiv.org/abs/2112.09319).   -->
-\medskip </li>
+<li> VALERIANO, KATHERINE A. L.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. *Likelihood-based inference for the multivariate skew-t regression with censored or missing responses.* JOURNAL OF MULTIVARIATE ANALYSIS, v. 196, p. 105174, 2023. [<i class="fas fa-link"></i>](https://www.sciencedirect.com/science/article/pii/S0047259X23000209?dgcid=coauthor) \medskip </li>
 <p class="big"> </p>
 
-<li> DE ALENCAR, FRANCISCO H. C.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. *Finite Mixture of Censored Linear Mixed Models for Irregularly Observed Longitudinal Data.* Journal of Classification, 2022. [<i class="fas fa-link"></i>](https://link.springer.com/article/10.1007/s00357-022-09415-x) \medskip </li> <p class="big"> </p>
+<li> ORDOÑEZ, JOSE A.; PRATES, MARCOS O.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. *Objective Bayesian analysis for spatial Student-t regression models.* Journal of Spatial Science, v. -, p. 1-19, 2023. [<i class="fas fa-link"></i>](https://www.tandfonline.com/eprint/4XHYQEZUMB9WX7I8BYFE/full?target=10.1080/14498596.2023.2170930) \medskip </li>
+<p class="big"> </p>
 
-<li> MATTOS, THALITA B.; LACHOS, VICTOR H.; CASTRO, LUIS M.; **MATOS, LARISSA A.** *Extending multivariate Student's-$t$ semiparametric mixed models for longitudinal data with censored responses and heavy tails.* STATISTICS IN MEDICINE, v. -, p. -, 2022. [<i class="fas fa-link"></i>](https://doi.org/10.1002/sim.9443)
-\medskip </li> <p class="big"> </p>
-
-<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H. *An EM algorithm for estimating the parameters of the multivariate skew-normal distribution with censored responses.* Metron, v. -, p. -, 2022.[<i class="fas fa-link"></i>](https://doi.org/10.1007/s40300-021-00227-4)  \medskip </li>
+<li> VALERIANO, KATHERINE A. L.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.** *Moments and random number generation for the truncated elliptical family of distributions.* 
+STATISTICS AND COMPUTING, v. 33, p. 32, 2023.
+[<i class="fas fa-link"></i>](https://link.springer.com/article/10.1007/s11222-022-10200-4).   
+\medskip </li>
 <p class="big"> </p>
 
 <li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; CASTRO, LUIS M.; LACHOS, VICTOR H. *Moments of the doubly truncated selection elliptical distributions with emphasis on the unified multivariate skew-t distribution.* Journal of Multivariate Analysis, v. 189, p. 104944, 2022. [<i class="fas fa-link"></i>](https://doi.org/10.1016/j.jmva.2021.104944) \medskip </li>
 <p class="big"> </p>
 
-<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; DEY, DIPAK K.; LACHOS, VICTOR H. *On Moments of Folded and Truncated Multivariate Extended Skew-Normal Distributions.* Journal of Computational and Graphical Statistics, v. -, p. 1-29, 2021. [<i class="fas fa-link"></i>](https://www.tandfonline.com/doi/abs/10.1080/10618600.2021.2000869) \medskip </li>
+<li> MATTOS, THALITA B.; LACHOS, VICTOR H.; CASTRO, LUIS M.; **MATOS, LARISSA A.** *Extending multivariate Student's-$t$ semiparametric mixed models for longitudinal data with censored responses and heavy tails.* STATISTICS IN MEDICINE, v. 41, p. 3696-3719, 2022. [<i class="fas fa-link"></i>](https://doi.org/10.1002/sim.9443)
+\medskip </li> <p class="big"> </p>
+
+<li> DE ALENCAR, FRANCISCO H. C.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. *Finite Mixture of Censored Linear Mixed Models for Irregularly Observed Longitudinal Data.* JOURNAL OF CLASSIFICATION, v. 39, p. 463-486, 2022. [<i class="fas fa-link"></i>](https://link.springer.com/article/10.1007/s00357-022-09415-x) \medskip </li> <p class="big"> </p>
+
+<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H. *An EM algorithm for estimating the parameters of the multivariate skew-normal distribution with censored responses.* Metron, v. 80, p. 231-253, 2022.[<i class="fas fa-link"></i>](https://doi.org/10.1007/s40300-021-00227-4)  \medskip </li>
 <p class="big"> </p>
 
-<li> MATTOS, T. B.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. *A semiparametric mixed-effects model for censored longitudinal data*. STATISTICAL METHODS IN MEDICAL RESEARCH, v. 30, p. 2582-2603, 2021. [<i class="fas fa-link"></i>](https://doi.org/10.1177/09622802211046387) \medskip </li> <p class="big"> </p>
-
-<li> DE ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. *Finite mixture modeling of censored and missing data using the multivariate skew-normal distribution*, v. -, p. -, 2021. Advances in Data Analysis and Classification. [<i class="fas fa-link"></i>](https://link.springer.com/article/10.1007/s11634-021-00448-5) \medskip </li>
-<p class="big"> </p>
-
-<li> SCHUMACHER, FERNANDA L.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.** *Scale Mixture of Skew-Normal Linear Mixed Models with Within-Subject Serial Dependence* . Statistics in Medicine, v. 40, p. 1790-1810, 2021. [<i class="fas fa-link"></i>](https://onlinelibrary.wiley.com/doi/10.1002/sim.8870) \medskip </li>
-<p class="big"> </p>
-
-<li> OLIVARI, ROMMY C.; GARAY, ALDO M.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.** *Mixed-Effects Models for Censored Data with Autoregressive Errors.* Journal of Biopharmaceutical Statistics, v. 31, p. 273-294, 2021. [<i class="fas fa-link"></i>](https://doi.org/10.1080/10543406.2020.1852246)  \medskip </li>
+<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; DEY, DIPAK K.; LACHOS, VICTOR H. *On Moments of Folded and Truncated Multivariate Extended Skew-Normal Distributions.* Journal of Computational and Graphical Statistics, v. 31, p. 455-465, 2022. [<i class="fas fa-link"></i>](https://www.tandfonline.com/doi/abs/10.1080/10618600.2021.2000869) \medskip </li>
 <p class="big"> </p>
 
 <li> LEMUS, MARCELA N.; LACHOS, VICTOR H.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.** *Estimation and Diagnostics for Partially Censored Regression Models Based on Heavy-Tailed Distributions.* Statistics and its Interface, v. 14, p. 165-182, 2021. [<i class="fas fa-link"></i>](https://www.intlpress.com/site/pub/pages/journals/items/sii/content/vols/0014/0002/a007/) \medskip </li>
 <p class="big"> </p>
 
-<li> VALERIANO, KATHERINE A. L.; LACHOS, VICTOR H.; PRATES, MARCOS O. **MATOS, LARISSA A.** *Likelihood Based Inference for Spatio-Temporal Data with Censored and Missing Responses.* Environmetrics, v. 32, p. e2663, 2020. [<i class="fas fa-link"></i>](https://onlinelibrary.wiley.com/doi/10.1002/env.2663) \medskip </li>
+<li> OLIVARI, ROMMY C.; GARAY, ALDO M.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.** *Mixed-Effects Models for Censored Data with Autoregressive Errors.* Journal of Biopharmaceutical Statistics, v. 31, p. 273-294, 2021. [<i class="fas fa-link"></i>](https://doi.org/10.1080/10543406.2020.1852246)  \medskip </li>
 <p class="big"> </p>
 
-<li> LACHOS, VICTOR H.;  **MATOS, LARISSA A.**; CASTRO, LUIS M.; CHEN, MING-HUI. *Flexible Longitudinal Linear Mixed Models for Multiple Censored Responses Data.* Statistics in Medicine, v. 38, p. 1074-1102, 2018. [<i class="fas fa-link"></i>](https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.8017) \medskip </li>
+<li> SCHUMACHER, FERNANDA L.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.** *Scale Mixture of Skew-Normal Linear Mixed Models with Within-Subject Serial Dependence* . Statistics in Medicine, v. 40, p. 1790-1810, 2021. [<i class="fas fa-link"></i>](https://onlinelibrary.wiley.com/doi/10.1002/sim.8870) \medskip </li>
+<p class="big"> </p>
+
+<li> MATTOS, THALITA B.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. *A semiparametric mixed-effects model for censored longitudinal data*. STATISTICAL METHODS IN MEDICAL RESEARCH, v. 30, p. 2582-2603, 2021. [<i class="fas fa-link"></i>](https://doi.org/10.1177/09622802211046387) \medskip </li> <p class="big"> </p>
+
+<li> DE ALENCAR, FRANCISCO H.C.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. *Finite mixture modeling of censored and missing data using the multivariate skew-normal distribution*. Advances in Data Analysis and Classification, v. 16, p. 521-557, 2021. [<i class="fas fa-link"></i>](https://link.springer.com/article/10.1007/s11634-021-00448-5) \medskip </li>
+<p class="big"> </p>
+
+<li> VALERIANO, KATHERINE A. L.; LACHOS, VICTOR H.; PRATES, MARCOS O.; **MATOS, LARISSA A.** *Likelihood Based Inference for Spatio-Temporal Data with Censored and Missing Responses.* Environmetrics, v. 32, p. e2663, 2020. [<i class="fas fa-link"></i>](https://onlinelibrary.wiley.com/doi/10.1002/env.2663) \medskip </li>
+<p class="big"> </p>
+
+<li>  **MATOS, LARISSA A.**; LACHOS, VICTOR H.; LIN, TSUNG-I; CASTRO, LUIS M. *Heavy-tailed longitudinal regression models for censored data: a robust parametric approach*. TEST, v. 28, p. 844-878, 2019. [<i class="fas fa-link"></i>](https://link.springer.com/article/10.1007/s11749-018-0603-5) \medskip </li>
 <p class="big"> </p>
 
 <li>  **MATOS, LARISSA A.**; CASTRO, LUIS M. ; CABRAL, CELSO R. B.; LACHOS, VICTOR H. *Multivariate measurement error models based on Student- distribution under censored responses.* STATISTICS, v. 52, p. 1395-1416, 2018. [<i class="fas fa-link"></i>](https://www.tandfonline.com/doi/abs/10.1080/02331888.2018.1527841) \medskip </li>
 <p class="big"> </p>
 
-<li>  **MATOS, LARISSA A.**; LACHOS, VICTOR H.; LIN, TSUNG-I; CASTRO, LUIS M. *Heavy-tailed longitudinal regression models for censored data: a robust parametric approach*. TEST, v. 28, p. 844-878, 2018. [<i class="fas fa-link"></i>](https://link.springer.com/article/10.1007/s11749-018-0603-5) \medskip </li>
+<li> LACHOS, VICTOR H.;  **MATOS, LARISSA A.**; CASTRO, LUIS M.; CHEN, MING-HUI. *Flexible Longitudinal Linear Mixed Models for Multiple Censored Responses Data.* Statistics in Medicine, v. 38, p. 1074-1102, 2018. [<i class="fas fa-link"></i>](https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.8017) \medskip </li>
 <p class="big"> </p>
 
 <li> LACHOS, VICTOR H.;  **MATOS, LARISSA A.**; BARBOSA, THAIS S.; GARAY, ALDO M.; DEY, DIPAK K. *Influence diagnostics in spatial models with censored response.* ENVIRONMETRICS, v. 28, p. e2464, 2017. [<i class="fas fa-link"></i>](https://onlinelibrary.wiley.com/doi/abs/10.1002/env.2464)\medskip </li>
@@ -143,7 +150,7 @@ p.big {
 <p class="ptitle"> \ </p>
 <ol reversed>
 
-<li> MATTOS, T. B.; **MATOS, LARISSA A.**; LACHOS, V. H. (2022). *Likelihood-based inference for mixed-effects models with censored response using skew-normal distribution.* [<i class="fas fa-link"></i>](https://link.springer.com/book/10.1007/978-3-031-13971-0?sap-outbound-id=628B1C84C5E769FCC909C170C4C063AF7B77785E#toc) \medskip </li>
+<li> MATTOS, THALITA B.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. *Likelihood-based inference for mixed-effects models with censored response using skew-normal distribution.* Innovations in Multivariate Statistical Modeling. 1ed.Switzerland: Springer, 2022, v. -, p. 23-43. [<i class="fas fa-link"></i>](https://link.springer.com/book/10.1007/978-3-031-13971-0?sap-outbound-id=628B1C84C5E769FCC909C170C4C063AF7B77785E#toc) \medskip </li>
 <p class="big"> </p>
 
 </ol>
@@ -179,9 +186,6 @@ p.big {
 <p class="big"> </p>
 
 <li> SCHUMACHER, FERNANDA L.; **MATOS, LARISSA A.**; CABRAL, CELSO R. B. (2021). *Canonical fundamental skew-t linear mixed models.* arXiv:2109.12152  [<i class="fas fa-link"></i>](https://arxiv.org/abs/2109.12152) \medskip </li>
-<p class="big"> </p>
-
-<li> ORDOÑEZ J.A.; PRATES, M.O.;  **MATOS, LARISSA A.**; LACHOS, VICTOR H. (2020). *Objective Bayesian analysis for spatial Student-t regression models.* arXiv:2004.04341 [<i class="fas fa-link"></i>](https://arxiv.org/abs/2004.04341) \medskip </li>
 <p class="big"> </p>
 
 <li> BARBOSA, T. S.; LACHOS, VICTOR H.;  **MATOS, LARISSA A.**; PRATES, MARCOS O. (2016). *Estimation in Spatial Models with Censored Response.* \medskip </li>
