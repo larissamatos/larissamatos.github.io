@@ -29,7 +29,7 @@ h3a { /* Header 3*/
   display: block;
   background-color: #999999;
   color: white;
-  padding: 15.33px 8px;
+  padding: 14.8px 8px;
   width: 100%;
   border: none;
   outline: none;
@@ -70,6 +70,9 @@ h3a { /* Header 3*/
 ### Pós-Graduação
 <p class="ptitle"> \ </p>
 
+- MI419 - Introdução a Modelos Lineares Generalizados (2S2023)
+</br>
+
 - MI908 - Seminário de Estatística I (1S2021)
 </br>
 
@@ -101,6 +104,12 @@ h3a { /* Header 3*/
 </br>
 
 - ME951 A - Estatística e Probabilidade I
+
+</br>
+
+<h3a>Segundo Semestre de 2023</h3a>
+
+- ME720 A -  Modelos Lineares Generalizados
 </br>
 
 </div>
@@ -198,7 +207,7 @@ h3a { /* Header 3*/
 - [ME414 H](me414_2s2019.html) - Estatística para Experimentalistas
 </br>
 
-- [ME720 A](me720_2s2019.html) -  Modelos Lineares Generalizados
+- ME720 A -  Modelos Lineares Generalizados
 
 </div>
 

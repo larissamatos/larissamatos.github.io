@@ -13,7 +13,7 @@
 
 <title> Ensino</title>
 
-<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -181,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -190,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -360,7 +353,7 @@ h3a { /* Header 3*/
   display: block;
   background-color: #999999;
   color: white;
-  padding: 15.33px 8px;
+  padding: 14.8px 8px;
   width: 100%;
   border: none;
   outline: none;
@@ -402,6 +395,8 @@ h3a { /* Header 3*/
  
 </p>
 <ul>
+<li><p>MI419 - Introdução a Modelos Lineares Generalizados (2S2023)
+</br></p></li>
 <li><p>MI908 - Seminário de Estatística I (1S2021) </br></p></li>
 <li><p>MI416 - Introdução aos Modelos Lineares (2S2017) </br></p></li>
 </ul>
@@ -427,7 +422,12 @@ h3a { /* Header 3*/
 <p>
 <ul>
 <li><p>ME115 A - Linguagem R </br></p></li>
-<li><p>ME951 A - Estatística e Probabilidade I </br></p></li>
+<li><p>ME951 A - Estatística e Probabilidade I</p></li>
+</ul>
+<p></br></p>
+<p><h3a>Segundo Semestre de 2023</h3a></p>
+<ul>
+<li>ME720 A - Modelos Lineares Generalizados </br></li>
 </ul>
 </div>
 <div id="2022" class="tabcontent">
@@ -494,8 +494,7 @@ Probabilidade I</li>
 <ul>
 <li><p><a href="me414_2s2019.html">ME414 H</a> - Estatística para
 Experimentalistas </br></p></li>
-<li><p><a href="me720_2s2019.html">ME720 A</a> - Modelos Lineares
-Generalizados</p></li>
+<li><p>ME720 A - Modelos Lineares Generalizados</p></li>
 </ul>
 </div>
 <div id="2018" class="tabcontent">
