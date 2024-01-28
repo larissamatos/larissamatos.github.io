@@ -10,7 +10,7 @@ output:
 
 **Primeiro Semestre de 2024**
 
-**Aulas:** Segundas (XX), 19h00-21h00 e Terças (XX), 21h00-23h00
+**Aulas:**  Segundas (19h00-21h00) e Terças (21h00-23h00)
 
 <!-- **AVISO:**<span style="color:red"> REVISÃO DO EXAME - DIA 16/07/19 das 17:30h as 18:00h.  </span>   -->
 
@@ -18,11 +18,13 @@ output:
 
 ### **Ementa**
 
-- [Ementa](Disciplinas/ME951_1S2024/Ementa.pdf)
+A leitura da ementa em sua integralidade é fortemente recomendada, não cabendo aos alunos desculpas por ignorânciaquanto ao seu conteúdo:
+
+- [Ementa.pdf](Disciplinas/1S2024_ME951/Ementa.pdf).
 
 **Programa**
 
- Análise exploratória de dados; noções de amostragem e planejamento de experimentos. Cálculo de probabilidades: probabilidade condicional, independência, teorema de Bayes. Variável aleatória: função de probabilidade, função de distribuição, momentos. Princípios de contagem. Modelos discretos: binomial, geométrico, Pascal, hipergeométrico, Poisson. Modelos contínuos: uniforme, normal, exponencial, gamma, beta. Relações entre algumas distribuições. Noções básicas de inferência: estimação pontual e intervalar, teste de hipóteses.
+Análise exploratória de dados; noções de amostragem e planejamento de experimentos. Cálculo de probabilidades: probabilidade condicional, independência, teorema de Bayes. Variável aleatória: função de probabilidade, função de distribuição, momentos. Princípios de contagem. Modelos discretos: binomial, geométrico, Pascal, hipergeométrico, Poisson. Modelos contínuos: uniforme, normal, exponencial, gamma, beta. Relações entre algumas distribuições. Noções básicas de inferência: estimação pontual e intervalar, teste de hipóteses.
  
 **Atendimento**
 
@@ -30,149 +32,44 @@ output:
 
 *Para o atendimento com o professor, o aluno deverá enviar um e-mail para larissam@ime.unicamp.br com pelo menos 3 horas de antecedência, solicitando o agendamento de atendimento.
 
-
 **Referências Bibliográficas**
 
 - Bussab, W. O. \& Morettin, P. A. (1987). *Estatística Básica*. Atual Editora Ltda., São Paulo.
-- Magalhães, M. N., \& de Lima, A. C. P. (2001). *Noções de probabilidade e estatística*. São Paulo: IME-USP.
-- Ross, S. M. (2010). *Introductory Statistics.*
-- Diez, D. M.; Barr, C. D.; Çetinkaya-Rundel, M. (2015). *OpenIntro Statistics.*
+- Magalhães, M. N., \& de Lima, A. C. P. (2001). *Noções de probabilidade e estatística.* São Paulo: IME-USP.
+- Ross, S. M. (2010). [Introductory Statistics](https://www.sciencedirect.com/book/9780123743886/introductory-statistics).
+- Diez, D. M.; Barr, C. D.; Çetinkaya-Rundel, M. (2015). [OpenIntro Statistics](https://leanpub.com/openintro-statistics).
+- Devore, J. L. (2018). Probabilidade e Estatística para Engenharia e Ciências.
+Consulta on-line no [link](https://bookshelf.vitalsource.com/#/books/9788522128044).
 
+Para acessar livros digitais fora da Unicamp, você precisará do VPN. 
 
 **Critérios de Avaliação**
 
-- A média final (MF) será a média ponderada de três provas (P1, P2 e P3). Os alunos que obtiverem nota superior ou igual a **$\small 6,0$** estarão **aprovados**. 
+A avaliação do curso será composta por duas provas (P1 e P2) e atividades do Moodle (A).
 
-- Então, o aluno será aprovado se
-  $$\small \mbox{MF} = 0,3*\mbox{P1} + 0,3*\mbox{P2} + 0,4*\mbox{P3} \geq 6,0.$$
+A média final (MF) será a média ponderada das duas provas e do trabalho final. Os alunos que obtiverem nota superior ou igual a **6,0** estarão **aprovados**. 
 
-- Os alunos que obtiverem nota final inferior a $\small 6,0$ deverão realizar um exame final. A nota final do curso será a média aritmética simples da nota final do semestre e a nota do exame final, ou seja, 
-$$\small \mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}.$$
+Então, o aluno será aprovado se
+$$ \mbox{MF} = 0,35*\mbox{P1} + 0,4*\mbox{P2} + 0,25*\mbox{A}  \geq 6,0.$$
+
+Os alunos que obtiverem nota final inferior a 6,0 deverão realizar um exame final. A nota final do curso será a média aritmética simples da nota final do semestre e a nota do exame final, ou seja, $\mbox{NF} = \frac{\mbox{MF} + \mbox{Exame}}{2}$.
 
 ----
 
 ### **Datas Importantes**
 
-- Prova 1 (P1): 	22/04/19	 
+- Prova 1 (P1): 22/04/2024	 
 
-- Prova 2 (P2):   20/05/19	 
+- Prova 2 (P2): 18/06/2024	 
 
-- Prova 3 (P3):   18/06/19	 
+- Prova SUB: 25/06/2024	 
 
-- Exame final:    15/07/19 
-
-----
-
-### **Informações gerais**
-
-- Avisos, atividades e notas estarão disponíveis nesta página.
-	
-- O aluno deverá ter frequência mínima para aprovação de 75\% nas aulas. O Artigo 72 e 73 do Regimento Geral de Graduação será utilizado nos casos de pedido de abono de faltas e sugiro a leitura dos Artigos 74 a 78, que tratam de detalhes sobre o Regime de Exercícios Domiciliares.
-	
-- Seção X - Do Abono de Faltas Artigo 72 - O abono de faltas está previsto nos casos descritos a seguir, mediante apresentação de documentos comprobatórios ao docente responsável pela disciplina, num prazo de 15 (quinze) dias após a ocorrência, durante a vigência do período letivo.
-
-    I) Exercício de representação estudantil nos órgãos colegiados, durante os horários das reuniões;
-    
-    II) Convocação para cumprimento de serviços obrigatórios por lei;
-    
-    III) Falecimento do cônjuge, filho, inclusive natimorto, pais, irmãos e avós até 03 (três) dias;
-    
-    IV) Falecimento de padrasto, madrasta, sogros e cunhados até 02 (dois) dias.
-    
-    Parágrafo único - O aluno terá direito a uma nova avaliação a ser agendada com o professor responsável pela disciplina, caso ocorra prova ou exame no dia da falta abonada.
-	
-- Para a realização do Exame Final, será utilizado o Artigo 57 do Regimento Geral de Graduação. Aqueles que obtiverem $\small \mbox{MF}  \geq 6,0$ estão dispensados do Exame e Aprovados na disciplina. Aqueles que obtiverem $\small 2,5 \leq \mbox{MF}  < 6,0$, e frequência mínima de 75\% poderão fazer o Exame Final. Aqueles com $\small \mbox{MF}  < 2,5$ e/ou frequência menor que 75\% não poderão fazer o Exame e estão Reprovados.
-	
-- O aluno deverá apresentar o RG e o RA durante as provas, se o aluno não apresentar os dois documentos sua prova será anulada.
-	
-- Caso o aluno não compareça no dia da P1, P2 ou P3, deverá enviar a justificativa pelo email. Os alunos com justificativas aceitas poderão realizar a prova substitutiva, que poderá contemplar qualquer conteúdo ministrado durante o semestre.
-	
-- No evento de paralizações, protestos estudantis, piquetes e greves, o docente se reserva o direito de alterar os critérios de presença e metodologia de avaliação. Todas as alterações serão anunciadas no Moodle, em e-mail institucional e na página do curso com a maior antecedência possível, e serão tomadas com propósito de minimizar conflitos e não prejudicar nenhum dos alunos. Em particular, para alguns problemas comuns, são soluções:
-
-    1. Se houver impedimento para a realização das aulas, elas poderão ser substituídas por atividades online incluindo leitura de material, com presença verificada através de pequenos testes sobre o assunto da aula.
-    
-    2. Se houver impedimento para a realização de provas durante o semestre, elas serão adiadas, preferencialmente para a aula seguinte à prova interrompida, em horário da aula; se houver indicação de que as interrupções persistirão, as provas poderão ser transformadas em atividades online que devem ser submetidas pelo Moodle em prazos curtos de tempo (2 horas de duração), com peso idêntico ao da prova correspondente interrompida, e também na semana seguinte à data da prova originalmente interrompida.
-    
-    3. Se houver impedimento para a realização do exame, ele será adiado.
-
-    Em todos os casos, prevalecerá a orientação da reitoria sobre quaisquer alterações de calendário. Note também que as alterações listadas só se aplicarão em caso de impedimento da atividade, e valem para a classe toda. Um aluno não poderá solicitar o adiamento só da sua prova, etc. Casos omissos são decididos pelo docente.
+- Exame final: 15/07/2024 
 
 ---- 
 
 ### **Aulas**
 
-- [Parte 1](Disciplinas/ME_951_1s2019/Parte1.pdf): Estatística Descritiva: Introdução; Classificação de variáveis. 
+- [Parte 1](Disciplinas/ME951_1S2024/parte01.html): Estatística Descritiva.
 
-- [Parte 2](Disciplinas/ME_951_1s2019/Parte2.pdf): Estatísticas Sumárias.   
-
-- [Parte 3](Disciplinas/ME_951_1s2019/Parte3.pdf):  Análise Exploratória dos dados: Dispersão; Assimetria; Quartis.
-
-- [Parte 4](Disciplinas/ME_951_1s2019/Parte4.pdf): Análise Descritiva Bivariada: Diagrama de dispersão; Correlação; Tabelas de contingência e gráficos de barras.
-
-- [Parte 5](Disciplinas/ME_951_1s2019/Parte5.pdf): Probabilidade: Definição; Espaço amostral; Eventos; Operações com eventos; Partições do espaço amostral.
-
-- [Parte 6](Disciplinas/ME_951_1s2019/Parte6.pdf): Regras de Contagem / Amostragem 
-
-- [Parte 7](Disciplinas/ME_951_1s2019/Parte7.pdf):  Probabilidade Condicional; Independência de Eventos; Teorema de Bayes.
-
-- [Parte 8](Disciplinas/ME_951_1s2019/Parte8.pdf): Teorema de Bayes.  
-
-- [Parte 9](Disciplinas/ME_951_1s2019/Parte9.pdf): Variáveis aleatórias discretas; Distribuições de Probabilidade Discreta; Função de Distribuição Acumulada (FDA); Valor esperado e variância.  
-
-- [Parte 10](Disciplinas/ME_951_1s2019/Parte10.pdf): Distribuições discretas: Uniforme, Bernoulli e Binomial. 
-
-- [Parte 11](Disciplinas/ME_951_1s2019/Parte11.pdf): Distribuições discretas: Geométrica, Hipergeométrica e Poisson; Aproximação da Binomial pela Poisson.
-
-- [Parte 12](Disciplinas/ME_951_1s2019/Parte12.pdf): Variáveis aleatórias contínuas: Função de densidade; Função de Distribuição Acumulada (FDA); Valor esperado e variância. 
-
-- [Parte 13](Disciplinas/ME_951_1s2019/Parte13.pdf): Distribuições contínuas: Uniforme, Exponencial e Normal; Aproximação da Binomial pela Normal. Distribuições contínuas: Gamma e Beta.
-
-- [Parte 14](Disciplinas/ME_951_1s2019/Parte14.pdf): Noções de Inferência Estatística.
-
-- [Parte 15](Disciplinas/ME_951_1s2019/Parte15.pdf): Intervalo de confiança. Intervalo de confiança para proporção. 
-
-- [Parte 16](Disciplinas/ME_951_1s2019/Parte16.pdf): Intervalo de confiança para a média populacional.   
-
-- [Parte 17](Disciplinas/ME_951_1s2019/Parte17.pdf): Teste de Hipóteses: Introdução.  
-
-- [Parte 18](Disciplinas/ME_951_1s2019/Parte18.pdf): Teste de Hipóteses: para médias e proporções. 
-
-- [Parte 19](Disciplinas/ME_951_1s2019/Parte19.pdf): Inferência para duas populações: Intervalo de confiança.   
-
-- [Parte 20](Disciplinas/ME_951_1s2019/Parte20.pdf): Inferência para duas populações: Teste de Hipóteses. 
-
-<!-- - [Parte 21](Disciplinas/ME_951_1s2019/Parte21.pdf): Testes Chi-Quadrado: Aderência e Independência.  -->
-
-<!-- - [Parte 22](Disciplinas/ME_951_1s2019/Parte22.pdf): Testes de Independência e Homogeneidade. -->
-
-<!-- - [Parte 23](Disciplinas/ME_951_1s2019/Parte23.pdf): Regressão.   -->
-
----- 
-
-### **Listas**
-
-- [Tabelas das distribuições](Disciplinas/ME_414_2s2018/Tabelas.pdf): Tabelas para serem usadas na resolução dos exercícios. 
-    
-- [Lista 1](Disciplinas/ME_951_1s2019/Lista1.pdf): Estatística Descritiva. 
-
-- [Lista 2](Disciplinas/ME_951_1s2019/Lista2.pdf): Probabilidade.
-
-- [Lista 3](Disciplinas/ME_951_1s2019/Lista3.pdf): Variáveis Aleatórias Discretas.
-
-- [Lista 4](Disciplinas/ME_951_1s2019/Lista4.pdf): Variáveis Aleatórias Contínuas.
-
-- [Lista 5](Disciplinas/ME_951_1s2019/Lista5.pdf): Variáveis Aleatórias Contínuas e IC para proporção.
-
-- [Lista 6](Disciplinas/ME_951_1s2019/Lista6.pdf): Intervalo de confiança.
-
-- [Lista 7](Disciplinas/ME_951_1s2019/Lista7.pdf): Teste de Hipóteses.
-
-- [Formulário](Disciplinas/ME_951_1s2019/Formulario.pdf): Uma cópia será fornecida durante a prova.
-
-----
-
-### **Notas**
-
-- [Notas](Disciplinas/ME_951_1s2019/notas.html)
-
-----
+- [Parte 2](Disciplinas/ME951_1S2024/parte02.html): Estatística Descritiva. 
