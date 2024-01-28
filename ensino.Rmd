@@ -21,7 +21,7 @@ h3a { /* Header 3*/
   border: 1px solid #ccc;
   background-color: #f1f1f1;
   width: 15%;
-  height: 349px;
+  height: 398px;
 }
 
 /* Style the buttons inside the tab */
@@ -58,7 +58,7 @@ h3a { /* Header 3*/
   border: 1px solid #ccc;
   width: 85%;
   border-left: none;
-  height: 349px;
+  height: 398px;
   font-size: 12px;
   font-family: 'Open Sans';
   font-style: normal;
@@ -70,13 +70,13 @@ h3a { /* Header 3*/
 ### Pós-Graduação
 <p class="ptitle"> \ </p>
 
-- MI419 - Introdução a Modelos Lineares Generalizados (2S2023)
+- [MI419](Disciplinas/2S2023_ME720.pdf) - Introdução a Modelos Lineares Generalizados (2S2023)
 </br>
 
-- MI908 - Seminário de Estatística I (1S2021)
+- [MI908](Disciplinas/1S2021_MI908.pdf) - Seminário de Estatística I (1S2021)
 </br>
 
-- MI416 - Introdução aos Modelos Lineares (2S2017)
+- [MI416](Disciplinas/2S2017_MI416.pdf) - Introdução aos Modelos Lineares (2S2017)
 </br>
 
 ----
@@ -85,7 +85,8 @@ h3a { /* Header 3*/
 <p class="ptitle"> \ </p>
 
 <div class="tab">
-  <button class="tablinks" onclick="openE(event, '2023')" id="defaultOpen">2023</button>
+  <button class="tablinks" onclick="openE(event, '2024')" id="defaultOpen">2024</button>
+  <button class="tablinks" onclick="openE(event, '2023')" >2023</button>
   <button class="tablinks" onclick="openE(event, '2022')" >2022</button>
   <button class="tablinks" onclick="openE(event, '2021')" >2021</button>
   <button class="tablinks" onclick="openE(event, '2020')" >2020</button>
@@ -94,22 +95,37 @@ h3a { /* Header 3*/
   <button class="tablinks" onclick="openE(event, '2017')" >2017</button>
 </div>
 
-<div id="2023" class="tabcontent">
+<div id="2024" class="tabcontent">
 </br>
 
-<h3a>Primeiro Semestre de 2023</h3a>
+<h3a>Primeiro Semestre de 2024</h3a>
 <p> 
 
-- ME115 A - Linguagem R
+- ME111 A e B - Laboratório de Estatística
 </br>
 
 - ME951 A - Estatística e Probabilidade I
 
 </br>
 
+</div>
+
+<div id="2023" class="tabcontent">
+</br>
+
+<h3a>Primeiro Semestre de 2023</h3a>
+<p> 
+
+- [ME115 A](Disciplinas/1S2023_ME115.pdf) - Linguagem R
+</br>
+
+- [ME951 A](Disciplinas/1S2023_ME951.pdf) - Estatística e Probabilidade I
+
+</br>
+
 <h3a>Segundo Semestre de 2023</h3a>
 
-- ME720 A -  Modelos Lineares Generalizados
+- [ME720 A](Disciplinas/2S2023_ME720.pdf) -  Modelos Lineares Generalizados
 </br>
 
 </div>
@@ -120,22 +136,22 @@ h3a { /* Header 3*/
 <h3a>Primeiro Semestre de 2022</h3a>
 <p> 
 
-- ME173 B - Estatística Descritiva
+- [ME173 B](Disciplinas/1S2022_ME173.pdf) - Estatística Descritiva
 </br>
 
-- ME712 A -  Consultoria Estatística I
+- [ME712 A](Disciplinas/1S2022_ME712_812.pdf) -  Consultoria Estatística I
 </br>
 
-- ME812 A -  Consultoria Estatística II
+- [ME812 A](Disciplinas/1S2022_ME712_812.pdf) -  Consultoria Estatística II
 
 </br>
 
 <h3a>Segundo Semestre de 2022</h3a>
 
-- ME712 A -  Consultoria Estatística I
+- [ME712 A](Disciplinas/2S2022_ME712_812.pdf) -  Consultoria Estatística I
 </br>
 
-- ME812 A -  Consultoria Estatística II
+- [ME812 A](Disciplinas/2S2022_ME712_812.pdf) -  Consultoria Estatística II
 
 </div>
 
@@ -145,22 +161,22 @@ h3a { /* Header 3*/
 <h3a>Primeiro Semestre de 2021</h3a>
 <p>
 
-- ME951 A - Estatística e Probabilidade I
+- [ME951 A](Disciplinas/1S2021_ME951.pdf) - Estatística e Probabilidade I
 </br>
 
-- ME712 A -  Consultoria Estatística I
+- [ME712 A](Disciplinas/1S2021_ME712_812.pdf) -  Consultoria Estatística I
 </br>
 
-- ME812 A -  Consultoria Estatística II
+- [ME812 A](Disciplinas/1S2021_ME712_812.pdf) -  Consultoria Estatística II
 
 </br>
 
 <h3a>Segundo Semestre de 2021</h3a>
 
-- ME712 A -  Consultoria Estatística I
+- [ME712 A](Disciplinas/2S2021_ME712_812.pdf) -  Consultoria Estatística I
 </br>
 
-- ME812 A -  Consultoria Estatística II
+- [ME812 A](Disciplinas/2S2021_ME712_812.pdf) -  Consultoria Estatística II
 
 </div>
 
@@ -170,25 +186,25 @@ h3a { /* Header 3*/
 <h3a>Primeiro Semestre de 2020</h3a>
 <p>
 
-- [ME951 A](me951_1s2020.html) - Estatística e Probabilidade I
+- [ME951 A](Disciplinas/1S2020_ME951.pdf) - Estatística e Probabilidade I
 </br>
 
-- ME712 A -  Consultoria Estatística I
+- [ME712 A](Disciplinas/1S2020_ME712_812.pdf) -  Consultoria Estatística I
 </br>
 
-- ME812 A -  Consultoria Estatística II
+- [ME812 A](Disciplinas/1S2020_ME712_812.pdf) -  Consultoria Estatística II
 
 </br>
 
 <h3a>Segundo Semestre de 2020</h3a>
 
-- [ME414 C](http://me414-unicamp.github.io) - Estatística para Experimentalistas 
+- [ME414 C](Disciplinas/2S2020_ME414.pdf)  - Estatística para Experimentalistas 
 </br>
 
-- ME712 A -  Consultoria Estatística I
+- [ME712 A](Disciplinas/2S2020_ME712_812.pdf) -  Consultoria Estatística I
 </br>
 
-- ME812 A -  Consultoria Estatística II
+- [ME812 A](Disciplinas/2S2020_ME712_812.pdf) -  Consultoria Estatística II
 
 </div>
 
@@ -198,16 +214,16 @@ h3a { /* Header 3*/
 <h3a>Primeiro Semestre de 2019</h3a>
 <p>
 
-- [ME951 A](me951_1s2019.html) - Estatística e Probabilidade I
+- [ME951 A](Disciplinas/1S2019_ME951.pdf) - Estatística e Probabilidade I
 
 </br>
 
 <h3a>Segundo Semestre de 2019</h3a>
 
-- [ME414 H](me414_2s2019.html) - Estatística para Experimentalistas
+- [ME414 H](Disciplinas/2S2019_ME414.pdf) - Estatística para Experimentalistas
 </br>
 
-- ME720 A -  Modelos Lineares Generalizados
+- [ME720 A](Disciplinas/2S2019_ME720.pdf) -  Modelos Lineares Generalizados
 
 </div>
 
@@ -218,34 +234,34 @@ h3a { /* Header 3*/
 <h3a>Primeiro Semestre de 2018</h3a>
 <p>
 
-- [ME111 A e B](me111_1s2018.html) - Laboratório de Estatística
+- [ME111 A e B](Disciplinas/1S2018_ME111.pdf) - Laboratório de Estatística
 </br>
 
-- [ME639 A](me639_1s2018.html) -  Metodologias e Técnicas de Pesquisa
+- [ME639 A](Disciplinas/1S2018_ME639.pdf) -  Metodologias e Técnicas de Pesquisa
 </br>
 
-- [ME710 A](Disciplinas/EmentaME710_1s2018.pdf) e [ME810 A](Disciplinas/EmentaME810_1s2018.pdf) - Assessoria Estatística e Estágio Supervisionado
+- [ME710 A](Disciplinas/1S2018_ME710.pdf) e [ME810 A](Disciplinas/1S2018_ME810.pdf) - Assessoria Estatística e Estágio Supervisionado
 </br>
 
-- [ME712 A](Disciplinas/EmentaME712_1s2018.pdf) -  Consultoria Estatística I
+- [ME712 A](Disciplinas/1S2018_ME712.pdf) -  Consultoria Estatística I
 </br>
 
-- [ME850 A](Disciplinas/EmentaME850_1s2018.pdf) - Seminários de Estatística
+- [ME850 A](Disciplinas/1S2018_ME850.pdf) - Seminários de Estatística
 
 </br>
 
 <h3a>Segundo Semestre de 2018</h3a>
 
-- [ME414 A](me414_2s2018.html) - Estatística para Experimentalistas
+- [ME414 A](Disciplinas/2S2018_ME414.pdf) - Estatística para Experimentalistas
 </br>
 
-- [ME710 A](Disciplinas/EmentaME710_2S2018.pdf) e [ME810 A](Disciplinas/EmentaME810_2S2018.pdf) - Assessoria Estatística e Estágio Supervisionado
+- [ME710 A](Disciplinas/2S2018_ME710.pdf) e [ME810 A](Disciplinas/2S2018_ME810.pdf) - Assessoria Estatística e Estágio Supervisionado
 </br>
 
-- [ME712 A ](Disciplinas/EmentaME712e812_2S2018.pdf) e [ME812 A](Disciplinas/EmentaME712e812_2S2018.pdf) -  Consultoria Estatística I e II
+- [ME712 A ](Disciplinas/2S2018_ME712_812.pdf) e [ME812 A](Disciplinas/2S2018_ME712_812.pdf) -  Consultoria Estatística I e II
 </br>
 
-- [ME850 A](Disciplinas/EmentaME850_2S2018.pdf) - Seminários de Estatística
+- [ME850 A](Disciplinas/2S2018_ME850.pdf) - Seminários de Estatística
 
 </div>
 
@@ -254,7 +270,7 @@ h3a { /* Header 3*/
 <h3a>Segundo Semestre de 2017</h3a>
 <p>
 
-- ME414 H - Estatística para Experimentalistas
+- [ME414 H](Disciplinas/2S2017_ME414.pdf) - Estatística para Experimentalistas
 
 
 </div>
