@@ -20,7 +20,7 @@ output:
 
 A leitura da ementa em sua integralidade é fortemente recomendada, não cabendo aos alunos desculpas por ignorânciaquanto ao seu conteúdo:
 
-- [Ementa.pdf](Disciplinas/1S2024_ME951/Ementa.pdf).
+- [Ementa.pdf](Disciplinas/ME951_1S2024/Ementa.pdf).
 
 **Programa**
 

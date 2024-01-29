@@ -104,7 +104,7 @@ h3a { /* Header 3*/
 - ME111 A e B - Laboratório de Estatística
 </br>
 
-- ME951 A - Estatística e Probabilidade I
+- [ME951 A](me951_1S2024.html) - Estatística e Probabilidade I
 
 </br>
 
