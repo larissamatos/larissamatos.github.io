@@ -140,7 +140,7 @@ STATISTICS AND COMPUTING, v. 33, p. 32, 2023.
 <li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**;  LACHOS, VICTOR H. *An EM algorithm for estimating the parameters of the multivariate skew-normal distribution with censored responses.* Metron, v. 80, p. 231-253, 2022.[<i class="fas fa-link"></i>](https://doi.org/10.1007/s40300-021-00227-4)  \medskip </li>
 <p class="big"> </p>
 
-<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; DEY, DIPAK K.; LACHOS, VICTOR H. *On Moments of Folded and Truncated Multivariate Extended Skew-Normal Distributions.* Journal of Computational and Graphical Statistics, v. 31, p. 455-465, 2022. [<i class="fas fa-link"></i>](https://www.tandfonline.com/doi/abs/10.1080/10618600.2021.2000869) \medskip </li>
+<li> GALARZA, CHRISTIAN E.;  **MATOS, LARISSA A.**; DEY, DIPAK K.; LACHOS, VICTOR H. *On Moments of Folded and Doubly Truncated Multivariate Extended Skew-Normal Distributions.* Journal of Computational and Graphical Statistics, v. 31, p. 455-465, 2022. [<i class="fas fa-link"></i>](https://www.tandfonline.com/doi/abs/10.1080/10618600.2021.2000869) \medskip </li>
 <p class="big"> </p>
 
 <li> LEMUS, MARCELA N.; LACHOS, VICTOR H.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.** *Estimation and Diagnostics for Partially Censored Regression Models Based on Heavy-Tailed Distributions.* Statistics and its Interface, v. 14, p. 165-182, 2021. [<i class="fas fa-link"></i>](https://www.intlpress.com/site/pub/pages/journals/items/sii/content/vols/0014/0002/a007/) \medskip </li>
