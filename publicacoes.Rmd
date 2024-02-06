@@ -72,6 +72,12 @@ p.big {
 <p class="ptitle"> \ </p>
 <ol reversed>
 
+<li> SCHUMACHER, F. L.; **MATOS, L.A.**; LACHOS, VICTOR H.; ABANTO-VALLE, C.; CASTRO, LUIS M. *A Censored Time Series Analysis for Responses on the Unit Interval: An Application to Acid Rain Modeling*. Sankhya A, 2024+ (Aceito).</li>
+<p class="big"> </p>
+
+<li> VALERIANO, K. A. L.; SCHUMACHER, F. L.; MORALES, C. E. G.; **MATOS, L.A.** *Censored autoregressive regression models with Student-t innovations*. CANADIAN JOURNAL OF STATISTICS, 2023+ (Aceito). arXiv:2110.00224 [<i class="fas fa-link"></i>](https://arxiv.org/abs/2110.00224) \medskip </li>
+<p class="big"> </p>
+
 <li> VALERIANO, KATHERINE A. L.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. *Likelihood-based inference for the multivariate skew-t regression with censored or missing responses.* JOURNAL OF MULTIVARIATE ANALYSIS, v. 196, p. 105174, 2023. [<i class="fas fa-link"></i>](https://www.sciencedirect.com/science/article/pii/S0047259X23000209?dgcid=coauthor) \medskip </li>
 <p class="big"> </p>
 
@@ -181,9 +187,6 @@ STATISTICS AND COMPUTING, v. 33, p. 32, 2023.
 <p class="ptitle"> \ </p>
 
 <ol reversed>
-
-<li> VALERIANO, KATHERINE A. L.; SCHUMACHER, FERNANDA L.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.** (2021). *Censored autoregressive regression models with Student-t innovations.* arXiv:2110.00224 [<i class="fas fa-link"></i>](https://arxiv.org/abs/2110.00224) \medskip </li>
-<p class="big"> </p>
 
 <li> SCHUMACHER, FERNANDA L.; **MATOS, LARISSA A.**; CABRAL, CELSO R. B. (2021). *Canonical fundamental skew-t linear mixed models.* arXiv:2109.12152  [<i class="fas fa-link"></i>](https://arxiv.org/abs/2109.12152) \medskip </li>
 <p class="big"> </p>
