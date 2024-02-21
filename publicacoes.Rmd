@@ -72,10 +72,10 @@ p.big {
 <p class="ptitle"> \ </p>
 <ol reversed>
 
-<li> SCHUMACHER, F. L.; **MATOS, L.A.**; LACHOS, VICTOR H.; ABANTO-VALLE, C.; CASTRO, LUIS M. *A Censored Time Series Analysis for Responses on the Unit Interval: An Application to Acid Rain Modeling*. Sankhya A, 2024+ (Aceito).</li>
+<li> SCHUMACHER, FERNANDA L.; **MATOS, LARISSA A.**; LACHOS, VICTOR H.; ABANTO-VALLE, CARLOS A.; CASTRO, LUIS M. *A Censored Time Series Analysis for Responses on the Unit Interval: An Application to Acid Rain Modeling*. Sankhya-Series A-Mathematical Statistics And Probability, v. -, p. 1, 2024. [<i class="fas fa-link"></i>](https://link.springer.com/article/10.1007/s13171-024-00341-1) \medskip </li>
 <p class="big"> </p>
 
-<li> VALERIANO, K. A. L.; SCHUMACHER, F. L.; MORALES, C. E. G.; **MATOS, L.A.** *Censored autoregressive regression models with Student-t innovations*. CANADIAN JOURNAL OF STATISTICS, 2023+ (Aceito). arXiv:2110.00224 [<i class="fas fa-link"></i>](https://arxiv.org/abs/2110.00224) \medskip </li>
+<li> VALERIANO, KATHERINE A. L.; SCHUMACHER, FERNANDA L.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.** *Censored autoregressive regression models with Student-t innovations*. CANADIAN JOURNAL OF STATISTICS-REVUE CANADIENNE DE STATISTIQUE, v. -, p. 1, 2024. [<i class="fas fa-link"></i>](https://onlinelibrary.wiley.com/doi/10.1002/cjs.11804) \medskip </li>
 <p class="big"> </p>
 
 <li> VALERIANO, KATHERINE A. L.; GALARZA, CHRISTIAN E.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. *Likelihood-based inference for the multivariate skew-t regression with censored or missing responses.* JOURNAL OF MULTIVARIATE ANALYSIS, v. 196, p. 105174, 2023. [<i class="fas fa-link"></i>](https://www.sciencedirect.com/science/article/pii/S0047259X23000209?dgcid=coauthor) \medskip </li>
