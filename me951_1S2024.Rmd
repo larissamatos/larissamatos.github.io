@@ -73,3 +73,7 @@ Os alunos que obtiverem nota final inferior a 6,0 deverão realizar um exame fin
 - [Parte 1](Disciplinas/ME951_1S2024/parte01.html): Estatística Descritiva.
 
 - [Parte 2](Disciplinas/ME951_1S2024/parte02.html): Estatística Descritiva. 
+
+- [Parte 3](Disciplinas/ME951_1S2024/parte03.html): Estatística Descritiva. 
+
+- [Parte 4](Disciplinas/ME951_1S2024/parte04.html): Estatística Descritiva. 
