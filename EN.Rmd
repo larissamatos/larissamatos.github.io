@@ -388,7 +388,8 @@ STATISTICS AND COMPUTING, v. 33, p. 32, 2023.
 
 - Letícia Bettine Infante - Co-adivisor  - ongoing
 
-- Vitor Macedo Rocha - ongoing
+- Vitor Macedo Rocha (2024)
+    <p class="cc"> `Dissertation: Influence diagnostics in parametric mixed-effects models for longitudinal data using skew-normal distribution.`</p> 
 
 - Keyliane Travassos Almeida da Silva (2023)
     <p class="cc"> `Dissertation: Diagnostic analysis in scale mixture of skew-normal linear mixed models.`</p> 

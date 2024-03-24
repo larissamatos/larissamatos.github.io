@@ -37,7 +37,8 @@ output:
 
 - Letícia Bettine Infante - Mestrado em andamento - Co-orientadora.
 
-- Vitor Macedo Rocha - Mestrado em andamento.
+- Vitor Macedo Rocha. Ano de conclusão: 2024.
+    <p class="cc"> `Dissertação: Influence diagnostics in parametric mixed-effects models for longitudinal data using skew-normal distribution.`</p> 
 
 - Keyliane Travassos Almeida da Silva (Fomento: CAPES). Ano de conclusão: 2023. 
     <p class="cc"> `Dissertação: Análise de diagnóstico em modelos lineares mistos na mistura de escala skew-normal.`</p> 
