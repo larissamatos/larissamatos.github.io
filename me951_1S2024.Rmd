@@ -81,3 +81,15 @@ Os alunos que obtiverem nota final inferior a 6,0 deverão realizar um exame fin
 - [Parte 5](Disciplinas/ME951_1S2024/parte05.pdf): Probabilidade. 
 
 - [Parte 6](Disciplinas/ME951_1S2024/parte06.pdf): Probabilidade. 
+
+- [Parte 7](Disciplinas/ME951_1S2024/parte07.pdf): Probabilidade. 
+
+- [Parte 8](Disciplinas/ME951_1S2024/parte08.pdf): Probabilidade. 
+
+- [Parte 9](Disciplinas/ME951_1S2024/parte09.pdf): Probabilidade: Variável Aleatória Discreta.
+
+- [Parte 10](Disciplinas/ME951_1S2024/parte10.pdf): Probabilidade: Variável Aleatória Discreta. 
+
+- [Parte 11](Disciplinas/ME951_1S2024/parte11.pdf): Probabilidade: Variável Aleatória Discreta.
+
+- [Parte 12](Disciplinas/ME951_1S2024/parte12.pdf): Probabilidade: Variável Aleatória Contínua 
