@@ -386,8 +386,9 @@ STATISTICS AND COMPUTING, v. 33, p. 32, 2023.
 <h3> Master Students </h3> 
 <p class="ptitle"> \ </p>
 
-- Letícia Bettine Infante - Co-adivisor  - ongoing
-
+- Letícia Bettine Infante - Co-adivisor (2024) 
+    <p class="cc"> `Dissertation: An extension of the Inverse Gaussian regression model.`</p> 
+    
 - Vitor Macedo Rocha (2024)
     <p class="cc"> `Dissertation: Influence diagnostics in parametric mixed-effects models for longitudinal data using skew-normal distribution.`</p> 
 

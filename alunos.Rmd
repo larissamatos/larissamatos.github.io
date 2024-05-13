@@ -35,7 +35,8 @@ output:
 ### Mestrado
 <p class="ptitle"> \ </p>
 
-- Letícia Bettine Infante - Mestrado em andamento - Co-orientadora.
+- Letícia Bettine Infante. Ano de conclusão: 2024 - Co-orientadora.
+    <p class="cc"> `Dissertação: An extension of the Inverse Gaussian regression model.`</p> 
 
 - Vitor Macedo Rocha. Ano de conclusão: 2024.
     <p class="cc"> `Dissertação: Influence diagnostics in parametric mixed-effects models for longitudinal data using skew-normal distribution.`</p> 
