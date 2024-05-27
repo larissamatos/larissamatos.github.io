@@ -94,7 +94,14 @@ Os alunos que obtiverem nota final inferior a 6,0 deverão realizar um exame fin
 
 - [Parte 12](Disciplinas/ME951_1S2024/parte12.pdf): Probabilidade: Variável Aleatória Contínua. 
 
-- [Parte 13](Disciplinas/ME951_1S2024/parte13.pdf): Probabilidade: Variável Aleatória Contínua. ([Tabela Normal](Disciplinas/ME951_1S2024/Tabelas.pdf))
+- [Parte 13](Disciplinas/ME951_1S2024/parte13.pdf): Probabilidade: Variável Aleatória Contínua ([Tabela Normal](Disciplinas/ME951_1S2024/Tabelas.pdf)).
 
 - [Parte 14](Disciplinas/ME951_1S2024/parte14.pdf): Distribuição Amostral.
 
+- [Parte 15](Disciplinas/ME951_1S2024/parte15.pdf): Inferência: uma população - Intervalo de confiança para proporção.
+
+- [Parte 16](Disciplinas/ME951_1S2024/parte16.pdf): Inferência: uma população - Intervalo de confiança para média.
+
+- Parte 17: Inferência: uma população - Teste de Hipóteses.
+
+- Parte 18: Inferência: uma população - Teste de Hipóteses.
