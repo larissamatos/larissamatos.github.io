@@ -108,6 +108,11 @@ h3a { /* Header 3*/
 
 </br>
 
+<h3a>Segundo Semestre de 2024</h3a>
+
+- [ME414](Disciplinas/2S2024_ME414.pdf) - Estatística para Experimentalistas 
+</br>
+
 </div>
 
 <div id="2023" class="tabcontent">
@@ -198,7 +203,7 @@ h3a { /* Header 3*/
 
 <h3a>Segundo Semestre de 2020</h3a>
 
-- [ME414 C](Disciplinas/2S2020_ME414.pdf)  - Estatística para Experimentalistas 
+- [ME414 C](Disciplinas/2S2020_ME414.pdf) - Estatística para Experimentalistas 
 </br>
 
 - [ME712 A](Disciplinas/2S2020_ME712_812.pdf) -  Consultoria Estatística I

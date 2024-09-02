@@ -47,6 +47,15 @@ output:
 
 ----
 
+### Grupo de Pesquisa
+
+- **Laboratório de Modelos de Regressão** \ <a href="https://lab105imecc.github.io">
+  <img src="imagens/icon_website.png" alt="" width="23"/>
+</a>
+
+
+----
+
 ### Informações adicionais 
 <p class="ptitle"> \ </p>
 

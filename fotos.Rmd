@@ -149,13 +149,96 @@ clear: both;
 </div>
 </div>
 
+</br>
+
+<div class="row">
+<div class="column-f2c">
+<img id="myImg"  class="imageClass" src="imagens/fotos/DE6.jpg" alt="55 anos IMECC" style="width:90%;max-width:300px">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<figcaption> <p class="cc3"> 55 anos IMECC </p></figcaption>
+</div>
+<div class="column-f2c">
+<img id="myImg" class="imageClass" src="imagens/fotos/DE7.jpg" alt="2023 - VI ESAMP" style="width:65%;max-width:300px">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img0">
+  <div id="caption"></div>
+</div>
+<figcaption> <p class="cc3"> 2023 - VI ESAMP </p></figcaption>
+</div>
+<div class="column-f2c">
+<img id="myImg" class="imageClass" src="imagens/fotos/DE9.jpg" alt="2023 - Festa de Confraternização " style="width:90%;max-width:300px">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img0">
+  <div id="caption"></div>
+</div>
+<figcaption> <p class="cc3"> 2023 - Festa de Confraternização  </p></figcaption>
+</div>
+</div>
+
+</br>
+
+<div class="row">
+<div class="column-f2c">
+<img id="myImg"  class="imageClass" src="imagens/fotos/DE10.jpg" alt="=D" style="width:90%;max-width:300px">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<figcaption> <p class="cc3"> =D </p></figcaption>
+</div>
+<div class="column-f2c">
+<img id="myImg" class="imageClass" src="imagens/fotos/DE11.jpeg" alt="2024 - SINAPE" style="width:90%;max-width:300px">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img0">
+  <div id="caption"></div>
+</div>
+<figcaption> <p class="cc3"> 2024 - SINAPE </p></figcaption>
+</div>
+<div class="column-f2c">
+<img id="myImg" class="imageClass" src="imagens/fotos/DE12.jpg" alt="UPA 2024" style="width:50%;max-width:300px">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img0">
+  <div id="caption"></div>
+</div>
+<figcaption> <p class="cc3"> UPA 2024 </p></figcaption>
+</div>
+</div>
+
 ----
 
 #### Congressos
 <p class="ptitle"> \ </p>
 
 <div class="row">
-
+<div class="column-f2c">
+<img id="myImg"  class="imageClass" src="imagens/fotos/C24_F2.jpg" alt="2024 - 25º SINAPE - Fortaleza/CE"
+style="width:93%;max-width:300px">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<figcaption> <p class="cc3"> 2024 - 25º SINAPE - Fortaleza/CE </p></figcaption>
+</div>
+<div class="column-f2c">
+<img id="myImg"  class="imageClass" src="imagens/fotos/C24_F1.png" alt="2024 - I Encontro do Laboratório de Regressão - Campinas/SP"
+style="width:93%;max-width:300px">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<figcaption> <p class="cc3"> 2024 - I Encontro do Laboratório de Regressão - Campinas/SP </p></figcaption>
+</div>
 <div class="column-f2c">
 <img id="myImg"  class="imageClass" src="imagens/fotos/C22_F6.jpg" alt="2022 - IV CBJME - João Pessoa/PB"
 style="width:93%;max-width:300px">
@@ -166,8 +249,8 @@ style="width:93%;max-width:300px">
 </div>
 <figcaption> <p class="cc3"> 2022 - IV CBJME - João Pessoa/PB </p></figcaption>
 </div>
-
 </div>
+
 </br>
 
 <div class="row">
@@ -417,6 +500,66 @@ style="width:93%;max-width:300px">
   <div id="caption"></div>
 </div>
 <figcaption> <p class="cc3"> Defesa Doutorado </p></figcaption>
+</div>
+</div>
+
+</br>
+
+----
+
+<div class="row">
+<div class="column-f2c">
+<img id="myImg"  class="imageClass" src="imagens/fotos/E9.jpeg" style="width:70%;max-width:300px">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+</div>
+<div class="column-f2c">
+<img id="myImg"  class="imageClass" src="imagens/fotos/E7.jpg" style="width:75%;max-width:300px">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+</div>
+<div class="column-f2c">
+<img id="myImg"  class="imageClass" src="imagens/fotos/DE3.jpg"  style="width:75%;max-width:300px">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+</div>
+</div>
+
+</br>
+
+<div class="row">
+<div class="column-f2c">
+<img id="myImg"  class="imageClass" src="imagens/fotos/E8.jpg" style="width:90%;max-width:300px">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+</div>
+<div class="column-f2c">
+<img id="myImg"  class="imageClass" src="imagens/fotos/E11.jpg" style="width:80%;max-width:300px">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+</div>
+<div class="column-f2c">
+<img id="myImg"  class="imageClass" src="imagens/fotos/E10.jpg"  style="width:80%;max-width:300px">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
 </div>
 </div>
 

@@ -363,14 +363,17 @@ STATISTICS AND COMPUTING, v. 33, p. 32, 2023.
 <h3>  Ph.D Students </h3> 
 <p class="ptitle"> \ </p>
 
-- Carina Brunehilde Pinto da Silva - ongoing
+- Keyliane Travassos Almeida da Silva - ongoing
 
-- Katherine Andreina Loor Valeriano - ongoing
+- Carina Brunehilde Pinto da Silva - ongoing
 
 - Francisco Hildemar Calixto de Alencar - ongoing
 
+- Katherine Andreina Loor Valeriano  (2024)
+    <p class="cc"> `Thesis: Likelihood-based inference for models with censored responses using the Student-t andcskew-t distribution.`</p>
+
 - Fernanda Lang Schumacher (2021)
-    <p class="cc"> `Tese: Robust linear mixed models for longitudinal data using skewed and heavy-tailed distributions.`</p>
+    <p class="cc"> `Thesis: Robust linear mixed models for longitudinal data using skewed and heavy-tailed distributions.`</p>
 
 - Jose Alejandro Ordoñez - Co-adivisor (2021)
    <p class="cc"> `Thesis: On Default Priors for Regression Analysis`.</p>
@@ -388,7 +391,6 @@ STATISTICS AND COMPUTING, v. 33, p. 32, 2023.
 
 - Letícia Bettine Infante - Co-adivisor (2024) 
     <p class="cc"> `Dissertation: An extension of the Inverse Gaussian regression model.`</p> 
-    
 - Vitor Macedo Rocha (2024)
     <p class="cc"> `Dissertation: Influence diagnostics in parametric mixed-effects models for longitudinal data using skew-normal distribution.`</p> 
 
@@ -409,6 +411,9 @@ STATISTICS AND COMPUTING, v. 33, p. 32, 2023.
 
 <h4> IC </h4> 
 
+- Sara dos Anjos de Souza Dias - ongoing
+    <p class="cc"> Project: Convergência do Algoritmo EM para Estimação em Modelos Lineares Mistos: Enfrentando o Desafio das Distribuições Assimétricas e com Caudas Pesada.</p> 
+    
 - Nathan Brusamarello De Souto (2020)
     <p class="cc"> Project: Inferência para dados espaço-temporais com respostas censuradas e faltantes: Uma aplicação em dados meteorológicos.</p> 
 
@@ -514,6 +519,16 @@ STATISTICS AND COMPUTING, v. 33, p. 32, 2023.
 </br>
 
 <h4> PAD/PED  </h4>
+
+- Brenda Luiza Correa - PAD (2S2024)
+
+- Viviane de Moura - PED (2S2024)
+
+- Caio Théodore Genovese Huss Oliveira - PAD (1S2023)
+
+- Carina Brunehilde Pinto da Silva - PED (1S2023)
+
+- Maria Magdalena Kcala Álvaro - PED (1S2022)
 
 - Fernanda Paula Rocha - PED (1S2020; 2S2020)
 

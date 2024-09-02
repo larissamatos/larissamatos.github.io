@@ -12,12 +12,15 @@ output:
 ### Doutorado
 <p class="ptitle"> \ </p>
 
-- Carina Brunehilde Pinto da Silva - Doutorado em andamento. 
+- Keyliane Travassos Almeida da Silva - Doutorado em andamento (Fomento: CAPES) 
 
-- Katherine Andreina Loor Valeriano - Doutorado em andamento (Fomento: CAPES) 
+- Carina Brunehilde Pinto da Silva - Doutorado em andamento. 
 
 - Francisco Hildemar Calixto de Alencar - Doutorado em andamento (Fomento: CAPES) 
 
+- Katherine Andreina Loor Valeriano (Fomento: CAPES). Ano de conclusão: 2024.
+    <p class="cc"> `Tese: Inferência para modelos com respostas censurados usando a distribuição Student-t e skew-t.`</p>
+    
 - Fernanda Lang Schumacher (Fomento: CAPES e CNPq). Ano de conclusão: 2021.
     <p class="cc"> `Tese: Robust linear mixed models for longitudinal data using skewed and heavy-tailed distributions.`</p>
 
@@ -54,6 +57,9 @@ output:
 
 ### Iniciação Científica
 <p class="ptitle"> \ </p>
+
+- Sara dos Anjos de Souza Dias (Fomento: CNPq) - IC em andamento. 
+    <p class="cc"> Projeto: Convergência do Algoritmo EM para Estimação em Modelos Lineares Mistos: Enfrentando o Desafio das Distribuições Assimétricas e com Caudas Pesada.</p> 
 
 - Nathan Brusamarello De Souto (Fomento: CNPq) - Concluído - Ano de conclusão: 2020.  
     <p class="cc"> Projeto: Inferência para dados espaço-temporais com respostas censuradas e faltantes: Uma aplicação em dados meteorológicos.</p> 
@@ -185,6 +191,16 @@ output:
 </br>
 
 #### Orientandos do Programa de Apoio Didático PAD / Orientandos do Programa de Estágio Docente PED 
+
+- Brenda Luiza Correa - PAD (2S2024)
+
+- Viviane de Moura - PED (2S2024)
+
+- Caio Théodore Genovese Huss Oliveira - PAD (1S2023)
+
+- Carina Brunehilde Pinto da Silva - PED (1S2023)
+
+- Maria Magdalena Kcala Álvaro - PED (1S2022)
 
 - Fernanda Paula Rocha - PED (1S2020; 2S2020)
 
