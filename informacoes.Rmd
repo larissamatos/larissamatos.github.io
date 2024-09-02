@@ -47,29 +47,33 @@ output:
 
 ----
 
-### Grupo de Pesquisa
-
-- **Laboratório de Modelos de Regressão** \ <a href="https://lab105imecc.github.io">
-  <img src="imagens/icon_website.png" alt="" width="23"/>
-</a>
-
-
-----
-
 ### Informações adicionais 
 <p class="ptitle"> \ </p>
 
-- Tesoureira da Associação Brasileira de Estatística - ABE (2020 - 2022)
+- **Grupo de Pesquisa:** Laboratório de Modelos de Regressão \ <a href="https://lab105imecc.github.io">
+  <img src="imagens/icon_website.png" alt="" width="23"/>
+</a>
 
-- Editora do Boletim da Associação Brasileira de Estatística - ABE (2018 - 2020)
+- **Atividades Extras:**
 
+  - Tesoureira da Associação Brasileira de Estatística - ABE (2020 - 2022)
+
+  - Editora do Boletim da Associação Brasileira de Estatística - ABE (2018 - 2020)
+
+- **CV Lattes:** \ <a href="http://lattes.cnpq.br/6330766834005870">
+  <img src="imagens/lattes.png" alt="" width="18"/>
+</a>
+
+- **MyCitations:** \ <a href="https://scholar.google.com.br/citations?hl=en&user=lSCYxF0AAAAJ">
+  <img src="imagens/gscholar1.png" alt="" width="19"/>
+</a>
 </br>
 
-<img id="myImg"  class="imageClass" src="imagens/lattes.png" alt=" " style="width:2%"> \ [CV Lattes](http://lattes.cnpq.br/6330766834005870)  
+<!-- <img id="myImg"  class="imageClass" src="imagens/lattes.png" alt=" " style="width:2%"> \ [CV Lattes](http://lattes.cnpq.br/6330766834005870)   -->
 
-<img id="myImg"  class="imageClass" src="imagens/gscholar1.png" alt=" " style="width:2%"> \ [ MyCitations ](https://scholar.google.com.br/citations?hl=en&user=lSCYxF0AAAAJ) 
+<!-- <img id="myImg"  class="imageClass" src="imagens/gscholar1.png" alt=" " style="width:2%"> \ [ MyCitations ](https://scholar.google.com.br/citations?hl=en&user=lSCYxF0AAAAJ)  -->
 
-</br>
+</br> 
 
 <p class="outset"></p>
 <div id="footer">
