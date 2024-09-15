@@ -3488,76 +3488,41 @@ P(X\geq 4) &amp;=  1 - P(X &lt; 4) \\
 
 </article></slide><slide class=""><hgroup><h2>Distribuição de Poisson</h2></hgroup><article  id="distribuição-de-poisson-1" class="build">
 
-<p>Outro caso em que a distribuição de Poisson é utilizada:</p>
+<p>Outro caso em que a distribuição de Poisson é utilizada.</p>
 
-<ul class = 'build'>
-<li>Considere a probabilidade de ocorrência de sucessos em um determinado intervalo.</li>
-</ul>
-
-<ul class = 'build'>
-<li>A probabilidade de ocorrência de um sucesso no intervalo é proporcional ao intervalo.</li>
-</ul>
-
-<ul class = 'build'>
-<li>A probabilidade de mais de um sucesso nesse intervalo é bastante pequena com relação à probabilidade de apenas um sucesso.</li>
-</ul>
-
-</article></slide><slide class=""><hgroup><h2>Distribuição de Poisson</h2></hgroup><article  id="distribuição-de-poisson-2" class="build">
-
-<ul class = 'build'>
-<li>Seja \(X\) o número de sucessos no intervalo, então:<br/>\[P(X=x)=\frac{e^{-\lambda}\lambda^x}{x!} \,,\quad x=0,1,2,\ldots\]<br/>onde \(\lambda\) é a esperança.</li>
-</ul>
-
-<ul class = 'build'>
-<li>Notação: \(X\sim\mbox{Poisson}(\lambda)\).</li>
-</ul>
-
-</article></slide><slide class=""><hgroup><h2>Distribuição de Poisson</h2></hgroup><article  id="distribuição-de-poisson-3" class="build">
-
-<p>A distribuição de Poisson é muito usada na distribuição do número de:</p>
+<p>A distribuiçãoo de Poisson descreve resultados de experimentos nos quais contamos número de eventos que ocorrem em um intervalo fixo de tempo ou espaço, se esses eventos ocorrerem com uma taxa média constante conhecida. Por exemplo:</p>
 
 <ul>
-<li>carros que passam por um cruzamento por minuto, durante uma certa hora do dia;</li>
+<li><p>carros que passam por um cruzamento por minuto, durante uma certa hora do dia;</p></li>
+<li><p>erros tipográficos por página, em um livro;</p></li>
+<li><p>defeitos por unidade (\(m^3\), \(m^2\), \(m\), etc…) por peça fabricada;</p></li>
+<li><p>colônias de bactérias numa dada cultura por \(0.01 mm^2\), numa plaqueta de microscópio;</p></li>
+<li><p>mortes por ataque de coração por ano, em um certo bairro;</p></li>
+<li><p>etc…</p></li>
 </ul>
 
-<ul class = 'build'>
-<li>erros tipográficos por página, em um livro;</li>
-</ul>
+</article></slide><slide class=""><hgroup><h2>Distribuição de Poisson</h2></hgroup><article  id="distribuição-de-poisson-2" class="buid">
 
-<ul class = 'build'>
-<li>defeitos por unidade (\(m^3\), \(m^2\), \(m\), etc…) por peça fabricada;</li>
-</ul>
-
-<ul class = 'build'>
-<li>colônias de bactérias numa dada cultura por \(0.01 mm^2\), numa plaqueta de microscópio;</li>
-</ul>
-
-<ul class = 'build'>
-<li>mortes por ataque de coração por ano, em um certo bairro</li>
-</ul>
+<p>Uma variável aleatória \(X\) tem distribuição de Poisson com parâmetro \(\lambda&gt;0\), se sua função de probabilidade é dada por: \[P(X=x)=\frac{e^{-\lambda}\lambda^{x}}{x!}, \qquad x=0,1,2,...\]</p>
 
 <ul>
-<li>etc…</li>
+<li><p>\(\lambda\) é chamado de taxa de ocorrência</p></li>
+<li><p>\(\mathbb E(X)=Var(X)=\lambda\)</p></li>
+<li><p>Notação: \(X\sim P(\lambda)\)</p></li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Distribuição de Poisson</h2></hgroup><article  id="distribuição-de-poisson-4" class="buid">
+<p><strong>Obs.:</strong> \(e\), número de Euler, é base do logaritmo natural (\(e = 2.71828...\)).</p>
 
-<p>Para uma v.a. quantificando eventos raros, sob algumas suposições, podemos usar a distribuição de Poisson.</p>
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section">
 
-<ul class = 'build'>
-<li>Uma variável aleatória \(X\) tem distribuição de Poisson com parâmetro \(\lambda&gt;0\), se sua função de probabilidade é dada por: \[P(X=x)=\frac{e^{-\lambda}\lambda^{x}}{x!}, \qquad x=0,1,2,...\]</li>
-</ul>
+<p>A distribuição de Poisson é adequada quando as seguintes condições são atendidas:</p>
 
-<ul class = 'build'>
-<li>\(\lambda\) é chamado de taxa de ocorrência</li>
-</ul>
-
-<ul class = 'build'>
-<li>\(\mathbb E(X)=Var(X)=\lambda\)</li>
-</ul>
-
-<ul class = 'build'>
-<li>Notação: \(X\sim P(\lambda)\)</li>
+<ul>
+<li><p>\(x\) representa o número de vezes que um evento ocorre em um intervalo de tempo específico, podendo assumir os valores \(0, 1, 2, ...\).</p></li>
+<li><p>A ocorrência de um evento não influencia a probabilidade de ocorrência de um segundo evento, ou seja, os eventos são independentes.</p></li>
+<li><p>A taxa média de ocorrência dos eventos é constante e independente de ocorrências passadas.</p></li>
+<li><p>Dois eventos não podem acontecer exatamente ao mesmo tempo; em qualquer subintervalo suficientemente pequeno, ocorre no máximo um evento.</p></li>
+<li><p>A probabilidade de um evento ocorrer em uma parte do período total é proporcional ao comprimento desse subintervalo.</p></li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>Exemplo: Erros em um livro</h2></hgroup><article  id="exemplo-erros-em-um-livro" class="build">
@@ -3649,53 +3614,6 @@ P(X= 0)=\frac{e^{-5}5^0}{0!}=0.0067
 </ul>
 
 <p>\[P(X=0)=\frac{e^{-5t}(5t)^0}{0!}=e^{-5t}\]</p>
-
-</article></slide><slide class=""><hgroup><h2>Exemplo: Lâmpadas</h2></hgroup><article  id="exemplo-lâmpadas" class="build">
-
-<p>A experiência mostra que de cada 400 lâmpadas, 2 se queimam ao serem ligadas. Qual a probabilidade de que numa instalação de:</p>
-
-<ul>
-<li>600 lâmpadas, no mínimo 3 se queimem?<br/></li>
-<li>900 lâmpadas, exatamente 8 se queimem?</li>
-</ul>
-
-</article></slide><slide class=""><hgroup><h2>Exemplo: Lâmpadas</h2></hgroup><article  id="exemplo-lâmpadas-1" class="build">
-
-<p>\(X=\) número de lâmpadas que se queimam numa instalação de 600 lâmpadas.</p>
-
-<blockquote>
-<p>De 400, 2 se queimam, ou seja, de 200, 1 se queima.</p>
-</blockquote>
-
-<blockquote>
-<p>Taxa de ocorrência para 600 lâmpadas: \(\lambda= 600/200=3\)</p>
-</blockquote>
-
-<blockquote>
-<p>600 lâmpadas, no mínimo 3 se queimem: \[
-\begin{aligned}
-P(X\geq 3)&amp;= \sum_{x=3}^{\infty}\frac{e^{-3}3^x}{x!}=  1-P(X&lt;3)= \\
-&amp;= 1-[P(X=0)+P(X=1)+P(X=2)]\\ 
-&amp;= 1-\left[ \frac{e^{-3}3^0}{0!}+ \frac{e^{-3}3^1}{1!}+ \frac{e^{-3}3^2}{2!}\right]= 0.5768
-\end{aligned}
-\]</p>
-</blockquote>
-
-</article></slide><slide class=""><hgroup><h2>Exemplo: Lâmpadas</h2></hgroup><article  id="exemplo-lâmpadas-2" class="build">
-
-<p>\(X=\) número de lâmpadas que se queimam numa instalação de 900 lâmpadas.</p>
-
-<blockquote>
-<p>Taxa de ocorrência para 900 lâmpadas: \(\lambda= 900/200=4.5\)</p>
-</blockquote>
-
-<blockquote>
-<p>900 lâmpadas, 8 se queimem:</p>
-</blockquote>
-
-<blockquote>
-<p>\[P(X=8)= \frac{e^{-4.5}(4.5)^8}{8!}=0.0463\]</p>
-</blockquote>
 
 </article></slide><slide class=""><hgroup><h2>Exemplo: Twitter</h2></hgroup><article  id="exemplo-twitter" class="build">
 
