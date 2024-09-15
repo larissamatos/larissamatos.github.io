@@ -105,3 +105,6 @@ Os alunos que obtiverem nota final inferior a 6,0 deverão realizar um exame fin
 - [Parte 17](Disciplinas/ME951_1S2024/parte17.pdf): Inferência: uma população - Teste de Hipóteses.
 
 - [Parte 18](Disciplinas/ME951_1S2024/parte18.pdf): Inferência: uma população - Teste de Hipóteses.
+
+- [Parte 10 e 11](Disciplinas/ME951_1S2024/Parte10_11.html)
+
