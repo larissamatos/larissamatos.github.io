@@ -213,6 +213,57 @@ clear: both;
 </div>
 </div>
 
+
+----
+
+####  Prêmio para Mulheres na Ciência
+<p class="ptitle"> \ </p>
+
+<div class="row">
+<div class="column-f2c">
+<img id="myImg"  class="imageClass" src="imagens/fotos/Premio4.jpg" alt="" style="width:92%;max-width:300px">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<figcaption> <p class="cc3">  </p></figcaption>
+</div>
+<div class="column-f2c">
+<img id="myImg" class="imageClass" src="imagens/fotos/Premio2.jpg" alt="" style="width:96%;max-width:300px">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img0">
+  <div id="caption"></div>
+</div>
+<figcaption> <p class="cc3">  </p></figcaption>
+</div>
+<div class="column-f2c">
+<img id="myImg" class="imageClass" src="imagens/fotos/Premio5.jpg" alt="" style="width:92%;max-width:300px">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img0">
+  <div id="caption"></div>
+</div>
+<figcaption> <p class="cc3">  </p></figcaption>
+</div>
+</div>
+
+</br>
+
+<div class="row">
+<div class="column-f2c">
+<img id="myImg"  class="imageClass" src="imagens/fotos/Premio1.jpg" alt="" style="width:92%;max-width:300px">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<figcaption> <p class="cc3">  </p></figcaption>
+</div>
+</div>
+
+
 ----
 
 #### Congressos
