@@ -13,7 +13,7 @@
 
 <title> Ensino</title>
 
-<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -334,54 +334,58 @@ Ensino</h1>
 * {box-sizing: border-box}
 body {font-family: Open Sans;}
 
-h3a { /* Header 4*/
+h3a { /* Header 3*/
     font-size: 16px;
     color: #4d4d4d;
 }
 
-/* Botão principal */
-.accordion {
-  background-color: #eee;
-  cursor: pointer;
-  padding: 14px;
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 15%;
+  height: 398px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: #999999;
+  color: white;
+  padding: 12.1px 8px;
   width: 100%;
   border: none;
-  text-align: left;
   outline: none;
+  text-align: center;
+  cursor: pointer;
   transition: 0.3s;
-  font-weight: bold;
-  font-family: 'Open Sans';
-  margin-bottom: 6px;         /* espaço entre botões */
-  position: relative;         /* para posicionar a seta */
-}
-
-/* Cor quando ativo/hover */
-.active, .accordion:hover {
-  background-color: DarkRed;
-  color: white;
-}
-
-/* Painel escondido/mostrado */
-.panel {
-  padding: 0 14px;
-  display: none;
-  background-color: white;
-  overflow: hidden;
-  border: 1px solid DarkRed;
-  margin-bottom: 10px;       /* espaço entre painel e próximo botão */
-}
-
-/* --- Setinhas --- */
-.accordion::after {
-  content: "\25B6";          /* seta para a direita */
   font-size: 14px;
-  position: absolute;
-  right: 14px;
-  transition: transform 0.2s;
+  font-family: 'Open Sans';
+  font-style: normal;
 }
 
-.accordion.active::after {
-  content: "\25BC";          /* seta para baixo */
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #777;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: DarkRed;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 85%;
+  border-left: none;
+  height: 398px;
+  font-size: 12px;
+  font-family: 'Open Sans';
+  font-style: normal;
 }
 </style>
 <hr />
@@ -405,196 +409,209 @@ Modelos Lineares (2S2017) </br></p></li>
 <p class="ptitle">
  
 </p>
-<button class="accordion active">
-2025
-</button>
-<div class="panel" style="display:block;">
-<p><h3a>Primeiro Semestre de 2025</h3a></p>
+<div class="tab">
+<p><button class="tablinks" onclick="openE(event, '2024')" id="defaultOpen">2025</button>
+<button class="tablinks" onclick="openE(event, '2024')" >2024</button>
+<button class="tablinks" onclick="openE(event, '2023')" >2023</button>
+<button class="tablinks" onclick="openE(event, '2022')" >2022</button>
+<button class="tablinks" onclick="openE(event, '2021')" >2021</button>
+<button class="tablinks" onclick="openE(event, '2020')" >2020</button>
+<button class="tablinks" onclick="openE(event, '2019')" >2019</button>
+<button class="tablinks" onclick="openE(event, '2018')" >2018</button>
+<button class="tablinks" onclick="openE(event, '2017')" >2017</button></p>
+</div>
+<div id="2024" class="tabcontent">
+<p></br></p>
+<h3a>Primeiro Semestre de 2025</h3a>
+<p>
 <ul>
-<li><p>ME173 B - Estatística Descritiva</p></li>
-<li><p>ME712 A/B - Consultoria Estatística I</p></li>
+<li><p>ME173 B - Estatística Descritiva </br></p></li>
+<li><p>ME712 A/B - Consultoria Estatística I </br></p></li>
 <li><p>ME812 A - Consultoria Estatística II</p></li>
 </ul>
+<p></br></p>
 <p><h3a>Segundo Semestre de 2025</h3a></p>
 <ul>
-<li><p>ME712 A - Consultoria Estatística I</p></li>
-<li><p>ME812 A/B - Consultoria Estatística II</p></li>
+<li><p>ME712 - Consultoria Estatística I </br></p></li>
+<li><p>ME812 - Consultoria Estatística II</p></li>
 </ul>
+<p></br></p>
 </div>
-<button class="accordion">
-2024
-</button>
-<div class="panel">
-<p><h3a>Primeiro Semestre de 2024</h3a></p>
+<div id="2024" class="tabcontent">
+<p></br></p>
+<h3a>Primeiro Semestre de 2024</h3a>
+<p>
 <ul>
-<li><p>ME111 A e B - Laboratório de Estatística</p></li>
+<li><p>ME111 A e B - Laboratório de Estatística </br></p></li>
 <li><p><a href="me951_1S2024.html">ME951 A</a> - Estatística e
 Probabilidade I</p></li>
 </ul>
+<p></br></p>
 <p><h3a>Segundo Semestre de 2024</h3a></p>
 <ul>
 <li><a href="Disciplinas/2S2024_ME414.pdf">ME414</a> - Estatística para
-Experimentalistas</li>
+Experimentalistas </br></li>
 </ul>
 </div>
-<button class="accordion">
-2023
-</button>
-<div class="panel">
-<p><h3a>Primeiro Semestre de 2023</h3a></p>
+<div id="2023" class="tabcontent">
+<p></br></p>
+<h3a>Primeiro Semestre de 2023</h3a>
+<p>
 <ul>
-<li><p><a href="Disciplinas/1S2023_ME115.pdf">ME115 A</a> - Linguagem
-R</p></li>
+<li><p><a href="Disciplinas/1S2023_ME115.pdf">ME115 A</a> - Linguagem R
+</br></p></li>
 <li><p><a href="Disciplinas/1S2023_ME951.pdf">ME951 A</a> - Estatística
 e Probabilidade I</p></li>
 </ul>
+<p></br></p>
 <p><h3a>Segundo Semestre de 2023</h3a></p>
 <ul>
 <li><a href="Disciplinas/2S2023_ME720.pdf">ME720 A</a> - Modelos
-Lineares Generalizados</li>
+Lineares Generalizados </br></li>
 </ul>
 </div>
-<button class="accordion">
-2022
-</button>
-<div class="panel">
-<p><h3a>Primeiro Semestre de 2022</h3a></p>
+<div id="2022" class="tabcontent">
+<p></br></p>
+<h3a>Primeiro Semestre de 2022</h3a>
+<p>
 <ul>
 <li><p><a href="Disciplinas/1S2022_ME173.pdf">ME173 B</a> - Estatística
-Descritiva</p></li>
+Descritiva </br></p></li>
 <li><p><a href="Disciplinas/1S2022_ME712_812.pdf">ME712 A</a> -
-Consultoria Estatística I</p></li>
+Consultoria Estatística I </br></p></li>
 <li><p><a href="Disciplinas/1S2022_ME712_812.pdf">ME812 A</a> -
 Consultoria Estatística II</p></li>
 </ul>
+<p></br></p>
 <p><h3a>Segundo Semestre de 2022</h3a></p>
 <ul>
 <li><p><a href="Disciplinas/2S2022_ME712_812.pdf">ME712 A</a> -
-Consultoria Estatística I</p></li>
+Consultoria Estatística I </br></p></li>
 <li><p><a href="Disciplinas/2S2022_ME712_812.pdf">ME812 A</a> -
 Consultoria Estatística II</p></li>
 </ul>
 </div>
-<button class="accordion">
-2021
-</button>
-<div class="panel">
-<p><h3a>Primeiro Semestre de 2021</h3a></p>
+<div id="2021" class="tabcontent">
+<p></br></p>
+<h3a>Primeiro Semestre de 2021</h3a>
+<p>
 <ul>
 <li><p><a href="Disciplinas/1S2021_ME951.pdf">ME951 A</a> - Estatística
-e Probabilidade I</p></li>
+e Probabilidade I </br></p></li>
 <li><p><a href="Disciplinas/1S2021_ME712_812.pdf">ME712 A</a> -
-Consultoria Estatística I</p></li>
+Consultoria Estatística I </br></p></li>
 <li><p><a href="Disciplinas/1S2021_ME712_812.pdf">ME812 A</a> -
 Consultoria Estatística II</p></li>
 </ul>
+<p></br></p>
 <p><h3a>Segundo Semestre de 2021</h3a></p>
 <ul>
 <li><p><a href="Disciplinas/2S2021_ME712_812.pdf">ME712 A</a> -
-Consultoria Estatística I</p></li>
+Consultoria Estatística I </br></p></li>
 <li><p><a href="Disciplinas/2S2021_ME712_812.pdf">ME812 A</a> -
 Consultoria Estatística II</p></li>
 </ul>
 </div>
-<button class="accordion">
-2020
-</button>
-<div class="panel">
-<p><h3a>Primeiro Semestre de 2020</h3a></p>
+<div id="2020" class="tabcontent">
+<p></br></p>
+<h3a>Primeiro Semestre de 2020</h3a>
+<p>
 <ul>
 <li><p><a href="Disciplinas/1S2020_ME951.pdf">ME951 A</a> - Estatística
-e Probabilidade I</p></li>
+e Probabilidade I </br></p></li>
 <li><p><a href="Disciplinas/1S2020_ME712_812.pdf">ME712 A</a> -
-Consultoria Estatística I</p></li>
+Consultoria Estatística I </br></p></li>
 <li><p><a href="Disciplinas/1S2020_ME712_812.pdf">ME812 A</a> -
 Consultoria Estatística II</p></li>
 </ul>
+<p></br></p>
 <p><h3a>Segundo Semestre de 2020</h3a></p>
 <ul>
 <li><p><a href="Disciplinas/2S2020_ME414.pdf">ME414 C</a> - Estatística
-para Experimentalistas</p></li>
+para Experimentalistas </br></p></li>
 <li><p><a href="Disciplinas/2S2020_ME712_812.pdf">ME712 A</a> -
-Consultoria Estatística I</p></li>
+Consultoria Estatística I </br></p></li>
 <li><p><a href="Disciplinas/2S2020_ME712_812.pdf">ME812 A</a> -
 Consultoria Estatística II</p></li>
 </ul>
 </div>
-<button class="accordion">
-2019
-</button>
-<div class="panel">
-<p><h3a>Primeiro Semestre de 2019</h3a></p>
+<div id="2019" class="tabcontent">
+<p></br></p>
+<h3a>Primeiro Semestre de 2019</h3a>
+<p>
 <ul>
 <li><a href="Disciplinas/1S2019_ME951.pdf">ME951 A</a> - Estatística e
 Probabilidade I</li>
 </ul>
+<p></br></p>
 <p><h3a>Segundo Semestre de 2019</h3a></p>
 <ul>
 <li><p><a href="Disciplinas/2S2019_ME414.pdf">ME414 H</a> - Estatística
-para Experimentalistas</p></li>
+para Experimentalistas </br></p></li>
 <li><p><a href="Disciplinas/2S2019_ME720.pdf">ME720 A</a> - Modelos
 Lineares Generalizados</p></li>
 </ul>
 </div>
-<button class="accordion">
-2018
-</button>
-<div class="panel">
-<p><h3a>Primeiro Semestre de 2018</h3a></p>
+<div id="2018" class="tabcontent">
+
+<p></br></p>
+<h3a>Primeiro Semestre de 2018</h3a>
+<p>
 <ul>
 <li><p><a href="Disciplinas/1S2018_ME111.pdf">ME111 A e B</a> -
-Laboratório de Estatística</p></li>
+Laboratório de Estatística </br></p></li>
 <li><p><a href="Disciplinas/1S2018_ME639.pdf">ME639 A</a> - Metodologias
-e Técnicas de Pesquisa</p></li>
+e Técnicas de Pesquisa </br></p></li>
 <li><p><a href="Disciplinas/1S2018_ME710.pdf">ME710 A</a> e <a
 href="Disciplinas/1S2018_ME810.pdf">ME810 A</a> - Assessoria Estatística
-e Estágio Supervisionado</p></li>
+e Estágio Supervisionado </br></p></li>
 <li><p><a href="Disciplinas/1S2018_ME712.pdf">ME712 A</a> - Consultoria
-Estatística I</p></li>
+Estatística I </br></p></li>
 <li><p><a href="Disciplinas/1S2018_ME850.pdf">ME850 A</a> - Seminários
 de Estatística</p></li>
 </ul>
+<p></br></p>
 <p><h3a>Segundo Semestre de 2018</h3a></p>
 <ul>
 <li><p><a href="Disciplinas/2S2018_ME414.pdf">ME414 A</a> - Estatística
-para Experimentalistas</p></li>
+para Experimentalistas </br></p></li>
 <li><p><a href="Disciplinas/2S2018_ME710.pdf">ME710 A</a> e <a
 href="Disciplinas/2S2018_ME810.pdf">ME810 A</a> - Assessoria Estatística
-e Estágio Supervisionado</p></li>
+e Estágio Supervisionado </br></p></li>
 <li><p><a href="Disciplinas/2S2018_ME712_812.pdf">ME712 A</a> e <a
 href="Disciplinas/2S2018_ME712_812.pdf">ME812 A</a> - Consultoria
-Estatística I e II</p></li>
+Estatística I e II </br></p></li>
 <li><p><a href="Disciplinas/2S2018_ME850.pdf">ME850 A</a> - Seminários
 de Estatística</p></li>
 </ul>
 </div>
-<button class="accordion">
-2017
-</button>
-<div class="panel">
-<p><h3a>Segundo Semestre de 2017</h3a></p>
+<div id="2017" class="tabcontent">
+</br> <h3a>Segundo Semestre de 2017</h3a>
+<p>
 <ul>
 <li><a href="Disciplinas/2S2017_ME414.pdf">ME414 H</a> - Estatística
 para Experimentalistas</li>
 </ul>
 </div>
 <script>
-var acc = document.getElementsByClassName("accordion");
-for (let i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    // Fecha todos antes de abrir o clicado (comportamento "um por vez")
-    for (let j = 0; j < acc.length; j++) {
-      acc[j].classList.remove("active");
-      acc[j].nextElementSibling.style.display = "none";
-    }
-
-    // Abre o clicado
-    this.classList.add("active");
-    var panel = this.nextElementSibling;
-    panel.style.display = "block";
-  });
+function openE(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
 }
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
 </script>
+<p> </p>
 <p></br></p>
 <!-- ----------------------------------------- -->
 <p class="outset">

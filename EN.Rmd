@@ -290,6 +290,23 @@ STATISTICS AND COMPUTING, v. 33, p. 32, 2023.
 
 <ol reversed>
 
+<li> 69ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria (RBras) e 21º  Simpósio de Estatística Aplicada à Experimentação Agronômica (SEAGRO). `skewlmm:` An R Package for Fitting Skewed and Heavy-Tailed Linear Mixed Models (2025). \ [<i class="fa-solid fa-file-code"></i>](Apresentacoes/25_RBras_Poster.pdf) \medskip </li> <p class="big"> </p>
+
+<li> Primeiro Congresso do IMECC (2025). \medskip </li> <p class="big"> </p>
+
+<li> Colóquio do IMECC 2025. Modelos Lineares Mistos na Prática: Análise de Dados Longitudinais (2025). \ [<i class="fa-solid fa-file-code"></i>](Apresentacoes/25_ColoquioIMECC.html) \medskip </li> <p class="big"> </p>
+
+<li> Ciclo de seminários do PIPGEs.  Modeling longitudinal data using robust mixed
+models (2025). \ [<i class="fa-solid fa-file-code"></i>](Apresentacoes/25_UFSCar.html) \medskip </li> <p class="big"> </p>
+
+<li> XVI Workshop de Verão do Programa de Pós-graduação em Matemática da
+Universidade Federal de Juiz de Fora.  Modeling longitudinal data using robust mixed
+models (2025). \ [<i class="fa-solid fa-file-code"></i>](Apresentacoes/25_UFJF.html) \medskip </li> <p class="big"> </p>
+
+<li> 25º SINAPE - Simpósio Nacional de Probabilidade e Estatística.  Extending multivariate Student's-t semiparametric mixed models for longitudinal data with censored responses and heavy tails (2024). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/24_SINAPE.pdf) \medskip </li> <p class="big"> </p>
+
+<li> I Encontro do Laboratório de Regressão (2024). \medskip </li> <p class="big"> </p>
+
 <li> IV Congresso Brasileiro de Jovens Pesquisadores em Matemática Pura, Aplicada e Estatística (2022).\medskip </li> 
 <p class="big"> </p>
 
@@ -423,6 +440,21 @@ STATISTICS AND COMPUTING, v. 33, p. 32, 2023.
 - Paulo César de Oliveira Rodrigues (2019)
     <p class="cc"> Project: Influência que os professores da educação infantil e fundamental I que gostam ou não de matemática exercem sobre seus alunos.</p> 
 
+<h4>2025</h4>
+
+- Arthur Felipe Chagas Sales, João Victor Siqueira Rodrigues,	Luis Fernando Bahamondes Pasquali e	Tiago Iandoli Cardoso de Almeida
+    <p class="cc"> Project: Análise do Perfil de Evasão nos Campus da Universidade Federal de Viçosa.</p>  
+
+- José Lucas Bueno Loponi, Nicole Maestri Meyer, Pedro Henrique Fortunato Pereira e Tamires Raíssa Mendes Oliveira Silva 
+    <p class="cc"> Project: Relação entre as práticas alimentares acerca do consumo de sal e alimentos salgados e a
+percepção sensorial dos gostos salgado e umami em adolescentes e jovens adultos.</p>  
+    
+- Bianca do Carmo Tafarello, Lauro A. Mortara Freire Gomes, Vanessa Aparecida Fernandes e Vinicius Rezende Bardelin
+    <p class="cc"> Project: Atividade do tecido adiposo marrom em mulheres com diferentes fenótipos de saúde cardiometabólica: um comparativo.</p>  
+    
+- Ana Luiza Ferreira Viana, Arthur Cruz Galvão, Brenda Luiza Correa e Leandro de Campos Aguiar 
+    <p class="cc"> Project: Análise Estatística de Fatores Psicossociais e Saúde Mental de Trabalhadores da Indústria Paulista.</p>  
+
 <h4>2022</h4>
 
 - Carlos Henrique Ferreira da Silva Bueno, Gabriel Silva Bertizoli, Nathalia Carolina Chenfer e Ricardo Hideki Tamada Shiraishi 
@@ -503,8 +535,8 @@ STATISTICS AND COMPUTING, v. 33, p. 32, 2023.
     <p class="cc"> Project: Influência da Diversidade de Espécies na Produção e Estoque de Madeira Morta em Áreas de Restauração Florestal na Mata Atlântica. </p> 
 
 - Aldrey Villas Bôas, Larissa Ribeiro da Silva, Lucas Mattos Souza e Mariana Racioni Gonçalves 
-    <p class="cc"> Projeto1: Análise estatística de parasitismo em traíras.</p>  
-    <p class="cc"> Projeto2: Consumo, estrutura social e inclusão: Discussões entre China e Brasil em torno da sustentabilidade.</p>  
+    <p class="cc"> Project 1: Análise estatística de parasitismo em traíras.</p>  
+    <p class="cc"> Project 2: Consumo, estrutura social e inclusão: Discussões entre China e Brasil em torno da sustentabilidade.</p>  
 
 - Amanda Cristina Silva, Aline Dias Nunes e Mariane Sahú 
     <p class="cc"> Projeto1: Estudo do Plano Diretor aprovado após o Estatuto da Cidade nos municípios brasileiros com população de até 20 mil habitantes.</p>  
@@ -523,9 +555,13 @@ STATISTICS AND COMPUTING, v. 33, p. 32, 2023.
 
 <h4> PAD/PED  </h4>
 
+- Camille Menezes Pereira dos Santos - PED (1S2025)
+
 - Brenda Luiza Correa - PAD (2S2024)
 
 - Viviane de Moura - PED (2S2024)
+
+- Mariana Peres Nascimento - PAD (1S2024)
 
 - Caio Théodore Genovese Huss Oliveira - PAD (1S2023)
 

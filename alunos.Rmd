@@ -83,7 +83,22 @@ output:
 
 #### Orientandos de ME712/812
 
-<!-- 1S2021 -->
+2S2025
+
+1S2025
+
+- Arthur Felipe Chagas Sales, João Victor Siqueira Rodrigues,	Luis Fernando Bahamondes Pasquali e	Tiago Iandoli Cardoso de Almeida
+    <p class="cc"> Projeto: Análise do Perfil de Evasão nos Campus da Universidade Federal de Viçosa.</p>  
+
+- José Lucas Bueno Loponi, Nicole Maestri Meyer, Pedro Henrique Fortunato Pereira e Tamires Raíssa Mendes Oliveira Silva 
+    <p class="cc"> Projeto: Relação entre as práticas alimentares acerca do consumo de sal e alimentos salgados e a
+percepção sensorial dos gostos salgado e umami em adolescentes e jovens adultos.</p>  
+    
+- Bianca do Carmo Tafarello, Lauro A. Mortara Freire Gomes, Vanessa Aparecida Fernandes e Vinicius Rezende Bardelin
+    <p class="cc"> Projeto: Atividade do tecido adiposo marrom em mulheres com diferentes fenótipos de saúde cardiometabólica: um comparativo.</p>  
+    
+- Ana Luiza Ferreira Viana, Arthur Cruz Galvão, Brenda Luiza Correa e Leandro de Campos Aguiar 
+    <p class="cc"> Projeto: Análise Estatística de Fatores Psicossociais e Saúde Mental de Trabalhadores da Indústria Paulista.</p>  
 
 2S2022
  
@@ -98,7 +113,6 @@ output:
     
 - Ana Clara Emy Shiraiwa Kuniyoshi, Andrei dos Santos Piscitelli e Guilherme Barbosa Lisboa
     <p class="cc"> Projeto: Análise da carga horária dos docentes do Instituto de Matemática, Estatística e Computação Científica (IMECC).</p> 
-    
     
 1S2022
 
@@ -192,9 +206,12 @@ output:
 
 #### Orientandos do Programa de Apoio Didático PAD / Orientandos do Programa de Estágio Docente PED 
 
+
 - Brenda Luiza Correa - PAD (2S2024)
 
 - Viviane de Moura - PED (2S2024)
+
+- Mariana Peres Nascimento - PAD (1S2024)
 
 - Caio Théodore Genovese Huss Oliveira - PAD (1S2023)
 

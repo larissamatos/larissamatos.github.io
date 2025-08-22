@@ -262,6 +262,19 @@ STATISTICS AND COMPUTING, v. 33, p. 32, 2023.
 
 <ol reversed>
 
+<li> 69ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria (RBras) e 21º  Simpósio de Estatística Aplicada à Experimentação Agronômica (SEAGRO). `skewlmm:` An R Package for Fitting Skewed and Heavy-Tailed Linear Mixed Models (2025). \ [<i class="fa-solid fa-file-code"></i>](Apresentacoes/25_RBras_Poster.pdf) \medskip </li> <p class="big"> </p>
+
+<li> Primeiro Congresso do IMECC (2025). \medskip </li> <p class="big"> </p>
+
+<li> Colóquio do IMECC 2025. Modelos Lineares Mistos na Prática: Análise de Dados Longitudinais (2025). \ [<i class="fa-solid fa-file-code"></i>](Apresentacoes/25_ColoquioIMECC.html) \medskip </li> <p class="big"> </p>
+
+<li> Ciclo de seminários do PIPGEs.  Modeling longitudinal data using robust mixed
+models (2025). \ [<i class="fa-solid fa-file-code"></i>](Apresentacoes/25_UFSCar.html) \medskip </li> <p class="big"> </p>
+
+<li> XVI Workshop de Verão do Programa de Pós-graduação em Matemática da
+Universidade Federal de Juiz de Fora.  Modeling longitudinal data using robust mixed
+models (2025). \ [<i class="fa-solid fa-file-code"></i>](Apresentacoes/25_UFJF.html) \medskip </li> <p class="big"> </p>
+
 <li> 25º SINAPE - Simpósio Nacional de Probabilidade e Estatística.  Extending multivariate Student's-t semiparametric mixed models for longitudinal data with censored responses and heavy tails (2024). \ [<i class="fas fa-file-pdf"></i>](Apresentacoes/24_SINAPE.pdf) \medskip </li> <p class="big"> </p>
 
 <li> I Encontro do Laboratório de Regressão (2024). \medskip </li> <p class="big"> </p>
@@ -335,17 +348,38 @@ STATISTICS AND COMPUTING, v. 33, p. 32, 2023.
 
 <ol reversed>
 
+
+<li> Membro da Comissão Científica da 69ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria (RBras) e no 21° Simpósio de Estatística Aplicada à Experimentação Agronômica (SEAGRO), realizado em Vitória/ES, de 04 a 08 de agosto de 2025.\medskip </li>
+<p class="big"> </p>
+
+<li> Membro da Comissão de Organizadora da 19ª edição do evento Unicamp de Portas Abertas (UPA) - Departamento de Estatística, realizado em 17 de agosto de 2024.\medskip </li>
+<p class="big"> </p>
+
+<li> Membro da Comissão Científica do 25° SINAPE | Simpósio Nacional de Probabilidade e Estatística, realizado em Fortaleza/CE, de 04 a 09 de agosto de 2024.\medskip </li>
+<p class="big"> </p>
+
+<li> Membro da Comissão Científica do *XVIII Encontro Científico de Pós-Graduandos do IMECC* (Instituto de Matemática, Estatística e Computação Científica), realizado no período de 07 a 10 de maio de 2024.\medskip </li>
+<p class="big"> </p>
+
+<li> Membro da Comissão Organizadora Local da VI Escola de Amostragem e Métodos de Pesquisa, realizado na Universidade Estadual de Campinas - UNICAMP, em Campinas/SP, de 16 a 18 de novembro de 2023.\medskip </li>
+<p class="big"> </p>
+
+<li> Membro da Comissão de Organizadora da 18ª edição do evento Unicamp de Portas Abertas (UPA) - Departamento de Estatística, realizado em 19 de agosto de 2023.\medskip </li>
+<p class="big"> </p>
+
 <li> Coordenadora da sessão intitulada **Estatística e Aprendizado de Máquinas** no *IV Congresso Brasileiro de Jovens Pesquisadores em Matemática Pura, Aplicada e Estatística*, realizado e sediado pelo Departamento de Matemática da Universidade Federal da Paraíba (DM-UFPB), em João Pessoa/PB, de 05 a 07 de outubro de 2022. \medskip </li>
 <p class="big"> </p>
 
-<li> Membro da Comissão Organizadora do 24o SINAPE | Simpósio Nacional de Probabilidade e Estatística, realizado 31 de julho a 5 de agosto de 2022, Hotel Serra Azul. \medskip </li>
+<li> Membro da Comissão de Organizadora da 17ª edição do evento Unicamp de Portas Abertas (UPA) - Departamento de Estatística, realizado em 27 de agosto de 2022.\medskip </li>
 <p class="big"> </p>
 
-
-<li> Membro da Comissão Científica do *XVI Encontro Científico de Pós-Graduandos do IMECC* (Instituto de Matemática, Estatística e Computação Científica), realizado no período de 11 a 14 de Abril de 2022. \medskip </li>
+<li> Membro da Comissão Organizadora do 24° SINAPE | Simpósio Nacional de Probabilidade e Estatística, realizado 31 de julho a 5 de agosto de 2022, Hotel Serra Azul. \medskip </li>
 <p class="big"> </p>
 
-<li> Membro da Comissão Científica do *XV Encontro Científico de Pós-Graduandos do IMECC* (Instituto de Matemática, Estatística e Computação Científica), realizado no período de 23 a 26 de Novembro de 2020.\medskip </li>
+<li> Membro da Comissão Científica do *XVI Encontro Científico de Pós-Graduandos do IMECC* (Instituto de Matemática, Estatística e Computação Científica), realizado no período de 11 a 14 de abril de 2022. \medskip </li>
+<p class="big"> </p>
+
+<li> Membro da Comissão Científica do *XV Encontro Científico de Pós-Graduandos do IMECC* (Instituto de Matemática, Estatística e Computação Científica), realizado no período de 23 a 26 de novembro de 2020.\medskip </li>
 <p class="big"> </p>
 
 </ol>
