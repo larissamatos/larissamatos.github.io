@@ -80,8 +80,19 @@ h3a { /* Header 4*/
 ### Graduação
 <p class="ptitle"> \ </p>
 
-<button class="accordion active">2025</button>
+<button class="accordion active">2026</button>
 <div class="panel" style="display:block;">
+
+<h3a>Primeiro Semestre de 2026</h3a>
+
+- ME115 A - Linguagem R
+
+- ME414 - Estatística para Experimentalistas 
+
+</div>
+
+<button class="accordion">2025</button>
+<div class="panel">
 
 <h3a>Primeiro Semestre de 2025</h3a>
 

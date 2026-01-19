@@ -111,6 +111,9 @@ Universidade Estadual de Campinas - <span style="color:darkred"> **UNICAMP** </s
 
 <ol reversed>
 
+<li> SCHUMACHER, FERNANDA L.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. *skewlmm: An R Package for Fitting Skewed and Heavy-Tailed Linear Mixed Models*. Journal of Statistical Software, v. 115(7), p. 1–32, 2025. [<i class="fas fa-link"></i>](https://doi.org/10.18637/jss.v115.i07)\medskip </li>
+<p class="big"> </p>
+
 <li> TRAVASSOS; KEYLIANE; **MATOS, LARISSA A.**; SCHUMACHER, FERNANDA L. *Diagnostic analysis in scale mixture of skew-normal linear mixed models*. Statistica Neerlandica, v. 79, p. 1–23, 2025. [<i class="fas fa-link"></i>](https://doi.org/10.1111/stan.70002) \medskip </li>
 <p class="big"> </p>
 
@@ -220,6 +223,19 @@ STATISTICS AND COMPUTING, v. 33, p. 32, 2023.
 
 <!-- ---- -->
 
+<h3> Under review </h3>
+<p class="ptitle"> \ </p>
+
+<ol reversed>
+<li> TRAVASSOS; KEYLIANE; **MATOS, LARISSA A.**; SCHUMACHER, FERNANDA L. *Sandwich variance estimation in scale mixture of skew-normal linear mixed models*. \medskip </li>
+<p class="big"> </p>
+
+<li> SCHUMACHER, FERNANDA L.; **MATOS, LARISSA A.**; RAMOS, PEDRO L.; LOUZADA, FRANCISCO. *Bayesian estimation in scale mixture of skew-normal linear mixed models using Hamiltonian Monte Carlo*. \medskip </li>
+<p class="big"> </p>
+</ol>
+
+---- 
+
 <h3> Tech reports </h3>
 <p class="ptitle"> \ </p>
 
@@ -289,6 +305,8 @@ STATISTICS AND COMPUTING, v. 33, p. 32, 2023.
 <p class="ptitle"> \ </p>
 
 <ol reversed>
+
+<li> XLII Semana de Estatística da UFAM. Modelos Lineares Mistos Aplicados: Um guia para análise de dados longitudinais usando o pacote skewlmm (2025). \ [<i class="fa-solid fa-file-code"></i>](Apresentacoes/25_UFAM.html) \medskip </li> <p class="big"> </p>
 
 <li> 69ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria (RBras) e 21º  Simpósio de Estatística Aplicada à Experimentação Agronômica (SEAGRO). `skewlmm:` An R Package for Fitting Skewed and Heavy-Tailed Linear Mixed Models (2025). \ [<i class="fa-solid fa-file-code"></i>](Apresentacoes/25_RBras_Poster.pdf) \medskip </li> <p class="big"> </p>
 
@@ -409,6 +427,8 @@ models (2025). \ [<i class="fa-solid fa-file-code"></i>](Apresentacoes/25_UFJF.h
 <h3> Master Students </h3> 
 <p class="ptitle"> \ </p>
 
+- José Lucas Bueno Loponi - ongoing
+
 - Letícia Bettine Infante - Co-adivisor (2024) 
     <p class="cc"> `Dissertation: An extension of the Inverse Gaussian regression model.`</p> 
 - Vitor Macedo Rocha (2024)
@@ -431,7 +451,7 @@ models (2025). \ [<i class="fa-solid fa-file-code"></i>](Apresentacoes/25_UFJF.h
 
 <h4> IC </h4> 
 
-- Sara dos Anjos de Souza Dias - ongoing
+- Sara dos Anjos de Souza Dias (2025)
     <p class="cc"> Project: Convergência do Algoritmo EM para Estimação em Modelos Lineares Mistos: Enfrentando o Desafio das Distribuições Assimétricas e com Caudas Pesada.</p> 
     
 - Nathan Brusamarello De Souto (2020)
@@ -442,6 +462,18 @@ models (2025). \ [<i class="fa-solid fa-file-code"></i>](Apresentacoes/25_UFJF.h
 
 <h4>2025</h4>
 
+- Eric Pavarim Lima, João Vitor Nunes da Silva, Júlia Ramírez Vidoto e Nicole Fredericci do Amaral
+  <p class="cc"> Project: Determinação da relação entre hábitos preferência pelos gostos salgados e umami em adolescentes e jovens adultos.</p>
+
+- Aline Bernal de Freitas, Decio Miranda Filho, Felipe Augusto Soranzo e Rafaela da Silva Barril
+  <p class="cc"> Project: Luz do Dia nas Cidades Brasileiras.</p>
+
+- Eduarda Hubert de Godoy, Felipe Camilo de Queiroz, Marcos Hiroki Moribe, Mariana Peres Nascimento e Vinícius Prado Moreria Silva
+  <p class="cc"> Project: Salas de aula tradicional e parcialmente invertida no ensino de paleontologia: Percepções de estudantes de graduação sobre suas experiências de aprendizagem.</p>
+
+- Beatriz Stéfanny Meira, Gabrielli Fregate Bedana, José Roberto Samuel e Luiz Felipe Nunes
+  <p class="cc"> Project: Um estudo sobre as percepções e atitudes de professores em formação diante das tecnologias digitais.</p>
+  
 - Arthur Felipe Chagas Sales, João Victor Siqueira Rodrigues,	Luis Fernando Bahamondes Pasquali e	Tiago Iandoli Cardoso de Almeida
     <p class="cc"> Project: Análise do Perfil de Evasão nos Campus da Universidade Federal de Viçosa.</p>  
 

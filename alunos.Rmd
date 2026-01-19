@@ -38,6 +38,8 @@ output:
 ### Mestrado
 <p class="ptitle"> \ </p>
 
+- José Lucas Bueno Loponi - Mestrado em andamento.
+
 - Letícia Bettine Infante. Ano de conclusão: 2024 - Co-orientadora.
     <p class="cc"> `Dissertação: An extension of the Inverse Gaussian regression model.`</p> 
 
@@ -58,7 +60,7 @@ output:
 ### Iniciação Científica
 <p class="ptitle"> \ </p>
 
-- Sara dos Anjos de Souza Dias (Fomento: CNPq) - IC em andamento. 
+- Sara dos Anjos de Souza Dias (Fomento: CNPq) - oncluído - Ano de conclusão: 2025.
     <p class="cc"> Projeto: Convergência do Algoritmo EM para Estimação em Modelos Lineares Mistos: Enfrentando o Desafio das Distribuições Assimétricas e com Caudas Pesada.</p> 
 
 - Nathan Brusamarello De Souto (Fomento: CNPq) - Concluído - Ano de conclusão: 2020.  
@@ -84,6 +86,19 @@ output:
 #### Orientandos de ME712/812
 
 2S2025
+
+- Eric Pavarim Lima, João Vitor Nunes da Silva, Júlia Ramírez Vidoto e Nicole Fredericci do Amaral
+  <p class="cc"> Projeto: Determinação da relação entre hábitos preferência pelos gostos salgados e umami em adolescentes e jovens adultos.</p>
+
+- Aline Bernal de Freitas, Decio Miranda Filho, Felipe Augusto Soranzo e Rafaela da Silva Barril
+  <p class="cc"> Projeto: Luz do Dia nas Cidades Brasileiras.</p>
+
+- Eduarda Hubert de Godoy, Felipe Camilo de Queiroz, Marcos Hiroki Moribe, Mariana Peres Nascimento e Vinícius Prado Moreria Silva
+  <p class="cc"> Projeto: Salas de aula tradicional e parcialmente invertida no ensino de paleontologia: Percepções de estudantes de graduação sobre suas experiências de aprendizagem.</p>
+
+- Beatriz Stéfanny Meira, Gabrielli Fregate Bedana, José Roberto Samuel e Luiz Felipe Nunes
+  <p class="cc"> Projeto: Um estudo sobre as percepções e atitudes de professores em formação diante das tecnologias digitais.</p>
+
 
 1S2025
 
@@ -206,6 +221,7 @@ percepção sensorial dos gostos salgado e umami em adolescentes e jovens adulto
 
 #### Orientandos do Programa de Apoio Didático PAD / Orientandos do Programa de Estágio Docente PED 
 
+- Camille Menezes Pereira dos Santos - PED (1S2025)
 
 - Brenda Luiza Correa - PAD (2S2024)
 

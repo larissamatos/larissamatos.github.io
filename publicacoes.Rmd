@@ -72,6 +72,9 @@ p.big {
 <p class="ptitle"> \ </p>
 <ol reversed>
 
+<li> SCHUMACHER, FERNANDA L.; **MATOS, LARISSA A.**; LACHOS, VICTOR H. *skewlmm: An R Package for Fitting Skewed and Heavy-Tailed Linear Mixed Models*. Journal of Statistical Software, v. 115(7), p. 1–32, 2025. [<i class="fas fa-link"></i>](https://doi.org/10.18637/jss.v115.i07)\medskip </li>
+<p class="big"> </p>
+
 <li> TRAVASSOS; KEYLIANE; **MATOS, LARISSA A.**; SCHUMACHER, FERNANDA L. *Diagnostic analysis in scale mixture of skew-normal linear mixed models*. Statistica Neerlandica, v. 79, p. 1–23, 2025. [<i class="fas fa-link"></i>](https://doi.org/10.1111/stan.70002) \medskip </li>
 <p class="big"> </p>
 
@@ -185,6 +188,21 @@ STATISTICS AND COMPUTING, v. 33, p. 32, 2023.
 
 <!-- </p> -->
 
+<h3>Artigos Científico (Em revisão)</h3>
+<p>
+<p class="ptitle"> \ </p> 
+
+<ol reversed> 
+
+<li> TRAVASSOS; KEYLIANE; **MATOS, LARISSA A.**; SCHUMACHER, FERNANDA L. *Sandwich variance estimation in scale mixture of skew-normal linear mixed models*. \medskip </li>
+<p class="big"> </p>
+
+<li> SCHUMACHER, FERNANDA L.; **MATOS, LARISSA A.**; RAMOS, PEDRO L.; LOUZADA, FRANCISCO. *Bayesian estimation in scale mixture of skew-normal linear mixed models using Hamiltonian Monte Carlo*. \medskip </li>
+<p class="big"> </p>
+</ol>
+
+</p> 
+ 
 <h3>Relatórios Técnicos</h3>
 <p>
 <p class="ptitle"> \ </p>
@@ -261,6 +279,8 @@ STATISTICS AND COMPUTING, v. 33, p. 32, 2023.
 <p class="ptitle"> \ </p>
 
 <ol reversed>
+
+<li> XLII Semana de Estatística da UFAM. Modelos Lineares Mistos Aplicados: Um guia para análise de dados longitudinais usando o pacote skewlmm (2025). \ [<i class="fa-solid fa-file-code"></i>](Apresentacoes/25_UFAM.html) \medskip </li> <p class="big"> </p>
 
 <li> 69ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria (RBras) e 21º  Simpósio de Estatística Aplicada à Experimentação Agronômica (SEAGRO). `skewlmm:` An R Package for Fitting Skewed and Heavy-Tailed Linear Mixed Models (2025). \ [<i class="fa-solid fa-file-code"></i>](Apresentacoes/25_RBras_Poster.pdf) \medskip </li> <p class="big"> </p>
 

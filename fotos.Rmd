@@ -271,6 +271,20 @@ clear: both;
 
 <div class="row">
 <div class="column-f2c">
+<img id="myImg"  class="imageClass" src="imagens/fotos/C25_F1.jpeg" alt="2025 - 69ª RBras e 21º SEAGRO" style="width:90%;max-width:300px">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<figcaption> <p class="cc3">2025 - 69ª RBras e 21º SEAGRO </p></figcaption>
+</div>
+</div>
+
+</br>
+
+<div class="row">
+<div class="column-f2c">
 <img id="myImg"  class="imageClass" src="imagens/fotos/C24_F2.jpg" alt="2024 - 25º SINAPE - Fortaleza/CE"
 style="width:93%;max-width:300px">
 <div id="myModal" class="modal">

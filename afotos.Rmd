@@ -370,11 +370,58 @@ library(magick)
 </div>
 <figcaption> <p class="cc3"> Defesa Doutorado Katherine - 13/08/2024 </p></figcaption>
 </div>
+<div class="column-f2c">
+<img id="myImg"  class="imageClass" src="imagens/fotos/Def17_IC_Sara.jpeg" alt=" " style="width:50%;max-width:300px">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<figcaption> <p class="cc3">Apresentação Iniciação Científica (IC) Sara</p></figcaption>
+</div>
+<div class="column-f2c">
+<img id="myImg"  class="imageClass" src="imagens/fotos/Def18_Quali_Keyliane.jpeg" alt=" " style="width:90%;max-width:300px">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<figcaption> <p class="cc3"> Qualificação Doutorado Keyliane - 16/12/2025 </p></figcaption>
+</div>
 </div>
 
 </br>
 
 ----
+
+</br>
+
+<div class="row">
+<div class="column-f2c">
+<img id="myImg"  class="imageClass" src="imagens/fotos/A23.jpeg" alt=" " style="width:70%;max-width:300px">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+</div>
+<div class="column-f2c">
+<img id="myImg"  class="imageClass" src="imagens/fotos/A20.jpeg" alt=" " style="width:70%;max-width:300px">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+</div>
+<div class="column-f2c">
+<img id="myImg"  class="imageClass" src="imagens/fotos/A21.jpeg" alt=" " style="width:70%;max-width:300px">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+</div>
+</div>
 
 </br>
 
@@ -406,7 +453,6 @@ library(magick)
 </div>
 
 </br>
-
 
 <div class="row">
 <div class="column-f2c">

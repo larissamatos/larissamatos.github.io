@@ -24,7 +24,9 @@ library(magick)
 
 - <span style="color:darkred"> Katherine Andreina Loor Valeriano </span>
     
-   A dissertação de mestrado da aluna Katherine Andreina Loor Valeriano ganhou menção honrosa no Concurso de Dissertação de Mestrado do Simpósio Nacional de Probabilidade e Estatística. 
+   1. A dissertação de mestrado da aluna Katherine Andreina Loor Valeriano ganhou menção honrosa no Concurso de Dissertação de Mestrado do Simpósio Nacional de Probabilidade e Estatística. 
+   
+   2. A tese de doutorado da aluna Katherine Andreina Loor Valeriano ganhou  3 lugar no Concurso de Melhor Tese de Doutorado da 69 Reunião Anual da RBras e 21 SEAGRO (2025).
 
 - <span style="color:darkred"> Fernanda Lang Schumacher </span>
     
