@@ -403,10 +403,11 @@ models (2025). \ [<i class="fa-solid fa-file-code"></i>](Apresentacoes/25_UFJF.h
 
 - Keyliane Travassos Almeida da Silva - ongoing
 
-- Carina Brunehilde Pinto da Silva - ongoing
-
 - Francisco Hildemar Calixto de Alencar - ongoing
 
+- Carina Brunehilde Pinto da Silva (2026)
+    <p class="cc"> `Thesis: Advances in Bayesian parametric and semi-parametric modeling of complex longitudinal data.`</p>
+    
 - Katherine Andreina Loor Valeriano  (2024)
     <p class="cc"> `Thesis: Likelihood-based inference for models with censored responses using the Student-t andcskew-t distribution.`</p>
 

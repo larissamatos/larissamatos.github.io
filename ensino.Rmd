@@ -89,6 +89,10 @@ h3a { /* Header 4*/
 
 - ME414 - Estatística para Experimentalistas 
 
+<h3a>Segundo Semestre de 2026</h3a>
+
+- ME414 - Estatística para Experimentalistas 
+
 </div>
 
 <button class="accordion">2025</button>
@@ -250,6 +254,10 @@ h3a { /* Header 4*/
 
 </div>
 
+</br>
+</br>
+
+- [Disciplinas Pós-Graduação](Disciplinas/DisciplinasPos.html)
 
 <script>
 var acc = document.getElementsByClassName("accordion");

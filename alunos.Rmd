@@ -14,9 +14,10 @@ output:
 
 - Keyliane Travassos Almeida da Silva - Doutorado em andamento (Fomento: CAPES) 
 
-- Carina Brunehilde Pinto da Silva - Doutorado em andamento. 
+- Francisco Hildemar Calixto de Alencar - Doutorado em andamento (Fomento: CAPES)
 
-- Francisco Hildemar Calixto de Alencar - Doutorado em andamento (Fomento: CAPES) 
+- Carina Brunehilde Pinto da Silva.  Ano de conclusão: 2026.
+    <p class="cc"> `Tese: Avanços na modelagem Bayesiana paramétrica e semi-paramétrica de dados longitudinais complexos`</p>
 
 - Katherine Andreina Loor Valeriano (Fomento: CAPES). Ano de conclusão: 2024.
     <p class="cc"> `Tese: Inferência para modelos com respostas censurados usando a distribuição Student-t e skew-t.`</p>
